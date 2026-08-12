@@ -1,11 +1,9 @@
 import Link from "next/link";
-import { BrandIcon } from "@/components/BrandIcon";
 import { HeroHeadline } from "@/components/HeroHeadline";
 import { CategoryPill, QuestionLink } from "@/components/QuestionLink";
 import { HowItWorks, TrustStrip } from "@/components/HowItWorks";
 import { SearchBox } from "@/components/SearchBox";
 import { getCategories, getQuestionBySlug } from "@/lib/questions";
-import { SITE } from "@/lib/site";
 import { getTopWinners } from "@/lib/winners";
 
 export default function HomePage() {
@@ -15,27 +13,22 @@ export default function HomePage() {
     .map((w) => getQuestionBySlug(w.slug))
     .filter((q): q is NonNullable<typeof q> => Boolean(q));
 
-  const topicCount = getCategories().length;
-
   return (
     <>
       <section className="hero-center">
         <div className="shell hero-center-inner">
-          <BrandIcon size={52} className="hero-mark" />
           <p className="eyebrow">Technology Q&amp;A</p>
           <HeroHeadline />
-          <p className="hero-lead">{SITE.description}</p>
 
           <div className="hero-search-wrap">
             <SearchBox large hero />
+            <p className="hero-search-note">
+              Steps, caveats, and tools — when they help.
+            </p>
           </div>
 
-          <p className="hero-meta">
-            {topicCount} topics · popular searches below
-          </p>
-
           <div className="hero-chips">
-            {winners.slice(0, 5).map((w) => (
+            {winners.slice(0, 4).map((w) => (
               <Link key={w.slug} href={`/q/${w.slug}`} className="hero-chip">
                 {w.question}
               </Link>

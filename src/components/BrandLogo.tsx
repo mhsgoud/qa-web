@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BrandWordmark } from "@/components/BrandIcon";
 
 type Props = {
   variant?: "header" | "footer";
@@ -6,7 +7,7 @@ type Props = {
   priority?: boolean;
 };
 
-/** Header: icon + wordmark side by side. Footer: full lockup with tagline. */
+/** Header: icon + CSS wordmark. Footer: full logo PNG. */
 export function BrandLogo({ variant = "header", className = "", priority = false }: Props) {
   if (variant === "header") {
     return (
@@ -14,20 +15,13 @@ export function BrandLogo({ variant = "header", className = "", priority = false
         <Image
           src="/answerkit-icon.png"
           alt=""
-          width={349}
-          height={341}
+          width={389}
+          height={314}
           priority={priority}
           aria-hidden
           className="brand-lockup-icon"
         />
-        <Image
-          src="/answerkit-wordmark.png"
-          alt="AnswerKit"
-          width={779}
-          height={116}
-          priority={priority}
-          className="brand-lockup-word"
-        />
+        <BrandWordmark />
       </span>
     );
   }

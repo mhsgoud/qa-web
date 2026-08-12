@@ -5,6 +5,15 @@ type Props = {
   className?: string;
 };
 
+export function BrandWordmark({ className = "" }: { className?: string }) {
+  return (
+    <span className={`brand-wordmark ${className}`.trim()}>
+      <span className="wm-answer">answer</span>
+      <span className="wm-kit">kit</span>
+    </span>
+  );
+}
+
 /** Speech-bubble icon from AnswerKit brand artwork. */
 export function BrandIcon({ size = 44, className = "" }: Props) {
   return (
