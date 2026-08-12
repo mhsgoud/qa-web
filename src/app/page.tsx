@@ -1,78 +1,66 @@
-import Link from "next/link";
-import { HeroHeadline } from "@/components/HeroHeadline";
-import { CategoryPill, QuestionLink } from "@/components/QuestionLink";
-import { HowItWorks, TrustStrip } from "@/components/HowItWorks";
-import { SearchBox } from "@/components/SearchBox";
-import { getCategories, getQuestionBySlug } from "@/lib/questions";
+import { AnswerPreview } from "@/components/home/AnswerPreview";
+import { AskFallback } from "@/components/home/AskFallback";
+import { BrowseTopics } from "@/components/home/BrowseTopics";
+import { CompareSection } from "@/components/home/CompareSection";
+import { HomeHero } from "@/components/home/HomeHero";
+import { PopularQuestions } from "@/components/home/PopularQuestions";
+import { TrustChecklist } from "@/components/home/TrustChecklist";
+import { WhyAnswerKit } from "@/components/home/WhyAnswerKit";
+import { getAllQuestions, getCategories, getQuestionBySlug } from "@/lib/questions";
 import { getTopWinners } from "@/lib/winners";
 
-export default function HomePage() {
-  const categories = getCategories().slice(0, 12);
-  const winners = getTopWinners(8);
-  const featured = winners
+const POPULAR_SLUGS = [
+  "how-do-i-connect-a-monitor-to-a-laptop",
+  "how-do-i-remove-an-apple-id-from-an-iphone",
+  "how-do-i-scan-a-qr-code-with-my-phone",
+  "how-do-i-fix-a-phone-that-keeps-restarting",
+  "how-do-i-clone-an-ssd",
+  "how-do-i-check-if-my-gpu-is-bottlenecked",
+  "how-do-i-free-up-storage-on-my-phone",
+  "why-is-my-wifi-slow",
+];
+
+function getPopularQuestions() {
+  const picked = POPULAR_SLUGS.map((slug) => getQuestionBySlug(slug)).filter(
+    (q): q is NonNullable<typeof q> => Boolean(q),
+  );
+
+  if (picked.length >= 6) return picked.slice(0, 8);
+
+  const winners = getTopWinners(8)
     .map((w) => getQuestionBySlug(w.slug))
     .filter((q): q is NonNullable<typeof q> => Boolean(q));
 
+  const seen = new Set(picked.map((q) => q.slug));
+  for (const q of winners) {
+    if (picked.length >= 8) break;
+    if (!seen.has(q.slug)) {
+      picked.push(q);
+      seen.add(q.slug);
+    }
+  }
+
+  return picked;
+}
+
+export default function HomePage() {
+  const categories = getCategories();
+  const popular = getPopularQuestions();
+
   return (
     <>
-      <section className="hero-center">
-        <div className="shell hero-center-inner">
-          <p className="eyebrow">Technology Q&amp;A</p>
-          <HeroHeadline />
-
-          <div className="hero-search-wrap">
-            <SearchBox large hero />
-            <p className="hero-search-note">
-              Steps, caveats, and tools — when they help.
-            </p>
-          </div>
-
-          <div className="hero-chips">
-            {winners.slice(0, 4).map((w) => (
-              <Link key={w.slug} href={`/q/${w.slug}`} className="hero-chip">
-                {w.question}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <TrustStrip />
-      <HowItWorks />
-
-      <section className="shell section">
-        <div className="section-head">
-          <div>
-            <h2>Browse by topic</h2>
-            <p className="section-sub">Pick a category to explore questions.</p>
-          </div>
-          <Link href="/browse" className="section-link">
-            All topics →
-          </Link>
-        </div>
-        <div className="category-grid">
-          {categories.map((cat) => (
-            <CategoryPill key={cat.slug} name={cat.name} count={cat.count} />
-          ))}
-        </div>
-      </section>
-
-      <section className="shell section section-last">
-        <div className="section-head">
-          <div>
-            <h2>Popular right now</h2>
-            <p className="section-sub">Highest-opportunity questions to answer first.</p>
-          </div>
-          <Link href="/winners" className="section-link">
-            Full list →
-          </Link>
-        </div>
-        <div className="question-list">
-          {featured.map((q) => (
-            <QuestionLink key={q.slug} question={q} />
-          ))}
-        </div>
-      </section>
+      <HomeHero />
+      <WhyAnswerKit />
+      <AnswerPreview />
+      <BrowseTopics
+        categories={categories}
+        topicCount={categories.length}
+        questionCount={getAllQuestions().length}
+      />
+      <PopularQuestions questions={popular} />
+      <CompareSection />
+      <TrustChecklist />
+      <AskFallback />
     </>
   );
 }

@@ -5,7 +5,7 @@ import { SITE } from "@/lib/site";
 
 const NAV = [
   { href: "/browse", label: "Browse" },
-  { href: "/winners", label: "Priority" },
+  { href: "/winners", label: "Popular" },
   { href: "/search", label: "Search" },
 ];
 
@@ -39,7 +39,7 @@ export function SiteFooter() {
         </div>
         <div className="footer-col footer-links">
           <Link href="/browse">Browse topics</Link>
-          <Link href="/winners">Priority questions</Link>
+          <Link href="/winners">Popular questions</Link>
           <Link href="/search">Search</Link>
         </div>
         <p className="footer-meta">
