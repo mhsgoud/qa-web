@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-back-up-my-android-phone",
+  "directAnswer": "To back up your Android phone, use the built-in backup feature in the Settings app or utilize Google Drive for cloud storage.",
+  "summary": "Backing up your Android phone is essential for preventing data loss. You can use the device's settings or third-party apps for this purpose.",
+  "sections": [
+    {
+      "id": "backup-options",
+      "heading": "Backup Options",
+      "body": "Android devices typically offer built-in backup options through Google services. You can also use third-party applications for additional backup solutions."
+    },
+    {
+      "id": "using-google-drive",
+      "heading": "Using Google Drive",
+      "body": "Google Drive allows you to back up app data, call history, contacts, and settings. Ensure you have enough storage space on your Google Drive account."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Settings",
+      "detail": "Go to the Settings app on your Android device."
+    },
+    {
+      "title": "Select System",
+      "detail": "Scroll down and tap on 'System' (this may vary by device)."
+    },
+    {
+      "title": "Tap on Backup",
+      "detail": "Select 'Backup' or 'Backup & reset' to access backup options."
+    },
+    {
+      "title": "Enable Backup to Google Drive",
+      "detail": "Toggle on 'Back up to Google Drive' and follow the prompts to complete the setup."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What data can I back up?",
+      "answer": "You can back up app data, call history, contacts, device settings, and SMS messages."
+    },
+    {
+      "question": "How do I restore my backup?",
+      "answer": "During the setup of a new device or after a factory reset, you will be prompted to restore your data from a Google backup."
+    },
+    {
+      "question": "Can I back up to an SD card?",
+      "answer": "Yes, some devices allow you to back up data to an SD card using third-party apps, but this feature is not universally available."
+    }
+  ],
+  "caveats": [
+    "Not all data may be backed up, such as certain app-specific files or data stored in third-party apps."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

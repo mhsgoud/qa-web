@@ -1,0 +1,41 @@
+{
+  "rank": 247,
+  "slug": "what-is-a-gateway-in-networking",
+  "question": "What is a gateway in networking?",
+  "category": "Networking",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 15.8,
+    "volume": 96,
+    "commercial": 52,
+    "competition": 62,
+    "ease": 38,
+    "contentDifficulty": 60
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "medium"
+  },
+  "primaryKeyword": "a gateway in networking",
+  "articleTitle": "What is a gateway in networking?",
+  "monetizationType": "AdSense",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; early-category seed",
+  "url": "/q/what-is-a-gateway-in-networking",
+  "status": "queued"
+}

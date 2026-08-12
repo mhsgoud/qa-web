@@ -1,0 +1,41 @@
+{
+  "rank": 319,
+  "slug": "is-a-smart-home-worth-it",
+  "question": "Is a smart home worth it?",
+  "category": "Smart Home",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 33.8,
+    "volume": 50,
+    "commercial": 90,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "medium",
+    "commercial": "very-high",
+    "competition": "low"
+  },
+  "primaryKeyword": "a smart home worth it",
+  "articleTitle": "Is a smart home worth it?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/is-a-smart-home-worth-it",
+  "status": "queued"
+}

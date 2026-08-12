@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-clone-an-ssd",
+  "directAnswer": "To clone an SSD, use cloning software like Macrium Reflect or Clonezilla, and follow the software's instructions to create an exact copy of your SSD to another drive.",
+  "summary": "Cloning an SSD involves using specialized software to transfer all data from one SSD to another, ensuring that your operating system and files remain intact.",
+  "sections": [
+    {
+      "id": "software-options",
+      "heading": "Software Options for Cloning",
+      "body": "Popular tools for SSD cloning include Macrium Reflect, EaseUS Todo Backup, and Clonezilla. Each has a user-friendly interface and offers step-by-step guidance."
+    },
+    {
+      "id": "preparation-steps",
+      "heading": "Preparation Steps Before Cloning",
+      "body": "Ensure that the target SSD is connected to your computer, has enough space to accommodate the data from the source SSD, and that you back up any important files before starting the cloning process."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Download and Install Cloning Software",
+      "detail": "Choose your preferred cloning software, download it from the official website, and install it on your computer."
+    },
+    {
+      "title": "Launch the Cloning Software",
+      "detail": "Open the software and select the option to clone a disk or drive. This may vary slightly between different software."
+    },
+    {
+      "title": "Select Source and Target Drives",
+      "detail": "Choose the SSD you want to clone as the source and select the target SSD where the data will be copied."
+    },
+    {
+      "title": "Start the Cloning Process",
+      "detail": "Follow the prompts to initiate the cloning process. This may take some time depending on the amount of data being transferred."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I clone an SSD to a smaller SSD?",
+      "answer": "Yes, but only if the used space on the source SSD is less than the capacity of the target SSD."
+    },
+    {
+      "question": "Will cloning an SSD erase the target SSD?",
+      "answer": "Yes, the cloning process will overwrite any existing data on the target SSD."
+    },
+    {
+      "question": "Do I need to format the target SSD before cloning?",
+      "answer": "No, the cloning software will handle formatting the target SSD as part of the process."
+    }
+  ],
+  "caveats": [
+    "Cloning an SSD may require administrative privileges on your computer, and some software may not support certain SSD brands."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

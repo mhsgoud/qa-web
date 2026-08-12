@@ -1,0 +1,41 @@
+{
+  "rank": 104,
+  "slug": "how-do-i-reset-bluetooth-earbuds",
+  "question": "How do I reset Bluetooth earbuds?",
+  "category": "Audio",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 60.7,
+    "volume": 90,
+    "commercial": 72,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "high",
+    "competition": "low"
+  },
+  "primaryKeyword": "reset bluetooth earbuds",
+  "articleTitle": "How do I reset Bluetooth earbuds?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-reset-bluetooth-earbuds",
+  "status": "queued"
+}

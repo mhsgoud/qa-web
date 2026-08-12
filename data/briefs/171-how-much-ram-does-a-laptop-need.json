@@ -1,0 +1,41 @@
+{
+  "rank": 171,
+  "slug": "how-much-ram-does-a-laptop-need",
+  "question": "How much RAM does a laptop need?",
+  "category": "PC Hardware",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 48,
+    "volume": 78,
+    "commercial": 82,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "very-high",
+    "competition": "low"
+  },
+  "primaryKeyword": "how much ram does a laptop need",
+  "articleTitle": "How much RAM does a laptop need?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "RAM needs calculator",
+  "reason": "high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/how-much-ram-does-a-laptop-need",
+  "status": "queued"
+}

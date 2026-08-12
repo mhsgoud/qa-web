@@ -1,0 +1,41 @@
+{
+  "rank": 271,
+  "slug": "what-is-functional-programming",
+  "question": "What is functional programming?",
+  "category": "Programming",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 1.4,
+    "volume": 74,
+    "commercial": 35,
+    "competition": 95,
+    "ease": 5,
+    "contentDifficulty": 45
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "low",
+    "competition": "very-high"
+  },
+  "primaryKeyword": "functional programming",
+  "articleTitle": "What is functional programming?",
+  "monetizationType": "AdSense (low) / newsletter",
+  "suggestedTool": "RAM needs calculator",
+  "reason": "balanced mid-tier topic; early-category seed",
+  "url": "/q/what-is-functional-programming",
+  "status": "queued"
+}

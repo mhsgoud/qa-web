@@ -1,0 +1,41 @@
+{
+  "rank": 227,
+  "slug": "is-cloud-storage-private",
+  "question": "Is cloud storage private?",
+  "category": "Cloud",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 25.9,
+    "volume": 76,
+    "commercial": 78,
+    "competition": 65,
+    "ease": 35,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "high",
+    "competition": "high"
+  },
+  "primaryKeyword": "cloud storage private",
+  "articleTitle": "Is cloud storage private?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Storage speed / upgrade picker",
+  "reason": "high monetization potential; early-category seed",
+  "url": "/q/is-cloud-storage-private",
+  "status": "queued"
+}

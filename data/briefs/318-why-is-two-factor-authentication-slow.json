@@ -1,0 +1,41 @@
+{
+  "rank": 318,
+  "slug": "why-is-two-factor-authentication-slow",
+  "question": "Why is two-factor authentication slow?",
+  "category": "Security",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 33.9,
+    "volume": 90,
+    "commercial": 86,
+    "competition": 65,
+    "ease": 35,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "high"
+  },
+  "primaryKeyword": "two-factor authentication slow",
+  "articleTitle": "Why is two-factor authentication slow?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; high monetization potential; early-category seed",
+  "url": "/q/why-is-two-factor-authentication-slow",
+  "status": "queued"
+}

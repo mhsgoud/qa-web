@@ -1,0 +1,41 @@
+{
+  "rank": 249,
+  "slug": "why-is-a-website-slow",
+  "question": "Why is a website slow?",
+  "category": "Web",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 15.5,
+    "volume": 74,
+    "commercial": 48,
+    "competition": 65,
+    "ease": 35,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "medium",
+    "competition": "high"
+  },
+  "primaryKeyword": "a website slow",
+  "articleTitle": "Why is a website slow?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "balanced mid-tier topic; early-category seed",
+  "url": "/q/why-is-a-website-slow",
+  "status": "queued"
+}

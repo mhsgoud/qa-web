@@ -1,0 +1,41 @@
+{
+  "rank": 148,
+  "slug": "can-i-charge-an-ev-from-a-normal-socket",
+  "question": "Can I charge an EV from a normal socket?",
+  "category": "EVs",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 51.1,
+    "volume": 74,
+    "commercial": 92,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "very-high",
+    "competition": "low"
+  },
+  "primaryKeyword": "charge an ev from a normal socket",
+  "articleTitle": "Can I charge an EV from a normal socket?",
+  "monetizationType": "Affiliate + AdSense",
+  "suggestedTool": "EV home charger calculator",
+  "reason": "high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/can-i-charge-an-ev-from-a-normal-socket",
+  "status": "queued"
+}

@@ -1,0 +1,41 @@
+{
+  "rank": 220,
+  "slug": "is-an-ev-worth-buying",
+  "question": "Is an EV worth buying?",
+  "category": "EVs",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 28.9,
+    "volume": 66,
+    "commercial": 100,
+    "competition": 65,
+    "ease": 35,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "very-high",
+    "competition": "high"
+  },
+  "primaryKeyword": "an ev worth buying",
+  "articleTitle": "Is an EV worth buying?",
+  "monetizationType": "Affiliate + AdSense",
+  "suggestedTool": "EV home charger calculator",
+  "reason": "high monetization potential; early-category seed",
+  "url": "/q/is-an-ev-worth-buying",
+  "status": "queued"
+}

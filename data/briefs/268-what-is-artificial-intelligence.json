@@ -1,0 +1,41 @@
+{
+  "rank": 268,
+  "slug": "what-is-artificial-intelligence",
+  "question": "What is artificial intelligence?",
+  "category": "AI",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 1.6,
+    "volume": 100,
+    "commercial": 62,
+    "competition": 97,
+    "ease": 3,
+    "contentDifficulty": 60
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "very-high"
+  },
+  "primaryKeyword": "artificial intelligence",
+  "articleTitle": "What is artificial intelligence?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Model / use-case picker",
+  "reason": "strong demand signals; early-category seed",
+  "url": "/q/what-is-artificial-intelligence",
+  "status": "queued"
+}

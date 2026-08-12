@@ -1,0 +1,41 @@
+{
+  "rank": 127,
+  "slug": "how-long-do-hard-drives-last",
+  "question": "How long do hard drives last?",
+  "category": "Storage",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 56.8,
+    "volume": 88,
+    "commercial": 86,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "low"
+  },
+  "primaryKeyword": "how long do hard drives last",
+  "articleTitle": "How long do hard drives last?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/how-long-do-hard-drives-last",
+  "status": "queued"
+}

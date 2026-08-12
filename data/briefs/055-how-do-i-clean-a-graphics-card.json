@@ -1,0 +1,41 @@
+{
+  "rank": 55,
+  "slug": "how-do-i-clean-a-graphics-card",
+  "question": "How do I clean a graphics card?",
+  "category": "GPUs",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 74.2,
+    "volume": 100,
+    "commercial": 95,
+    "competition": 50,
+    "ease": 50,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "medium"
+  },
+  "primaryKeyword": "clean a graphics card",
+  "articleTitle": "How do I clean a graphics card?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "GPU comparison tool",
+  "reason": "strong demand signals; high monetization potential; early-category seed",
+  "url": "/q/how-do-i-clean-a-graphics-card",
+  "status": "queued"
+}

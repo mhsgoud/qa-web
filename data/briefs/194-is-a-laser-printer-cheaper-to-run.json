@@ -1,0 +1,41 @@
+{
+  "rank": 194,
+  "slug": "is-a-laser-printer-cheaper-to-run",
+  "question": "Is a laser printer cheaper to run?",
+  "category": "Printers",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 43.1,
+    "volume": 82,
+    "commercial": 70,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "high",
+    "competition": "low"
+  },
+  "primaryKeyword": "a laser printer cheaper to run",
+  "articleTitle": "Is a laser printer cheaper to run?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/is-a-laser-printer-cheaper-to-run",
+  "status": "queued"
+}

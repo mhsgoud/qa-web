@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-scan-a-qr-code-with-my-phone",
+  "directAnswer": "You can scan a QR code using your phone's camera app or a dedicated QR code scanning app. Most modern smartphones support QR code scanning directly through the camera without needing additional software.",
+  "summary": "Scanning QR codes is a simple process that can be done using your smartphone's camera or a specific app, depending on your device.",
+  "sections": [
+    {
+      "id": "android-steps",
+      "heading": "Steps for Android Devices",
+      "body": "Most Android devices have built-in QR code scanning capabilities in the camera app."
+    },
+    {
+      "id": "ios-steps",
+      "heading": "Steps for iOS Devices",
+      "body": "iPhones have a built-in QR code reader in the Camera app, available from iOS 11 and later."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting Tips",
+      "body": "If your camera does not recognize the QR code, ensure the code is well-lit and in focus."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using the Camera App on Android",
+      "detail": "Open the Camera app, point it at the QR code, and tap the notification that appears to open the link."
+    },
+    {
+      "title": "Using the Camera App on iOS",
+      "detail": "Open the Camera app, point it at the QR code, and a notification will pop up at the top of the screen. Tap it to access the content."
+    },
+    {
+      "title": "Using a QR Code Scanner App",
+      "detail": "Download a QR code scanner app from the Google Play Store or Apple App Store, open the app, and follow the on-screen instructions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my camera doesn't scan the QR code?",
+      "answer": "Ensure the QR code is not damaged and is well-lit. Try moving closer or adjusting the angle."
+    },
+    {
+      "question": "Do I need an internet connection to scan a QR code?",
+      "answer": "You do not need an internet connection to scan the QR code, but you will need it to access the content linked to the QR code."
+    },
+    {
+      "question": "Can I scan QR codes from my computer?",
+      "answer": "Yes, you can use a QR code scanner app on your phone or a webcam with software that supports QR code scanning on your computer."
+    }
+  ],
+  "caveats": [
+    "Some older devices may not have built-in QR code scanning capabilities and may require a third-party app."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

@@ -1,0 +1,41 @@
+{
+  "rank": 199,
+  "slug": "how-do-i-find-what-program-opened-a-file",
+  "question": "How do I find what program opened a file?",
+  "category": "Software",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 42,
+    "volume": 80,
+    "commercial": 48,
+    "competition": 30,
+    "ease": 70,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "low"
+  },
+  "primaryKeyword": "find what program opened a file",
+  "articleTitle": "How do I find what program opened a file?",
+  "monetizationType": "AdSense",
+  "suggestedTool": "RAM needs calculator",
+  "reason": "rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-find-what-program-opened-a-file",
+  "status": "queued"
+}

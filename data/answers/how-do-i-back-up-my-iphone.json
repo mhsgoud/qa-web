@@ -1,0 +1,35 @@
+{
+  "slug": "how-do-i-back-up-my-iphone",
+  "directAnswer": "Use iCloud Backup for a hands-off wireless backup, or a computer (Finder on Mac / Apple Devices on Windows) for a full local backup you control.",
+  "summary": "iCloud is easiest; a computer backup is better before major upgrades or repairs because you can keep an encrypted copy with passwords and Health data.",
+  "sections": [
+    {
+      "id": "icloud",
+      "heading": "iCloud Backup",
+      "body": "Settings → [Your Name] → iCloud → iCloud Backup → Back Up Now. The iPhone must be locked, charging, and on Wi‑Fi. Check the timestamp after it finishes."
+    },
+    {
+      "id": "computer",
+      "heading": "Computer backup",
+      "body": "Connect the iPhone, open Finder (macOS) or Apple Devices/iTunes (Windows), select the device, choose Back Up Now, and enable Encrypt local backup if you want passwords, Wi‑Fi settings, and Health data included."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Confirm free space",
+      "detail": "iCloud backups fail silently when the plan is full — check iCloud storage first."
+    },
+    {
+      "title": "Verify the latest backup date",
+      "detail": "Settings → [Your Name] → iCloud → iCloud Backup shows Last Successful Backup."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does iCloud Backup include photos?",
+      "answer": "If iCloud Photos is on, photos live in iCloud Photos and are not duplicated inside the device backup the same way. Keep both in mind when restoring."
+    }
+  ],
+  "status": "reviewed",
+  "updatedAt": "2026-08-11"
+}

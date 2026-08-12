@@ -1,0 +1,41 @@
+{
+  "rank": 48,
+  "slug": "what-causes-ssd-performance-to-drop",
+  "question": "What causes SSD performance to drop?",
+  "category": "Storage",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 75,
+    "volume": 100,
+    "commercial": 100,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "low"
+  },
+  "primaryKeyword": "what causes ssd performance to drop",
+  "articleTitle": "What causes SSD performance to drop?",
+  "monetizationType": "Affiliate + AdSense",
+  "suggestedTool": "Storage speed / upgrade picker",
+  "reason": "strong demand signals; high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/what-causes-ssd-performance-to-drop",
+  "status": "queued"
+}

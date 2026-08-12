@@ -1,0 +1,41 @@
+{
+  "rank": 106,
+  "slug": "how-do-i-enter-safe-mode-in-windows",
+  "question": "How do I enter Safe Mode in Windows?",
+  "category": "Windows",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 60.2,
+    "volume": 100,
+    "commercial": 55,
+    "competition": 30,
+    "ease": 70,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "low"
+  },
+  "primaryKeyword": "enter safe mode in windows",
+  "articleTitle": "How do I enter Safe Mode in Windows?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-enter-safe-mode-in-windows",
+  "status": "queued"
+}

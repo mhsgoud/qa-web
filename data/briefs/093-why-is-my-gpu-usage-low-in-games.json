@@ -1,0 +1,41 @@
+{
+  "rank": 93,
+  "slug": "why-is-my-gpu-usage-low-in-games",
+  "question": "Why is my GPU usage low in games?",
+  "category": "GPUs",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 62.5,
+    "volume": 100,
+    "commercial": 100,
+    "competition": 50,
+    "ease": 50,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "medium"
+  },
+  "primaryKeyword": "my gpu usage low in games",
+  "articleTitle": "Why is my GPU usage low in games?",
+  "monetizationType": "Affiliate + AdSense",
+  "suggestedTool": "GPU comparison tool",
+  "reason": "strong demand signals; high monetization potential; early-category seed",
+  "url": "/q/why-is-my-gpu-usage-low-in-games",
+  "status": "queued"
+}

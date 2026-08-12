@@ -1,0 +1,41 @@
+{
+  "rank": 239,
+  "slug": "is-120hz-tv-worth-it",
+  "question": "Is 120Hz TV worth it?",
+  "category": "TV",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 19.3,
+    "volume": 50,
+    "commercial": 88,
+    "competition": 65,
+    "ease": 35,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "medium",
+    "commercial": "very-high",
+    "competition": "high"
+  },
+  "primaryKeyword": "120hz tv worth it",
+  "articleTitle": "Is 120Hz TV worth it?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "high monetization potential; early-category seed",
+  "url": "/q/is-120hz-tv-worth-it",
+  "status": "queued"
+}

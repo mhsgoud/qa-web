@@ -1,0 +1,41 @@
+{
+  "rank": 77,
+  "slug": "how-do-i-free-up-cloud-storage",
+  "question": "How do I free up cloud storage?",
+  "category": "Cloud",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 65.8,
+    "volume": 90,
+    "commercial": 78,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "high",
+    "competition": "low"
+  },
+  "primaryKeyword": "free up cloud storage",
+  "articleTitle": "How do I free up cloud storage?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Storage speed / upgrade picker",
+  "reason": "strong demand signals; high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-free-up-cloud-storage",
+  "status": "queued"
+}

@@ -1,0 +1,41 @@
+{
+  "rank": 356,
+  "slug": "is-cloud-computing-worth-it",
+  "question": "Is cloud computing worth it?",
+  "category": "Cloud",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 18.5,
+    "volume": 46,
+    "commercial": 92,
+    "competition": 65,
+    "ease": 35,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "medium",
+    "commercial": "very-high",
+    "competition": "high"
+  },
+  "primaryKeyword": "cloud computing worth it",
+  "articleTitle": "Is cloud computing worth it?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "high monetization potential; early-category seed",
+  "url": "/q/is-cloud-computing-worth-it",
+  "status": "queued"
+}

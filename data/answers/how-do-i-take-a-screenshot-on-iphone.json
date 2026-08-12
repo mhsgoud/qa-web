@@ -1,0 +1,53 @@
+{
+  "slug": "how-do-i-take-a-screenshot-on-iphone",
+  "directAnswer": "To take a screenshot on an iPhone, press the Side button and the Volume Up button at the same time, then quickly release them.",
+  "summary": "Taking a screenshot on an iPhone is quick and easy, involving a combination of button presses.",
+  "sections": [
+    {
+      "id": "screenshot-methods",
+      "heading": "Screenshot Methods",
+      "body": "There are different methods for taking screenshots depending on the iPhone model. Most models use the Side and Volume Up buttons, while older models with a Home button use the Home and Side buttons."
+    },
+    {
+      "id": "viewing-screenshots",
+      "heading": "Viewing Your Screenshots",
+      "body": "After taking a screenshot, a thumbnail appears in the bottom left corner. Tap it to edit or share, or swipe left to dismiss it. Screenshots are saved in the Photos app under 'Albums' > 'Screenshots'."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For iPhones with Face ID",
+      "detail": "Press the Side button and the Volume Up button simultaneously, then quickly release them."
+    },
+    {
+      "title": "For iPhones with a Home Button",
+      "detail": "Press the Home button and the Side button (or Top button) at the same time, then quickly release."
+    },
+    {
+      "title": "Accessing Your Screenshot",
+      "detail": "Open the Photos app, go to 'Albums', and select 'Screenshots' to view your captured images."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I take a screenshot using AssistiveTouch?",
+      "answer": "Yes, you can enable AssistiveTouch in Settings > Accessibility > Touch > AssistiveTouch, then customize the menu to include a screenshot option."
+    },
+    {
+      "question": "How do I edit a screenshot after taking it?",
+      "answer": "Tap the thumbnail that appears after taking the screenshot to access editing tools, such as cropping or drawing."
+    },
+    {
+      "question": "Where are my screenshots saved?",
+      "answer": "Screenshots are saved in the Photos app under 'Albums' > 'Screenshots'."
+    }
+  ],
+  "caveats": [
+    "The button combination may vary slightly depending on the model of your iPhone."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

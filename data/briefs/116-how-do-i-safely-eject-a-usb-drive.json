@@ -1,0 +1,41 @@
+{
+  "rank": 116,
+  "slug": "how-do-i-safely-eject-a-usb-drive",
+  "question": "How do I safely eject a USB drive?",
+  "category": "USB",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 59.5,
+    "volume": 85,
+    "commercial": 64,
+    "competition": 30,
+    "ease": 70,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "low"
+  },
+  "primaryKeyword": "safely eject a usb drive",
+  "articleTitle": "How do I safely eject a USB drive?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "USB‑C / charger compatibility checker",
+  "reason": "strong demand signals; rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-safely-eject-a-usb-drive",
+  "status": "queued"
+}

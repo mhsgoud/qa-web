@@ -1,0 +1,41 @@
+{
+  "rank": 234,
+  "slug": "is-oled-better-than-qled",
+  "question": "Is OLED better than QLED?",
+  "category": "TV",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 22.7,
+    "volume": 70,
+    "commercial": 74,
+    "competition": 65,
+    "ease": 35,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "high",
+    "competition": "high"
+  },
+  "primaryKeyword": "oled better than qled",
+  "articleTitle": "Is OLED better than QLED?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "high monetization potential; early-category seed",
+  "url": "/q/is-oled-better-than-qled",
+  "status": "queued"
+}

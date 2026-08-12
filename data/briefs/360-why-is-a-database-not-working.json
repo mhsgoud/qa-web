@@ -1,0 +1,41 @@
+{
+  "rank": 360,
+  "slug": "why-is-a-database-not-working",
+  "question": "Why is a database not working?",
+  "category": "Databases",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 14.7,
+    "volume": 71,
+    "commercial": 38,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 55
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "low",
+    "competition": "low"
+  },
+  "primaryKeyword": "a database not working",
+  "articleTitle": "Why is a database not working?",
+  "monetizationType": "AdSense",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "rankable long-tail shape; early-category seed",
+  "url": "/q/why-is-a-database-not-working",
+  "status": "queued"
+}

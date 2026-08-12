@@ -1,0 +1,41 @@
+{
+  "rank": 202,
+  "slug": "why-is-my-monitor-flickering",
+  "question": "Why is my monitor flickering?",
+  "category": "Monitors",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 40.7,
+    "volume": 93,
+    "commercial": 100,
+    "competition": 65,
+    "ease": 35,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "high"
+  },
+  "primaryKeyword": "my monitor flickering",
+  "articleTitle": "Why is my monitor flickering?",
+  "monetizationType": "Affiliate + AdSense",
+  "suggestedTool": "Monitor + GPU match advisor",
+  "reason": "strong demand signals; high monetization potential; early-category seed",
+  "url": "/q/why-is-my-monitor-flickering",
+  "status": "queued"
+}

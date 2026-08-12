@@ -1,0 +1,41 @@
+{
+  "rank": 176,
+  "slug": "how-do-i-fix-bluetooth-in-windows",
+  "question": "How do I fix Bluetooth in Windows?",
+  "category": "Windows",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 47.7,
+    "volume": 100,
+    "commercial": 61,
+    "competition": 50,
+    "ease": 50,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "medium"
+  },
+  "primaryKeyword": "fix bluetooth in windows",
+  "articleTitle": "How do I fix Bluetooth in Windows?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; early-category seed",
+  "url": "/q/how-do-i-fix-bluetooth-in-windows",
+  "status": "queued"
+}

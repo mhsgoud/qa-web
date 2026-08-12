@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-transfer-photos-from-android-to-iphone",
+  "directAnswer": "The most reliable free method is Google Photos (or Google Drive): upload from Android, then download or sync on iPhone. For a cable transfer, use Apple's Move to iOS during iPhone setup.",
+  "summary": "You can move photos with a cloud sync, a one-time setup tool, or a cable/computer workflow. Pick based on whether you are setting up a new iPhone or already using one.",
+  "sections": [
+    {
+      "id": "quick-pick",
+      "heading": "Which method should you use?",
+      "body": "If your iPhone is brand new and still in setup, use Move to iOS. If the iPhone is already set up, use Google Photos, Google Drive, or a computer. Avoid third-party phone clone apps unless you trust the developer — many are adware."
+    },
+    {
+      "id": "google-photos",
+      "heading": "Transfer with Google Photos (already-set-up iPhone)",
+      "body": "On Android, open Google Photos, confirm backup is on for the albums you care about, and wait until uploads finish on Wi‑Fi. On iPhone, install Google Photos, sign in with the same Google account, then download originals or turn on Free up space / device sync as needed. This preserves most metadata better than screenshot workarounds."
+    },
+    {
+      "id": "move-to-ios",
+      "heading": "Use Move to iOS during new iPhone setup",
+      "body": "Start iPhone setup until you reach the Apps & Data screen, choose Move Data from Android, install Move to iOS on the Android phone, and connect both devices to power and the same Wi‑Fi (or the temporary hotspot Move to iOS creates). Select photos/videos when prompted. You cannot use Move to iOS after setup without erasing the iPhone."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check storage on the iPhone",
+      "detail": "Photos need free space roughly equal to the library size. Settings → General → iPhone Storage."
+    },
+    {
+      "title": "Prefer Wi‑Fi and power",
+      "detail": "Large libraries fail mid-transfer on weak Wi‑Fi or low battery. Plug both phones in."
+    },
+    {
+      "title": "Verify a sample album",
+      "detail": "Open a few recent and old albums on the iPhone before wiping the Android device."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will Live Photos / motion photos convert correctly?",
+      "answer": "Android Motion Photos often become a still + separate video on iPhone. Google Photos usually keeps both files; native Camera Roll behavior varies."
+    },
+    {
+      "question": "Can I keep the Android phone afterward?",
+      "answer": "Yes. Cloud and computer methods do not require wiping Android. Only wipe after you confirm the iPhone has the photos you need."
+    }
+  ],
+  "caveats": [
+    "WhatsApp media is separate from the Camera gallery — transfer chat backups separately.",
+    "HEIC vs JPEG differences can change file sizes after import."
+  ],
+  "relatedToolIdeas": [
+    "Storage estimator: library size → free space needed on iPhone"
+  ],
+  "status": "reviewed",
+  "updatedAt": "2026-08-11"
+}

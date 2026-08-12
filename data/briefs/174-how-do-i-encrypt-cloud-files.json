@@ -1,0 +1,41 @@
+{
+  "rank": 174,
+  "slug": "how-do-i-encrypt-cloud-files",
+  "question": "How do I encrypt cloud files?",
+  "category": "Cloud",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 47.9,
+    "volume": 90,
+    "commercial": 78,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 44
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "high",
+    "competition": "low"
+  },
+  "primaryKeyword": "encrypt cloud files",
+  "articleTitle": "How do I encrypt cloud files?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-encrypt-cloud-files",
+  "status": "queued"
+}

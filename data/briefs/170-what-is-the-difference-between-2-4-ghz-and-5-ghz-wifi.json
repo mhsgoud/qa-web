@@ -1,0 +1,41 @@
+{
+  "rank": 170,
+  "slug": "what-is-the-difference-between-2-4-ghz-and-5-ghz-wifi",
+  "question": "What is the difference between 2.4 GHz and 5 GHz WiFi?",
+  "category": "WiFi",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 48,
+    "volume": 100,
+    "commercial": 60,
+    "competition": 28,
+    "ease": 72,
+    "contentDifficulty": 45
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "low"
+  },
+  "primaryKeyword": "the difference between 24 ghz and 5 ghz wifi",
+  "articleTitle": "What is the difference between 2.4 GHz and 5 GHz WiFi?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Wi‑Fi speed / channel helper",
+  "reason": "strong demand signals; rankable long-tail shape; early-category seed",
+  "url": "/q/what-is-the-difference-between-2-4-ghz-and-5-ghz-wifi",
+  "status": "queued"
+}

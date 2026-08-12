@@ -1,0 +1,41 @@
+{
+  "rank": 128,
+  "slug": "why-does-my-tv-keep-disconnecting-from-wifi",
+  "question": "Why does my TV keep disconnecting from WiFi?",
+  "category": "TV",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 55.5,
+    "volume": 100,
+    "commercial": 74,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "high",
+    "competition": "low"
+  },
+  "primaryKeyword": "my tv keep disconnecting from wifi",
+  "articleTitle": "Why does my TV keep disconnecting from WiFi?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Wi‑Fi speed / channel helper",
+  "reason": "strong demand signals; high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/why-does-my-tv-keep-disconnecting-from-wifi",
+  "status": "queued"
+}

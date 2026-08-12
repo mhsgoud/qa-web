@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-remove-an-apple-id-from-an-iphone",
+  "directAnswer": "To remove an Apple ID from an iPhone, go to Settings, tap on your name at the top, scroll down, and select 'Sign Out'.",
+  "summary": "This guide provides steps to remove your Apple ID from an iPhone, along with important considerations and frequently asked questions.",
+  "sections": [
+    {
+      "id": "removing-apple-id",
+      "heading": "Removing Your Apple ID",
+      "body": "Follow the steps below to sign out of your Apple ID on your iPhone. Ensure that you have backed up any important data, as signing out may remove access to certain services."
+    },
+    {
+      "id": "data-considerations",
+      "heading": "Data Considerations",
+      "body": "Before removing your Apple ID, consider that you may lose access to iCloud data, including photos, documents, and app data linked to that account."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Settings",
+      "detail": "Tap the Settings app on your iPhone home screen."
+    },
+    {
+      "title": "Access Your Apple ID",
+      "detail": "Tap on your name at the top of the Settings menu."
+    },
+    {
+      "title": "Sign Out",
+      "detail": "Scroll down and tap 'Sign Out'. You may be prompted to enter your Apple ID password."
+    },
+    {
+      "title": "Confirm Sign Out",
+      "detail": "Follow the prompts to confirm that you want to sign out of your Apple ID."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will I lose my purchased apps if I remove my Apple ID?",
+      "answer": "No, your purchased apps will remain on your device, but you may not receive updates or access to app-specific data linked to your Apple ID."
+    },
+    {
+      "question": "Can I create a new Apple ID after removing the old one?",
+      "answer": "Yes, you can create a new Apple ID after signing out, but you will need to sign in with the new account to access iCloud and App Store services."
+    },
+    {
+      "question": "What happens to my iCloud data when I sign out?",
+      "answer": "When you sign out, you will lose access to iCloud data on that device, but it remains stored in iCloud until you sign back in."
+    }
+  ],
+  "caveats": [
+    "Ensure you have backed up important data before signing out, as some data may be lost."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

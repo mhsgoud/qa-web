@@ -1,0 +1,41 @@
+{
+  "rank": 213,
+  "slug": "how-do-i-check-if-a-website-is-down",
+  "question": "How do I check if a website is down?",
+  "category": "Web",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 35.8,
+    "volume": 78,
+    "commercial": 42,
+    "competition": 30,
+    "ease": 70,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "low",
+    "competition": "low"
+  },
+  "primaryKeyword": "check if a website is down",
+  "articleTitle": "How do I check if a website is down?",
+  "monetizationType": "AdSense",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-check-if-a-website-is-down",
+  "status": "queued"
+}

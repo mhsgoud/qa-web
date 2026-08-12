@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-migrate-windows-to-a-new-ssd",
+  "directAnswer": "Use cloning software to transfer your existing Windows installation to the new SSD, ensuring you have a backup of your data before starting.",
+  "summary": "Migrating Windows to a new SSD involves using cloning software to replicate your current system setup, which can significantly improve performance.",
+  "sections": [
+    {
+      "id": "preparation",
+      "heading": "Preparation Steps",
+      "body": "Before you begin the migration, ensure that your new SSD is properly installed in your system and recognized by Windows. Backup all important data."
+    },
+    {
+      "id": "cloning-software",
+      "heading": "Choosing Cloning Software",
+      "body": "Select a reliable cloning tool such as Macrium Reflect, EaseUS Todo Backup, or Acronis True Image. These tools offer user-friendly interfaces and step-by-step guidance."
+    },
+    {
+      "id": "post-migration",
+      "heading": "Post-Migration Steps",
+      "body": "After cloning, ensure that your BIOS/UEFI is set to boot from the new SSD. You may also need to format the old drive if you plan to use it for additional storage."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Install the SSD",
+      "detail": "Physically install the SSD into your computer and ensure it is recognized in the BIOS/UEFI."
+    },
+    {
+      "title": "Download and Install Cloning Software",
+      "detail": "Choose a cloning software and install it on your current system."
+    },
+    {
+      "title": "Clone Your Existing Drive",
+      "detail": "Follow the software's instructions to select your current drive as the source and the new SSD as the destination for the clone."
+    },
+    {
+      "title": "Set SSD as Boot Drive",
+      "detail": "Restart your computer and enter BIOS/UEFI settings to set the new SSD as the primary boot device."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I migrate Windows without losing any data?",
+      "answer": "Yes, using cloning software preserves all your data and settings during the migration."
+    },
+    {
+      "question": "What if my new SSD is smaller than my old drive?",
+      "answer": "You may need to delete unnecessary files or uninstall applications to fit your data on the smaller SSD."
+    },
+    {
+      "question": "Do I need to reinstall Windows after migration?",
+      "answer": "No, if the cloning process is successful, your Windows installation will be transferred intact."
+    }
+  ],
+  "caveats": [
+    "Ensure that the new SSD has enough space to accommodate your current Windows installation and data."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

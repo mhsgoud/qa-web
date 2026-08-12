@@ -1,0 +1,41 @@
+{
+  "rank": 331,
+  "slug": "why-is-a-cpu-slow",
+  "question": "Why is a CPU slow?",
+  "category": "PC Hardware",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 30,
+    "volume": 78,
+    "commercial": 88,
+    "competition": 65,
+    "ease": 35,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "very-high",
+    "competition": "high"
+  },
+  "primaryKeyword": "a cpu slow",
+  "articleTitle": "Why is a CPU slow?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; high monetization potential; early-category seed",
+  "url": "/q/why-is-a-cpu-slow",
+  "status": "queued"
+}

@@ -1,0 +1,41 @@
+{
+  "rank": 315,
+  "slug": "how-do-i-check-artificial-intelligence",
+  "question": "How do I check artificial intelligence?",
+  "category": "AI",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 37.2,
+    "volume": 100,
+    "commercial": 70,
+    "competition": 50,
+    "ease": 50,
+    "contentDifficulty": 47
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "high",
+    "competition": "medium"
+  },
+  "primaryKeyword": "check artificial intelligence",
+  "articleTitle": "How do I check artificial intelligence?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Model / use-case picker",
+  "reason": "strong demand signals; high monetization potential; early-category seed",
+  "url": "/q/how-do-i-check-artificial-intelligence",
+  "status": "queued"
+}

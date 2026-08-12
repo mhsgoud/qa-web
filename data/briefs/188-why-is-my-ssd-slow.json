@@ -1,0 +1,41 @@
+{
+  "rank": 188,
+  "slug": "why-is-my-ssd-slow",
+  "question": "Why is my SSD slow?",
+  "category": "Storage",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 43.8,
+    "volume": 100,
+    "commercial": 100,
+    "competition": 65,
+    "ease": 35,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "high"
+  },
+  "primaryKeyword": "my ssd slow",
+  "articleTitle": "Why is my SSD slow?",
+  "monetizationType": "Affiliate + AdSense",
+  "suggestedTool": "Storage speed / upgrade picker",
+  "reason": "strong demand signals; high monetization potential; early-category seed",
+  "url": "/q/why-is-my-ssd-slow",
+  "status": "queued"
+}

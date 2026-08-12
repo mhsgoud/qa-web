@@ -1,0 +1,41 @@
+{
+  "rank": 206,
+  "slug": "why-is-my-mac-fan-running-constantly",
+  "question": "Why is my Mac fan running constantly?",
+  "category": "macOS",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 39,
+    "volume": 100,
+    "commercial": 52,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "low"
+  },
+  "primaryKeyword": "my mac fan running constantly",
+  "articleTitle": "Why is my Mac fan running constantly?",
+  "monetizationType": "AdSense",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; rankable long-tail shape; early-category seed",
+  "url": "/q/why-is-my-mac-fan-running-constantly",
+  "status": "queued"
+}

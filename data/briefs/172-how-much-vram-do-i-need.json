@@ -1,0 +1,41 @@
+{
+  "rank": 172,
+  "slug": "how-much-vram-do-i-need",
+  "question": "How much VRAM do I need?",
+  "category": "PC Hardware",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 48,
+    "volume": 78,
+    "commercial": 82,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "very-high",
+    "competition": "low"
+  },
+  "primaryKeyword": "how much vram do i need",
+  "articleTitle": "How much VRAM do I need?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "RAM needs calculator",
+  "reason": "high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/how-much-vram-do-i-need",
+  "status": "queued"
+}

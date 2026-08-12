@@ -1,0 +1,41 @@
+{
+  "rank": 248,
+  "slug": "why-do-ai-models-hallucinate",
+  "question": "Why do AI models hallucinate?",
+  "category": "AI",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 15.6,
+    "volume": 98,
+    "commercial": 70,
+    "competition": 75,
+    "ease": 25,
+    "contentDifficulty": 55
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "high",
+    "competition": "high"
+  },
+  "primaryKeyword": "ai models hallucinate",
+  "articleTitle": "Why do AI models hallucinate?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Model / use-case picker",
+  "reason": "strong demand signals; high monetization potential; early-category seed",
+  "url": "/q/why-do-ai-models-hallucinate",
+  "status": "queued"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-securely-erase-an-ssd",
+  "directAnswer": "To securely erase an SSD, use the manufacturer's SSD management tool or a third-party software that supports secure erase commands, ensuring that the SSD is in a non-active state.",
+  "summary": "Securely erasing an SSD is crucial for data privacy, especially before disposal or repurposing. Follow the appropriate steps for your SSD's brand to ensure complete data removal.",
+  "sections": [
+    {
+      "id": "understanding-ssd-secure-erase",
+      "heading": "Understanding SSD Secure Erase",
+      "body": "Secure erase commands are built into SSDs to reset all cells to their original state, effectively removing all data. This process is different from traditional hard drive formats."
+    },
+    {
+      "id": "platform-specific-tools",
+      "heading": "Platform-Specific Tools",
+      "body": "Different SSD manufacturers provide their own tools for secure erasure. Examples include Samsung Magician for Samsung SSDs and Crucial Storage Executive for Crucial SSDs."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Backup Your Data",
+      "detail": "Ensure all important data is backed up, as secure erase will permanently delete all information on the SSD."
+    },
+    {
+      "title": "Download Manufacturer's Tool",
+      "detail": "Visit the manufacturer's website to download the appropriate SSD management tool."
+    },
+    {
+      "title": "Run Secure Erase Command",
+      "detail": "Open the tool and locate the secure erase option. Follow the prompts to complete the process, which may require the SSD to be in a specific state (e.g., not mounted)."
+    },
+    {
+      "title": "Verify Erasure",
+      "detail": "After the process, use the tool to verify that the SSD has been securely erased and that no data remains."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use third-party software to erase my SSD?",
+      "answer": "Yes, third-party software like Parted Magic can perform secure erase, but ensure it supports your SSD model."
+    },
+    {
+      "question": "Will secure erase affect the SSD's lifespan?",
+      "answer": "Secure erasing does not significantly impact the lifespan of SSDs, as it is designed to reset the drive without excessive wear."
+    },
+    {
+      "question": "Is it safe to perform a secure erase on an SSD?",
+      "answer": "Yes, as long as you follow the manufacturer's guidelines and use the correct tools, it is safe to perform a secure erase."
+    }
+  ],
+  "caveats": [
+    "Not all SSDs support secure erase commands; check your SSD's documentation."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

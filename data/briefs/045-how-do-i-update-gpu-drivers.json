@@ -1,0 +1,41 @@
+{
+  "rank": 45,
+  "slug": "how-do-i-update-gpu-drivers",
+  "question": "How do I update GPU drivers?",
+  "category": "GPUs",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 78.1,
+    "volume": 100,
+    "commercial": 100,
+    "competition": 50,
+    "ease": 50,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "medium"
+  },
+  "primaryKeyword": "update gpu drivers",
+  "articleTitle": "How do I update GPU drivers?",
+  "monetizationType": "Affiliate + AdSense",
+  "suggestedTool": "GPU comparison tool",
+  "reason": "strong demand signals; high monetization potential; early-category seed",
+  "url": "/q/how-do-i-update-gpu-drivers",
+  "status": "queued"
+}

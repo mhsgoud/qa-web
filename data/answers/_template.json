@@ -1,0 +1,32 @@
+{
+  "slug": "your-question-slug-here",
+  "directAnswer": "One specific sentence that answers the question directly.",
+  "summary": "2–3 sentences of context. What the reader will learn and when this applies.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Short section title",
+      "body": "Practical explanation with specifics — not generic filler."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Step title",
+      "detail": "Concrete action the reader can take."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "A real follow-up question?",
+      "answer": "A specific answer."
+    }
+  ],
+  "caveats": [
+    "One thing that can go wrong or a common misconception."
+  ],
+  "relatedToolIdeas": [
+    "Optional interactive tool idea for this topic"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

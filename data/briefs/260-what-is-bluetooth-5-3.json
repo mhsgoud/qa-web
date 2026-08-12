@@ -1,0 +1,41 @@
+{
+  "rank": 260,
+  "slug": "what-is-bluetooth-5-3",
+  "question": "What is Bluetooth 5.3?",
+  "category": "Bluetooth",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 6.6,
+    "volume": 92,
+    "commercial": 50,
+    "competition": 87,
+    "ease": 13,
+    "contentDifficulty": 45
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "very-high"
+  },
+  "primaryKeyword": "bluetooth 53",
+  "articleTitle": "What is Bluetooth 5.3?",
+  "monetizationType": "AdSense",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; early-category seed",
+  "url": "/q/what-is-bluetooth-5-3",
+  "status": "queued"
+}

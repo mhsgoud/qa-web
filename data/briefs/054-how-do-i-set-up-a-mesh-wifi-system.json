@@ -1,0 +1,41 @@
+{
+  "rank": 54,
+  "slug": "how-do-i-set-up-a-mesh-wifi-system",
+  "question": "How do I set up a mesh WiFi system?",
+  "category": "WiFi",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 74.4,
+    "volume": 100,
+    "commercial": 68,
+    "competition": 30,
+    "ease": 70,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "high",
+    "competition": "low"
+  },
+  "primaryKeyword": "set up a mesh wifi system",
+  "articleTitle": "How do I set up a mesh WiFi system?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Wi‑Fi speed / channel helper",
+  "reason": "strong demand signals; rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-set-up-a-mesh-wifi-system",
+  "status": "queued"
+}

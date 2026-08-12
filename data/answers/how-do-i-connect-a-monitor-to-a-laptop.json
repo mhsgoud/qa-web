@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-connect-a-monitor-to-a-laptop",
+  "directAnswer": "To connect a monitor to a laptop, use the appropriate video cable (HDMI, DisplayPort, VGA, etc.) to link the monitor to the laptop's output port.",
+  "summary": "Connecting a monitor to a laptop enhances your workspace by providing additional screen real estate. Follow the steps below for a successful connection.",
+  "sections": [
+    {
+      "id": "cable-types",
+      "heading": "Types of Cables",
+      "body": "Common video cables include HDMI, DisplayPort, VGA, and USB-C. Ensure your laptop and monitor have compatible ports before proceeding."
+    },
+    {
+      "id": "display-settings",
+      "heading": "Adjusting Display Settings",
+      "body": "After connecting the monitor, you may need to adjust display settings in your operating system to extend or duplicate your screen."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Ports",
+      "detail": "Check the available output ports on your laptop and the input ports on your monitor."
+    },
+    {
+      "title": "Connect the Cable",
+      "detail": "Use the appropriate cable to connect the laptop to the monitor. Ensure both devices are powered off during this step."
+    },
+    {
+      "title": "Power On Devices",
+      "detail": "Turn on the monitor first, then the laptop. The laptop should automatically detect the monitor."
+    },
+    {
+      "title": "Configure Display Settings",
+      "detail": "On Windows, right-click the desktop and select 'Display settings.' On macOS, go to 'System Preferences' > 'Displays' to adjust settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my laptop doesn't detect the monitor?",
+      "answer": "Ensure the cable is securely connected and the monitor is powered on. You may also need to press a function key (like F4 or F5) to switch display modes."
+    },
+    {
+      "question": "Can I use multiple monitors?",
+      "answer": "Yes, most laptops support multiple external monitors. Check your laptop's specifications for the maximum number of displays it can handle."
+    },
+    {
+      "question": "What if I have different operating systems?",
+      "answer": "The connection process is similar, but the display settings will vary. Refer to the specific instructions for your OS."
+    }
+  ],
+  "caveats": [
+    "Not all laptops support external displays, especially older models. Check your laptop's specifications for compatibility."
+  ],
+  "relatedToolIdeas": [
+    "Monitor + GPU match advisor"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

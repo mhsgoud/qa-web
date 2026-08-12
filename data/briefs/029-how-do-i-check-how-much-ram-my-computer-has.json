@@ -1,0 +1,41 @@
+{
+  "rank": 29,
+  "slug": "how-do-i-check-how-much-ram-my-computer-has",
+  "question": "How do I check how much RAM my computer has?",
+  "category": "Computers",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 84.6,
+    "volume": 100,
+    "commercial": 66,
+    "competition": 18,
+    "ease": 82,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "high",
+    "competition": "very-low"
+  },
+  "primaryKeyword": "check how much ram my computer has",
+  "articleTitle": "How do I check how much RAM my computer has?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "RAM needs calculator",
+  "reason": "strong demand signals; rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-check-how-much-ram-my-computer-has",
+  "status": "queued"
+}

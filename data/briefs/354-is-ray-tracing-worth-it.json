@@ -1,0 +1,41 @@
+{
+  "rank": 354,
+  "slug": "is-ray-tracing-worth-it",
+  "question": "Is ray tracing worth it?",
+  "category": "GPUs",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 19.4,
+    "volume": 62,
+    "commercial": 100,
+    "competition": 75,
+    "ease": 25,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "medium",
+    "commercial": "very-high",
+    "competition": "high"
+  },
+  "primaryKeyword": "ray tracing worth it",
+  "articleTitle": "Is ray tracing worth it?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "high monetization potential; early-category seed",
+  "url": "/q/is-ray-tracing-worth-it",
+  "status": "queued"
+}

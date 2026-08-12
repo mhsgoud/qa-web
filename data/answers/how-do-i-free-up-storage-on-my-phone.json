@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-free-up-storage-on-my-phone",
+  "directAnswer": "To free up storage on your phone, uninstall unused apps and delete unnecessary files such as photos and videos. You can also use cloud storage services to offload some of your data.",
+  "summary": "Freeing up storage on your smartphone can enhance performance and allow for more app installations.",
+  "sections": [
+    {
+      "id": "uninstall-apps",
+      "heading": "Uninstall Unused Apps",
+      "body": "Go through your installed apps and remove those that you no longer use. This can significantly free up space."
+    },
+    {
+      "id": "delete-files",
+      "heading": "Delete Unnecessary Files",
+      "body": "Check your downloads, photos, and videos for files that you can delete or move to cloud storage."
+    },
+    {
+      "id": "cloud-storage",
+      "heading": "Use Cloud Storage",
+      "body": "Consider using services like Google Drive, iCloud, or Dropbox to store files online instead of on your device."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For Android Users",
+      "detail": "Go to Settings > Storage > Apps, select the app you want to uninstall, and tap 'Uninstall'."
+    },
+    {
+      "title": "For iPhone Users",
+      "detail": "Go to Settings > General > iPhone Storage, select the app, and tap 'Delete App'."
+    },
+    {
+      "title": "Delete Photos",
+      "detail": "Open your Photos app, select the photos you want to delete, and tap the trash icon."
+    },
+    {
+      "title": "Clear Cache",
+      "detail": "For Android, go to Settings > Storage > Cached data and clear it. For iPhone, clearing cache may require app-specific actions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will deleting apps affect my data?",
+      "answer": "Yes, if the app stores data locally, uninstalling it will remove that data unless it's backed up elsewhere."
+    },
+    {
+      "question": "How can I see what's taking up the most space?",
+      "answer": "On Android, go to Settings > Storage. On iPhone, go to Settings > General > iPhone Storage to view space usage."
+    },
+    {
+      "question": "Can I recover deleted files?",
+      "answer": "Once deleted, files are usually not recoverable unless backed up in a cloud service or recovery app."
+    }
+  ],
+  "caveats": [
+    "Be cautious when deleting files; ensure you don't remove important data."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

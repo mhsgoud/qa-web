@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-check-if-my-gpu-is-bottlenecked",
+  "directAnswer": "Monitor your GPU usage during gaming or intensive tasks using tools like MSI Afterburner or Task Manager. If the GPU usage is consistently at 100% while the CPU is underutilized, it may indicate a bottleneck.",
+  "summary": "Identifying a GPU bottleneck involves analyzing performance metrics during demanding tasks to determine if the GPU is the limiting factor.",
+  "sections": [
+    {
+      "id": "understanding-bottlenecks",
+      "heading": "Understanding Bottlenecks",
+      "body": "A bottleneck occurs when one component limits the performance of the entire system. In gaming, if the GPU is the component hitting 100% usage while the CPU is significantly lower, it suggests the GPU is the bottleneck."
+    },
+    {
+      "id": "using-monitoring-tools",
+      "heading": "Using Monitoring Tools",
+      "body": "Tools like MSI Afterburner, GPU-Z, and Windows Task Manager can help you monitor GPU and CPU usage in real-time. This data is crucial for identifying performance issues."
+    },
+    {
+      "id": "performance-testing",
+      "heading": "Performance Testing",
+      "body": "Running benchmarks and stress tests can provide insights into your system's performance. Compare your results with similar systems to see if your GPU is underperforming."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Install a Monitoring Tool",
+      "detail": "Download and install MSI Afterburner or use Task Manager (Ctrl + Shift + Esc) to monitor performance metrics."
+    },
+    {
+      "title": "Run a Benchmark or Game",
+      "detail": "Launch a demanding game or benchmarking tool while the monitoring tool is active to collect performance data."
+    },
+    {
+      "title": "Analyze Usage Data",
+      "detail": "Check the GPU and CPU usage percentages during the test. If the GPU is at 100% and the CPU is significantly lower, a GPU bottleneck is likely."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a good GPU usage percentage during gaming?",
+      "answer": "Typically, a GPU usage of 90-100% is expected during intensive gaming, but consistent 100% usage may indicate a bottleneck if the CPU is not fully utilized."
+    },
+    {
+      "question": "Can a bottleneck be fixed?",
+      "answer": "Yes, upgrading the GPU, optimizing game settings, or overclocking components can alleviate bottlenecks."
+    },
+    {
+      "question": "How do I know if my CPU is the bottleneck instead?",
+      "answer": "If your CPU usage is consistently at 90% or higher while the GPU is under 80%, the CPU may be the bottleneck."
+    }
+  ],
+  "caveats": [
+    "Bottleneck analysis can vary based on specific workloads and configurations; results may differ across games and applications."
+  ],
+  "relatedToolIdeas": [
+    "GPU comparison tool"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

@@ -1,0 +1,41 @@
+{
+  "rank": 98,
+  "slug": "how-do-i-uninstall-programs-on-windows",
+  "question": "How do I uninstall programs on Windows?",
+  "category": "Computers",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 61.9,
+    "volume": 100,
+    "commercial": 66,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "high",
+    "competition": "low"
+  },
+  "primaryKeyword": "uninstall programs on windows",
+  "articleTitle": "How do I uninstall programs on Windows?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "RAM needs calculator",
+  "reason": "strong demand signals; rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-uninstall-programs-on-windows",
+  "status": "queued"
+}

@@ -1,0 +1,41 @@
+{
+  "rank": 31,
+  "slug": "how-do-i-charge-an-ev-in-the-netherlands",
+  "question": "How do I charge an EV in the Netherlands?",
+  "category": "EVs",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 84.5,
+    "volume": 84,
+    "commercial": 92,
+    "competition": 30,
+    "ease": 70,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "low"
+  },
+  "primaryKeyword": "charge an ev in the netherlands",
+  "articleTitle": "How do I charge an EV in the Netherlands?",
+  "monetizationType": "Affiliate + AdSense",
+  "suggestedTool": "EV home charger calculator",
+  "reason": "strong demand signals; high monetization potential; rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-charge-an-ev-in-the-netherlands",
+  "status": "queued"
+}

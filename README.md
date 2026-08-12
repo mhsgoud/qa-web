@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Clarify
 
-## Getting Started
+Technology Q&A site seeded from `data/tech_questions_10000.csv`.
 
-First, run the development server:
+## Run
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Fill in answers
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Answers live as JSON files in `data/answers/`. Copy `data/answers/_template.json` and rename it to your slug:
 
-## Learn More
+```
+data/answers/how-do-i-connect-a-monitor-to-a-laptop.json
+```
 
-To learn more about Next.js, take a look at the following resources:
+Required fields: `slug`, `directAnswer`, `summary`, `sections`, `status`, `updatedAt`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Status workflow:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `draft` — generated or in progress
+- `reviewed` — human-checked, OK to show
+- `published` — ready for SEO indexing
 
-## Deploy on Vercel
+### Generate with OpenAI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Get an API key from [platform.openai.com](https://platform.openai.com/api-keys)
+2. Create `.env` in the project root:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+cp .env.example .env
+```
+
+3. Add your key:
+
+```
+OPENAI_API_KEY=sk-...
+OPENAI_MODEL=gpt-4o-mini
+```
+
+4. Run generation:
+
+```bash
+npm run answers:generate              # top 20, skip existing
+npm run answers:generate -- --limit=50
+npm run answers:generate -- --force     # overwrite stubs
+npm run answers:generate -- --slug=how-do-i-clone-an-ssd
+```
+
+Output goes to `data/answers/[slug].json` with `"status": "draft"`.
+
+5. **Review each file** — fix inaccuracies, then change status to `reviewed` or `published`.
+
+6. Restart dev server if needed: `npm run dev`
+
+Cost ballpark: ~$0.01–0.03 per answer with `gpt-4o-mini` (20 answers ≈ $0.20–0.60).
+
+## Score opportunities
+
+```bash
+npm run score
+```
+
+Writes:
+
+- `data/scored_questions_10000.csv` — full scored catalog
+- `data/winners.csv` / `data/winners.json` — clean priority list (wave 1)
+- `data/winners_100.csv` — top 100 cut
+- `data/briefs/*.json` — generation briefs for each winner
+
+Scoring formula (heuristic, no paid SEO API):
+
+`priority ≈ volume × commercial × ease ÷ contentDifficulty`
+
+with a hard quality gate that drops templated CSV expansions.
+
+## What’s included
+
+- Landing page with search and topic browse
+- `/q/[slug]` answer pages for all 10,000 questions
+- `/winners` priority queue for content generation
+- Sample hand-written answers (quality bar for later AI generation)
+- FAQ JSON-LD on answer pages
+
+## Content strategy
+
+Do not bulk-publish thin AI pages. Generate → review → mark `published`. See `src/lib/generation.ts` for the content contract.

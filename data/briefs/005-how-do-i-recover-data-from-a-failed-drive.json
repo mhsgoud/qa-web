@@ -1,0 +1,41 @@
+{
+  "rank": 5,
+  "slug": "how-do-i-recover-data-from-a-failed-drive",
+  "question": "How do I recover data from a failed drive?",
+  "category": "Storage",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 94.1,
+    "volume": 100,
+    "commercial": 86,
+    "competition": 30,
+    "ease": 70,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "low"
+  },
+  "primaryKeyword": "recover data from a failed drive",
+  "articleTitle": "How do I recover data from a failed drive?",
+  "monetizationType": "AdSense + affiliate",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; high monetization potential; rankable long-tail shape; top-tier opportunity; early-category seed",
+  "url": "/q/how-do-i-recover-data-from-a-failed-drive",
+  "status": "queued"
+}

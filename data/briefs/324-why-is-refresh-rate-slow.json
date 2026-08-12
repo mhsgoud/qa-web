@@ -1,0 +1,41 @@
+{
+  "rank": 324,
+  "slug": "why-is-refresh-rate-slow",
+  "question": "Why is refresh rate slow?",
+  "category": "Monitors",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 33.7,
+    "volume": 82,
+    "commercial": 94,
+    "competition": 65,
+    "ease": 35,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "high"
+  },
+  "primaryKeyword": "refresh rate slow",
+  "articleTitle": "Why is refresh rate slow?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; high monetization potential; early-category seed",
+  "url": "/q/why-is-refresh-rate-slow",
+  "status": "queued"
+}

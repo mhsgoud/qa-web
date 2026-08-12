@@ -1,0 +1,41 @@
+{
+  "rank": 262,
+  "slug": "what-is-a-browser-fingerprint",
+  "question": "What is a browser fingerprint?",
+  "category": "Internet Services",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 6.5,
+    "volume": 90,
+    "commercial": 50,
+    "competition": 87,
+    "ease": 13,
+    "contentDifficulty": 45
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "very-high"
+  },
+  "primaryKeyword": "a browser fingerprint",
+  "articleTitle": "What is a browser fingerprint?",
+  "monetizationType": "AdSense",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; early-category seed",
+  "url": "/q/what-is-a-browser-fingerprint",
+  "status": "queued"
+}

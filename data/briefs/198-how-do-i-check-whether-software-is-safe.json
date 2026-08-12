@@ -1,0 +1,41 @@
+{
+  "rank": 198,
+  "slug": "how-do-i-check-whether-software-is-safe",
+  "question": "How do I check whether software is safe?",
+  "category": "Software",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 42,
+    "volume": 80,
+    "commercial": 48,
+    "competition": 30,
+    "ease": 70,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "low"
+  },
+  "primaryKeyword": "check whether software is safe",
+  "articleTitle": "How do I check whether software is safe?",
+  "monetizationType": "AdSense",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-check-whether-software-is-safe",
+  "status": "queued"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-record-my-screen-on-iphone",
+  "directAnswer": "To record your screen on an iPhone, enable the Screen Recording feature in Settings and then use the Control Center to start recording.",
+  "summary": "Screen recording on iPhone is a straightforward process that requires enabling the feature in settings and accessing it through the Control Center.",
+  "sections": [
+    {
+      "id": "enabling-screen-recording",
+      "heading": "Enabling Screen Recording",
+      "body": "To record your screen, first ensure that the Screen Recording feature is enabled in your iPhone settings. Go to Settings > Control Center > Customize Controls, then add Screen Recording."
+    },
+    {
+      "id": "using-control-center",
+      "heading": "Using Control Center to Record",
+      "body": "Once Screen Recording is enabled, swipe down from the upper-right corner of the screen (or swipe up from the bottom on older models) to access the Control Center. Tap the Screen Recording icon to start recording."
+    },
+    {
+      "id": "stopping-recording",
+      "heading": "Stopping the Recording",
+      "body": "To stop recording, tap the red status bar at the top of the screen and select 'Stop', or return to the Control Center and tap the Screen Recording icon again."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Enable Screen Recording",
+      "detail": "Go to Settings > Control Center > Customize Controls and add Screen Recording."
+    },
+    {
+      "title": "Access Control Center",
+      "detail": "Swipe down from the upper-right corner (or swipe up from the bottom on older models) to open the Control Center."
+    },
+    {
+      "title": "Start Recording",
+      "detail": "Tap the Screen Recording icon to begin capturing your screen."
+    },
+    {
+      "title": "Stop Recording",
+      "detail": "Tap the red status bar at the top of the screen and select 'Stop', or tap the Screen Recording icon again in the Control Center."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I record audio while screen recording?",
+      "answer": "Yes, you can record audio by long-pressing the Screen Recording icon in the Control Center and tapping the microphone icon to enable audio recording."
+    },
+    {
+      "question": "Where can I find my recorded videos?",
+      "answer": "Your screen recordings are saved to the Photos app in the 'Recents' album."
+    },
+    {
+      "question": "Is there a time limit for screen recording?",
+      "answer": "There is no specific time limit for screen recording, but storage space on your device may affect the duration of your recordings."
+    }
+  ],
+  "caveats": [
+    "Screen recording may not capture certain apps or content due to copyright restrictions."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "draft",
+  "updatedAt": "2026-08-12"
+}

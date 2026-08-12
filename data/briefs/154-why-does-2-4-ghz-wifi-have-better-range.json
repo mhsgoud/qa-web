@@ -1,0 +1,41 @@
+{
+  "rank": 154,
+  "slug": "why-does-2-4-ghz-wifi-have-better-range",
+  "question": "Why does 2.4 GHz WiFi have better range?",
+  "category": "WiFi",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 51,
+    "volume": 100,
+    "commercial": 68,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "high",
+    "competition": "low"
+  },
+  "primaryKeyword": "24 ghz wifi have better range",
+  "articleTitle": "Why does 2.4 GHz WiFi have better range?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Wi‑Fi speed / channel helper",
+  "reason": "strong demand signals; rankable long-tail shape; early-category seed",
+  "url": "/q/why-does-2-4-ghz-wifi-have-better-range",
+  "status": "queued"
+}

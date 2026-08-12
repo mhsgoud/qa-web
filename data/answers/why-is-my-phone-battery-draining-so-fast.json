@@ -1,0 +1,45 @@
+{
+  "slug": "why-is-my-phone-battery-draining-so-fast",
+  "directAnswer": "Fast drain is usually caused by a hungry app, always-on radios (5G/Wi‑Fi scanning), a failing battery, or a recent OS update — not the phone being old alone.",
+  "summary": "Start with battery usage charts, then fix the top offender. Replace the battery only after software causes are ruled out.",
+  "sections": [
+    {
+      "id": "diagnose",
+      "heading": "Diagnose in 5 minutes",
+      "body": "On iPhone: Settings → Battery and check Battery Usage by App. On Android: Settings → Battery → Battery usage. Note whether Screen on or Screen off drain dominates. Screen-off drain points to background apps, push sync, or a bad cellular signal."
+    },
+    {
+      "id": "common-causes",
+      "heading": "Most common causes",
+      "body": "Social/video apps refreshing in background, precision location always allowed, weak signal forcing the modem to boost power, outdated apps after an OS update, and worn batteries (often visible as unexpected shutdowns above 20%)."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Update the OS and the top battery app",
+      "detail": "Bugs after major updates are common; patch first."
+    },
+    {
+      "title": "Restrict background activity for the top 1–2 apps",
+      "detail": "iOS: Background App Refresh off for that app. Android: Battery → Restricted / optimize."
+    },
+    {
+      "title": "Test overnight with Wi‑Fi on and apps closed",
+      "detail": "If overnight loss stays above ~8–10%, suspect battery health or a rogue background process."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Low Power Mode enough?",
+      "answer": "It helps symptoms but hides the cause. Use it after you identify the app or radio wasting power."
+    }
+  ],
+  "caveats": [
+    "Cold weather temporarily reduces reported charge — wait until the phone warms before replacing hardware."
+  ],
+  "relatedToolIdeas": [
+    "Overnight drain calculator"
+  ],
+  "status": "reviewed",
+  "updatedAt": "2026-08-11"
+}

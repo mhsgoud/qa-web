@@ -1,0 +1,41 @@
+{
+  "rank": 372,
+  "slug": "why-is-git-slow",
+  "question": "Why is Git slow?",
+  "category": "Developer Tools",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 7.8,
+    "volume": 64,
+    "commercial": 36,
+    "competition": 73,
+    "ease": 27,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "medium",
+    "commercial": "low",
+    "competition": "high"
+  },
+  "primaryKeyword": "git slow",
+  "articleTitle": "Why is Git slow?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "balanced mid-tier topic; early-category seed",
+  "url": "/q/why-is-git-slow",
+  "status": "queued"
+}

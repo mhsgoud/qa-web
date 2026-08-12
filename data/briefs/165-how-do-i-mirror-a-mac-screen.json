@@ -1,0 +1,41 @@
+{
+  "rank": 165,
+  "slug": "how-do-i-mirror-a-mac-screen",
+  "question": "How do I mirror a Mac screen?",
+  "category": "macOS",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 48.8,
+    "volume": 100,
+    "commercial": 52,
+    "competition": 40,
+    "ease": 60,
+    "contentDifficulty": 32
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "medium",
+    "competition": "low"
+  },
+  "primaryKeyword": "mirror a mac screen",
+  "articleTitle": "How do I mirror a Mac screen?",
+  "monetizationType": "AdSense",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; rankable long-tail shape; early-category seed",
+  "url": "/q/how-do-i-mirror-a-mac-screen",
+  "status": "queued"
+}

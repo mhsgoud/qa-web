@@ -1,0 +1,41 @@
+{
+  "rank": 369,
+  "slug": "why-is-programming-not-working",
+  "question": "Why is programming not working?",
+  "category": "Programming",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 9.3,
+    "volume": 67,
+    "commercial": 41,
+    "competition": 73,
+    "ease": 27,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "high",
+    "commercial": "low",
+    "competition": "high"
+  },
+  "primaryKeyword": "programming not working",
+  "articleTitle": "Why is programming not working?",
+  "monetizationType": "AdSense (low) / newsletter",
+  "suggestedTool": "RAM needs calculator",
+  "reason": "balanced mid-tier topic; early-category seed",
+  "url": "/q/why-is-programming-not-working",
+  "status": "queued"
+}

@@ -1,0 +1,41 @@
+{
+  "rank": 332,
+  "slug": "why-is-ray-tracing-slow",
+  "question": "Why is ray tracing slow?",
+  "category": "GPUs",
+  "intent": "Informational",
+  "contentType": "Explainer",
+  "mustInclude": [
+    "directAnswer",
+    "platform-specific steps when applicable",
+    "at least one caveat",
+    "2–4 genuine FAQs"
+  ],
+  "avoid": [
+    "generic benefits/disadvantages sections with no specifics",
+    "repeating the question as the answer",
+    "fabricated statistics",
+    "keyword stuffing",
+    "identical section templates across unrelated topics"
+  ],
+  "scores": {
+    "priority": 30,
+    "volume": 96,
+    "commercial": 100,
+    "competition": 75,
+    "ease": 25,
+    "contentDifficulty": 40
+  },
+  "bands": {
+    "volume": "very-high",
+    "commercial": "very-high",
+    "competition": "high"
+  },
+  "primaryKeyword": "ray tracing slow",
+  "articleTitle": "Why is ray tracing slow?",
+  "monetizationType": "AdSense + tool upsell",
+  "suggestedTool": "Related Q&A cluster + checklist",
+  "reason": "strong demand signals; high monetization potential; early-category seed",
+  "url": "/q/why-is-ray-tracing-slow",
+  "status": "queued"
+}
