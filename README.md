@@ -1,6 +1,6 @@
-# Clarify
+# AnswerKit
 
-Technology Q&A site seeded from `data/tech_questions_10000.csv`.
+Technology Q&A at [answerkit.tech](https://answerkit.tech).
 
 ## Run
 

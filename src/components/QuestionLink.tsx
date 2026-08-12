@@ -16,7 +16,7 @@ const CATEGORY_COLORS: Record<string, string> = {
 };
 
 function categoryColor(name: string) {
-  return CATEGORY_COLORS[name] ?? "#0d7a63";
+  return CATEGORY_COLORS[name] ?? "#2563eb";
 }
 
 export function QuestionLink({ question }: { question: Question }) {

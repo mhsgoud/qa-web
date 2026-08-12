@@ -6,9 +6,10 @@ import { FormEvent, useState } from "react";
 type Props = {
   initialQuery?: string;
   large?: boolean;
+  hero?: boolean;
 };
 
-export function SearchBox({ initialQuery = "", large = false }: Props) {
+export function SearchBox({ initialQuery = "", large = false, hero = false }: Props) {
   const router = useRouter();
   const [query, setQuery] = useState(initialQuery);
 
@@ -19,12 +20,12 @@ export function SearchBox({ initialQuery = "", large = false }: Props) {
     router.push(`/search?q=${encodeURIComponent(q)}`);
   }
 
+  const classes = ["search-box", large && "search-box-lg", hero && "search-box-hero"]
+    .filter(Boolean)
+    .join(" ");
+
   return (
-    <form
-      className={`search-box ${large ? "search-box-lg" : ""}`}
-      onSubmit={onSubmit}
-      role="search"
-    >
+    <form className={classes} onSubmit={onSubmit} role="search">
       <label className="sr-only" htmlFor="site-search">
         Search questions
       </label>

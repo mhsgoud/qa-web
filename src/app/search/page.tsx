@@ -9,7 +9,7 @@ type Props = {
 
 export const metadata: Metadata = {
   title: "Search",
-  description: "Search Clarify’s technology question library.",
+  description: "Search AnswerKit’s technology question library.",
 };
 
 export default async function SearchPage({ searchParams }: Props) {

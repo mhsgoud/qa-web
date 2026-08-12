@@ -3,7 +3,7 @@ import { getCategories } from "@/lib/questions";
 
 export const metadata = {
   title: "Browse topics",
-  description: "Explore technology question categories on Clarify.",
+  description: "Explore technology question categories on AnswerKit.",
 };
 
 export default function BrowsePage() {

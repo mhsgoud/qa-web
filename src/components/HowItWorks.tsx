@@ -1,4 +1,4 @@
-import { BrandLogo } from "./BrandLogo";
+import { BrandIcon } from "./BrandIcon";
 import { IconCheck, IconQuickAnswer, IconSearch, IconSteps } from "./Icons";
 
 const STEPS = [
@@ -29,7 +29,7 @@ export function HowItWorks() {
     <section className="shell how-it-works" aria-labelledby="how-it-works-title">
       <div className="section-head">
         <div>
-          <h2 id="how-it-works-title">Question → clear answer</h2>
+          <h2 id="how-it-works-title">How every answer is structured</h2>
           <p className="section-sub">Every page follows the same useful structure.</p>
         </div>
       </div>
@@ -57,9 +57,9 @@ export function HowItWorks() {
 
 export function TrustStrip() {
   return (
-    <section className="shell trust-strip" aria-label="What makes Clarify different">
+    <section className="shell trust-strip" aria-label="What makes AnswerKit different">
       <div className="trust-item">
-        <BrandLogo size={28} />
+        <BrandIcon size={36} className="trust-icon" />
         <div>
           <strong>Direct first</strong>
           <span>The answer is visible before you scroll.</span>

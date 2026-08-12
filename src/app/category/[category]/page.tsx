@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!name) return { title: "Category not found" };
   return {
     title: `${name} questions`,
-    description: `Practical ${name} questions and answers on Clarify.`,
+    description: `Practical ${name} questions and answers on AnswerKit.`,
   };
 }
 

@@ -1,13 +1,8 @@
 import type { Metadata } from "next";
-import { Fraunces, Manrope } from "next/font/google";
+import { Manrope } from "next/font/google";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { SITE } from "@/lib/site";
 import "./globals.css";
-
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
-  subsets: ["latin"],
-});
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -21,20 +16,22 @@ export const metadata: Metadata = {
     template: `%s · ${SITE.name}`,
   },
   description: SITE.description,
+  icons: {
+    icon: "/answerkit-icon.png",
+    apple: "/answerkit-icon.png",
+  },
   openGraph: {
     title: SITE.name,
     description: SITE.description,
     type: "website",
     siteName: SITE.name,
+    images: [{ url: "/answerkit-logo.png" }],
   },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="en"
-      className={`${fraunces.variable} ${manrope.variable} h-full antialiased`}
-    >
+    <html lang="en" className={`${manrope.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <SiteHeader />
         <main className="flex-1">{children}</main>

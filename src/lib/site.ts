@@ -1,7 +1,7 @@
 export const SITE = {
-  name: "Clarify",
-  tagline: "Tech answers that get to the point",
+  name: "AnswerKit",
+  tagline: "Find answers. Fast.",
   description:
     "Clear answers to real technology questions — with steps, caveats, and tools when they help.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://answerkit.tech",
 } as const;
