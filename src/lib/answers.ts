@@ -77,6 +77,29 @@ export function getAllAnswers(): AnswerContent[] {
   return answers;
 }
 
+export function getAnswersByStatus(
+  status: AnswerContent["status"],
+): AnswerContent[] {
+  return getAllAnswers().filter((a) => a.status === status);
+}
+
+/** Slugs with status "published" — only these are pre-rendered and in the sitemap. */
+export function getPublishedSlugs(): string[] {
+  return getAnswersByStatus("published").map((a) => a.slug);
+}
+
+export function getPublishedCount(): number {
+  return getPublishedSlugs().length;
+}
+
+export function isPublished(slug: string): boolean {
+  return getAnswer(slug)?.status === "published";
+}
+
+export function isIndexable(slug: string): boolean {
+  return isPublished(slug);
+}
+
 export function getAnswerSlugs(): string[] {
   if (!fs.existsSync(ANSWERS_DIR)) return [];
   return fs

@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
-import { getAllQuestions, getCategories } from "@/lib/questions";
+import { getPublishedSlugs } from "@/lib/answers";
+import { getAnswer } from "@/lib/content";
+import { getCategories } from "@/lib/questions";
 import { SITE } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -11,6 +13,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
+    },
+    {
+      url: `${base}/winners`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.6,
     },
     {
       url: `${base}/search`,
@@ -27,15 +35,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // First wave in sitemap; expand as answers are published
-  const questions = getAllQuestions()
-    .slice(0, 2000)
-    .map((q) => ({
-      url: `${base}/q/${q.slug}`,
-      lastModified: new Date(),
+  const published = getPublishedSlugs().map((slug) => {
+    const answer = getAnswer(slug);
+    return {
+      url: `${base}/q/${slug}`,
+      lastModified: answer?.updatedAt ? new Date(answer.updatedAt) : new Date(),
       changeFrequency: "monthly" as const,
-      priority: 0.6,
-    }));
+      priority: 0.8,
+    };
+  });
 
-  return [...staticRoutes, ...categories, ...questions];
+  return [...staticRoutes, ...categories, ...published];
 }

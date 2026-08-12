@@ -29,8 +29,8 @@ Update `NEXT_PUBLIC_SITE_URL` to match, then redeploy.
 
 ## 4. Before you go live
 
-- [ ] Set answer `status` to `reviewed` or `published` for pages you want indexed
-- [ ] Draft answers are auto `noindex` — good for WIP content
+- [ ] Set answer `status` to `"published"` for pages you want indexed and pre-built
+- [ ] `"draft"` and `"reviewed"` pages work on the site but are **noindex** and built on first visit only
 - [ ] Run `npm run build` locally to catch errors
 - [ ] Set `NEXT_PUBLIC_SITE_URL` to your real URL (sitemap + Open Graph)
 

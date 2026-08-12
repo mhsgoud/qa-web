@@ -4,7 +4,7 @@ import { SearchBox } from "@/components/SearchBox";
 import { getAllQuestions, getCategories, getQuestionBySlug } from "@/lib/questions";
 import { SITE } from "@/lib/site";
 import { getTopWinners, getWinners } from "@/lib/winners";
-import { getAnswerSlugs } from "@/lib/answers";
+import { getPublishedCount } from "@/lib/answers";
 
 export default function HomePage() {
   const categories = getCategories().slice(0, 12);
@@ -15,7 +15,7 @@ export default function HomePage() {
 
   const totalQuestions = getAllQuestions().length;
   const priorityCount = getWinners().length;
-  const answeredCount = getAnswerSlugs().length;
+  const publishedCount = getPublishedCount();
 
   return (
     <>
@@ -36,8 +36,8 @@ export default function HomePage() {
             <span className="stat-label">priority topics</span>
           </div>
           <div className="stat-chip">
-            <span className="stat-value">{answeredCount}</span>
-            <span className="stat-label">answers live</span>
+            <span className="stat-value">{publishedCount}</span>
+            <span className="stat-label">published</span>
           </div>
         </div>
 

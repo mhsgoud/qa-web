@@ -23,9 +23,9 @@ Required fields: `slug`, `directAnswer`, `summary`, `sections`, `status`, `updat
 
 Status workflow:
 
-- `draft` — generated or in progress
-- `reviewed` — human-checked, OK to show
-- `published` — ready for SEO indexing
+- `draft` — generated or in progress (noindex, not pre-built)
+- `reviewed` — human-checked preview (noindex, not pre-built)
+- `published` — live for SEO (indexed, pre-built at deploy, in sitemap)
 
 ### Generate with OpenAI
 
