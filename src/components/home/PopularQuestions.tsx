@@ -8,10 +8,11 @@ type Props = {
 
 export function PopularQuestions({ questions }: Props) {
   return (
-    <section className="home-band home-section" aria-labelledby="popular-title">
+    <section className="home-popular" aria-labelledby="popular-title">
       <div className="shell">
         <div className="section-head">
           <div>
+            <p className="section-kicker">Popular</p>
             <h2 id="popular-title">Popular tech questions</h2>
             <p className="section-sub">What people are looking for right now.</p>
           </div>

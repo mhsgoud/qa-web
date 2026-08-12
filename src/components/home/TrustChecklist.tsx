@@ -3,14 +3,14 @@ import { HOME_TRUST_ITEMS } from "@/lib/site";
 export function TrustChecklist() {
   return (
     <section className="home-trust" aria-labelledby="trust-title">
-      <div className="shell">
-        <div className="home-section-intro">
+      <div className="shell home-trust-layout">
+        <div>
+          <p className="section-kicker">Trust</p>
           <h2 id="trust-title">Answers you can actually trust</h2>
           <p className="home-section-lead">
-            Every AnswerKit page is reviewed before publication — so you get clarity, not generic AI filler.
+            Every page is reviewed before publication — clarity, not generic AI filler.
           </p>
         </div>
-
         <ul className="trust-checklist">
           {HOME_TRUST_ITEMS.map((item) => (
             <li key={item}>

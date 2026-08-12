@@ -3,14 +3,12 @@ export const SITE = {
   tagline: "Find answers. Fast.",
   description:
     "Get clear answers to your tech questions — without digging through forums.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://answerkit.tech",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://answerkit.site",
   hero: {
     line1: "Get unstuck.",
     line2: "Get a clear answer.",
     subhead:
-      "Search real technology questions and get practical answers without digging through forums.",
-    detail:
-      "Phones, computers, programming, AI, GPUs, storage, and more — with a direct answer, step-by-step instructions, and important caveats.",
+      "Practical answers to real tech questions — without digging through forums.",
   },
 } as const;
 

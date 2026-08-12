@@ -16,16 +16,37 @@ git push origin main
 2. **Add New Project** → import `qa-web`
 3. Framework preset: **Next.js** (auto-detected)
 4. Add environment variable:
-   - `NEXT_PUBLIC_SITE_URL` = `https://your-domain.vercel.app` (or your custom domain)
+   - `NEXT_PUBLIC_SITE_URL` = `https://answerkit.site`
 5. Click **Deploy**
 
 Build takes ~2 minutes. Every `git push` redeploys automatically.
 
-## 3. Custom domain (optional)
+## 3. Custom domain (Namecheap → Vercel)
 
-Vercel project → **Settings → Domains** → add your domain and follow DNS instructions.
+### In Vercel
+1. Project → **Settings → Domains**
+2. Add `answerkit.site` and `www.answerkit.site`
+3. Prefer redirecting `www` → apex (or the reverse — pick one)
 
-Update `NEXT_PUBLIC_SITE_URL` to match, then redeploy.
+### In Namecheap
+1. Domain List → **Manage** next to `answerkit.site`
+2. **Advanced DNS** tab
+3. Delete conflicting `A` / `CNAME` records for `@` and `www` (keep email MX if you use them)
+4. Add what Vercel shows. Typically:
+
+| Type  | Host | Value                         | TTL  |
+|-------|------|-------------------------------|------|
+| A     | `@`  | `76.76.21.21`                 | Automatic |
+| CNAME | `www`| `cname.vercel-dns.com.`       | Automatic |
+
+(Use the exact values Vercel displays — they can change.)
+
+5. Save. Propagation is often 5–30 minutes, sometimes up to 48 hours.
+
+### After DNS works
+- Set `NEXT_PUBLIC_SITE_URL=https://answerkit.site` in Vercel → **Settings → Environment Variables**
+- Redeploy so sitemap, Open Graph, and canonicals use the new domain
+- Optional: in Domains, leave the `*.vercel.app` URL as a redirect to `answerkit.site` so Google doesn’t index both
 
 ## 4. Before you go live
 

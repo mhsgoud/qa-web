@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CategoryPill } from "@/components/QuestionLink";
+import { categoryToSlug } from "@/lib/questions";
 
 type Category = { name: string; slug: string; count: number };
 
@@ -11,26 +11,32 @@ type Props = {
 
 export function BrowseTopics({ categories, topicCount, questionCount }: Props) {
   return (
-    <section className="shell home-section" aria-labelledby="browse-topics-title">
-      <div className="home-section-intro home-section-intro-left">
-        <h2 id="browse-topics-title">Browse technology topics</h2>
-        <p className="home-section-lead">
-          {questionCount.toLocaleString()}+ practical technology answers across {topicCount}+ topics.
-          Pick a category to explore questions.
-        </p>
-      </div>
+    <section className="home-topics" aria-labelledby="browse-topics-title">
+      <div className="shell">
+        <div className="home-topics-head">
+          <div>
+            <p className="section-kicker">Library</p>
+            <h2 id="browse-topics-title">Browse by topic</h2>
+            <p className="home-section-lead">
+              {questionCount.toLocaleString()}+ questions across {topicCount} technology topics.
+            </p>
+          </div>
+          <Link href="/browse" className="section-link">
+            All topics →
+          </Link>
+        </div>
 
-      <div className="category-grid category-grid-prominent">
-        {categories.map((cat) => (
-          <CategoryPill key={cat.slug} name={cat.name} count={cat.count} />
-        ))}
+        <ul className="topic-grid">
+          {categories.map((cat) => (
+            <li key={cat.slug}>
+              <Link href={`/category/${categoryToSlug(cat.name)}`} className="topic-link">
+                <span className="topic-name">{cat.name}</span>
+                <span className="topic-count">{cat.count}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
-
-      <p className="home-section-foot">
-        <Link href="/browse" className="section-link">
-          Browse all topics →
-        </Link>
-      </p>
     </section>
   );
 }

@@ -1,12 +1,18 @@
 import type { Metadata } from "next";
-import { Manrope } from "next/font/google";
+import { Outfit, Space_Grotesk } from "next/font/google";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
-const manrope = Manrope({
-  variable: "--font-manrope",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
+});
+
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space",
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -31,7 +37,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${manrope.variable} h-full antialiased`}>
+    <html lang="en" className={`${outfit.variable} ${spaceGrotesk.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <SiteHeader />
         <main className="flex-1">{children}</main>

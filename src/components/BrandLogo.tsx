@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { BrandWordmark } from "@/components/BrandIcon";
 
 type Props = {
   variant?: "header" | "footer";
@@ -7,31 +6,27 @@ type Props = {
   priority?: boolean;
 };
 
-/** Header: icon + CSS wordmark. Footer: full logo PNG. */
+/** Uses the official AnswerKit horizontal lockup (icon + wordmark). */
 export function BrandLogo({ variant = "header", className = "", priority = false }: Props) {
   if (variant === "header") {
     return (
-      <span className={`brand-lockup ${className}`.trim()}>
-        <Image
-          src="/answerkit-icon.png"
-          alt=""
-          width={389}
-          height={314}
-          priority={priority}
-          aria-hidden
-          className="brand-lockup-icon"
-        />
-        <BrandWordmark />
-      </span>
+      <Image
+        src="/answerkit-logo-horizontal.png"
+        alt="AnswerKit"
+        width={657}
+        height={106}
+        priority={priority}
+        className={`brand-logo-header ${className}`.trim()}
+      />
     );
   }
 
   return (
     <Image
-      src="/answerkit-logo.png"
+      src="/answerkit-logo-horizontal.png"
       alt="AnswerKit — Find answers. Fast."
-      width={1024}
-      height={682}
+      width={657}
+      height={106}
       priority={priority}
       className={`brand-logo-full ${className}`.trim()}
     />

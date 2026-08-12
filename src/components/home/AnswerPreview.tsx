@@ -9,20 +9,24 @@ export function AnswerPreview() {
 
   if (!question || !answer) return null;
 
-  const steps = answer.steps?.slice(0, 4) ?? [];
+  const steps = answer.steps?.slice(0, 3) ?? [];
   const caveat = answer.caveats?.[0];
 
   return (
     <section className="home-preview" aria-labelledby="answer-preview-title">
-      <div className="shell">
-        <div className="home-section-intro">
-          <h2 id="answer-preview-title">See an AnswerKit answer</h2>
+      <div className="shell home-preview-layout">
+        <div className="home-preview-copy">
+          <p className="section-kicker">How an answer looks</p>
+          <h2 id="answer-preview-title">Answer first. Then the steps.</h2>
           <p className="home-section-lead">
-            Every page puts the answer first, then steps and caveats — not a wall of filler.
+            Every page puts the solution up top — then instructions and caveats. No 1,500-word intro.
           </p>
+          <Link href={`/q/${HOME_PREVIEW_SLUG}`} className="btn-primary">
+            Read a real answer →
+          </Link>
         </div>
 
-        <article className="preview-card">
+        <article className="preview-panel">
           <header className="preview-header">
             <p className="eyebrow">{question.category}</p>
             <h3 className="preview-question">{question.question}</h3>
@@ -39,8 +43,11 @@ export function AnswerPreview() {
               <ol className="preview-steps">
                 {steps.map((step, i) => (
                   <li key={step.title}>
-                    <strong>{i + 1}. {step.title}</strong>
-                    <span>{step.detail}</span>
+                    <span className="preview-step-num">{i + 1}</span>
+                    <div>
+                      <strong>{step.title}</strong>
+                      <span>{step.detail}</span>
+                    </div>
                   </li>
                 ))}
               </ol>
@@ -53,12 +60,6 @@ export function AnswerPreview() {
               <p>{caveat}</p>
             </section>
           ) : null}
-
-          <footer className="preview-footer">
-            <Link href={`/q/${HOME_PREVIEW_SLUG}`} className="preview-cta">
-              Read the full answer →
-            </Link>
-          </footer>
         </article>
       </div>
     </section>
