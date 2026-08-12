@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BrandLogo } from "@/components/BrandLogo";
 import { MobileNav } from "@/components/MobileNav";
 import { SITE } from "@/lib/site";
 
@@ -13,7 +14,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="shell header-inner">
         <Link href="/" className="brand">
-          <span className="brand-mark" aria-hidden />
+          <BrandLogo size={36} className="brand-logo" />
           <span className="brand-text">
             <span className="brand-name">{SITE.name}</span>
             <span className="brand-tagline">{SITE.tagline}</span>
@@ -36,8 +37,11 @@ export function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="shell footer-inner">
-        <div className="footer-col">
-          <p className="footer-brand">{SITE.name}</p>
+        <div className="footer-col footer-brand-col">
+          <div className="footer-brand-row">
+            <BrandLogo size={28} />
+            <p className="footer-brand">{SITE.name}</p>
+          </div>
           <p className="footer-note">{SITE.tagline}</p>
         </div>
         <div className="footer-col footer-links">

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { IconFaq, IconSteps, IconWarn } from "@/components/Icons";
+import { SectionHeading } from "@/components/SectionHeading";
 import { StatusBadge } from "@/components/StatusBadge";
 import type { AnswerContent, Question } from "@/lib/types";
 import { categoryToSlug } from "@/lib/questions";
@@ -43,7 +45,10 @@ export function AnswerArticle({ question, answer, related }: Props) {
           </header>
 
           <section className="direct-answer card-elevated" aria-label="Direct answer">
-            <p className="direct-answer-label">Quick answer</p>
+            <div className="direct-answer-head">
+              <span className="direct-answer-badge">✓</span>
+              <p className="direct-answer-label">Quick answer</p>
+            </div>
             <p className="direct-answer-text">{answer.directAnswer}</p>
           </section>
 
@@ -51,7 +56,7 @@ export function AnswerArticle({ question, answer, related }: Props) {
 
           {answer.steps && answer.steps.length > 0 ? (
             <section className="answer-section card" id="steps">
-              <h2>Steps</h2>
+              <SectionHeading icon={<IconSteps />}>Steps</SectionHeading>
               <ol className="step-list">
                 {answer.steps.map((step, i) => (
                   <li key={step.title}>
@@ -75,7 +80,7 @@ export function AnswerArticle({ question, answer, related }: Props) {
 
           {answer.caveats && answer.caveats.length > 0 ? (
             <section className="answer-section card card-warn" id="caveats">
-              <h2>Watch out for</h2>
+              <SectionHeading icon={<IconWarn />}>Watch out for</SectionHeading>
               <ul>
                 {answer.caveats.map((item) => (
                   <li key={item}>{item}</li>
@@ -86,7 +91,7 @@ export function AnswerArticle({ question, answer, related }: Props) {
 
           {answer.faqs && answer.faqs.length > 0 ? (
             <section className="answer-section" id="faq">
-              <h2>FAQ</h2>
+              <SectionHeading icon={<IconFaq />}>FAQ</SectionHeading>
               <div className="faq-list">
                 {answer.faqs.map((faq) => (
                   <details key={faq.question} className="faq-item">

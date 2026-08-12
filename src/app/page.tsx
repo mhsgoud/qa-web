@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CategoryPill, QuestionLink } from "@/components/QuestionLink";
+import { HowItWorks, TrustStrip } from "@/components/HowItWorks";
 import { SearchBox } from "@/components/SearchBox";
 import { getAllQuestions, getCategories, getQuestionBySlug } from "@/lib/questions";
 import { SITE } from "@/lib/site";
@@ -22,7 +23,8 @@ export default function HomePage() {
       <section className="shell hero">
         <p className="eyebrow">Technology Q&amp;A</p>
         <h1 className="hero-brand">
-          Answers that get to the <em>point</em>
+          From <span className="hero-q">question</span> to{" "}
+          <span className="hero-a">answer</span>
         </h1>
         <p className="hero-lead">{SITE.description}</p>
 
@@ -35,7 +37,7 @@ export default function HomePage() {
             <span className="stat-value">{priorityCount}</span>
             <span className="stat-label">priority topics</span>
           </div>
-          <div className="stat-chip">
+          <div className="stat-chip stat-chip-accent">
             <span className="stat-value">{publishedCount}</span>
             <span className="stat-label">published</span>
           </div>
@@ -49,6 +51,9 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+
+      <TrustStrip />
+      <HowItWorks />
 
       <section className="shell section">
         <div className="section-head">
