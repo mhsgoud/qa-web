@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { AnswerArticle } from "@/components/AnswerArticle";
-import { isIndexable, getPublishedSlugs } from "@/lib/answers";
-import { getAnswer, getPlaceholderAnswer } from "@/lib/content";
+import { getPublishedSlugs, isPublished } from "@/lib/answers";
+import { getAnswer } from "@/lib/content";
 import {
-  getQuestionBySlug,
-  getRelatedQuestions,
+  getPublishedQuestionBySlug,
+  getPublishedRelatedQuestions,
 } from "@/lib/questions";
 
 type Props = {
@@ -19,22 +19,18 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const question = getQuestionBySlug(slug);
+  if (!isPublished(slug)) return { title: "Not found" };
+
+  const question = getPublishedQuestionBySlug(slug);
   if (!question) return { title: "Question not found" };
 
   const answer = getAnswer(slug);
-  const description =
-    answer?.directAnswer ??
-    `Clear answer to: ${question.question}`;
-
-  const indexable = isIndexable(slug);
+  const description = answer?.directAnswer ?? `Clear answer to: ${question.question}`;
 
   return {
     title: question.question,
     description,
-    robots: indexable
-      ? { index: true, follow: true }
-      : { index: false, follow: true },
+    robots: { index: true, follow: true },
     openGraph: {
       title: question.question,
       description,
@@ -48,14 +44,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function QuestionPage({ params }: Props) {
   const { slug } = await params;
-  const question = getQuestionBySlug(slug);
+  if (!isPublished(slug)) notFound();
+
+  const question = getPublishedQuestionBySlug(slug);
   if (!question) notFound();
 
-  const answer = getAnswer(slug) ?? {
-    ...getPlaceholderAnswer(question.question),
-    slug,
-  };
-  const related = getRelatedQuestions(question, 8);
+  const answer = getAnswer(slug);
+  if (!answer) notFound();
+
+  const related = getPublishedRelatedQuestions(question, 8);
 
   const jsonLd = {
     "@context": "https://schema.org",

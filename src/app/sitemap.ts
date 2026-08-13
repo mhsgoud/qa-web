@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getPublishedSlugs } from "@/lib/answers";
 import { getAnswer } from "@/lib/content";
-import { getCategories } from "@/lib/questions";
+import { getPublishedCategories } from "@/lib/questions";
 import { SITE } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -28,7 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const categories = getCategories().map((c) => ({
+  const categories = getPublishedCategories().map((c) => ({
     url: `${base}/category/${c.slug}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,

@@ -2,23 +2,22 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { QuestionLink } from "@/components/QuestionLink";
 import {
-  getCategories,
-  getCategoryName,
-  getQuestionsByCategory,
+  getPublishedCategories,
+  getPublishedCategoryName,
+  getPublishedQuestionsByCategory,
 } from "@/lib/questions";
-import { isHighQualityQuestion } from "@/lib/quality";
 
 type Props = {
   params: Promise<{ category: string }>;
 };
 
 export function generateStaticParams() {
-  return getCategories().map((c) => ({ category: c.slug }));
+  return getPublishedCategories().map((c) => ({ category: c.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params;
-  const name = getCategoryName(category);
+  const name = getPublishedCategoryName(category);
   if (!name) return { title: "Category not found" };
   return {
     title: `${name} questions`,
@@ -28,22 +27,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CategoryPage({ params }: Props) {
   const { category } = await params;
-  const name = getCategoryName(category);
+  const name = getPublishedCategoryName(category);
   if (!name) notFound();
 
-  const all = getQuestionsByCategory(category);
-  const ready = all.filter(isHighQualityQuestion);
-  const shown = (ready.length >= 12 ? ready : all).slice(0, 60);
+  const questions = getPublishedQuestionsByCategory(category);
 
   return (
     <div className="shell category-page">
       <h1 className="page-title">{name}</h1>
       <p className="page-lead">
-        Showing {shown.length} of {all.length.toLocaleString()} questions in this
-        topic.
+        {questions.length} published answer{questions.length === 1 ? "" : "s"} in
+        this topic.
       </p>
       <div className="question-list">
-        {shown.map((q) => (
+        {questions.map((q) => (
           <QuestionLink key={q.slug} question={q} />
         ))}
       </div>

@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { SearchBox } from "@/components/SearchBox";
 import { getAnswer } from "@/lib/content";
-import { getQuestionBySlug } from "@/lib/questions";
-import { HOME_PREVIEW_SLUG, HOME_TRY_SEARCHES, SITE } from "@/lib/site";
+import { getFeaturedPublishedQuestion, getPublishedQuestions } from "@/lib/questions";
+import { SITE } from "@/lib/site";
 
 export function HomeHero() {
-  const question = getQuestionBySlug(HOME_PREVIEW_SLUG);
-  const answer = getAnswer(HOME_PREVIEW_SLUG);
+  const question = getFeaturedPublishedQuestion();
+  const answer = question ? getAnswer(question.slug) : undefined;
   const firstStep = answer?.steps?.[0];
+  const tryLinks = getPublishedQuestions().slice(0, 3);
 
   return (
     <section className="home-hero">
@@ -32,18 +33,20 @@ export function HomeHero() {
             />
           </div>
 
-          <div className="home-try">
-            <span className="home-try-label">Try</span>
-            <ul className="home-try-list">
-              {HOME_TRY_SEARCHES.map((item) => (
-                <li key={item.slug}>
-                  <Link href={`/q/${item.slug}`} className="home-try-chip">
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+          {tryLinks.length > 0 ? (
+            <div className="home-try">
+              <span className="home-try-label">Try</span>
+              <ul className="home-try-list">
+                {tryLinks.map((item) => (
+                  <li key={item.slug}>
+                    <Link href={`/q/${item.slug}`} className="home-try-chip">
+                      {item.question}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
         </div>
 
         {question && answer ? (
@@ -72,7 +75,7 @@ export function HomeHero() {
                   </div>
                 </div>
               ) : null}
-              <Link href={`/q/${HOME_PREVIEW_SLUG}`} className="hero-answer-link">
+              <Link href={`/q/${question.slug}`} className="hero-answer-link">
                 See full answer →
               </Link>
             </div>

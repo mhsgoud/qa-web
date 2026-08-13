@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import Papa from "papaparse";
+import { getAnswer, getPublishedSlugs, isPublished } from "./answers";
 import type { Question } from "./types";
 import { isHighQualityQuestion } from "./quality";
 
@@ -119,4 +120,91 @@ export function searchQuestions(query: string, limit = 24): Question[] {
     .sort((a, b) => b.score - a.score)
     .slice(0, limit)
     .map(({ item }) => item);
+}
+
+let publishedQuestionsCache: Question[] | null = null;
+
+function loadPublishedQuestions(): Question[] {
+  if (publishedQuestionsCache) return publishedQuestionsCache;
+
+  publishedQuestionsCache = getPublishedSlugs()
+    .map((slug) => getQuestionBySlug(slug))
+    .filter((q): q is Question => Boolean(q));
+
+  return publishedQuestionsCache;
+}
+
+/** Questions that have a published answer — the only ones shown on the public site. */
+export function getPublishedQuestions(): Question[] {
+  return loadPublishedQuestions();
+}
+
+export function getPublishedQuestionBySlug(slug: string): Question | undefined {
+  if (!isPublished(slug)) return undefined;
+  return getQuestionBySlug(slug);
+}
+
+export function getPublishedCategories(): { name: string; slug: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const q of getPublishedQuestions()) {
+    counts.set(q.category, (counts.get(q.category) ?? 0) + 1);
+  }
+
+  return [...counts.entries()]
+    .map(([name, count]) => ({
+      name,
+      slug: categoryToSlug(name),
+      count,
+    }))
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getPublishedCategoryName(categorySlug: string): string | undefined {
+  return getPublishedCategories().find((c) => c.slug === categorySlug)?.name;
+}
+
+export function getPublishedQuestionsByCategory(categorySlug: string): Question[] {
+  return getPublishedQuestions().filter(
+    (q) => categoryToSlug(q.category) === categorySlug,
+  );
+}
+
+export function searchPublishedQuestions(query: string, limit = 24): Question[] {
+  const q = query.trim().toLowerCase();
+  if (!q) return [];
+
+  const tokens = q.split(/\s+/).filter(Boolean);
+  return getPublishedQuestions()
+    .map((item) => {
+      const hay = `${item.question} ${item.category}`.toLowerCase();
+      const score = tokens.reduce(
+        (acc, token) => acc + (hay.includes(token) ? 1 : 0),
+        0,
+      );
+      return { item, score };
+    })
+    .filter(({ score }) => score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(({ item }) => item);
+}
+
+export function getPublishedRelatedQuestions(question: Question, limit = 8): Question[] {
+  return getPublishedQuestionsByCategory(categoryToSlug(question.category))
+    .filter((q) => q.slug !== question.slug)
+    .slice(0, limit);
+}
+
+export function getFeaturedPublishedQuestion(): Question | undefined {
+  const sorted = getPublishedSlugs()
+    .map((slug) => {
+      const question = getQuestionBySlug(slug);
+      const answer = getAnswer(slug);
+      if (!question || !answer) return null;
+      return { question, updatedAt: answer.updatedAt };
+    })
+    .filter((x): x is { question: Question; updatedAt: string } => Boolean(x))
+    .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+
+  return sorted[0]?.question;
 }

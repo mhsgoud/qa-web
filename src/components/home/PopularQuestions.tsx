@@ -14,9 +14,9 @@ export function PopularQuestions({ questions }: Props) {
           <div>
             <p className="section-kicker">Popular</p>
             <h2 id="popular-title">Popular tech questions</h2>
-            <p className="section-sub">What people are looking for right now.</p>
+            <p className="section-sub">Published answers people are looking for.</p>
           </div>
-          <Link href="/winners" className="section-link">
+          <Link href="/browse" className="section-link">
             See more →
           </Link>
         </div>

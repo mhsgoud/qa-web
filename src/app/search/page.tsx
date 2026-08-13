@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { QuestionLink } from "@/components/QuestionLink";
 import { SearchBox } from "@/components/SearchBox";
-import { searchQuestions } from "@/lib/questions";
+import { searchPublishedQuestions } from "@/lib/questions";
 
 type Props = {
   searchParams: Promise<{ q?: string }>;
@@ -9,12 +9,12 @@ type Props = {
 
 export const metadata: Metadata = {
   title: "Search",
-  description: "Search AnswerKit’s technology question library.",
+  description: "Search published answers on AnswerKit.",
 };
 
 export default async function SearchPage({ searchParams }: Props) {
   const { q = "" } = await searchParams;
-  const results = searchQuestions(q, 40);
+  const results = searchPublishedQuestions(q, 40);
 
   return (
     <div className="shell search-page">

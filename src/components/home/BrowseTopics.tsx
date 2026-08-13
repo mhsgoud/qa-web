@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { categoryToSlug } from "@/lib/questions";
 
 type Category = { name: string; slug: string; count: number };
 
@@ -18,7 +17,9 @@ export function BrowseTopics({ categories, topicCount, questionCount }: Props) {
             <p className="section-kicker">Library</p>
             <h2 id="browse-topics-title">Browse by topic</h2>
             <p className="home-section-lead">
-              {questionCount.toLocaleString()}+ questions across {topicCount} technology topics.
+              {questionCount.toLocaleString()} published answer
+              {questionCount === 1 ? "" : "s"} across {topicCount}{" "}
+              {topicCount === 1 ? "topic" : "topics"}.
             </p>
           </div>
           <Link href="/browse" className="section-link">
@@ -26,16 +27,18 @@ export function BrowseTopics({ categories, topicCount, questionCount }: Props) {
           </Link>
         </div>
 
-        <ul className="topic-grid">
-          {categories.map((cat) => (
-            <li key={cat.slug}>
-              <Link href={`/category/${categoryToSlug(cat.name)}`} className="topic-link">
-                <span className="topic-name">{cat.name}</span>
-                <span className="topic-count">{cat.count}</span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        {categories.length > 0 ? (
+          <ul className="topic-grid">
+            {categories.map((cat) => (
+              <li key={cat.slug}>
+                <Link href={`/category/${cat.slug}`} className="topic-link">
+                  <span className="topic-name">{cat.name}</span>
+                  <span className="topic-count">{cat.count}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ) : null}
       </div>
     </section>
   );

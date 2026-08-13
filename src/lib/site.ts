@@ -12,12 +12,6 @@ export const SITE = {
   },
 } as const;
 
-export const HOME_TRY_SEARCHES = [
-  { label: "How do I clone an SSD?", slug: "how-do-i-clone-an-ssd" },
-  { label: "Why is my Wi-Fi slow?", slug: "why-is-my-wifi-slow" },
-  { label: "How do I check GPU temperature?", slug: "how-do-i-check-gpu-temperature" },
-] as const;
-
 export const HOME_BENEFITS = [
   {
     title: "Direct answers",
@@ -48,6 +42,3 @@ export const COMPARE_ROWS = [
   { label: "Effort", google: "Compare sources yourself", forums: "Read multiple replies", answerkit: "Answer + caveats" },
   { label: "Freshness", google: "Often outdated", forums: "Old threads", answerkit: "Reviewed answers" },
 ] as const;
-
-/** Slug shown on homepage answer preview */
-export const HOME_PREVIEW_SLUG = "how-do-i-check-if-my-gpu-is-bottlenecked";

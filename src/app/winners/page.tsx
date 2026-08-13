@@ -1,38 +1,36 @@
 import Link from "next/link";
-import { getWinners } from "@/lib/winners";
+import { QuestionLink } from "@/components/QuestionLink";
+import { getPublishedQuestions } from "@/lib/questions";
 
 export const metadata = {
-  title: "Priority questions",
-  description:
-    "Highest-opportunity technology questions ranked by estimated search demand, commercial value, and rankability.",
+  title: "Popular answers",
+  description: "Published technology answers on AnswerKit.",
 };
 
 export default function WinnersPage() {
-  const winners = getWinners();
+  const questions = getPublishedQuestions();
 
   return (
     <div className="shell browse-page">
-      <h1 className="page-title">Priority questions</h1>
+      <h1 className="page-title">Popular answers</h1>
       <p className="page-lead">
-        {winners.length} cleaned opportunities from the 10,000-question seed list,
-        ranked by volume × commercial value × ease (inverse competition). These are
-        the first pages to generate and review — not bulk AI spam.
+        {questions.length} published answer{questions.length === 1 ? "" : "s"} on
+        AnswerKit right now. More are added as they are written and reviewed.
       </p>
 
-      <div className="question-list">
-        {winners.map((w) => (
-          <Link key={w.slug} href={`/q/${w.slug}`} className="question-link">
-            <span className="question-link-title">
-              #{w.rank} · {w.question}
-            </span>
-            <span className="question-link-meta">
-              {w.category} · score {w.priorityScore} · {w.monetizationType}
-              {" · "}
-              {w.suggestedTool}
-            </span>
-          </Link>
-        ))}
-      </div>
+      {questions.length > 0 ? (
+        <div className="question-list">
+          {questions.map((q) => (
+            <QuestionLink key={q.slug} question={q} />
+          ))}
+        </div>
+      ) : (
+        <div className="empty-state">
+          No published answers yet.{" "}
+          <Link href="/browse">Browse topics</Link> will list them here as they go
+          live.
+        </div>
+      )}
     </div>
   );
 }

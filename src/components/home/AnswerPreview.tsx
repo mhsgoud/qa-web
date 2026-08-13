@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { getAnswer } from "@/lib/content";
-import { getQuestionBySlug } from "@/lib/questions";
-import { HOME_PREVIEW_SLUG } from "@/lib/site";
+import { getFeaturedPublishedQuestion } from "@/lib/questions";
+import { isPublished } from "@/lib/answers";
 
 export function AnswerPreview() {
-  const question = getQuestionBySlug(HOME_PREVIEW_SLUG);
-  const answer = getAnswer(HOME_PREVIEW_SLUG);
+  const question = getFeaturedPublishedQuestion();
+  const answer = question ? getAnswer(question.slug) : undefined;
 
-  if (!question || !answer) return null;
+  if (!question || !answer || !isPublished(question.slug)) return null;
 
   const steps = answer.steps?.slice(0, 3) ?? [];
   const caveat = answer.caveats?.[0];
@@ -21,7 +21,7 @@ export function AnswerPreview() {
           <p className="home-section-lead">
             Every page puts the solution up top — then instructions and caveats. No 1,500-word intro.
           </p>
-          <Link href={`/q/${HOME_PREVIEW_SLUG}`} className="btn-primary">
+          <Link href={`/q/${question.slug}`} className="btn-primary">
             Read a real answer →
           </Link>
         </div>
