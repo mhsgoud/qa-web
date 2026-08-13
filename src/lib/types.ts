@@ -26,6 +26,16 @@ export type AnswerFaq = {
   answer: string;
 };
 
+export type AnswerImage = {
+  id: string;
+  /** Public URL path, e.g. /answers/{slug}/{id}.png */
+  src: string;
+  alt: string;
+  caption?: string;
+  /** "hero", "step-0", "step-1", or a section id */
+  attachTo?: string;
+};
+
 export type AnswerContent = {
   slug: string;
   /** One-sentence featured answer — keep specific, not filler */
@@ -34,6 +44,7 @@ export type AnswerContent = {
   sections: AnswerSection[];
   steps?: AnswerStep[];
   faqs?: AnswerFaq[];
+  images?: AnswerImage[];
   caveats?: string[];
   relatedToolIdeas?: string[];
   status: "draft" | "reviewed" | "published";

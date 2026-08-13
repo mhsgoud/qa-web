@@ -36,6 +36,17 @@ function validateAnswer(data: unknown, file: string): AnswerContent {
     throw new Error(`Invalid status in ${file}`);
   }
 
+  if (answer.images !== undefined) {
+    if (!Array.isArray(answer.images)) {
+      throw new Error(`"images" must be an array in ${file}`);
+    }
+    for (const img of answer.images) {
+      if (!img.id || !img.src || !img.alt) {
+        throw new Error(`Each image needs id, src, and alt in ${file}`);
+      }
+    }
+  }
+
   return answer;
 }
 

@@ -58,5 +58,35 @@
     "Storage speed / upgrade picker"
   ],
   "status": "published",
-  "updatedAt": "2026-08-12"
+  "updatedAt": "2026-08-13",
+  "images": [
+    {
+      "id": "hero-illustration",
+      "src": "/answers/how-do-i-free-up-storage-on-my-phone/hero-illustration.png",
+      "alt": "Illustration of a smartphone with app icons and cloud storage symbols, representing storage management.",
+      "caption": "Free up storage on your phone",
+      "attachTo": "hero"
+    },
+    {
+      "id": "uninstall-apps-illustration",
+      "src": "/answers/how-do-i-free-up-storage-on-my-phone/uninstall-apps-illustration.png",
+      "alt": "Illustration of a smartphone with an app being uninstalled.",
+      "caption": "Uninstall unused apps",
+      "attachTo": "step-0"
+    },
+    {
+      "id": "delete-photos-illustration",
+      "src": "/answers/how-do-i-free-up-storage-on-my-phone/delete-photos-illustration.png",
+      "alt": "Illustration of a smartphone gallery with photos being selected for deletion.",
+      "caption": "Delete unnecessary photos",
+      "attachTo": "step-2"
+    },
+    {
+      "id": "cloud-storage-illustration",
+      "src": "/answers/how-do-i-free-up-storage-on-my-phone/cloud-storage-illustration.png",
+      "alt": "Illustration of a smartphone with files uploading to a cloud.",
+      "caption": "Use cloud storage for your files",
+      "attachTo": "cloud-storage"
+    }
+  ]
 }

@@ -27,6 +27,15 @@
   "relatedToolIdeas": [
     "Optional interactive tool idea for this topic"
   ],
+  "images": [
+    {
+      "id": "hero-example",
+      "src": "/answers/your-question-slug-here/hero-example.png",
+      "alt": "Illustration describing the topic",
+      "caption": "Optional caption",
+      "attachTo": "hero"
+    }
+  ],
   "status": "draft",
   "updatedAt": "2026-08-12"
 }

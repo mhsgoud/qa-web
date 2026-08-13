@@ -1872,6 +1872,33 @@ summary:focus-visible {
   font-weight: 700;
 }
 
+.answer-figure {
+  margin: 1rem 0 0;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--foam);
+}
+
+.answer-figure-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.answer-figure figcaption {
+  padding: 0.65rem 0.85rem;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--line);
+}
+
+.answer-summary + .answer-figure {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
 .faq-list {
   display: grid;
   gap: 0.5rem;

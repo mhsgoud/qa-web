@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { AnswerFigure, imagesForAttach } from "@/components/AnswerFigure";
 import { IconFaq, IconSteps, IconWarn } from "@/components/Icons";
 import { SectionHeading } from "@/components/SectionHeading";
 import { StatusBadge } from "@/components/StatusBadge";
@@ -14,6 +15,8 @@ type Props = {
 };
 
 export function AnswerArticle({ question, answer, related }: Props) {
+  const heroImages = imagesForAttach(answer.images, "hero");
+
   const toc = [
     ...(answer.steps?.length ? [{ id: "steps", label: "Steps" }] : []),
     ...answer.sections.map((s) => ({ id: s.id, label: s.heading })),
@@ -54,29 +57,45 @@ export function AnswerArticle({ question, answer, related }: Props) {
 
           <p className="answer-summary">{answer.summary}</p>
 
+          {heroImages.map((image) => (
+            <AnswerFigure key={image.id} image={image} priority />
+          ))}
+
           {answer.steps && answer.steps.length > 0 ? (
             <section className="answer-section card" id="steps">
               <SectionHeading icon={<IconSteps />}>Steps</SectionHeading>
               <ol className="step-list">
-                {answer.steps.map((step, i) => (
-                  <li key={step.title}>
-                    <span className="step-index">{i + 1}</span>
-                    <div>
-                      <h3>{step.title}</h3>
-                      <p>{step.detail}</p>
-                    </div>
-                  </li>
-                ))}
+                {answer.steps.map((step, i) => {
+                  const stepImages = imagesForAttach(answer.images, `step-${i}`);
+                  return (
+                    <li key={step.title}>
+                      <span className="step-index">{i + 1}</span>
+                      <div>
+                        <h3>{step.title}</h3>
+                        <p>{step.detail}</p>
+                        {stepImages.map((image) => (
+                          <AnswerFigure key={image.id} image={image} />
+                        ))}
+                      </div>
+                    </li>
+                  );
+                })}
               </ol>
             </section>
           ) : null}
 
-          {answer.sections.map((section) => (
-            <section key={section.id} className="answer-section card" id={section.id}>
-              <h2>{section.heading}</h2>
-              <p>{section.body}</p>
-            </section>
-          ))}
+          {answer.sections.map((section) => {
+            const sectionImages = imagesForAttach(answer.images, section.id);
+            return (
+              <section key={section.id} className="answer-section card" id={section.id}>
+                <h2>{section.heading}</h2>
+                <p>{section.body}</p>
+                {sectionImages.map((image) => (
+                  <AnswerFigure key={image.id} image={image} />
+                ))}
+              </section>
+            );
+          })}
 
           {answer.caveats && answer.caveats.length > 0 ? (
             <section className="answer-section card card-warn" id="caveats">

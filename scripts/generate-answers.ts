@@ -6,6 +6,7 @@
  *   npm run answers:generate -- --limit 5
  *   npm run answers:generate -- --force   # overwrite existing
  *   npm run answers:generate -- --slug=how-do-i-clone-an-ssd
+ *   npm run answers:generate -- --with-images
  *
  * Requires OPENAI_API_KEY in .env for AI generation.
  */
@@ -13,6 +14,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { AnswerContent } from "../src/lib/types";
+import { generateImagesForAnswer } from "./lib/answer-images";
 
 type WinnerRow = {
   rank: number;
@@ -72,6 +74,7 @@ function parseArgs() {
     limit: Number(args.find((a) => a.startsWith("--limit="))?.split("=")[1] ?? 20),
     force: args.includes("--force"),
     templateOnly: args.includes("--template-only"),
+    withImages: args.includes("--with-images"),
     slug: slugArg,
   };
 }
@@ -205,10 +208,13 @@ function writeAnswer(answer: AnswerContent) {
 
 async function main() {
   const env = loadEnv();
-  const { limit, force, templateOnly, slug } = parseArgs();
+  const { limit, force, templateOnly, withImages, slug } = parseArgs();
   const winners = loadWinners(limit, slug);
 
   console.log(`Generating answers for top ${winners.length} winners...`);
+  if (withImages) {
+    console.log("Mode: with-images (illustrations after text generation)");
+  }
   if (env.loaded) {
     console.log(
       env.hasKey
@@ -235,7 +241,9 @@ async function main() {
 
   for (const winner of winners) {
     const outPath = path.join(ANSWERS_DIR, `${winner.slug}.json`);
-    if (fs.existsSync(outPath) && !force) {
+    const exists = fs.existsSync(outPath);
+
+    if (exists && !force && !withImages) {
       console.log(`skip  ${winner.slug} (exists)`);
       skipped++;
       continue;
@@ -243,7 +251,10 @@ async function main() {
 
     let answer: AnswerContent;
 
-    if (templateOnly || !process.env.OPENAI_API_KEY) {
+    if (exists && !force) {
+      answer = JSON.parse(fs.readFileSync(outPath, "utf8")) as AnswerContent;
+      console.log(`load  ${winner.slug} (existing text)`);
+    } else if (templateOnly || !process.env.OPENAI_API_KEY) {
       answer = makeTemplate(winner);
     } else {
       const brief = findBrief(winner.slug);
@@ -252,6 +263,14 @@ async function main() {
       answer = await generateWithOpenAI(prompt);
       answer.slug = winner.slug;
       answer.status = "draft";
+      answer.updatedAt = new Date().toISOString().slice(0, 10);
+    }
+
+    if (withImages && process.env.OPENAI_API_KEY?.trim()) {
+      console.log(`images ${winner.slug}...`);
+      answer.images = await generateImagesForAnswer(winner.slug, answer, winner.question, {
+        force,
+      });
       answer.updatedAt = new Date().toISOString().slice(0, 10);
     }
 
