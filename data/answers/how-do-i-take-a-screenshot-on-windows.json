@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-take-a-screenshot-on-windows",
+  "directAnswer": "You can take a screenshot on Windows using the Snipping Tool or by pressing the Print Screen key. Both methods allow you to capture your screen easily.",
+  "summary": "This guide provides methods for taking screenshots on Windows, including keyboard shortcuts and tools available in the operating system.",
+  "sections": [
+    {
+      "id": "snipping-tool",
+      "heading": "Using the Snipping Tool",
+      "body": "The Snipping Tool allows you to capture a specific area of your screen. You can find it by searching for 'Snipping Tool' in the Start menu."
+    },
+    {
+      "id": "keyboard-shortcuts",
+      "heading": "Keyboard Shortcuts",
+      "body": "You can use various keyboard shortcuts to take screenshots quickly. For example, pressing 'PrtScn' captures the entire screen, while 'Alt + PrtScn' captures the active window."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Capture the entire screen",
+      "detail": "Press the 'PrtScn' key. This copies the screenshot to your clipboard. You can paste it into an image editor or document."
+    },
+    {
+      "title": "Capture the active window",
+      "detail": "Press 'Alt + PrtScn'. This captures only the currently active window and copies it to your clipboard."
+    },
+    {
+      "title": "Use Snipping Tool",
+      "detail": "Open the Snipping Tool from the Start menu, click 'New', and select the area you want to capture."
+    },
+    {
+      "title": "Save your screenshot",
+      "detail": "After capturing a screenshot, paste it into an image editor (like Paint) and save it as a file."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I take a screenshot using Windows 10 shortcuts?",
+      "answer": "Yes, in Windows 10, you can press 'Windows + Shift + S' to open the Snip & Sketch tool for more options."
+    },
+    {
+      "question": "How do I find my screenshots?",
+      "answer": "Screenshots taken with 'Windows + PrtScn' are saved automatically in the 'Screenshots' folder within your 'Pictures' library."
+    },
+    {
+      "question": "Is there a way to annotate screenshots?",
+      "answer": "Yes, after taking a screenshot with Snipping Tool or Snip & Sketch, you can use the built-in tools to annotate before saving."
+    }
+  ],
+  "caveats": [
+    "Some keyboard shortcuts may differ based on your keyboard layout or Windows version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

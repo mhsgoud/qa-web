@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-change-wifi-channels",
+  "directAnswer": "To change WiFi channels, access your router's web interface and navigate to the wireless settings section to select a different channel.",
+  "summary": "Changing your WiFi channel can help reduce interference and improve connectivity. This process varies slightly depending on your router model.",
+  "sections": [
+    {
+      "id": "understanding-wifi-channels",
+      "heading": "Understanding WiFi Channels",
+      "body": "WiFi channels are frequencies used by your router to communicate with devices. In the 2.4 GHz band, there are 11 channels, but only channels 1, 6, and 11 are non-overlapping. The 5 GHz band has more channels available, which can help reduce congestion."
+    },
+    {
+      "id": "accessing-router-settings",
+      "heading": "Accessing Router Settings",
+      "body": "To change the channel, you need to log into your router's web interface. This typically involves entering the router's IP address into a web browser and providing the admin credentials."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log into your router",
+      "detail": "Open a web browser and enter your router's IP address (commonly 192.168.1.1 or 192.168.0.1). Enter your admin username and password."
+    },
+    {
+      "title": "Navigate to wireless settings",
+      "detail": "Look for a section labeled 'Wireless', 'WiFi', or 'Wireless Settings'. The exact name may vary by router model."
+    },
+    {
+      "title": "Select a new channel",
+      "detail": "Find the option for 'Channel' and select a different channel from the dropdown menu. Save your changes."
+    },
+    {
+      "title": "Reboot the router if necessary",
+      "detail": "Some routers may require a reboot for the changes to take effect. Check your router's documentation for specific instructions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the best WiFi channel to use?",
+      "answer": "For the 2.4 GHz band, channels 1, 6, and 11 are recommended to minimize overlap. For 5 GHz, you can choose any channel as they do not overlap."
+    },
+    {
+      "question": "How do I find my router's IP address?",
+      "answer": "You can find your router's IP address by checking your network settings on your device or looking at the default gateway in your command prompt or terminal."
+    },
+    {
+      "question": "Will changing the channel improve my internet speed?",
+      "answer": "Changing the channel may improve your speed if you're experiencing interference from other networks. However, it may not have a significant impact if your speed issues are unrelated to channel congestion."
+    }
+  ],
+  "caveats": [
+    "Changing the WiFi channel may not resolve connectivity issues if they are caused by other factors such as distance or physical obstructions."
+  ],
+  "relatedToolIdeas": [
+    "Wi‑Fi speed / channel helper"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

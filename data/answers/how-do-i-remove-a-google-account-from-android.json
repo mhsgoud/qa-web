@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-remove-a-google-account-from-android",
+  "directAnswer": "To remove a Google account from your Android device, go to Settings, select Accounts, choose the Google account you want to remove, and tap Remove Account.",
+  "summary": "This guide provides step-by-step instructions for removing a Google account from your Android device, along with important considerations and frequently asked questions.",
+  "sections": [
+    {
+      "id": "account-removal",
+      "heading": "Removing Your Google Account",
+      "body": "Follow the steps below to remove your Google account from your Android device. Note that the exact path may vary slightly depending on your device's manufacturer and Android version."
+    },
+    {
+      "id": "data-loss-warning",
+      "heading": "Important Considerations",
+      "body": "Removing your Google account will delete all associated data from the device, including emails, contacts, and calendar events. Ensure you back up any important information before proceeding."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Settings",
+      "detail": "Swipe down from the top of the screen and tap the gear icon to open the Settings menu."
+    },
+    {
+      "title": "Select Accounts",
+      "detail": "Scroll down and tap on 'Accounts' or 'Users & accounts', depending on your device."
+    },
+    {
+      "title": "Choose Google Account",
+      "detail": "Tap on the Google account you wish to remove from the list of accounts."
+    },
+    {
+      "title": "Remove Account",
+      "detail": "Tap 'Remove account' at the bottom of the screen and confirm your choice."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will removing my Google account delete my data?",
+      "answer": "Yes, removing your Google account will delete all data associated with that account from the device, including emails and contacts."
+    },
+    {
+      "question": "Can I add the account back later?",
+      "answer": "Yes, you can re-add the Google account at any time by going back to the Accounts section in Settings."
+    },
+    {
+      "question": "What if I can't find the Accounts option?",
+      "answer": "The Accounts option may be located under 'Users & accounts' or similar, depending on your device's manufacturer and Android version."
+    }
+  ],
+  "caveats": [
+    "Ensure you have backed up important data before removing the account, as it will be deleted from the device."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

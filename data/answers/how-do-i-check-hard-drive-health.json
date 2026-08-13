@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-check-hard-drive-health",
+  "directAnswer": "You can check hard drive health using built-in tools like CHKDSK on Windows or Disk Utility on macOS, or third-party software such as CrystalDiskInfo.",
+  "summary": "Monitoring your hard drive's health is crucial for data integrity and performance. Various tools are available depending on your operating system.",
+  "sections": [
+    {
+      "id": "windows-check",
+      "heading": "Checking Hard Drive Health on Windows",
+      "body": "You can use the Command Prompt to run CHKDSK, or utilize third-party tools for a more detailed analysis."
+    },
+    {
+      "id": "mac-check",
+      "heading": "Checking Hard Drive Health on macOS",
+      "body": "Use Disk Utility to verify and repair disk permissions and check the health of your hard drive."
+    },
+    {
+      "id": "third-party-tools",
+      "heading": "Using Third-Party Tools",
+      "body": "Applications like CrystalDiskInfo or HD Tune provide detailed SMART data and health status of your hard drive."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using CHKDSK on Windows",
+      "detail": "Open Command Prompt as an administrator, then type 'chkdsk C: /f' (replace C: with your drive letter) and press Enter."
+    },
+    {
+      "title": "Using Disk Utility on macOS",
+      "detail": "Open Disk Utility from Applications > Utilities, select your hard drive, and click 'First Aid' to check the drive's health."
+    },
+    {
+      "title": "Using CrystalDiskInfo",
+      "detail": "Download and install CrystalDiskInfo, then run the program to view detailed health statistics and SMART data."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is SMART data?",
+      "answer": "SMART (Self-Monitoring, Analysis, and Reporting Technology) is a monitoring system that provides data on hard drive health and performance."
+    },
+    {
+      "question": "What should I do if my hard drive health is poor?",
+      "answer": "If your hard drive health is poor, back up your data immediately and consider replacing the drive to prevent data loss."
+    },
+    {
+      "question": "Can I check hard drive health without installing software?",
+      "answer": "Yes, both Windows and macOS have built-in tools (CHKDSK and Disk Utility, respectively) that do not require additional software."
+    }
+  ],
+  "caveats": [
+    "Results from third-party tools may vary and should be interpreted carefully. Always back up data before performing repairs."
+  ],
+  "relatedToolIdeas": [
+    "Checklist for hard drive maintenance",
+    "Q&A on data recovery solutions"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

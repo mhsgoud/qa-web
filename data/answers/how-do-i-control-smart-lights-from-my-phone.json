@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-control-smart-lights-from-my-phone",
+  "directAnswer": "You can control smart lights from your phone by using the manufacturer's app or a compatible smart home platform app, such as Google Home or Apple HomeKit.",
+  "summary": "Controlling smart lights from your phone is straightforward with the right app and setup. Follow the steps below to get started.",
+  "sections": [
+    {
+      "id": "setup-smart-lights",
+      "heading": "Setting Up Your Smart Lights",
+      "body": "Ensure your smart lights are installed and connected to your Wi-Fi network. Download the appropriate app for your smart lights, which is typically provided by the manufacturer."
+    },
+    {
+      "id": "using-the-app",
+      "heading": "Using the App to Control Lights",
+      "body": "Open the app, create an account if necessary, and follow the prompts to add your smart lights. Once added, you can control brightness, color, and schedules."
+    },
+    {
+      "id": "voice-control-options",
+      "heading": "Voice Control Options",
+      "body": "If your smart lights are compatible, you can also control them using voice commands through smart assistants like Amazon Alexa or Google Assistant."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Download the App",
+      "detail": "Find and download the app specific to your smart light brand from the App Store or Google Play Store."
+    },
+    {
+      "title": "Connect to Wi-Fi",
+      "detail": "Follow the app instructions to connect your smart lights to your home Wi-Fi network."
+    },
+    {
+      "title": "Add Lights to the App",
+      "detail": "In the app, navigate to the 'Add Device' section and select your smart lights from the list."
+    },
+    {
+      "title": "Control Your Lights",
+      "detail": "Once added, you can turn the lights on/off, adjust brightness, and set schedules directly from the app."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I control my smart lights when I'm not at home?",
+      "answer": "Yes, as long as your smart lights are connected to Wi-Fi and you have internet access on your phone, you can control them remotely through the app."
+    },
+    {
+      "question": "What if my smart lights are not responding?",
+      "answer": "Check your Wi-Fi connection, ensure the lights are powered on, and try restarting the app. If issues persist, refer to the manufacturer's troubleshooting guide."
+    },
+    {
+      "question": "Are there any compatibility issues with different brands?",
+      "answer": "Yes, not all smart lights are compatible with every app or smart home platform. Check the product specifications for compatibility details."
+    }
+  ],
+  "caveats": [
+    "Some smart lights may require a hub for connectivity, which could vary by brand and model."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

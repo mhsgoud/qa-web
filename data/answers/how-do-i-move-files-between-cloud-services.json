@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-move-files-between-cloud-services",
+  "directAnswer": "You can move files between cloud services using third-party tools or by downloading files from one service and uploading them to another.",
+  "summary": "Transferring files between different cloud storage services can be done efficiently using various methods, including direct integrations and manual transfers.",
+  "sections": [
+    {
+      "id": "third-party-tools",
+      "heading": "Using Third-Party Tools",
+      "body": "Many third-party services like MultCloud or CloudHQ allow you to connect multiple cloud accounts and transfer files directly between them without downloading."
+    },
+    {
+      "id": "manual-transfer",
+      "heading": "Manual Transfer Process",
+      "body": "If you prefer not to use third-party tools, you can manually download files from one service and upload them to another. This method may take longer, especially for large files."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Steps may vary by cloud service. For example, Google Drive allows you to download files by right-clicking and selecting 'Download', while Dropbox has a similar option."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using MultCloud",
+      "detail": "1. Create an account on MultCloud. 2. Add your cloud services to MultCloud. 3. Select the files you want to transfer and choose the destination service."
+    },
+    {
+      "title": "Manual Download and Upload",
+      "detail": "1. Log into your source cloud service. 2. Select the files and download them to your device. 3. Log into your destination cloud service and upload the files."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are there any costs associated with third-party tools?",
+      "answer": "Some third-party tools offer free tiers with limitations, while others require a subscription for full features."
+    },
+    {
+      "question": "Can I transfer large files between services?",
+      "answer": "Yes, but be aware of file size limits imposed by each cloud service, which may affect your ability to transfer large files."
+    },
+    {
+      "question": "Is my data secure during transfer?",
+      "answer": "Most reputable third-party tools use encryption to secure your data during transfer, but always check their privacy policies."
+    }
+  ],
+  "caveats": [
+    "Not all cloud services support direct transfers, and some may require manual intervention."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

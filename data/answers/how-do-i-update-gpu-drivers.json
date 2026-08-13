@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-update-gpu-drivers",
+  "directAnswer": "To update GPU drivers, visit the manufacturer's website or use device management tools specific to your operating system.",
+  "summary": "Updating GPU drivers can enhance performance and compatibility with new applications.",
+  "sections": [
+    {
+      "id": "windows-update",
+      "heading": "Updating GPU Drivers on Windows",
+      "body": "You can update GPU drivers through Windows Update or by downloading the latest drivers from the GPU manufacturer's website (NVIDIA, AMD, Intel)."
+    },
+    {
+      "id": "mac-update",
+      "heading": "Updating GPU Drivers on macOS",
+      "body": "macOS updates GPU drivers automatically with system updates. Check for updates in System Preferences under Software Update."
+    },
+    {
+      "id": "linux-update",
+      "heading": "Updating GPU Drivers on Linux",
+      "body": "Use your distribution's package manager or download drivers directly from the manufacturer's site. Commands may vary by distribution."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows Update Method",
+      "detail": "1. Open Settings > Update & Security > Windows Update. 2. Click 'Check for updates' and install any available driver updates."
+    },
+    {
+      "title": "Manual Download Method",
+      "detail": "1. Go to the GPU manufacturer's website. 2. Navigate to the support or downloads section. 3. Select your GPU model and download the latest driver."
+    },
+    {
+      "title": "macOS Update",
+      "detail": "1. Open System Preferences. 2. Click on Software Update. 3. Install any available updates."
+    },
+    {
+      "title": "Linux Driver Installation",
+      "detail": "1. Open a terminal. 2. Use your package manager (e.g., 'sudo apt update && sudo apt upgrade' for Ubuntu) or follow the manufacturer's instructions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should I update my GPU drivers?",
+      "answer": "It's recommended to check for updates every few months or when experiencing issues with new software."
+    },
+    {
+      "question": "Can I roll back to a previous driver version?",
+      "answer": "Yes, in Windows, you can roll back to a previous driver version in Device Manager under the driver properties."
+    },
+    {
+      "question": "What if my GPU isn't recognized after an update?",
+      "answer": "Try reinstalling the drivers or rolling back to a previous version. Ensure your GPU is properly seated and connected."
+    }
+  ],
+  "caveats": [
+    "Always create a system restore point before updating drivers in case of compatibility issues."
+  ],
+  "relatedToolIdeas": [
+    "GPU comparison tool"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

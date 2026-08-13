@@ -4,6 +4,7 @@ import Papa from "papaparse";
 import { getAnswer, getPublishedSlugs, isPublished } from "./answers";
 import type { Question } from "./types";
 import { isHighQualityQuestion } from "./quality";
+import { getWinners } from "./winners";
 
 type CsvRow = {
   id: string;
@@ -196,6 +197,9 @@ export function getPublishedRelatedQuestions(question: Question, limit = 8): Que
 }
 
 export function getFeaturedPublishedQuestion(): Question | undefined {
+  const prioritized = getPublishedQuestionsByPriority(1);
+  if (prioritized[0]) return prioritized[0];
+
   const sorted = getPublishedSlugs()
     .map((slug) => {
       const question = getQuestionBySlug(slug);
@@ -207,4 +211,27 @@ export function getFeaturedPublishedQuestion(): Question | undefined {
     .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
 
   return sorted[0]?.question;
+}
+
+/** Published questions ordered by SEO priority (winners list), then any remaining. */
+export function getPublishedQuestionsByPriority(limit?: number): Question[] {
+  const bySlug = new Map(getPublishedQuestions().map((q) => [q.slug, q]));
+  const ordered: Question[] = [];
+  const seen = new Set<string>();
+
+  for (const winner of getWinners()) {
+    const q = bySlug.get(winner.slug);
+    if (!q) continue;
+    ordered.push(q);
+    seen.add(q.slug);
+    if (limit && ordered.length >= limit) return ordered;
+  }
+
+  for (const q of getPublishedQuestions()) {
+    if (seen.has(q.slug)) continue;
+    ordered.push(q);
+    if (limit && ordered.length >= limit) break;
+  }
+
+  return ordered;
 }

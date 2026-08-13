@@ -1,0 +1,53 @@
+{
+  "slug": "how-do-i-know-what-my-usb-c-port-supports",
+  "directAnswer": "To determine what your USB-C port supports, check your device's specifications or use a USB-C compatibility checker tool.",
+  "summary": "Understanding the capabilities of your USB-C port is essential for optimal device performance and compatibility.",
+  "sections": [
+    {
+      "id": "usb-c-specifications",
+      "heading": "Check Device Specifications",
+      "body": "Most manufacturers list the specifications of USB-C ports in the user manual or on their website. Look for details on power delivery (PD), data transfer rates, and video output capabilities."
+    },
+    {
+      "id": "using-compatibility-checkers",
+      "heading": "Use a USB-C Compatibility Checker",
+      "body": "There are online tools available that can help you check the compatibility of your USB-C port with various devices and accessories. Input your device model to get detailed information."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Your Device Model",
+      "detail": "Locate the model number of your device, usually found on the back or in the settings menu."
+    },
+    {
+      "title": "Visit Manufacturer's Website",
+      "detail": "Go to the support section of your device's manufacturer website and search for your model to find detailed specifications."
+    },
+    {
+      "title": "Use a USB-C Compatibility Checker Tool",
+      "detail": "Search for a USB-C compatibility checker online, input your device model, and review the results for supported features."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I charge my laptop with a USB-C phone charger?",
+      "answer": "It depends on the power output of the charger and the laptop's requirements. Ensure the charger supports the required wattage."
+    },
+    {
+      "question": "What is the difference between USB-C and USB 3.0?",
+      "answer": "USB-C is a connector type, while USB 3.0 refers to a data transfer standard. USB-C can support USB 3.0, but not all USB-C ports are USB 3.0 compatible."
+    },
+    {
+      "question": "Are all USB-C cables the same?",
+      "answer": "No, USB-C cables can vary in their capabilities, including data transfer speed and power delivery. Always check the specifications of the cable."
+    }
+  ],
+  "caveats": [
+    "Some devices may have USB-C ports that support only basic charging and data transfer, lacking advanced features like video output."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

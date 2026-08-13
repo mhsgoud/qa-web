@@ -1,18 +1,35 @@
-import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { AnswerFigure, imagesForAttach } from "@/components/AnswerFigure";
 import { IconFaq, IconSteps, IconWarn } from "@/components/Icons";
 import { SectionHeading } from "@/components/SectionHeading";
-import { StatusBadge } from "@/components/StatusBadge";
+import { QuestionLink } from "@/components/QuestionLink";
 import type { AnswerContent, Question } from "@/lib/types";
 import { categoryToSlug } from "@/lib/questions";
-import { QuestionLink } from "./QuestionLink";
 
 type Props = {
   question: Question;
   answer: AnswerContent;
   related: Question[];
 };
+
+function Prose({ text }: { text: string }) {
+  const parts = text
+    .split(/\n{2,}/)
+    .map((p) => p.trim())
+    .filter(Boolean);
+
+  if (parts.length <= 1) {
+    return <p>{text}</p>;
+  }
+
+  return (
+    <>
+      {parts.map((part) => (
+        <p key={part.slice(0, 48)}>{part}</p>
+      ))}
+    </>
+  );
+}
 
 export function AnswerArticle({ question, answer, related }: Props) {
   const heroImages = imagesForAttach(answer.images, "hero");
@@ -37,14 +54,9 @@ export function AnswerArticle({ question, answer, related }: Props) {
 
         <article className="answer-article">
           <header className="answer-header">
-            <div className="answer-header-top">
-              <p className="eyebrow">{question.category}</p>
-              <StatusBadge status={answer.status} />
-            </div>
+            <p className="eyebrow">{question.category}</p>
             <h1>{question.question}</h1>
-            <p className="answer-meta">
-              {question.suggestedContentType} · Updated {answer.updatedAt}
-            </p>
+            <p className="answer-meta">Updated {answer.updatedAt}</p>
           </header>
 
           <section className="direct-answer card-elevated" aria-label="Direct answer">
@@ -55,7 +67,7 @@ export function AnswerArticle({ question, answer, related }: Props) {
             <p className="direct-answer-text">{answer.directAnswer}</p>
           </section>
 
-          <p className="answer-summary">{answer.summary}</p>
+          {answer.summary ? <p className="answer-summary">{answer.summary}</p> : null}
 
           {heroImages.map((image) => (
             <AnswerFigure key={image.id} image={image} priority />
@@ -68,11 +80,11 @@ export function AnswerArticle({ question, answer, related }: Props) {
                 {answer.steps.map((step, i) => {
                   const stepImages = imagesForAttach(answer.images, `step-${i}`);
                   return (
-                    <li key={step.title}>
+                    <li key={`${i}-${step.title}`}>
                       <span className="step-index">{i + 1}</span>
-                      <div>
+                      <div className="step-body">
                         <h3>{step.title}</h3>
-                        <p>{step.detail}</p>
+                        <Prose text={step.detail} />
                         {stepImages.map((image) => (
                           <AnswerFigure key={image.id} image={image} />
                         ))}
@@ -89,7 +101,9 @@ export function AnswerArticle({ question, answer, related }: Props) {
             return (
               <section key={section.id} className="answer-section card" id={section.id}>
                 <h2>{section.heading}</h2>
-                <p>{section.body}</p>
+                <div className="answer-prose">
+                  <Prose text={section.body} />
+                </div>
                 {sectionImages.map((image) => (
                   <AnswerFigure key={image.id} image={image} />
                 ))}
@@ -115,21 +129,10 @@ export function AnswerArticle({ question, answer, related }: Props) {
                 {answer.faqs.map((faq) => (
                   <details key={faq.question} className="faq-item">
                     <summary>{faq.question}</summary>
-                    <p>{faq.answer}</p>
+                    <Prose text={faq.answer} />
                   </details>
                 ))}
               </div>
-            </section>
-          ) : null}
-
-          {answer.relatedToolIdeas && answer.relatedToolIdeas.length > 0 ? (
-            <section className="answer-section tool-teaser">
-              <h2>Coming soon</h2>
-              <ul>
-                {answer.relatedToolIdeas.map((tool) => (
-                  <li key={tool}>{tool}</li>
-                ))}
-              </ul>
             </section>
           ) : null}
         </article>

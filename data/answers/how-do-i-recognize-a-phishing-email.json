@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-recognize-a-phishing-email",
+  "directAnswer": "Phishing emails often contain suspicious links, poor grammar, and requests for personal information. Always verify the sender's email address and look for unusual requests.",
+  "summary": "Recognizing phishing emails is crucial for protecting your personal information and avoiding scams. This guide provides steps to identify common signs of phishing attempts.",
+  "sections": [
+    {
+      "id": "common-signs",
+      "heading": "Common Signs of Phishing Emails",
+      "body": "Phishing emails may include generic greetings, urgent language, and requests for sensitive information. Look for misspellings and inconsistencies in the sender's address."
+    },
+    {
+      "id": "how-to-verify",
+      "heading": "How to Verify the Sender",
+      "body": "Check the sender's email address carefully. Phishing emails often use addresses that mimic legitimate ones but may have slight variations, such as extra characters or different domains."
+    },
+    {
+      "id": "link-safety",
+      "heading": "Checking Links Safely",
+      "body": "Hover over links without clicking to see the actual URL. Ensure it matches the expected website and is secure (https://)."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Examine the Email Address",
+      "detail": "Look closely at the sender's email address for any discrepancies or unusual domains."
+    },
+    {
+      "title": "Look for Urgency and Threats",
+      "detail": "Be cautious of emails that create a sense of urgency or threaten account suspension if immediate action isn't taken."
+    },
+    {
+      "title": "Check for Grammar and Spelling Errors",
+      "detail": "Many phishing emails contain poor grammar or spelling mistakes, which can be a red flag."
+    },
+    {
+      "title": "Verify Links Before Clicking",
+      "detail": "Hover over links to preview the URL before clicking. Ensure it directs to a legitimate site."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I suspect an email is phishing?",
+      "answer": "Do not click any links or provide any information. Report the email to your email provider and delete it."
+    },
+    {
+      "question": "Can phishing emails come from legitimate-looking addresses?",
+      "answer": "Yes, attackers can spoof email addresses to make them appear legitimate. Always verify the sender's address."
+    },
+    {
+      "question": "What are some examples of phishing tactics?",
+      "answer": "Common tactics include fake invoices, account verification requests, and messages claiming to be from tech support."
+    }
+  ],
+  "caveats": [
+    "Phishing tactics evolve constantly, so always stay updated on the latest scams."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

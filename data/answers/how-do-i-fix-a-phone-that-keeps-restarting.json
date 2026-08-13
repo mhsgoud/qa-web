@@ -1,67 +1,58 @@
 {
   "slug": "how-do-i-fix-a-phone-that-keeps-restarting",
-  "directAnswer": "To fix a phone that keeps restarting, try performing a soft reset and checking for software updates. If the problem persists, consider a factory reset or checking for hardware issues.",
-  "summary": "This guide provides steps to troubleshoot a smartphone that frequently restarts, including software and hardware checks.",
+  "directAnswer": "Try performing a soft reset or checking for software updates to resolve the issue. If problems persist, consider a factory reset or checking for hardware issues.",
+  "summary": "A phone that keeps restarting can be caused by software glitches, outdated apps, or hardware failures. Follow these steps to troubleshoot the problem effectively.",
   "sections": [
     {
       "id": "soft-reset",
       "heading": "Perform a Soft Reset",
-      "body": "A soft reset can clear temporary glitches. For most smartphones, press and hold the power button until the device turns off, then turn it back on."
+      "body": "A soft reset can help clear temporary issues. For most smartphones, hold down the power button until the device powers off, then turn it back on."
     },
     {
       "id": "check-software-updates",
       "heading": "Check for Software Updates",
-      "body": "Ensure your phone's software is up to date. Navigate to Settings > System > Software Update (path may vary by device)."
+      "body": "Ensure your phone's software is up to date. Go to Settings > About Phone > Software Update (exact paths may vary by device)."
     },
     {
       "id": "factory-reset",
       "heading": "Consider a Factory Reset",
-      "body": "If issues continue, back up your data and perform a factory reset. Go to Settings > System > Reset options > Erase all data (factory reset)."
-    },
-    {
-      "id": "hardware-issues",
-      "heading": "Check for Hardware Issues",
-      "body": "If the problem persists after software fixes, inspect for hardware damage or visit a professional for diagnosis."
+      "body": "If the issue persists, a factory reset may be necessary. Backup your data first, then navigate to Settings > System > Reset Options > Erase All Data (factory reset)."
     }
   ],
   "steps": [
     {
       "title": "Soft Reset",
-      "detail": "Press and hold the power button until the device powers off, then restart."
+      "detail": "Hold the power button until the device turns off, then turn it back on."
     },
     {
       "title": "Check for Updates",
-      "detail": "Go to Settings > System > Software Update to check for and install any available updates."
+      "detail": "Go to Settings > About Phone > Software Update and install any available updates."
     },
     {
       "title": "Factory Reset",
-      "detail": "Backup your data and navigate to Settings > System > Reset options > Erase all data."
-    },
-    {
-      "title": "Inspect Hardware",
-      "detail": "Check for physical damage or loose components; consult a technician if necessary."
+      "detail": "Backup your data and go to Settings > System > Reset Options > Erase All Data."
     }
   ],
   "faqs": [
     {
       "question": "What should I do if my phone keeps restarting after a factory reset?",
-      "answer": "If the issue persists after a factory reset, it may indicate a hardware problem, and you should seek professional repair."
+      "answer": "If the problem continues after a factory reset, it may indicate a hardware issue, and you should contact customer support or visit a repair center."
     },
     {
-      "question": "Can a faulty app cause my phone to restart?",
-      "answer": "Yes, a malfunctioning app can lead to system instability. Try uninstalling recently added apps to see if the issue resolves."
+      "question": "Could a faulty app cause my phone to restart?",
+      "answer": "Yes, a problematic app can cause instability. Try uninstalling recently installed apps to see if that resolves the issue."
     },
     {
-      "question": "Is it safe to perform a factory reset?",
-      "answer": "Yes, but ensure you back up your important data first, as a factory reset will erase all data on the device."
+      "question": "How can I tell if my battery is causing the restarts?",
+      "answer": "If the phone restarts only when the battery is low or when the charger is unplugged, the battery may be failing and should be tested or replaced."
     }
   ],
   "caveats": [
-    "Performing a factory reset will erase all data on the device; ensure backups are made."
+    "Performing a factory reset will erase all data on the device, so ensure you have backups."
   ],
   "relatedToolIdeas": [
     "Related Q&A cluster + checklist"
   ],
-  "status": "draft",
-  "updatedAt": "2026-08-12"
+  "status": "published",
+  "updatedAt": "2026-08-13"
 }

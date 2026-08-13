@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-check-my-cpu-model",
+  "directAnswer": "You can check your CPU model by using system information tools available in your operating system, such as Task Manager on Windows or System Information on macOS.",
+  "summary": "This guide provides steps to check your CPU model across different platforms, along with some common questions and considerations.",
+  "sections": [
+    {
+      "id": "windows",
+      "heading": "Checking CPU Model on Windows",
+      "body": "On Windows, you can use Task Manager or Command Prompt to find your CPU model. Task Manager provides a user-friendly interface, while Command Prompt offers a quick text-based method."
+    },
+    {
+      "id": "macos",
+      "heading": "Checking CPU Model on macOS",
+      "body": "On macOS, the System Information tool provides detailed information about your hardware, including the CPU model. You can access it easily from the Apple menu."
+    },
+    {
+      "id": "linux",
+      "heading": "Checking CPU Model on Linux",
+      "body": "On Linux, you can use the terminal command 'lscpu' or check the contents of '/proc/cpuinfo' to find detailed information about your CPU."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using Task Manager on Windows",
+      "detail": "Right-click the taskbar and select 'Task Manager'. Click on the 'Performance' tab, then select 'CPU' to view the model information."
+    },
+    {
+      "title": "Using Command Prompt on Windows",
+      "detail": "Open Command Prompt and type 'wmic cpu get name'. Press Enter to see your CPU model."
+    },
+    {
+      "title": "Using System Information on macOS",
+      "detail": "Click the Apple logo in the top-left corner, select 'About This Mac', and then click 'System Report'. Under 'Hardware', you will find your CPU model."
+    },
+    {
+      "title": "Using Terminal on Linux",
+      "detail": "Open a terminal and type 'lscpu' or 'cat /proc/cpuinfo' and press Enter to display your CPU model."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I check my CPU model without any software?",
+      "answer": "Yes, you can check your CPU model through the BIOS/UEFI settings during system boot, but this method requires restarting your computer."
+    },
+    {
+      "question": "What if my CPU model is not displayed correctly?",
+      "answer": "If your CPU model is not displayed correctly, ensure that your system drivers are up to date and check for any hardware issues."
+    },
+    {
+      "question": "Is there a difference between CPU model and CPU architecture?",
+      "answer": "Yes, the CPU model refers to the specific version of the processor, while CPU architecture refers to the design and instruction set used by that model."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly depending on the version of the operating system."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

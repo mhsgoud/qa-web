@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-set-up-a-mesh-wifi-system",
+  "directAnswer": "To set up a mesh WiFi system, connect the primary node to your modem and follow the manufacturer's app instructions to add additional nodes.",
+  "summary": "Setting up a mesh WiFi system involves connecting the primary node to your modem and using an app to configure additional nodes for optimal coverage.",
+  "sections": [
+    {
+      "id": "installation",
+      "heading": "Installation Process",
+      "body": "Begin by placing the primary node near your modem. Connect it via Ethernet cable, then power it on. Use the accompanying app to guide you through the setup process."
+    },
+    {
+      "id": "node-placement",
+      "heading": "Node Placement Tips",
+      "body": "For best performance, place additional nodes in areas where the signal is weak. Ideally, they should be within range of the primary node and positioned at least one room away from each other."
+    },
+    {
+      "id": "app-configuration",
+      "heading": "App Configuration",
+      "body": "Most mesh systems require a mobile app for setup. Download the app, create an account if necessary, and follow the prompts to add each node to your network."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Connect the Primary Node",
+      "detail": "Plug the primary node into your modem using an Ethernet cable and power it on."
+    },
+    {
+      "title": "Download the App",
+      "detail": "Install the manufacturer's app from the App Store or Google Play Store."
+    },
+    {
+      "title": "Add Nodes",
+      "detail": "Follow the app instructions to add additional nodes to your network, ensuring they are placed in optimal locations."
+    },
+    {
+      "title": "Test the Network",
+      "detail": "Once all nodes are connected, use the app to test the network speed and coverage."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a mesh WiFi system with my existing router?",
+      "answer": "Yes, some mesh systems can work alongside existing routers, but you may need to configure your router to avoid conflicts."
+    },
+    {
+      "question": "How many nodes do I need for my home?",
+      "answer": "The number of nodes depends on your home's size and layout; typically, one node covers about 1,500 square feet."
+    },
+    {
+      "question": "What if my mesh system is not connecting?",
+      "answer": "Ensure all nodes are powered on and within range of each other, and try restarting the primary node and the app."
+    }
+  ],
+  "caveats": [
+    "Performance can vary based on the layout of your home and the materials used in construction."
+  ],
+  "relatedToolIdeas": [
+    "Wi‑Fi speed / channel helper"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

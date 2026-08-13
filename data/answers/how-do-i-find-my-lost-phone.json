@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-find-my-lost-phone",
+  "directAnswer": "You can find your lost phone using built-in tracking features like Find My Device for Android or Find My iPhone for iOS.",
+  "summary": "This guide provides steps to locate your lost smartphone using available tracking services, along with common questions and considerations.",
+  "sections": [
+    {
+      "id": "find-my-device-android",
+      "heading": "Using Find My Device on Android",
+      "body": "If you have an Android phone, you can use Google's Find My Device service to locate it. Ensure that your phone is turned on and connected to the internet."
+    },
+    {
+      "id": "find-my-iphone-ios",
+      "heading": "Using Find My iPhone on iOS",
+      "body": "For iPhone users, the Find My iPhone feature can help you track your device. This requires that the feature was enabled prior to losing the phone."
+    },
+    {
+      "id": "other-options",
+      "heading": "Other Options",
+      "body": "If the built-in features are not available, consider using third-party tracking apps or contacting your carrier for assistance."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For Android Devices",
+      "detail": "Go to the Find My Device website (google.com/android/find) and log in with your Google account. Select your device to see its location."
+    },
+    {
+      "title": "For iOS Devices",
+      "detail": "Visit iCloud.com and log in with your Apple ID. Click on 'Find iPhone' and select your device from the dropdown menu to view its location."
+    },
+    {
+      "title": "Using Third-Party Apps",
+      "detail": "If you have installed a third-party tracking app, access it through another device or their website to locate your phone."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my phone is turned off?",
+      "answer": "If your phone is turned off, you will see its last known location, but you won't be able to track it in real-time until it's powered back on."
+    },
+    {
+      "question": "Can I track my phone if the battery is dead?",
+      "answer": "No, tracking is only possible when the phone is powered on and has an active internet connection."
+    },
+    {
+      "question": "What should I do if I can't find my phone?",
+      "answer": "If you cannot locate your phone, consider reporting it to your carrier and local authorities to prevent unauthorized use."
+    }
+  ],
+  "caveats": [
+    "Tracking features must be enabled prior to losing the phone, and the device needs to be connected to the internet."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

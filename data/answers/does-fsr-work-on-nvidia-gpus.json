@@ -1,0 +1,53 @@
+{
+  "slug": "does-fsr-work-on-nvidia-gpus",
+  "directAnswer": "FSR (FidelityFX Super Resolution) can work on Nvidia GPUs, but performance and quality may vary compared to AMD GPUs, as it is optimized for AMD's architecture.",
+  "summary": "FSR is compatible with Nvidia GPUs, but users may experience different results in terms of image quality and performance.",
+  "sections": [
+    {
+      "id": "compatibility",
+      "heading": "Compatibility with Nvidia GPUs",
+      "body": "FSR is designed to be a cross-platform solution, meaning it can run on various hardware, including Nvidia GPUs. However, the implementation may not be as optimized as it is on AMD hardware."
+    },
+    {
+      "id": "performance",
+      "heading": "Performance Considerations",
+      "body": "While FSR can enhance frame rates on Nvidia GPUs, users may notice artifacts or lower image quality in certain scenarios compared to using native resolution or AMD's own solutions."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Game Compatibility",
+      "detail": "Ensure the game you want to use FSR with supports the feature, as not all games implement it."
+    },
+    {
+      "title": "Enable FSR in Game Settings",
+      "detail": "Navigate to the graphics settings of the game and look for the FSR option to enable it. The exact path may vary by game."
+    },
+    {
+      "title": "Adjust FSR Settings",
+      "detail": "Select the desired FSR quality level (Performance, Balanced, or Quality) based on your preference for performance versus visual fidelity."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will FSR improve performance on my Nvidia GPU?",
+      "answer": "Yes, FSR can improve performance by rendering at a lower resolution and upscaling, but the extent of improvement varies by game and system configuration."
+    },
+    {
+      "question": "Is FSR better than DLSS on Nvidia GPUs?",
+      "answer": "DLSS generally offers better image quality due to its AI-driven approach, but FSR is more widely compatible across different hardware."
+    },
+    {
+      "question": "Do I need to update my drivers for FSR to work?",
+      "answer": "While FSR itself does not require specific drivers, it's always a good practice to keep your GPU drivers updated for optimal performance."
+    }
+  ],
+  "caveats": [
+    "FSR may not deliver the same level of image quality on Nvidia GPUs as it does on AMD GPUs due to architectural differences."
+  ],
+  "relatedToolIdeas": [
+    "GPU comparison tool"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

@@ -1,49 +1,62 @@
 {
   "slug": "how-do-i-share-my-phone-internet-connection",
-  "directAnswer": "You can share your phone's internet connection by enabling the hotspot feature in your device's settings. This allows other devices to connect to your phone's data network.",
-  "summary": "Sharing your phone's internet connection can be done through the mobile hotspot feature, which is available on most smartphones.",
+  "directAnswer": "You can share your phone's internet connection by enabling the hotspot feature in your device's settings.",
+  "summary": "This guide provides steps to share your smartphone's internet connection via Wi-Fi hotspot, Bluetooth, or USB tethering.",
   "sections": [
     {
-      "id": "android-steps",
-      "heading": "Steps for Android Devices",
-      "body": "The process may vary slightly depending on your Android version and device manufacturer."
+      "id": "wi-fi-hotspot",
+      "heading": "Using Wi-Fi Hotspot",
+      "body": "Most smartphones allow you to create a Wi-Fi hotspot, enabling other devices to connect to your phone's internet."
     },
     {
-      "id": "ios-steps",
-      "heading": "Steps for iOS Devices",
-      "body": "iOS devices have a straightforward method to enable personal hotspot."
+      "id": "bluetooth-tethering",
+      "heading": "Using Bluetooth Tethering",
+      "body": "You can also share your internet connection via Bluetooth, which is useful for connecting devices without Wi-Fi capabilities."
+    },
+    {
+      "id": "usb-tethering",
+      "heading": "Using USB Tethering",
+      "body": "USB tethering allows you to connect your phone to a computer using a USB cable, sharing your internet connection directly."
     }
   ],
   "steps": [
     {
-      "title": "Enable Hotspot on Android",
-      "detail": "Go to Settings > Network & internet > Hotspot & tethering > Wi-Fi hotspot. Toggle the switch to turn it on and configure the network name and password."
+      "title": "Enable Wi-Fi Hotspot on Android",
+      "detail": "Go to Settings > Network & internet > Hotspot & tethering > Wi-Fi hotspot, then toggle it on."
     },
     {
-      "title": "Enable Hotspot on iOS",
-      "detail": "Go to Settings > Cellular > Personal Hotspot. Toggle 'Allow Others to Join' to enable the hotspot and set a password if prompted."
+      "title": "Enable Wi-Fi Hotspot on iPhone",
+      "detail": "Go to Settings > Personal Hotspot, then toggle 'Allow Others to Join' on."
+    },
+    {
+      "title": "Enable Bluetooth Tethering",
+      "detail": "On Android, go to Settings > Network & internet > Hotspot & tethering > Bluetooth tethering. On iPhone, enable Bluetooth in Settings > Bluetooth."
+    },
+    {
+      "title": "Enable USB Tethering",
+      "detail": "Connect your phone to a computer with a USB cable. On Android, go to Settings > Network & internet > Hotspot & tethering > USB tethering. On iPhone, it usually activates automatically."
     }
   ],
   "faqs": [
     {
       "question": "Will sharing my internet connection drain my battery?",
-      "answer": "Yes, using your phone as a hotspot can significantly drain the battery, so it's advisable to keep it plugged into a charger."
+      "answer": "Yes, using your phone as a hotspot can significantly drain the battery, so it's advisable to keep it plugged in if possible."
     },
     {
-      "question": "Can I share my internet connection with multiple devices?",
-      "answer": "Yes, most smartphones allow multiple devices to connect to the hotspot at the same time, but the exact number may vary by device and carrier."
+      "question": "Is there a limit to how many devices can connect?",
+      "answer": "Yes, most smartphones have a limit on the number of devices that can connect to the hotspot, typically ranging from 5 to 10 devices."
     },
     {
-      "question": "Is there a data limit when using my phone as a hotspot?",
-      "answer": "Yes, using your phone as a hotspot consumes your mobile data, and you may be subject to your carrier's data limits and throttling policies."
+      "question": "Can I share my internet connection while on a call?",
+      "answer": "This depends on your carrier and device. Some carriers allow sharing while on a call, while others may not."
     }
   ],
   "caveats": [
-    "Data charges may apply based on your mobile plan, and excessive usage can lead to throttling by your carrier."
+    "Data charges may apply depending on your mobile plan."
   ],
   "relatedToolIdeas": [
     "Related Q&A cluster + checklist"
   ],
-  "status": "draft",
-  "updatedAt": "2026-08-12"
+  "status": "published",
+  "updatedAt": "2026-08-13"
 }

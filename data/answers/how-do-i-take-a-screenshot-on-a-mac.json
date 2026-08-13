@@ -1,0 +1,53 @@
+{
+  "slug": "how-do-i-take-a-screenshot-on-a-mac",
+  "directAnswer": "To take a screenshot on a Mac, you can use keyboard shortcuts to capture the entire screen, a specific window, or a selected portion.",
+  "summary": "Mac users can easily capture screenshots using built-in keyboard shortcuts, offering flexibility in what to capture.",
+  "sections": [
+    {
+      "id": "keyboard-shortcuts",
+      "heading": "Keyboard Shortcuts for Screenshots",
+      "body": "Mac provides several keyboard shortcuts for taking screenshots: Press Command (⌘) + Shift + 3 to capture the entire screen, Command (⌘) + Shift + 4 to capture a selected area, and Command (⌘) + Shift + 4 followed by the Spacebar to capture a specific window."
+    },
+    {
+      "id": "saving-and-editing",
+      "heading": "Saving and Editing Screenshots",
+      "body": "By default, screenshots are saved to your desktop. You can edit them using Preview or other image editing software after taking the screenshot."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Capture the Entire Screen",
+      "detail": "Press Command (⌘) + Shift + 3. The screenshot will be saved to your desktop."
+    },
+    {
+      "title": "Capture a Selected Area",
+      "detail": "Press Command (⌘) + Shift + 4, then click and drag to select the area you want to capture."
+    },
+    {
+      "title": "Capture a Specific Window",
+      "detail": "Press Command (⌘) + Shift + 4, then press the Spacebar. Click on the window you want to capture."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I change where my screenshots are saved?",
+      "answer": "Yes, you can change the default save location by using the Screenshot app (Command + Shift + 5) and selecting 'Options'."
+    },
+    {
+      "question": "How do I take a screenshot of a menu?",
+      "answer": "Open the menu, then press Command (⌘) + Shift + 4, followed by the Spacebar, and click the menu to capture it."
+    },
+    {
+      "question": "What if my keyboard shortcuts aren't working?",
+      "answer": "Check your System Preferences under Keyboard > Shortcuts to ensure the screenshot shortcuts are enabled."
+    }
+  ],
+  "caveats": [
+    "Screenshots may not capture certain content like video playback or protected media."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

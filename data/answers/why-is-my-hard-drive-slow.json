@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-my-hard-drive-slow",
+  "directAnswer": "A slow hard drive can be caused by fragmentation, insufficient storage space, or hardware issues. Regular maintenance and checks can help improve performance.",
+  "summary": "Understanding the reasons behind a slow hard drive can help you take steps to enhance its performance and extend its lifespan.",
+  "sections": [
+    {
+      "id": "fragmentation",
+      "heading": "Fragmentation",
+      "body": "Over time, files can become fragmented, meaning they are stored in non-contiguous spaces on the disk. This can slow down read/write speeds."
+    },
+    {
+      "id": "storage-space",
+      "heading": "Insufficient Storage Space",
+      "body": "If your hard drive is nearly full, it can lead to slower performance. Aim to keep at least 15-20% of your drive free."
+    },
+    {
+      "id": "hardware-issues",
+      "heading": "Potential Hardware Issues",
+      "body": "A failing hard drive can exhibit slow performance. Regularly check for errors and consider using diagnostic tools to assess its health."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Defragment Your Hard Drive (Windows)",
+      "detail": "Open 'Defragment and Optimize Drives' from the Start menu, select your hard drive, and click 'Optimize'."
+    },
+    {
+      "title": "Check Disk for Errors (Windows)",
+      "detail": "Run 'chkdsk' by opening Command Prompt as an administrator and typing 'chkdsk C: /f' (replace C: with your drive letter)."
+    },
+    {
+      "title": "Free Up Space",
+      "detail": "Delete unnecessary files or use tools like Disk Cleanup (Windows) or Optimize Storage (Mac) to reclaim space."
+    },
+    {
+      "title": "Monitor Drive Health",
+      "detail": "Use tools like CrystalDiskInfo (Windows) or Disk Utility (Mac) to check the health of your hard drive."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should I defragment my hard drive?",
+      "answer": "It depends on usage, but generally, once every few months is sufficient for traditional hard drives."
+    },
+    {
+      "question": "Can a slow hard drive affect my computer's overall performance?",
+      "answer": "Yes, a slow hard drive can bottleneck your system, leading to longer load times for applications and files."
+    },
+    {
+      "question": "What are signs of a failing hard drive?",
+      "answer": "Signs include unusual noises, frequent crashes, and slow file access times."
+    }
+  ],
+  "caveats": [
+    "SSDs do not require defragmentation and can be adversely affected by it."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

@@ -1,63 +1,62 @@
 {
   "slug": "how-do-i-move-contacts-to-a-new-phone",
-  "directAnswer": "You can move contacts to a new phone by syncing them with your Google or Apple account, or by using a transfer app specific to your phone model.",
-  "summary": "Transferring contacts to a new phone can be done easily through cloud services or dedicated apps, depending on your device's operating system.",
+  "directAnswer": "You can move contacts to a new phone by syncing them with a cloud service or transferring them via a SIM card. Ensure both phones are compatible with the chosen method.",
+  "summary": "Transferring contacts to a new phone can be done through cloud services, SIM card transfers, or using specific apps designed for this purpose.",
   "sections": [
     {
-      "id": "syncing-contacts",
-      "heading": "Syncing Contacts via Cloud Services",
-      "body": "Most smartphones allow you to sync contacts using cloud services like Google for Android devices or iCloud for iPhones. Ensure you are signed into your account on both the old and new devices."
+      "id": "cloud-sync",
+      "heading": "Using Cloud Services",
+      "body": "Sync your contacts with a cloud service like Google Drive or iCloud. This method is ideal for seamless transfers across devices."
     },
     {
-      "id": "using-transfer-apps",
+      "id": "sim-transfer",
+      "heading": "Using a SIM Card",
+      "body": "If both phones use the same type of SIM card, you can transfer contacts directly by inserting the old SIM into the new phone."
+    },
+    {
+      "id": "transfer-apps",
       "heading": "Using Transfer Apps",
-      "body": "Many manufacturers offer their own transfer apps (e.g., Samsung Smart Switch, Apple Move to iOS) that facilitate the transfer of contacts and other data between devices."
-    },
-    {
-      "id": "manual-transfer-options",
-      "heading": "Manual Transfer Options",
-      "body": "You can also manually export contacts from your old phone as a VCF file and then import it to your new phone."
+      "body": "Apps like 'Move to iOS' or 'Samsung Smart Switch' can help you transfer contacts and other data easily between devices."
     }
   ],
   "steps": [
     {
       "title": "Sync Contacts with Google (Android)",
-      "detail": "On your old phone, go to Settings > Accounts > Google, select your account, and ensure Contacts sync is enabled. On your new phone, log into the same Google account to retrieve your contacts."
+      "detail": "On your old phone, go to Settings > Accounts > Google > Account sync and enable 'Contacts'. On your new phone, log into the same Google account to sync."
     },
     {
       "title": "Sync Contacts with iCloud (iPhone)",
-      "detail": "On your old iPhone, go to Settings > [your name] > iCloud and toggle on Contacts. On your new iPhone, sign in to iCloud with the same Apple ID to sync your contacts."
+      "detail": "On your old iPhone, go to Settings > [your name] > iCloud and toggle on 'Contacts'. On your new iPhone, sign in to the same iCloud account to sync."
     },
     {
-      "title": "Using Samsung Smart Switch",
-      "detail": "Download Smart Switch on both devices. Open the app on both phones, select 'Send data' on the old phone and 'Receive data' on the new phone, and follow the prompts to transfer contacts."
+      "title": "Transfer via SIM Card",
+      "detail": "On your old phone, go to Contacts > Settings > Export to SIM. Insert the SIM into your new phone and import contacts from the SIM."
     },
     {
-      "title": "Exporting and Importing Contacts",
-      "detail": "On your old phone, export your contacts to a VCF file via the Contacts app. Transfer the VCF file to your new phone and import it through the Contacts app."
+      "title": "Use Transfer Apps",
+      "detail": "Download a transfer app on both phones, follow the on-screen instructions to connect the devices, and select contacts to transfer."
     }
   ],
   "faqs": [
     {
-      "question": "What if I don't have internet access?",
-      "answer": "You can still transfer contacts using a manual export/import method or by using a USB cable to connect both phones and transfer data directly."
+      "question": "What if my new phone is from a different brand?",
+      "answer": "You can still transfer contacts using cloud services or transfer apps that support multiple brands."
     },
     {
-      "question": "Will transferring contacts also move my contact photos?",
-      "answer": "It depends on the method used. Syncing with cloud services usually transfers contact photos, while manual exports may not include them."
+      "question": "Will I lose my contacts if I reset my old phone?",
+      "answer": "If your contacts are synced with a cloud service, they will remain safe and can be accessed from your new phone."
     },
     {
-      "question": "Can I transfer contacts from a non-smartphone?",
-      "answer": "Yes, you can typically export contacts from a non-smartphone to a CSV or VCF file and then import them to your new smartphone."
+      "question": "Can I transfer contacts without an internet connection?",
+      "answer": "Yes, you can use a SIM card or a direct transfer app that doesn't require internet access."
     }
   ],
   "caveats": [
-    "Ensure both devices are compatible with the chosen transfer method, as some apps may not work across different platforms."
+    "Ensure both phones are compatible with the chosen transfer method, as some features may vary by brand and model."
   ],
   "relatedToolIdeas": [
-    "Related Q&A cluster",
-    "Checklist for transferring data between phones"
+    "Related Q&A cluster + checklist"
   ],
-  "status": "draft",
-  "updatedAt": "2026-08-12"
+  "status": "published",
+  "updatedAt": "2026-08-13"
 }

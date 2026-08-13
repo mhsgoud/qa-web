@@ -2,13 +2,13 @@ export const SITE = {
   name: "AnswerKit",
   tagline: "Find answers. Fast.",
   description:
-    "Get clear answers to your tech questions — without digging through forums.",
+    "Clear, step-by-step answers to real technology questions — phones, PCs, storage, Wi‑Fi, and more.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://answerkit.site",
   hero: {
     line1: "Get unstuck.",
     line2: "Get a clear answer.",
     subhead:
-      "Practical answers to real tech questions — without digging through forums.",
+      "Search practical tech answers with the solution up front — then the steps, caveats, and FAQs.",
   },
 } as const;
 

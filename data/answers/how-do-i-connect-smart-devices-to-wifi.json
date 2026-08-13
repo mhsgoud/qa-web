@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-connect-smart-devices-to-wifi",
+  "directAnswer": "To connect smart devices to WiFi, ensure the device is powered on, open the device's app, and follow the on-screen instructions to select your WiFi network and enter the password.",
+  "summary": "Connecting smart devices to WiFi is essential for their functionality. The process typically involves using a companion app specific to the device.",
+  "sections": [
+    {
+      "id": "device-preparation",
+      "heading": "Prepare Your Device",
+      "body": "Before connecting, ensure your smart device is powered on and within range of your WiFi router. Some devices may require you to press a setup button or enter pairing mode."
+    },
+    {
+      "id": "using-the-app",
+      "heading": "Using the Device App",
+      "body": "Most smart devices come with a dedicated app. Download the app from your device's app store, create an account if necessary, and follow the setup prompts to connect to WiFi."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting Connection Issues",
+      "body": "If your device fails to connect, check your WiFi password, ensure your router is functioning properly, and verify that your device is compatible with your WiFi frequency (2.4GHz vs. 5GHz)."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Download the App",
+      "detail": "Search for the smart device's app in your app store and download it."
+    },
+    {
+      "title": "Create an Account",
+      "detail": "Open the app and create an account or log in if you already have one."
+    },
+    {
+      "title": "Select WiFi Network",
+      "detail": "Follow the app prompts to select your WiFi network from the list."
+    },
+    {
+      "title": "Enter WiFi Password",
+      "detail": "Input your WiFi password when prompted and confirm the connection."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my device won't connect to WiFi?",
+      "answer": "Ensure your WiFi password is correct, check that the device is compatible with your router's frequency, and restart both the device and the router."
+    },
+    {
+      "question": "Can I connect multiple smart devices to the same WiFi?",
+      "answer": "Yes, most routers can handle multiple devices. However, ensure your router has enough bandwidth to support them."
+    },
+    {
+      "question": "Do I need to connect my smart device to a 2.4GHz or 5GHz network?",
+      "answer": "Many smart devices only support 2.4GHz networks, so check your device specifications before connecting."
+    }
+  ],
+  "caveats": [
+    "Some devices may require firmware updates before they can connect to WiFi."
+  ],
+  "relatedToolIdeas": [
+    "Wi‑Fi speed / channel helper"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

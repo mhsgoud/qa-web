@@ -1,45 +1,50 @@
 {
   "slug": "how-do-i-check-how-much-ram-my-computer-has",
   "directAnswer": "You can check your computer's RAM by accessing the system information through the settings or control panel, depending on your operating system.",
-  "summary": "This guide provides steps for checking the amount of RAM on your computer across different platforms.",
+  "summary": "This guide provides steps to check the amount of RAM on your computer across different platforms.",
   "sections": [
     {
-      "id": "windows-check-ram",
+      "id": "windows",
       "heading": "Checking RAM on Windows",
-      "body": "On Windows, you can view your RAM by opening the Task Manager or System Information."
+      "body": "On Windows, you can view your RAM by accessing the Task Manager or System Information."
     },
     {
-      "id": "mac-check-ram",
+      "id": "mac",
       "heading": "Checking RAM on macOS",
-      "body": "On macOS, you can find the RAM information by accessing the About This Mac section."
+      "body": "On macOS, you can find your RAM information in the About This Mac section."
+    },
+    {
+      "id": "linux",
+      "heading": "Checking RAM on Linux",
+      "body": "On Linux, you can use terminal commands like 'free -h' or 'cat /proc/meminfo' to check RAM."
     }
   ],
   "steps": [
     {
-      "title": "Windows: Using Task Manager",
-      "detail": "Right-click on the taskbar and select 'Task Manager'. Click on the 'Performance' tab, then select 'Memory' to view your RAM details."
+      "title": "Windows 10/11",
+      "detail": "Right-click the taskbar and select 'Task Manager'. Click on the 'Performance' tab and select 'Memory' to view the RAM details."
     },
     {
-      "title": "Windows: Using System Information",
-      "detail": "Press Windows + R, type 'msinfo32', and hit Enter. Look for 'Installed Physical Memory (RAM)' in the System Summary."
+      "title": "macOS",
+      "detail": "Click the Apple icon in the top-left corner and select 'About This Mac'. The RAM information will be displayed in the Overview tab."
     },
     {
-      "title": "macOS: Using About This Mac",
-      "detail": "Click on the Apple logo in the top left corner, select 'About This Mac', and you will see the memory information listed."
+      "title": "Linux",
+      "detail": "Open the terminal and type 'free -h'. This command will show you the total, used, and available RAM."
     }
   ],
   "faqs": [
     {
-      "question": "What is RAM?",
-      "answer": "RAM, or Random Access Memory, is a type of computer memory that is used to store data temporarily for quick access by the CPU."
+      "question": "What is RAM used for?",
+      "answer": "RAM (Random Access Memory) is used by your computer to store data that is actively being used or processed, allowing for quick access."
     },
     {
       "question": "Can I upgrade my RAM?",
-      "answer": "Yes, many computers allow for RAM upgrades, but you should check your device's specifications and compatibility before purchasing new RAM."
+      "answer": "Yes, in most cases, you can upgrade your RAM by adding more modules, but check your computer's specifications for compatibility."
     },
     {
-      "question": "How much RAM do I need?",
-      "answer": "The amount of RAM you need depends on your usage; 8GB is generally sufficient for basic tasks, while 16GB or more is recommended for gaming or heavy multitasking."
+      "question": "How much RAM do I need for gaming?",
+      "answer": "For gaming, 16GB of RAM is generally recommended for optimal performance, though some games may run on 8GB."
     }
   ],
   "caveats": [

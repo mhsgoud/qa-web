@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-mirror-android-to-a-tv",
+  "directAnswer": "You can mirror your Android device to a TV using built-in casting features like Google Cast or by connecting via HDMI with an adapter.",
+  "summary": "Mirroring your Android device to a TV can enhance your viewing experience by allowing you to display content on a larger screen. Here are the methods you can use to achieve this.",
+  "sections": [
+    {
+      "id": "google-cast",
+      "heading": "Using Google Cast",
+      "body": "Most modern TVs support Google Cast. Ensure your TV and Android device are connected to the same Wi-Fi network, then use the Cast feature in your device's Quick Settings."
+    },
+    {
+      "id": "hdmi-connection",
+      "heading": "Using HDMI Connection",
+      "body": "If your TV does not support wireless casting, you can connect your Android device directly to the TV using an HDMI adapter compatible with your device."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Enable Screen Mirroring",
+      "detail": "Swipe down from the top of your Android screen to access Quick Settings and tap on 'Cast' or 'Screen Mirroring'."
+    },
+    {
+      "title": "Select Your TV",
+      "detail": "From the list of available devices, select your TV. If prompted, confirm the connection on your TV."
+    },
+    {
+      "title": "Adjust Display Settings",
+      "detail": "You may need to adjust display settings on your TV or Android device for optimal viewing."
+    },
+    {
+      "title": "Using HDMI Adapter",
+      "detail": "Connect your Android device to the TV using an HDMI adapter, then switch the TV input to the corresponding HDMI port."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my TV doesn't support casting?",
+      "answer": "You can use an HDMI adapter to connect your Android device directly to the TV."
+    },
+    {
+      "question": "Will screen mirroring drain my battery?",
+      "answer": "Yes, screen mirroring can consume more battery power, so it's advisable to keep your device plugged in during use."
+    },
+    {
+      "question": "Can I mirror my Android device to multiple TVs?",
+      "answer": "Most Android devices allow you to connect to one TV at a time for mirroring."
+    }
+  ],
+  "caveats": [
+    "Some older Android devices may not support screen mirroring features."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

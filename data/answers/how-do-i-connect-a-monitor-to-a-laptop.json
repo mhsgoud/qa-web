@@ -1,57 +1,57 @@
 {
   "slug": "how-do-i-connect-a-monitor-to-a-laptop",
-  "directAnswer": "To connect a monitor to a laptop, use the appropriate video cable (HDMI, DisplayPort, VGA, etc.) to link the monitor to the laptop's output port.",
-  "summary": "Connecting a monitor to a laptop enhances your workspace by providing additional screen real estate. Follow the steps below for a successful connection.",
+  "directAnswer": "To connect a monitor to a laptop, use an appropriate cable (HDMI, DisplayPort, VGA, etc.) to connect the monitor to the laptop's video output port.",
+  "summary": "Connecting a monitor to a laptop can enhance your workspace and productivity. Follow the steps below for a successful setup.",
   "sections": [
     {
-      "id": "cable-types",
+      "id": "types-of-cables",
       "heading": "Types of Cables",
-      "body": "Common video cables include HDMI, DisplayPort, VGA, and USB-C. Ensure your laptop and monitor have compatible ports before proceeding."
+      "body": "Common cables include HDMI, DisplayPort, VGA, and USB-C. Ensure your laptop and monitor support the same type of connection."
     },
     {
       "id": "display-settings",
       "heading": "Adjusting Display Settings",
-      "body": "After connecting the monitor, you may need to adjust display settings in your operating system to extend or duplicate your screen."
+      "body": "After connecting the monitor, you may need to adjust the display settings to extend or duplicate your screen. This can vary by operating system."
     }
   ],
   "steps": [
     {
       "title": "Identify Ports",
-      "detail": "Check the available output ports on your laptop and the input ports on your monitor."
+      "detail": "Check the ports available on both your laptop and monitor to determine the correct cable type."
     },
     {
       "title": "Connect the Cable",
-      "detail": "Use the appropriate cable to connect the laptop to the monitor. Ensure both devices are powered off during this step."
+      "detail": "Plug one end of the cable into the laptop and the other end into the monitor."
     },
     {
-      "title": "Power On Devices",
-      "detail": "Turn on the monitor first, then the laptop. The laptop should automatically detect the monitor."
+      "title": "Power On the Monitor",
+      "detail": "Turn on the monitor and ensure it is set to the correct input source."
     },
     {
-      "title": "Configure Display Settings",
-      "detail": "On Windows, right-click the desktop and select 'Display settings.' On macOS, go to 'System Preferences' > 'Displays' to adjust settings."
+      "title": "Adjust Display Settings",
+      "detail": "On Windows, right-click the desktop and select 'Display settings'. On macOS, go to 'System Preferences' > 'Displays' to configure your display."
     }
   ],
   "faqs": [
     {
-      "question": "What if my laptop doesn't detect the monitor?",
-      "answer": "Ensure the cable is securely connected and the monitor is powered on. You may also need to press a function key (like F4 or F5) to switch display modes."
+      "question": "What if my laptop doesn't have an HDMI port?",
+      "answer": "You can use an adapter (like USB-C to HDMI) or a different cable type that matches both your laptop and monitor."
     },
     {
-      "question": "Can I use multiple monitors?",
-      "answer": "Yes, most laptops support multiple external monitors. Check your laptop's specifications for the maximum number of displays it can handle."
+      "question": "How do I switch between display modes?",
+      "answer": "On Windows, press 'Windows + P' to choose between duplicate, extend, or second screen only. On macOS, use the 'Displays' settings."
     },
     {
-      "question": "What if I have different operating systems?",
-      "answer": "The connection process is similar, but the display settings will vary. Refer to the specific instructions for your OS."
+      "question": "Can I connect multiple monitors to my laptop?",
+      "answer": "Yes, if your laptop supports multiple outputs. Check your laptop's specifications and available ports."
     }
   ],
   "caveats": [
-    "Not all laptops support external displays, especially older models. Check your laptop's specifications for compatibility."
+    "Ensure your laptop's graphics card supports the resolution of the external monitor to avoid display issues."
   ],
   "relatedToolIdeas": [
     "Monitor + GPU match advisor"
   ],
-  "status": "draft",
-  "updatedAt": "2026-08-12"
+  "status": "published",
+  "updatedAt": "2026-08-13"
 }

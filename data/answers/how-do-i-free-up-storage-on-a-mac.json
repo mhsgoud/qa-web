@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-free-up-storage-on-a-mac",
+  "directAnswer": "You can free up storage on a Mac by removing unnecessary files and using built-in tools like Storage Management. Regularly empty your Trash and consider offloading large files to external drives or cloud storage.",
+  "summary": "Freeing up storage on a Mac involves several methods, including deleting files, managing applications, and utilizing built-in tools for optimization.",
+  "sections": [
+    {
+      "id": "storage-management",
+      "heading": "Using Storage Management",
+      "body": "Access Storage Management by clicking the Apple menu, selecting 'About This Mac', and then navigating to the 'Storage' tab. From there, click 'Manage' to view recommendations for optimizing storage."
+    },
+    {
+      "id": "deleting-files",
+      "heading": "Deleting Unnecessary Files",
+      "body": "Review your Downloads folder, Documents, and Applications for files you no longer need. You can also use Finder's search function to locate large files quickly."
+    },
+    {
+      "id": "offloading-files",
+      "heading": "Offloading Files",
+      "body": "Consider transferring large files to an external hard drive or using cloud storage services like iCloud, Google Drive, or Dropbox to free up local space."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Storage Management",
+      "detail": "Click the Apple menu, select 'About This Mac', and go to the 'Storage' tab. Click 'Manage' to see storage options."
+    },
+    {
+      "title": "Review and Delete Files",
+      "detail": "Check the 'Documents' and 'Downloads' sections in Finder and delete files you no longer need."
+    },
+    {
+      "title": "Empty the Trash",
+      "detail": "Right-click on the Trash icon in the Dock and select 'Empty Trash' to permanently remove deleted files."
+    },
+    {
+      "title": "Transfer Files to External Storage",
+      "detail": "Connect an external drive and drag large files from your Mac to the drive to free up space."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What files should I prioritize deleting?",
+      "answer": "Focus on large files, duplicate files, and applications you no longer use."
+    },
+    {
+      "question": "How can I find large files on my Mac?",
+      "answer": "Use Finder's search feature, set the filter to 'File Size', and sort by size to identify large files."
+    },
+    {
+      "question": "Will deleting files affect my applications?",
+      "answer": "Only delete files that are not required by your applications. Be cautious with system files or files related to software you still use."
+    }
+  ],
+  "caveats": [
+    "Be careful when deleting files to avoid removing important data or system files."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

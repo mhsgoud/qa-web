@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-find-large-files-on-my-computer",
+  "directAnswer": "You can find large files on your computer using built-in tools like File Explorer on Windows or Finder on macOS. Alternatively, third-party applications can help you identify and manage large files more efficiently.",
+  "summary": "Finding large files can help free up space on your computer. Use the built-in file management tools or consider third-party applications for a more comprehensive search.",
+  "sections": [
+    {
+      "id": "windows-file-explorer",
+      "heading": "Using Windows File Explorer",
+      "body": "In Windows, you can search for large files using the File Explorer search function. This allows you to filter files by size."
+    },
+    {
+      "id": "mac-finder",
+      "heading": "Using macOS Finder",
+      "body": "On macOS, Finder provides a way to search for files by size through its search feature, allowing you to locate large files easily."
+    },
+    {
+      "id": "third-party-tools",
+      "heading": "Using Third-Party Applications",
+      "body": "There are various third-party applications available that can scan your entire drive and provide detailed reports on file sizes, helping you identify large files quickly."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows File Explorer Search",
+      "detail": "Open File Explorer, click on 'This PC', and type 'size:>1GB' in the search bar to find files larger than 1GB."
+    },
+    {
+      "title": "macOS Finder Search",
+      "detail": "Open Finder, press Command + F, and select 'File Size' from the filter options to find files larger than a specified size."
+    },
+    {
+      "title": "Using a Third-Party Tool",
+      "detail": "Download and install a tool like WinDirStat (Windows) or DaisyDisk (macOS) to visualize and manage large files on your system."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What file types should I look for when trying to free up space?",
+      "answer": "Common large file types include videos, high-resolution images, and software installers. Check your Downloads and Videos folders for large files."
+    },
+    {
+      "question": "Can I delete system files to free up space?",
+      "answer": "Be cautious when deleting system files, as this may affect your operating system's functionality. Use built-in tools like Disk Cleanup (Windows) or Storage Management (macOS) to safely remove unnecessary files."
+    },
+    {
+      "question": "Are there any risks in using third-party software?",
+      "answer": "Yes, ensure you download third-party applications from reputable sources to avoid malware or unwanted software. Always read reviews and check for user feedback."
+    }
+  ],
+  "caveats": [
+    "Be careful when deleting files, as some may be critical for system operation or personal data."
+  ],
+  "relatedToolIdeas": [
+    "File management checklist",
+    "Disk space analyzer tools"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

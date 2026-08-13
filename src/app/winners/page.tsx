@@ -1,21 +1,22 @@
 import Link from "next/link";
 import { QuestionLink } from "@/components/QuestionLink";
-import { getPublishedQuestions } from "@/lib/questions";
+import { getPublishedQuestionsByPriority } from "@/lib/questions";
 
 export const metadata = {
-  title: "Popular answers",
-  description: "Published technology answers on AnswerKit.",
+  title: "All answers",
+  description: "Browse published technology answers on AnswerKit, ranked by priority.",
 };
 
 export default function WinnersPage() {
-  const questions = getPublishedQuestions();
+  const questions = getPublishedQuestionsByPriority();
 
   return (
     <div className="shell browse-page">
-      <h1 className="page-title">Popular answers</h1>
+      <h1 className="page-title">All answers</h1>
       <p className="page-lead">
-        {questions.length} published answer{questions.length === 1 ? "" : "s"} on
-        AnswerKit right now. More are added as they are written and reviewed.
+        {questions.length} published answer{questions.length === 1 ? "" : "s"},
+        ordered by search demand and usefulness. Open any question for a direct
+        answer and steps.
       </p>
 
       {questions.length > 0 ? (

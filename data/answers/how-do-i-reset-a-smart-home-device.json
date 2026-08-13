@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-reset-a-smart-home-device",
+  "directAnswer": "To reset a smart home device, locate the reset button on the device, usually found on the back or bottom, and press it for a specific duration, often 10-15 seconds.",
+  "summary": "Resetting a smart home device can resolve connectivity issues and restore factory settings. The process may vary by device type and manufacturer.",
+  "sections": [
+    {
+      "id": "general-reset",
+      "heading": "General Reset Procedure",
+      "body": "Most smart home devices can be reset by holding down the reset button. This will usually restore the device to its factory settings, erasing all saved configurations."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "For devices connected to specific platforms like Google Home or Amazon Alexa, additional steps may be required to remove the device from your account."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Locate the Reset Button",
+      "detail": "Find the reset button on your device, which is typically located on the back or bottom."
+    },
+    {
+      "title": "Press and Hold the Reset Button",
+      "detail": "Press and hold the reset button for 10-15 seconds until the device's indicator light flashes, indicating a reset."
+    },
+    {
+      "title": "Remove Device from App",
+      "detail": "If applicable, open the associated app (like Google Home or Alexa) and remove the device from your account."
+    },
+    {
+      "title": "Reconfigure the Device",
+      "detail": "Follow the manufacturer's instructions to set up the device again."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my device delete all settings?",
+      "answer": "Yes, resetting the device will erase all custom settings and configurations."
+    },
+    {
+      "question": "What if I can't find the reset button?",
+      "answer": "Refer to the device's user manual or the manufacturer's website for specific instructions on locating the reset button."
+    },
+    {
+      "question": "Can I reset my device remotely?",
+      "answer": "Some devices allow for remote reset through their app, but this feature varies by manufacturer."
+    }
+  ],
+  "caveats": [
+    "Resetting the device may require reconfiguration and may affect any connected automations."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

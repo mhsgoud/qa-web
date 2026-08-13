@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-connect-two-monitors-to-a-mac",
+  "directAnswer": "You can connect two monitors to a Mac using the appropriate cables and adapters for your Mac model. Ensure your Mac supports multiple displays.",
+  "summary": "Connecting two monitors to a Mac can enhance productivity by expanding your workspace. Follow the steps below to set it up correctly.",
+  "sections": [
+    {
+      "id": "monitor-compatibility",
+      "heading": "Check Monitor Compatibility",
+      "body": "Before connecting, verify that your monitors are compatible with your Mac's ports. Common ports include HDMI, DisplayPort, and USB-C. You may need adapters depending on your Mac model."
+    },
+    {
+      "id": "mac-models-and-ports",
+      "heading": "Identify Your Mac Model and Ports",
+      "body": "Different Mac models have different port configurations. For example, MacBook Pro models from 2016 onward typically have Thunderbolt 3 (USB-C) ports, while older models may have HDMI or Mini DisplayPort."
+    },
+    {
+      "id": "display-settings",
+      "heading": "Adjust Display Settings",
+      "body": "After connecting the monitors, go to System Preferences > Displays to arrange and configure your displays. You can choose to mirror displays or extend the desktop."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Connect the Monitors",
+      "detail": "Use the appropriate cables to connect each monitor to your Mac. If necessary, use adapters to match the ports."
+    },
+    {
+      "title": "Open Display Preferences",
+      "detail": "Click the Apple menu, select System Preferences, then click on Displays to access display settings."
+    },
+    {
+      "title": "Arrange Displays",
+      "detail": "In the Displays settings, you can drag the monitor icons to arrange them as desired, and choose whether to mirror or extend the display."
+    },
+    {
+      "title": "Confirm Settings",
+      "detail": "After adjusting the settings, confirm that both monitors are functioning as expected."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use different monitor brands?",
+      "answer": "Yes, you can use different brands of monitors as long as they are compatible with your Mac's ports."
+    },
+    {
+      "question": "What if my Mac doesn't recognize the second monitor?",
+      "answer": "Try disconnecting and reconnecting the monitor, checking the cables, or restarting your Mac. Ensure the monitor is powered on."
+    },
+    {
+      "question": "Is there a limit to how many monitors I can connect?",
+      "answer": "The number of external displays you can connect depends on your Mac model. Most modern Macs can support two or more displays, but check Apple's specifications for your specific model."
+    }
+  ],
+  "caveats": [
+    "Not all Macs support dual monitors; check your model's specifications. Additionally, using adapters may affect resolution and refresh rates."
+  ],
+  "relatedToolIdeas": [
+    "Monitor + GPU match advisor"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

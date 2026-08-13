@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-free-up-disk-space-on-windows",
+  "directAnswer": "To free up disk space on Windows, you can use the built-in Disk Cleanup tool and uninstall unnecessary applications.",
+  "summary": "Freeing up disk space on Windows involves using system tools to remove temporary files and uninstall unused programs.",
+  "sections": [
+    {
+      "id": "disk-cleanup",
+      "heading": "Using Disk Cleanup",
+      "body": "Disk Cleanup is a built-in utility that helps you remove temporary files, system files, and more."
+    },
+    {
+      "id": "uninstall-apps",
+      "heading": "Uninstalling Unused Applications",
+      "body": "Removing applications you no longer use can significantly free up space."
+    },
+    {
+      "id": "cloud-storage",
+      "heading": "Consider Cloud Storage",
+      "body": "Using cloud storage solutions can help you offload files that you don't need immediate access to."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Disk Cleanup",
+      "detail": "Press Windows + S, type 'Disk Cleanup', and select the tool from the results."
+    },
+    {
+      "title": "Select Drive",
+      "detail": "Choose the drive you want to clean (usually C:) and click OK."
+    },
+    {
+      "title": "Select Files to Delete",
+      "detail": "Check the boxes for the file types you want to delete, then click OK."
+    },
+    {
+      "title": "Uninstall Applications",
+      "detail": "Go to Settings > Apps > Apps & features, select the app you wish to uninstall, and click Uninstall."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What files can I safely delete using Disk Cleanup?",
+      "answer": "You can safely delete temporary files, system cache, and recycle bin contents."
+    },
+    {
+      "question": "How do I find large files on my disk?",
+      "answer": "You can use File Explorer, sort by size, or use third-party tools like WinDirStat."
+    },
+    {
+      "question": "Will freeing up disk space improve my computer's performance?",
+      "answer": "Yes, having more free space can improve performance, especially if your disk is nearly full."
+    }
+  ],
+  "caveats": [
+    "Be cautious when deleting system files, as removing essential files can affect system stability."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

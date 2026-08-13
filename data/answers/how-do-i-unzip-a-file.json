@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-unzip-a-file",
+  "directAnswer": "To unzip a file, right-click on the zipped file and select 'Extract All' or use a file extraction tool like WinRAR or 7-Zip.",
+  "summary": "Unzipping files is a straightforward process that can be done using built-in tools on most operating systems or third-party software.",
+  "sections": [
+    {
+      "id": "windows",
+      "heading": "Unzipping on Windows",
+      "body": "On Windows, you can unzip files using the built-in File Explorer or third-party applications."
+    },
+    {
+      "id": "mac",
+      "heading": "Unzipping on Mac",
+      "body": "On Mac, double-clicking the zipped file will automatically unzip it using the Archive Utility."
+    },
+    {
+      "id": "linux",
+      "heading": "Unzipping on Linux",
+      "body": "On Linux, you can use the command line with the 'unzip' command or graphical tools like Archive Manager."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using Windows File Explorer",
+      "detail": "Right-click on the zipped file, select 'Extract All', choose the destination folder, and click 'Extract'."
+    },
+    {
+      "title": "Using Mac Archive Utility",
+      "detail": "Double-click the zipped file, and it will automatically extract to the same location."
+    },
+    {
+      "title": "Using Command Line on Linux",
+      "detail": "Open a terminal and run 'unzip <filename>.zip' to extract the files."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I can't find the 'Extract All' option?",
+      "answer": "Ensure you are right-clicking on the zipped file; if the option is missing, you may need to install a file extraction tool."
+    },
+    {
+      "question": "Can I unzip files on my mobile device?",
+      "answer": "Yes, many mobile apps are available for both Android and iOS that can unzip files."
+    },
+    {
+      "question": "What if the zipped file is corrupted?",
+      "answer": "If the file is corrupted, it may not unzip correctly. You may need to re-download the file."
+    }
+  ],
+  "caveats": [
+    "Some zipped files may be password protected, requiring a password to unzip."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for file management"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

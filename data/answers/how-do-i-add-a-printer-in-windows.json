@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-add-a-printer-in-windows",
+  "directAnswer": "To add a printer in Windows, go to Settings > Devices > Printers & scanners, then click 'Add a printer or scanner'. Follow the on-screen instructions to complete the setup.",
+  "summary": "This guide provides step-by-step instructions for adding a printer in Windows, along with common issues and FAQs.",
+  "sections": [
+    {
+      "id": "understanding-printer-types",
+      "heading": "Understanding Printer Types",
+      "body": "Before adding a printer, it's important to know whether you are connecting a local printer via USB or a network printer. The steps may vary slightly depending on the type."
+    },
+    {
+      "id": "troubleshooting-issues",
+      "heading": "Troubleshooting Common Issues",
+      "body": "If your printer does not appear in the list, ensure it is powered on and connected to the same network as your computer. Also, check for any driver updates."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Settings",
+      "detail": "Press the Windows key, then select 'Settings' (gear icon)."
+    },
+    {
+      "title": "Navigate to Devices",
+      "detail": "In the Settings window, click on 'Devices' and then select 'Printers & scanners'."
+    },
+    {
+      "title": "Add a Printer",
+      "detail": "Click on 'Add a printer or scanner'. Windows will search for available printers."
+    },
+    {
+      "title": "Follow On-Screen Instructions",
+      "detail": "Select your printer from the list and follow the prompts to complete the installation."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my printer doesn't show up?",
+      "answer": "Ensure the printer is turned on, connected to the same network, and check if the drivers are installed."
+    },
+    {
+      "question": "Can I add a wireless printer?",
+      "answer": "Yes, you can add a wireless printer by selecting it from the list during the 'Add a printer' step."
+    },
+    {
+      "question": "How do I set a default printer?",
+      "answer": "In the 'Printers & scanners' menu, select your printer and click 'Manage', then choose 'Set as default'."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly depending on your version of Windows. Ensure your system is updated for the best experience."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

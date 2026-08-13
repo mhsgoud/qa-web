@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-transfer-whatsapp-from-android-to-iphone",
+  "directAnswer": "You can transfer WhatsApp from Android to iPhone using the 'Move to iOS' app or by exporting chat history via email. The process may vary based on WhatsApp versions.",
+  "summary": "Transferring WhatsApp from Android to iPhone can be done through specific apps and methods, ensuring your chat history is preserved.",
+  "sections": [
+    {
+      "id": "move-to-ios-app",
+      "heading": "Using Move to iOS App",
+      "body": "The Move to iOS app allows you to transfer your WhatsApp data during the setup of your new iPhone. Ensure both devices are connected to the same Wi-Fi network."
+    },
+    {
+      "id": "export-chat-history",
+      "heading": "Exporting Chat History",
+      "body": "You can also export individual chat histories via email, but this will not allow you to import them back into WhatsApp on your iPhone."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prepare Your Devices",
+      "detail": "Ensure both your Android and iPhone are fully charged and connected to the same Wi-Fi network."
+    },
+    {
+      "title": "Install Move to iOS",
+      "detail": "Download the Move to iOS app on your Android device from the Google Play Store."
+    },
+    {
+      "title": "Transfer Data",
+      "detail": "Follow the on-screen instructions in the Move to iOS app to transfer your WhatsApp data during the iPhone setup."
+    },
+    {
+      "title": "Export Chats via Email",
+      "detail": "Open a chat in WhatsApp on your Android, tap on the three dots, select 'More', then 'Export chat', and choose email to send the chat history."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will I lose my chat history during the transfer?",
+      "answer": "No, if you use the Move to iOS app, your chat history should transfer successfully."
+    },
+    {
+      "question": "Can I transfer media files too?",
+      "answer": "Yes, using the Move to iOS app will transfer media files along with your chat history."
+    },
+    {
+      "question": "Is there a limit to the number of chats I can transfer?",
+      "answer": "There is no specific limit, but transferring a large number of chats may take more time."
+    }
+  ],
+  "caveats": [
+    "The Move to iOS method requires both devices to be on the same Wi-Fi network and may not work if either device has a low battery."
+  ],
+  "relatedToolIdeas": [
+    "Backup checklist wizard"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

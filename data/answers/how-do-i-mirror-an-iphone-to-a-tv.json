@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-mirror-an-iphone-to-a-tv",
+  "directAnswer": "You can mirror your iPhone to a TV using AirPlay or an HDMI adapter. Ensure both devices are on the same Wi-Fi network for AirPlay.",
+  "summary": "This guide explains how to mirror your iPhone screen to a TV using AirPlay or a wired connection.",
+  "sections": [
+    {
+      "id": "airplay-mirroring",
+      "heading": "Using AirPlay",
+      "body": "AirPlay allows you to wirelessly stream content from your iPhone to an Apple TV or compatible smart TV."
+    },
+    {
+      "id": "wired-connection",
+      "heading": "Using HDMI Adapter",
+      "body": "For a wired connection, you can use a Lightning to HDMI adapter to connect your iPhone directly to the TV."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using AirPlay",
+      "detail": "1. Ensure your iPhone and TV are on the same Wi-Fi network. 2. Swipe down from the top-right corner of your iPhone to open Control Center. 3. Tap 'Screen Mirroring' and select your TV from the list."
+    },
+    {
+      "title": "Using HDMI Adapter",
+      "detail": "1. Connect the Lightning to HDMI adapter to your iPhone. 2. Plug the HDMI cable into the adapter and the other end into the TV. 3. Switch your TV to the corresponding HDMI input."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my TV doesn't support AirPlay?",
+      "answer": "If your TV doesn't support AirPlay, you can use an HDMI adapter for a wired connection."
+    },
+    {
+      "question": "Can I mirror my iPhone while using other apps?",
+      "answer": "Yes, you can use other apps while mirroring, but some apps may restrict content during mirroring."
+    },
+    {
+      "question": "Is there a delay when using AirPlay?",
+      "answer": "There may be a slight delay when using AirPlay, which can affect activities like gaming."
+    }
+  ],
+  "caveats": [
+    "AirPlay requires a compatible TV or Apple TV, and performance may vary based on Wi-Fi strength."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

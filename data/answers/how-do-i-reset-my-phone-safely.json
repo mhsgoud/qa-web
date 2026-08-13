@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-reset-my-phone-safely",
+  "directAnswer": "To reset your phone safely, back up your data first, then navigate to your phone's settings to perform a factory reset.",
+  "summary": "This guide provides steps to safely reset your smartphone while ensuring your data is backed up.",
+  "sections": [
+    {
+      "id": "backup-data",
+      "heading": "Backing Up Your Data",
+      "body": "Before resetting your phone, ensure that all important data is backed up. This can usually be done through cloud services or by connecting your phone to a computer."
+    },
+    {
+      "id": "factory-reset-steps",
+      "heading": "Factory Reset Steps",
+      "body": "Follow the specific steps for your smartphone platform to perform a factory reset."
+    },
+    {
+      "id": "post-reset-setup",
+      "heading": "Post-Reset Setup",
+      "body": "After the reset, you will need to set up your phone as new or restore from your backup."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Backup your data",
+      "detail": "Use cloud services like Google Drive for Android or iCloud for iPhone to back up your contacts, photos, and apps."
+    },
+    {
+      "title": "Perform the factory reset",
+      "detail": "For Android: Go to Settings > System > Reset options > Erase all data (factory reset). For iPhone: Go to Settings > General > Transfer or Reset iPhone > Erase All Content and Settings."
+    },
+    {
+      "title": "Set up your phone",
+      "detail": "Follow the on-screen instructions to set up your phone as new or restore from your backup after the reset."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will a factory reset delete my apps?",
+      "answer": "Yes, a factory reset will remove all apps and data from your device, returning it to its original state."
+    },
+    {
+      "question": "How can I recover data after a factory reset?",
+      "answer": "If you have backed up your data to a cloud service, you can restore it during the setup process after the reset."
+    },
+    {
+      "question": "Is there a way to reset my phone without losing data?",
+      "answer": "You can perform a soft reset or reset specific settings, but a full factory reset will always erase data."
+    }
+  ],
+  "caveats": [
+    "Ensure you have backed up all important data, as a factory reset will erase everything on your device."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for backing up data"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

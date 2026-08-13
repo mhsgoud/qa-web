@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-free-up-cloud-storage",
+  "directAnswer": "To free up cloud storage, delete unnecessary files or upgrade your storage plan if needed. Regularly review and manage your files to optimize space.",
+  "summary": "Freeing up cloud storage can be achieved by deleting unused files, managing backups, and considering storage upgrades.",
+  "sections": [
+    {
+      "id": "file-management",
+      "heading": "Manage Your Files",
+      "body": "Start by identifying and deleting files that you no longer need. Check folders like 'Downloads', 'Photos', and 'Documents' for large files."
+    },
+    {
+      "id": "backup-settings",
+      "heading": "Adjust Backup Settings",
+      "body": "If you use automatic backups, consider changing the settings to exclude certain file types or folders that do not require backup."
+    },
+    {
+      "id": "upgrade-options",
+      "heading": "Consider Upgrading Your Storage",
+      "body": "If you consistently run out of space, evaluate your cloud storage provider's upgrade options to accommodate your needs."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log into Your Cloud Account",
+      "detail": "Access your cloud storage account through the provider's website or app."
+    },
+    {
+      "title": "Review Storage Usage",
+      "detail": "Navigate to the storage management section to view which files are taking up the most space."
+    },
+    {
+      "title": "Delete Unnecessary Files",
+      "detail": "Select and delete files that you no longer need. Be sure to check the trash or recycle bin to permanently remove them."
+    },
+    {
+      "title": "Adjust Backup Settings",
+      "detail": "In the backup settings, choose which files or folders to include or exclude from automatic backups."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What types of files should I delete first?",
+      "answer": "Start with large files, duplicates, and files that you haven’t accessed in a long time."
+    },
+    {
+      "question": "How can I find large files in my cloud storage?",
+      "answer": "Most cloud services have a storage management tool that allows you to sort files by size."
+    },
+    {
+      "question": "Will deleting files from the cloud also delete them from my device?",
+      "answer": "It depends on your sync settings. If your files are synced, deleting them from the cloud may remove them from your device as well."
+    }
+  ],
+  "caveats": [
+    "Be cautious when deleting files, as some may be important for ongoing projects or backups."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

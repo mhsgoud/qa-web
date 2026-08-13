@@ -1,0 +1,50 @@
+{
+  "slug": "how-do-i-zip-a-folder",
+  "directAnswer": "To zip a folder, right-click on the folder and select 'Send to' > 'Compressed (zipped) folder' on Windows, or right-click and select 'Compress' on macOS.",
+  "summary": "Zipping a folder is a straightforward process that allows you to compress files for easier storage or sharing.",
+  "sections": [
+    {
+      "id": "windows-zip",
+      "heading": "Zipping a Folder on Windows",
+      "body": "On Windows, you can easily zip a folder using the built-in file explorer."
+    },
+    {
+      "id": "macos-zip",
+      "heading": "Zipping a Folder on macOS",
+      "body": "macOS users can also zip folders directly from Finder without additional software."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Zipping on Windows",
+      "detail": "1. Right-click on the folder you want to zip. 2. Select 'Send to' from the context menu. 3. Click on 'Compressed (zipped) folder'."
+    },
+    {
+      "title": "Zipping on macOS",
+      "detail": "1. Right-click (or Control-click) on the folder you want to compress. 2. Select 'Compress [folder name]' from the context menu."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I zip multiple folders at once?",
+      "answer": "Yes, you can select multiple folders, right-click, and then follow the same steps to zip them together."
+    },
+    {
+      "question": "What if I can't find the zip option?",
+      "answer": "Ensure you are right-clicking on a folder, not an empty space, and that your operating system is updated."
+    },
+    {
+      "question": "How do I unzip a folder?",
+      "answer": "To unzip a folder, right-click on the zipped file and select 'Extract All' on Windows, or double-click the zipped file on macOS."
+    }
+  ],
+  "caveats": [
+    "Zipping a folder may not significantly reduce file size if the files are already compressed formats (e.g., images, videos)."
+  ],
+  "relatedToolIdeas": [
+    "File compression software comparison",
+    "Guide on file management best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

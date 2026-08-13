@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-restart-my-wifi-router",
+  "directAnswer": "To restart your WiFi router, unplug it from the power source, wait for about 10 seconds, and then plug it back in.",
+  "summary": "Restarting your WiFi router can help resolve connectivity issues and improve network performance.",
+  "sections": [
+    {
+      "id": "understanding-restart",
+      "heading": "Understanding the Restart Process",
+      "body": "Restarting your router clears temporary settings and connections, which can help fix issues like slow speeds or dropped connections."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Restart Steps",
+      "body": "The steps to restart your router may vary slightly based on the model and manufacturer."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Unplug the Router",
+      "detail": "Locate the power cord of your router and unplug it from the wall outlet."
+    },
+    {
+      "title": "Wait",
+      "detail": "Wait for at least 10 seconds to ensure that all power is drained from the device."
+    },
+    {
+      "title": "Plug it Back In",
+      "detail": "Reconnect the power cord to the router and wait for it to fully reboot, which may take a few minutes."
+    },
+    {
+      "title": "Check Connectivity",
+      "detail": "Once the router's lights indicate it is operational, check your device for internet connectivity."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my router does not have a power switch?",
+      "answer": "If your router does not have a power switch, simply unplugging it from the power source is the correct method to restart it."
+    },
+    {
+      "question": "How often should I restart my router?",
+      "answer": "It's generally recommended to restart your router once a month or whenever you experience connectivity issues."
+    },
+    {
+      "question": "Will restarting my router delete my settings?",
+      "answer": "No, restarting your router will not delete any settings. However, a factory reset will."
+    }
+  ],
+  "caveats": [
+    "If your internet connection issues persist after restarting, consider checking with your Internet Service Provider."
+  ],
+  "relatedToolIdeas": [
+    "Wi‑Fi speed / channel helper"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

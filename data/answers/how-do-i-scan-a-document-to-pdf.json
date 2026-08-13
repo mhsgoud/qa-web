@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-scan-a-document-to-pdf",
+  "directAnswer": "To scan a document to PDF, use your scanner's software or a mobile scanning app to capture the document and save it in PDF format.",
+  "summary": "Scanning documents to PDF can be done using various devices and software, including dedicated scanners and mobile apps.",
+  "sections": [
+    {
+      "id": "scanner-software",
+      "heading": "Using Scanner Software",
+      "body": "Most scanners come with proprietary software that allows you to scan documents directly to PDF. Ensure your scanner is connected and powered on."
+    },
+    {
+      "id": "mobile-apps",
+      "heading": "Using Mobile Apps",
+      "body": "Apps like Adobe Scan or Microsoft Office Lens can convert photos of documents into PDFs. Simply take a picture and follow the app's prompts."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using Scanner Software",
+      "detail": "Open the scanner software on your computer, select 'Scan', choose 'PDF' as the output format, and follow the prompts to scan your document."
+    },
+    {
+      "title": "Using a Mobile App",
+      "detail": "Open the scanning app, select the option to scan a new document, take a picture of the document, and save it as a PDF."
+    },
+    {
+      "title": "Check Settings",
+      "detail": "Before scanning, check the settings to ensure the resolution and color options meet your needs for the document."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my scanner doesn't have a PDF option?",
+      "answer": "You can scan the document as an image file (like JPG) and then use PDF conversion software or online tools to convert the image to PDF."
+    },
+    {
+      "question": "Can I scan multiple pages into one PDF?",
+      "answer": "Yes, most scanner software and mobile apps allow you to scan multiple pages and save them as a single PDF document."
+    },
+    {
+      "question": "Is there a size limit for scanned PDFs?",
+      "answer": "Yes, some software may have size limits for PDFs. Check the documentation for your specific scanner or app for details."
+    }
+  ],
+  "caveats": [
+    "Ensure your scanner drivers are up to date, as outdated drivers may affect functionality."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for scanning best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

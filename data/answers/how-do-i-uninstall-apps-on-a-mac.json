@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-uninstall-apps-on-a-mac",
+  "directAnswer": "You can uninstall apps on a Mac by dragging them from the Applications folder to the Trash, or by using Launchpad for apps downloaded from the App Store.",
+  "summary": "Uninstalling apps on a Mac can be done through the Applications folder or Launchpad, depending on how the app was installed.",
+  "sections": [
+    {
+      "id": "applications-folder",
+      "heading": "Uninstalling via Applications Folder",
+      "body": "To uninstall an app using the Applications folder, open Finder, select 'Applications' from the sidebar, locate the app you want to remove, and drag it to the Trash."
+    },
+    {
+      "id": "launchpad",
+      "heading": "Uninstalling via Launchpad",
+      "body": "For apps installed from the App Store, you can also use Launchpad. Open Launchpad, find the app, click and hold the app until it jiggles, then click the 'X' that appears to delete it."
+    },
+    {
+      "id": "remnants",
+      "heading": "Checking for Remnants",
+      "body": "Some apps may leave behind preference files or other data. To completely remove these, you may need to search for them in the Library folder."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using the Applications Folder",
+      "detail": "1. Open Finder. 2. Click on 'Applications' in the sidebar. 3. Locate the app you want to uninstall. 4. Drag the app to the Trash. 5. Empty the Trash to complete the uninstallation."
+    },
+    {
+      "title": "Using Launchpad",
+      "detail": "1. Open Launchpad from the Dock. 2. Find the app you want to uninstall. 3. Click and hold the app icon until it jiggles. 4. Click the 'X' in the corner of the app icon. 5. Confirm deletion."
+    },
+    {
+      "title": "Removing Leftover Files",
+      "detail": "1. Open Finder and select 'Go' from the menu. 2. Hold the Option key and select 'Library'. 3. Check the 'Application Support' and 'Preferences' folders for any files related to the uninstalled app and delete them."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I uninstall system apps on my Mac?",
+      "answer": "Most system apps cannot be uninstalled as they are integral to macOS. However, some can be removed using Terminal commands, but this is not recommended."
+    },
+    {
+      "question": "What if I can't find the app in the Applications folder?",
+      "answer": "If the app was installed via a different method (like a third-party installer), check the app's documentation for specific uninstallation instructions."
+    },
+    {
+      "question": "Will uninstalling an app delete my data?",
+      "answer": "Uninstalling an app typically removes the app itself, but some apps may leave behind data. Check the Library folder for any leftover files if you want to ensure complete removal."
+    }
+  ],
+  "caveats": [
+    "Uninstalling apps from the Applications folder does not always remove associated files, which may remain in the Library."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

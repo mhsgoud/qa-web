@@ -1,0 +1,61 @@
+{
+  "slug": "how-do-i-print-from-an-iphone",
+  "directAnswer": "To print from an iPhone, ensure your printer is AirPrint-compatible and connected to the same Wi-Fi network as your iPhone. Use the Share icon in an app to access the Print option.",
+  "summary": "Printing from an iPhone is straightforward with AirPrint-compatible printers. Follow the steps below to print documents or photos directly from your device.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "heading": "Getting Started with AirPrint",
+      "body": "AirPrint is Apple's built-in printing solution that allows you to print wirelessly from your iPhone. Make sure your printer supports AirPrint and is connected to the same Wi-Fi network as your iPhone."
+    },
+    {
+      "id": "printing-steps",
+      "heading": "Steps to Print from Your iPhone",
+      "body": "Follow these steps to print documents or images from your iPhone."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open the Document or Image",
+      "detail": "Launch the app containing the document or image you want to print."
+    },
+    {
+      "title": "Access the Share Menu",
+      "detail": "Tap the Share icon (a square with an upward arrow) typically located at the bottom of the screen."
+    },
+    {
+      "title": "Select Print",
+      "detail": "Scroll down and select 'Print' from the options."
+    },
+    {
+      "title": "Choose Your Printer",
+      "detail": "Tap 'Select Printer' and choose your AirPrint-enabled printer from the list."
+    },
+    {
+      "title": "Adjust Print Settings",
+      "detail": "Set the number of copies, page range, and any other options, then tap 'Print' in the top right corner."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my printer is not appearing?",
+      "answer": "Ensure your printer is turned on, connected to the same Wi-Fi network as your iPhone, and supports AirPrint."
+    },
+    {
+      "question": "Can I print from any app?",
+      "answer": "Most apps that support document sharing will allow you to print, but some may not have the Print option available."
+    },
+    {
+      "question": "What if my printer does not support AirPrint?",
+      "answer": "You may need to download the printer manufacturer's app, which often provides printing capabilities for non-AirPrint printers."
+    }
+  ],
+  "caveats": [
+    "Not all printers support AirPrint, so check your printer's specifications."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

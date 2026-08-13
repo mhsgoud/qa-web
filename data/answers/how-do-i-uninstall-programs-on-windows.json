@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-uninstall-programs-on-windows",
+  "directAnswer": "To uninstall programs on Windows, you can use the Settings app or the Control Panel, depending on your version of Windows.",
+  "summary": "Uninstalling programs on Windows can be done through the Settings app or Control Panel, with slight variations based on the Windows version.",
+  "sections": [
+    {
+      "id": "using-settings-app",
+      "heading": "Using the Settings App",
+      "body": "For Windows 10 and Windows 11, the Settings app provides a straightforward method to uninstall programs."
+    },
+    {
+      "id": "using-control-panel",
+      "heading": "Using the Control Panel",
+      "body": "For older versions of Windows or if you prefer the Control Panel, you can uninstall programs from there as well."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Uninstall via Settings App",
+      "detail": "1. Open the Settings app by clicking the Start menu and selecting the gear icon. 2. Click on 'Apps', then find the program you want to uninstall in the list. 3. Click on the program and select 'Uninstall'."
+    },
+    {
+      "title": "Uninstall via Control Panel",
+      "detail": "1. Open the Control Panel by searching for it in the Start menu. 2. Click on 'Programs', then 'Programs and Features'. 3. Find the program you want to uninstall, right-click it, and select 'Uninstall'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I can't find the program I want to uninstall?",
+      "answer": "If the program isn't listed, it may not be installed through the standard methods; check if it's a portable application or installed through another method."
+    },
+    {
+      "question": "Will uninstalling a program delete my files?",
+      "answer": "Uninstalling a program typically removes the application but may leave behind user files; check the program's settings for file management."
+    },
+    {
+      "question": "Can I uninstall built-in Windows apps?",
+      "answer": "Some built-in apps can be uninstalled through the Settings app, but others may require PowerShell commands or cannot be removed at all."
+    }
+  ],
+  "caveats": [
+    "Uninstalling system-critical applications may affect system stability."
+  ],
+  "relatedToolIdeas": [
+    "RAM needs calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

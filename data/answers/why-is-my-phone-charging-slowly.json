@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-my-phone-charging-slowly",
+  "directAnswer": "Your phone may charge slowly due to using an incompatible charger or cable, or if the charging port is dirty. Additionally, background apps can consume power while charging.",
+  "summary": "Several factors can contribute to slow charging, including charger compatibility, cable quality, and software issues.",
+  "sections": [
+    {
+      "id": "charger-and-cable-compatibility",
+      "heading": "Charger and Cable Compatibility",
+      "body": "Ensure that you are using a charger and cable that are compatible with your phone model. For example, some phones require a specific wattage to charge quickly."
+    },
+    {
+      "id": "charging-port-cleanliness",
+      "heading": "Check the Charging Port",
+      "body": "Inspect the charging port for dust or debris. A dirty port can obstruct the connection and slow down charging speeds."
+    },
+    {
+      "id": "background-apps-and-settings",
+      "heading": "Background Apps and Settings",
+      "body": "Closing background apps and enabling battery saver mode can help improve charging speeds by reducing power consumption."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Inspect Your Charger and Cable",
+      "detail": "Check if your charger and cable are original or certified accessories. If not, consider switching to a compatible one."
+    },
+    {
+      "title": "Clean the Charging Port",
+      "detail": "Use a soft brush or compressed air to gently clean the charging port of any dust or lint."
+    },
+    {
+      "title": "Close Background Apps",
+      "detail": "On Android, swipe up from the bottom and swipe away apps; on iPhone, double-click the home button and swipe up on apps to close them."
+    },
+    {
+      "title": "Enable Battery Saver Mode",
+      "detail": "On Android, go to Settings > Battery > Battery Saver; on iPhone, go to Settings > Battery and toggle Low Power Mode."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can using a power bank slow down charging?",
+      "answer": "Yes, if the power bank does not provide sufficient output wattage, it can result in slower charging speeds."
+    },
+    {
+      "question": "Does the phone's temperature affect charging speed?",
+      "answer": "Yes, if your phone is too hot or too cold, it may slow down charging as a safety measure."
+    },
+    {
+      "question": "Is it safe to use my phone while charging?",
+      "answer": "While it is generally safe, using your phone while charging can increase heat and slow down the charging process."
+    }
+  ],
+  "caveats": [
+    "Charging speeds can vary based on the phone model and the specifications of the charger being used."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

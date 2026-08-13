@@ -1,0 +1,385 @@
+Priority questions (highest SEO opportunity first)
+Source: data/winners.json
+
+rank  score  status      question
+----  -----  ----------  --------
+   1  109.4  draft       How do I connect a monitor to a laptop?
+   2  107.6  draft       How do I remove an Apple ID from an iPhone?
+   3  107.6  draft       How do I scan a QR code with my phone?
+   4   98.4  draft       How do I fix a phone that keeps restarting?
+   5   94.1  draft       How do I recover data from a failed drive?
+   6   93.8  draft       How do I check if my GPU is bottlenecked?
+   7   93.8  draft       How do I check SSD health?
+   8   93.8  draft       How do I clone an SSD?
+   9   93.8  draft       How do I migrate Windows to a new SSD?
+  10   93.8  draft       How do I securely erase an SSD?
+  11   93.8  draft       How do I fix monitor ghosting?
+  12   93.8  draft       How do I calibrate a monitor?
+  13   91.9  draft       How do I move contacts to a new phone?
+  14   91.9  draft       How do I back up my Android phone?
+  15   91.9  published   How do I free up storage on my phone?
+  16   91.9  draft       How do I take a screenshot on Android?
+  17   91.9  draft       How do I take a screenshot on iPhone?
+  18   91.9  draft       How do I record my screen on Android?
+  19   91.9  draft       How do I record my screen on iPhone?
+  20   91.9  draft       How do I share my phone internet connection?
+  21   91.9  published   How do I check GPU temperature?
+  22   91.9  published   How do I reduce GPU temperature?
+  23   89.9  published   How do I back up my computer to the cloud?
+  24   87.5  published   How do I connect two monitors to a laptop?
+  25   87.5  published   How do I know if my password was leaked?
+  26   87.5  published   How do I remove malware from a computer?
+  27   87.5  published   How do I back up files against ransomware?
+  28   87.1  published   How do I check which WiFi channel I am using?
+  29   84.6  published   How do I check how much RAM my computer has?
+  30   84.5  published   How do I charge an EV at home?
+  31   84.5  none        How do I charge an EV in the Netherlands?
+  32   83.1  none        How do I connect smart devices to WiFi?
+  33   80.9  none        How do I mirror an iPhone to a TV?
+  34   80.9  none        How do I mirror Android to a TV?
+  35   79.3  none        How do I connect Bluetooth headphones to a TV?
+  36     79  none        How do I check hard drive health?
+  37   78.8  reviewed    How do I transfer photos from Android to iPhone?
+  38   78.8  none        How do I transfer WhatsApp from Android to iPhone?
+  39   78.8  reviewed    How do I back up my iPhone?
+  40   78.8  none        How do I find my lost phone?
+  41   78.8  none        How do I reset my phone safely?
+  42   78.8  none        How do I remove a Google account from Android?
+  43   78.8  none        How do I speed up a slow computer?
+  44   78.1  none        How do I stress test a GPU?
+  45   78.1  none        How do I update GPU drivers?
+  46   76.8  none        How do I move files between cloud services?
+  47     75  none        How much SSD storage do I need?
+  48     75  none        What causes SSD performance to drop?
+  49     75  none        How do I recognize a phishing email?
+  50     75  none        How do I secure my home WiFi?
+  51     75  none        How do I create a strong password?
+  52     75  none        How do I secure my Google account?
+  53     75  none        How do I secure my Apple account?
+  54   74.4  none        How do I set up a mesh WiFi system?
+  55   74.2  none        How do I clean a graphics card?
+  56   72.2  none        How do I uninstall apps on a Mac?
+  57   72.2  none        How do I free up disk space on Windows?
+  58   72.2  none        How do I free up storage on a Mac?
+  59   72.2  none        How do I take a screenshot on Windows?
+  60   72.2  none        How do I take a screenshot on a Mac?
+  61   72.2  none        How do I rename multiple files at once?
+  62   72.2  none        How do I find large files on my computer?
+  63   72.2  none        How do I make my laptop run cooler?
+  64   72.2  none        How do I connect two monitors to a Mac?
+  65   71.5  none        How do I reset a smart home device?
+  66   71.5  none        How do I control smart lights from my phone?
+  67   71.2  none        How do I connect a soundbar to a TV?
+  68   71.2  none        How do I cast my phone to a TV?
+  69   70.4  none        How do I add a printer on Mac?
+  70   70.4  none        How do I share a printer on a network?
+  71     69  none        Why is my hard drive slow?
+  72   67.9  none        How do I know what my USB-C port supports?
+  73   67.6  none        How do I check CPU temperature?
+  74   67.6  none        How do I reduce CPU temperature?
+  75   67.5  reviewed    Why is my phone battery draining so fast?
+  76   67.5  none        Why is my phone charging slowly?
+  77   65.8  none        How do I free up cloud storage?
+  78   65.6  none        How do I connect a printer to WiFi?
+  79   65.6  none        How do I add a printer in Windows?
+  80   65.6  none        How do I print from an iPhone?
+  81   64.7  none        Why does EV charging slow down?
+  82   64.3  none        How do I print from Android?
+  83   63.8  none        How do I improve WiFi signal strength?
+  84   63.8  none        How do I check WiFi speed?
+  85   63.8  none        How do I change WiFi channels?
+  86   63.4  none        How do I fix paper jams?
+  87     63  none        How do I connect headphones to a TV?
+  88     63  none        How do I connect headphones to a PC?
+  89   62.8  none        How do I scan a document to PDF?
+  90   62.5  none        How do I restart my WiFi router?
+  91   62.5  none        Does FSR work on Nvidia GPUs?
+  92   62.5  none        Why does my GPU crash under load?
+  93   62.5  none        Why is my GPU usage low in games?
+  94   62.5  none        Why is my GPU usage at 100 percent?
+  95   61.9  none        How do I check my CPU model?
+  96   61.9  none        How do I check my graphics card?
+  97   61.9  none        How do I find my Windows version?
+  98   61.9  none        How do I uninstall programs on Windows?
+  99   61.9  none        How do I zip a folder?
+ 100   61.9  none        How do I unzip a file?
+ 101   61.9  none        How do I recover deleted files?
+ 102   61.3  none        How do I create smart home routines?
+ 103   61.3  none        How do I secure smart home devices?
+ 104   60.7  none        How do I reset Bluetooth earbuds?
+ 105   60.4  none        How do I clean printer heads?
+ 106   60.2  none        How do I enter Safe Mode in Windows?
+ 107   60.2  none        How do I disable startup apps in Windows?
+ 108   60.2  none        How do I change the default browser in Windows?
+ 109   60.2  none        How do I show hidden files in Windows?
+ 110   60.2  none        How do I enable file extensions in Windows?
+ 111   60.2  none        How do I reset Windows without losing files?
+ 112   60.2  none        How do I create a restore point in Windows?
+ 113   60.2  none        How do I stop Windows from waking my PC?
+ 114   60.2  none        How do I change the Windows lock screen?
+ 115     60  none        How do I clean wireless earbuds?
+ 116   59.5  none        How do I safely eject a USB drive?
+ 117     57  none        How much VRAM do modern games need?
+ 118   56.9  none        How do I force quit an app on Mac?
+ 119   56.9  none        How do I clear cache on a Mac?
+ 120   56.9  none        How do I uninstall an app on Mac?
+ 121   56.9  none        How do I start a Mac in Safe Mode?
+ 122   56.9  none        How do I change default apps on Mac?
+ 123   56.9  none        How do I show hidden files on Mac?
+ 124   56.9  none        How do I extract ZIP files on Mac?
+ 125   56.9  none        How do I connect a Mac to a TV?
+ 126   56.9  none        How do I free up RAM on Mac?
+ 127   56.8  none        How long do hard drives last?
+ 128   55.5  none        Why does my TV keep disconnecting from WiFi?
+ 129   54.7  none        Why is my printer printing slowly?
+ 130     54  none        Why is my computer running slowly?
+ 131     54  none        How do I improve headphone sound quality?
+ 132   53.8  none        How do I scan a document?
+ 133   53.6  none        How do I find my router IP address?
+ 134   53.1  none        How do I change my WiFi password?
+ 135   53.1  none        How do I find my WiFi password?
+ 136   52.2  none        How do I test my internet connection?
+ 137   51.6  none        How do I open Task Manager?
+ 138   51.6  none        How do I check Windows system files?
+ 139   51.6  none        How do I repair Windows Update?
+ 140   51.6  none        How do I change Windows power settings?
+ 141   51.6  none        How do I connect Bluetooth headphones to Windows?
+ 142   51.6  none        How do I enable virtualization in Windows?
+ 143   51.6  none        How do I check Windows activation status?
+ 144   51.4  none        How do I remove an old Bluetooth pairing?
+ 145   51.1  none        How far can an electric car travel?
+ 146   51.1  none        How long does an EV battery last?
+ 147   51.1  none        How much electricity does an EV use?
+ 148   51.1  none        Can I charge an EV from a normal socket?
+ 149   51.1  none        What happens to an EV battery in winter?
+ 150   51.1  none        Is an EV cheaper than a petrol car?
+ 151     51  none        Why does my WiFi keep disconnecting?
+ 152     51  none        Is WiFi 7 worth upgrading to?
+ 153     51  none        Why is 5 GHz WiFi faster?
+ 154     51  none        Why does 2.4 GHz WiFi have better range?
+ 155     51  none        How many devices can connect to WiFi?
+ 156   50.4  none        How do I run an old program on Windows?
+ 157     50  none        How far does a WiFi router reach?
+ 158   49.5  none        Why does my computer freeze randomly?
+ 159   49.2  none        How do I change the default app for a file type?
+ 160   48.8  none        How do I check Mac storage?
+ 161   48.8  none        How do I check Mac battery health?
+ 162   48.8  none        How do I reset a Mac?
+ 163   48.8  none        How do I compress files on Mac?
+ 164   48.8  none        How do I screen record on Mac?
+ 165   48.8  none        How do I mirror a Mac screen?
+ 166   48.8  none        How do I update macOS safely?
+ 167   48.8  none        How far should I sit from a 4K TV?
+ 168   48.3  none        How long can a USB-C cable be?
+ 169   48.2  none        What is a Type 2 charging connector?
+ 170     48  none        What is the difference between 2.4 GHz and 5 GHz WiFi?
+ 171     48  none        How much RAM does a laptop need?
+ 172     48  none        How much VRAM do I need?
+ 173     48  none        How many CPU cores do I need?
+ 174   47.9  none        How do I encrypt cloud files?
+ 175   47.9  none        Why is my smart device offline?
+ 176   47.7  none        How do I fix Bluetooth in Windows?
+ 177   47.7  none        Why does my TV have no sound?
+ 178   47.3  none        Why is my printer not printing?
+ 179   47.3  none        Why is my printer printing blank pages?
+ 180   47.3  none        Why is my printer not recognizing ink?
+ 181   46.8  none        What happens when cloud storage expires?
+ 182   46.7  none        Why is my USB transfer speed slow?
+ 183   46.7  none        What is the difference between cloud backup and sync?
+ 184   45.6  none        Why is my USB-C port not charging?
+ 185   44.1  none        How do I pair Bluetooth headphones?
+ 186   44.1  none        How do I connect two Bluetooth devices?
+ 187   44.1  none        How do I reduce Bluetooth audio latency?
+ 188   43.8  none        Why is my SSD slow?
+ 189   43.5  none        Why is my Mac running slowly?
+ 190   43.5  none        Why is my Mac battery draining quickly?
+ 191   43.3  none        Can smart home devices work without internet?
+ 192   43.3  none        How much electricity do smart home devices use?
+ 193   43.2  none        Can Bluetooth headphones work with two devices?
+ 194   43.1  none        Is a laser printer cheaper to run?
+ 195   43.1  none        How long does printer ink last?
+ 196   42.1  none        Why do my headphones sound quiet?
+ 197   42.1  none        Why do my headphones keep disconnecting?
+ 198     42  none        How do I check whether software is safe?
+ 199     42  none        How do I find what program opened a file?
+ 200   41.3  none        Why is Windows using so much RAM?
+ 201   41.3  none        Why is Windows using so much CPU?
+ 202   40.7  none        Why is my monitor flickering?
+ 203   40.3  none        How long do SSDs last?
+ 204   40.3  none        Can an SSD fail suddenly?
+ 205   39.8  none        Why is my USB drive not recognized?
+ 206     39  none        Why is my Mac fan running constantly?
+ 207     37  none        What is the difference between USB-C and Thunderbolt?
+ 208     36  none        How do I find my IP address?
+ 209     36  none        How do I change DNS servers?
+ 210     36  none        How do I find my subnet mask?
+ 211     36  none        How do I find my MAC address?
+ 212     36  none        How do I uninstall software completely?
+ 213   35.8  none        How do I check if a website is down?
+ 214   34.5  none        Why is Bluetooth audio quality poor?
+ 215   34.2  none        Is NVMe faster than SATA?
+ 216     32  none        Is Matter compatible with WiFi?
+ 217   31.5  none        How many Bluetooth devices can connect at once?
+ 218   30.7  none        How do I clear browser cache?
+ 219   29.8  none        Can WiFi work without internet?
+ 220   28.9  none        Is an EV worth buying?
+ 221   28.5  none        Is 144Hz better than 60Hz?
+ 222   28.5  none        Is 1440p better than 1080p?
+ 223   28.3  none        How do I print double-sided?
+ 224   28.2  none        Does DLSS improve image quality?
+ 225   28.2  none        Does ray tracing reduce FPS?
+ 226   26.3  none        Is Thunderbolt compatible with USB-C?
+ 227   25.9  none        Is cloud storage private?
+ 228   25.4  none        Is 240Hz worth it?
+ 229   25.1  none        Why is my printer offline?
+ 230   24.1  none        Why is Windows Update stuck?
+ 231   23.9  none        Why is a website not loading?
+ 232   23.2  none        Can USB-C carry video?
+ 233   23.2  none        Can USB-C carry audio?
+ 234   22.7  none        Is OLED better than QLED?
+ 235   22.6  none        Is Matter better than Zigbee?
+ 236   22.1  none        Can USB-C charge a laptop?
+ 237   22.1  none        How do I optimize a slow SQL query?
+ 238   20.7  none        What is a content delivery network?
+ 239   19.3  none        Is 120Hz TV worth it?
+ 240     19  none        Does Bluetooth drain battery?
+ 241   18.4  none        Why does Bluetooth keep disconnecting?
+ 242   18.4  none        Why is Bluetooth audio delayed?
+ 243   16.6  none        How far can Bluetooth reach?
+ 244   16.6  none        Can Bluetooth work without internet?
+ 245   16.6  none        Can Bluetooth transmit lossless audio?
+ 246   16.1  none        How do I clear cookies?
+ 247   15.8  none        What is a gateway in networking?
+ 248   15.6  none        Why do AI models hallucinate?
+ 249   15.5  none        Why is a website slow?
+ 250   14.7  none        How do I back up a database?
+ 251   14.5  none        What is a large language model?
+ 252   14.2  none        Can Bluetooth work without WiFi?
+ 253   10.2  none        What is two-factor authentication?
+ 254   10.2  none        What is multi-factor authentication?
+ 255    8.9  none        What is cloud synchronization?
+ 256      8  none        What is end-to-end encryption?
+ 257    7.8  none        What is Bluetooth audio latency?
+ 258    6.8  none        What is active noise cancellation?
+ 259    6.7  none        What is USB 3.2?
+ 260    6.6  none        What is Bluetooth 5.3?
+ 261    6.6  none        What is Bluetooth 5.4?
+ 262    6.5  none        What is a browser fingerprint?
+ 263    5.4  none        What is software compatibility?
+ 264    5.4  none        What is backward compatibility?
+ 265    2.4  none        What is database normalization?
+ 266    2.3  none        What is a relational database?
+ 267    2.3  none        What is a database transaction?
+ 268    1.6  none        What is artificial intelligence?
+ 269    1.6  none        What is retrieval augmented generation?
+ 270    1.4  none        What is object-oriented programming?
+ 271    1.4  none        What is functional programming?
+ 272    1.4  none        What is an asynchronous function?
+ 273    1.1  none        What is an environment variable?
+ 274     75  none        Why is SSD storage not working?
+ 275     71  none        How do I check refresh rate?
+ 276   70.5  none        How do I check two-factor authentication?
+ 277   67.5  none        Why is my phone battery draining so fast slow?
+ 278   66.5  none        How do I set up a smart home?
+ 279   65.8  none        How do I set up my printer not printing?
+ 280   65.8  none        How do I use my printer not printing?
+ 281   65.8  none        How do I troubleshoot my printer not printing?
+ 282   65.8  none        How do I test my printer not printing?
+ 283   64.2  none        Why is refresh rate not working?
+ 284   63.9  none        Why is two-factor authentication not working?
+ 285   62.5  none        Why is ray tracing not working?
+ 286     61  none        Why is EV charging work not working?
+ 287   60.3  none        Why is EV charging work slow?
+ 288   57.4  none        Why is a CPU not working?
+ 289   57.1  none        How do I set up an email address?
+ 290     57  none        How do I use a smart home?
+ 291     57  none        How do I troubleshoot a smart home?
+ 292     57  none        How do I test a smart home?
+ 293     57  none        How do I check a smart home?
+ 294   56.9  none        How do I check OLED TV?
+ 295   56.1  none        Why is cloud computing not working?
+ 296     54  none        Why is my computer running slowly slow?
+ 297   52.3  none        Why is a smart home not working?
+ 298   52.2  none        Why is OLED TV not working?
+ 299   51.7  none        Why is a smart home slow?
+ 300   51.3  none        Why is my printer not printing slow?
+ 301   49.9  none        How do I check noise cancellation?
+ 302   48.9  none        How do I use an email address?
+ 303   48.9  none        How do I troubleshoot an email address?
+ 304   48.9  none        How do I test an email address?
+ 305   48.9  none        How do I check an email address?
+ 306   48.9  none        How do I reset an email address?
+ 307   46.2  none        Why is noise cancellation not working?
+ 308   45.8  none        Why is Windows Update stuck not working?
+ 309   45.8  none        Why is Windows Update stuck slow?
+ 310   45.6  none        Why is an email address not working?
+ 311   45.1  none        Why is an email address slow?
+ 312   43.8  none        Why is SSD storage slow?
+ 313   43.5  none        Why is my Mac running slowly slow?
+ 314   39.3  none        How do I set up an IP address?
+ 315   37.2  none        How do I check artificial intelligence?
+ 316     36  none        Is EV charging work worth it?
+ 317   34.5  none        Why is artificial intelligence not working?
+ 318   33.9  none        Why is two-factor authentication slow?
+ 319   33.8  none        Is a smart home worth it?
+ 320   33.7  none        How do I use an IP address?
+ 321   33.7  none        How do I troubleshoot an IP address?
+ 322   33.7  none        How do I test an IP address?
+ 323   33.7  none        How do I check an IP address?
+ 324   33.7  none        Why is refresh rate slow?
+ 325   33.5  none        Why is an IP address not working?
+ 326   33.3  none        How do I check open source software?
+ 327   33.1  none        Why is an IP address slow?
+ 328   32.4  none        Is an email address worth it?
+ 329     32  none        Why is open source software not working?
+ 330   31.6  none        Why is open source software slow?
+ 331     30  none        Why is a CPU slow?
+ 332     30  none        Why is ray tracing slow?
+ 333   29.4  none        Why is cloud computing slow?
+ 334   29.1  none        How do I check USB-C?
+ 335   28.9  none        Is SSD storage worth it?
+ 336   28.4  none        How do I set up a website?
+ 337   28.4  none        How do I use a website?
+ 338   28.4  none        How do I troubleshoot a website?
+ 339   28.4  none        How do I test a website?
+ 340   28.4  none        How do I check a website?
+ 341   28.4  none        How do I reset a website?
+ 342   27.9  none        Why is USB-C slow?
+ 343   27.7  none        Why is a website not working?
+ 344   27.3  none        Why is OLED TV slow?
+ 345   26.9  none        Why is USB-C not working?
+ 346   23.9  none        Why is noise cancellation slow?
+ 347   23.4  none        Is an IP address worth it?
+ 348     23  none        Is two-factor authentication worth it?
+ 349   21.6  none        Why is Bluetooth slow?
+ 350     21  none        Is refresh rate worth it?
+ 351   20.8  none        Why is Bluetooth not working?
+ 352   20.5  none        Is open source software worth it?
+ 353   19.5  none        Is USB-C worth it?
+ 354   19.4  none        Is ray tracing worth it?
+ 355   18.5  none        Is a CPU worth it?
+ 356   18.5  none        Is cloud computing worth it?
+ 357   16.9  none        Is OLED TV worth it?
+ 358   16.9  none        Why is artificial intelligence slow?
+ 359   15.1  none        Is Bluetooth worth it?
+ 360   14.7  none        Why is a database not working?
+ 361   13.5  none        Is noise cancellation worth it?
+ 362   13.5  none        How do I set up a database?
+ 363   13.5  none        How do I use a database?
+ 364   13.5  none        How do I troubleshoot a database?
+ 365   13.5  none        How do I test a database?
+ 366   13.5  none        How do I check a database?
+ 367   12.2  none        Is artificial intelligence worth it?
+ 368    9.7  none        Why is programming slow?
+ 369    9.3  none        Why is programming not working?
+ 370    9.2  none        How do I check programming?
+ 371    8.3  none        Is a website worth it?
+ 372    7.8  none        Why is Git slow?
+ 373    7.5  none        Why is a database slow?
+ 374    7.4  none        Why is Git not working?
+ 375    7.1  none        How do I check Git?
+ 376      6  none        Is programming worth it?
+ 377    4.5  none        Is Git worth it?
+ 378    4.1  none        Is a database worth it?
+
+Total: 378 questions

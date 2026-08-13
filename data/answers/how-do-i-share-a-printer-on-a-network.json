@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-share-a-printer-on-a-network",
+  "directAnswer": "To share a printer on a network, you need to enable printer sharing in the printer settings and ensure the printer is connected to a computer that is on the network.",
+  "summary": "This guide provides steps for sharing a printer on a network across different operating systems, along with common questions and considerations.",
+  "sections": [
+    {
+      "id": "windows-steps",
+      "heading": "Steps for Windows",
+      "body": "Follow these steps to share a printer on a Windows machine."
+    },
+    {
+      "id": "mac-steps",
+      "heading": "Steps for macOS",
+      "body": "Follow these steps to share a printer on a Mac."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows Printer Sharing",
+      "detail": "1. Open 'Control Panel' > 'Devices and Printers'. 2. Right-click on the printer you want to share and select 'Printer properties'. 3. Go to the 'Sharing' tab and check 'Share this printer'. 4. Note the share name and click 'OK'."
+    },
+    {
+      "title": "macOS Printer Sharing",
+      "detail": "1. Open 'System Preferences' > 'Printers & Scanners'. 2. Select the printer you want to share. 3. Check the box for 'Share this printer on the network'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I share a printer without connecting it to a computer?",
+      "answer": "No, the printer must be connected to a computer that is on the network to share it unless it is a network printer with built-in sharing capabilities."
+    },
+    {
+      "question": "What if my printer is not detected on the network?",
+      "answer": "Ensure the printer is powered on, connected to the same network as your computer, and that printer sharing is enabled."
+    },
+    {
+      "question": "Do I need special software to share a printer?",
+      "answer": "Typically, no additional software is required, but some network printers may come with their own management software."
+    }
+  ],
+  "caveats": [
+    "Printer sharing may not work if the host computer is turned off or not connected to the network."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

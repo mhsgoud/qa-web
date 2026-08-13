@@ -1,58 +1,58 @@
 {
   "slug": "how-do-i-free-up-storage-on-my-phone",
-  "directAnswer": "To free up storage on your phone, uninstall unused apps and delete unnecessary files such as photos and videos. You can also use cloud storage services to offload some of your data.",
-  "summary": "Freeing up storage on your smartphone can enhance performance and allow for more app installations.",
+  "directAnswer": "You can free up storage on your phone by deleting unused apps, clearing cache, and transferring media files to cloud storage or an external device.",
+  "summary": "Freeing up storage on your phone involves managing apps, media, and system files effectively.",
   "sections": [
     {
-      "id": "uninstall-apps",
-      "heading": "Uninstall Unused Apps",
-      "body": "Go through your installed apps and remove those that you no longer use. This can significantly free up space."
+      "id": "deleting-unused-apps",
+      "heading": "Delete Unused Apps",
+      "body": "Go through your apps and uninstall any that you no longer use. This can significantly free up space."
     },
     {
-      "id": "delete-files",
-      "heading": "Delete Unnecessary Files",
-      "body": "Check your downloads, photos, and videos for files that you can delete or move to cloud storage."
+      "id": "clearing-cache",
+      "heading": "Clear Cache",
+      "body": "Apps often store temporary files that can accumulate over time. Clearing the cache can help recover storage without losing important data."
     },
     {
-      "id": "cloud-storage",
-      "heading": "Use Cloud Storage",
-      "body": "Consider using services like Google Drive, iCloud, or Dropbox to store files online instead of on your device."
+      "id": "transferring-media",
+      "heading": "Transfer Media Files",
+      "body": "Consider moving photos, videos, and music to cloud storage services or an external hard drive to free up local storage."
     }
   ],
   "steps": [
     {
-      "title": "For Android Users",
-      "detail": "Go to Settings > Storage > Apps, select the app you want to uninstall, and tap 'Uninstall'."
+      "title": "Delete Unused Apps (Android)",
+      "detail": "Go to Settings > Apps > Select the app > Uninstall."
     },
     {
-      "title": "For iPhone Users",
-      "detail": "Go to Settings > General > iPhone Storage, select the app, and tap 'Delete App'."
+      "title": "Delete Unused Apps (iOS)",
+      "detail": "Press and hold the app icon until it jiggles, then tap the 'X' to delete."
     },
     {
-      "title": "Delete Photos",
-      "detail": "Open your Photos app, select the photos you want to delete, and tap the trash icon."
+      "title": "Clear App Cache (Android)",
+      "detail": "Go to Settings > Storage > Cached data > Clear cached data."
     },
     {
-      "title": "Clear Cache",
-      "detail": "For Android, go to Settings > Storage > Cached data and clear it. For iPhone, clearing cache may require app-specific actions."
+      "title": "Transfer Media Files",
+      "detail": "Use cloud services like Google Drive or iCloud to upload your media files."
     }
   ],
   "faqs": [
     {
       "question": "Will deleting apps affect my data?",
-      "answer": "Yes, if the app stores data locally, uninstalling it will remove that data unless it's backed up elsewhere."
+      "answer": "If you delete an app, you may lose data associated with it unless it's backed up."
     },
     {
-      "question": "How can I see what's taking up the most space?",
-      "answer": "On Android, go to Settings > Storage. On iPhone, go to Settings > General > iPhone Storage to view space usage."
+      "question": "How do I know which apps take up the most space?",
+      "answer": "You can check storage usage in Settings > Storage to see which apps are using the most space."
     },
     {
-      "question": "Can I recover deleted files?",
-      "answer": "Once deleted, files are usually not recoverable unless backed up in a cloud service or recovery app."
+      "question": "Is it safe to clear cache?",
+      "answer": "Yes, clearing cache is generally safe and can help improve app performance."
     }
   ],
   "caveats": [
-    "Be cautious when deleting files; ensure you don't remove important data."
+    "Some apps may need to be reconfigured after clearing cache or uninstalling."
   ],
   "relatedToolIdeas": [
     "Storage speed / upgrade picker"

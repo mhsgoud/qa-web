@@ -1,14 +1,28 @@
 import Link from "next/link";
 import { SearchBox } from "@/components/SearchBox";
 import { getAnswer } from "@/lib/content";
-import { getFeaturedPublishedQuestion, getPublishedQuestions } from "@/lib/questions";
+import {
+  getFeaturedPublishedQuestion,
+  getPublishedQuestionsByPriority,
+} from "@/lib/questions";
 import { SITE } from "@/lib/site";
 
-export function HomeHero() {
+type Props = {
+  answerCount: number;
+  topicCount: number;
+};
+
+function shortLabel(question: string) {
+  return question.replace(/^How do I /i, "").replace(/\?$/, "");
+}
+
+export function HomeHero({ answerCount, topicCount }: Props) {
   const question = getFeaturedPublishedQuestion();
   const answer = question ? getAnswer(question.slug) : undefined;
   const firstStep = answer?.steps?.[0];
-  const tryLinks = getPublishedQuestions().slice(0, 3);
+  const tryLinks = getPublishedQuestionsByPriority(4).filter(
+    (q) => q.slug !== question?.slug,
+  ).slice(0, 3);
 
   return (
     <section className="home-hero">
@@ -22,6 +36,16 @@ export function HomeHero() {
             <span className="home-hero-title-accent">{SITE.hero.line2}</span>
           </h1>
           <p className="home-hero-subhead">{SITE.hero.subhead}</p>
+
+          {answerCount > 0 ? (
+            <p className="home-hero-stats">
+              <Link href="/winners">{answerCount.toLocaleString()} answers</Link>
+              <span aria-hidden>·</span>
+              <Link href="/browse">
+                {topicCount} {topicCount === 1 ? "topic" : "topics"}
+              </Link>
+            </p>
+          ) : null}
 
           <div className="home-hero-search">
             <SearchBox
@@ -40,7 +64,7 @@ export function HomeHero() {
                 {tryLinks.map((item) => (
                   <li key={item.slug}>
                     <Link href={`/q/${item.slug}`} className="home-try-chip">
-                      {item.question}
+                      {shortLabel(item.question)}
                     </Link>
                   </li>
                 ))}
@@ -58,7 +82,7 @@ export function HomeHero() {
                 <span />
               </div>
               <div className="hero-answer-top">
-                <span className="hero-answer-live">Example</span>
+                <span className="hero-answer-live">Featured</span>
                 <span className="hero-answer-cat">{question.category}</span>
               </div>
               <h2 className="hero-answer-q">{question.question}</h2>

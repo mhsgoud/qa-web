@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-secure-my-home-wifi",
+  "directAnswer": "To secure your home WiFi, change the default SSID and password, enable WPA3 encryption, and regularly update your router's firmware.",
+  "summary": "Securing your home WiFi network is essential to protect your personal data and prevent unauthorized access.",
+  "sections": [
+    {
+      "id": "changing-default-ssid",
+      "heading": "Change the Default SSID",
+      "body": "Your router comes with a default SSID that is often easy to guess. Change it to something unique to make it harder for potential intruders to identify your network."
+    },
+    {
+      "id": "enable-wpa3-encryption",
+      "heading": "Enable WPA3 Encryption",
+      "body": "If your router supports it, enable WPA3 encryption for better security. If not, use WPA2 as a minimum."
+    },
+    {
+      "id": "update-router-firmware",
+      "heading": "Regularly Update Your Router's Firmware",
+      "body": "Manufacturers release firmware updates to patch vulnerabilities. Check your router's settings regularly for updates."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Router Settings",
+      "detail": "Connect to your network and enter the router's IP address in a web browser (commonly 192.168.1.1 or 192.168.0.1). Log in with your admin credentials."
+    },
+    {
+      "title": "Change SSID and Password",
+      "detail": "Navigate to the wireless settings section to change the SSID and password. Ensure the new password is strong, using a mix of letters, numbers, and symbols."
+    },
+    {
+      "title": "Enable Encryption",
+      "detail": "In the wireless security settings, select WPA3 or WPA2 from the encryption options and save the changes."
+    },
+    {
+      "title": "Check for Firmware Updates",
+      "detail": "Look for a firmware update section in your router's settings and follow the prompts to install any available updates."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I forget my WiFi password?",
+      "answer": "You can reset your router to factory settings, which will allow you to set a new password, but this will also erase all your custom settings."
+    },
+    {
+      "question": "How can I see who is connected to my WiFi?",
+      "answer": "Access your router's admin panel, usually under a section labeled 'Connected Devices' or 'Device List' to view all connected devices."
+    },
+    {
+      "question": "Is it safe to use public WiFi?",
+      "answer": "Public WiFi can be risky. Use a VPN to encrypt your connection and protect your data when accessing public networks."
+    }
+  ],
+  "caveats": [
+    "Some router interfaces may vary, and options might be located in different sections depending on the manufacturer."
+  ],
+  "relatedToolIdeas": [
+    "Wi‑Fi speed / channel helper"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

@@ -1,45 +1,58 @@
 {
   "slug": "why-is-my-phone-battery-draining-so-fast",
-  "directAnswer": "Fast drain is usually caused by a hungry app, always-on radios (5G/Wi‑Fi scanning), a failing battery, or a recent OS update — not the phone being old alone.",
-  "summary": "Start with battery usage charts, then fix the top offender. Replace the battery only after software causes are ruled out.",
+  "directAnswer": "Your phone battery may drain quickly due to background app activity, high screen brightness, or outdated software.",
+  "summary": "Understanding the causes of rapid battery drain can help you take effective steps to prolong your phone's battery life.",
   "sections": [
     {
-      "id": "diagnose",
-      "heading": "Diagnose in 5 minutes",
-      "body": "On iPhone: Settings → Battery and check Battery Usage by App. On Android: Settings → Battery → Battery usage. Note whether Screen on or Screen off drain dominates. Screen-off drain points to background apps, push sync, or a bad cellular signal."
+      "id": "background-apps",
+      "heading": "Background Apps",
+      "body": "Many apps run in the background, consuming battery power. Check which apps are using the most battery in your settings."
     },
     {
-      "id": "common-causes",
-      "heading": "Most common causes",
-      "body": "Social/video apps refreshing in background, precision location always allowed, weak signal forcing the modem to boost power, outdated apps after an OS update, and worn batteries (often visible as unexpected shutdowns above 20%)."
+      "id": "screen-brightness",
+      "heading": "Screen Brightness",
+      "body": "High screen brightness can significantly impact battery life. Consider using adaptive brightness or lowering the brightness manually."
+    },
+    {
+      "id": "software-updates",
+      "heading": "Software Updates",
+      "body": "Outdated software can lead to inefficient battery usage. Ensure your device is running the latest version of its operating system."
     }
   ],
   "steps": [
     {
-      "title": "Update the OS and the top battery app",
-      "detail": "Bugs after major updates are common; patch first."
+      "title": "Check Battery Usage",
+      "detail": "On Android: Go to Settings > Battery > Battery Usage. On iPhone: Go to Settings > Battery to see which apps are consuming the most power."
     },
     {
-      "title": "Restrict background activity for the top 1–2 apps",
-      "detail": "iOS: Background App Refresh off for that app. Android: Battery → Restricted / optimize."
+      "title": "Adjust Screen Brightness",
+      "detail": "On Android: Swipe down from the top of the screen and adjust the brightness slider. On iPhone: Swipe down from the top right (or up from the bottom on older models) and adjust the brightness."
     },
     {
-      "title": "Test overnight with Wi‑Fi on and apps closed",
-      "detail": "If overnight loss stays above ~8–10%, suspect battery health or a rogue background process."
+      "title": "Update Your Software",
+      "detail": "On Android: Go to Settings > System > Software Update. On iPhone: Go to Settings > General > Software Update."
     }
   ],
   "faqs": [
     {
-      "question": "Is Low Power Mode enough?",
-      "answer": "It helps symptoms but hides the cause. Use it after you identify the app or radio wasting power."
+      "question": "Does using battery saver mode help?",
+      "answer": "Yes, enabling battery saver mode can limit background activity and reduce battery consumption."
+    },
+    {
+      "question": "Can a faulty battery cause fast draining?",
+      "answer": "Yes, a degraded or faulty battery can lead to faster drain. If the issue persists, consider having the battery checked or replaced."
+    },
+    {
+      "question": "How does temperature affect battery life?",
+      "answer": "Extreme temperatures can negatively impact battery performance. Try to keep your phone within a moderate temperature range."
     }
   ],
   "caveats": [
-    "Cold weather temporarily reduces reported charge — wait until the phone warms before replacing hardware."
+    "Battery drain can vary based on individual usage patterns and device age."
   ],
   "relatedToolIdeas": [
-    "Overnight drain calculator"
+    "Related Q&A cluster + checklist"
   ],
-  "status": "reviewed",
-  "updatedAt": "2026-08-11"
+  "status": "published",
+  "updatedAt": "2026-08-13"
 }

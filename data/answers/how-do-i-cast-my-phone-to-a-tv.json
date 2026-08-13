@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-cast-my-phone-to-a-tv",
+  "directAnswer": "To cast your phone to a TV, ensure both devices are connected to the same Wi-Fi network and use the casting feature available in your phone's settings or compatible apps.",
+  "summary": "Casting your phone to a TV allows you to stream content directly from your device. Different platforms may have specific steps to follow.",
+  "sections": [
+    {
+      "id": "android-casting",
+      "heading": "Casting from Android Devices",
+      "body": "Open the Quick Settings menu by swiping down from the top of the screen, then tap on 'Cast' or 'Screen Mirroring'. Select your TV from the list of available devices."
+    },
+    {
+      "id": "ios-casting",
+      "heading": "Casting from iOS Devices",
+      "body": "Swipe down from the upper right corner to access the Control Center, then tap on 'Screen Mirroring'. Choose your TV from the list to start casting."
+    },
+    {
+      "id": "app-specific-casting",
+      "heading": "Using Apps for Casting",
+      "body": "Many streaming apps like YouTube and Netflix have built-in casting features. Look for the cast icon within the app, tap it, and select your TV."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Connect to Wi-Fi",
+      "detail": "Ensure both your phone and TV are connected to the same Wi-Fi network."
+    },
+    {
+      "title": "Enable Casting",
+      "detail": "On your phone, access the casting feature through Quick Settings (Android) or Control Center (iOS)."
+    },
+    {
+      "title": "Select Your TV",
+      "detail": "Choose your TV from the list of available devices to start casting."
+    },
+    {
+      "title": "Start Streaming",
+      "detail": "Open a compatible app and select the content you want to cast."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my TV doesn't support casting?",
+      "answer": "If your TV doesn't support casting, consider using a streaming device like Chromecast or Roku, which can enable casting functionality."
+    },
+    {
+      "question": "Can I cast without Wi-Fi?",
+      "answer": "Some devices support direct casting via Bluetooth or Wi-Fi Direct, but this varies by device and may not support all content types."
+    },
+    {
+      "question": "Why is my casting lagging?",
+      "answer": "Lag can occur due to a weak Wi-Fi signal, interference from other devices, or high network traffic. Try moving closer to the router or reducing the number of connected devices."
+    }
+  ],
+  "caveats": [
+    "Not all TVs support casting; check your TV's compatibility.",
+    "Casting quality may vary based on network speed and device capabilities."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

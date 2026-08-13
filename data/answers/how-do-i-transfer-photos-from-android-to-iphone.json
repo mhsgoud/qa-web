@@ -1,55 +1,49 @@
 {
   "slug": "how-do-i-transfer-photos-from-android-to-iphone",
-  "directAnswer": "The most reliable free method is Google Photos (or Google Drive): upload from Android, then download or sync on iPhone. For a cable transfer, use Apple's Move to iOS during iPhone setup.",
-  "summary": "You can move photos with a cloud sync, a one-time setup tool, or a cable/computer workflow. Pick based on whether you are setting up a new iPhone or already using one.",
+  "directAnswer": "You can transfer photos from Android to iPhone using the 'Move to iOS' app or by manually transferring them via a computer.",
+  "summary": "Transferring photos from an Android device to an iPhone can be done easily with the right tools and methods, ensuring your memories are preserved.",
   "sections": [
     {
-      "id": "quick-pick",
-      "heading": "Which method should you use?",
-      "body": "If your iPhone is brand new and still in setup, use Move to iOS. If the iPhone is already set up, use Google Photos, Google Drive, or a computer. Avoid third-party phone clone apps unless you trust the developer — many are adware."
-    },
-    {
-      "id": "google-photos",
-      "heading": "Transfer with Google Photos (already-set-up iPhone)",
-      "body": "On Android, open Google Photos, confirm backup is on for the albums you care about, and wait until uploads finish on Wi‑Fi. On iPhone, install Google Photos, sign in with the same Google account, then download originals or turn on Free up space / device sync as needed. This preserves most metadata better than screenshot workarounds."
-    },
-    {
       "id": "move-to-ios",
-      "heading": "Use Move to iOS during new iPhone setup",
-      "body": "Start iPhone setup until you reach the Apps & Data screen, choose Move Data from Android, install Move to iOS on the Android phone, and connect both devices to power and the same Wi‑Fi (or the temporary hotspot Move to iOS creates). Select photos/videos when prompted. You cannot use Move to iOS after setup without erasing the iPhone."
+      "heading": "Using Move to iOS App",
+      "body": "Apple's Move to iOS app helps transfer data from Android to iPhone seamlessly. Ensure both devices are connected to Wi-Fi."
+    },
+    {
+      "id": "manual-transfer",
+      "heading": "Manual Transfer via Computer",
+      "body": "You can also transfer photos by connecting both devices to a computer and moving files directly."
     }
   ],
   "steps": [
     {
-      "title": "Check storage on the iPhone",
-      "detail": "Photos need free space roughly equal to the library size. Settings → General → iPhone Storage."
+      "title": "Using Move to iOS",
+      "detail": "1. Download 'Move to iOS' on your Android device. 2. Set up your new iPhone and select 'Move Data from Android' during setup. 3. Open the app on Android, enter the code displayed on iPhone, and select photos to transfer."
     },
     {
-      "title": "Prefer Wi‑Fi and power",
-      "detail": "Large libraries fail mid-transfer on weak Wi‑Fi or low battery. Plug both phones in."
-    },
-    {
-      "title": "Verify a sample album",
-      "detail": "Open a few recent and old albums on the iPhone before wiping the Android device."
+      "title": "Manual Transfer",
+      "detail": "1. Connect your Android device to a computer and copy photos to a folder. 2. Disconnect the Android device and connect your iPhone. 3. Use iTunes or Finder to sync the photos from the folder to your iPhone."
     }
   ],
   "faqs": [
     {
-      "question": "Will Live Photos / motion photos convert correctly?",
-      "answer": "Android Motion Photos often become a still + separate video on iPhone. Google Photos usually keeps both files; native Camera Roll behavior varies."
+      "question": "Will I lose any photos during the transfer?",
+      "answer": "No, as long as you follow the steps correctly, all selected photos should transfer without loss."
     },
     {
-      "question": "Can I keep the Android phone afterward?",
-      "answer": "Yes. Cloud and computer methods do not require wiping Android. Only wipe after you confirm the iPhone has the photos you need."
+      "question": "Can I transfer videos as well?",
+      "answer": "Yes, both the Move to iOS app and manual transfer methods support video files."
+    },
+    {
+      "question": "What if I encounter errors during the transfer?",
+      "answer": "Ensure both devices are updated to the latest software version and try restarting both devices before attempting the transfer again."
     }
   ],
   "caveats": [
-    "WhatsApp media is separate from the Camera gallery — transfer chat backups separately.",
-    "HEIC vs JPEG differences can change file sizes after import."
+    "The Move to iOS app only works during the initial setup of the iPhone; it cannot be used once the iPhone is already set up."
   ],
   "relatedToolIdeas": [
-    "Storage estimator: library size → free space needed on iPhone"
+    "Backup checklist wizard"
   ],
-  "status": "reviewed",
-  "updatedAt": "2026-08-11"
+  "status": "published",
+  "updatedAt": "2026-08-13"
 }

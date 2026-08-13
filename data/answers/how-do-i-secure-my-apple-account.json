@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-secure-my-apple-account",
+  "directAnswer": "To secure your Apple account, enable two-factor authentication and regularly update your password. Additionally, review your account settings for any unauthorized changes.",
+  "summary": "Securing your Apple account involves enabling two-factor authentication, using a strong password, and monitoring your account activity.",
+  "sections": [
+    {
+      "id": "two-factor-authentication",
+      "heading": "Enable Two-Factor Authentication",
+      "body": "Two-factor authentication adds an extra layer of security to your Apple ID. When enabled, you'll need to verify your identity using a trusted device or phone number."
+    },
+    {
+      "id": "strong-password",
+      "heading": "Use a Strong Password",
+      "body": "Create a unique password that includes a mix of letters, numbers, and symbols. Avoid using easily guessed information like birthdays or common words."
+    },
+    {
+      "id": "account-monitoring",
+      "heading": "Monitor Account Activity",
+      "body": "Regularly check your account for any unauthorized access or changes. You can review your purchase history and account settings in the Apple ID section."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Enable Two-Factor Authentication",
+      "detail": "Go to Settings > [your name] > Password & Security > Two-Factor Authentication, then tap 'Turn On'."
+    },
+    {
+      "title": "Change Your Password",
+      "detail": "Go to Settings > [your name] > Password & Security > Change Password. Follow the prompts to create a new password."
+    },
+    {
+      "title": "Review Account Settings",
+      "detail": "Visit appleid.apple.com and sign in. Check your account information and recent activity for any suspicious changes."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I suspect my Apple account has been compromised?",
+      "answer": "Immediately change your password and enable two-factor authentication if it's not already enabled. Check your account settings for any unauthorized changes."
+    },
+    {
+      "question": "Can I use the same password for multiple accounts?",
+      "answer": "It's not recommended. Use unique passwords for each account to enhance security."
+    },
+    {
+      "question": "How do I know if two-factor authentication is enabled?",
+      "answer": "You can check this in Settings > [your name] > Password & Security. If two-factor authentication is on, it will be indicated there."
+    }
+  ],
+  "caveats": [
+    "Two-factor authentication may require access to a trusted device or phone number, which can be a barrier if you lose access."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "why-does-my-gpu-crash-under-load",
+  "directAnswer": "GPU crashes under load can be caused by overheating, power supply issues, or driver conflicts.",
+  "summary": "Understanding the common causes of GPU crashes can help in troubleshooting and preventing future occurrences.",
+  "sections": [
+    {
+      "id": "overheating",
+      "heading": "Overheating",
+      "body": "GPUs can overheat due to dust buildup in fans, inadequate cooling solutions, or high ambient temperatures. Monitoring GPU temperatures using tools like MSI Afterburner can help identify overheating issues."
+    },
+    {
+      "id": "power-supply-issues",
+      "heading": "Power Supply Issues",
+      "body": "An insufficient or failing power supply can lead to GPU crashes under load. Ensure your PSU meets the wattage requirements of your GPU and check for any signs of damage."
+    },
+    {
+      "id": "driver-conflicts",
+      "heading": "Driver Conflicts",
+      "body": "Outdated or corrupted drivers can cause instability. Regularly updating your GPU drivers from the manufacturer's website can help maintain stability."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check GPU Temperature",
+      "detail": "Use monitoring software like MSI Afterburner or HWMonitor to check if the GPU temperature exceeds safe limits (usually above 85°C)."
+    },
+    {
+      "title": "Inspect Power Supply",
+      "detail": "Verify that your power supply unit (PSU) provides adequate wattage for your GPU and check for any visible damage or wear."
+    },
+    {
+      "title": "Update Graphics Drivers",
+      "detail": "Visit the GPU manufacturer's website (NVIDIA, AMD) to download and install the latest drivers."
+    },
+    {
+      "title": "Clean GPU and Case",
+      "detail": "Dust can obstruct airflow, so clean your GPU and case fans regularly to ensure proper cooling."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the signs of a failing GPU?",
+      "answer": "Signs of a failing GPU include graphical artifacts, crashes during gaming, and failure to boot."
+    },
+    {
+      "question": "How can I improve GPU cooling?",
+      "answer": "Improving GPU cooling can be achieved by ensuring good airflow in your case, using aftermarket coolers, or adding additional case fans."
+    },
+    {
+      "question": "Is it safe to overclock my GPU?",
+      "answer": "Overclocking can increase performance but also raises the risk of overheating and instability. Always monitor temperatures and stability after overclocking."
+    }
+  ],
+  "caveats": [
+    "Symptoms may vary based on specific hardware configurations and software environments."
+  ],
+  "relatedToolIdeas": [
+    "GPU comparison tool"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

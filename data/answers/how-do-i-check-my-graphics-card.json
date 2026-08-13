@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-check-my-graphics-card",
+  "directAnswer": "You can check your graphics card by accessing the Device Manager in Windows or using the System Information tool on macOS.",
+  "summary": "This guide provides steps to identify your graphics card on both Windows and macOS systems.",
+  "sections": [
+    {
+      "id": "windows-device-manager",
+      "heading": "Using Device Manager on Windows",
+      "body": "Device Manager allows you to view all hardware components, including your graphics card."
+    },
+    {
+      "id": "mac-system-information",
+      "heading": "Using System Information on macOS",
+      "body": "The System Information tool provides detailed information about your Mac's hardware, including the graphics card."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Graphics Card on Windows",
+      "detail": "Right-click on the Start menu, select 'Device Manager', expand the 'Display adapters' section to see your graphics card."
+    },
+    {
+      "title": "Check Graphics Card on macOS",
+      "detail": "Click the Apple menu, select 'About This Mac', then click 'System Report' and look under 'Graphics/Displays'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my graphics card is not listed?",
+      "answer": "If your graphics card is not visible, it may indicate a driver issue or that the card is not properly installed."
+    },
+    {
+      "question": "Can I check my graphics card using third-party software?",
+      "answer": "Yes, software like GPU-Z or HWMonitor can provide detailed information about your graphics card."
+    },
+    {
+      "question": "How do I update my graphics card drivers?",
+      "answer": "You can update drivers through Device Manager on Windows or by visiting the manufacturer's website for macOS."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly depending on your operating system version."
+  ],
+  "relatedToolIdeas": [
+    "GPU comparison tool"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

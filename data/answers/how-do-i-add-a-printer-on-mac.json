@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-add-a-printer-on-mac",
+  "directAnswer": "To add a printer on a Mac, open 'System Preferences', select 'Printers & Scanners', and click the '+' button to add a printer from the list.",
+  "summary": "This guide provides steps to add a printer on a Mac and addresses common issues users may encounter.",
+  "sections": [
+    {
+      "id": "printer-setup",
+      "heading": "Setting Up Your Printer",
+      "body": "Ensure your printer is connected to the same network as your Mac. For USB printers, connect the printer directly to your Mac."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting Connection Issues",
+      "body": "If your printer does not appear in the list, check the printer's power and network connection. Restarting both the printer and Mac can often resolve connectivity issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open System Preferences",
+      "detail": "Click on the Apple menu in the top-left corner and select 'System Preferences'."
+    },
+    {
+      "title": "Select Printers & Scanners",
+      "detail": "In the System Preferences window, click on 'Printers & Scanners'."
+    },
+    {
+      "title": "Add a Printer",
+      "detail": "Click the '+' button below the printer list. Select your printer from the available devices."
+    },
+    {
+      "title": "Install Drivers if Necessary",
+      "detail": "If prompted, download and install any necessary drivers for your printer."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my printer doesn't show up in the list?",
+      "answer": "Ensure the printer is powered on and connected to the same Wi-Fi network as your Mac. Restart both devices if necessary."
+    },
+    {
+      "question": "Can I add a wireless printer?",
+      "answer": "Yes, as long as the printer is connected to the same Wi-Fi network, it should appear in the list when you click the '+' button."
+    },
+    {
+      "question": "How do I remove a printer from my Mac?",
+      "answer": "In 'Printers & Scanners', select the printer you want to remove and click the '-' button."
+    }
+  ],
+  "caveats": [
+    "Printer setup steps may vary slightly depending on the macOS version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

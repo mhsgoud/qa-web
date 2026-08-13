@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-clean-a-graphics-card",
+  "directAnswer": "To clean a graphics card, power down your PC, remove the card, and use compressed air to blow out dust from the heatsink and fans.",
+  "summary": "Cleaning your graphics card helps maintain optimal performance and cooling efficiency by removing dust buildup.",
+  "sections": [
+    {
+      "id": "preparation",
+      "heading": "Preparation",
+      "body": "Ensure you have the necessary tools ready, including a screwdriver, compressed air, and a soft brush. Make sure to work in a static-free environment."
+    },
+    {
+      "id": "cleaning-process",
+      "heading": "Cleaning Process",
+      "body": "Follow the steps below to effectively clean your graphics card without damaging it."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Down and Remove the Card",
+      "detail": "Shut down your PC, unplug it, and carefully remove the graphics card from the PCIe slot."
+    },
+    {
+      "title": "Dust Removal",
+      "detail": "Use compressed air to blow out dust from the heatsink and fans. Hold the can upright to avoid moisture discharge."
+    },
+    {
+      "title": "Brush Off Residue",
+      "detail": "Gently use a soft brush to remove any stubborn dust that the compressed air couldn't dislodge."
+    },
+    {
+      "title": "Reinstall the Card",
+      "detail": "Once cleaned, carefully reinstall the graphics card back into the PCIe slot and reconnect any power cables."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should I clean my graphics card?",
+      "answer": "It's recommended to clean your graphics card every 6 to 12 months, depending on your environment."
+    },
+    {
+      "question": "Can I use a vacuum cleaner to clean my graphics card?",
+      "answer": "No, using a vacuum cleaner can generate static electricity and potentially damage the components."
+    },
+    {
+      "question": "Is it safe to use water to clean my graphics card?",
+      "answer": "No, water can cause short circuits. Always use dry methods like compressed air or a brush."
+    }
+  ],
+  "caveats": [
+    "Ensure the PC is unplugged and grounded to prevent static discharge. Avoid touching the PCB directly."
+  ],
+  "relatedToolIdeas": [
+    "GPU comparison tool"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}

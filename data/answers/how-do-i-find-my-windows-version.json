@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-find-my-windows-version",
+  "directAnswer": "You can find your Windows version by opening the Settings app and navigating to System > About. Alternatively, you can press Win + R, type 'winver', and press Enter.",
+  "summary": "Finding your Windows version is straightforward and can be done through the Settings app or a quick command.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Knowing your Windows version is essential for troubleshooting, compatibility checks, and ensuring you have the latest features and security updates."
+    },
+    {
+      "id": "using-settings",
+      "heading": "Using the Settings App",
+      "body": "This method is applicable for Windows 10 and Windows 11 users."
+    },
+    {
+      "id": "using-command",
+      "heading": "Using the Run Command",
+      "body": "This method works across various Windows versions, including Windows 7, 8, 10, and 11."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open the Settings App",
+      "detail": "Click on the Start menu and select the gear icon to open Settings."
+    },
+    {
+      "title": "Navigate to System",
+      "detail": "In the Settings window, click on 'System'."
+    },
+    {
+      "title": "Select About",
+      "detail": "Scroll down and click on 'About' in the left sidebar to view your Windows version."
+    },
+    {
+      "title": "Use the Run Command",
+      "detail": "Press Win + R, type 'winver', and press Enter to quickly check your Windows version."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I can't access the Settings app?",
+      "answer": "You can still use the 'winver' command to find your Windows version without accessing Settings."
+    },
+    {
+      "question": "How do I know if my Windows is up to date?",
+      "answer": "You can check for updates in the Settings app under Update & Security > Windows Update."
+    },
+    {
+      "question": "Can I find my Windows version on older systems?",
+      "answer": "Yes, the 'winver' command works on older Windows versions like Windows 7 and 8."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on your specific Windows version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}
