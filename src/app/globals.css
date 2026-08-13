@@ -157,23 +157,32 @@ summary:focus-visible {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  min-height: 4rem;
+  min-height: 4.75rem;
+  overflow: visible;
 }
 
 .brand {
   display: inline-flex;
   align-items: center;
-  min-width: 0;
+  flex-shrink: 0;
+  overflow: visible;
+  line-height: 0;
 }
 
 .brand-logo-header {
-  height: 40px;
-  width: auto;
+  display: block !important;
+  height: 48px !important;
+  width: auto !important;
+  max-width: none;
+  object-fit: contain !important;
+  object-position: left center;
 }
 
 .brand-logo-full {
-  width: min(220px, 70vw);
+  display: block;
+  width: min(240px, 75vw);
   height: auto;
+  object-fit: contain;
 }
 
 .brand-icon-img {
