@@ -16,7 +16,7 @@ export function AnswerFigure({ image, priority = false }: Props) {
         height={1024}
         className="answer-figure-img"
         priority={priority}
-        sizes="(max-width: 768px) 100vw, 680px"
+        sizes="(max-width: 768px) 200px, 240px"
       />
       {image.caption ? <figcaption>{image.caption}</figcaption> : null}
     </figure>

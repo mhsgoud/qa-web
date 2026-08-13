@@ -17,7 +17,7 @@ export function BrandLogo({ variant = "header", className = "", priority = false
         height={205}
         priority={priority}
         className={`brand-logo-header ${className}`.trim()}
-        style={{ width: "auto", height: "48px" }}
+        style={{ width: "auto", height: "36px" }}
       />
     );
   }
