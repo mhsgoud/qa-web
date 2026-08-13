@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-charge-an-ev-at-home",
+  "directAnswer": "To charge an EV at home, install a Level 2 home charger for faster charging and connect it to your vehicle's charging port. Ensure your electrical system can handle the additional load.",
+  "summary": "Charging an electric vehicle (EV) at home involves setting up a compatible charging station and understanding your vehicle's requirements.",
+  "sections": [
+    {
+      "id": "installation-considerations",
+      "heading": "Installation Considerations",
+      "body": "Before installing a home charger, check your electrical panel capacity and local regulations. You may need a licensed electrician to ensure safe installation."
+    },
+    {
+      "id": "charging-options",
+      "heading": "Charging Options",
+      "body": "You can charge your EV using a standard 120V outlet (Level 1) or a 240V outlet (Level 2). Level 2 chargers are recommended for faster charging times."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Choose a Charging Station",
+      "detail": "Select a Level 2 charging station that is compatible with your EV model and meets your charging needs."
+    },
+    {
+      "title": "Install the Charger",
+      "detail": "Hire a qualified electrician to install the charger, ensuring it meets local codes and is placed in a convenient location."
+    },
+    {
+      "title": "Connect Your Vehicle",
+      "detail": "Plug your EV into the charger and follow the manufacturer's instructions for starting the charging process."
+    },
+    {
+      "title": "Monitor Charging",
+      "detail": "Use your vehicle's app or onboard display to monitor the charging status and ensure it completes as expected."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does it take to charge an EV at home?",
+      "answer": "Charging times vary by vehicle and charger type; a Level 2 charger typically takes 4-8 hours for a full charge."
+    },
+    {
+      "question": "Can I use a regular outlet to charge my EV?",
+      "answer": "Yes, you can use a standard 120V outlet, but charging will be significantly slower, often taking 12-24 hours for a full charge."
+    },
+    {
+      "question": "What should I do if my home electrical system can't support a charger?",
+      "answer": "Consider upgrading your electrical panel or using a public charging station until your home system can handle the load."
+    }
+  ],
+  "caveats": [
+    "Charging speed and efficiency can be affected by the age of your electrical system and the specific charger model."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-13"
+}
