@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-passkey",
+  "directAnswer": "To set up a passkey, navigate to your account security settings and follow the prompts to create a new passkey using your device's biometric authentication or a hardware security key.",
+  "summary": "Setting up a passkey enhances your account security by using a cryptographic method that replaces traditional passwords.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Passkeys",
+      "body": "Passkeys are a secure method of authentication that use public key cryptography to eliminate the need for passwords. They can be used across devices and platforms."
+    },
+    {
+      "id": "platform-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Steps may vary by platform. Below are general instructions for popular operating systems."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting Passkey Setup",
+      "body": "If you encounter issues, ensure your device supports passkeys and that your software is up to date."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For iOS Devices",
+      "detail": "Go to Settings > Passwords > Add Password > Select 'Use Passkey' and follow the prompts."
+    },
+    {
+      "title": "For Android Devices",
+      "detail": "Open Settings > Google > Manage your Google Account > Security > Signing in to Google > Add Passkey."
+    },
+    {
+      "title": "For Windows",
+      "detail": "Open Settings > Accounts > Sign-in options > Windows Hello > Set up a Passkey."
+    },
+    {
+      "title": "For macOS",
+      "detail": "Go to System Preferences > Users & Groups > Login Options > Set up a Passkey."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What devices support passkeys?",
+      "answer": "Most modern smartphones, tablets, and computers support passkeys, but ensure your device's operating system is updated."
+    },
+    {
+      "question": "Can I use a passkey across different platforms?",
+      "answer": "Yes, passkeys can be used across different platforms as long as the services support them."
+    },
+    {
+      "question": "What if I lose my device with the passkey?",
+      "answer": "If you lose your device, you may need to use your backup recovery options to regain access to your accounts."
+    }
+  ],
+  "caveats": [
+    "Not all websites and services currently support passkeys, so check compatibility before relying on them.",
+    "Ensure your device's firmware and software are up to date to avoid issues during setup."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for secure account setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

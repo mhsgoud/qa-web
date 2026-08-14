@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-check-a-virtual-machine",
+  "directAnswer": "To check a virtual machine, access your cloud provider's management console and review the VM's status and resource usage metrics.",
+  "summary": "This guide provides steps to check the status and performance of a virtual machine across different cloud platforms.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Checking a virtual machine involves monitoring its operational status, resource utilization, and performance metrics to ensure it is running optimally."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to check a virtual machine may vary depending on the cloud provider."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues",
+      "body": "Be aware of potential issues such as VM not starting, high CPU usage, or insufficient memory."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access the Management Console",
+      "detail": "Log into your cloud provider's management console (e.g., AWS Management Console, Azure Portal, Google Cloud Console)."
+    },
+    {
+      "title": "Locate the Virtual Machine",
+      "detail": "Navigate to the 'Compute' or 'Virtual Machines' section to find your VM. The exact path may vary by provider."
+    },
+    {
+      "title": "Check Status and Metrics",
+      "detail": "Review the VM’s status (running, stopped, etc.) and examine metrics such as CPU, memory, and disk usage."
+    },
+    {
+      "title": "Review Logs and Alerts",
+      "detail": "Check system logs and any alerts related to the VM for troubleshooting potential issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my VM is not running?",
+      "answer": "Check the VM's status in the management console and review any error messages. You may need to restart the VM or check for resource limits."
+    },
+    {
+      "question": "How can I improve VM performance?",
+      "answer": "Consider upgrading the VM's resources, optimizing applications running on it, or checking for any bottlenecks in the network."
+    },
+    {
+      "question": "Where can I find detailed logs for my VM?",
+      "answer": "Logs can typically be found in the 'Monitoring' or 'Logs' section of your cloud provider's console, depending on the platform."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on the version of the cloud provider's console.",
+    "Ensure you have the necessary permissions to access VM details."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for VM health checks"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

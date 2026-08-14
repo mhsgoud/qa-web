@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-check-a-git-merge",
+  "directAnswer": "To check a Git merge, you can use the command `git log --merges` to view merge commits or check the status with `git status` after the merge.",
+  "summary": "This guide provides steps to verify a Git merge and check for any conflicts or issues.",
+  "sections": [
+    {
+      "id": "understanding-git-merge",
+      "heading": "Understanding Git Merge",
+      "body": "A Git merge combines changes from different branches into a single branch. It's essential to verify that the merge completed successfully and that there are no conflicts."
+    },
+    {
+      "id": "checking-merge-commits",
+      "heading": "Checking Merge Commits",
+      "body": "You can view the history of merge commits using the `git log --merges` command. This will list all the merges that have been performed in the repository."
+    },
+    {
+      "id": "verifying-merge-status",
+      "heading": "Verifying Merge Status",
+      "body": "After performing a merge, use `git status` to check if there are any unmerged paths or conflicts that need to be resolved."
+    }
+  ],
+  "steps": [
+    {
+      "title": "View Merge Commits",
+      "detail": "Run `git log --merges` in your terminal to display a list of all merge commits."
+    },
+    {
+      "title": "Check Current Status",
+      "detail": "Execute `git status` to see if there are any conflicts or unmerged files after the merge."
+    },
+    {
+      "title": "Review Changes",
+      "detail": "Use `git diff` to review changes made by the merge, if necessary."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I encounter merge conflicts?",
+      "answer": "If you have merge conflicts, Git will notify you during the merge process. You will need to manually resolve these conflicts in the affected files."
+    },
+    {
+      "question": "How can I undo a merge?",
+      "answer": "You can undo a merge by using `git merge --abort` if you haven't committed yet, or `git reset --hard HEAD~1` to revert to the previous commit."
+    },
+    {
+      "question": "Is there a way to visualize merges?",
+      "answer": "Yes, you can use tools like Gitk or Git GUI to visualize the commit history and merges in a graphical format."
+    }
+  ],
+  "caveats": [
+    "The command outputs may vary based on your Git version.",
+    "Ensure you have the necessary permissions to view the repository history."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for resolving merge conflicts"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

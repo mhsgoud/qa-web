@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-update-a-vpn",
+  "directAnswer": "To update a VPN, check for updates through the VPN application's settings or download the latest version from the provider's website.",
+  "summary": "Updating your VPN ensures you have the latest security features and performance improvements.",
+  "sections": [
+    {
+      "id": "vpn-application",
+      "heading": "Updating VPN Applications",
+      "body": "Most VPN applications have a built-in update feature. Navigate to the settings or preferences section to check for updates."
+    },
+    {
+      "id": "manual-update",
+      "heading": "Manual Update Process",
+      "body": "If automatic updates are not available, visit the VPN provider's official website to download the latest version."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open the VPN Application",
+      "detail": "Launch your VPN software on your device."
+    },
+    {
+      "title": "Check for Updates",
+      "detail": "Go to the settings or preferences menu and look for an 'Update' option. This may vary by application."
+    },
+    {
+      "title": "Download and Install",
+      "detail": "If an update is available, follow the prompts to download and install the latest version."
+    },
+    {
+      "title": "Restart the Application",
+      "detail": "After installation, restart the VPN application to ensure the updates take effect."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should I update my VPN?",
+      "answer": "It's recommended to check for updates at least once a month or whenever you receive a notification from your VPN provider."
+    },
+    {
+      "question": "What if my VPN doesn't have an update option?",
+      "answer": "If there is no update option, visit the provider's website to see if a new version is available for download."
+    },
+    {
+      "question": "Will updating my VPN affect my current connections?",
+      "answer": "Typically, updating your VPN should not affect your current connections, but it's best to disconnect and reconnect after the update."
+    }
+  ],
+  "caveats": [
+    "Ensure you are downloading updates from the official provider's website to avoid malware."
+  ],
+  "relatedToolIdeas": [
+    "Security setup checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

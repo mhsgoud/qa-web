@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-test-a-website",
+  "directAnswer": "To test a website, use automated testing tools like Selenium or manual testing methods to evaluate functionality, performance, and usability.",
+  "summary": "Website testing involves checking for bugs, performance issues, and user experience across different devices and browsers.",
+  "sections": [
+    {
+      "id": "types-of-testing",
+      "heading": "Types of Testing",
+      "body": "Common types of website testing include functional testing, performance testing, usability testing, and security testing. Each type focuses on different aspects of the website's performance and user experience."
+    },
+    {
+      "id": "manual-vs-automated",
+      "heading": "Manual vs Automated Testing",
+      "body": "Manual testing involves human testers navigating the website to find issues, while automated testing uses scripts to run tests. Automated testing is faster and can be reused, but manual testing can catch issues that automated scripts might miss."
+    },
+    {
+      "id": "cross-browser-testing",
+      "heading": "Cross-Browser Testing",
+      "body": "It's crucial to test your website on different browsers (Chrome, Firefox, Safari, Edge) and devices (mobile, tablet, desktop) to ensure compatibility and a consistent user experience."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Testing Goals",
+      "detail": "Define what aspects of the website you want to test, such as functionality, performance, or security."
+    },
+    {
+      "title": "Choose Testing Tools",
+      "detail": "Select appropriate tools based on your testing goals. For example, use Selenium for automated testing or Google PageSpeed Insights for performance testing."
+    },
+    {
+      "title": "Conduct Tests",
+      "detail": "Run the tests using your chosen methods and tools, documenting any issues or bugs that arise."
+    },
+    {
+      "title": "Review and Fix Issues",
+      "detail": "Analyze the test results, prioritize the issues found, and work on fixing them before retesting."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What tools can I use for website testing?",
+      "answer": "Some popular tools include Selenium, JMeter, Google PageSpeed Insights, and BrowserStack for cross-browser testing."
+    },
+    {
+      "question": "How often should I test my website?",
+      "answer": "It's recommended to test your website regularly, especially after updates, major changes, or when adding new features."
+    },
+    {
+      "question": "What is the difference between functional and performance testing?",
+      "answer": "Functional testing checks if the website features work as intended, while performance testing evaluates how the website performs under various conditions, such as load times and responsiveness."
+    }
+  ],
+  "caveats": [
+    "Testing results can vary based on the environment and tools used; ensure consistent testing conditions."
+  ],
+  "relatedToolIdeas": [
+    "Checklist for website testing phases",
+    "Q&A cluster on common website testing issues"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

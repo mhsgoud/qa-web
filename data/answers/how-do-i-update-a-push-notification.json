@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-update-a-push-notification",
+  "directAnswer": "To update a push notification, you need to modify the notification payload sent from your server or update the settings in your app's notification management system.",
+  "summary": "Updating push notifications involves adjusting the notification payload or settings within your application or service.",
+  "sections": [
+    {
+      "id": "notification-payload",
+      "heading": "Updating Notification Payload",
+      "body": "The payload is the data sent to the device. Ensure you include the updated content and any new parameters required by the notification service."
+    },
+    {
+      "id": "app-settings",
+      "heading": "Modifying App Settings",
+      "body": "For mobile applications, navigate to the notification settings within your app to adjust preferences or content for push notifications."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Modify the Payload",
+      "detail": "Access your server code where the push notifications are generated and update the payload with the new message or data."
+    },
+    {
+      "title": "Test the Notification",
+      "detail": "Use tools like Postman or your service's testing feature to send a test notification to ensure it appears as expected."
+    },
+    {
+      "title": "Update App Settings",
+      "detail": "For mobile apps, go to the settings menu and adjust the notification preferences to reflect the changes made."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I schedule push notifications for future delivery?",
+      "answer": "Yes, many services allow you to schedule notifications. Check the documentation for your specific service for details."
+    },
+    {
+      "question": "What happens if the user has disabled notifications?",
+      "answer": "If notifications are disabled, users will not receive updates until they re-enable them in their device settings."
+    },
+    {
+      "question": "Are there limits on the size of push notifications?",
+      "answer": "Yes, most services have a limit on the payload size, typically around 4KB. Check your service's documentation for specifics."
+    }
+  ],
+  "caveats": [
+    "Ensure you have the correct permissions to send notifications to users.",
+    "User settings may prevent notifications from being delivered."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for push notification best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

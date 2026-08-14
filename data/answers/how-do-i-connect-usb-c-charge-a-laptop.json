@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-connect-usb-c-charge-a-laptop",
+  "directAnswer": "To charge a laptop using USB-C, connect a compatible USB-C charger to the USB-C port on your laptop. Ensure that the charger provides sufficient wattage for your laptop's requirements.",
+  "summary": "Charging a laptop via USB-C is straightforward, but compatibility and wattage are crucial for optimal performance.",
+  "sections": [
+    {
+      "id": "compatibility",
+      "heading": "Check Compatibility",
+      "body": "Not all USB-C ports support charging. Verify that your laptop's USB-C port is designated for power delivery (PD) by checking the manufacturer's specifications."
+    },
+    {
+      "id": "choosing-a-charger",
+      "heading": "Choosing the Right Charger",
+      "body": "Use a charger that meets or exceeds the wattage requirements of your laptop. Many laptops require chargers rated between 30W to 100W."
+    },
+    {
+      "id": "connecting",
+      "heading": "Connecting the Charger",
+      "body": "Plug the USB-C charger into a power outlet and connect it to the laptop's USB-C port. Look for any charging indicators on the laptop."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify the USB-C Port",
+      "detail": "Locate the USB-C port on your laptop, typically marked with a lightning bolt or a battery icon."
+    },
+    {
+      "title": "Select a Compatible Charger",
+      "detail": "Choose a USB-C charger that matches your laptop's power requirements, typically found in the user manual."
+    },
+    {
+      "title": "Connect and Power On",
+      "detail": "Plug the charger into an electrical outlet and connect it to the laptop. Ensure the laptop powers on and shows charging status."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use any USB-C charger for my laptop?",
+      "answer": "Not all USB-C chargers are suitable. Ensure the charger supports the required wattage and power delivery for your laptop."
+    },
+    {
+      "question": "What if my laptop doesn't charge?",
+      "answer": "Check if the charger is functioning, ensure the connections are secure, and verify that the laptop's USB-C port supports charging."
+    },
+    {
+      "question": "Is it safe to use third-party USB-C chargers?",
+      "answer": "Using reputable third-party chargers that meet the required specifications is generally safe, but avoid low-quality brands."
+    }
+  ],
+  "caveats": [
+    "Charging speed may vary based on the charger's wattage and the laptop's power requirements.",
+    "Some laptops may not charge while in use if the power supplied is insufficient."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

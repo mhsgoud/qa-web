@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-troubleshoot-an-nvme-ssd",
+  "directAnswer": "Check the SSD connections and ensure the latest firmware is installed. Use diagnostic tools to check for errors or performance issues.",
+  "summary": "Troubleshooting an NVMe SSD involves checking connections, updating firmware, and using diagnostic tools to identify potential issues.",
+  "sections": [
+    {
+      "id": "check-connections",
+      "heading": "Check Connections",
+      "body": "Ensure that the NVMe SSD is properly seated in the M.2 slot. Power off the PC, open the case, and reseat the SSD if necessary."
+    },
+    {
+      "id": "update-firmware",
+      "heading": "Update Firmware",
+      "body": "Visit the manufacturer's website to download the latest firmware for your NVMe SSD. Follow the provided instructions to update it."
+    },
+    {
+      "id": "run-diagnostics",
+      "heading": "Run Diagnostics",
+      "body": "Use tools like CrystalDiskInfo or manufacturer-specific software to check the health and performance of the SSD."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Off and Open Case",
+      "detail": "Shut down your PC and unplug it from the power source. Open the case to access the NVMe SSD."
+    },
+    {
+      "title": "Reseat the NVMe SSD",
+      "detail": "Locate the NVMe SSD, unscrew it if necessary, and carefully remove it from the M.2 slot. Reinsert it firmly and securely."
+    },
+    {
+      "title": "Download and Install Firmware",
+      "detail": "Go to the manufacturer's website, find your SSD model, and download the latest firmware. Follow the installation instructions provided."
+    },
+    {
+      "title": "Use Diagnostic Tools",
+      "detail": "Download a diagnostic tool like CrystalDiskInfo. Run the tool to check the SSD's health status and look for any reported issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my NVMe SSD is not detected?",
+      "answer": "Check if the SSD is properly connected and reseat it. Also, ensure that the BIOS/UEFI settings are configured to recognize NVMe drives."
+    },
+    {
+      "question": "Can I use an NVMe SSD with a SATA-only motherboard?",
+      "answer": "No, NVMe SSDs require a motherboard with an M.2 slot that supports NVMe protocol. SATA-only motherboards do not support NVMe SSDs."
+    },
+    {
+      "question": "How can I improve the performance of my NVMe SSD?",
+      "answer": "Ensure that the SSD firmware is up to date, enable TRIM in your operating system, and avoid filling the drive to capacity."
+    }
+  ],
+  "caveats": [
+    "Firmware update procedures may vary by manufacturer.",
+    "Diagnostic tools may provide different results based on the system configuration."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-reset-an-ev-charge",
+  "directAnswer": "To reset an EV charge, you typically need to disconnect the charger from the vehicle and then reconnect it after a few moments. This can also be done through the charger’s app if available.",
+  "summary": "Resetting an EV charge can help resolve charging issues and ensure proper functionality of the charger.",
+  "sections": [
+    {
+      "id": "understanding-ev-charging",
+      "heading": "Understanding EV Charging",
+      "body": "Electric vehicle chargers can sometimes encounter issues that require a reset. This can happen due to communication errors between the vehicle and the charger."
+    },
+    {
+      "id": "reset-methods",
+      "heading": "Reset Methods",
+      "body": "There are generally two methods to reset an EV charge: manual reset by unplugging the charger or using a mobile app if your charger supports it."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Manual Reset",
+      "detail": "Unplug the charger from the vehicle and wait for at least 30 seconds before plugging it back in."
+    },
+    {
+      "title": "App Reset",
+      "detail": "Open the charger’s mobile app, navigate to the settings, and look for a reset option. This may vary by app version."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the reset doesn't work?",
+      "answer": "If the reset doesn't work, check for any error messages on the charger or app and consult the user manual for troubleshooting steps."
+    },
+    {
+      "question": "Can I reset my EV charge remotely?",
+      "answer": "Yes, if your charger is equipped with smart features, you can reset it remotely through the associated mobile app."
+    },
+    {
+      "question": "Is it safe to reset the charger frequently?",
+      "answer": "While occasional resets are generally safe, frequent resets may indicate a larger issue that should be addressed by a professional."
+    }
+  ],
+  "caveats": [
+    "Resetting the charger may not resolve all issues, especially if there is a fault with the vehicle or the charger itself."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

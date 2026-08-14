@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-check-if-a-website-is-down",
+  "directAnswer": "You can check if a website is down by using online tools like Down For Everyone Or Just Me or by pinging the website from your command line.",
+  "summary": "This guide provides methods to determine if a website is down, including using online tools and command line utilities.",
+  "sections": [
+    {
+      "id": "online-tools",
+      "heading": "Using Online Tools",
+      "body": "Websites like Down For Everyone Or Just Me allow you to quickly check if a site is down. Simply enter the URL, and the tool will inform you of the site's status."
+    },
+    {
+      "id": "command-line",
+      "heading": "Using Command Line",
+      "body": "You can use the ping command in your command line interface to check connectivity. This method is useful for more technical users."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check with Down For Everyone Or Just Me",
+      "detail": "Visit the website, enter the URL of the site you want to check, and click 'Submit'. The tool will tell you if the site is down or not."
+    },
+    {
+      "title": "Ping the Website",
+      "detail": "Open your command line interface. Type 'ping [website URL]' and press Enter. If you receive replies, the website is likely up."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the website is down for me but not for others?",
+      "answer": "This could be due to local network issues or your ISP blocking access to the site."
+    },
+    {
+      "question": "Are there other tools to check website status?",
+      "answer": "Yes, other tools include Is It Down Right Now and Site24x7, which provide similar functionality."
+    },
+    {
+      "question": "How can I check if my own website is down?",
+      "answer": "You can use the same online tools mentioned or set up monitoring services like UptimeRobot to alert you of downtime."
+    }
+  ],
+  "caveats": [
+    "Some websites may block ping requests, leading to false negatives when using the command line method."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

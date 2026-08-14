@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-back-up-a-database",
+  "directAnswer": "To back up a database, you can use built-in tools specific to your database management system or execute a SQL command to export the data.",
+  "summary": "Backing up a database is crucial for data recovery and integrity. The process varies depending on the database system used.",
+  "sections": [
+    {
+      "id": "mysql-backup",
+      "heading": "Backing Up MySQL Databases",
+      "body": "For MySQL, you can use the `mysqldump` command-line utility to create a backup of your database."
+    },
+    {
+      "id": "postgresql-backup",
+      "heading": "Backing Up PostgreSQL Databases",
+      "body": "PostgreSQL offers the `pg_dump` command to back up your database efficiently."
+    },
+    {
+      "id": "sql-server-backup",
+      "heading": "Backing Up SQL Server Databases",
+      "body": "In SQL Server, you can use SQL Server Management Studio (SSMS) to perform a backup via the GUI or use the `BACKUP DATABASE` command."
+    }
+  ],
+  "steps": [
+    {
+      "title": "MySQL Backup",
+      "detail": "Run the command: `mysqldump -u [username] -p [database_name] > [backup_file.sql]`."
+    },
+    {
+      "title": "PostgreSQL Backup",
+      "detail": "Execute: `pg_dump -U [username] [database_name] > [backup_file.sql]`."
+    },
+    {
+      "title": "SQL Server Backup",
+      "detail": "In SSMS, right-click the database, select Tasks > Back Up, and follow the prompts."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should I back up my database?",
+      "answer": "It depends on how frequently your data changes; daily backups are common for active databases."
+    },
+    {
+      "question": "What should I do if my backup fails?",
+      "answer": "Check the error messages for troubleshooting, ensure you have sufficient disk space, and verify user permissions."
+    },
+    {
+      "question": "Can I automate the backup process?",
+      "answer": "Yes, most database systems allow you to schedule backups using cron jobs or built-in scheduling features."
+    }
+  ],
+  "caveats": [
+    "Ensure that you have the necessary permissions to perform backups and that your backup files are stored securely."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Backup checklist for databases"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

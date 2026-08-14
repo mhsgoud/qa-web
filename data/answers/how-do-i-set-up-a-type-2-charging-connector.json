@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-set-up-a-type-2-charging-connector",
+  "directAnswer": "To set up a Type 2 charging connector, connect the charging cable to both the EV and the charging station, ensuring a secure fit.",
+  "summary": "Setting up a Type 2 charging connector involves connecting the cable properly and ensuring compatibility with your EV.",
+  "sections": [
+    {
+      "id": "compatibility-check",
+      "heading": "Check Compatibility",
+      "body": "Ensure your electric vehicle (EV) supports Type 2 charging. Most modern EVs in Europe do, but verify with your vehicle's manual."
+    },
+    {
+      "id": "charging-station-setup",
+      "heading": "Charging Station Setup",
+      "body": "Locate a Type 2 charging station. If using a home charger, follow the installation instructions provided by the manufacturer."
+    },
+    {
+      "id": "connecting-cable",
+      "heading": "Connecting the Cable",
+      "body": "Insert the Type 2 connector into your EV's charging port until you hear a click. Then, connect the other end to the charging station."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Locate Charging Station",
+      "detail": "Find a nearby Type 2 charging station using a charging app or website."
+    },
+    {
+      "title": "Connect to EV",
+      "detail": "Insert the Type 2 connector into your EV's charging port securely."
+    },
+    {
+      "title": "Start Charging",
+      "detail": "Follow the instructions on the charging station to initiate the charging process."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a Type 2 connector with a different type of EV?",
+      "answer": "No, Type 2 connectors are specifically designed for compatible EVs. Use the appropriate connector for your vehicle."
+    },
+    {
+      "question": "What should I do if the charging process doesn't start?",
+      "answer": "Check the connection for any loose fittings and ensure the charging station is operational. If issues persist, contact the station provider."
+    },
+    {
+      "question": "Is it safe to charge my EV overnight?",
+      "answer": "Yes, charging overnight is safe and commonly recommended, as it allows for full battery replenishment by morning."
+    }
+  ],
+  "caveats": [
+    "Ensure the charging station is compatible with your EV model.",
+    "Check local regulations regarding EV charging installations."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

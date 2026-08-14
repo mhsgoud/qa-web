@@ -1,0 +1,51 @@
+{
+  "slug": "how-do-i-update-a-database",
+  "directAnswer": "To update a database, you typically use SQL commands such as UPDATE for relational databases or appropriate methods for NoSQL databases. Ensure you have the necessary permissions to execute updates.",
+  "summary": "Updating a database involves modifying existing records using specific commands or methods based on the database type.",
+  "sections": [
+    {
+      "id": "understanding-update-commands",
+      "heading": "Understanding Update Commands",
+      "body": "In SQL databases, the UPDATE command is used to modify existing records. In NoSQL databases, updates may vary based on the database type (e.g., MongoDB uses updateOne or updateMany)."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to update a database can differ based on the platform you are using. Below are common steps for SQL and NoSQL databases."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Updating a SQL Database",
+      "detail": "1. Connect to your database using a database client. 2. Use the UPDATE statement: `UPDATE table_name SET column1 = value1 WHERE condition;`. 3. Execute the command."
+    },
+    {
+      "title": "Updating a NoSQL Database (e.g., MongoDB)",
+      "detail": "1. Connect to your MongoDB instance. 2. Use the updateOne or updateMany methods: `db.collection.updateOne({filter}, {update});`. 3. Execute the command."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What permissions do I need to update a database?",
+      "answer": "You typically need write permissions for the database or specific tables/collections you wish to update."
+    },
+    {
+      "question": "Can I undo an update in a database?",
+      "answer": "Most databases do not support direct undo for updates. It's advisable to back up data before performing updates."
+    },
+    {
+      "question": "What happens if I update a record that doesn't exist?",
+      "answer": "In SQL, no rows will be affected. In NoSQL, it may depend on the method used; some may create a new record if the specified filter does not match any existing records."
+    }
+  ],
+  "caveats": [
+    "Always back up your data before performing updates to prevent data loss.",
+    "Be cautious with the WHERE clause in SQL to avoid updating unintended records."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for database update best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

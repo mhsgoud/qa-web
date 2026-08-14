@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-a-cpu-not-working",
+  "directAnswer": "A CPU may not work due to improper installation, power supply issues, or hardware failures.",
+  "summary": "Identifying why a CPU is not functioning can involve checking connections, power supply, and hardware compatibility.",
+  "sections": [
+    {
+      "id": "installation-issues",
+      "heading": "Installation Issues",
+      "body": "Ensure the CPU is correctly seated in the socket and that the locking mechanism is properly engaged. Check that thermal paste is applied correctly and the cooler is securely attached."
+    },
+    {
+      "id": "power-supply-check",
+      "heading": "Power Supply Check",
+      "body": "Verify that the power supply unit (PSU) is functioning and providing adequate power to the motherboard and CPU. Check all power connectors, especially the 4-pin or 8-pin CPU power connector."
+    },
+    {
+      "id": "hardware-failures",
+      "heading": "Hardware Failures",
+      "body": "Test the CPU in another compatible motherboard if possible, or try a different CPU in the current motherboard to rule out hardware failures."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check CPU Installation",
+      "detail": "Power down the PC, unplug it, and remove the side panel. Carefully check that the CPU is seated properly in the socket."
+    },
+    {
+      "title": "Inspect Power Connections",
+      "detail": "Ensure that all power connectors, especially the CPU power connector, are securely connected to the motherboard."
+    },
+    {
+      "title": "Test with Minimal Configuration",
+      "detail": "Remove all non-essential hardware and boot the system with only the CPU, one stick of RAM, and the power supply connected."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the CPU fan is not spinning?",
+      "answer": "Check the power connections to the fan and ensure the fan is not obstructed. If it still doesn't spin, the fan may be faulty."
+    },
+    {
+      "question": "How can I tell if my CPU is dead?",
+      "answer": "If the system shows no signs of life (no lights, no fan movement) after checking all connections, the CPU may be dead, but testing in another motherboard is recommended."
+    },
+    {
+      "question": "Can a faulty power supply affect CPU performance?",
+      "answer": "Yes, an inadequate or failing power supply can lead to unstable power delivery, which may cause the CPU to malfunction or not boot."
+    }
+  ],
+  "caveats": [
+    "Always ensure you are grounded to prevent static damage when handling computer components."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

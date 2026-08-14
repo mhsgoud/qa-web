@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-check-an-audio-codec",
+  "directAnswer": "You can check an audio codec by using media player software or command-line tools that display codec information for audio files.",
+  "summary": "This guide provides steps to check the audio codec of files on different platforms.",
+  "sections": [
+    {
+      "id": "windows",
+      "heading": "Checking Audio Codec on Windows",
+      "body": "You can use Windows Media Player or VLC Media Player to check the audio codec of a file."
+    },
+    {
+      "id": "macos",
+      "heading": "Checking Audio Codec on macOS",
+      "body": "On macOS, you can use QuickTime Player or VLC Media Player to find the audio codec information."
+    },
+    {
+      "id": "command-line-tools",
+      "heading": "Using Command-Line Tools",
+      "body": "For advanced users, command-line tools like FFmpeg or MediaInfo can provide detailed codec information."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using VLC Media Player",
+      "detail": "Open the audio file in VLC, then go to 'Tools' > 'Codec Information' to view the codec details."
+    },
+    {
+      "title": "Using Windows Media Player",
+      "detail": "Right-click the audio file, select 'Properties', and then check the 'Details' tab for codec information."
+    },
+    {
+      "title": "Using QuickTime Player on macOS",
+      "detail": "Open the audio file, then select 'Window' > 'Show Movie Inspector' to view codec details."
+    },
+    {
+      "title": "Using FFmpeg",
+      "detail": "Run the command 'ffmpeg -i filename' in the terminal to see codec information in the output."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is an audio codec?",
+      "answer": "An audio codec is a software or hardware that compresses and decompresses digital audio data."
+    },
+    {
+      "question": "Why is it important to know the audio codec?",
+      "answer": "Knowing the audio codec helps ensure compatibility with playback devices and software."
+    },
+    {
+      "question": "Can I change the audio codec of a file?",
+      "answer": "Yes, you can change the audio codec by re-encoding the file using audio editing software or command-line tools."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly depending on the version of the software used."
+  ],
+  "relatedToolIdeas": [
+    "Codec comparison tool",
+    "Audio file converter"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

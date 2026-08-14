@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-troubleshoot-a-mailing-list",
+  "directAnswer": "Check the bounce rates and unsubscribe rates in your mailing list software, and ensure your email content complies with anti-spam regulations.",
+  "summary": "Troubleshooting a mailing list involves checking delivery issues, analyzing engagement metrics, and ensuring compliance with email regulations.",
+  "sections": [
+    {
+      "id": "check-delivery-issues",
+      "heading": "Check Delivery Issues",
+      "body": "Start by reviewing your email delivery reports to identify any bounce rates or delivery failures. Most mailing list platforms provide insights into these metrics."
+    },
+    {
+      "id": "analyze-engagement-metrics",
+      "heading": "Analyze Engagement Metrics",
+      "body": "Look at open rates, click-through rates, and unsubscribe rates to gauge how your audience is interacting with your emails."
+    },
+    {
+      "id": "ensure-compliance",
+      "heading": "Ensure Compliance with Regulations",
+      "body": "Verify that your emails include necessary elements like unsubscribe links and comply with regulations such as CAN-SPAM or GDPR."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Review Bounce Reports",
+      "detail": "Access your mailing list platform's analytics section to find bounce reports and identify problematic email addresses."
+    },
+    {
+      "title": "Check Spam Complaints",
+      "detail": "Look for spam complaint rates in your email campaign reports to see if recipients are marking your emails as spam."
+    },
+    {
+      "title": "Update Email List",
+      "detail": "Regularly clean your email list by removing inactive or invalid email addresses to improve deliverability."
+    },
+    {
+      "title": "Test Email Content",
+      "detail": "Send test emails to different email providers (Gmail, Yahoo, etc.) to see how your emails are rendered and if they land in the inbox or spam folder."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my emails keep going to spam?",
+      "answer": "Ensure your email content is relevant, avoid spammy words, and authenticate your domain with SPF and DKIM."
+    },
+    {
+      "question": "How often should I clean my mailing list?",
+      "answer": "It's recommended to clean your mailing list every 6-12 months, or more frequently if you notice high bounce rates."
+    },
+    {
+      "question": "What are the best practices for email subject lines?",
+      "answer": "Keep subject lines concise, avoid excessive punctuation, and personalize where possible to increase open rates."
+    }
+  ],
+  "caveats": [
+    "Email delivery issues can vary significantly between different email service providers.",
+    "Engagement metrics may be influenced by external factors such as seasonality or changes in audience preferences."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for email compliance"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

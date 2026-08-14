@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-content-delivery-network",
+  "directAnswer": "To update a content delivery network (CDN), log into your CDN provider's dashboard, navigate to the settings for your distribution, and apply the necessary changes. Finally, ensure to purge the cache to reflect the updates.",
+  "summary": "Updating a CDN involves modifying settings in the provider's dashboard and purging the cache to ensure changes take effect.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of CDN Updates",
+      "body": "Updating a CDN can include changing configurations, adding or removing resources, or updating security settings. Each CDN provider may have a different interface."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Follow the steps below based on your CDN provider."
+    },
+    {
+      "id": "common-caveats",
+      "heading": "Common Caveats",
+      "body": "Be aware that changes may take some time to propagate, and purging the cache may temporarily affect performance."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log into your CDN Dashboard",
+      "detail": "Access the dashboard of your CDN provider using your account credentials."
+    },
+    {
+      "title": "Navigate to Distribution Settings",
+      "detail": "Find the section for managing your CDN distributions. This may vary by provider."
+    },
+    {
+      "title": "Apply Changes",
+      "detail": "Make the necessary updates to your settings, such as modifying resource paths or security settings."
+    },
+    {
+      "title": "Purge Cache",
+      "detail": "Ensure to purge the cache to apply the changes immediately. This option is typically found in the distribution settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does it take for CDN updates to reflect?",
+      "answer": "Updates typically propagate within minutes, but it can vary based on the provider and the nature of the changes."
+    },
+    {
+      "question": "What should I do if my updates are not showing?",
+      "answer": "Double-check that you have purged the cache and ensure that the changes were saved correctly in the dashboard."
+    },
+    {
+      "question": "Can I roll back changes made to my CDN?",
+      "answer": "Most CDN providers allow you to revert changes, but the process varies. Check your provider's documentation for specific instructions."
+    }
+  ],
+  "caveats": [
+    "Changes may take some time to propagate across the network.",
+    "Purging the cache may temporarily affect performance."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for CDN management"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

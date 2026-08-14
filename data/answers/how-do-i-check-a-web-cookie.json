@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-check-a-web-cookie",
+  "directAnswer": "You can check web cookies through your browser's developer tools, typically found under the 'Application' or 'Storage' tab.",
+  "summary": "This guide provides steps to check web cookies in various browsers and highlights important considerations.",
+  "sections": [
+    {
+      "id": "browser-specific-steps",
+      "heading": "Browser-Specific Steps",
+      "body": "The method to check cookies varies slightly between browsers. Below are the steps for the most common browsers."
+    },
+    {
+      "id": "understanding-cookies",
+      "heading": "Understanding Cookies",
+      "body": "Cookies are small pieces of data stored by your browser that can be used for session management, personalization, and tracking."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Chrome",
+      "detail": "Open Chrome, right-click on the page, select 'Inspect', go to the 'Application' tab, and expand the 'Cookies' section."
+    },
+    {
+      "title": "Mozilla Firefox",
+      "detail": "Open Firefox, right-click on the page, select 'Inspect Element', go to the 'Storage' tab, and find 'Cookies' in the left sidebar."
+    },
+    {
+      "title": "Microsoft Edge",
+      "detail": "Open Edge, right-click on the page, select 'Inspect', go to the 'Application' tab, and look for 'Cookies' in the left panel."
+    },
+    {
+      "title": "Safari",
+      "detail": "Open Safari, enable 'Develop' menu in Preferences, then right-click on the page, select 'Inspect Element', and go to the 'Storage' tab."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are cookies used for?",
+      "answer": "Cookies are used for various purposes including session management, user preferences, and tracking user behavior."
+    },
+    {
+      "question": "Can I delete cookies?",
+      "answer": "Yes, you can delete cookies through your browser's settings or developer tools, usually found in the same section where you view them."
+    },
+    {
+      "question": "Are cookies safe?",
+      "answer": "Cookies themselves are generally safe, but they can be used to track user behavior, so it's important to manage them properly."
+    }
+  ],
+  "caveats": [
+    "Cookies may be stored differently based on browser versions and user settings.",
+    "Some browsers may require additional permissions to view or manage cookies."
+  ],
+  "relatedToolIdeas": [
+    "Cookie management tools",
+    "Privacy settings checker",
+    "Web debugging tools"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

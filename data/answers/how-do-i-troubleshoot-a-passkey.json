@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-troubleshoot-a-passkey",
+  "directAnswer": "To troubleshoot a passkey, ensure that your device's software is up to date and that you are entering the correct passkey format. If issues persist, consider resetting your device's network settings.",
+  "summary": "This guide provides steps to troubleshoot issues related to passkeys across different platforms, including common problems and solutions.",
+  "sections": [
+    {
+      "id": "common-issues",
+      "heading": "Common Issues with Passkeys",
+      "body": "Users often face issues such as incorrect passkey entry, device compatibility problems, and software version mismatches."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Troubleshooting Steps",
+      "body": "Follow the steps below based on your platform to resolve passkey issues."
+    },
+    {
+      "id": "additional-tips",
+      "heading": "Additional Tips",
+      "body": "If troubleshooting does not resolve the issue, consider reaching out to customer support for further assistance."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Software Updates",
+      "detail": "For iOS, go to Settings > General > Software Update. For Android, navigate to Settings > System > System Update. Ensure your device is running the latest version."
+    },
+    {
+      "title": "Verify Passkey Format",
+      "detail": "Ensure that the passkey is entered correctly, including any special characters or capitalization."
+    },
+    {
+      "title": "Reset Network Settings",
+      "detail": "On iOS, go to Settings > General > Reset > Reset Network Settings. On Android, go to Settings > System > Reset options > Reset Wi-Fi, mobile & Bluetooth."
+    },
+    {
+      "title": "Test on Another Device",
+      "detail": "Try using the passkey on a different device to determine if the issue is device-specific."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I forgot my passkey?",
+      "answer": "If you forgot your passkey, you may need to reset it through the service or application that requires it."
+    },
+    {
+      "question": "Can a passkey be shared between devices?",
+      "answer": "Passkeys are typically device-specific for security reasons; sharing may not be possible or secure."
+    },
+    {
+      "question": "What if my device is not compatible with the passkey?",
+      "answer": "Check the system requirements for the application or service using the passkey; you may need to update your device or use a different one."
+    }
+  ],
+  "caveats": [
+    "Some steps may vary slightly depending on the device model or software version.",
+    "Resetting network settings will remove saved Wi-Fi networks and Bluetooth connections."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for passkey management"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

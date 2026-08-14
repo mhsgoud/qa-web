@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-print-double-sided",
+  "directAnswer": "To print double-sided, select 'Print on Both Sides' in your printer settings. Ensure your printer supports duplex printing.",
+  "summary": "Double-sided printing can save paper and is often available in most modern printers. Here's how to enable it based on your operating system.",
+  "sections": [
+    {
+      "id": "windows-10-11",
+      "heading": "Windows 10/11 Instructions",
+      "body": "1. Open the document you want to print. 2. Click 'File' > 'Print'. 3. In the print dialog, look for 'Printer Properties' or 'Preferences'. 4. Find the option for 'Print on Both Sides' or 'Duplex Printing' and select it."
+    },
+    {
+      "id": "macos",
+      "heading": "macOS Instructions",
+      "body": "1. Open your document. 2. Click 'File' > 'Print'. 3. In the print dialog, look for the 'Two-Sided' checkbox and check it. 4. Select your desired binding option."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues",
+      "body": "If the option to print double-sided is not available, check if your printer supports duplex printing or if the printer driver is up to date."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Printer Compatibility",
+      "detail": "Ensure your printer has duplex printing capability. Refer to the printer's user manual or specifications."
+    },
+    {
+      "title": "Access Printer Settings",
+      "detail": "Open the document and navigate to the print dialog through 'File' > 'Print'."
+    },
+    {
+      "title": "Select Double-Sided Option",
+      "detail": "In the print settings, locate and select 'Print on Both Sides' or 'Two-Sided'."
+    },
+    {
+      "title": "Print Document",
+      "detail": "After confirming settings, click 'Print' to start printing double-sided."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my printer doesn't have a duplex option?",
+      "answer": "You can manually print double-sided by printing the odd pages first, then reinserting the paper to print the even pages."
+    },
+    {
+      "question": "Can I print double-sided from mobile devices?",
+      "answer": "Yes, if your mobile device and printer support it, you can select double-sided printing in the print settings of the app you're using."
+    },
+    {
+      "question": "Is double-sided printing slower?",
+      "answer": "It may take slightly longer due to the additional processing, but the difference is usually minimal."
+    }
+  ],
+  "caveats": [
+    "Not all printers support automatic double-sided printing; check your printer specifications."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

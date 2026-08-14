@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-reset-an-ai-agent",
+  "directAnswer": "To reset an AI agent, locate the reset option in the agent's settings menu, or use a specific command in the user interface, depending on the platform.",
+  "summary": "Resetting an AI agent can help resolve issues or refresh its state. The method varies by platform.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset an AI agent differ based on the platform you are using. Below are instructions for some common platforms."
+    },
+    {
+      "id": "general-caveats",
+      "heading": "Caveats",
+      "body": "Resetting an AI agent may result in loss of custom configurations or learned data."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Reset on Platform A",
+      "detail": "Go to Settings > AI Agent > Reset. Confirm the action when prompted."
+    },
+    {
+      "title": "Reset on Platform B",
+      "detail": "Use the command 'reset agent' in the console. Ensure you have admin privileges."
+    },
+    {
+      "title": "Reset on Platform C",
+      "detail": "Navigate to the agent's profile and select 'Factory Reset' from the options."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting the AI agent delete all my data?",
+      "answer": "Yes, resetting may remove all custom configurations and learned data specific to that agent."
+    },
+    {
+      "question": "Can I undo the reset process?",
+      "answer": "No, once the reset is completed, it cannot be undone."
+    },
+    {
+      "question": "How often should I reset my AI agent?",
+      "answer": "It depends on the performance issues you encounter; consider resetting if the agent behaves unexpectedly."
+    }
+  ],
+  "caveats": [
+    "Resetting may lead to loss of personalized settings and data.",
+    "Ensure you back up any important information before proceeding."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

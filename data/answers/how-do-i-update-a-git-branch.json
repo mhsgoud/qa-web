@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-update-a-git-branch",
+  "directAnswer": "To update a Git branch, you can use the 'git pull' command to fetch and integrate changes from the remote repository.",
+  "summary": "This guide explains how to update a branch in Git, including platform-specific commands and considerations.",
+  "sections": [
+    {
+      "id": "understanding-git-branches",
+      "heading": "Understanding Git Branches",
+      "body": "Git branches allow you to work on different features or fixes independently. Keeping your branches updated with the latest changes from the remote repository is essential for collaboration."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The commands for updating a branch are the same across platforms, but ensure your Git is installed and configured correctly."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open your terminal or command prompt",
+      "detail": "Ensure you are in the directory of your Git repository."
+    },
+    {
+      "title": "Switch to the branch you want to update",
+      "detail": "Use the command 'git checkout <branch-name>' to switch to your target branch."
+    },
+    {
+      "title": "Pull the latest changes",
+      "detail": "Run 'git pull origin <branch-name>' to fetch and merge changes from the remote repository."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I have uncommitted changes?",
+      "answer": "You should commit or stash your changes before pulling to avoid merge conflicts."
+    },
+    {
+      "question": "How can I see what changes will be pulled?",
+      "answer": "Use 'git fetch' followed by 'git log HEAD..origin/<branch-name>' to review changes before merging."
+    },
+    {
+      "question": "What if there are merge conflicts?",
+      "answer": "Git will notify you of conflicts. You will need to resolve them manually before completing the pull."
+    }
+  ],
+  "caveats": [
+    "Ensure you have the correct permissions to pull from the remote repository.",
+    "Be cautious of merge conflicts, especially when collaborating with others."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for Git best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

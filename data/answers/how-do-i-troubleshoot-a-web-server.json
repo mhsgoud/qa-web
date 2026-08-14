@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-troubleshoot-a-web-server",
+  "directAnswer": "To troubleshoot a web server, start by checking server logs for errors and ensuring that the server is running. Verify network connectivity and configuration settings as well.",
+  "summary": "This guide provides steps and considerations for effectively troubleshooting web server issues.",
+  "sections": [
+    {
+      "id": "server-logs",
+      "heading": "Check Server Logs",
+      "body": "Access the server logs to identify any error messages or warnings. Common log files include access logs and error logs, typically found in '/var/log/' on Linux or within the server's installation directory on Windows."
+    },
+    {
+      "id": "network-configuration",
+      "heading": "Verify Network Configuration",
+      "body": "Ensure that the server's network settings are correctly configured. Check firewall rules, port forwarding, and DNS settings to ensure the server is reachable."
+    },
+    {
+      "id": "service-status",
+      "heading": "Check Service Status",
+      "body": "Use commands like 'systemctl status [service-name]' on Linux or check the Services panel on Windows to confirm that the web server service is running."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Server Logs",
+      "detail": "Log into your server and navigate to the log directory. Use commands like 'tail -f error.log' to monitor real-time log entries."
+    },
+    {
+      "title": "Test Network Connectivity",
+      "detail": "Use tools like 'ping' or 'traceroute' to check if the server is reachable from your client machine."
+    },
+    {
+      "title": "Restart the Web Server",
+      "detail": "If issues persist, try restarting the web server service using 'systemctl restart [service-name]' on Linux or through the Services panel on Windows."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I can't access the server remotely?",
+      "answer": "Check your network connection and firewall settings. Ensure that the server's IP address is correct and that the necessary ports are open."
+    },
+    {
+      "question": "How can I identify if the issue is with the server or the application?",
+      "answer": "Try accessing a simple HTML page directly. If that works, the issue may lie within your application code."
+    },
+    {
+      "question": "What are common error codes I should look for?",
+      "answer": "Look for HTTP status codes like 404 (Not Found), 500 (Internal Server Error), and 502 (Bad Gateway) in the server logs."
+    }
+  ],
+  "caveats": [
+    "Ensure you have appropriate permissions to access server logs and configurations.",
+    "Steps may vary based on the web server software (e.g., Apache, Nginx, IIS) and operating system."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for web server health checks"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

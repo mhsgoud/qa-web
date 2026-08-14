@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-refresh-rate-not-working",
+  "directAnswer": "Refresh rate issues can arise from incorrect display settings or outdated drivers. Ensure your monitor supports the desired refresh rate and that your graphics drivers are up to date.",
+  "summary": "Understanding why your monitor's refresh rate isn't functioning properly involves checking settings, compatibility, and drivers.",
+  "sections": [
+    {
+      "id": "monitor-compatibility",
+      "heading": "Monitor Compatibility",
+      "body": "Ensure that your monitor supports the refresh rate you are trying to set. Check the manufacturer's specifications for the maximum refresh rate."
+    },
+    {
+      "id": "graphics-driver-updates",
+      "heading": "Graphics Driver Updates",
+      "body": "Outdated graphics drivers can prevent your system from utilizing higher refresh rates. Always keep your drivers updated through the manufacturer's website or your operating system's update tool."
+    },
+    {
+      "id": "display-settings",
+      "heading": "Adjusting Display Settings",
+      "body": "Access your display settings to manually set the refresh rate. The path may vary by operating system. For Windows, go to Settings > System > Display > Advanced display settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Monitor Specifications",
+      "detail": "Verify the maximum refresh rate supported by your monitor in its manual or on the manufacturer's website."
+    },
+    {
+      "title": "Update Graphics Drivers",
+      "detail": "Visit the graphics card manufacturer's website (NVIDIA, AMD, Intel) to download and install the latest drivers."
+    },
+    {
+      "title": "Access Display Settings",
+      "detail": "For Windows: Go to Settings > System > Display > Advanced display settings, then select the desired refresh rate from the dropdown."
+    },
+    {
+      "title": "Restart Your Computer",
+      "detail": "After making changes, restart your computer to ensure the new settings take effect."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my monitor is not detected?",
+      "answer": "If your monitor is not detected, check the cable connections and ensure the monitor is powered on. Try using a different cable or port."
+    },
+    {
+      "question": "Can my graphics card limit the refresh rate?",
+      "answer": "Yes, some older graphics cards may not support higher refresh rates. Check the specifications of your graphics card."
+    },
+    {
+      "question": "Why does the refresh rate reset after a reboot?",
+      "answer": "This can happen if the settings are not saved properly or if the graphics drivers are outdated. Ensure that you apply and save the settings before rebooting."
+    }
+  ],
+  "caveats": [
+    "Some monitors may require specific cables (like DisplayPort) to achieve higher refresh rates, while others may not support certain refresh rates at lower resolutions."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

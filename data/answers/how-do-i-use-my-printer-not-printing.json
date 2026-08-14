@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-use-my-printer-not-printing",
+  "directAnswer": "Check the printer's connection and ensure there are no error messages on the printer display. If issues persist, reinstall the printer drivers.",
+  "summary": "This guide provides steps to troubleshoot and resolve common printing issues.",
+  "sections": [
+    {
+      "id": "check-connection",
+      "heading": "Check Printer Connection",
+      "body": "Ensure that your printer is properly connected to your computer or network. For USB printers, verify the cable is securely plugged in. For network printers, confirm that the printer is connected to the same Wi-Fi network as your device."
+    },
+    {
+      "id": "check-printer-status",
+      "heading": "Check Printer Status",
+      "body": "Look for any error messages on the printer's display panel. If there are any alerts, follow the instructions provided. Additionally, check if the printer is set as the default printer in your operating system."
+    },
+    {
+      "id": "reinstall-drivers",
+      "heading": "Reinstall Printer Drivers",
+      "body": "If the printer is still not responding, uninstall and then reinstall the printer drivers. This can resolve issues caused by outdated or corrupted drivers."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Verify Connections",
+      "detail": "For USB printers, check the cable connection. For network printers, ensure the printer is connected to the Wi-Fi network."
+    },
+    {
+      "title": "Set Default Printer",
+      "detail": "On Windows, go to Settings > Devices > Printers & scanners, and select your printer as the default. On macOS, go to System Preferences > Printers & Scanners and select your printer."
+    },
+    {
+      "title": "Update Printer Drivers",
+      "detail": "Visit the printer manufacturer's website to download and install the latest drivers for your printer model."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why is my printer showing offline?",
+      "answer": "Check the printer's connection and ensure it is powered on. You may also need to set it as the default printer."
+    },
+    {
+      "question": "How do I clear a print queue?",
+      "answer": "On Windows, go to Devices and Printers, right-click your printer, and select 'See what's printing'. Then, select the documents and choose 'Cancel'."
+    },
+    {
+      "question": "What should I do if my printer is out of ink?",
+      "answer": "Replace the ink cartridges with new ones compatible with your printer model. Refer to the printer manual for instructions on how to replace them."
+    }
+  ],
+  "caveats": [
+    "Some printer models may have unique troubleshooting steps; refer to the manufacturer's manual for model-specific guidance."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

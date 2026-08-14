@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-troubleshoot-my-printer-not-printing",
+  "directAnswer": "Check the printer's connections and ensure it's set as the default printer in your computer's settings.",
+  "summary": "This guide provides steps to troubleshoot common printing issues, including connection checks and software settings.",
+  "sections": [
+    {
+      "id": "printer-connection",
+      "heading": "Check Printer Connections",
+      "body": "Ensure the printer is plugged in, powered on, and connected to your computer or network. For wired printers, check USB connections; for wireless printers, ensure they are connected to the correct Wi-Fi network."
+    },
+    {
+      "id": "default-printer",
+      "heading": "Set as Default Printer",
+      "body": "Make sure your printer is selected as the default printer in your operating system's settings. This can vary by OS version."
+    },
+    {
+      "id": "print-queue",
+      "heading": "Check Print Queue",
+      "body": "Open the print queue on your computer to see if there are any stalled print jobs. Clear the queue if necessary."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Verify Connections",
+      "detail": "Check all physical connections and ensure the printer is powered on."
+    },
+    {
+      "title": "Set Default Printer",
+      "detail": "For Windows: Go to Settings > Devices > Printers & Scanners. For Mac: Open System Preferences > Printers & Scanners. Ensure your printer is set as default."
+    },
+    {
+      "title": "Clear Print Queue",
+      "detail": "Access the print queue through the Control Panel or System Preferences and remove any pending jobs."
+    },
+    {
+      "title": "Update Printer Drivers",
+      "detail": "Check the manufacturer's website for the latest drivers and install them if necessary."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my printer is offline?",
+      "answer": "Check the printer's connection to the network and ensure it is powered on. You can also try restarting both the printer and your computer."
+    },
+    {
+      "question": "How do I check if my printer has paper?",
+      "answer": "Open the printer's paper tray and inspect the paper level. Most printers also have a status indicator that shows if paper is loaded."
+    },
+    {
+      "question": "Why is my printer producing blank pages?",
+      "answer": "This could be due to empty ink or toner cartridges, clogged print heads, or incorrect printer settings. Check the ink levels and run a print head cleaning if necessary."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly depending on your operating system version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

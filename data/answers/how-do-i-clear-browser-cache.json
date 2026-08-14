@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-clear-browser-cache",
+  "directAnswer": "To clear your browser cache, access your browser settings and look for the option to clear browsing data, ensuring to select the cache option.",
+  "summary": "Clearing your browser cache can help resolve loading issues and ensure you are viewing the latest version of websites.",
+  "sections": [
+    {
+      "id": "importance-of-clearing-cache",
+      "heading": "Importance of Clearing Cache",
+      "body": "Clearing your cache can resolve issues with website loading and ensure you are viewing the most current content. It can also free up storage space."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to clear cache may vary based on the browser and version you are using."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Chrome",
+      "detail": "Go to Settings > Privacy and Security > Clear Browsing Data. Select 'Cached images and files' and click 'Clear data'."
+    },
+    {
+      "title": "Mozilla Firefox",
+      "detail": "Open Options > Privacy & Security > Cookies and Site Data. Click on 'Clear Data', select 'Cached Web Content', and click 'Clear'."
+    },
+    {
+      "title": "Microsoft Edge",
+      "detail": "Navigate to Settings > Privacy, Search, and Services > Clear Browsing Data. Choose 'Cached images and files' and select 'Clear now'."
+    },
+    {
+      "title": "Safari (macOS)",
+      "detail": "Go to Safari > Preferences > Privacy. Click 'Manage Website Data' and select 'Remove All' to clear cache."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will clearing my cache delete my saved passwords?",
+      "answer": "No, clearing your cache will not delete saved passwords; it only removes temporary files."
+    },
+    {
+      "question": "How often should I clear my browser cache?",
+      "answer": "It's recommended to clear your cache every few weeks or when you experience loading issues with websites."
+    },
+    {
+      "question": "Can I clear cache for a specific website?",
+      "answer": "Yes, many browsers allow you to clear cache for individual sites through their settings."
+    }
+  ],
+  "caveats": [
+    "Clearing the cache may result in slower loading times for frequently visited sites, as they will need to reload all content."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

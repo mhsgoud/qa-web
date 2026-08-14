@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-troubleshoot-an-ip-address",
+  "directAnswer": "To troubleshoot an IP address, start by checking your network connection and verifying the IP configuration using command line tools like 'ipconfig' for Windows or 'ifconfig' for Linux/Mac.",
+  "summary": "This guide provides steps to troubleshoot IP address issues effectively, including checking configurations and connectivity.",
+  "sections": [
+    {
+      "id": "check-network-connection",
+      "heading": "Check Network Connection",
+      "body": "Ensure your device is connected to the network. Look for any physical connection issues, such as loose cables or Wi-Fi connectivity."
+    },
+    {
+      "id": "verify-ip-configuration",
+      "heading": "Verify IP Configuration",
+      "body": "Use command line tools to check your device's IP address settings. On Windows, use 'ipconfig'; on Linux/Mac, use 'ifconfig' or 'ip addr'."
+    },
+    {
+      "id": "ping-test",
+      "heading": "Perform a Ping Test",
+      "body": "Use the 'ping' command followed by an IP address (e.g., 'ping 8.8.8.8') to test connectivity to that address. If you receive replies, the network connection is likely functional."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Command Prompt or Terminal",
+      "detail": "On Windows, press 'Win + R', type 'cmd', and hit Enter. On Linux/Mac, open the Terminal from your applications."
+    },
+    {
+      "title": "Check IP Configuration",
+      "detail": "Type 'ipconfig' (Windows) or 'ifconfig' (Linux/Mac) and press Enter. Look for the IPv4 address and ensure it matches your network settings."
+    },
+    {
+      "title": "Run Ping Test",
+      "detail": "Type 'ping 8.8.8.8' and press Enter. If you receive replies, your device can reach the internet. If not, check your router or contact your ISP."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my IP address is not configured correctly?",
+      "answer": "You may need to manually set your IP address in the network settings or reset your router to obtain a new IP address."
+    },
+    {
+      "question": "How can I find my public IP address?",
+      "answer": "You can find your public IP address by searching 'what is my IP' in a web browser or using a service like 'ipinfo.io'."
+    },
+    {
+      "question": "What if I can't ping any external IP addresses?",
+      "answer": "If you cannot ping external IPs, check your firewall settings, router configuration, or contact your ISP for further assistance."
+    }
+  ],
+  "caveats": [
+    "Network configurations can vary significantly based on the operating system and network setup, so steps may differ."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

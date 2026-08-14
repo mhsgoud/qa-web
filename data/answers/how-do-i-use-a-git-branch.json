@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-use-a-git-branch",
+  "directAnswer": "To use a Git branch, you can create a new branch, switch to it, and then commit changes independently from the main branch.",
+  "summary": "This guide explains how to create, switch, and manage branches in Git, allowing for parallel development.",
+  "sections": [
+    {
+      "id": "creating-a-branch",
+      "heading": "Creating a Branch",
+      "body": "Use the command `git branch <branch-name>` to create a new branch. This does not switch to the new branch immediately."
+    },
+    {
+      "id": "switching-branches",
+      "heading": "Switching Branches",
+      "body": "To switch to a branch, use `git checkout <branch-name>`. In newer versions of Git, you can also use `git switch <branch-name>`."
+    },
+    {
+      "id": "merging-branches",
+      "heading": "Merging Branches",
+      "body": "To merge changes from one branch into another, switch to the target branch and use `git merge <branch-name>`."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Create a new branch",
+      "detail": "Run `git branch feature-xyz` to create a new branch named 'feature-xyz'."
+    },
+    {
+      "title": "Switch to the new branch",
+      "detail": "Execute `git checkout feature-xyz` or `git switch feature-xyz` to start working on the new branch."
+    },
+    {
+      "title": "Make changes and commit",
+      "detail": "After making changes, stage them with `git add .` and commit using `git commit -m 'Your message'`."
+    },
+    {
+      "title": "Merge changes back to main branch",
+      "detail": "Switch back to the main branch with `git checkout main` and merge your changes using `git merge feature-xyz`."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between `git checkout` and `git switch`?",
+      "answer": "`git checkout` can be used for both switching branches and restoring files, while `git switch` is specifically for switching branches."
+    },
+    {
+      "question": "Can I delete a branch after merging?",
+      "answer": "Yes, you can delete a branch using `git branch -d <branch-name>` after merging it, but ensure that you no longer need it."
+    },
+    {
+      "question": "How do I see all branches in my repository?",
+      "answer": "Use the command `git branch` to list all local branches, and `git branch -a` to see both local and remote branches."
+    }
+  ],
+  "caveats": [
+    "Merging branches can lead to conflicts if changes overlap; resolve conflicts before completing the merge.",
+    "Ensure you commit or stash changes before switching branches to avoid losing work."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for Git best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

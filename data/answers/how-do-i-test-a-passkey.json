@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-test-a-passkey",
+  "directAnswer": "To test a passkey, use the authentication feature of your device or application that supports passkeys, ensuring it prompts for the passkey entry during login.",
+  "summary": "Testing a passkey involves verifying its functionality through supported platforms and applications to ensure secure access.",
+  "sections": [
+    {
+      "id": "understanding-passkeys",
+      "heading": "Understanding Passkeys",
+      "body": "Passkeys are a secure way to authenticate users without relying on traditional passwords. They are designed to be resistant to phishing attacks."
+    },
+    {
+      "id": "platform-specific-testing",
+      "heading": "Platform-Specific Testing Steps",
+      "body": "Testing methods may vary depending on the platform you are using. Below are common platforms."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Testing on Windows",
+      "detail": "Navigate to Settings > Accounts > Sign-in options. Under 'Security Key', choose 'Manage' and follow prompts to test the passkey."
+    },
+    {
+      "title": "Testing on macOS",
+      "detail": "Open System Preferences > Users & Groups. Click on 'Login Options' and set up your passkey under the 'Security' section."
+    },
+    {
+      "title": "Testing on Android",
+      "detail": "Go to Settings > Google > Manage your Google Account > Security. Under 'Signing in to Google', select 'Use your passkey' to test."
+    },
+    {
+      "title": "Testing on iOS",
+      "detail": "Open Settings > Passwords. Tap on 'AutoFill Passwords' and ensure your passkey is listed. Test by logging into an app that supports passkeys."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my passkey doesn't work?",
+      "answer": "Ensure that your device's software is updated and that the application supports passkeys. You may also need to reset the passkey."
+    },
+    {
+      "question": "Can I use a passkey on multiple devices?",
+      "answer": "Yes, as long as the devices are linked to the same account and support passkey authentication."
+    },
+    {
+      "question": "What happens if I lose my device with the passkey?",
+      "answer": "You should have recovery options set up, such as backup codes or alternative authentication methods, to regain access."
+    }
+  ],
+  "caveats": [
+    "Not all applications or services support passkeys, so verify compatibility before testing.",
+    "The steps may vary slightly based on the version of the operating system."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

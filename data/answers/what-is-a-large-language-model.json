@@ -1,0 +1,54 @@
+{
+  "slug": "what-is-a-large-language-model",
+  "directAnswer": "A large language model (LLM) is a type of artificial intelligence that uses deep learning techniques to understand, generate, and manipulate human language. These models are trained on vast amounts of text data to predict the next word in a sequence, enabling them to generate coherent and contextually relevant text.",
+  "summary": "Large language models are advanced AI systems capable of understanding and generating human-like text based on extensive training data.",
+  "sections": [
+    {
+      "id": "understanding-llms",
+      "heading": "Understanding Large Language Models",
+      "body": "LLMs are built using neural networks, particularly transformer architectures, which allow them to process and generate language efficiently. They learn from diverse datasets, encompassing books, articles, and websites, to capture the nuances of language."
+    },
+    {
+      "id": "applications",
+      "heading": "Applications of Large Language Models",
+      "body": "LLMs are used in various applications including chatbots, content generation, translation services, and summarization tools. Their ability to generate human-like text makes them valuable in customer service and creative industries."
+    },
+    {
+      "id": "limitations",
+      "heading": "Limitations of Large Language Models",
+      "body": "Despite their capabilities, LLMs can produce biased or incorrect information based on the data they were trained on. They also lack true understanding and may generate plausible but nonsensical responses."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Accessing a Large Language Model",
+      "detail": "To use a large language model, you can access platforms like OpenAI's ChatGPT or Google's BERT through their respective APIs or web interfaces. Ensure you have an account and follow the platform's documentation for setup."
+    },
+    {
+      "title": "Integrating LLMs into Applications",
+      "detail": "For developers, integrate LLMs by utilizing SDKs provided by the platform. Follow the API documentation to send requests and handle responses effectively."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do large language models learn?",
+      "answer": "LLMs learn by processing vast amounts of text data and adjusting their internal parameters through a process called training, which involves predicting the next word in a sentence and correcting errors."
+    },
+    {
+      "question": "Can large language models understand context?",
+      "answer": "Yes, LLMs are designed to understand context to some extent, allowing them to generate relevant responses based on the input they receive."
+    },
+    {
+      "question": "Are large language models safe to use?",
+      "answer": "While LLMs can be powerful tools, they can also generate inappropriate or biased content. It's important to implement safety measures and human oversight when deploying them."
+    }
+  ],
+  "caveats": [
+    "LLMs may not always provide accurate information and should not be relied upon for critical decision-making."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

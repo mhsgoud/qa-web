@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-reset-a-mailing-list",
+  "directAnswer": "To reset a mailing list, you typically need to delete existing contacts and create a new list or clear the current list's data, depending on the platform.",
+  "summary": "Resetting a mailing list can help you start fresh with your email campaigns, ensuring that you have an updated and relevant audience.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Resetting a mailing list involves removing all current subscribers and potentially creating a new list to ensure that your email campaigns reach the right audience."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Steps to reset a mailing list can vary by email marketing service. Below are general steps for popular platforms."
+    },
+    {
+      "id": "best-practices",
+      "heading": "Best Practices",
+      "body": "Before resetting, consider exporting your current list for backup and ensure compliance with data protection regulations."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Export Current List (Optional)",
+      "detail": "Before resetting, export your current mailing list to keep a backup of your subscribers."
+    },
+    {
+      "title": "Delete Existing Contacts",
+      "detail": "Navigate to your mailing list management section and select the option to delete all contacts. This may vary by platform."
+    },
+    {
+      "title": "Create a New List (if applicable)",
+      "detail": "If your platform requires it, create a new mailing list after deleting the old one."
+    },
+    {
+      "title": "Confirm Changes",
+      "detail": "Review your mailing list settings to ensure that the reset was successful."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will I lose my subscriber data?",
+      "answer": "Yes, if you delete your contacts without exporting them first, you will lose that data."
+    },
+    {
+      "question": "Can I reset my mailing list multiple times?",
+      "answer": "Yes, you can reset your mailing list as often as needed, but ensure to manage your subscribers effectively."
+    },
+    {
+      "question": "What happens to my email campaigns after a reset?",
+      "answer": "After resetting, you will need to create new campaigns targeting your new or updated mailing list."
+    }
+  ],
+  "caveats": [
+    "Resetting a mailing list is irreversible if you do not back up your contacts.",
+    "Ensure compliance with email marketing regulations when managing subscriber data."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for managing mailing lists"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

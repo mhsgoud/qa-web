@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-cpu-cooler",
+  "directAnswer": "To update a CPU cooler, first remove the old cooler and clean the CPU surface, then install the new cooler according to the manufacturer's instructions.",
+  "summary": "Updating a CPU cooler involves careful removal of the old unit and proper installation of the new one, ensuring optimal thermal performance.",
+  "sections": [
+    {
+      "id": "preparation",
+      "heading": "Preparation",
+      "body": "Gather necessary tools such as a screwdriver, thermal paste, and isopropyl alcohol for cleaning. Ensure you have the new cooler ready for installation."
+    },
+    {
+      "id": "removal",
+      "heading": "Removing the Old Cooler",
+      "body": "Power down the PC and unplug it. Disconnect the cooler's power cable from the motherboard, unscrew or unclip the cooler, and gently twist it to break the thermal bond before lifting it off."
+    },
+    {
+      "id": "installation",
+      "heading": "Installing the New Cooler",
+      "body": "Apply a small amount of thermal paste to the CPU, then position the new cooler over the CPU. Secure it according to the manufacturer's instructions and connect its power cable."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Down and Unplug",
+      "detail": "Ensure the PC is completely powered off and unplugged from the electrical outlet."
+    },
+    {
+      "title": "Remove Old Cooler",
+      "detail": "Disconnect the cooler's power cable, unscrew or unclip it, and gently twist to detach it from the CPU."
+    },
+    {
+      "title": "Clean CPU Surface",
+      "detail": "Use isopropyl alcohol and a lint-free cloth to clean the old thermal paste from the CPU surface."
+    },
+    {
+      "title": "Install New Cooler",
+      "detail": "Apply thermal paste, position the new cooler, secure it, and connect the power cable."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to replace thermal paste every time I change the cooler?",
+      "answer": "Yes, it's recommended to apply fresh thermal paste whenever you install a new cooler."
+    },
+    {
+      "question": "What should I do if the cooler doesn't fit?",
+      "answer": "Check compatibility with your CPU socket type and ensure you are following the installation instructions correctly."
+    },
+    {
+      "question": "How can I tell if my cooler is working properly?",
+      "answer": "Monitor CPU temperatures using software tools; if temperatures are high, check the cooler installation and airflow."
+    }
+  ],
+  "caveats": [
+    "Ensure compatibility of the new cooler with your CPU and motherboard.",
+    "Improper installation can lead to overheating and damage."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for CPU cooler installation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

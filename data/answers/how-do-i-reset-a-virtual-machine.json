@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-reset-a-virtual-machine",
+  "directAnswer": "To reset a virtual machine, you can either use the management console of your cloud provider or command-line tools specific to your platform. This action will typically stop and then restart the VM without altering its data.",
+  "summary": "Resetting a virtual machine can resolve issues or apply new configurations without data loss. Follow the specific steps for your cloud provider.",
+  "sections": [
+    {
+      "id": "cloud-provider-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset a virtual machine may vary depending on the cloud provider. Below are instructions for AWS, Azure, and Google Cloud."
+    },
+    {
+      "id": "caveats",
+      "heading": "Caveats",
+      "body": "Resetting a VM does not delete data, but unsaved changes may be lost. Ensure all work is saved before proceeding."
+    }
+  ],
+  "steps": [
+    {
+      "title": "AWS",
+      "detail": "Log in to the AWS Management Console, navigate to EC2, select your instance, and choose 'Instance State' > 'Reboot Instance'."
+    },
+    {
+      "title": "Azure",
+      "detail": "Log in to the Azure portal, go to 'Virtual Machines', select your VM, and click 'Restart' on the top menu."
+    },
+    {
+      "title": "Google Cloud",
+      "detail": "Access the Google Cloud Console, go to 'Compute Engine', select your VM instance, and click 'Reset' in the VM instance details."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my VM delete any data?",
+      "answer": "No, resetting a VM will not delete data, but any unsaved changes may be lost."
+    },
+    {
+      "question": "Can I reset a VM using command-line tools?",
+      "answer": "Yes, most cloud providers offer command-line interfaces (CLI) to reset VMs. Refer to the specific CLI documentation for your provider."
+    },
+    {
+      "question": "What should I do if my VM does not respond to a reset?",
+      "answer": "If a reset does not work, try stopping and then starting the VM or check for any underlying issues that may need to be addressed."
+    }
+  ],
+  "caveats": [
+    "Ensure all work is saved before resetting to avoid losing unsaved changes."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for VM maintenance"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

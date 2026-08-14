@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-reset-an-email-address",
+  "directAnswer": "To reset your email address, you typically need to access your account settings on the email provider's website and follow the prompts to change your email address.",
+  "summary": "Resetting your email address involves changing it through your email provider's account settings. The process may vary depending on the platform.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Resetting your email address can help you regain access to your account or update your contact information. Make sure to have access to your current email or recovery options."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset your email address can vary by provider. Below are instructions for some common platforms."
+    },
+    {
+      "id": "additional-considerations",
+      "heading": "Additional Considerations",
+      "body": "After changing your email address, remember to update it in any linked accounts or services to avoid missing important communications."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Gmail",
+      "detail": "Go to your Google Account settings, select 'Personal info', and under 'Contact info', click 'Email' to change your email address."
+    },
+    {
+      "title": "Yahoo Mail",
+      "detail": "Sign in to your Yahoo account, go to 'Account Security', and select 'Change email address' to update your email."
+    },
+    {
+      "title": "Outlook",
+      "detail": "Log into your Outlook account, navigate to 'Your info', and select 'Manage how you sign in to Microsoft' to change your email."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will I lose my emails if I reset my email address?",
+      "answer": "No, your existing emails will remain in your account; only the email address used to log in will change."
+    },
+    {
+      "question": "Can I reset my email address if I forgot my password?",
+      "answer": "You may need to reset your password first using the recovery options provided by your email service."
+    },
+    {
+      "question": "Is there a limit to how often I can change my email address?",
+      "answer": "Most providers allow you to change your email address multiple times, but check the specific policies of your email service."
+    }
+  ],
+  "caveats": [
+    "Some email providers may not allow changing the primary email address associated with the account directly."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

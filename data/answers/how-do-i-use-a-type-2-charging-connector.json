@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-use-a-type-2-charging-connector",
+  "directAnswer": "To use a Type 2 charging connector, align the connector with the port on your electric vehicle and push it in until it clicks securely into place. Ensure the charging station is activated before connecting.",
+  "summary": "This guide explains how to properly use a Type 2 charging connector for electric vehicle charging.",
+  "sections": [
+    {
+      "id": "charging-steps",
+      "heading": "Charging Steps",
+      "body": "Follow these steps to connect your Type 2 charging connector safely and effectively."
+    },
+    {
+      "id": "safety-tips",
+      "heading": "Safety Tips",
+      "body": "Always check for any visible damage to the connector or charging port before use. Avoid using the connector in wet conditions."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Locate the Charging Port",
+      "detail": "Find the charging port on your electric vehicle, usually located at the front or rear."
+    },
+    {
+      "title": "Prepare the Charging Station",
+      "detail": "Ensure the charging station is powered on and ready for use. Some stations may require authentication via an app or RFID card."
+    },
+    {
+      "title": "Connect the Type 2 Connector",
+      "detail": "Align the Type 2 connector with the vehicle's charging port and push it in until it clicks."
+    },
+    {
+      "title": "Start Charging",
+      "detail": "Monitor the charging status on your vehicle display or the charging station. Disconnect the connector once charging is complete."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a Type 2 connector with all electric vehicles?",
+      "answer": "Most electric vehicles in Europe support Type 2 connectors, but always check your vehicle's specifications."
+    },
+    {
+      "question": "What should I do if the connector doesn't fit?",
+      "answer": "Ensure you are using the correct Type 2 connector and that there is no obstruction in the charging port."
+    },
+    {
+      "question": "Is there a difference between Type 2 and Type 1 connectors?",
+      "answer": "Yes, Type 2 connectors are typically used in Europe and support three-phase charging, while Type 1 is more common in North America."
+    }
+  ],
+  "caveats": [
+    "Compatibility may vary by vehicle model and manufacturer.",
+    "Always refer to your vehicle's manual for specific charging instructions."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

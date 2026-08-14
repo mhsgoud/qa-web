@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-reset-an-nvme-ssd",
+  "directAnswer": "To reset an NVMe SSD, you can use the manufacturer's software or Windows Disk Management to delete and recreate the partition. Ensure you back up any important data before proceeding.",
+  "summary": "Resetting an NVMe SSD involves deleting existing partitions and creating new ones, which can be done through various tools depending on your operating system.",
+  "sections": [
+    {
+      "id": "nvme-ssd-tools",
+      "heading": "Using Manufacturer's Software",
+      "body": "Most NVMe SSD manufacturers provide specific software tools for managing their drives. These tools often include options for resetting the SSD to factory settings."
+    },
+    {
+      "id": "windows-disk-management",
+      "heading": "Using Windows Disk Management",
+      "body": "You can also reset the NVMe SSD using Windows Disk Management by deleting the existing partitions and creating a new one."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Backup Data",
+      "detail": "Before resetting, ensure you back up all important data from the NVMe SSD."
+    },
+    {
+      "title": "Open Disk Management",
+      "detail": "Right-click on the Start button and select 'Disk Management'."
+    },
+    {
+      "title": "Delete Existing Partitions",
+      "detail": "Right-click on the NVMe SSD partitions and select 'Delete Volume' for each partition."
+    },
+    {
+      "title": "Create New Volume",
+      "detail": "Right-click on the unallocated space and select 'New Simple Volume' to create a new partition."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my NVMe SSD delete all my data?",
+      "answer": "Yes, resetting the NVMe SSD will delete all data on it, so ensure you have backups."
+    },
+    {
+      "question": "Can I reset an NVMe SSD using Linux?",
+      "answer": "Yes, you can use tools like 'GParted' or command-line utilities to reset an NVMe SSD on Linux."
+    },
+    {
+      "question": "Is there a risk of damaging my NVMe SSD during the reset?",
+      "answer": "As long as you follow the proper procedures, there is minimal risk of damaging the SSD during a reset."
+    }
+  ],
+  "caveats": [
+    "Ensure you have backups of important data before resetting.",
+    "The process may vary slightly depending on the SSD manufacturer and model."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

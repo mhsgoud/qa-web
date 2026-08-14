@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-troubleshoot-an-ai-agent",
+  "directAnswer": "Start by checking the AI agent's logs for errors and ensure that it has access to the necessary data sources. If issues persist, consider retraining the model with updated data.",
+  "summary": "Troubleshooting an AI agent involves checking logs, validating data access, and potentially retraining the model.",
+  "sections": [
+    {
+      "id": "check-logs",
+      "heading": "Check Logs for Errors",
+      "body": "Access the logs of the AI agent to identify any error messages or warnings. This can provide insight into what might be causing the issue."
+    },
+    {
+      "id": "validate-data-access",
+      "heading": "Validate Data Access",
+      "body": "Ensure that the AI agent has the proper permissions to access the data sources it relies on. Lack of access can lead to performance issues."
+    },
+    {
+      "id": "retrain-model",
+      "heading": "Retrain the Model",
+      "body": "If the AI agent is still not functioning as expected, consider retraining the model with updated or more relevant data to improve its performance."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access the AI Agent's Logs",
+      "detail": "Navigate to the logging section of your AI platform (path may vary by platform) and review the logs for any errors."
+    },
+    {
+      "title": "Check Data Source Permissions",
+      "detail": "Verify that the AI agent has the necessary permissions to access the required data sources, adjusting settings as needed."
+    },
+    {
+      "title": "Update and Retrain the Model",
+      "detail": "Gather new data and follow your platform's process to retrain the model, ensuring it incorporates the latest information."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the logs are unclear?",
+      "answer": "Consult the documentation for your specific AI platform for guidance on interpreting log messages or seek support from the community."
+    },
+    {
+      "question": "How often should I retrain my AI model?",
+      "answer": "It is recommended to retrain your model regularly or whenever significant changes occur in the data it uses."
+    },
+    {
+      "question": "Can I troubleshoot without access to the code?",
+      "answer": "Yes, many platforms provide UI tools for monitoring and troubleshooting AI agents without direct code access."
+    }
+  ],
+  "caveats": [
+    "Troubleshooting steps may vary based on the specific AI platform being used.",
+    "Ensure that any changes made do not violate data privacy regulations."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

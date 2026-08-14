@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-connect-a-captcha",
+  "directAnswer": "To connect a captcha, you need to sign up for a captcha service like Google reCAPTCHA and integrate the provided API keys into your website's code.",
+  "summary": "This guide provides steps to connect a captcha service to your website, ensuring user verification and reducing spam.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Captcha Integration",
+      "body": "Captcha helps prevent automated submissions on your website. Integrating it requires obtaining API keys and adding code to your site."
+    },
+    {
+      "id": "service-selection",
+      "heading": "Choosing a Captcha Service",
+      "body": "Popular options include Google reCAPTCHA, hCaptcha, and others. Each has its own setup process and features."
+    },
+    {
+      "id": "implementation",
+      "heading": "Implementation Steps",
+      "body": "Follow the steps below to integrate your chosen captcha service into your website."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Sign Up for a Captcha Service",
+      "detail": "Visit the captcha service website (e.g., Google reCAPTCHA) and create an account. Register your site to obtain the API keys."
+    },
+    {
+      "title": "Add API Keys to Your Website",
+      "detail": "Insert the provided site key and secret key into your website's backend code or configuration settings. The exact location may vary by platform."
+    },
+    {
+      "title": "Integrate Captcha in the Form",
+      "detail": "Add the captcha widget code to your HTML form. Ensure it is placed before the submit button."
+    },
+    {
+      "title": "Test the Captcha",
+      "detail": "After implementation, test the form to ensure the captcha is functioning correctly and preventing spam submissions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I encounter errors during integration?",
+      "answer": "Check the console for error messages and ensure your API keys are correctly entered and that your domain is registered in the captcha service."
+    },
+    {
+      "question": "Can I use multiple captcha services on one site?",
+      "answer": "Yes, but ensure they do not conflict with each other, and test thoroughly to avoid user confusion."
+    },
+    {
+      "question": "How do I customize the captcha appearance?",
+      "answer": "Most captcha services offer customization options in their dashboard. Check the documentation for specific instructions."
+    }
+  ],
+  "caveats": [
+    "Ensure compliance with privacy regulations when using captcha services, as they may collect user data."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for captcha implementation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

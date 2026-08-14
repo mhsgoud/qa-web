@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-check-a-relational-database",
+  "directAnswer": "To check a relational database, you can run queries to verify data integrity and consistency, and use database management tools to analyze performance metrics.",
+  "summary": "This guide provides steps to check a relational database for data integrity and performance, along with platform-specific instructions.",
+  "sections": [
+    {
+      "id": "data-integrity-checks",
+      "heading": "Data Integrity Checks",
+      "body": "Ensure that the data in your database adheres to defined rules and constraints. This includes checking for primary key uniqueness, foreign key relationships, and data type consistency."
+    },
+    {
+      "id": "performance-analysis",
+      "heading": "Performance Analysis",
+      "body": "Use database performance monitoring tools to analyze query performance, index usage, and resource consumption. This helps identify bottlenecks and optimize database performance."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Connect to the Database",
+      "detail": "Use a database client tool (e.g., MySQL Workbench, pgAdmin) to connect to your database using the appropriate credentials."
+    },
+    {
+      "title": "Run Integrity Queries",
+      "detail": "Execute SQL queries to check for duplicates and null values in key columns. Example: SELECT COUNT(*), COUNT(DISTINCT column_name) FROM table_name;"
+    },
+    {
+      "title": "Analyze Performance Metrics",
+      "detail": "Use built-in database commands or tools. For example, in MySQL, use 'SHOW STATUS;' to view server performance metrics."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What tools can I use to check my database?",
+      "answer": "You can use tools like MySQL Workbench, pgAdmin, or SQL Server Management Studio, depending on your database system."
+    },
+    {
+      "question": "How often should I check my database?",
+      "answer": "It's recommended to check your database regularly, such as weekly or monthly, depending on the volume of data changes."
+    },
+    {
+      "question": "What should I do if I find data integrity issues?",
+      "answer": "Investigate the source of the issues, correct the data, and consider implementing constraints to prevent future occurrences."
+    }
+  ],
+  "caveats": [
+    "Database management tools may vary in features and interface based on the version and vendor.",
+    "Always back up your database before making significant changes or running extensive queries."
+  ],
+  "relatedToolIdeas": [
+    "Database monitoring tools",
+    "Data visualization software"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

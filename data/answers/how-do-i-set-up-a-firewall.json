@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-set-up-a-firewall",
+  "directAnswer": "To set up a firewall, access your router's settings or install a firewall software on your device, then configure the rules to allow or block specific traffic.",
+  "summary": "Setting up a firewall helps protect your network and devices from unauthorized access and threats.",
+  "sections": [
+    {
+      "id": "understanding-firewalls",
+      "heading": "Understanding Firewalls",
+      "body": "Firewalls can be hardware-based (like routers) or software-based (like Windows Firewall). They monitor and control incoming and outgoing network traffic based on predetermined security rules."
+    },
+    {
+      "id": "configuring-hardware-firewall",
+      "heading": "Configuring a Hardware Firewall",
+      "body": "Access your router's web interface by entering its IP address in a browser. Log in with your credentials, navigate to the firewall settings, and adjust the rules as necessary."
+    },
+    {
+      "id": "configuring-software-firewall",
+      "heading": "Configuring a Software Firewall",
+      "body": "For software firewalls, such as Windows Firewall, go to Control Panel > System and Security > Windows Defender Firewall. From there, you can customize inbound and outbound rules."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Router Settings",
+      "detail": "Open a web browser and enter the router's IP address (commonly 192.168.1.1 or 192.168.0.1). Log in with your admin credentials."
+    },
+    {
+      "title": "Navigate to Firewall Settings",
+      "detail": "Look for a section labeled 'Firewall', 'Security', or similar. The location may vary by router model."
+    },
+    {
+      "title": "Set Rules",
+      "detail": "Define rules for traffic. You can block or allow specific IP addresses, ports, or protocols."
+    },
+    {
+      "title": "Save and Apply Changes",
+      "detail": "After configuring the rules, save the settings and reboot the router if necessary."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What types of firewalls are there?",
+      "answer": "There are two main types: hardware firewalls, which are built into routers, and software firewalls, which are installed on individual devices."
+    },
+    {
+      "question": "Can I use both hardware and software firewalls?",
+      "answer": "Yes, using both provides an extra layer of security, as they can complement each other."
+    },
+    {
+      "question": "What should I do if I accidentally block important traffic?",
+      "answer": "Access the firewall settings and modify the rules to allow the blocked traffic. Always keep a backup of your settings before making changes."
+    }
+  ],
+  "caveats": [
+    "Ensure you understand the rules you are setting to avoid blocking legitimate traffic.",
+    "Some devices may require specific ports to be open for proper functionality."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

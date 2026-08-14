@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-update-an-ev-charge",
+  "directAnswer": "To update an EV charge, access your EV charging app or home charger settings and modify the charging schedule or power settings as needed.",
+  "summary": "Updating your EV charge can optimize charging times and costs based on your electricity rates and vehicle needs.",
+  "sections": [
+    {
+      "id": "understanding-ev-charging",
+      "heading": "Understanding EV Charging",
+      "body": "Electric vehicles (EVs) can be charged at home or at public charging stations. Knowing how to adjust your charging settings can help manage costs and battery health."
+    },
+    {
+      "id": "using-the-app",
+      "heading": "Using the Charging App",
+      "body": "Most EVs come with a companion app that allows you to manage charging settings remotely. Ensure your app is updated for the best performance."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open the Charging App",
+      "detail": "Launch the app associated with your EV or home charger."
+    },
+    {
+      "title": "Navigate to Charging Settings",
+      "detail": "Look for a section labeled 'Charging' or 'Settings'. Note that the exact path may vary by app version."
+    },
+    {
+      "title": "Adjust Charge Schedule",
+      "detail": "Modify the charging start time or power level based on your preferences or utility rates."
+    },
+    {
+      "title": "Save Changes",
+      "detail": "Ensure to save any changes made before exiting the app."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I update my charge remotely?",
+      "answer": "Yes, if your EV or charger supports remote management through an app."
+    },
+    {
+      "question": "What if my app doesn't have an update option?",
+      "answer": "Check for app updates in your device's app store, as features may vary by version."
+    },
+    {
+      "question": "How do I know when my EV is fully charged?",
+      "answer": "Most apps will notify you when charging is complete, or you can check the vehicle's dashboard."
+    }
+  ],
+  "caveats": [
+    "Ensure your EV is connected to the charger before attempting to update settings.",
+    "Some features may not be available on older EV models or apps."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

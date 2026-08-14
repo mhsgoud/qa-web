@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-connect-a-type-2-charging-connector",
+  "directAnswer": "To connect a Type 2 charging connector, align the connector with the vehicle's charging port and push it in until you hear a click indicating a secure connection.",
+  "summary": "This guide provides the necessary steps to connect a Type 2 charging connector to your electric vehicle.",
+  "sections": [
+    {
+      "id": "understanding-type-2-connector",
+      "heading": "Understanding the Type 2 Connector",
+      "body": "The Type 2 connector is commonly used in Europe for electric vehicle charging. It features a seven-pin design that allows for both AC and DC charging."
+    },
+    {
+      "id": "charging-station-compatibility",
+      "heading": "Charging Station Compatibility",
+      "body": "Ensure that the charging station you are using is compatible with Type 2 connectors. Most public charging stations in Europe support Type 2."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Locate the Charging Port",
+      "detail": "Find the charging port on your electric vehicle, usually located at the front or rear."
+    },
+    {
+      "title": "Prepare the Charging Connector",
+      "detail": "Take the Type 2 charging connector from the charging station and hold it by the handle."
+    },
+    {
+      "title": "Connect the Charger",
+      "detail": "Align the connector with the charging port and push it in until you hear a click."
+    },
+    {
+      "title": "Start Charging",
+      "detail": "Follow the instructions on the charging station screen to begin the charging process."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the connector won't click into place?",
+      "answer": "Check for any obstructions in the charging port and ensure you are aligning the connector correctly."
+    },
+    {
+      "question": "Can I use a Type 2 connector with all electric vehicles?",
+      "answer": "Most electric vehicles in Europe are compatible with Type 2 connectors, but always check your vehicle's specifications."
+    },
+    {
+      "question": "How do I disconnect the Type 2 connector?",
+      "answer": "Press the release button on the connector handle and gently pull it out of the charging port."
+    }
+  ],
+  "caveats": [
+    "Ensure the vehicle is turned off before connecting the charger to avoid any electrical issues.",
+    "Some vehicles may require you to unlock the charging port before connecting."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

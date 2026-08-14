@@ -1,0 +1,53 @@
+{
+  "slug": "what-is-artificial-intelligence",
+  "directAnswer": "Artificial intelligence (AI) refers to the simulation of human intelligence in machines programmed to think and learn like humans.",
+  "summary": "AI encompasses a variety of technologies that enable machines to perform tasks that typically require human intelligence, such as problem-solving, understanding natural language, and recognizing patterns.",
+  "sections": [
+    {
+      "id": "definition-and-types",
+      "heading": "Definition and Types of AI",
+      "body": "AI can be categorized into narrow AI, which is designed for specific tasks (like voice assistants), and general AI, which aims to perform any intellectual task a human can do. Narrow AI is currently the most prevalent form."
+    },
+    {
+      "id": "applications-of-ai",
+      "heading": "Applications of AI",
+      "body": "AI is used in various fields including healthcare for diagnosis, finance for fraud detection, and customer service through chatbots. Each application leverages different AI techniques such as machine learning or natural language processing."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Use Case",
+      "detail": "Determine the specific problem or task you want AI to address, such as automating data entry or enhancing customer interactions."
+    },
+    {
+      "title": "Select AI Model",
+      "detail": "Choose from various AI models based on your use case, like decision trees for classification tasks or neural networks for complex pattern recognition."
+    },
+    {
+      "title": "Implement and Test",
+      "detail": "Deploy the selected model in a controlled environment and conduct tests to evaluate its performance and accuracy."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the main components of AI?",
+      "answer": "The main components include machine learning, natural language processing, robotics, and computer vision."
+    },
+    {
+      "question": "How does machine learning relate to AI?",
+      "answer": "Machine learning is a subset of AI that enables systems to learn from data and improve their performance over time without being explicitly programmed."
+    },
+    {
+      "question": "Is AI safe to use?",
+      "answer": "While AI can enhance efficiency, it also raises ethical concerns and potential risks, such as bias in decision-making and data privacy issues."
+    }
+  ],
+  "caveats": [
+    "AI systems require large amounts of data to learn effectively, and their performance can be impacted by the quality of this data."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

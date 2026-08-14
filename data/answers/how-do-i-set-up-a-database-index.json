@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-set-up-a-database-index",
+  "directAnswer": "To set up a database index, you typically use the CREATE INDEX statement followed by specifying the table and the columns to index.",
+  "summary": "Creating a database index can improve query performance by allowing the database to find rows faster.",
+  "sections": [
+    {
+      "id": "understanding-indexes",
+      "heading": "Understanding Indexes",
+      "body": "Indexes are data structures that improve the speed of data retrieval operations on a database table at the cost of additional space and maintenance time."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to create an index may vary depending on the database system you are using."
+    }
+  ],
+  "steps": [
+    {
+      "title": "MySQL",
+      "detail": "Use the command: CREATE INDEX index_name ON table_name (column_name);"
+    },
+    {
+      "title": "PostgreSQL",
+      "detail": "Use the command: CREATE INDEX index_name ON table_name (column_name);"
+    },
+    {
+      "title": "SQL Server",
+      "detail": "Use the command: CREATE INDEX index_name ON table_name (column_name);"
+    },
+    {
+      "title": "Oracle",
+      "detail": "Use the command: CREATE INDEX index_name ON table_name (column_name);"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What types of indexes can I create?",
+      "answer": "You can create unique indexes, composite indexes, full-text indexes, and more, depending on your database system."
+    },
+    {
+      "question": "Will adding an index slow down write operations?",
+      "answer": "Yes, while indexes speed up read operations, they can slow down write operations due to the need to update the index."
+    },
+    {
+      "question": "How do I know if I need an index?",
+      "answer": "If you have queries that are slow or involve large datasets, it may be beneficial to analyze query performance and consider indexing."
+    }
+  ],
+  "caveats": [
+    "Indexes consume additional disk space and may require maintenance.",
+    "Over-indexing can lead to performance degradation."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for index optimization"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

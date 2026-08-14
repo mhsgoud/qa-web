@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-reset-a-web-app",
+  "directAnswer": "To reset a web app, access the app's settings or administration panel and look for a 'Reset' or 'Restore Defaults' option. Confirm the action to complete the reset process.",
+  "summary": "Resetting a web app can help resolve issues or restore it to its original state. Follow the specific steps based on your platform.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset a web app can vary depending on the platform used. Below are common platforms and their respective reset procedures."
+    },
+    {
+      "id": "caveats",
+      "heading": "Caveats",
+      "body": "Resetting a web app may result in the loss of data or custom configurations. Ensure you back up important data before proceeding."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For WordPress",
+      "detail": "Go to your WordPress dashboard, navigate to 'Settings', then 'General'. Scroll down and click on 'Reset' to restore the app to default settings."
+    },
+    {
+      "title": "For Shopify",
+      "detail": "Log in to your Shopify admin, go to 'Settings', then 'Plan'. Click on 'Pause or deactivate store' to reset your store settings."
+    },
+    {
+      "title": "For Custom Web Apps",
+      "detail": "Access your app's admin panel, locate the 'Settings' section, and find the 'Reset' option. Follow the prompts to confirm the reset."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will I lose my data if I reset the web app?",
+      "answer": "Yes, resetting the app may result in the loss of data and custom settings. Always back up your data before proceeding."
+    },
+    {
+      "question": "Can I undo a reset?",
+      "answer": "No, once a reset is completed, it cannot be undone. Ensure you are ready to lose current configurations."
+    },
+    {
+      "question": "Is resetting the same as uninstalling the app?",
+      "answer": "No, resetting restores the app to its default state, while uninstalling removes it completely from your system."
+    }
+  ],
+  "caveats": [
+    "Resetting may cause loss of user data and settings.",
+    "Different platforms may have different reset procedures."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for backing up data before reset"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

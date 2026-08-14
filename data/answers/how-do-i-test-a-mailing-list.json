@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-test-a-mailing-list",
+  "directAnswer": "To test a mailing list, send a sample email to a small group of recipients and monitor the results for delivery, open rates, and click-through rates.",
+  "summary": "Testing a mailing list helps ensure your emails reach the intended audience and perform as expected.",
+  "sections": [
+    {
+      "id": "importance-of-testing",
+      "heading": "Importance of Testing",
+      "body": "Testing your mailing list is crucial to identify issues with deliverability and engagement before sending to a larger audience."
+    },
+    {
+      "id": "tools-for-testing",
+      "heading": "Tools for Testing",
+      "body": "Consider using email marketing platforms like Mailchimp, Constant Contact, or SendinBlue, which offer built-in testing features."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Select a Testing Group",
+      "detail": "Choose a small segment of your mailing list, ideally 5-10% of your total list, to receive the test email."
+    },
+    {
+      "title": "Create a Test Email",
+      "detail": "Draft a sample email that represents your typical content, including subject lines, images, and links."
+    },
+    {
+      "title": "Send the Test Email",
+      "detail": "Use your email marketing platform to send the test email to the selected group."
+    },
+    {
+      "title": "Analyze Results",
+      "detail": "Review the analytics provided by your email platform for open rates, click rates, and any bounces."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I look for in the test results?",
+      "answer": "Focus on open rates, click-through rates, and any bounce messages to identify deliverability issues."
+    },
+    {
+      "question": "Can I test different subject lines?",
+      "answer": "Yes, consider A/B testing different subject lines to see which one garners better engagement."
+    },
+    {
+      "question": "How often should I test my mailing list?",
+      "answer": "It's recommended to test your mailing list regularly, especially before major campaigns or seasonal sends."
+    }
+  ],
+  "caveats": [
+    "Results may vary based on the email provider and recipient engagement.",
+    "Ensure compliance with email regulations like GDPR and CAN-SPAM when testing."
+  ],
+  "relatedToolIdeas": [
+    "Email analytics tools",
+    "A/B testing software",
+    "Deliverability monitoring services"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

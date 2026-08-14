@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-check-a-passkey",
+  "directAnswer": "To check a passkey, access the security settings of your device or application where the passkey is stored. Ensure you have the correct permissions to view the passkey details.",
+  "summary": "This guide provides steps to check a passkey on various platforms and highlights important considerations.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to check a passkey may vary depending on the platform you are using."
+    },
+    {
+      "id": "common-caveats",
+      "heading": "Common Caveats",
+      "body": "Ensure you have the necessary permissions and that the passkey is not obscured by security settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "On Windows",
+      "detail": "Open 'Settings', navigate to 'Accounts', and select 'Sign-in options' to view your passkeys."
+    },
+    {
+      "title": "On macOS",
+      "detail": "Go to 'System Preferences', select 'Passwords', and authenticate to view your stored passkeys."
+    },
+    {
+      "title": "On Android",
+      "detail": "Open 'Settings', go to 'Security', and select 'Saved passwords' to check your passkeys."
+    },
+    {
+      "title": "On iOS",
+      "detail": "Navigate to 'Settings', tap 'Passwords', and use Face ID or Touch ID to access your passkeys."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I forget my passkey?",
+      "answer": "You can reset your passkey through the account recovery options provided by the service."
+    },
+    {
+      "question": "Are passkeys stored securely?",
+      "answer": "Yes, passkeys are typically stored using encryption to protect them from unauthorized access."
+    },
+    {
+      "question": "Can I use a passkey across different devices?",
+      "answer": "Yes, as long as the devices support the same passkey management system and you are logged into the same account."
+    }
+  ],
+  "caveats": [
+    "Access to passkeys may be restricted by device security settings.",
+    "Some applications may not allow viewing passkeys directly."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-check-an-ip-address",
+  "directAnswer": "You can check an IP address using the command line or through online tools. For local IP addresses, use 'ipconfig' on Windows or 'ifconfig' on macOS/Linux.",
+  "summary": "This guide provides methods to check both local and public IP addresses across different platforms.",
+  "sections": [
+    {
+      "id": "local-ip-address",
+      "heading": "Checking Local IP Address",
+      "body": "To find your local IP address, you can use the command line interface on your device."
+    },
+    {
+      "id": "public-ip-address",
+      "heading": "Checking Public IP Address",
+      "body": "To find your public IP address, you can use various online services or command line tools."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "Open Command Prompt and type 'ipconfig'. Look for 'IPv4 Address' under your active network connection."
+    },
+    {
+      "title": "macOS",
+      "detail": "Open Terminal and type 'ifconfig'. Look for 'inet' under your active network interface (usually 'en0' or 'en1')."
+    },
+    {
+      "title": "Linux",
+      "detail": "Open Terminal and type 'ifconfig' or 'ip addr'. Look for 'inet' under your active network interface."
+    },
+    {
+      "title": "Using Online Tools",
+      "detail": "Visit websites like 'whatismyip.com' or 'ipinfo.io' to see your public IP address."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between local and public IP addresses?",
+      "answer": "Local IP addresses are used within a private network, while public IP addresses are assigned by your Internet Service Provider and are used on the internet."
+    },
+    {
+      "question": "Can I change my public IP address?",
+      "answer": "Yes, you can change your public IP address by restarting your router or contacting your ISP, but it may not always be guaranteed."
+    },
+    {
+      "question": "What should I do if my IP address is not showing up?",
+      "answer": "Ensure that your device is connected to the network and try refreshing the command line or online tool. Check your network settings if issues persist."
+    }
+  ],
+  "caveats": [
+    "The command line tools may vary slightly depending on the operating system version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for troubleshooting network issues"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

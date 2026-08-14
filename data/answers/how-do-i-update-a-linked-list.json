@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-update-a-linked-list",
+  "directAnswer": "To update a linked list, you need to traverse the list to find the node you want to update and then change its value or modify the links as necessary.",
+  "summary": "Updating a linked list involves locating the specific node and altering its data or connections without losing the structure of the list.",
+  "sections": [
+    {
+      "id": "understanding-linked-lists",
+      "heading": "Understanding Linked Lists",
+      "body": "A linked list is a data structure consisting of nodes, where each node contains data and a pointer to the next node. Understanding how to traverse and manipulate these nodes is crucial for updates."
+    },
+    {
+      "id": "updating-nodes",
+      "heading": "Updating Nodes",
+      "body": "To update a node, you must first locate it by traversing the list from the head. Once found, you can change its data or adjust the pointers to insert or remove nodes."
+    },
+    {
+      "id": "common-operations",
+      "heading": "Common Operations",
+      "body": "Common operations when updating a linked list include changing node values, inserting new nodes, and deleting existing nodes. Each operation requires careful pointer management."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Locate the Node",
+      "detail": "Start from the head of the linked list and traverse through the nodes until you find the target node."
+    },
+    {
+      "title": "Update the Value",
+      "detail": "Once the node is located, change its data field to the new value you want to set."
+    },
+    {
+      "title": "Adjust Pointers (if necessary)",
+      "detail": "If you are inserting or deleting nodes, ensure to update the previous and next pointers accordingly to maintain the integrity of the list."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I update a node incorrectly?",
+      "answer": "If you update a node incorrectly, it can lead to data loss or corruption of the linked list structure, making it difficult to traverse."
+    },
+    {
+      "question": "Can I update a linked list in a single pass?",
+      "answer": "Yes, if you are updating the value of a node, you can do it in a single pass by locating the node first."
+    },
+    {
+      "question": "Are there different types of linked lists?",
+      "answer": "Yes, there are several types of linked lists, including singly linked lists, doubly linked lists, and circular linked lists, each with its own update mechanisms."
+    }
+  ],
+  "caveats": [
+    "Ensure you handle edge cases, such as updating the head or tail of the list.",
+    "Be cautious of memory management, especially in languages like C or C++."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for linked list operations"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

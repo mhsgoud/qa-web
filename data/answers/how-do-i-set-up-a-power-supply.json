@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-power-supply",
+  "directAnswer": "To set up a power supply, connect the 24-pin ATX connector to the motherboard, then attach the necessary power cables to your components such as the CPU, GPU, and storage devices.",
+  "summary": "This guide provides the steps to properly set up a power supply unit (PSU) in a PC, including connections to the motherboard and components.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "A power supply unit (PSU) converts electrical power from an outlet into usable power for your computer components. Proper setup is essential for system stability."
+    },
+    {
+      "id": "connections",
+      "heading": "Connections",
+      "body": "Ensure you have the right cables for your components. The main connections include the 24-pin ATX for the motherboard, 4/8-pin CPU power, and PCIe for the GPU."
+    },
+    {
+      "id": "testing",
+      "heading": "Testing the Setup",
+      "body": "After connecting all cables, power on the system to ensure all components receive power. Listen for any unusual sounds and check for LED indicators."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prepare the Case",
+      "detail": "Ensure the PC case is open and the PSU is securely mounted, usually at the bottom or top of the case."
+    },
+    {
+      "title": "Connect the 24-Pin ATX Cable",
+      "detail": "Locate the 24-pin ATX cable and connect it to the motherboard's power socket."
+    },
+    {
+      "title": "Connect CPU and GPU Power Cables",
+      "detail": "Connect the 4/8-pin CPU power cable to the motherboard and the PCIe power cables to the GPU if applicable."
+    },
+    {
+      "title": "Connect Storage Devices",
+      "detail": "Use SATA power cables to connect to your SSDs and HDDs."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the power supply doesn't turn on?",
+      "answer": "Check all connections to ensure they are secure and verify that the PSU switch is in the 'on' position."
+    },
+    {
+      "question": "Can I use an old power supply with new components?",
+      "answer": "Ensure the old power supply meets the power requirements of your new components, especially the wattage and connector types."
+    },
+    {
+      "question": "Is it safe to use a power supply without a surge protector?",
+      "answer": "While not mandatory, using a surge protector is recommended to protect your components from electrical surges."
+    }
+  ],
+  "caveats": [
+    "Ensure the power supply wattage is sufficient for all connected components.",
+    "Check compatibility of connectors with your motherboard and components."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for power supply setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

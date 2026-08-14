@@ -1,0 +1,60 @@
+{
+  "slug": "is-a-primary-key-worth-it",
+  "directAnswer": "Yes, a primary key is essential for ensuring data integrity and enabling efficient data retrieval in relational databases.",
+  "summary": "Implementing a primary key is crucial for maintaining unique records and optimizing database performance.",
+  "sections": [
+    {
+      "id": "importance-of-primary-keys",
+      "heading": "Importance of Primary Keys",
+      "body": "Primary keys enforce uniqueness in a database table, preventing duplicate records and ensuring that each entry can be accurately identified."
+    },
+    {
+      "id": "performance-benefits",
+      "heading": "Performance Benefits",
+      "body": "Having a primary key can significantly speed up query performance, as databases can use indexed primary keys for faster searches and joins."
+    },
+    {
+      "id": "design-considerations",
+      "heading": "Design Considerations",
+      "body": "When designing a database, it's important to choose a primary key that is stable and unlikely to change over time, such as a UUID or a natural key."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Define the Primary Key",
+      "detail": "Identify the column(s) in your table that will serve as the primary key. This should be a column with unique values."
+    },
+    {
+      "title": "Set the Primary Key in SQL",
+      "detail": "Use the SQL command 'ALTER TABLE table_name ADD PRIMARY KEY (column_name);' to set the primary key."
+    },
+    {
+      "title": "Verify Uniqueness",
+      "detail": "Run a query to check for duplicate values in the designated primary key column before finalizing the key."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I don't use a primary key?",
+      "answer": "Without a primary key, you risk having duplicate records, which can lead to data integrity issues and complications in data retrieval."
+    },
+    {
+      "question": "Can a primary key be changed after it's set?",
+      "answer": "Yes, but changing a primary key can be complex and may require updating related foreign keys in other tables."
+    },
+    {
+      "question": "What type of data should I use for a primary key?",
+      "answer": "It's best to use data types that are immutable and unique, such as integers or UUIDs, to ensure stability."
+    }
+  ],
+  "caveats": [
+    "Choosing a poorly designed primary key can lead to performance issues.",
+    "Primary keys should not contain sensitive information."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for database design best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

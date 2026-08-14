@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-reset-a-firewall",
+  "directAnswer": "To reset a firewall, access the firewall's management interface and locate the reset option, which may vary by device. Confirm the reset to restore factory settings.",
+  "summary": "Resetting a firewall can help resolve configuration issues or restore default settings. Follow the steps below based on your firewall type.",
+  "sections": [
+    {
+      "id": "general-steps",
+      "heading": "General Steps to Reset a Firewall",
+      "body": "The process for resetting a firewall generally involves accessing its management interface and selecting the reset option. Ensure you have backup configurations if needed."
+    },
+    {
+      "id": "platform-specific",
+      "heading": "Platform-Specific Instructions",
+      "body": "Steps may differ based on the firewall brand and model. Refer to the manufacturer's documentation for precise instructions."
+    },
+    {
+      "id": "post-reset-configuration",
+      "heading": "Post-Reset Configuration",
+      "body": "After resetting, you will need to reconfigure your firewall settings, including rules and policies, as all previous configurations will be lost."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Firewall Management Interface",
+      "detail": "Connect to the firewall via a web browser or console using the device's IP address and log in with admin credentials."
+    },
+    {
+      "title": "Locate the Reset Option",
+      "detail": "Navigate to the settings or maintenance section of the interface. Look for an option labeled 'Reset', 'Factory Reset', or similar."
+    },
+    {
+      "title": "Confirm the Reset",
+      "detail": "Follow the prompts to confirm the reset action. This may involve clicking a button or entering a confirmation code."
+    },
+    {
+      "title": "Reconfigure Firewall Settings",
+      "detail": "After the reset, re-enter your firewall configurations to restore desired security settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my firewall delete all my settings?",
+      "answer": "Yes, resetting a firewall typically restores it to factory settings, deleting all custom configurations."
+    },
+    {
+      "question": "Can I back up my firewall settings before resetting?",
+      "answer": "Most firewalls allow you to export settings as a backup. Check your firewall's documentation for backup options."
+    },
+    {
+      "question": "How often should I reset my firewall?",
+      "answer": "Resetting is not a routine task and should only be done when troubleshooting specific issues or when preparing to reconfigure."
+    }
+  ],
+  "caveats": [
+    "Ensure you have a backup of your current configuration before resetting.",
+    "Resetting may cause temporary loss of network security until reconfigured."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

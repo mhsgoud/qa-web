@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-update-cloud-storage",
+  "directAnswer": "To update your cloud storage, access your account settings on the respective platform and select the upgrade option for your storage plan.",
+  "summary": "Updating your cloud storage is a straightforward process that involves modifying your subscription plan through your account settings.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to update cloud storage may vary by platform. Below are instructions for popular services."
+    },
+    {
+      "id": "caveats",
+      "heading": "Caveats",
+      "body": "Ensure you understand the billing cycle and any potential data limits associated with your new plan."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Drive",
+      "detail": "Log into your Google Drive account, click on the 'Settings' gear icon, select 'Upgrade Storage', and choose your desired plan."
+    },
+    {
+      "title": "Dropbox",
+      "detail": "Log into Dropbox, go to your account settings, click on 'Plan', and select 'Upgrade' to choose a new storage plan."
+    },
+    {
+      "title": "OneDrive",
+      "detail": "Sign into OneDrive, click on 'Settings', then 'Upgrade', and follow the prompts to select a new storage option."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will I lose my data if I downgrade my storage plan?",
+      "answer": "If you downgrade to a plan with less storage than you currently use, you may lose access to some files until you free up space."
+    },
+    {
+      "question": "Can I upgrade my storage plan at any time?",
+      "answer": "Yes, most cloud storage services allow you to upgrade your plan at any time without penalties."
+    },
+    {
+      "question": "Are there any additional fees for upgrading my storage?",
+      "answer": "Typically, the only fees incurred are the costs associated with the new storage plan you select."
+    }
+  ],
+  "caveats": [
+    "Check for any promotional offers that may apply to new subscriptions.",
+    "Review the terms of service for any changes in data handling or privacy."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

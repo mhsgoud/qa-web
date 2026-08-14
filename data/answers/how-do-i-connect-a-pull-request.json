@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-connect-a-pull-request",
+  "directAnswer": "To connect a pull request, you need to merge it into the target branch using your version control system's interface or command line.",
+  "summary": "Connecting a pull request involves merging changes from one branch to another, typically from a feature branch into the main branch.",
+  "sections": [
+    {
+      "id": "understanding-pull-requests",
+      "heading": "Understanding Pull Requests",
+      "body": "A pull request is a request to merge code changes from one branch into another. It allows for code review and discussion before the changes are integrated."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to connect a pull request may vary depending on the platform used (e.g., GitHub, GitLab, Bitbucket)."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Navigate to the Pull Request",
+      "detail": "Go to the repository where the pull request was created and select the 'Pull Requests' tab."
+    },
+    {
+      "title": "Review Changes",
+      "detail": "Review the changes proposed in the pull request. You can view the code differences and any comments made by reviewers."
+    },
+    {
+      "title": "Merge the Pull Request",
+      "detail": "Click the 'Merge' button to integrate the changes into the target branch. Confirm the merge if prompted."
+    },
+    {
+      "title": "Delete the Branch (Optional)",
+      "detail": "After merging, you may choose to delete the feature branch to keep the repository clean."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if there are merge conflicts?",
+      "answer": "If there are merge conflicts, you will need to resolve them manually before you can complete the merge."
+    },
+    {
+      "question": "Can I connect a pull request from a forked repository?",
+      "answer": "Yes, you can connect a pull request from a forked repository, but you may need to ensure you have the necessary permissions."
+    },
+    {
+      "question": "How can I revert a merged pull request?",
+      "answer": "To revert a merged pull request, you can use the revert option available in the pull request interface or use a command line to revert the merge commit."
+    }
+  ],
+  "caveats": [
+    "Ensure you have the necessary permissions to merge pull requests in the repository.",
+    "Review all changes carefully to avoid introducing bugs or issues."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for code review before merging"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

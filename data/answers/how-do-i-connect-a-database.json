@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-connect-a-database",
+  "directAnswer": "To connect a database, you need to establish a connection string that includes the database type, server address, and authentication details.",
+  "summary": "This guide outlines the steps to connect to a database, including platform-specific instructions and common pitfalls.",
+  "sections": [
+    {
+      "id": "database-types",
+      "heading": "Types of Databases",
+      "body": "Common database types include SQL (e.g., MySQL, PostgreSQL) and NoSQL (e.g., MongoDB). Each type has its own connection methods."
+    },
+    {
+      "id": "connection-strings",
+      "heading": "Understanding Connection Strings",
+      "body": "A connection string typically contains parameters like server address, database name, user ID, and password. Ensure these details are accurate."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Connection Steps",
+      "body": "Steps to connect vary by platform. Below are examples for popular databases."
+    }
+  ],
+  "steps": [
+    {
+      "title": "MySQL Connection",
+      "detail": "Use a library like MySQL Connector. Example: `mysql.connector.connect(user='username', password='password', host='localhost', database='dbname')`."
+    },
+    {
+      "title": "PostgreSQL Connection",
+      "detail": "Use psycopg2. Example: `psycopg2.connect(dbname='dbname', user='username', password='password', host='localhost')`."
+    },
+    {
+      "title": "MongoDB Connection",
+      "detail": "Use the MongoDB driver. Example: `MongoClient('mongodb://username:password@localhost:27017/dbname')`."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a connection string?",
+      "answer": "A connection string is a string that specifies information about a data source and the means of connecting to it."
+    },
+    {
+      "question": "Can I connect to multiple databases?",
+      "answer": "Yes, you can connect to multiple databases by establishing separate connections for each database."
+    },
+    {
+      "question": "What should I do if I can't connect?",
+      "answer": "Check your connection string for accuracy, ensure the database server is running, and verify your network settings."
+    }
+  ],
+  "caveats": [
+    "Ensure your database server is configured to accept remote connections if connecting from a different machine.",
+    "Be cautious with hardcoding sensitive information like passwords in your code."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for database connection troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

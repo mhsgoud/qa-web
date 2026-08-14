@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-reset-a-motherboard",
+  "directAnswer": "To reset a motherboard, you can clear the CMOS by removing the battery or using the reset jumper, which restores factory settings.",
+  "summary": "Resetting a motherboard can resolve issues related to BIOS settings and hardware compatibility.",
+  "sections": [
+    {
+      "id": "understanding-cmos-reset",
+      "heading": "Understanding CMOS Reset",
+      "body": "The CMOS stores BIOS settings and system configuration. Resetting it can help fix boot issues or restore default settings."
+    },
+    {
+      "id": "methods-to-reset",
+      "heading": "Methods to Reset a Motherboard",
+      "body": "You can reset a motherboard by either removing the CMOS battery or using the reset jumper. The method may vary depending on the motherboard model."
+    },
+    {
+      "id": "after-reset-steps",
+      "heading": "Steps After Resetting",
+      "body": "After resetting, you may need to reconfigure BIOS settings such as boot order or system time."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Off and Unplug",
+      "detail": "Ensure the PC is powered off and unplugged from the wall outlet."
+    },
+    {
+      "title": "Remove the CMOS Battery",
+      "detail": "Locate the CMOS battery on the motherboard, remove it carefully, and wait for about 5-10 minutes before reinserting it."
+    },
+    {
+      "title": "Use the Reset Jumper",
+      "detail": "If available, locate the reset jumper on the motherboard. Move the jumper from the default position to the reset position, wait a few seconds, and move it back."
+    },
+    {
+      "title": "Reconnect Power and Boot",
+      "detail": "Plug the power back in, turn on the PC, and enter BIOS to reconfigure any necessary settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting the motherboard delete my data?",
+      "answer": "No, resetting the motherboard does not delete data on your hard drives, but it may reset BIOS settings."
+    },
+    {
+      "question": "How often should I reset my motherboard?",
+      "answer": "You should only reset your motherboard when troubleshooting specific issues or if you need to clear BIOS settings."
+    },
+    {
+      "question": "What if my motherboard doesn't have a reset jumper?",
+      "answer": "If there is no reset jumper, removing the CMOS battery is the preferred method to reset the motherboard."
+    }
+  ],
+  "caveats": [
+    "Ensure you are grounded to prevent static discharge when handling components.",
+    "Consult your motherboard manual for specific instructions, as methods may vary by model."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for motherboard troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-reset-an-sdk",
+  "directAnswer": "To reset an SDK, you typically need to delete the configuration files and reinstall the SDK. Ensure you back up any important data before proceeding.",
+  "summary": "Resetting an SDK can help resolve configuration issues or restore it to its default state. The steps may vary based on the SDK and platform you are using.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset an SDK can vary depending on the platform. Below are general instructions for popular SDKs."
+    },
+    {
+      "id": "common-caveats",
+      "heading": "Common Caveats",
+      "body": "Resetting the SDK may result in loss of custom configurations or data. Always back up important files."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Backup Configuration",
+      "detail": "Before resetting, back up any configuration files or data that you may need later."
+    },
+    {
+      "title": "Delete Configuration Files",
+      "detail": "Locate the SDK configuration files on your system. These are usually found in the installation directory or user directory. Delete these files."
+    },
+    {
+      "title": "Reinstall the SDK",
+      "detail": "Download the latest version of the SDK from the official website and follow the installation instructions."
+    },
+    {
+      "title": "Verify Installation",
+      "detail": "After reinstalling, verify that the SDK is functioning correctly by running a sample project."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will I lose my projects when I reset the SDK?",
+      "answer": "No, your projects are usually stored separately from the SDK. However, always back up your work to be safe."
+    },
+    {
+      "question": "How do I know if I need to reset my SDK?",
+      "answer": "If you encounter persistent errors or issues that cannot be resolved through normal troubleshooting, a reset may be necessary."
+    },
+    {
+      "question": "Can I reset the SDK without reinstalling?",
+      "answer": "In some cases, you can reset settings through the SDK's built-in options, but this may not resolve all issues."
+    }
+  ],
+  "caveats": [
+    "Resetting may remove all custom settings and configurations.",
+    "Ensure that you have backups of any important data before proceeding."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for SDK troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

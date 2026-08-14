@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-update-a-smart-speaker",
+  "directAnswer": "To update a smart speaker, check the companion app for firmware updates or ensure your device is connected to Wi-Fi to receive automatic updates.",
+  "summary": "Updating your smart speaker is essential for optimal performance and new features. Follow the steps specific to your device's platform.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Update Steps",
+      "body": "Different smart speakers may have unique update procedures. Refer to the following steps based on your device."
+    },
+    {
+      "id": "common-caveats",
+      "heading": "Common Caveats",
+      "body": "Ensure your device is charged or plugged in during the update process to avoid interruptions."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Amazon Echo",
+      "detail": "Open the Alexa app, go to 'Devices', select your Echo device, and check for updates in the settings."
+    },
+    {
+      "title": "Google Nest",
+      "detail": "Open the Google Home app, tap on your Nest speaker, and look for firmware updates in the device settings."
+    },
+    {
+      "title": "Apple HomePod",
+      "detail": "Open the Home app, press and hold your HomePod icon, then scroll down to check for software updates."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does the update process take?",
+      "answer": "The update process typically takes a few minutes, but it may vary based on the size of the update."
+    },
+    {
+      "question": "What should I do if the update fails?",
+      "answer": "If the update fails, try restarting your smart speaker and checking for updates again in the app."
+    },
+    {
+      "question": "Will updating my smart speaker erase my settings?",
+      "answer": "No, updating your smart speaker should not erase your settings or preferences."
+    }
+  ],
+  "caveats": [
+    "Some updates may require a stable internet connection and could take longer during peak times."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for smart speaker maintenance"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

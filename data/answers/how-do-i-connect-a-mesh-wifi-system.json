@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-connect-a-mesh-wifi-system",
+  "directAnswer": "To connect a mesh WiFi system, plug in the main router unit and follow the manufacturer's app instructions to set it up, then place additional nodes around your home for optimal coverage.",
+  "summary": "Setting up a mesh WiFi system involves connecting the main unit to your modem and configuring additional nodes through a mobile app.",
+  "sections": [
+    {
+      "id": "setup-requirements",
+      "heading": "Setup Requirements",
+      "body": "Ensure you have a compatible modem, a power source for each mesh unit, and a mobile device to download the setup app."
+    },
+    {
+      "id": "placement-guidelines",
+      "heading": "Placement Guidelines",
+      "body": "Place the main unit near your modem and strategically position additional nodes in areas with weak signal, ideally halfway between the main unit and the farthest areas you want to cover."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Connect the Main Unit",
+      "detail": "Plug the main mesh unit into a power outlet and connect it to your modem using an Ethernet cable."
+    },
+    {
+      "title": "Download the App",
+      "detail": "Download the manufacturer's app on your smartphone (e.g., Google Home, Eero app, etc.)."
+    },
+    {
+      "title": "Follow the Setup Instructions",
+      "detail": "Open the app and follow the on-screen instructions to configure the main unit and create your WiFi network."
+    },
+    {
+      "title": "Add Additional Nodes",
+      "detail": "Use the app to add additional nodes, placing them in optimal locations to extend coverage."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use my existing router with a mesh system?",
+      "answer": "Yes, some mesh systems can work with existing routers, but it's generally recommended to use the mesh system's main unit as your primary router."
+    },
+    {
+      "question": "What if my mesh nodes aren't connecting?",
+      "answer": "Ensure the nodes are within range of the main unit, check for firmware updates, and restart the units if necessary."
+    },
+    {
+      "question": "How many nodes do I need?",
+      "answer": "The number of nodes depends on your home's size and layout; typically, one node covers around 1,500 square feet."
+    }
+  ],
+  "caveats": [
+    "Placement of nodes affects performance; avoid placing them in areas with thick walls or electronic interference.",
+    "Some features may vary by manufacturer and app version."
+  ],
+  "relatedToolIdeas": [
+    "Wi‑Fi speed / channel helper"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

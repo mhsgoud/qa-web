@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-connect-a-git-merge",
+  "directAnswer": "To connect a Git merge, first ensure you are on the branch you want to merge into, then use the command `git merge <branch-name>` to merge the specified branch.",
+  "summary": "This guide provides steps to connect a Git merge, including platform-specific instructions and common pitfalls.",
+  "sections": [
+    {
+      "id": "git-merge-basics",
+      "heading": "Git Merge Basics",
+      "body": "A Git merge combines changes from one branch into another. It's essential to resolve any conflicts that may arise during this process."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The following steps are applicable for command line interfaces on Windows, macOS, and Linux."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Checkout the Target Branch",
+      "detail": "Use the command `git checkout <target-branch>` to switch to the branch you want to merge into."
+    },
+    {
+      "title": "Merge the Source Branch",
+      "detail": "Execute `git merge <source-branch>` to merge changes from the specified source branch."
+    },
+    {
+      "title": "Resolve Conflicts",
+      "detail": "If there are any merge conflicts, Git will notify you. Open the conflicting files, resolve the issues, and then stage the changes with `git add <file-name>`."
+    },
+    {
+      "title": "Complete the Merge",
+      "detail": "Finalize the merge by committing the changes with `git commit -m 'Merge <source-branch> into <target-branch>'`."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I encounter merge conflicts?",
+      "answer": "You need to manually resolve the conflicts in the affected files, then stage and commit the resolved files."
+    },
+    {
+      "question": "Can I undo a Git merge?",
+      "answer": "Yes, you can use `git merge --abort` to cancel the merge process if you haven't committed yet."
+    },
+    {
+      "question": "Is it possible to merge multiple branches at once?",
+      "answer": "No, Git does not support merging multiple branches in a single command; you must merge them one at a time."
+    }
+  ],
+  "caveats": [
+    "Ensure your working directory is clean before starting a merge to avoid complications.",
+    "Merging branches with significant differences can lead to complex conflicts."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for resolving merge conflicts"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-set-up-a-smart-display",
+  "directAnswer": "To set up a smart display, connect it to your Wi-Fi network and link it to your smart home account through the companion app.",
+  "summary": "Setting up a smart display involves connecting to Wi-Fi and configuring settings via an app.",
+  "sections": [
+    {
+      "id": "initial-setup",
+      "heading": "Initial Setup",
+      "body": "Unbox your smart display and plug it into a power source. Follow the on-screen instructions to select your language and connect to Wi-Fi."
+    },
+    {
+      "id": "app-configuration",
+      "heading": "App Configuration",
+      "body": "Download the corresponding app (e.g., Google Home for Google Nest Hub or Amazon Alexa for Echo Show) and sign in or create an account. Follow the prompts to add your device."
+    },
+    {
+      "id": "linking-services",
+      "heading": "Linking Services",
+      "body": "Link any additional services you want to use, such as music streaming or smart home devices, through the app settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Connect to Power",
+      "detail": "Plug the smart display into an electrical outlet and wait for it to power on."
+    },
+    {
+      "title": "Select Wi-Fi Network",
+      "detail": "On the display, choose your Wi-Fi network and enter the password when prompted."
+    },
+    {
+      "title": "Download Companion App",
+      "detail": "Install the appropriate app on your smartphone or tablet and sign in."
+    },
+    {
+      "title": "Add Device in App",
+      "detail": "In the app, select 'Add Device' and follow the prompts to complete the setup."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my smart display won't connect to Wi-Fi?",
+      "answer": "Ensure your Wi-Fi network is functioning and that you entered the correct password. Restart the device if necessary."
+    },
+    {
+      "question": "Can I use my smart display without an app?",
+      "answer": "Most smart displays require an app for initial setup and configuration, but some basic functions may be available without it."
+    },
+    {
+      "question": "How do I reset my smart display?",
+      "answer": "To reset, locate the reset button (usually on the back) and hold it for about 10 seconds until the display restarts."
+    }
+  ],
+  "caveats": [
+    "Setup steps may vary slightly based on the specific model and brand of the smart display."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

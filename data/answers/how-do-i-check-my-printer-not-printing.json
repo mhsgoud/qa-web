@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-check-my-printer-not-printing",
+  "directAnswer": "Check the printer's connection, ensure it has paper and ink, and verify that the correct printer is selected in your device's print settings.",
+  "summary": "This guide outlines steps to troubleshoot a printer that is not printing, including checking connections and settings.",
+  "sections": [
+    {
+      "id": "printer-connection",
+      "heading": "Check Printer Connection",
+      "body": "Ensure that the printer is properly connected to your computer or network. For wired printers, check the USB or Ethernet cable connections. For wireless printers, confirm that the printer is connected to the correct Wi-Fi network."
+    },
+    {
+      "id": "paper-ink-check",
+      "heading": "Verify Paper and Ink Levels",
+      "body": "Make sure the printer has sufficient paper loaded and that the ink or toner cartridges are not empty. Most printers have an indicator light or a display that shows ink levels."
+    },
+    {
+      "id": "print-settings",
+      "heading": "Check Print Settings",
+      "body": "Ensure that the correct printer is selected in your print dialog. Sometimes, the default printer may change, leading to confusion. Check the print queue for any stuck jobs."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Inspect Connections",
+      "detail": "For USB printers, ensure the cable is securely connected to both the printer and the computer. For network printers, check the Wi-Fi connection or Ethernet cable."
+    },
+    {
+      "title": "Check Paper and Ink",
+      "detail": "Open the printer's paper tray to ensure it contains paper. Access the ink cartridge area to check if any cartridges need replacement."
+    },
+    {
+      "title": "Select the Correct Printer",
+      "detail": "On your computer, go to the print dialog and confirm that the correct printer is selected as the default printer."
+    },
+    {
+      "title": "Clear Print Queue",
+      "detail": "Access the print queue on your computer and remove any stuck print jobs that may be preventing new jobs from processing."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my printer is still not printing after checking everything?",
+      "answer": "Try restarting both your printer and computer. If the issue persists, consult the printer's manual or manufacturer's support."
+    },
+    {
+      "question": "How can I check if my printer is online?",
+      "answer": "Go to your computer's printer settings and check the status of your printer. If it says 'offline', try to set it to 'online'."
+    },
+    {
+      "question": "Why does my printer show an error message?",
+      "answer": "Error messages can indicate various issues such as paper jams, low ink, or connectivity problems. Refer to the printer's manual for specific error codes."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly depending on your printer model and operating system."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

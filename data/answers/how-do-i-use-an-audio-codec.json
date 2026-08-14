@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-use-an-audio-codec",
+  "directAnswer": "To use an audio codec, you need to select the codec in your audio editing or encoding software and configure the settings according to your needs.",
+  "summary": "This guide provides steps for using audio codecs across various platforms, along with common questions and caveats.",
+  "sections": [
+    {
+      "id": "understanding-audio-codecs",
+      "heading": "Understanding Audio Codecs",
+      "body": "Audio codecs are used to compress and decompress audio files. Common codecs include MP3, AAC, and WAV, each with unique characteristics suited for different applications."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to use an audio codec can vary based on the software or platform you are using."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Select Your Audio Editing Software",
+      "detail": "Choose software like Audacity, Adobe Audition, or GarageBand that supports audio codec selection."
+    },
+    {
+      "title": "Import Your Audio File",
+      "detail": "Load the audio file you want to work with into the software."
+    },
+    {
+      "title": "Choose the Codec",
+      "detail": "In the export or save settings, look for an option to select the audio codec. This may vary by software version."
+    },
+    {
+      "title": "Adjust Codec Settings",
+      "detail": "Configure bitrate, sample rate, and other settings as needed before exporting your audio."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between lossy and lossless codecs?",
+      "answer": "Lossy codecs reduce file size by removing some audio data, while lossless codecs preserve all audio data, resulting in larger files."
+    },
+    {
+      "question": "How do I know which codec to use?",
+      "answer": "Choose a codec based on your needs: for streaming, consider lossy codecs like AAC; for archiving, use lossless codecs like FLAC."
+    },
+    {
+      "question": "Can I change the codec after exporting?",
+      "answer": "No, once an audio file is exported with a specific codec, you cannot change the codec without re-encoding the file."
+    }
+  ],
+  "caveats": [
+    "Ensure your software is updated, as codec options may change with new versions.",
+    "Some codecs may require additional licensing for commercial use."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for codec settings"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-a-cpu-slow",
+  "directAnswer": "A CPU may be slow due to overheating, insufficient power supply, or background processes consuming resources.",
+  "summary": "Understanding the factors that can affect CPU performance can help in diagnosing and resolving speed issues.",
+  "sections": [
+    {
+      "id": "overheating",
+      "heading": "Overheating Issues",
+      "body": "CPUs can throttle their performance to prevent damage from overheating. Ensure that your cooling system is functioning properly and that dust is cleared from vents."
+    },
+    {
+      "id": "background-processes",
+      "heading": "Background Processes",
+      "body": "Multiple applications running simultaneously can consume CPU resources. Check your task manager to identify and close unnecessary processes."
+    },
+    {
+      "id": "power-supply",
+      "heading": "Insufficient Power Supply",
+      "body": "A power supply that does not provide enough wattage can lead to performance issues. Verify that your PSU meets the requirements for your CPU and other components."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check CPU Temperature",
+      "detail": "Use software like HWMonitor or Core Temp to check the CPU temperature. If it's above 80°C, consider improving cooling solutions."
+    },
+    {
+      "title": "Monitor Background Processes",
+      "detail": "Open Task Manager (Ctrl + Shift + Esc) and review the 'Processes' tab to identify resource-heavy applications."
+    },
+    {
+      "title": "Evaluate Power Supply",
+      "detail": "Check the specifications of your power supply unit (PSU) to ensure it meets the needs of your CPU and other components."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a slow CPU be upgraded?",
+      "answer": "Yes, upgrading the CPU can improve performance, but ensure compatibility with your motherboard."
+    },
+    {
+      "question": "What role does RAM play in CPU performance?",
+      "answer": "Insufficient RAM can cause the CPU to slow down as it may need to swap data to and from the disk frequently."
+    },
+    {
+      "question": "How often should I clean my CPU cooler?",
+      "answer": "It's recommended to clean your CPU cooler every 6-12 months to prevent dust buildup that can cause overheating."
+    }
+  ],
+  "caveats": [
+    "Performance issues may also stem from software problems, such as malware or poorly optimized applications."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "can-usb-c-charge-a-laptop",
+  "directAnswer": "Yes, USB-C can charge a laptop if the laptop supports USB Power Delivery (PD) and the charger provides sufficient wattage.",
+  "summary": "USB-C charging is becoming increasingly common for laptops, offering a versatile and efficient charging solution, provided the necessary specifications are met.",
+  "sections": [
+    {
+      "id": "usb-c-compatibility",
+      "heading": "USB-C Compatibility",
+      "body": "Not all USB-C ports support charging. Ensure your laptop's USB-C port is labeled with a charging symbol or check the manufacturer's specifications."
+    },
+    {
+      "id": "power-requirements",
+      "heading": "Power Requirements",
+      "body": "Laptops typically require chargers with higher wattage (often 30W to 100W). Confirm that your USB-C charger meets or exceeds your laptop's power needs."
+    },
+    {
+      "id": "using-usb-c",
+      "heading": "Using USB-C for Charging",
+      "body": "To charge your laptop via USB-C, connect a compatible USB-C charger to the laptop's USB-C port. Ensure the charger is plugged into a power outlet."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Laptop Specifications",
+      "detail": "Verify that your laptop supports USB-C charging by checking the user manual or the manufacturer's website."
+    },
+    {
+      "title": "Select a Compatible Charger",
+      "detail": "Use a USB-C charger that meets the wattage requirements of your laptop. Look for USB Power Delivery support."
+    },
+    {
+      "title": "Connect and Charge",
+      "detail": "Plug the USB-C charger into the laptop's USB-C port and connect it to a power source. Check for charging indicators."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use any USB-C charger to charge my laptop?",
+      "answer": "Not all USB-C chargers are suitable; ensure it provides the necessary wattage and supports Power Delivery."
+    },
+    {
+      "question": "Will charging my laptop with USB-C affect performance?",
+      "answer": "Charging with USB-C should not affect performance if the charger meets the required specifications."
+    },
+    {
+      "question": "What happens if I use a lower wattage charger?",
+      "answer": "Using a lower wattage charger may result in slower charging or the laptop not charging at all during heavy use."
+    }
+  ],
+  "caveats": [
+    "Some laptops may not support charging via USB-C despite having a USB-C port."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

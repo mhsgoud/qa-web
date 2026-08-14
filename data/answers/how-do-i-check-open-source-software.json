@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-check-open-source-software",
+  "directAnswer": "To check if software is open source, review its licensing information and source code availability on platforms like GitHub or GitLab.",
+  "summary": "This guide provides steps to verify whether a software is open source, including checking its licensing and source code.",
+  "sections": [
+    {
+      "id": "understanding-open-source",
+      "heading": "Understanding Open Source Software",
+      "body": "Open source software is defined by its license, which allows users to view, modify, and distribute the source code. Common licenses include MIT, GPL, and Apache."
+    },
+    {
+      "id": "finding-source-code",
+      "heading": "Finding the Source Code",
+      "body": "Most open source projects host their code on platforms like GitHub, GitLab, or Bitbucket. You can usually find a repository link on the software's official website."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check the License",
+      "detail": "Visit the software's official website or repository and look for a LICENSE file. Confirm it is an open source license."
+    },
+    {
+      "title": "Review the Repository",
+      "detail": "Navigate to the software's repository on GitHub or similar platforms. Ensure the source code is publicly accessible."
+    },
+    {
+      "title": "Examine the Documentation",
+      "detail": "Check for documentation that confirms the software's open source status, including contribution guidelines and community involvement."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the software does not have a clear license?",
+      "answer": "If there's no license file, the software is likely not open source. You should avoid using it until you can confirm its status."
+    },
+    {
+      "question": "Can I use open source software for commercial purposes?",
+      "answer": "Yes, many open source licenses allow commercial use, but you must comply with the license terms, which may include attribution or sharing modifications."
+    },
+    {
+      "question": "How can I contribute to an open source project?",
+      "answer": "You can contribute by forking the repository, making changes, and submitting a pull request. Check the project's contribution guidelines for specifics."
+    }
+  ],
+  "caveats": [
+    "Not all software labeled as 'open source' adheres to the Open Source Initiative's definition; always verify the license."
+  ],
+  "relatedToolIdeas": [
+    "Checklist for verifying open source software",
+    "Q&A cluster on open source licenses"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-troubleshoot-a-website",
+  "directAnswer": "To troubleshoot a website, start by checking for server issues, then inspect the browser console for errors, and finally test on different devices and browsers.",
+  "summary": "This guide provides steps to effectively troubleshoot website issues, including common problems and solutions.",
+  "sections": [
+    {
+      "id": "check-server-status",
+      "heading": "Check Server Status",
+      "body": "Use online tools like 'Down For Everyone Or Just Me' to determine if the website is down for all users or just you. If it's down, contact your hosting provider."
+    },
+    {
+      "id": "inspect-browser-console",
+      "heading": "Inspect the Browser Console",
+      "body": "Open the developer tools in your browser (usually F12 or right-click > Inspect) and check the console for any JavaScript errors or failed network requests."
+    },
+    {
+      "id": "test-on-different-devices",
+      "heading": "Test on Different Devices and Browsers",
+      "body": "Ensure the issue isn't specific to your device or browser by testing the website on multiple devices and browsers (e.g., Chrome, Firefox, Safari)."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Server Status",
+      "detail": "Visit a site like 'Down For Everyone Or Just Me' to see if the website is down globally."
+    },
+    {
+      "title": "Inspect Browser Console",
+      "detail": "Open your browser's developer tools and navigate to the 'Console' tab to look for errors."
+    },
+    {
+      "title": "Clear Browser Cache",
+      "detail": "Clear your browser's cache and cookies to eliminate issues caused by outdated files."
+    },
+    {
+      "title": "Disable Browser Extensions",
+      "detail": "Temporarily disable any browser extensions to rule out conflicts that may affect website functionality."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the website is down?",
+      "answer": "Contact your hosting provider for assistance and check their status page for any ongoing issues."
+    },
+    {
+      "question": "How can I identify JavaScript errors?",
+      "answer": "Look for red error messages in the console of your browser's developer tools, which can indicate issues in your site's scripts."
+    },
+    {
+      "question": "Why does my website look different on mobile?",
+      "answer": "Ensure your website is responsive and check the CSS media queries that may affect how the site displays on different screen sizes."
+    }
+  ],
+  "caveats": [
+    "Some troubleshooting steps may vary depending on the website's platform (e.g., WordPress, Shopify)."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

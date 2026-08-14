@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-use-a-smart-display",
+  "directAnswer": "To use a smart display, set it up by connecting it to Wi-Fi and linking your account. You can then use voice commands or touch controls to access features like video calls, streaming, and smart home management.",
+  "summary": "Smart displays combine a screen with voice assistant capabilities, allowing users to interact through touch or voice. They can control smart home devices, play media, and provide information.",
+  "sections": [
+    {
+      "id": "setup",
+      "heading": "Setting Up Your Smart Display",
+      "body": "Begin by placing the smart display in a suitable location. Connect it to a power source, then follow the on-screen instructions to connect to Wi-Fi and sign in to your preferred account."
+    },
+    {
+      "id": "using-features",
+      "heading": "Using Features",
+      "body": "You can ask your smart display questions, play music, watch videos, or control compatible smart home devices. Use voice commands like 'Hey Google, play music' or tap on the screen for options."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting Common Issues",
+      "body": "If your smart display is unresponsive, try restarting it or checking your Wi-Fi connection. Ensure that the device is updated to the latest software version for optimal performance."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Connect to Wi-Fi",
+      "detail": "During setup, select your Wi-Fi network from the list and enter the password when prompted."
+    },
+    {
+      "title": "Sign In",
+      "detail": "Log in to your Google or Amazon account depending on your device brand to access personalized features."
+    },
+    {
+      "title": "Explore Features",
+      "detail": "Use voice commands or touch the screen to explore various features like weather updates, video calls, or streaming services."
+    },
+    {
+      "title": "Control Smart Home Devices",
+      "detail": "Link compatible smart home devices in the app associated with your smart display for easy voice control."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use my smart display without an internet connection?",
+      "answer": "Most features require an internet connection, but some functionalities may still work offline, such as alarms and timers."
+    },
+    {
+      "question": "How do I update my smart display?",
+      "answer": "Updates are usually automatic, but you can check for updates in the settings menu of your device."
+    },
+    {
+      "question": "Can I use multiple accounts on my smart display?",
+      "answer": "Yes, many smart displays allow multiple user accounts, enabling personalized experiences for each user."
+    }
+  ],
+  "caveats": [
+    "Voice recognition may vary based on the environment and background noise.",
+    "Some features may require additional subscriptions or compatible devices."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for setting up smart home devices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

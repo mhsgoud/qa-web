@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-check-an-array",
+  "directAnswer": "You can check an array in programming by using built-in methods or functions that verify its contents or properties, such as checking its length or iterating through its elements.",
+  "summary": "This guide provides methods to check arrays in various programming languages, including JavaScript, Python, and Java.",
+  "sections": [
+    {
+      "id": "javascript",
+      "heading": "JavaScript",
+      "body": "In JavaScript, you can check if a variable is an array using Array.isArray() and check its length with the .length property."
+    },
+    {
+      "id": "python",
+      "heading": "Python",
+      "body": "In Python, use the isinstance() function to check if an object is a list (which is similar to an array) and check its length with the len() function."
+    },
+    {
+      "id": "java",
+      "heading": "Java",
+      "body": "In Java, you can check if an object is an array using the instanceof operator and check its length with the .length property."
+    }
+  ],
+  "steps": [
+    {
+      "title": "JavaScript Example",
+      "detail": "Use the following code: if (Array.isArray(myArray)) { console.log('It is an array'); }"
+    },
+    {
+      "title": "Python Example",
+      "detail": "Use the following code: if isinstance(my_list, list): print('It is a list')"
+    },
+    {
+      "title": "Java Example",
+      "detail": "Use the following code: if (myArray instanceof Object[]) { System.out.println('It is an array'); }"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the array is empty?",
+      "answer": "You can check if an array is empty by checking its length; for example, in JavaScript, use myArray.length === 0."
+    },
+    {
+      "question": "How do I check if an array contains a specific value?",
+      "answer": "In JavaScript, use myArray.includes(value); in Python, use value in my_list; in Java, use Arrays.asList(myArray).contains(value)."
+    },
+    {
+      "question": "Can I check for multidimensional arrays?",
+      "answer": "Yes, you can check each dimension separately; for example, in JavaScript, use Array.isArray(myArray) && Array.isArray(myArray[0]) for a 2D array."
+    }
+  ],
+  "caveats": [
+    "Different programming languages have different methods for checking arrays.",
+    "Ensure that the variable you are checking is defined to avoid runtime errors."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for array methods"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

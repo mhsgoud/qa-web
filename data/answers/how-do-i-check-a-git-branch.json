@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-check-a-git-branch",
+  "directAnswer": "To check the current Git branch, use the command `git branch` in your terminal. The active branch will be highlighted with an asterisk.",
+  "summary": "This guide provides steps to check your current Git branch across different platforms.",
+  "sections": [
+    {
+      "id": "checking-branch-in-terminal",
+      "heading": "Checking Branch in Terminal",
+      "body": "You can check the current branch in Git using the terminal on any platform."
+    },
+    {
+      "id": "checking-branch-in-gui",
+      "heading": "Checking Branch in GUI Tools",
+      "body": "If you are using a GUI tool like GitHub Desktop or SourceTree, the current branch is typically displayed in the interface, often at the top of the window."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Terminal",
+      "detail": "Launch your terminal application (Command Prompt, PowerShell, Terminal, etc.) depending on your operating system."
+    },
+    {
+      "title": "Navigate to Repository",
+      "detail": "Use the `cd` command to navigate to your Git repository directory."
+    },
+    {
+      "title": "Run Git Command",
+      "detail": "Type `git branch` and press Enter. The current branch will be marked with an asterisk."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I don't see any branches listed?",
+      "answer": "If no branches are listed, ensure you are inside a valid Git repository. You can initialize one using `git init`."
+    },
+    {
+      "question": "Can I check branches in a remote repository?",
+      "answer": "Yes, use `git branch -r` to list remote branches."
+    },
+    {
+      "question": "How do I switch branches?",
+      "answer": "Use the command `git checkout branch-name` to switch to a different branch."
+    }
+  ],
+  "caveats": [
+    "Ensure you have Git installed and configured on your system.",
+    "Commands may vary slightly based on your Git version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for Git commands"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

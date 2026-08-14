@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-reset-a-git-merge",
+  "directAnswer": "To reset a Git merge, use the command 'git reset --merge' or 'git reset --hard HEAD' depending on whether you want to keep the changes or discard them.",
+  "summary": "This guide provides steps to reset a Git merge and outlines important considerations.",
+  "sections": [
+    {
+      "id": "understanding-git-merge",
+      "heading": "Understanding Git Merge",
+      "body": "A Git merge combines changes from different branches. If conflicts arise or you decide not to proceed, resetting the merge can help."
+    },
+    {
+      "id": "reset-options",
+      "heading": "Reset Options",
+      "body": "You can choose to keep changes with 'git reset --merge' or discard them with 'git reset --hard HEAD'. Choose based on your needs."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Current Status",
+      "detail": "Run 'git status' to see the current state of your repository and confirm that you are in a merge conflict."
+    },
+    {
+      "title": "Reset the Merge",
+      "detail": "Use 'git reset --merge' to keep changes or 'git reset --hard HEAD' to discard changes. Note that '--hard' will erase uncommitted changes."
+    },
+    {
+      "title": "Verify the Reset",
+      "detail": "Run 'git status' again to ensure that the repository is back to its previous state."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens to my changes after a hard reset?",
+      "answer": "A hard reset will permanently discard all uncommitted changes, so ensure you have backups if needed."
+    },
+    {
+      "question": "Can I recover discarded changes after a hard reset?",
+      "answer": "Generally, no. Once a hard reset is performed, the changes are lost unless you have a backup or they were committed."
+    },
+    {
+      "question": "Is there a way to abort a merge without resetting?",
+      "answer": "Yes, you can use 'git merge --abort' to stop the merge process if you haven't committed yet."
+    }
+  ],
+  "caveats": [
+    "Be cautious with 'git reset --hard' as it will erase all uncommitted changes.",
+    "Always ensure you are on the correct branch before performing a reset."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for resolving merge conflicts"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

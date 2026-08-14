@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-git-merge",
+  "directAnswer": "To set up a Git merge, first ensure you are on the branch you want to merge into, then use the command 'git merge <branch-name>'.",
+  "summary": "This guide provides steps to successfully merge branches in Git, along with potential issues to watch for.",
+  "sections": [
+    {
+      "id": "preparation",
+      "heading": "Preparation for Merging",
+      "body": "Before merging, ensure your local repository is updated with the latest changes from the remote repository."
+    },
+    {
+      "id": "executing-merge",
+      "heading": "Executing the Merge",
+      "body": "Use the command line to execute the merge. Be prepared to resolve any conflicts that may arise during the process."
+    },
+    {
+      "id": "post-merge",
+      "heading": "Post-Merge Steps",
+      "body": "After a successful merge, review the changes and push the merged branch to the remote repository."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Switch to the target branch",
+      "detail": "Run 'git checkout <target-branch>' to switch to the branch you want to merge into."
+    },
+    {
+      "title": "Fetch latest changes",
+      "detail": "Execute 'git fetch origin' to ensure you have the latest updates from the remote repository."
+    },
+    {
+      "title": "Merge the branch",
+      "detail": "Run 'git merge <branch-name>' to merge the specified branch into your current branch."
+    },
+    {
+      "title": "Resolve conflicts if necessary",
+      "detail": "If there are conflicts, Git will notify you. Open the conflicting files, resolve the issues, then run 'git add <file>' and 'git commit' to finalize the merge."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I encounter merge conflicts?",
+      "answer": "You need to manually resolve the conflicts in the affected files, then stage the changes and commit them."
+    },
+    {
+      "question": "Can I undo a merge?",
+      "answer": "Yes, if you haven't committed the merge yet, you can use 'git merge --abort'. If you have committed, you can revert the merge with 'git revert -m 1 <commit-hash>'."
+    },
+    {
+      "question": "Is there a way to preview changes before merging?",
+      "answer": "Yes, you can use 'git diff <branch-name>' to see the changes that will be introduced by the merge."
+    }
+  ],
+  "caveats": [
+    "Ensure that you have committed all your changes before merging to avoid losing work.",
+    "Be cautious of merge conflicts, especially in large projects with multiple contributors."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for merging best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

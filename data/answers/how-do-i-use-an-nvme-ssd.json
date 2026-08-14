@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-use-an-nvme-ssd",
+  "directAnswer": "To use an NVMe SSD, install it into a compatible M.2 slot on your motherboard and ensure your system recognizes it in the BIOS/UEFI settings.",
+  "summary": "This guide provides steps to install and utilize an NVMe SSD in your PC, along with common questions and considerations.",
+  "sections": [
+    {
+      "id": "installation",
+      "heading": "Installation Process",
+      "body": "Ensure your PC is powered off and unplugged. Locate the M.2 slot on your motherboard, remove the screw if necessary, and insert the NVMe SSD at a 30-degree angle. Push it down and secure it with the screw."
+    },
+    {
+      "id": "bios-configuration",
+      "heading": "BIOS/UEFI Configuration",
+      "body": "After installation, power on your PC and enter the BIOS/UEFI settings (usually by pressing DEL or F2 during boot). Check the storage configuration to ensure the NVMe SSD is detected."
+    },
+    {
+      "id": "partitioning-formatting",
+      "heading": "Partitioning and Formatting",
+      "body": "Once the SSD is recognized, boot into your operating system. Use disk management tools (like Disk Management in Windows) to partition and format the SSD for use."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Off and Open Case",
+      "detail": "Shut down your PC, unplug it, and remove the side panel to access the motherboard."
+    },
+    {
+      "title": "Insert NVMe SSD",
+      "detail": "Locate the M.2 slot, insert the SSD at an angle, and secure it with a screw."
+    },
+    {
+      "title": "Access BIOS/UEFI",
+      "detail": "Turn on the PC and enter BIOS/UEFI settings to confirm the SSD is detected."
+    },
+    {
+      "title": "Format the SSD",
+      "detail": "Boot into your OS and use disk management tools to format the new drive."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my BIOS does not recognize the NVMe SSD?",
+      "answer": "Ensure the motherboard firmware is updated to the latest version, as older versions may not support newer NVMe drives."
+    },
+    {
+      "question": "Can I use an NVMe SSD as a boot drive?",
+      "answer": "Yes, NVMe SSDs can be configured as boot drives if the motherboard supports booting from NVMe."
+    },
+    {
+      "question": "What operating systems support NVMe SSDs?",
+      "answer": "Most modern operating systems, including Windows 10/11, Linux distributions, and macOS, support NVMe SSDs."
+    }
+  ],
+  "caveats": [
+    "Ensure your motherboard has an available M.2 slot and supports NVMe SSDs.",
+    "Check for thermal throttling; some NVMe SSDs may require heatsinks for optimal performance."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

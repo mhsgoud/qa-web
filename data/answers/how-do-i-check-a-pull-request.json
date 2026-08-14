@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-check-a-pull-request",
+  "directAnswer": "To check a pull request, review the code changes, comments, and any associated issues in the repository's pull request section.",
+  "summary": "This guide provides steps to effectively review a pull request in popular version control platforms.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Pull Requests",
+      "body": "A pull request is a request to merge code changes from one branch to another. Reviewing pull requests helps ensure code quality and collaboration."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to check a pull request may vary slightly between platforms like GitHub, GitLab, and Bitbucket."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access the Pull Request",
+      "detail": "Navigate to the 'Pull Requests' tab in your repository to view the list of open pull requests."
+    },
+    {
+      "title": "Review Code Changes",
+      "detail": "Click on the pull request to see the 'Files changed' tab, where you can review the code modifications."
+    },
+    {
+      "title": "Leave Comments or Approve",
+      "detail": "Use the comment section to provide feedback or click 'Approve' if you are satisfied with the changes."
+    },
+    {
+      "title": "Merge the Pull Request",
+      "detail": "If approved, you can merge the pull request using the 'Merge' button, following any additional prompts."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I look for when reviewing a pull request?",
+      "answer": "Check for code quality, adherence to coding standards, and whether the changes solve the intended issue."
+    },
+    {
+      "question": "Can I request changes on a pull request?",
+      "answer": "Yes, you can leave comments and request specific changes before approving the pull request."
+    },
+    {
+      "question": "What happens after I merge a pull request?",
+      "answer": "After merging, the changes are integrated into the target branch, and the pull request is closed."
+    }
+  ],
+  "caveats": [
+    "The user interface may vary slightly depending on the platform and version."
+  ],
+  "relatedToolIdeas": [
+    "Checklist for code review best practices",
+    "Q&A cluster on common pull request issues"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

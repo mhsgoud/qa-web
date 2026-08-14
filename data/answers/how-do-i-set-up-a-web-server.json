@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-web-server",
+  "directAnswer": "To set up a web server, install server software like Apache or Nginx and configure it to serve your website files.",
+  "summary": "This guide provides steps to set up a web server using popular software options, along with potential caveats and frequently asked questions.",
+  "sections": [
+    {
+      "id": "installation",
+      "heading": "Installation of Web Server Software",
+      "body": "Choose a web server software such as Apache or Nginx. Download and install it according to your operating system's guidelines."
+    },
+    {
+      "id": "configuration",
+      "heading": "Configuration",
+      "body": "Configure the server settings, including document root, server name, and port number. Ensure that the server is set to start on boot."
+    },
+    {
+      "id": "testing",
+      "heading": "Testing the Server",
+      "body": "After installation and configuration, test the server by accessing it via a web browser using the server's IP address or domain name."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Install Apache on Ubuntu",
+      "detail": "Run 'sudo apt update' followed by 'sudo apt install apache2' in the terminal."
+    },
+    {
+      "title": "Install Nginx on CentOS",
+      "detail": "Use 'sudo yum install epel-release' and then 'sudo yum install nginx' in the terminal."
+    },
+    {
+      "title": "Configure Apache",
+      "detail": "Edit the configuration file located at '/etc/apache2/sites-available/000-default.conf' to set the document root."
+    },
+    {
+      "title": "Start the Web Server",
+      "detail": "Use 'sudo systemctl start apache2' for Apache or 'sudo systemctl start nginx' for Nginx."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between Apache and Nginx?",
+      "answer": "Apache is process-based and suitable for dynamic content, while Nginx is event-driven and excels in serving static content."
+    },
+    {
+      "question": "How do I secure my web server?",
+      "answer": "Implement SSL/TLS certificates, keep software updated, and configure firewalls to restrict access."
+    },
+    {
+      "question": "Can I host multiple websites on one server?",
+      "answer": "Yes, both Apache and Nginx support virtual hosts, allowing you to host multiple sites on a single server."
+    }
+  ],
+  "caveats": [
+    "Ensure your server is secured against unauthorized access.",
+    "Configuration paths may vary based on the operating system and version."
+  ],
+  "relatedToolIdeas": [
+    "Checklist for web server setup",
+    "Q&A cluster on web server security"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

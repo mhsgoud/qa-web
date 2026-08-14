@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-troubleshoot-a-primary-key",
+  "directAnswer": "Check for duplicate values and ensure the primary key is correctly defined in your database schema.",
+  "summary": "Troubleshooting primary key issues involves verifying uniqueness and correct configuration in your database.",
+  "sections": [
+    {
+      "id": "check-for-duplicates",
+      "heading": "Check for Duplicate Values",
+      "body": "Run a query to identify any duplicate entries in the primary key column. For example, in SQL, use 'SELECT primary_key_column, COUNT(*) FROM table_name GROUP BY primary_key_column HAVING COUNT(*) > 1;'."
+    },
+    {
+      "id": "verify-schema-definition",
+      "heading": "Verify Schema Definition",
+      "body": "Ensure that the primary key is properly defined in your database schema. Check the table creation script or use database management tools to inspect the table structure."
+    },
+    {
+      "id": "check-data-types",
+      "heading": "Check Data Types",
+      "body": "Ensure that the data type of the primary key column is consistent and appropriate for the data it holds. Mismatched data types can lead to issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Run Duplicate Check Query",
+      "detail": "Execute a SQL query to find any duplicate values in the primary key column."
+    },
+    {
+      "title": "Inspect Table Schema",
+      "detail": "Use your database management tool to view the table schema and confirm the primary key is set correctly."
+    },
+    {
+      "title": "Review Data Types",
+      "detail": "Check that the primary key column's data type matches the expected format and is consistent across all entries."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I find duplicates?",
+      "answer": "You will need to remove or update the duplicate entries to ensure the primary key remains unique."
+    },
+    {
+      "question": "How do I change a primary key?",
+      "answer": "You can change a primary key using an ALTER TABLE statement, but ensure to handle any foreign key constraints."
+    },
+    {
+      "question": "Can a primary key be NULL?",
+      "answer": "No, a primary key cannot be NULL; it must always contain a unique value for each record."
+    }
+  ],
+  "caveats": [
+    "Changing primary keys can affect relationships with other tables.",
+    "Always back up your database before making structural changes."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for primary key validation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

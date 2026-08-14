@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-set-up-a-relational-database",
+  "directAnswer": "To set up a relational database, choose a database management system (DBMS), install it, and create a new database using SQL commands or the DBMS interface.",
+  "summary": "This guide provides steps to set up a relational database using popular DBMS options like MySQL, PostgreSQL, and Microsoft SQL Server.",
+  "sections": [
+    {
+      "id": "dbms-selection",
+      "heading": "Choosing a Database Management System",
+      "body": "Select a DBMS based on your project requirements. Popular choices include MySQL, PostgreSQL, and Microsoft SQL Server, each with unique features and capabilities."
+    },
+    {
+      "id": "installation",
+      "heading": "Installing the DBMS",
+      "body": "Download and install the chosen DBMS. Follow the installation instructions specific to your operating system."
+    },
+    {
+      "id": "database-creation",
+      "heading": "Creating a Database",
+      "body": "Use SQL commands or the graphical interface of your DBMS to create a new database. Define tables and relationships according to your data model."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Download and Install the DBMS",
+      "detail": "Visit the official website of your chosen DBMS, download the installer, and follow the setup instructions for your operating system."
+    },
+    {
+      "title": "Create a New Database",
+      "detail": "Log into the DBMS interface and execute a command like 'CREATE DATABASE mydatabase;' or use the GUI to create a new database."
+    },
+    {
+      "title": "Define Tables and Relationships",
+      "detail": "Use SQL commands or the DBMS interface to create tables and establish relationships. For example, 'CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(100));'"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a relational database?",
+      "answer": "A relational database is a type of database that stores data in structured tables with predefined relationships between them."
+    },
+    {
+      "question": "Can I use multiple DBMS for the same project?",
+      "answer": "Yes, you can use multiple DBMS, but it may complicate data management and integration."
+    },
+    {
+      "question": "What are common SQL commands for managing a database?",
+      "answer": "Common SQL commands include CREATE, SELECT, INSERT, UPDATE, and DELETE, which are used to manipulate and query data."
+    }
+  ],
+  "caveats": [
+    "Ensure compatibility between your DBMS version and your operating system.",
+    "Backup your data regularly to prevent loss.",
+    "Refer to the specific documentation for your DBMS for detailed instructions."
+  ],
+  "relatedToolIdeas": [
+    "Database schema design tools",
+    "SQL query builders",
+    "Database management software"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

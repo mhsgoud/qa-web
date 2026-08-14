@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-update-cloud-storage-safe",
+  "directAnswer": "To update your cloud storage safely, ensure you back up your data before making any changes and follow the specific update procedures for your cloud service provider.",
+  "summary": "Updating cloud storage requires careful data management and adherence to provider-specific steps to ensure data integrity.",
+  "sections": [
+    {
+      "id": "backing-up-data",
+      "heading": "Backing Up Your Data",
+      "body": "Before updating your cloud storage, create a backup of all important files to prevent any potential data loss during the update process."
+    },
+    {
+      "id": "provider-specific-steps",
+      "heading": "Provider-Specific Update Steps",
+      "body": "Each cloud service provider has unique steps for updating storage plans or features. Refer to their official documentation for the most accurate instructions."
+    },
+    {
+      "id": "monitoring-storage",
+      "heading": "Monitoring Storage Usage",
+      "body": "After the update, regularly monitor your storage usage to ensure you are utilizing your new plan effectively and to avoid unexpected charges."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Backup Your Data",
+      "detail": "Download copies of your important files to a local device or another cloud service."
+    },
+    {
+      "title": "Access Your Cloud Provider",
+      "detail": "Log in to your cloud storage account through the official website or app."
+    },
+    {
+      "title": "Navigate to Storage Settings",
+      "detail": "Locate the storage settings or upgrade options in your account dashboard. Note that the path may vary by provider."
+    },
+    {
+      "title": "Select Upgrade Options",
+      "detail": "Choose the desired storage plan or features and follow the prompts to complete the update."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I encounter issues during the update?",
+      "answer": "If you face issues, check the support section of your cloud provider's website or contact their customer service."
+    },
+    {
+      "question": "Will my files be safe during the update?",
+      "answer": "Yes, if you have backed up your data prior to the update, your files will remain safe."
+    },
+    {
+      "question": "Can I revert to my previous storage plan?",
+      "answer": "Most providers allow you to downgrade your plan, but check their specific policies regarding changes."
+    }
+  ],
+  "caveats": [
+    "Ensure you have a stable internet connection during the update process to avoid interruptions.",
+    "Some providers may have different procedures based on the version of their platform."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

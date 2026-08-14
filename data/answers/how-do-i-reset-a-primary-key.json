@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-reset-a-primary-key",
+  "directAnswer": "To reset a primary key, you can either drop the existing primary key constraint and recreate it or use an auto-increment feature if applicable.",
+  "summary": "Resetting a primary key involves modifying the database schema to ensure unique identification of records.",
+  "sections": [
+    {
+      "id": "understanding-primary-keys",
+      "heading": "Understanding Primary Keys",
+      "body": "A primary key is a unique identifier for a record in a database table. Resetting it may be necessary when data integrity issues arise or when transitioning to a new data model."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset a primary key can vary depending on the database management system (DBMS) you are using."
+    },
+    {
+      "id": "best-practices",
+      "heading": "Best Practices",
+      "body": "Always back up your database before making structural changes. Ensure that no foreign key constraints are violated when resetting primary keys."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For MySQL",
+      "detail": "Use the command: ALTER TABLE table_name DROP PRIMARY KEY, ADD PRIMARY KEY (column_name); Ensure that the column is unique."
+    },
+    {
+      "title": "For PostgreSQL",
+      "detail": "Execute: ALTER TABLE table_name DROP CONSTRAINT constraint_name; Then, recreate the primary key with: ALTER TABLE table_name ADD PRIMARY KEY (column_name);"
+    },
+    {
+      "title": "For SQL Server",
+      "detail": "Run: ALTER TABLE table_name DROP CONSTRAINT constraint_name; Followed by: ALTER TABLE table_name ADD CONSTRAINT constraint_name PRIMARY KEY (column_name);"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens to existing records when I reset a primary key?",
+      "answer": "Existing records will retain their data, but you must ensure that the new primary key values are unique."
+    },
+    {
+      "question": "Can I reset a primary key if there are foreign key constraints?",
+      "answer": "You must first drop or modify any foreign key constraints that reference the primary key before resetting it."
+    },
+    {
+      "question": "Is it possible to reset a primary key without losing data?",
+      "answer": "Yes, as long as you carefully manage the constraints and ensure that the new primary key values are valid."
+    }
+  ],
+  "caveats": [
+    "Resetting a primary key may lead to data integrity issues if not handled properly.",
+    "Ensure that all dependent tables are updated to reflect the new primary key."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for database schema changes"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

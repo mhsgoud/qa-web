@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-a-website-not-loading",
+  "directAnswer": "A website may not load due to issues such as server downtime, network connectivity problems, or browser-related errors.",
+  "summary": "Understanding why a website is not loading can help you troubleshoot the issue effectively.",
+  "sections": [
+    {
+      "id": "common-issues",
+      "heading": "Common Issues That Prevent Websites from Loading",
+      "body": "Websites can fail to load for various reasons including server outages, DNS problems, or local network disruptions. Identifying the root cause is essential for resolution."
+    },
+    {
+      "id": "troubleshooting-steps",
+      "heading": "Troubleshooting Steps",
+      "body": "Follow these steps to diagnose and potentially fix the issue."
+    },
+    {
+      "id": "platform-specific-tips",
+      "heading": "Platform-Specific Tips",
+      "body": "Different browsers and devices may have unique settings that affect website loading. Ensure your browser is updated and check for any extensions that may block content."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Your Internet Connection",
+      "detail": "Ensure that your device is connected to the internet. Try loading other websites to confirm connectivity."
+    },
+    {
+      "title": "Clear Browser Cache",
+      "detail": "Clear your browser's cache and cookies, as corrupted data can prevent websites from loading properly."
+    },
+    {
+      "title": "Disable Browser Extensions",
+      "detail": "Temporarily disable any browser extensions that may interfere with website loading, such as ad blockers or privacy tools."
+    },
+    {
+      "title": "Check Website Status",
+      "detail": "Use online tools like 'Down For Everyone Or Just Me' to check if the website is down for others."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if a specific website is down?",
+      "answer": "Check social media or forums for any announcements regarding the website's status, or wait and try again later."
+    },
+    {
+      "question": "How can I tell if my browser is causing the issue?",
+      "answer": "Try accessing the website using a different browser or in incognito mode to see if the problem persists."
+    },
+    {
+      "question": "What if the website loads on another device?",
+      "answer": "This may indicate a local issue with your original device. Check your network settings or consider resetting your device."
+    }
+  ],
+  "caveats": [
+    "Website loading issues can be temporary and may resolve on their own, so patience is sometimes necessary."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

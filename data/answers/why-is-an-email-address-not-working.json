@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-an-email-address-not-working",
+  "directAnswer": "An email address may not work due to incorrect spelling, server issues, or account suspension. Verify the address and check your email provider's status.",
+  "summary": "There are several reasons why an email address might not function properly, including user error, server problems, or account restrictions.",
+  "sections": [
+    {
+      "id": "common-issues",
+      "heading": "Common Issues",
+      "body": "Common problems include misspellings in the email address, incorrect domain names, or the recipient's inbox being full."
+    },
+    {
+      "id": "server-status",
+      "heading": "Server Status",
+      "body": "Check your email provider's status page for outages or maintenance that might affect email delivery."
+    },
+    {
+      "id": "account-status",
+      "heading": "Account Status",
+      "body": "Ensure that the email account is active and not suspended due to policy violations or inactivity."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Verify Email Address",
+      "detail": "Double-check the spelling of the email address and ensure it follows the correct format (e.g., user@example.com)."
+    },
+    {
+      "title": "Check Email Provider Status",
+      "detail": "Visit the status page of your email provider (e.g., Gmail, Outlook) to see if there are any ongoing issues."
+    },
+    {
+      "title": "Test Sending to Another Address",
+      "detail": "Try sending an email to a different address to determine if the issue is with the specific email address or your account."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my email is bouncing back?",
+      "answer": "Check the bounce-back message for clues about the issue, such as an invalid address or full inbox."
+    },
+    {
+      "question": "How can I recover a suspended email account?",
+      "answer": "Contact your email provider's support team for assistance with account recovery and reinstatement."
+    },
+    {
+      "question": "Why does my email provider say the address doesn't exist?",
+      "answer": "This usually means the email address is misspelled, the domain is incorrect, or the account has been deleted."
+    }
+  ],
+  "caveats": [
+    "Email delivery issues can vary by provider and may require specific troubleshooting steps based on the service."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

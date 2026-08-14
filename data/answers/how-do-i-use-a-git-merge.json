@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-use-a-git-merge",
+  "directAnswer": "To use Git merge, first ensure you are on the branch you want to merge into, then execute 'git merge <branch-name>' to combine changes from the specified branch.",
+  "summary": "Git merge is a command used to integrate changes from one branch into another, allowing for collaboration and feature integration.",
+  "sections": [
+    {
+      "id": "understanding-git-merge",
+      "heading": "Understanding Git Merge",
+      "body": "Git merge allows you to combine the changes from one branch into another. This is commonly used in collaborative workflows where multiple branches are developed in parallel."
+    },
+    {
+      "id": "merge-strategies",
+      "heading": "Merge Strategies",
+      "body": "Git supports different merge strategies such as 'fast-forward' and 'three-way merge'. The default strategy is 'three-way merge', which creates a new commit if there are changes on both branches."
+    },
+    {
+      "id": "resolving-conflicts",
+      "heading": "Resolving Merge Conflicts",
+      "body": "If there are conflicting changes, Git will prompt you to resolve them manually. After resolving, you must stage the changes and complete the merge with 'git commit'."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Checkout the Target Branch",
+      "detail": "Use 'git checkout <target-branch>' to switch to the branch you want to merge changes into."
+    },
+    {
+      "title": "Merge the Source Branch",
+      "detail": "Run 'git merge <source-branch>' to merge changes from the specified source branch into your current branch."
+    },
+    {
+      "title": "Resolve Any Conflicts",
+      "detail": "If conflicts arise, manually edit the files to resolve them, then stage the changes with 'git add <file>' and complete the merge with 'git commit'."
+    },
+    {
+      "title": "Verify the Merge",
+      "detail": "Use 'git log' or 'git status' to confirm that the merge was successful and that your branch is up to date."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I merge without committing?",
+      "answer": "You will receive an error message indicating that there are uncommitted changes. You must commit or stash changes before merging."
+    },
+    {
+      "question": "Can I undo a merge?",
+      "answer": "Yes, you can use 'git merge --abort' to revert to the state before the merge if conflicts occur, or 'git reset --hard HEAD' to discard all changes."
+    },
+    {
+      "question": "How do I merge multiple branches at once?",
+      "answer": "You cannot merge multiple branches in a single command. You must merge one branch at a time into your target branch."
+    }
+  ],
+  "caveats": [
+    "Merging can lead to complex conflicts if multiple branches have diverged significantly.",
+    "Always ensure your working directory is clean before merging to avoid complications."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Merge conflict resolution checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

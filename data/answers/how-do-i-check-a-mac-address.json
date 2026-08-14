@@ -1,0 +1,68 @@
+{
+  "slug": "how-do-i-check-a-mac-address",
+  "directAnswer": "You can check a MAC address through your device's network settings or by using command line tools, depending on your operating system.",
+  "summary": "This guide provides steps to find the MAC address on various platforms, including Windows, macOS, and Linux.",
+  "sections": [
+    {
+      "id": "windows",
+      "heading": "Checking MAC Address on Windows",
+      "body": "To find the MAC address on a Windows device, you can use the Command Prompt or access the network settings."
+    },
+    {
+      "id": "macos",
+      "heading": "Checking MAC Address on macOS",
+      "body": "On macOS, the MAC address can be found in the System Preferences under Network settings or via the Terminal."
+    },
+    {
+      "id": "linux",
+      "heading": "Checking MAC Address on Linux",
+      "body": "Linux users can check the MAC address using the terminal command 'ifconfig' or 'ip addr'."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows - Using Command Prompt",
+      "detail": "1. Open Command Prompt by searching for 'cmd'. 2. Type 'getmac' and press Enter to view the MAC addresses."
+    },
+    {
+      "title": "Windows - Using Network Settings",
+      "detail": "1. Go to Control Panel > Network and Internet > Network Connections. 2. Right-click on your network connection and select 'Status'. 3. Click 'Details' to view the MAC address."
+    },
+    {
+      "title": "macOS - Using System Preferences",
+      "detail": "1. Open System Preferences and select 'Network'. 2. Choose your active network connection and click 'Advanced'. 3. The MAC address is listed under 'Hardware'."
+    },
+    {
+      "title": "macOS - Using Terminal",
+      "detail": "1. Open Terminal. 2. Type 'ifconfig' and press Enter. 3. Look for 'en0' or 'en1' and find the 'ether' line for the MAC address."
+    },
+    {
+      "title": "Linux - Using Terminal",
+      "detail": "1. Open Terminal. 2. Type 'ifconfig' or 'ip addr' and press Enter. 3. Find the interface (like 'eth0' or 'wlan0') and locate the 'ether' line for the MAC address."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a MAC address?",
+      "answer": "A MAC address is a unique identifier assigned to network interfaces for communications on the physical network segment."
+    },
+    {
+      "question": "Can I change my MAC address?",
+      "answer": "Yes, it is possible to change your MAC address using software tools or command line methods, but it may not be permitted by your network policies."
+    },
+    {
+      "question": "Why do I need to know my MAC address?",
+      "answer": "Knowing your MAC address can help with network troubleshooting, device identification, and ensuring proper network access."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on the version of the operating system.",
+    "Some network configurations may hide the MAC address for security reasons."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for network troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

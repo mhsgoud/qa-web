@@ -1,0 +1,51 @@
+{
+  "slug": "how-do-i-connect-a-virtual-machine",
+  "directAnswer": "To connect to a virtual machine, use a remote desktop client or SSH client depending on the operating system of the VM.",
+  "summary": "This guide outlines the steps to connect to a virtual machine using different methods based on the operating system.",
+  "sections": [
+    {
+      "id": "remote-desktop-connection",
+      "heading": "Using Remote Desktop Connection",
+      "body": "For Windows-based virtual machines, you can use the built-in Remote Desktop Connection tool. Ensure that the VM is running and you have the public IP address."
+    },
+    {
+      "id": "ssh-connection",
+      "heading": "Using SSH for Linux VMs",
+      "body": "For Linux-based virtual machines, use an SSH client like PuTTY or the command line. You need the VM's public IP address and the SSH key or password."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Connect to Windows VM",
+      "detail": "1. Open Remote Desktop Connection. 2. Enter the public IP address of the VM. 3. Click 'Connect' and enter your credentials."
+    },
+    {
+      "title": "Connect to Linux VM",
+      "detail": "1. Open your terminal or SSH client. 2. Type 'ssh username@public-ip-address'. 3. Enter your password or provide the SSH key."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I can't connect to my VM?",
+      "answer": "Check if the VM is running, verify the IP address, and ensure that the firewall settings allow RDP or SSH connections."
+    },
+    {
+      "question": "Do I need to install software to connect?",
+      "answer": "For Windows VMs, no additional software is needed beyond Remote Desktop. For Linux VMs, you may need an SSH client like PuTTY if not using a terminal."
+    },
+    {
+      "question": "Can I connect to a VM from a mobile device?",
+      "answer": "Yes, you can use remote desktop apps available for iOS and Android to connect to Windows VMs, and SSH apps for Linux VMs."
+    }
+  ],
+  "caveats": [
+    "Ensure that the VM's network security group allows inbound traffic on the required ports (RDP: 3389, SSH: 22).",
+    "Different cloud platforms may have different configurations for connecting to VMs."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for VM connectivity"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

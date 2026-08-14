@@ -1,0 +1,60 @@
+{
+  "slug": "what-is-dlss-improve-image-quality",
+  "directAnswer": "DLSS (Deep Learning Super Sampling) enhances image quality by using AI to upscale lower-resolution images in real-time, providing improved performance without sacrificing detail.",
+  "summary": "DLSS leverages advanced AI algorithms to deliver higher frame rates and better image quality in supported games, making it a valuable feature for gamers with compatible NVIDIA GPUs.",
+  "sections": [
+    {
+      "id": "what-is-dlss",
+      "heading": "What is DLSS?",
+      "body": "DLSS is a technology developed by NVIDIA that uses deep learning to upscale images in video games. It allows games to run at lower resolutions while still delivering high-quality visuals."
+    },
+    {
+      "id": "how-dlss-works",
+      "heading": "How DLSS Works",
+      "body": "DLSS analyzes frames from a game and uses a neural network to predict and generate high-resolution images. This process reduces the workload on the GPU, leading to improved performance."
+    },
+    {
+      "id": "dlss-versions",
+      "heading": "DLSS Versions",
+      "body": "There are multiple versions of DLSS, with each iteration improving image quality and performance. DLSS 2.0 introduced features like temporal feedback and support for a wider range of games."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Enable DLSS in Game Settings",
+      "detail": "Navigate to the graphics settings of your game. Look for the DLSS option and set it to 'On' or select the desired quality mode (Performance, Balanced, Quality)."
+    },
+    {
+      "title": "Update NVIDIA Drivers",
+      "detail": "Ensure your NVIDIA graphics drivers are up to date. Use the NVIDIA GeForce Experience application or visit the NVIDIA website to download the latest drivers."
+    },
+    {
+      "title": "Check Game Compatibility",
+      "detail": "Verify that your game supports DLSS. You can usually find this information on the game's official site or in the settings menu."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does DLSS work with all games?",
+      "answer": "No, DLSS is only supported in games that have integrated the technology. Check the game's specifications for DLSS support."
+    },
+    {
+      "question": "What hardware do I need for DLSS?",
+      "answer": "DLSS is available on NVIDIA RTX graphics cards, such as the RTX 20 series and newer."
+    },
+    {
+      "question": "Can DLSS reduce input lag?",
+      "answer": "While DLSS can improve frame rates, it may also introduce slight input lag. However, the performance gains often outweigh this drawback."
+    }
+  ],
+  "caveats": [
+    "Image quality improvements can vary based on the game and the DLSS mode selected.",
+    "Some users may prefer native resolution rendering over upscaling."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for optimizing game settings with DLSS"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

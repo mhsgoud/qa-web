@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-update-a-type-2-charging-connector",
+  "directAnswer": "To update a Type 2 charging connector, you will need to replace the connector with a compatible model and ensure your EV charging station is configured for the new connector type.",
+  "summary": "Updating a Type 2 charging connector involves replacing the existing connector and ensuring compatibility with your charging station.",
+  "sections": [
+    {
+      "id": "understanding-type-2-connectors",
+      "heading": "Understanding Type 2 Connectors",
+      "body": "Type 2 connectors are commonly used in Europe for electric vehicle charging. They support both single-phase and three-phase charging, making them versatile for various EV models."
+    },
+    {
+      "id": "replacement-options",
+      "heading": "Replacement Options",
+      "body": "When updating, ensure you choose a Type 2 connector that meets your charging station specifications. Look for connectors that comply with IEC 62196 standards."
+    },
+    {
+      "id": "installation-process",
+      "heading": "Installation Process",
+      "body": "The installation process may vary depending on your charging station model. Always refer to the manufacturer's manual for specific instructions."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Disconnect Power",
+      "detail": "Ensure the charging station is powered off before beginning the update process."
+    },
+    {
+      "title": "Remove Old Connector",
+      "detail": "Carefully detach the existing Type 2 connector from the charging station following the manufacturer's instructions."
+    },
+    {
+      "title": "Install New Connector",
+      "detail": "Connect the new Type 2 connector, ensuring all connections are secure and comply with electrical standards."
+    },
+    {
+      "title": "Test Functionality",
+      "detail": "Power on the charging station and test the new connector with your EV to ensure proper functionality."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I update my Type 2 connector myself?",
+      "answer": "If you have experience with electrical installations, you may update it yourself. Otherwise, it's recommended to hire a professional."
+    },
+    {
+      "question": "What tools do I need for the update?",
+      "answer": "You will typically need basic hand tools like screwdrivers, pliers, and possibly a multimeter for testing connections."
+    },
+    {
+      "question": "Are there any compatibility issues I should be aware of?",
+      "answer": "Ensure that the new connector is compatible with both your EV and the charging station. Check specifications before purchasing."
+    }
+  ],
+  "caveats": [
+    "Always follow local electrical codes and regulations when performing updates.",
+    "Incompatibility with existing charging infrastructure may lead to charging failures."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

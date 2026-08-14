@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-reset-an-audio-codec",
+  "directAnswer": "To reset an audio codec, you typically need to access your audio settings and either disable and re-enable the codec or restore it to factory settings, depending on your platform.",
+  "summary": "Resetting an audio codec can resolve various audio issues by refreshing its configuration.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Audio codecs are essential for encoding and decoding audio signals. Resetting them can help fix problems like audio distortion or connectivity issues."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset an audio codec can vary based on the operating system or device you are using."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "1. Right-click the speaker icon in the taskbar and select 'Sounds'. 2. Go to the 'Playback' tab, select your audio device, and click 'Properties'. 3. Under the 'Advanced' tab, click 'Restore Defaults'."
+    },
+    {
+      "title": "macOS",
+      "detail": "1. Open 'System Preferences' and select 'Sound'. 2. Choose the 'Output' tab, select your audio device, and toggle the settings or restart your device."
+    },
+    {
+      "title": "Linux",
+      "detail": "1. Open a terminal and use the command 'pulseaudio -k' to kill the audio server. 2. Restart it with 'pulseaudio --start'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if resetting the codec doesn't work?",
+      "answer": "Try updating your audio drivers or checking for hardware issues if the reset does not resolve the problem."
+    },
+    {
+      "question": "Can I reset the audio codec on mobile devices?",
+      "answer": "Yes, you can reset audio settings in the device's settings menu, though the exact path may vary by device."
+    },
+    {
+      "question": "Will resetting the codec delete my audio files?",
+      "answer": "No, resetting the audio codec does not affect your audio files; it only refreshes the codec settings."
+    }
+  ],
+  "caveats": [
+    "Steps may vary based on the specific version of the operating system.",
+    "Some audio devices may have proprietary software for codec management."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Audio troubleshooting checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

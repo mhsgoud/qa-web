@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-connect-a-foreign-key",
+  "directAnswer": "To connect a foreign key, you need to define it in the child table referencing the primary key of the parent table using SQL commands or through your database management tool's interface.",
+  "summary": "Connecting a foreign key establishes a relationship between two tables in a database, ensuring data integrity.",
+  "sections": [
+    {
+      "id": "understanding-foreign-keys",
+      "heading": "Understanding Foreign Keys",
+      "body": "A foreign key is a field in one table that uniquely identifies a row of another table. It creates a link between the two tables."
+    },
+    {
+      "id": "using-sql-to-connect",
+      "heading": "Using SQL to Connect a Foreign Key",
+      "body": "You can use the SQL command 'ALTER TABLE' to add a foreign key constraint after creating your tables."
+    },
+    {
+      "id": "platform-specific-instructions",
+      "heading": "Platform-Specific Instructions",
+      "body": "The steps to connect a foreign key may vary depending on the database management system (DBMS) you are using."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Tables",
+      "detail": "Determine which tables will be connected and identify the primary key in the parent table."
+    },
+    {
+      "title": "Write SQL Command",
+      "detail": "Use the SQL command: 'ALTER TABLE child_table ADD CONSTRAINT fk_name FOREIGN KEY (child_column) REFERENCES parent_table(parent_column);'."
+    },
+    {
+      "title": "Use Database Management Tool",
+      "detail": "In tools like MySQL Workbench or SQL Server Management Studio, navigate to the child table, find the foreign key option, and define the relationship through the UI."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I try to delete a parent record?",
+      "answer": "If there are child records referencing the parent record, the deletion will fail unless you have set up cascading deletes."
+    },
+    {
+      "question": "Can a foreign key reference multiple columns?",
+      "answer": "Yes, a foreign key can reference multiple columns if it is defined as a composite key."
+    },
+    {
+      "question": "What are the data types for foreign keys?",
+      "answer": "The data type of the foreign key must match the data type of the primary key it references."
+    }
+  ],
+  "caveats": [
+    "Ensure that the data types match between the foreign key and the primary key.",
+    "Foreign keys can only reference primary keys or unique keys in the parent table."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for setting up foreign keys"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

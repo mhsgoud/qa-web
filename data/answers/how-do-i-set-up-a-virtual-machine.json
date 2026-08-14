@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-virtual-machine",
+  "directAnswer": "To set up a virtual machine, choose a hypervisor, install it, and create a new VM instance with the desired specifications.",
+  "summary": "This guide provides steps to set up a virtual machine across different platforms, including software installation and configuration.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Virtual Machines",
+      "body": "A virtual machine (VM) is a software emulation of a physical computer, allowing you to run multiple operating systems on a single physical machine."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The setup process can vary depending on the hypervisor you choose, such as VMware, VirtualBox, or Hyper-V."
+    },
+    {
+      "id": "common-caveats",
+      "heading": "Common Caveats",
+      "body": "Ensure your hardware supports virtualization and that you allocate sufficient resources to the VM to avoid performance issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Choose a Hypervisor",
+      "detail": "Select a hypervisor like VMware Workstation, Oracle VirtualBox, or Microsoft Hyper-V based on your requirements."
+    },
+    {
+      "title": "Install the Hypervisor",
+      "detail": "Download and install the hypervisor software from the official website, following the installation prompts."
+    },
+    {
+      "title": "Create a New Virtual Machine",
+      "detail": "Open the hypervisor and use the 'New VM' wizard to specify the VM's name, operating system, and resource allocation."
+    },
+    {
+      "title": "Install the Operating System",
+      "detail": "Attach the OS installation media (ISO file or physical disk) and start the VM to install the operating system."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the minimum system requirements for running a virtual machine?",
+      "answer": "Minimum requirements include a processor that supports virtualization, at least 4GB of RAM, and sufficient disk space."
+    },
+    {
+      "question": "Can I run multiple virtual machines at the same time?",
+      "answer": "Yes, you can run multiple VMs simultaneously, but ensure your host machine has enough resources to support them."
+    },
+    {
+      "question": "How do I access my virtual machine once it's set up?",
+      "answer": "You can access the VM through the hypervisor interface or use remote desktop tools if configured."
+    }
+  ],
+  "caveats": [
+    "Ensure your BIOS/UEFI settings have virtualization enabled.",
+    "Performance may degrade if the host machine is under-resourced."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for VM setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

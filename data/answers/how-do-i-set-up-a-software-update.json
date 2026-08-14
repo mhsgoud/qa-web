@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-set-up-a-software-update",
+  "directAnswer": "To set up a software update, access your device's settings and navigate to the software update section to check for available updates.",
+  "summary": "This guide provides steps for setting up software updates on various platforms, including common issues and FAQs.",
+  "sections": [
+    {
+      "id": "general-steps",
+      "heading": "General Steps for Software Update Setup",
+      "body": "Most devices allow you to set up automatic updates through their settings. Ensure your device is connected to Wi-Fi and has sufficient battery life."
+    },
+    {
+      "id": "platform-specific",
+      "heading": "Platform-Specific Steps",
+      "body": "Steps may vary by platform; refer to the specific instructions below."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "Go to Settings > Update & Security > Windows Update. Click 'Check for updates' and follow prompts to install."
+    },
+    {
+      "title": "macOS",
+      "detail": "Open System Preferences > Software Update. Click 'Update Now' to install available updates."
+    },
+    {
+      "title": "iOS",
+      "detail": "Navigate to Settings > General > Software Update. Tap 'Download and Install' if an update is available."
+    },
+    {
+      "title": "Android",
+      "detail": "Go to Settings > System > System update. Tap 'Check for update' and follow the instructions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my device says it's up to date but I know there's a new version?",
+      "answer": "Check your internet connection and try restarting your device before checking for updates again."
+    },
+    {
+      "question": "Can I schedule updates to occur at a specific time?",
+      "answer": "Some platforms allow you to schedule updates; check your device settings for the option."
+    },
+    {
+      "question": "What should I do if an update fails to install?",
+      "answer": "Ensure you have enough storage space and try again. If issues persist, consult the device support page."
+    }
+  ],
+  "caveats": [
+    "Software update options and paths may vary depending on the device model and operating system version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for preparing for software updates"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-troubleshoot-a-power-supply",
+  "directAnswer": "Start by checking all power connections and testing the power supply unit (PSU) with a multimeter. If issues persist, consider replacing the PSU.",
+  "summary": "Troubleshooting a power supply involves checking connections, testing voltage outputs, and assessing the PSU's functionality.",
+  "sections": [
+    {
+      "id": "check-connections",
+      "heading": "Check All Connections",
+      "body": "Ensure that all power cables are securely connected to the motherboard, GPU, and other components. Look for any loose or damaged cables."
+    },
+    {
+      "id": "test-psu",
+      "heading": "Test the Power Supply Unit",
+      "body": "Use a multimeter to test the voltage outputs of the PSU. Refer to the PSU manual for the correct voltage specifications."
+    },
+    {
+      "id": "replace-psu",
+      "heading": "Consider Replacing the PSU",
+      "body": "If the power supply fails the voltage test or is making unusual noises, it may need to be replaced. Ensure compatibility with your system."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Inspect Power Cables",
+      "detail": "Check that all power cables are firmly connected and not damaged."
+    },
+    {
+      "title": "Use a Multimeter",
+      "detail": "Set the multimeter to the correct voltage range and test the 24-pin connector and other outputs."
+    },
+    {
+      "title": "Check for Overheating",
+      "detail": "Ensure the PSU is not overheating. Clean any dust buildup and ensure proper airflow."
+    },
+    {
+      "title": "Replace if Necessary",
+      "detail": "If the PSU is faulty, replace it with a compatible unit."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the signs of a failing power supply?",
+      "answer": "Common signs include random shutdowns, failure to power on, unusual noises, and burnt smells."
+    },
+    {
+      "question": "Can I test a power supply without a multimeter?",
+      "answer": "Yes, you can use a power supply tester, which is designed for this purpose."
+    },
+    {
+      "question": "How do I choose a replacement power supply?",
+      "answer": "Ensure the new PSU has sufficient wattage and the necessary connectors for your components."
+    }
+  ],
+  "caveats": [
+    "Always unplug the power supply before performing any tests or inspections.",
+    "Make sure to follow safety precautions when handling electrical components."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

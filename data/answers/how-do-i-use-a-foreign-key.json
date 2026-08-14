@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-use-a-foreign-key",
+  "directAnswer": "To use a foreign key, define it in your table schema to establish a relationship with another table's primary key.",
+  "summary": "Foreign keys are essential for maintaining referential integrity in relational databases by linking tables.",
+  "sections": [
+    {
+      "id": "understanding-foreign-keys",
+      "heading": "Understanding Foreign Keys",
+      "body": "A foreign key is a field (or collection of fields) in one table that uniquely identifies a row of another table. This relationship helps enforce data integrity."
+    },
+    {
+      "id": "defining-foreign-keys",
+      "heading": "Defining Foreign Keys",
+      "body": "When creating a table, specify the foreign key by referencing the primary key of another table. The syntax may vary slightly based on the database system."
+    },
+    {
+      "id": "using-foreign-keys-in-queries",
+      "heading": "Using Foreign Keys in Queries",
+      "body": "You can join tables based on foreign key relationships to retrieve related data efficiently."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Create Tables",
+      "detail": "Define your primary table and the related table. For example, create a 'users' table and a 'posts' table where 'posts' references 'users'."
+    },
+    {
+      "title": "Add Foreign Key Constraint",
+      "detail": "In SQL, use the following syntax: `ALTER TABLE posts ADD CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id);` Adjust syntax based on your SQL dialect."
+    },
+    {
+      "title": "Insert Data",
+      "detail": "Insert data into both tables ensuring that any foreign key values in the 'posts' table correspond to valid 'users' entries."
+    },
+    {
+      "title": "Query Data",
+      "detail": "Use JOIN statements to retrieve data from both tables, e.g., `SELECT users.name, posts.title FROM users JOIN posts ON users.id = posts.user_id;`"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I try to insert a foreign key that doesn't exist?",
+      "answer": "The database will return an error, preventing the insertion to maintain referential integrity."
+    },
+    {
+      "question": "Can a foreign key reference multiple tables?",
+      "answer": "No, a foreign key can only reference a primary key from one table at a time."
+    },
+    {
+      "question": "How do I delete a record with foreign key constraints?",
+      "answer": "You must first delete any related records in the child table or use cascading deletes if configured."
+    }
+  ],
+  "caveats": [
+    "Foreign keys can impact performance due to additional checks on data integrity.",
+    "Ensure that the data types of the foreign key and referenced primary key match."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for setting up foreign keys"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

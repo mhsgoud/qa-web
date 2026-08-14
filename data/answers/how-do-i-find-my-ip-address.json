@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-find-my-ip-address",
+  "directAnswer": "You can find your IP address by using the command line or checking your device settings. For public IP addresses, you can also use a web service.",
+  "summary": "Finding your IP address can be done through various methods depending on your device and network settings.",
+  "sections": [
+    {
+      "id": "command-line-method",
+      "heading": "Using Command Line",
+      "body": "On Windows, open Command Prompt and type 'ipconfig'. On macOS, open Terminal and type 'ifconfig'. This will display your local IP address."
+    },
+    {
+      "id": "device-settings-method",
+      "heading": "Checking Device Settings",
+      "body": "On Windows, go to Settings > Network & Internet > Status > View your network properties. On macOS, go to System Preferences > Network, select your active connection, and view the IP address."
+    },
+    {
+      "id": "web-service-method",
+      "heading": "Using a Web Service",
+      "body": "You can visit websites like 'whatismyip.com' or 'ipinfo.io' to see your public IP address instantly."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows Command Prompt",
+      "detail": "Press Win + R, type 'cmd', and hit Enter. In the Command Prompt, type 'ipconfig' and press Enter to see your local IP address."
+    },
+    {
+      "title": "macOS Terminal",
+      "detail": "Open Spotlight with Command + Space, type 'Terminal', and hit Enter. Type 'ifconfig' and press Enter to find your local IP address."
+    },
+    {
+      "title": "Using a Browser",
+      "detail": "Open your web browser and go to 'whatismyip.com' or 'ipinfo.io' to display your public IP address."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between public and private IP addresses?",
+      "answer": "A public IP address is assigned by your Internet Service Provider and is accessible over the internet, while a private IP address is used within your local network and is not routable on the internet."
+    },
+    {
+      "question": "Can my IP address change?",
+      "answer": "Yes, if you have a dynamic IP address, it can change periodically. Static IP addresses remain constant."
+    },
+    {
+      "question": "How can I find my IP address on a mobile device?",
+      "answer": "On Android, go to Settings > Network & Internet > Wi-Fi, tap on your network, and view the IP address. On iOS, go to Settings > Wi-Fi, tap the info icon next to your network, and check the IP address."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly based on the operating system version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

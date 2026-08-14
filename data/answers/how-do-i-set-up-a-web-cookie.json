@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-set-up-a-web-cookie",
+  "directAnswer": "To set up a web cookie, use JavaScript's 'document.cookie' property to define the cookie's name, value, and attributes like expiration and path.",
+  "summary": "This guide provides steps for setting up web cookies using JavaScript, along with platform-specific instructions and common pitfalls.",
+  "sections": [
+    {
+      "id": "what-is-a-cookie",
+      "heading": "What is a Web Cookie?",
+      "body": "A web cookie is a small piece of data stored on the user's computer by the web browser while browsing a website. Cookies are used to remember information about the user, such as login status or preferences."
+    },
+    {
+      "id": "setting-up-cookies",
+      "heading": "Setting Up Cookies Using JavaScript",
+      "body": "You can create a cookie by assigning a string to 'document.cookie'. The string should contain the cookie name, value, and optional attributes."
+    },
+    {
+      "id": "cookie-attributes",
+      "heading": "Cookie Attributes",
+      "body": "Common attributes include 'expires', 'path', 'domain', 'secure', and 'SameSite'. These attributes control the cookie's behavior and security."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Create a Cookie",
+      "detail": "Use the following syntax: document.cookie = 'name=value; expires=expirationDate; path=/'; Replace 'name' and 'value' with your desired cookie name and value."
+    },
+    {
+      "title": "Set Expiration Date",
+      "detail": "To set an expiration date, use a Date object. For example: var expires = new Date(); expires.setTime(expires.getTime() + (1*24*60*60*1000)); document.cookie = 'name=value; expires=' + expires.toUTCString() + '; path=/';"
+    },
+    {
+      "title": "Test Your Cookie",
+      "detail": "Open your browser's developer tools and navigate to the Application tab (or Storage tab in some browsers) to view cookies stored for your domain."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How can I delete a cookie?",
+      "answer": "To delete a cookie, set the cookie's expiration date to a past date. For example: document.cookie = 'name=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/';"
+    },
+    {
+      "question": "What is the maximum size of a cookie?",
+      "answer": "Most browsers limit cookies to about 4KB in size. If you need to store more data, consider using local storage."
+    },
+    {
+      "question": "Are cookies secure?",
+      "answer": "Cookies can be made secure by using the 'Secure' attribute, which ensures they are sent over HTTPS only. Additionally, consider using 'HttpOnly' to prevent access via JavaScript."
+    }
+  ],
+  "caveats": [
+    "Cookies can be blocked by browser settings or extensions, which may affect functionality.",
+    "Different browsers may handle cookies slightly differently, especially regarding attributes like 'SameSite'."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for cookie management best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

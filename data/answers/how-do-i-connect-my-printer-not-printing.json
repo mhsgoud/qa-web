@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-connect-my-printer-not-printing",
+  "directAnswer": "Ensure your printer is powered on and connected to the same network as your computer. Check for any error messages on the printer display.",
+  "summary": "This guide provides steps to troubleshoot and connect your printer when it is not printing.",
+  "sections": [
+    {
+      "id": "printer-setup",
+      "heading": "Printer Setup",
+      "body": "Verify that your printer is properly set up and connected to your network. This includes checking the power supply, ensuring the printer is connected to Wi-Fi, and confirming that it is selected as the default printer on your computer."
+    },
+    {
+      "id": "troubleshooting-steps",
+      "heading": "Troubleshooting Steps",
+      "body": "Follow these troubleshooting steps to resolve printing issues. These may vary slightly depending on your operating system."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Printer Connection",
+      "detail": "Ensure the printer is connected to the same Wi-Fi network as your computer. You can usually check this on the printer's display panel under network settings."
+    },
+    {
+      "title": "Set Default Printer",
+      "detail": "On Windows, go to 'Settings' > 'Devices' > 'Printers & Scanners' and select your printer as the default. On macOS, go to 'System Preferences' > 'Printers & Scanners' and select your printer."
+    },
+    {
+      "title": "Update Printer Drivers",
+      "detail": "Check for updates to your printer drivers. On Windows, go to 'Device Manager', find your printer, right-click and select 'Update Driver'. On macOS, use 'Software Update' in 'System Preferences'."
+    },
+    {
+      "title": "Restart Devices",
+      "detail": "Restart both your printer and computer to refresh the connection. This can resolve temporary communication issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why is my printer showing offline?",
+      "answer": "This may occur if the printer is not connected to the network or if it is not set as the default printer. Check the connection and settings."
+    },
+    {
+      "question": "What should I do if my printer is still not printing?",
+      "answer": "Try reinstalling the printer drivers or consult the printer's user manual for specific troubleshooting steps."
+    },
+    {
+      "question": "Can I connect my printer via USB instead of Wi-Fi?",
+      "answer": "Yes, you can connect your printer via USB. Ensure the printer is turned on and connect it to your computer using a USB cable."
+    }
+  ],
+  "caveats": [
+    "Steps may vary based on the printer model and operating system version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

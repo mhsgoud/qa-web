@@ -1,0 +1,54 @@
+{
+  "slug": "how-much-does-an-ev-cheaper-than-a-petrol-car-cost",
+  "directAnswer": "The cost of an electric vehicle (EV) can be lower than a petrol car, with some models starting around $25,000, while average petrol cars range from $20,000 to $30,000. However, total ownership costs may vary based on incentives and fuel savings.",
+  "summary": "Electric vehicles can be competitively priced compared to petrol cars, especially when considering long-term savings and government incentives.",
+  "sections": [
+    {
+      "id": "ev-cost-comparison",
+      "heading": "EV Cost Comparison",
+      "body": "Some EVs are priced similarly to or lower than petrol cars, especially with federal and state incentives. The total cost of ownership should also factor in fuel savings and maintenance costs."
+    },
+    {
+      "id": "incentives-and-savings",
+      "heading": "Incentives and Savings",
+      "body": "Many regions offer tax credits and rebates for EV purchases, which can reduce the upfront cost. Additionally, lower fuel and maintenance costs contribute to overall savings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Research EV Models",
+      "detail": "Look for EV models that fit your budget and compare their prices with petrol cars in your area."
+    },
+    {
+      "title": "Check for Incentives",
+      "detail": "Visit your local government website to find available tax credits and rebates for purchasing an EV."
+    },
+    {
+      "title": "Calculate Total Cost of Ownership",
+      "detail": "Use an EV home charger calculator to estimate savings on fuel and maintenance over time compared to petrol vehicles."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are some affordable EV models?",
+      "answer": "Affordable EV models include the Nissan Leaf, Chevrolet Bolt, and Hyundai Kona Electric, often starting around $25,000."
+    },
+    {
+      "question": "How do I find local EV incentives?",
+      "answer": "You can find local EV incentives by checking your state’s energy office website or using resources like the U.S. Department of Energy's Alternative Fuels Data Center."
+    },
+    {
+      "question": "Are there any hidden costs with EVs?",
+      "answer": "Potential hidden costs include home charging installation, insurance differences, and battery replacement, which should be considered in total ownership costs."
+    }
+  ],
+  "caveats": [
+    "Prices and incentives vary significantly by region and may change over time.",
+    "Some EV models may have limited availability or longer wait times."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

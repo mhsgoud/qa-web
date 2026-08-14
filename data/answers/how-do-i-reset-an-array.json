@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-reset-an-array",
+  "directAnswer": "To reset an array in most programming languages, you can simply reassign it to an empty array or use a method that clears its contents.",
+  "summary": "Resetting an array involves clearing its current elements and potentially reinitializing it.",
+  "sections": [
+    {
+      "id": "javascript",
+      "heading": "JavaScript",
+      "body": "In JavaScript, you can reset an array by assigning it to an empty array: `array = [];` or by using the `length` property: `array.length = 0;`."
+    },
+    {
+      "id": "python",
+      "heading": "Python",
+      "body": "In Python, you can reset a list by using `list.clear()` or by reassigning it to an empty list: `list = []`."
+    },
+    {
+      "id": "java",
+      "heading": "Java",
+      "body": "In Java, you can reset an array by creating a new array: `array = new Type[0];` or by using `Arrays.fill(array, null);` if you want to clear its contents."
+    }
+  ],
+  "steps": [
+    {
+      "title": "JavaScript Method",
+      "detail": "Use `array.length = 0;` to clear the array in place or `array = [];` to create a new empty array."
+    },
+    {
+      "title": "Python Method",
+      "detail": "Call `list.clear()` to remove all items or reassign with `list = []`."
+    },
+    {
+      "title": "Java Method",
+      "detail": "Reinitialize the array with `array = new Type[0];` to reset it."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting an array affect references?",
+      "answer": "Yes, if you reassign the array to a new array, all references to the old array will still point to the old data."
+    },
+    {
+      "question": "Is there a performance difference between methods?",
+      "answer": "Yes, using `length = 0` in JavaScript is generally more efficient than creating a new array."
+    },
+    {
+      "question": "Can I reset a multidimensional array?",
+      "answer": "Yes, you can reset each sub-array individually or reinitialize the entire structure."
+    }
+  ],
+  "caveats": [
+    "Resetting an array will lose all data stored in it unless backed up elsewhere."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for array manipulation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

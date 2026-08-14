@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-check-a-foreign-key",
+  "directAnswer": "To check a foreign key, you can use SQL queries to inspect the database schema or use database management tools that provide schema visualization features.",
+  "summary": "Checking foreign keys is essential for ensuring data integrity in relational databases. This can be done via SQL commands or through GUI tools.",
+  "sections": [
+    {
+      "id": "understanding-foreign-keys",
+      "heading": "Understanding Foreign Keys",
+      "body": "A foreign key is a field (or collection of fields) in one table that uniquely identifies a row in another table. It establishes a relationship between the two tables."
+    },
+    {
+      "id": "using-sql-to-check-foreign-keys",
+      "heading": "Using SQL to Check Foreign Keys",
+      "body": "You can use the following SQL command to check foreign keys in your database: `SHOW CREATE TABLE table_name;` This will display the table creation statement, including any foreign key constraints."
+    },
+    {
+      "id": "using-database-tools",
+      "heading": "Using Database Management Tools",
+      "body": "Many database management tools like MySQL Workbench, pgAdmin, or SQL Server Management Studio allow you to visually inspect foreign keys through their interface."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using SQL Query",
+      "detail": "Run the command `SHOW CREATE TABLE table_name;` in your SQL client to view the foreign key constraints."
+    },
+    {
+      "title": "Using MySQL Workbench",
+      "detail": "Navigate to the 'Schema' section, select your table, and view the 'Foreign Keys' tab to see the foreign key relationships."
+    },
+    {
+      "title": "Using pgAdmin",
+      "detail": "In the object browser, expand your database, navigate to the 'Tables' section, right-click your table, and select 'Properties' to view foreign keys."
+    },
+    {
+      "title": "Using SQL Server Management Studio",
+      "detail": "Expand your database, navigate to 'Tables', right-click your table, select 'Design', and then view the 'Relationships' option."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if a foreign key constraint is violated?",
+      "answer": "If a foreign key constraint is violated, the database will prevent the operation that caused the violation, ensuring data integrity."
+    },
+    {
+      "question": "Can I delete a row that is referenced by a foreign key?",
+      "answer": "No, you cannot delete a row that is referenced by a foreign key unless you first remove or update the referencing rows."
+    },
+    {
+      "question": "How can I find all foreign keys in a database?",
+      "answer": "You can query the information schema using `SELECT * FROM information_schema.KEY_COLUMN_USAGE WHERE TABLE_NAME = 'your_table_name';` to find all foreign keys."
+    }
+  ],
+  "caveats": [
+    "The SQL commands may vary slightly depending on the database system (MySQL, PostgreSQL, SQL Server, etc.).",
+    "Not all database management tools may have the same user interface or features."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for foreign key management"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

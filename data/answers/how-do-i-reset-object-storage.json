@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-reset-object-storage",
+  "directAnswer": "To reset object storage, you typically need to delete existing buckets and recreate them, as most platforms do not offer a direct reset option.",
+  "summary": "Resetting object storage involves deleting and recreating storage buckets to clear all stored data.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Object Storage Reset",
+      "body": "Resetting object storage is necessary when you want to clear all data and start fresh. This process varies by cloud provider, so it's essential to follow specific instructions for your platform."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset object storage can differ based on the cloud provider you are using."
+    },
+    {
+      "id": "caveats",
+      "heading": "Caveats",
+      "body": "Ensure you back up any important data before proceeding, as this process is irreversible."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Delete Existing Buckets",
+      "detail": "Log into your cloud provider's console, navigate to the object storage section, and delete all existing buckets. Note that the exact path may vary by provider."
+    },
+    {
+      "title": "Recreate Buckets",
+      "detail": "After deletion, recreate your buckets with the desired configurations. Refer to your provider's documentation for specific settings."
+    },
+    {
+      "title": "Verify Configuration",
+      "detail": "Check the settings of your newly created buckets to ensure they meet your requirements."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will I lose all my data when I reset object storage?",
+      "answer": "Yes, resetting object storage involves deleting all data stored in the buckets, so ensure you have backups."
+    },
+    {
+      "question": "Can I reset object storage without deleting buckets?",
+      "answer": "No, most platforms require you to delete and recreate buckets to reset object storage."
+    },
+    {
+      "question": "How long does it take to reset object storage?",
+      "answer": "The time it takes can vary based on the amount of data and the platform, but typically it can be done within a few minutes."
+    }
+  ],
+  "caveats": [
+    "Ensure you back up any important data before proceeding, as this process is irreversible."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-check-a-data-structure",
+  "directAnswer": "You can check a data structure by using built-in functions or methods specific to the programming language you are using, such as 'typeof' in JavaScript or 'type()' in Python.",
+  "summary": "This guide provides methods to check the type and structure of data in various programming languages.",
+  "sections": [
+    {
+      "id": "understanding-data-structures",
+      "heading": "Understanding Data Structures",
+      "body": "Data structures are ways to organize and store data. Common types include arrays, lists, dictionaries, and sets. Knowing the structure helps in debugging and optimizing code."
+    },
+    {
+      "id": "language-specific-methods",
+      "heading": "Language-Specific Methods",
+      "body": "Different programming languages offer various methods to check data structures. Below are some common examples."
+    }
+  ],
+  "steps": [
+    {
+      "title": "JavaScript",
+      "detail": "Use 'console.log(typeof variable)' to check the type of a variable. For arrays, use 'Array.isArray(variable)'."
+    },
+    {
+      "title": "Python",
+      "detail": "Use 'type(variable)' to check the type of a variable. For lists, use 'isinstance(variable, list)'."
+    },
+    {
+      "title": "Java",
+      "detail": "Use 'variable.getClass().getName()' to check the class of an object."
+    },
+    {
+      "title": "C#",
+      "detail": "Use 'variable.GetType()' to determine the type of a variable."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between a list and a dictionary?",
+      "answer": "A list is an ordered collection of items, while a dictionary is a collection of key-value pairs."
+    },
+    {
+      "question": "How can I check if a variable is empty?",
+      "answer": "In JavaScript, use 'variable.length === 0' for arrays. In Python, use 'not variable' for lists and dictionaries."
+    },
+    {
+      "question": "Can I check nested data structures?",
+      "answer": "Yes, you can check nested structures by accessing each level using the appropriate syntax for your programming language."
+    }
+  ],
+  "caveats": [
+    "Ensure you are using the correct method for the specific data type.",
+    "Some languages may require additional libraries for advanced data structure checks."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for data structure validation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

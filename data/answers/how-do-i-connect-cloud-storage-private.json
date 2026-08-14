@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-connect-cloud-storage-private",
+  "directAnswer": "To connect to private cloud storage, you typically need to configure your storage client with the appropriate credentials and endpoint details provided by your cloud service.",
+  "summary": "Connecting to private cloud storage involves using specific credentials and settings unique to your service provider.",
+  "sections": [
+    {
+      "id": "understanding-private-cloud",
+      "heading": "Understanding Private Cloud Storage",
+      "body": "Private cloud storage is a dedicated storage solution that is used exclusively by one organization. It offers enhanced security and control compared to public cloud options."
+    },
+    {
+      "id": "common-cloud-providers",
+      "heading": "Common Cloud Providers",
+      "body": "Popular private cloud storage providers include AWS S3, Microsoft Azure Blob Storage, and Google Cloud Storage. Each has its own setup requirements."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Gather Credentials",
+      "detail": "Obtain your API key, secret key, and endpoint URL from your cloud storage provider."
+    },
+    {
+      "title": "Configure Storage Client",
+      "detail": "Use a storage client compatible with your provider (e.g., Cyberduck, rclone) and enter the gathered credentials."
+    },
+    {
+      "title": "Test Connection",
+      "detail": "After configuration, test the connection to ensure that you can access your private storage."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I forget my API credentials?",
+      "answer": "You can usually reset your API credentials through your cloud provider's management console."
+    },
+    {
+      "question": "Can I access private cloud storage from multiple devices?",
+      "answer": "Yes, as long as you have the correct credentials and the necessary client software installed."
+    },
+    {
+      "question": "Is there a limit to the amount of data I can store?",
+      "answer": "Yes, storage limits depend on your service plan with the cloud provider."
+    }
+  ],
+  "caveats": [
+    "Ensure that your network configuration allows access to the cloud storage endpoint.",
+    "Some cloud providers may have specific requirements for encryption or security settings."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

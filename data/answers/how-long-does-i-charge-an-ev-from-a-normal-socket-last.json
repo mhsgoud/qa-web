@@ -1,0 +1,63 @@
+{
+  "slug": "how-long-does-i-charge-an-ev-from-a-normal-socket-last",
+  "directAnswer": "Charging an EV from a normal socket typically provides about 3-5 miles of range per hour of charging, depending on the vehicle and socket type.",
+  "summary": "Charging an electric vehicle (EV) from a standard household outlet is a slower process compared to dedicated EV chargers, impacting the total range added per hour.",
+  "sections": [
+    {
+      "id": "charging-speed",
+      "heading": "Charging Speed from a Normal Socket",
+      "body": "A normal 120V outlet can charge an EV at a rate of approximately 1.2 kW, resulting in 3-5 miles of range per hour. This is significantly slower than Level 2 chargers, which can provide 10-60 miles of range per hour."
+    },
+    {
+      "id": "factors-affecting-range",
+      "heading": "Factors Affecting Range",
+      "body": "The actual range added depends on several factors including the EV model, battery capacity, and the efficiency of the vehicle. Additionally, environmental factors such as temperature can influence charging efficiency."
+    },
+    {
+      "id": "charging-time",
+      "heading": "Charging Time Estimates",
+      "body": "For a typical EV with a 60 kWh battery, charging from a normal socket can take over 24 hours to fully charge from empty, making it impractical for daily use unless the vehicle is parked for extended periods."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Your EV's Charging Needs",
+      "detail": "Check your EV's manual or manufacturer's website to determine the battery capacity and charging specifications."
+    },
+    {
+      "title": "Assess Your Home's Electrical System",
+      "detail": "Ensure your home's electrical system can support the charging needs of your EV without overloading circuits."
+    },
+    {
+      "title": "Connect the EV to the Socket",
+      "detail": "Use the appropriate charging cable to connect your EV to the standard outlet, ensuring a secure fit."
+    },
+    {
+      "title": "Monitor Charging Progress",
+      "detail": "Keep track of the charging progress through your vehicle's dashboard or mobile app, if available."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I charge my EV overnight using a normal socket?",
+      "answer": "Yes, charging overnight is common, but ensure your EV has enough time to charge fully based on your daily driving needs."
+    },
+    {
+      "question": "What is the difference between Level 1 and Level 2 charging?",
+      "answer": "Level 1 charging uses a standard 120V outlet, while Level 2 charging uses a 240V outlet, providing faster charging times."
+    },
+    {
+      "question": "Is it safe to charge my EV from a normal socket?",
+      "answer": "Yes, as long as the outlet is in good condition and the electrical system is capable of handling the load, it is safe to charge from a normal socket."
+    }
+  ],
+  "caveats": [
+    "Charging times can vary based on the specific EV model and battery size.",
+    "Not all normal sockets are suitable for EV charging; consult an electrician if unsure."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

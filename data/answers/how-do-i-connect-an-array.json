@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-connect-an-array",
+  "directAnswer": "You can connect arrays using methods like `concat()` in JavaScript or the `+` operator in Python.",
+  "summary": "Connecting arrays can be done using various methods depending on the programming language being used.",
+  "sections": [
+    {
+      "id": "javascript",
+      "heading": "Connecting Arrays in JavaScript",
+      "body": "In JavaScript, use the `concat()` method or the spread operator to combine arrays."
+    },
+    {
+      "id": "python",
+      "heading": "Connecting Arrays in Python",
+      "body": "In Python, you can use the `+` operator or the `extend()` method to connect lists."
+    }
+  ],
+  "steps": [
+    {
+      "title": "JavaScript Example",
+      "detail": "Use `let newArray = array1.concat(array2);` or `let newArray = [...array1, ...array2];`."
+    },
+    {
+      "title": "Python Example",
+      "detail": "Use `new_list = list1 + list2` or `list1.extend(list2)`."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I connect more than two arrays?",
+      "answer": "Yes, you can connect multiple arrays using the same methods; just pass additional arrays as arguments."
+    },
+    {
+      "question": "What happens if the arrays have different data types?",
+      "answer": "The resulting array will contain elements of all types without any issues."
+    },
+    {
+      "question": "Are there performance considerations when connecting large arrays?",
+      "answer": "Yes, be mindful of performance; methods like `concat()` create a new array, which can be memory-intensive for large datasets."
+    }
+  ],
+  "caveats": [
+    "Ensure that the methods used are supported in the version of the language you are using."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-update-my-printer-not-printing",
+  "directAnswer": "To resolve printer issues, ensure your printer drivers are updated and check your printer settings.",
+  "summary": "This guide provides steps to update your printer and troubleshoot printing issues.",
+  "sections": [
+    {
+      "id": "updating-printer-drivers",
+      "heading": "Updating Printer Drivers",
+      "body": "Outdated printer drivers can cause printing issues. Ensure you download the latest drivers from the manufacturer's website."
+    },
+    {
+      "id": "checking-printer-settings",
+      "heading": "Checking Printer Settings",
+      "body": "Verify that your printer is set as the default printer and that the correct paper size and type are selected."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Device Manager (Windows)",
+      "detail": "Right-click on the Start menu, select 'Device Manager', expand 'Printers', right-click your printer, and select 'Update driver'."
+    },
+    {
+      "title": "Update Printer Drivers (Mac)",
+      "detail": "Go to 'System Preferences', select 'Printers & Scanners', select your printer, and click 'Update Driver' if available."
+    },
+    {
+      "title": "Check Default Printer (Windows)",
+      "detail": "Go to 'Settings', select 'Devices', then 'Printers & Scanners', and ensure your printer is set as the default."
+    },
+    {
+      "title": "Check Printer Queue (Mac)",
+      "detail": "Open 'Printers & Scanners' in 'System Preferences', select your printer, and check the print queue for pending jobs."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my printer is still not printing after updating drivers?",
+      "answer": "Try restarting both your printer and computer, and check for any error messages on the printer display."
+    },
+    {
+      "question": "How can I find the correct driver for my printer model?",
+      "answer": "Visit the manufacturer's website, navigate to the support section, and enter your printer model to find the appropriate driver."
+    },
+    {
+      "question": "Is there a way to reset my printer to factory settings?",
+      "answer": "Yes, refer to your printer's user manual for instructions on how to perform a factory reset, as the method can vary by model."
+    }
+  ],
+  "caveats": [
+    "Driver installation procedures may vary by manufacturer and model.",
+    "Ensure your printer is connected to the network or computer before troubleshooting."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for printer troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

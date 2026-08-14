@@ -1,0 +1,73 @@
+{
+  "slug": "how-do-i-update-a-power-supply",
+  "directAnswer": "To update a power supply, you need to replace the old unit with a new one that meets your system's power requirements and is compatible with your hardware.",
+  "summary": "This guide provides steps to safely update your PC's power supply, ensuring compatibility and proper installation.",
+  "sections": [
+    {
+      "id": "compatibility-check",
+      "heading": "Check Compatibility",
+      "body": "Before purchasing a new power supply, ensure it is compatible with your motherboard, GPU, and case size. Check the wattage requirements of your components."
+    },
+    {
+      "id": "removal-process",
+      "heading": "Remove the Old Power Supply",
+      "body": "Power off your PC, unplug it, and carefully disconnect all power cables from the motherboard and components. Unscrew the old power supply from the case."
+    },
+    {
+      "id": "installation-process",
+      "heading": "Install the New Power Supply",
+      "body": "Secure the new power supply in the case, connect the necessary cables to the motherboard and components, and ensure all connections are firm."
+    },
+    {
+      "id": "testing",
+      "heading": "Test the System",
+      "body": "After installation, power on your PC to ensure it boots correctly and all components are receiving power."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Off and Unplug",
+      "detail": "Shut down your PC and unplug it from the wall outlet."
+    },
+    {
+      "title": "Disconnect Cables",
+      "detail": "Remove all power cables connected to the motherboard and peripherals."
+    },
+    {
+      "title": "Unscrew and Remove",
+      "detail": "Unscrew the old power supply from the case and carefully remove it."
+    },
+    {
+      "title": "Install New Power Supply",
+      "detail": "Place the new power supply in the same position, secure it with screws, and reconnect all power cables."
+    },
+    {
+      "title": "Power On and Test",
+      "detail": "Plug in your PC and turn it on to verify that everything is functioning correctly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What wattage should my new power supply have?",
+      "answer": "Choose a power supply with a wattage that exceeds the total wattage of your components by at least 20%."
+    },
+    {
+      "question": "Can I use a power supply from a different brand?",
+      "answer": "Yes, as long as it meets the required specifications and connectors for your system."
+    },
+    {
+      "question": "Is it safe to install a power supply myself?",
+      "answer": "Yes, as long as you follow safety precautions and ensure the power is off during installation."
+    }
+  ],
+  "caveats": [
+    "Ensure to ground yourself to avoid static damage to components.",
+    "Be cautious of the power supply's dimensions to fit your case."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for power supply installation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

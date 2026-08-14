@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-use-a-public-ip-address",
+  "directAnswer": "To use a public IP address, configure your device's network settings to connect directly to the internet or set up port forwarding on your router for specific applications.",
+  "summary": "This guide provides steps for utilizing a public IP address for direct internet access and application hosting.",
+  "sections": [
+    {
+      "id": "understanding-public-ip",
+      "heading": "Understanding Public IP Addresses",
+      "body": "A public IP address is assigned to your network by your Internet Service Provider (ISP) and is accessible over the internet. It allows devices on your network to communicate with external networks."
+    },
+    {
+      "id": "configuring-network-settings",
+      "heading": "Configuring Network Settings",
+      "body": "To use a public IP address, you may need to adjust your device's network settings or configure your router."
+    },
+    {
+      "id": "port-forwarding",
+      "heading": "Setting Up Port Forwarding",
+      "body": "Port forwarding allows external devices to access services on your local network via your public IP address."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Your Public IP Address",
+      "detail": "Visit a website like 'whatismyip.com' to find your public IP address."
+    },
+    {
+      "title": "Configure Device Network Settings",
+      "detail": "On Windows, go to Settings > Network & Internet > Status > Change adapter options. Right-click your network connection, select Properties, then Internet Protocol Version 4 (TCP/IPv4) and enter your public IP settings."
+    },
+    {
+      "title": "Set Up Port Forwarding",
+      "detail": "Access your router's settings (usually at 192.168.1.1 or 192.168.0.1). Look for 'Port Forwarding' under the Advanced settings and create a new rule for the desired port."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between public and private IP addresses?",
+      "answer": "Public IP addresses are accessible over the internet, while private IP addresses are used within a local network and are not routable on the internet."
+    },
+    {
+      "question": "Can I change my public IP address?",
+      "answer": "Yes, you can change your public IP address by resetting your modem or router, or by contacting your ISP for a new assignment."
+    },
+    {
+      "question": "Is using a public IP address secure?",
+      "answer": "Using a public IP address can expose your device to security risks. It's recommended to use a firewall and other security measures."
+    }
+  ],
+  "caveats": [
+    "Ensure your ISP allows the use of public IP addresses for your account.",
+    "Using a public IP address may expose your network to security vulnerabilities."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for securing a public IP address"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

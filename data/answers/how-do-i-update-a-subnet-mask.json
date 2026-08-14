@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-subnet-mask",
+  "directAnswer": "To update a subnet mask, access your network settings and modify the subnet mask field according to your network configuration.",
+  "summary": "Updating a subnet mask is essential for proper network segmentation and communication. Follow the steps below based on your operating system.",
+  "sections": [
+    {
+      "id": "windows-settings",
+      "heading": "Updating Subnet Mask on Windows",
+      "body": "1. Open Control Panel > Network and Sharing Center. 2. Click on 'Change adapter settings.' 3. Right-click your network connection and select 'Properties.' 4. Select 'Internet Protocol Version 4 (TCP/IPv4)' and click 'Properties.' 5. Enter the new subnet mask in the 'Subnet mask' field."
+    },
+    {
+      "id": "mac-settings",
+      "heading": "Updating Subnet Mask on macOS",
+      "body": "1. Open System Preferences > Network. 2. Select your network interface (e.g., Wi-Fi or Ethernet). 3. Click 'Advanced' and go to the 'TCP/IP' tab. 4. Change the subnet mask in the 'Subnet Mask' field."
+    },
+    {
+      "id": "router-settings",
+      "heading": "Updating Subnet Mask on a Router",
+      "body": "1. Access your router's web interface (usually via 192.168.1.1 or 192.168.0.1). 2. Log in with your credentials. 3. Navigate to the LAN settings section. 4. Update the subnet mask in the appropriate field and save changes."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Network Settings",
+      "detail": "Open the network settings on your device, either through Control Panel, System Preferences, or your router's web interface."
+    },
+    {
+      "title": "Locate Subnet Mask Field",
+      "detail": "Find the field labeled 'Subnet Mask' in the network configuration settings."
+    },
+    {
+      "title": "Enter New Subnet Mask",
+      "detail": "Input the new subnet mask that corresponds to your network requirements."
+    },
+    {
+      "title": "Save Changes",
+      "detail": "Ensure to save or apply the changes to update the subnet mask."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a subnet mask?",
+      "answer": "A subnet mask is a 32-bit number that divides an IP address into network and host portions, defining the size of the subnet."
+    },
+    {
+      "question": "How do I know what subnet mask to use?",
+      "answer": "The subnet mask depends on your network configuration. Common subnet masks include 255.255.255.0 for small networks."
+    },
+    {
+      "question": "Will changing the subnet mask affect my network connectivity?",
+      "answer": "Yes, changing the subnet mask can impact connectivity. Ensure the new mask is compatible with your existing network setup."
+    }
+  ],
+  "caveats": [
+    "Ensure that the new subnet mask does not conflict with existing devices on the network.",
+    "Changes may require restarting the network interface or device to take effect."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for network configuration"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

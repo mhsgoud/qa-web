@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-test-a-git-merge",
+  "directAnswer": "To test a Git merge, create a new branch from your target branch, perform the merge, and run your tests to ensure everything works as expected.",
+  "summary": "Testing a Git merge is crucial to ensure that new changes integrate smoothly without introducing errors.",
+  "sections": [
+    {
+      "id": "preparation",
+      "heading": "Preparation",
+      "body": "Before testing a merge, ensure that your local repository is up-to-date and that you have a clear understanding of the changes being merged."
+    },
+    {
+      "id": "merging",
+      "heading": "Merging Changes",
+      "body": "Use the command `git merge <branch-name>` to merge the desired branch into your current branch. Resolve any conflicts that arise during the merge process."
+    },
+    {
+      "id": "testing",
+      "heading": "Running Tests",
+      "body": "After merging, run your project's test suite to check for any issues. This can include unit tests, integration tests, or manual testing."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Update Your Local Repository",
+      "detail": "Run `git fetch` and `git pull` to ensure you have the latest changes from the remote repository."
+    },
+    {
+      "title": "Create a New Branch",
+      "detail": "Create a new branch from your target branch using `git checkout -b test-merge-branch`."
+    },
+    {
+      "title": "Merge the Branch",
+      "detail": "Execute `git merge <branch-name>` to merge the changes. Resolve any conflicts if necessary."
+    },
+    {
+      "title": "Run Tests",
+      "detail": "Run your tests using the appropriate command for your project (e.g., `npm test`, `pytest`, etc.) to verify the merge."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if there are merge conflicts?",
+      "answer": "Resolve the conflicts manually in the affected files, then stage the resolved files with `git add` and complete the merge with `git commit`."
+    },
+    {
+      "question": "Can I test a merge without committing?",
+      "answer": "Yes, you can use `git merge --no-commit <branch-name>` to perform the merge without automatically creating a commit."
+    },
+    {
+      "question": "How can I undo a merge if something goes wrong?",
+      "answer": "You can use `git merge --abort` to stop the merge process and return to the state before the merge."
+    }
+  ],
+  "caveats": [
+    "Testing a merge is only as effective as the test suite you run; ensure your tests cover all critical paths."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for pre-merge testing"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-test-a-pull-request",
+  "directAnswer": "To test a pull request, you need to check out the branch associated with the pull request and run the application locally to verify the changes.",
+  "summary": "Testing a pull request ensures that the proposed changes work as intended and do not introduce new issues.",
+  "sections": [
+    {
+      "id": "understanding-pull-requests",
+      "heading": "Understanding Pull Requests",
+      "body": "A pull request is a request to merge code changes from one branch to another. Testing these changes helps maintain code quality."
+    },
+    {
+      "id": "testing-steps",
+      "heading": "Testing Steps",
+      "body": "Follow these steps to test a pull request effectively."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Out the Pull Request Branch",
+      "detail": "Use the command `git fetch origin pull/{PR_NUMBER}/head:pr-{PR_NUMBER}` to fetch the pull request branch. Replace `{PR_NUMBER}` with the actual number of the pull request."
+    },
+    {
+      "title": "Switch to the Pull Request Branch",
+      "detail": "Run `git checkout pr-{PR_NUMBER}` to switch to the branch you just fetched."
+    },
+    {
+      "title": "Run the Application",
+      "detail": "Start your application locally using the appropriate command (e.g., `npm start`, `rails server`, etc.) to test the changes."
+    },
+    {
+      "title": "Review Changes",
+      "detail": "Manually test the features or changes introduced in the pull request and check for any issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I encounter merge conflicts?",
+      "answer": "You will need to resolve merge conflicts before you can successfully test the pull request. Use `git merge` to address conflicts."
+    },
+    {
+      "question": "How can I automate testing for pull requests?",
+      "answer": "Consider using Continuous Integration (CI) tools like Travis CI or GitHub Actions to run automated tests on pull requests."
+    },
+    {
+      "question": "Is it necessary to run tests for every pull request?",
+      "answer": "Yes, running tests for every pull request helps ensure that new changes do not break existing functionality."
+    }
+  ],
+  "caveats": [
+    "Ensure you have the correct permissions to fetch and test the pull request.",
+    "Testing may vary based on the project's specific setup and dependencies."
+  ],
+  "relatedToolIdeas": [
+    "Integrate CI/CD tools for automated testing.",
+    "Create a checklist for manual testing of pull requests."
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

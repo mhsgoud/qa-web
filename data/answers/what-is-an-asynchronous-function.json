@@ -1,0 +1,59 @@
+{
+  "slug": "what-is-an-asynchronous-function",
+  "directAnswer": "An asynchronous function allows for non-blocking operations, enabling other code to run while waiting for a task to complete, such as fetching data from a server.",
+  "summary": "Asynchronous functions are a key feature in modern programming, particularly in JavaScript, allowing for more efficient execution of code by handling operations that take time without freezing the application.",
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "Definition",
+      "body": "Asynchronous functions are functions that return a promise and can pause execution until the promise is resolved, allowing for other operations to continue in the meantime."
+    },
+    {
+      "id": "usage",
+      "heading": "Usage in JavaScript",
+      "body": "In JavaScript, the 'async' keyword is used to define an asynchronous function, and the 'await' keyword is used within it to pause execution until a promise is settled."
+    },
+    {
+      "id": "error-handling",
+      "heading": "Error Handling",
+      "body": "When using asynchronous functions, it's important to handle errors properly, typically using try-catch blocks or the .catch() method on promises."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Define an Asynchronous Function",
+      "detail": "Use the 'async' keyword before the function declaration. Example: async function fetchData() { ... }."
+    },
+    {
+      "title": "Use Await",
+      "detail": "Inside the async function, use 'await' before a promise to pause execution until the promise resolves. Example: const data = await fetch(url);"
+    },
+    {
+      "title": "Error Handling",
+      "detail": "Wrap your await calls in a try-catch block to handle potential errors. Example: try { const data = await fetch(url); } catch (error) { console.error(error); }."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between synchronous and asynchronous functions?",
+      "answer": "Synchronous functions block the execution of code until they complete, while asynchronous functions allow other code to run while waiting for a task to finish."
+    },
+    {
+      "question": "Can I use asynchronous functions in all JavaScript environments?",
+      "answer": "Asynchronous functions are supported in modern browsers and Node.js. However, older environments may not support them without transpilation."
+    },
+    {
+      "question": "What happens if I forget to use 'await' in an async function?",
+      "answer": "If 'await' is omitted, the function will return a promise immediately, and the subsequent code may execute before the promise resolves, potentially leading to unexpected behavior."
+    }
+  ],
+  "caveats": [
+    "Asynchronous functions can lead to complex control flows, which may be difficult to manage if not handled carefully."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for using async/await"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

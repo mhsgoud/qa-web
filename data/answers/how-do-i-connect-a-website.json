@@ -1,0 +1,65 @@
+{
+  "slug": "how-do-i-connect-a-website",
+  "directAnswer": "To connect a website, you typically need to link a domain name to a web hosting service, which can be done through DNS settings.",
+  "summary": "Connecting a website involves linking your domain to a hosting service and configuring DNS settings appropriately.",
+  "sections": [
+    {
+      "id": "domain-setup",
+      "heading": "Setting Up Your Domain",
+      "body": "First, purchase a domain name from a registrar. After acquiring the domain, you will need to set the nameservers to point to your web hosting provider."
+    },
+    {
+      "id": "hosting-configuration",
+      "heading": "Configuring Your Hosting Account",
+      "body": "Log into your web hosting account and find the section for adding a new domain. Follow the prompts to link your domain to your hosting account."
+    },
+    {
+      "id": "dns-settings",
+      "heading": "Updating DNS Settings",
+      "body": "Access your domain registrar's DNS management panel. Update the A record to point to your hosting provider's IP address and ensure the nameservers are correctly set."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Purchase a Domain",
+      "detail": "Select a domain name and register it through a domain registrar like GoDaddy or Namecheap."
+    },
+    {
+      "title": "Log into Your Hosting Account",
+      "detail": "Access your web hosting control panel (e.g., cPanel, Plesk) and navigate to the 'Domains' section."
+    },
+    {
+      "title": "Link the Domain",
+      "detail": "Use the option to add a new domain and follow the prompts to link it to your hosting account."
+    },
+    {
+      "title": "Update DNS Records",
+      "detail": "In your domain registrar's settings, update the A record to your hosting provider's IP address and ensure nameservers are set as required."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does it take for DNS changes to take effect?",
+      "answer": "DNS changes can take anywhere from a few minutes to 48 hours to propagate globally."
+    },
+    {
+      "question": "What if I have multiple domains?",
+      "answer": "You can link multiple domains to a single hosting account, but you may need to configure each domain separately in your hosting panel."
+    },
+    {
+      "question": "Can I connect my website without a domain?",
+      "answer": "You can access your website using the temporary URL provided by your hosting service, but a domain name is recommended for public access."
+    }
+  ],
+  "caveats": [
+    "Ensure your domain registrar and hosting provider support the necessary DNS configurations.",
+    "Check for any additional fees associated with domain linking or hosting services."
+  ],
+  "relatedToolIdeas": [
+    "Domain registration tools",
+    "DNS management tools",
+    "Web hosting comparison tools"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

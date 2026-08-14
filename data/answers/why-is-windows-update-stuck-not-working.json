@@ -1,0 +1,57 @@
+{
+  "slug": "why-is-windows-update-stuck-not-working",
+  "directAnswer": "Windows Update may be stuck due to corrupted files, insufficient disk space, or network issues. Troubleshooting these areas can help resolve the problem.",
+  "summary": "If Windows Update is not progressing, it could be due to various factors including system errors or connectivity issues. Follow the steps below to troubleshoot.",
+  "sections": [
+    {
+      "id": "common-causes",
+      "heading": "Common Causes of Windows Update Issues",
+      "body": "Windows Update can get stuck for several reasons, including corrupted update files, lack of disk space, or issues with the Windows Update service itself."
+    },
+    {
+      "id": "troubleshooting-steps",
+      "heading": "Troubleshooting Steps",
+      "body": "Follow these steps to troubleshoot and potentially resolve the issue with Windows Update."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Disk Space",
+      "detail": "Ensure that you have enough free disk space on your system drive. Windows updates require sufficient space to download and install."
+    },
+    {
+      "title": "Restart Windows Update Service",
+      "detail": "Open the Run dialog (Win + R), type 'services.msc', find 'Windows Update', right-click and select 'Restart'."
+    },
+    {
+      "title": "Run Windows Update Troubleshooter",
+      "detail": "Go to Settings > Update & Security > Troubleshoot > Additional troubleshooters > Windows Update and run the troubleshooter."
+    },
+    {
+      "title": "Clear Update Cache",
+      "detail": "Stop the Windows Update service, navigate to C:\\Windows\\SoftwareDistribution\\Download, delete all files, and then restart the service."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if Windows Update fails with an error code?",
+      "answer": "Look up the specific error code on Microsoft's support site for tailored troubleshooting steps."
+    },
+    {
+      "question": "Can I manually download updates?",
+      "answer": "Yes, you can manually download updates from the Microsoft Update Catalog website if automatic updates are not working."
+    },
+    {
+      "question": "How long should Windows Update take?",
+      "answer": "While it varies, updates typically take anywhere from a few minutes to a couple of hours, depending on the size and your system's performance."
+    }
+  ],
+  "caveats": [
+    "Some steps may vary slightly depending on your version of Windows (e.g., Windows 10 vs. Windows 11)."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

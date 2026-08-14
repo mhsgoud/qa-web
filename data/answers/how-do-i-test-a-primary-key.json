@@ -1,0 +1,56 @@
+{
+  "slug": "how-do-i-test-a-primary-key",
+  "directAnswer": "To test a primary key, you can attempt to insert duplicate values or NULL values into the primary key column and check for errors. This ensures that the primary key constraints are enforced correctly.",
+  "summary": "Testing a primary key involves validating that it uniquely identifies records and does not allow duplicates or NULL values.",
+  "sections": [
+    {
+      "id": "understanding-primary-keys",
+      "heading": "Understanding Primary Keys",
+      "body": "A primary key is a unique identifier for a record in a database table. It must contain unique values and cannot contain NULLs."
+    },
+    {
+      "id": "testing-methods",
+      "heading": "Testing Methods",
+      "body": "You can test a primary key by executing SQL commands to insert duplicate or NULL values, and observing the response from the database."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Steps may vary based on the database management system (DBMS) you are using. Below are examples for MySQL and PostgreSQL."
+    }
+  ],
+  "steps": [
+    {
+      "title": "MySQL",
+      "detail": "Use the command: INSERT INTO table_name (primary_key_column) VALUES (duplicate_value); and check for error messages."
+    },
+    {
+      "title": "PostgreSQL",
+      "detail": "Execute: INSERT INTO table_name (primary_key_column) VALUES (NULL); to see if it raises an error."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I try to insert a duplicate primary key?",
+      "answer": "The database will throw an error indicating that the primary key constraint has been violated."
+    },
+    {
+      "question": "Can a primary key be composite?",
+      "answer": "Yes, a primary key can consist of multiple columns, known as a composite key, as long as the combination of values is unique."
+    },
+    {
+      "question": "How do I identify primary keys in my database?",
+      "answer": "You can identify primary keys by checking the table schema or using commands like 'SHOW KEYS FROM table_name;' in MySQL."
+    }
+  ],
+  "caveats": [
+    "Ensure you have the right permissions to perform insert operations on the database.",
+    "Testing on a production database may lead to data integrity issues; use a test environment."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for database integrity testing"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

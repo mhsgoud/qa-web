@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-test-a-type-2-charging-connector",
+  "directAnswer": "To test a Type 2 charging connector, use a multimeter to measure the continuity and voltage of the pins. Ensure the connector is properly connected to a power source during testing.",
+  "summary": "Testing a Type 2 charging connector requires specific tools and methods to ensure it is functioning correctly and safely.",
+  "sections": [
+    {
+      "id": "understanding-type-2-connector",
+      "heading": "Understanding the Type 2 Connector",
+      "body": "The Type 2 connector is commonly used for electric vehicle charging in Europe. It features multiple pins for power and communication, making it essential to test both functionality and safety."
+    },
+    {
+      "id": "required-tools",
+      "heading": "Required Tools",
+      "body": "You will need a multimeter to measure voltage and continuity, and optionally a USB-C/charger compatibility checker to ensure compatibility with charging stations."
+    },
+    {
+      "id": "testing-process",
+      "heading": "Testing Process",
+      "body": "Follow the steps outlined below to effectively test the Type 2 connector."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Set Up Multimeter",
+      "detail": "Configure your multimeter to the continuity setting to check for proper connections between the pins."
+    },
+    {
+      "title": "Check Continuity",
+      "detail": "Insert the multimeter probes into the corresponding pins of the Type 2 connector. A beep indicates continuity."
+    },
+    {
+      "title": "Measure Voltage",
+      "detail": "Switch the multimeter to the voltage setting and connect the Type 2 connector to a power source. Measure the voltage across the power pins."
+    },
+    {
+      "title": "Inspect Physical Condition",
+      "detail": "Visually inspect the connector for any signs of wear, damage, or corrosion that may affect performance."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if there is no continuity?",
+      "answer": "If there is no continuity, the connector may be damaged or improperly wired. Consider replacing it or consulting a professional."
+    },
+    {
+      "question": "How can I ensure my multimeter is functioning correctly?",
+      "answer": "Test the multimeter on a known good circuit to verify its accuracy before testing the Type 2 connector."
+    },
+    {
+      "question": "Can I test the connector without a power source?",
+      "answer": "Yes, you can check for continuity without a power source, but voltage measurements require the connector to be connected to power."
+    }
+  ],
+  "caveats": [
+    "Ensure safety precautions are followed when working with electrical components.",
+    "Testing procedures may vary based on the specific model of the Type 2 connector."
+  ],
+  "relatedToolIdeas": [
+    "USB-C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

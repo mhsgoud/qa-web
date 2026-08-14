@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-set-up-a-smart-home",
+  "directAnswer": "To set up a smart home, start by choosing a central hub or platform, then select compatible smart devices like lights, thermostats, and security cameras, and connect them to your network.",
+  "summary": "Setting up a smart home involves selecting a hub, choosing compatible devices, and configuring them for automation and control.",
+  "sections": [
+    {
+      "id": "choosing-a-hub",
+      "heading": "Choosing a Smart Home Hub",
+      "body": "Select a hub that supports the devices you want. Popular options include Amazon Alexa, Google Home, and Apple HomeKit. Ensure the hub is compatible with your chosen devices."
+    },
+    {
+      "id": "selecting-devices",
+      "heading": "Selecting Smart Devices",
+      "body": "Choose devices that fit your needs, such as smart bulbs, locks, and cameras. Check for compatibility with your hub and read reviews to ensure reliability."
+    },
+    {
+      "id": "configuring-devices",
+      "heading": "Configuring Your Devices",
+      "body": "Follow the manufacturer's instructions to connect each device to your hub. Use the respective app to configure settings, create routines, and manage automation."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Research and Select a Hub",
+      "detail": "Investigate different smart home hubs and choose one that fits your ecosystem (e.g., Amazon Alexa for Echo devices, Google Home for Nest products)."
+    },
+    {
+      "title": "Purchase Compatible Devices",
+      "detail": "Buy devices that are compatible with your chosen hub. Look for labels indicating compatibility with your hub's ecosystem."
+    },
+    {
+      "title": "Install and Connect Devices",
+      "detail": "Install each device as per the manufacturer's instructions, then connect them to your hub using the corresponding app."
+    },
+    {
+      "title": "Set Up Automations",
+      "detail": "Use your hub's app to create automations and routines, such as scheduling lights to turn on at sunset."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What devices should I start with for my smart home?",
+      "answer": "Begin with essential devices like smart bulbs, a smart thermostat, and a smart speaker for voice control."
+    },
+    {
+      "question": "Can I use multiple brands of devices in my smart home?",
+      "answer": "Yes, as long as they are compatible with your chosen hub. Check compatibility before purchasing."
+    },
+    {
+      "question": "Is a smart home hub necessary?",
+      "answer": "While not strictly necessary, a hub simplifies control and automation of multiple devices from different brands."
+    }
+  ],
+  "caveats": [
+    "Compatibility issues may arise if devices are from different manufacturers; always check for hub compatibility."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for smart home setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

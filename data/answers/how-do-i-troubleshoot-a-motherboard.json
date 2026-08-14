@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-troubleshoot-a-motherboard",
+  "directAnswer": "Start by checking power connections and reseating components. If issues persist, test with minimal hardware to isolate the problem.",
+  "summary": "Troubleshooting a motherboard involves checking connections, testing components, and ensuring proper functionality. Follow these steps to identify potential issues.",
+  "sections": [
+    {
+      "id": "power-connection-check",
+      "heading": "Check Power Connections",
+      "body": "Ensure that all power connectors, including the 24-pin ATX and 4/8-pin CPU connectors, are securely attached to the motherboard."
+    },
+    {
+      "id": "component-reseating",
+      "heading": "Reseat Components",
+      "body": "Remove and reseat RAM, CPU, and any expansion cards. This can resolve issues caused by poor connections."
+    },
+    {
+      "id": "minimal-hardware-test",
+      "heading": "Perform a Minimal Hardware Test",
+      "body": "Disconnect all non-essential components and peripherals. Boot the system with only the CPU, one stick of RAM, and integrated graphics (if available) to see if it powers on."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Inspect Physical Connections",
+      "detail": "Visually inspect all cables and connectors for damage or looseness. Ensure that the power supply is functioning."
+    },
+    {
+      "title": "Clear CMOS",
+      "detail": "Reset the motherboard BIOS by clearing the CMOS. This can often resolve boot issues. Refer to your motherboard manual for specific instructions."
+    },
+    {
+      "title": "Test with a Different Power Supply",
+      "detail": "If the motherboard does not power on, consider testing with a different power supply to rule out power issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What symptoms indicate a motherboard issue?",
+      "answer": "Common symptoms include no power, random restarts, failure to boot, or beeping sounds during startup."
+    },
+    {
+      "question": "How can I tell if my motherboard is dead?",
+      "answer": "If the motherboard shows no signs of power, even after checking connections and using a different power supply, it may be dead."
+    },
+    {
+      "question": "Can I test a motherboard outside of the case?",
+      "answer": "Yes, testing the motherboard outside of the case can help eliminate grounding issues and confirm functionality."
+    }
+  ],
+  "caveats": [
+    "Always ensure the system is powered off and unplugged before working on hardware.",
+    "Motherboard troubleshooting can vary significantly based on the make and model."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

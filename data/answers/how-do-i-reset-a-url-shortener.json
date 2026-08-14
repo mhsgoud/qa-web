@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-reset-a-url-shortener",
+  "directAnswer": "To reset a URL shortener, you typically need to delete the existing shortened URL and create a new one with the same destination link. The exact steps may vary depending on the service you use.",
+  "summary": "Resetting a URL shortener involves deleting the current shortened link and generating a new one, which can differ across platforms.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Resetting a URL shortener allows you to create a new shortened link for the same destination, which can be useful for tracking or updating links."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset a URL shortener can differ based on the service used. Below are common platforms:"
+    },
+    {
+      "id": "general-caveats",
+      "heading": "Caveats",
+      "body": "Be aware that once you delete a shortened URL, it may not be recoverable, and any existing links pointing to it will no longer work."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Your URL Shortener Account",
+      "detail": "Log in to the account associated with the URL shortener service you are using."
+    },
+    {
+      "title": "Locate the Shortened URL",
+      "detail": "Find the specific shortened URL you wish to reset in your dashboard or link management section."
+    },
+    {
+      "title": "Delete the Existing Shortened URL",
+      "detail": "Select the option to delete or remove the shortened URL. This option may vary by platform."
+    },
+    {
+      "title": "Create a New Shortened URL",
+      "detail": "Input the original long URL and generate a new shortened link. Ensure to save it for future use."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I recover a deleted shortened URL?",
+      "answer": "Most URL shortener services do not allow recovery of deleted links, so ensure you have a backup if needed."
+    },
+    {
+      "question": "Will resetting a URL affect its analytics?",
+      "answer": "Yes, creating a new shortened URL will reset any tracking or analytics associated with the previous link."
+    },
+    {
+      "question": "Are there any limits to how many times I can reset a URL?",
+      "answer": "Some services may impose limits on the number of times you can create or delete shortened URLs, so check the service's policy."
+    }
+  ],
+  "caveats": [
+    "Deleting a shortened URL may result in loss of tracking data.",
+    "Some services may have restrictions on the frequency of URL resets."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for managing shortened URLs"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

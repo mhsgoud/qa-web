@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-check-cloud-storage-private",
+  "directAnswer": "To check the privacy settings of your cloud storage, access the settings or account management section of your provider's interface and review the sharing and privacy options.",
+  "summary": "Understanding how to check the privacy settings of your cloud storage is crucial for ensuring your data is secure.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Cloud Storage Privacy",
+      "body": "Cloud storage privacy settings allow you to control who can access your files. Each provider has different interfaces and options."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Follow these steps based on your cloud storage provider."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Drive",
+      "detail": "1. Open Google Drive. 2. Right-click on the file or folder and select 'Share'. 3. Check the 'Get Link' section to see who has access."
+    },
+    {
+      "title": "Dropbox",
+      "detail": "1. Open Dropbox. 2. Click on the file or folder. 3. Select 'Share' and review the permissions in the pop-up window."
+    },
+    {
+      "title": "OneDrive",
+      "detail": "1. Open OneDrive. 2. Right-click on the item and select 'Manage Access'. 3. Review the sharing settings displayed."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I make my cloud storage completely private?",
+      "answer": "Yes, you can set files and folders to private by adjusting the sharing settings to restrict access to only yourself."
+    },
+    {
+      "question": "What happens if I change the privacy settings?",
+      "answer": "Changing privacy settings may revoke access for others or allow new users to view your files, depending on your adjustments."
+    },
+    {
+      "question": "How do I know if my files are shared?",
+      "answer": "Most cloud storage platforms will indicate shared files with an icon or a notification in the sharing settings."
+    }
+  ],
+  "caveats": [
+    "Privacy settings may vary by version and updates of each cloud storage platform.",
+    "Some features may require a premium subscription."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

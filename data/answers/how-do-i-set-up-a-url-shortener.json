@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-url-shortener",
+  "directAnswer": "To set up a URL shortener, choose a service like Bitly or TinyURL, create an account, and follow the prompts to shorten your desired URLs.",
+  "summary": "This guide provides steps to set up a URL shortener using popular services.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "URL shorteners convert long URLs into shorter, more manageable links, making them easier to share."
+    },
+    {
+      "id": "choosing-a-service",
+      "heading": "Choosing a Service",
+      "body": "Popular URL shortening services include Bitly, TinyURL, and Rebrandly. Each offers different features, such as link tracking and customization."
+    },
+    {
+      "id": "creating-an-account",
+      "heading": "Creating an Account",
+      "body": "Most URL shorteners require you to create an account to access advanced features. Sign up with your email and verify your account."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Sign Up for a Service",
+      "detail": "Visit the website of your chosen URL shortener (e.g., Bitly.com), click on 'Sign Up', and follow the registration process."
+    },
+    {
+      "title": "Shorten a URL",
+      "detail": "Once logged in, paste your long URL into the provided field and click 'Shorten'. The shortened link will be generated instantly."
+    },
+    {
+      "title": "Customize Your Link (Optional)",
+      "detail": "Some services allow you to customize the shortened link. Look for an option to edit the URL slug before finalizing."
+    },
+    {
+      "title": "Share Your Shortened URL",
+      "detail": "Copy the shortened URL and share it via email, social media, or any other platform."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I track the clicks on my shortened URL?",
+      "answer": "Yes, most services like Bitly offer analytics to track how many times your shortened URL has been clicked."
+    },
+    {
+      "question": "Are there any limits on the number of URLs I can shorten?",
+      "answer": "Many services have free plans with limits on the number of links, while paid plans usually offer unlimited shortening."
+    },
+    {
+      "question": "What happens if I delete a shortened URL?",
+      "answer": "Deleting a shortened URL will make it inaccessible, and anyone trying to use it will receive an error."
+    }
+  ],
+  "caveats": [
+    "Some URL shorteners may have expiration dates for links on free accounts.",
+    "Customization options may vary by service and account type."
+  ],
+  "relatedToolIdeas": [
+    "Q&A cluster on URL management",
+    "Checklist for effective URL sharing"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-set-up-an-ev-charge",
+  "directAnswer": "To set up an EV charge, you need to install a compatible home charging station and ensure your electrical system can support it.",
+  "summary": "Setting up an EV charge involves selecting the right charger, ensuring proper electrical capacity, and following installation guidelines.",
+  "sections": [
+    {
+      "id": "charger-selection",
+      "heading": "Choosing the Right Charger",
+      "body": "Select a Level 2 home charger that is compatible with your electric vehicle. Consider factors such as charging speed, installation requirements, and smart features."
+    },
+    {
+      "id": "installation-process",
+      "heading": "Installation Process",
+      "body": "Hire a licensed electrician to install the charging station. Ensure they check your home’s electrical capacity and comply with local codes."
+    },
+    {
+      "id": "usage-tips",
+      "heading": "Using Your Charger",
+      "body": "Once installed, plug in your EV and follow the charger’s instructions. Monitor charging times and settings through any connected app if available."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Assess Electrical Capacity",
+      "detail": "Check your home's electrical panel to ensure it can handle the additional load of the EV charger."
+    },
+    {
+      "title": "Select and Purchase Charger",
+      "detail": "Choose a Level 2 charger based on compatibility with your EV and desired features."
+    },
+    {
+      "title": "Hire an Electrician",
+      "detail": "Find a licensed electrician to install the charger, ensuring compliance with local building codes."
+    },
+    {
+      "title": "Connect and Test Charger",
+      "detail": "Once installed, connect your EV to the charger and test it to ensure it is functioning properly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What type of charger do I need for my EV?",
+      "answer": "Most EVs benefit from a Level 2 charger for faster charging. Check your vehicle's specifications for compatibility."
+    },
+    {
+      "question": "Can I install an EV charger myself?",
+      "answer": "It is recommended to hire a licensed electrician for installation to ensure safety and compliance with local regulations."
+    },
+    {
+      "question": "How long does it take to charge an EV at home?",
+      "answer": "Charging time varies by vehicle and charger type, but a Level 2 charger typically charges an EV in 4-8 hours."
+    }
+  ],
+  "caveats": [
+    "Installation costs can vary significantly based on local labor rates and electrical upgrades needed.",
+    "Ensure that your home’s electrical system is up to code to avoid safety hazards."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-mailing-list",
+  "directAnswer": "To set up a mailing list, choose an email marketing service, create an account, and follow their setup process to create your list and add subscribers.",
+  "summary": "This guide provides steps to create a mailing list using popular email marketing platforms.",
+  "sections": [
+    {
+      "id": "choosing-a-platform",
+      "heading": "Choosing an Email Marketing Platform",
+      "body": "Select a platform that fits your needs, such as Mailchimp, Constant Contact, or Sendinblue. Each has different features and pricing."
+    },
+    {
+      "id": "creating-your-list",
+      "heading": "Creating Your Mailing List",
+      "body": "Once you've chosen a platform, navigate to the lists section and create a new list. You will need to provide a name and description."
+    },
+    {
+      "id": "adding-subscribers",
+      "heading": "Adding Subscribers",
+      "body": "You can manually add subscribers or import them from a CSV file. Ensure you have permission from your subscribers to comply with anti-spam laws."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Sign Up for an Email Marketing Service",
+      "detail": "Visit the website of your chosen email marketing service and create an account."
+    },
+    {
+      "title": "Create a New Mailing List",
+      "detail": "In the dashboard, find the 'Lists' or 'Audience' section, and select 'Create New List' or similar options."
+    },
+    {
+      "title": "Customize Your List Settings",
+      "detail": "Fill in the required fields such as list name, description, and sender information."
+    },
+    {
+      "title": "Import or Add Subscribers",
+      "detail": "Use the import feature to add existing contacts or manually enter new subscribers."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What information do I need to collect from subscribers?",
+      "answer": "Typically, you should collect at least the subscriber's email address and may also ask for their name or preferences."
+    },
+    {
+      "question": "How can I ensure my emails don't go to spam?",
+      "answer": "Use a verified domain, avoid spammy language, and encourage subscribers to whitelist your email address."
+    },
+    {
+      "question": "Can I segment my mailing list?",
+      "answer": "Yes, most email marketing platforms allow you to segment your list based on various criteria, such as demographics or engagement."
+    }
+  ],
+  "caveats": [
+    "Ensure compliance with GDPR and other data protection regulations when collecting subscriber information.",
+    "Some platforms may have different steps or terminology, so refer to their specific documentation."
+  ],
+  "relatedToolIdeas": [
+    "Email Marketing Analytics Tool",
+    "Subscriber Management Checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

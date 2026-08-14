@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-check-a-primary-key",
+  "directAnswer": "To check a primary key, you can use SQL queries to inspect the table schema or utilize database management tools that display key constraints.",
+  "summary": "This guide provides steps to check primary keys in various database systems and offers additional information on related topics.",
+  "sections": [
+    {
+      "id": "sql-queries",
+      "heading": "Using SQL Queries",
+      "body": "You can run specific SQL commands to determine the primary key of a table. For example, in MySQL, you can use 'SHOW KEYS FROM table_name WHERE Key_name = 'PRIMARY''."
+    },
+    {
+      "id": "database-tools",
+      "heading": "Using Database Management Tools",
+      "body": "Most database management tools like phpMyAdmin, SQL Server Management Studio, or pgAdmin provide a graphical interface to view table structures, including primary keys."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using SQL in MySQL",
+      "detail": "Execute 'SHOW KEYS FROM table_name WHERE Key_name = 'PRIMARY';' to find the primary key."
+    },
+    {
+      "title": "Using SQL in PostgreSQL",
+      "detail": "Run 'SELECT * FROM information_schema.table_constraints WHERE table_name = 'your_table' AND constraint_type = 'PRIMARY KEY';'."
+    },
+    {
+      "title": "Using SQL in SQL Server",
+      "detail": "Use 'SELECT * FROM sys.key_constraints WHERE type = 'PK' AND parent_object_id = OBJECT_ID('your_table');'."
+    },
+    {
+      "title": "Using phpMyAdmin",
+      "detail": "Navigate to the table structure view, and primary keys will be indicated in the 'Indexes' section."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a primary key?",
+      "answer": "A primary key is a unique identifier for a record in a database table, ensuring that no two rows have the same key value."
+    },
+    {
+      "question": "Can a table have multiple primary keys?",
+      "answer": "No, a table can only have one primary key, but that key can consist of multiple columns (composite key)."
+    },
+    {
+      "question": "What happens if I try to insert a duplicate primary key?",
+      "answer": "Inserting a duplicate primary key will result in an error, as primary keys must be unique."
+    }
+  ],
+  "caveats": [
+    "SQL commands may vary slightly depending on the database version.",
+    "Ensure you have the necessary permissions to view table structures."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for database design best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-use-a-captcha",
+  "directAnswer": "To use a CAPTCHA, integrate it into your web form or application by following the specific instructions provided by the CAPTCHA service you choose, such as Google reCAPTCHA.",
+  "summary": "CAPTCHAs are tools used to verify that a user is human, helping to prevent spam and automated submissions.",
+  "sections": [
+    {
+      "id": "understanding-captchas",
+      "heading": "Understanding CAPTCHAs",
+      "body": "CAPTCHAs are designed to differentiate between human users and bots. They often require users to solve puzzles, identify images, or enter text from distorted images."
+    },
+    {
+      "id": "choosing-a-captcha-service",
+      "heading": "Choosing a CAPTCHA Service",
+      "body": "Popular CAPTCHA services include Google reCAPTCHA, hCaptcha, and FunCaptcha. Each has its own integration process and features, so choose one that fits your needs."
+    },
+    {
+      "id": "integrating-captcha",
+      "heading": "Integrating CAPTCHA into Your Application",
+      "body": "Follow the documentation of the chosen CAPTCHA service for integration. This typically involves adding a script to your HTML and modifying your form to include the CAPTCHA widget."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Select a CAPTCHA Service",
+      "detail": "Choose a CAPTCHA provider like Google reCAPTCHA or hCaptcha based on your requirements."
+    },
+    {
+      "title": "Register Your Site",
+      "detail": "Create an account with the CAPTCHA provider and register your website to obtain API keys."
+    },
+    {
+      "title": "Add CAPTCHA to Your Form",
+      "detail": "Insert the CAPTCHA widget code into your HTML form as per the provider's instructions."
+    },
+    {
+      "title": "Verify CAPTCHA Response",
+      "detail": "On form submission, validate the CAPTCHA response on your server to ensure it was completed correctly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if a user fails the CAPTCHA?",
+      "answer": "If a user fails the CAPTCHA, they will typically be prompted to try again or may be presented with a different CAPTCHA challenge."
+    },
+    {
+      "question": "Can I customize the appearance of the CAPTCHA?",
+      "answer": "Yes, many CAPTCHA providers allow you to customize the appearance and difficulty of the CAPTCHA to better fit your website's design."
+    },
+    {
+      "question": "Are CAPTCHAs accessible for users with disabilities?",
+      "answer": "Some CAPTCHA services offer audio challenges or alternative verification methods to improve accessibility, but it's important to review these options."
+    }
+  ],
+  "caveats": [
+    "CAPTCHA effectiveness can vary, and some users may find them frustrating.",
+    "Ensure that your CAPTCHA implementation does not significantly hinder user experience."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for implementing CAPTCHAs"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

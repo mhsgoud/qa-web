@@ -1,0 +1,71 @@
+{
+  "slug": "how-do-i-find-my-mac-address",
+  "directAnswer": "You can find your MAC address in the network settings of your device. It is typically listed under the 'Network' or 'About' section depending on the operating system.",
+  "summary": "This guide provides steps to locate your MAC address on various platforms, along with related FAQs and considerations.",
+  "sections": [
+    {
+      "id": "windows",
+      "heading": "Finding MAC Address on Windows",
+      "body": "On Windows, you can find your MAC address through the Command Prompt or the Network Settings."
+    },
+    {
+      "id": "macos",
+      "heading": "Finding MAC Address on macOS",
+      "body": "On macOS, the MAC address can be found in the System Preferences under Network settings."
+    },
+    {
+      "id": "linux",
+      "heading": "Finding MAC Address on Linux",
+      "body": "On Linux, the MAC address can be retrieved using the terminal command 'ifconfig' or 'ip link'."
+    },
+    {
+      "id": "mobile",
+      "heading": "Finding MAC Address on Mobile Devices",
+      "body": "On iOS and Android devices, the MAC address is typically found in the Wi-Fi settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "1. Open Command Prompt. 2. Type 'getmac' and press Enter. Your MAC address will be displayed."
+    },
+    {
+      "title": "macOS",
+      "detail": "1. Open System Preferences. 2. Click on Network. 3. Select your active network connection and click 'Advanced'. Your MAC address is listed under the 'Hardware' tab."
+    },
+    {
+      "title": "Linux",
+      "detail": "1. Open a terminal. 2. Type 'ifconfig' or 'ip link' and press Enter. Look for 'ether' followed by the MAC address."
+    },
+    {
+      "title": "iOS",
+      "detail": "1. Open Settings. 2. Tap on Wi-Fi. 3. Tap the information icon (i) next to your connected network. Your MAC address is listed there."
+    },
+    {
+      "title": "Android",
+      "detail": "1. Open Settings. 2. Tap on About Phone or About Device. 3. Tap on Status. Your MAC address will be listed there."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a MAC address?",
+      "answer": "A MAC address is a unique identifier assigned to network interfaces for communications on the physical network segment."
+    },
+    {
+      "question": "Can I change my MAC address?",
+      "answer": "Yes, MAC addresses can be changed through software settings or network configuration tools, but this is not recommended for most users."
+    },
+    {
+      "question": "Why do I need my MAC address?",
+      "answer": "You may need your MAC address for network troubleshooting, device registration on networks, or setting up network filters."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on the version of the operating system."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

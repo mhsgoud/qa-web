@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-check-a-content-delivery-network",
+  "directAnswer": "To check a content delivery network (CDN), use online tools like 'Pingdom' or 'GTmetrix' to analyze your website's loading speed and CDN performance. Additionally, you can perform a DNS lookup to verify the CDN provider.",
+  "summary": "This guide provides steps to check the performance and configuration of a content delivery network.",
+  "sections": [
+    {
+      "id": "understanding-cdns",
+      "heading": "Understanding CDNs",
+      "body": "A Content Delivery Network distributes your website's content across multiple servers worldwide, improving load times and reliability."
+    },
+    {
+      "id": "using-tools",
+      "heading": "Using Online Tools",
+      "body": "Several online tools can help you analyze CDN performance, including Pingdom, GTmetrix, and WebPageTest."
+    },
+    {
+      "id": "dns-lookup",
+      "heading": "Performing a DNS Lookup",
+      "body": "You can use command line tools like 'nslookup' or online services to check which CDN provider is serving your content."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Analyze with Pingdom",
+      "detail": "Go to Pingdom's website, enter your URL, and run a speed test. Review the results to see if the CDN is effectively speeding up content delivery."
+    },
+    {
+      "title": "Check with GTmetrix",
+      "detail": "Visit GTmetrix, input your website URL, and analyze the performance report to identify CDN-related metrics."
+    },
+    {
+      "title": "Run a DNS Lookup",
+      "detail": "Open your command line interface, type 'nslookup yourdomain.com', and check the results for CDN provider information."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a CDN?",
+      "answer": "A CDN is a network of servers that delivers web content to users based on their geographic location, improving speed and reliability."
+    },
+    {
+      "question": "How do I know if my website is using a CDN?",
+      "answer": "You can check the response headers of your website using browser developer tools or online services to see if a CDN is in use."
+    },
+    {
+      "question": "Can I use multiple CDNs?",
+      "answer": "Yes, some websites use multiple CDNs for different types of content to optimize performance."
+    }
+  ],
+  "caveats": [
+    "Performance results may vary based on geographic location and time of day.",
+    "Ensure that your CDN configuration is correct to get accurate performance insights."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for CDN setup and performance monitoring"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-website",
+  "directAnswer": "To update a website, access your content management system (CMS) or server, make the necessary changes, and then publish or deploy the updates.",
+  "summary": "Updating a website involves modifying content, design, or functionality through a CMS or code editor, followed by publishing the changes.",
+  "sections": [
+    {
+      "id": "cms-updates",
+      "heading": "Updating via a Content Management System (CMS)",
+      "body": "If your website is built on a CMS like WordPress, Joomla, or Drupal, log in to the admin panel, navigate to the content you want to update, make your changes, and save or publish your updates."
+    },
+    {
+      "id": "code-editor-updates",
+      "heading": "Updating via Code Editor",
+      "body": "For static websites, use a code editor to modify HTML, CSS, or JavaScript files. After making changes, upload the updated files to your web server using FTP or a similar method."
+    },
+    {
+      "id": "testing-and-publishing",
+      "heading": "Testing and Publishing Changes",
+      "body": "Always preview your changes before publishing. Use tools like browser developer tools to check for errors. Once satisfied, publish the updates to make them live."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log into your CMS or FTP",
+      "detail": "Access your website's backend through your CMS or connect to your server using an FTP client."
+    },
+    {
+      "title": "Make your changes",
+      "detail": "Edit the content, design, or functionality as needed, either through the CMS interface or by modifying code files."
+    },
+    {
+      "title": "Preview your updates",
+      "detail": "Use the preview function in your CMS or check the changes locally before making them live."
+    },
+    {
+      "title": "Publish the changes",
+      "detail": "Click the publish button in your CMS or upload the modified files to your web server to finalize the update."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should I update my website?",
+      "answer": "It's recommended to update your website regularly, at least every few months, to keep content fresh and secure."
+    },
+    {
+      "question": "What if I encounter errors after updating?",
+      "answer": "If errors occur, revert to the previous version of your site or use backups to restore functionality."
+    },
+    {
+      "question": "Can I schedule updates on my CMS?",
+      "answer": "Yes, many CMS platforms allow you to schedule updates for future dates and times."
+    }
+  ],
+  "caveats": [
+    "Ensure you have backups before making significant changes to avoid data loss.",
+    "Different CMS platforms may have unique interfaces and processes for updates."
+  ],
+  "relatedToolIdeas": [
+    "Q&A cluster for common website issues",
+    "Checklist for website maintenance tasks"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

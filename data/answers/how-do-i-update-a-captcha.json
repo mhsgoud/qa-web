@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-captcha",
+  "directAnswer": "To update a captcha, access your website's backend where the captcha is integrated, and follow the specific instructions for your captcha provider to refresh or replace the existing captcha keys.",
+  "summary": "Updating a captcha involves changing the keys or settings in your website's backend, depending on the captcha service you are using.",
+  "sections": [
+    {
+      "id": "understanding-captcha",
+      "heading": "Understanding Captcha Types",
+      "body": "Captchas can vary by type, such as reCAPTCHA v2, v3, or other services. Ensure you know which type you are using before attempting to update."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Different platforms may have unique methods for updating captcha. Refer to the documentation for your specific platform for detailed instructions."
+    },
+    {
+      "id": "testing-updates",
+      "heading": "Testing Your Captcha",
+      "body": "After updating, always test the captcha functionality to ensure it works as intended and does not block legitimate users."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log into your website's backend",
+      "detail": "Access the admin panel of your website where the captcha is integrated."
+    },
+    {
+      "title": "Navigate to the captcha settings",
+      "detail": "Locate the section for captcha settings. This may vary by platform, such as 'Settings', 'Security', or 'Plugins'."
+    },
+    {
+      "title": "Update the captcha keys",
+      "detail": "Replace the old keys with the new ones provided by your captcha service, ensuring you save the changes."
+    },
+    {
+      "title": "Test the captcha",
+      "detail": "Visit your website to ensure the captcha appears and functions correctly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the captcha doesn't appear after the update?",
+      "answer": "Check if the keys were entered correctly and ensure that the captcha service is enabled in your settings."
+    },
+    {
+      "question": "How often should I update my captcha?",
+      "answer": "It's recommended to update your captcha keys periodically or whenever you suspect a security issue."
+    },
+    {
+      "question": "Can I use multiple types of captchas on my site?",
+      "answer": "Yes, but ensure they are properly configured to avoid conflicts and ensure a smooth user experience."
+    }
+  ],
+  "caveats": [
+    "Ensure you have backup keys in case the new ones do not work.",
+    "Changes may take time to propagate depending on your website's caching settings."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for captcha implementation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

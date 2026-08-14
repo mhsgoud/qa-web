@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-check-a-subnet-mask",
+  "directAnswer": "You can check your subnet mask through the command line or network settings on your device. The method varies depending on the operating system.",
+  "summary": "This guide provides steps to check the subnet mask on various operating systems, along with common FAQs and caveats.",
+  "sections": [
+    {
+      "id": "windows",
+      "heading": "Checking Subnet Mask on Windows",
+      "body": "On Windows, you can use the Command Prompt or access the network settings to find your subnet mask."
+    },
+    {
+      "id": "macos",
+      "heading": "Checking Subnet Mask on macOS",
+      "body": "On macOS, the subnet mask can be found in the Network preferences or through the Terminal."
+    },
+    {
+      "id": "linux",
+      "heading": "Checking Subnet Mask on Linux",
+      "body": "On Linux, you can use the terminal to check your subnet mask with specific commands."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows Command Prompt",
+      "detail": "Open Command Prompt and type 'ipconfig'. Look for 'Subnet Mask' under your active network connection."
+    },
+    {
+      "title": "Windows Network Settings",
+      "detail": "Go to Control Panel > Network and Internet > Network Connections. Right-click your connection, select 'Status', then click 'Details' to view the subnet mask."
+    },
+    {
+      "title": "macOS Network Preferences",
+      "detail": "Go to System Preferences > Network. Select your active connection and click 'Advanced'. The subnet mask will be displayed under the 'TCP/IP' tab."
+    },
+    {
+      "title": "Linux Terminal",
+      "detail": "Open a terminal and type 'ifconfig' or 'ip addr show'. Look for 'inet' followed by your IP address and subnet mask."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a subnet mask?",
+      "answer": "A subnet mask is a 32-bit number that divides an IP address into network and host portions, determining which part of the address identifies the network and which part identifies the host."
+    },
+    {
+      "question": "Why is it important to know my subnet mask?",
+      "answer": "Knowing your subnet mask helps in configuring network settings, troubleshooting connectivity issues, and understanding network segmentation."
+    },
+    {
+      "question": "Can I change my subnet mask?",
+      "answer": "Yes, you can change your subnet mask in your network settings, but be cautious as it can affect your network connectivity."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on the version of the operating system.",
+    "Some Linux distributions may require installation of additional packages to use certain commands."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for network configuration"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

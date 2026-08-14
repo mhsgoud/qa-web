@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-connect-a-relational-database",
+  "directAnswer": "To connect a relational database, you need to use a database driver or connector specific to your programming language or application. Ensure you have the correct credentials and connection string for the database.",
+  "summary": "This guide provides steps to connect to a relational database, including platform-specific instructions and common pitfalls.",
+  "sections": [
+    {
+      "id": "database-connection-strings",
+      "heading": "Database Connection Strings",
+      "body": "Connection strings vary by database type (e.g., MySQL, PostgreSQL, SQL Server). They typically include the database type, server address, database name, user credentials, and port."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Follow the steps below based on your programming environment."
+    },
+    {
+      "id": "common-caveats",
+      "heading": "Common Caveats",
+      "body": "Ensure that your database allows remote connections, and check firewall settings if you encounter issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Install Database Driver",
+      "detail": "Install the appropriate database driver for your programming language (e.g., JDBC for Java, psycopg2 for Python)."
+    },
+    {
+      "title": "Create Connection String",
+      "detail": "Formulate your connection string using the required parameters for your database type."
+    },
+    {
+      "title": "Establish Connection",
+      "detail": "Use the database driver to establish a connection using the connection string."
+    },
+    {
+      "title": "Execute Queries",
+      "detail": "Once connected, you can execute SQL queries against the database."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a connection string?",
+      "answer": "A connection string is a string that specifies information about a data source and the means of connecting to it."
+    },
+    {
+      "question": "How do I troubleshoot connection errors?",
+      "answer": "Check your credentials, ensure the database server is running, and verify network settings."
+    },
+    {
+      "question": "Can I connect to multiple databases?",
+      "answer": "Yes, you can establish connections to multiple databases by creating separate connection strings for each."
+    }
+  ],
+  "caveats": [
+    "Ensure your database user has the necessary permissions.",
+    "Check for compatibility between your driver version and the database version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for database connection"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

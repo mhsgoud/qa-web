@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-troubleshoot-a-foreign-key",
+  "directAnswer": "Check for data integrity issues and ensure that the foreign key constraints are correctly defined in your database schema.",
+  "summary": "Troubleshooting foreign key issues involves verifying data consistency, checking constraint definitions, and ensuring proper indexing.",
+  "sections": [
+    {
+      "id": "check-data-integrity",
+      "heading": "Check Data Integrity",
+      "body": "Ensure that all values in the foreign key column exist in the referenced primary key column. Use queries to identify orphaned records."
+    },
+    {
+      "id": "verify-constraints",
+      "heading": "Verify Foreign Key Constraints",
+      "body": "Check that the foreign key constraints are correctly defined in your database schema. This includes ensuring the data types match and the referenced table exists."
+    },
+    {
+      "id": "examine-indexing",
+      "heading": "Examine Indexing",
+      "body": "Make sure that the foreign key column is indexed to improve performance and enforce constraints effectively."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Orphaned Records",
+      "detail": "Run a SQL query to find records in the child table that do not have corresponding entries in the parent table."
+    },
+    {
+      "title": "Check Foreign Key Definition",
+      "detail": "Use the database management tool to inspect the foreign key definition and ensure it points to the correct primary key."
+    },
+    {
+      "title": "Review Indexes",
+      "detail": "Check if the foreign key column is indexed. If not, create an index to enhance performance and integrity checks."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I delete a record from the parent table?",
+      "answer": "If the foreign key is set to restrict, the delete operation will fail if there are related records in the child table."
+    },
+    {
+      "question": "How can I find all foreign keys in my database?",
+      "answer": "Use the database's information schema or system catalog to list all foreign keys and their relationships."
+    },
+    {
+      "question": "Can foreign keys be created after data is inserted?",
+      "answer": "Yes, but ensure that existing data complies with the foreign key constraints before adding them."
+    }
+  ],
+  "caveats": [
+    "Foreign key constraints can impact performance, especially on large tables.",
+    "Ensure you have backups before making changes to foreign key constraints."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for foreign key troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

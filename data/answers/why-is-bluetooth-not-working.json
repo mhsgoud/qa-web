@@ -1,0 +1,57 @@
+{
+  "slug": "why-is-bluetooth-not-working",
+  "directAnswer": "Bluetooth issues can arise from various factors including device compatibility, settings, or interference. Checking these aspects can help resolve the problem.",
+  "summary": "This guide outlines common reasons for Bluetooth connectivity issues and provides troubleshooting steps for both Android and iOS devices.",
+  "sections": [
+    {
+      "id": "common-issues",
+      "heading": "Common Bluetooth Issues",
+      "body": "Bluetooth problems can be caused by outdated software, device incompatibility, or interference from other devices. Ensuring that both devices are compatible and updated can often resolve these issues."
+    },
+    {
+      "id": "troubleshooting-steps",
+      "heading": "Troubleshooting Steps",
+      "body": "Follow these steps to troubleshoot Bluetooth connectivity issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Device Compatibility",
+      "detail": "Ensure that both devices support the same Bluetooth version and are compatible with each other."
+    },
+    {
+      "title": "Restart Bluetooth",
+      "detail": "Turn off Bluetooth on both devices, wait a few seconds, and then turn it back on."
+    },
+    {
+      "title": "Forget and Re-Pair Devices",
+      "detail": "On your device, go to Bluetooth settings, select the problematic device, and choose 'Forget'. Then, re-pair the devices."
+    },
+    {
+      "title": "Update Software",
+      "detail": "Check for software updates on both devices. For Android, go to Settings > System > Software update. For iOS, go to Settings > General > Software Update."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my Bluetooth device is not discoverable?",
+      "answer": "Ensure that your Bluetooth device is in pairing mode and close to the device you are trying to connect to."
+    },
+    {
+      "question": "Why does my Bluetooth connection keep dropping?",
+      "answer": "This could be due to interference from other devices, low battery on either device, or a need for a software update."
+    },
+    {
+      "question": "Can I connect multiple Bluetooth devices at once?",
+      "answer": "It depends on the device. Some devices support multi-point connections, while others do not."
+    }
+  ],
+  "caveats": [
+    "Bluetooth performance can vary based on the distance between devices and physical obstructions."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

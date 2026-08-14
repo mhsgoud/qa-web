@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-check-an-nvme-ssd",
+  "directAnswer": "You can check an NVMe SSD's health and performance using built-in tools like Windows' 'Task Manager' or third-party software such as CrystalDiskInfo.",
+  "summary": "This guide covers how to check the status and performance of your NVMe SSD on various platforms.",
+  "sections": [
+    {
+      "id": "windows-check",
+      "heading": "Checking NVMe SSD on Windows",
+      "body": "Use 'Task Manager' or 'CrystalDiskInfo' for detailed information about your NVMe SSD."
+    },
+    {
+      "id": "mac-check",
+      "heading": "Checking NVMe SSD on macOS",
+      "body": "Utilize 'Disk Utility' or 'System Information' to view your NVMe SSD's status."
+    },
+    {
+      "id": "linux-check",
+      "heading": "Checking NVMe SSD on Linux",
+      "body": "Use the 'nvme-cli' tool or 'smartctl' from the smartmontools package to check your NVMe SSD."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows - Task Manager",
+      "detail": "Right-click on the taskbar, select 'Task Manager', go to the 'Performance' tab, and select your NVMe SSD to view its usage and health."
+    },
+    {
+      "title": "Windows - CrystalDiskInfo",
+      "detail": "Download and install CrystalDiskInfo, then run the program to see detailed health and performance metrics of your NVMe SSD."
+    },
+    {
+      "title": "macOS - Disk Utility",
+      "detail": "Open 'Disk Utility' from Applications > Utilities, select your NVMe SSD from the list, and check its status."
+    },
+    {
+      "title": "Linux - nvme-cli",
+      "detail": "Install nvme-cli using your package manager, then run 'nvme smart-log /dev/nvme0n1' to view the health status."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What does NVMe stand for?",
+      "answer": "NVMe stands for Non-Volatile Memory Express, a protocol designed for high-speed storage devices."
+    },
+    {
+      "question": "How do I know if my SSD is NVMe?",
+      "answer": "You can check the specifications in your system's BIOS/UEFI or use software tools like CrystalDiskInfo."
+    },
+    {
+      "question": "Can I upgrade my NVMe SSD?",
+      "answer": "Yes, you can upgrade your NVMe SSD, but ensure compatibility with your motherboard and consider the physical size."
+    }
+  ],
+  "caveats": [
+    "Performance metrics can vary based on system load and background processes.",
+    "Some tools may require administrative privileges to access detailed information."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

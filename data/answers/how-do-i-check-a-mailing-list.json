@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-check-a-mailing-list",
+  "directAnswer": "To check a mailing list, access your email marketing platform and navigate to the 'Lists' or 'Contacts' section to view the details of your mailing lists.",
+  "summary": "This guide provides steps to check your mailing list on various platforms, along with potential caveats and frequently asked questions.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to check a mailing list may vary depending on the platform you are using."
+    },
+    {
+      "id": "common-platforms",
+      "heading": "Common Platforms",
+      "body": "Here are steps for popular email marketing platforms."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mailchimp",
+      "detail": "Log in to Mailchimp, then click on 'Audience' and select 'All contacts' to view your mailing list."
+    },
+    {
+      "title": "Constant Contact",
+      "detail": "Log in to Constant Contact, go to 'Contacts', and click on 'Lists' to see your mailing lists."
+    },
+    {
+      "title": "Sendinblue",
+      "detail": "Log in to Sendinblue, navigate to 'Contacts', and select 'Lists' to check your mailing lists."
+    },
+    {
+      "title": "Campaign Monitor",
+      "detail": "Log in to Campaign Monitor, click on 'Lists & Subscribers', and select the list you want to check."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my mailing list is empty?",
+      "answer": "You may need to create a new list or import contacts from another source."
+    },
+    {
+      "question": "How can I add contacts to my mailing list?",
+      "answer": "You can add contacts manually or import them from a CSV file, depending on the platform."
+    },
+    {
+      "question": "Can I segment my mailing list?",
+      "answer": "Yes, most platforms allow you to create segments based on various criteria such as engagement or demographics."
+    }
+  ],
+  "caveats": [
+    "Ensure you have the necessary permissions to access and manage the mailing list.",
+    "Steps may vary based on the version of the platform you are using."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for managing mailing lists"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

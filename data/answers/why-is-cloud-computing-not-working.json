@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-cloud-computing-not-working",
+  "directAnswer": "Cloud computing issues can arise due to network connectivity problems, misconfigured settings, or service outages from the provider.",
+  "summary": "Understanding the common reasons behind cloud computing failures can help you troubleshoot effectively.",
+  "sections": [
+    {
+      "id": "network-issues",
+      "heading": "Network Connectivity Problems",
+      "body": "A stable internet connection is crucial for cloud services. Check your network status and ensure there are no interruptions."
+    },
+    {
+      "id": "configuration-errors",
+      "heading": "Misconfigured Settings",
+      "body": "Incorrect configurations in your cloud service settings can lead to failures. Verify your settings according to the service provider's documentation."
+    },
+    {
+      "id": "service-outages",
+      "heading": "Service Outages",
+      "body": "Cloud providers may experience outages. Check the provider's status page for any reported issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Internet Connection",
+      "detail": "Ensure your device is connected to the internet and that your connection is stable."
+    },
+    {
+      "title": "Review Configuration Settings",
+      "detail": "Log into your cloud service account and review your settings for any discrepancies. Refer to the provider's documentation for guidance."
+    },
+    {
+      "title": "Monitor Service Status",
+      "detail": "Visit the cloud provider's status page to check for any ongoing outages or maintenance that could affect service."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my cloud service is down?",
+      "answer": "First, check the provider's status page for updates. If the service is down, wait for the provider to resolve the issue."
+    },
+    {
+      "question": "How can I prevent future cloud issues?",
+      "answer": "Regularly monitor your network connection and keep your configuration settings updated according to best practices."
+    },
+    {
+      "question": "Are there tools to help diagnose cloud issues?",
+      "answer": "Yes, many cloud providers offer diagnostic tools within their platforms to help identify and resolve issues."
+    }
+  ],
+  "caveats": [
+    "Issues may vary based on the specific cloud provider and the services being used."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

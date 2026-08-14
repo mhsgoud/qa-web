@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-artificial-intelligence-not-working",
+  "directAnswer": "Artificial intelligence may fail due to insufficient data, poorly defined objectives, or inadequate model training. These factors can hinder the effectiveness of AI applications.",
+  "summary": "Understanding the limitations of AI can help identify why it may not be performing as expected.",
+  "sections": [
+    {
+      "id": "data-quality",
+      "heading": "Data Quality Issues",
+      "body": "AI systems rely heavily on data. If the data is incomplete, biased, or of low quality, the AI model will not perform well. Ensuring high-quality, representative data is crucial for effective AI."
+    },
+    {
+      "id": "model-training",
+      "heading": "Insufficient Model Training",
+      "body": "AI models require extensive training to learn patterns in data. If the model is undertrained or overfitted, it may not generalize well to new data, leading to poor performance."
+    },
+    {
+      "id": "objective-definition",
+      "heading": "Poorly Defined Objectives",
+      "body": "If the goals of the AI application are not clearly defined, the model may not focus on the right aspects of the data, resulting in suboptimal outcomes."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Evaluate Data Quality",
+      "detail": "Check the dataset for completeness, bias, and relevance. Clean and preprocess the data to ensure it meets quality standards."
+    },
+    {
+      "title": "Train the Model Adequately",
+      "detail": "Use a sufficient amount of high-quality data for training. Monitor performance metrics during training to avoid overfitting."
+    },
+    {
+      "title": "Define Clear Objectives",
+      "detail": "Establish specific, measurable, achievable, relevant, and time-bound (SMART) objectives for the AI application."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are common signs that AI is not working?",
+      "answer": "Common signs include unexpected outputs, low accuracy, and failure to meet predefined objectives."
+    },
+    {
+      "question": "How can I improve my AI model's performance?",
+      "answer": "Improving performance can involve enhancing data quality, adjusting model parameters, or retraining with additional data."
+    },
+    {
+      "question": "Is it possible to fix a poorly performing AI model?",
+      "answer": "Yes, by addressing data quality, retraining the model, and refining objectives, you can often improve the model's performance."
+    }
+  ],
+  "caveats": [
+    "AI performance can be influenced by factors outside of the model, such as changes in external data patterns."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

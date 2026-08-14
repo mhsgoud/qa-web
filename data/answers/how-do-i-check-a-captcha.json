@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-check-a-captcha",
+  "directAnswer": "To check a CAPTCHA, you typically need to verify the user's response against the CAPTCHA service's API. This usually involves sending a request with the user's input and a secret key to the service provider.",
+  "summary": "This guide outlines the steps to check a CAPTCHA response and provides platform-specific instructions.",
+  "sections": [
+    {
+      "id": "understanding-captcha",
+      "heading": "Understanding CAPTCHA",
+      "body": "CAPTCHA stands for Completely Automated Public Turing test to tell Computers and Humans Apart. It is used to prevent automated abuse of online services."
+    },
+    {
+      "id": "common-captcha-types",
+      "heading": "Common CAPTCHA Types",
+      "body": "There are several types of CAPTCHAs, including image recognition, text entry, and checkbox-based CAPTCHAs. Each type requires a different method for verification."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Obtain the CAPTCHA response",
+      "detail": "Collect the user's response from the CAPTCHA widget on your form."
+    },
+    {
+      "title": "Send verification request",
+      "detail": "Make an API call to the CAPTCHA service with the user's response and your secret key. For example, if using Google reCAPTCHA, send a POST request to https://www.google.com/recaptcha/api/siteverify."
+    },
+    {
+      "title": "Handle the API response",
+      "detail": "Check the response from the CAPTCHA service. A successful verification will typically return a JSON object with a success status."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if the CAPTCHA fails?",
+      "answer": "If the CAPTCHA verification fails, you should prompt the user to try again and provide a new CAPTCHA challenge."
+    },
+    {
+      "question": "Can I customize the CAPTCHA appearance?",
+      "answer": "Yes, many CAPTCHA services allow for customization of the appearance to better fit your website's design."
+    },
+    {
+      "question": "Are there alternatives to traditional CAPTCHAs?",
+      "answer": "Yes, alternatives include honeypots, time-based challenges, or behavioral analysis techniques."
+    }
+  ],
+  "caveats": [
+    "CAPTCHA implementations may vary by service provider, so refer to the specific documentation for the service you are using."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for implementing CAPTCHA"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

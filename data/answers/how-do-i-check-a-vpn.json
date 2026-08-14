@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-check-a-vpn",
+  "directAnswer": "To check if your VPN is working, visit a website like 'whatismyip.com' to verify your IP address. If the IP address shown is different from your actual IP, your VPN is functioning properly.",
+  "summary": "This guide provides steps to verify the functionality of your VPN across different platforms.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Follow the steps below based on your operating system to check your VPN connection."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues",
+      "body": "If your VPN is not working, consider checking your internet connection, VPN settings, or contacting your VPN provider."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "1. Connect to your VPN. 2. Open a web browser and go to 'whatismyip.com'. 3. Compare the displayed IP address with your actual IP (search 'what is my IP' in a new tab)."
+    },
+    {
+      "title": "macOS",
+      "detail": "1. Connect to your VPN. 2. Open Safari or any browser and visit 'whatismyip.com'. 3. Check if the IP address differs from your actual IP."
+    },
+    {
+      "title": "iOS",
+      "detail": "1. Enable your VPN from the settings. 2. Open Safari and go to 'whatismyip.com'. 3. Confirm the IP address is different."
+    },
+    {
+      "title": "Android",
+      "detail": "1. Connect to your VPN using the app. 2. Open a browser and navigate to 'whatismyip.com'. 3. Ensure the IP address shown is not your real IP."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my IP address hasn't changed?",
+      "answer": "Ensure your VPN is connected properly, check your settings, or try reconnecting to the VPN."
+    },
+    {
+      "question": "Can I check my VPN on mobile devices?",
+      "answer": "Yes, you can check your VPN connection on both iOS and Android devices using the same method."
+    },
+    {
+      "question": "What if I see a different IP but still have issues?",
+      "answer": "You may be connected to the VPN, but there could be issues with the VPN service itself. Try troubleshooting or contact support."
+    }
+  ],
+  "caveats": [
+    "Some websites may still detect your actual location due to browser settings or WebRTC leaks.",
+    "VPN performance can vary based on server load and location."
+  ],
+  "relatedToolIdeas": [
+    "Security setup checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

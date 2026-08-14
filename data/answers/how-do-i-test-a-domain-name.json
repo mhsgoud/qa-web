@@ -1,0 +1,65 @@
+{
+  "slug": "how-do-i-test-a-domain-name",
+  "directAnswer": "You can test a domain name by using tools like 'ping', 'traceroute', or online services that check domain availability and DNS records.",
+  "summary": "Testing a domain name involves checking its availability, resolving its DNS records, and ensuring it responds to network requests.",
+  "sections": [
+    {
+      "id": "domain-availability",
+      "heading": "Check Domain Availability",
+      "body": "Use a domain registrar or a dedicated domain availability checker to see if the domain name is available for registration."
+    },
+    {
+      "id": "dns-check",
+      "heading": "Check DNS Records",
+      "body": "Use DNS lookup tools to verify the DNS records associated with the domain. This can help identify if the domain is properly configured."
+    },
+    {
+      "id": "network-testing",
+      "heading": "Network Testing",
+      "body": "Use command-line tools like 'ping' and 'traceroute' to check the network response and path to the domain."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Use a Domain Checker",
+      "detail": "Go to a domain registrar's website and enter the domain name to check its availability."
+    },
+    {
+      "title": "Perform a DNS Lookup",
+      "detail": "Use a DNS lookup tool (like 'dig' or 'nslookup') in your terminal to retrieve DNS records for the domain."
+    },
+    {
+      "title": "Ping the Domain",
+      "detail": "Open your command prompt or terminal and type 'ping [domain-name]' to see if the domain responds."
+    },
+    {
+      "title": "Run Traceroute",
+      "detail": "In your command prompt or terminal, type 'tracert [domain-name]' (Windows) or 'traceroute [domain-name]' (Mac/Linux) to see the path packets take to reach the domain."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What does a DNS lookup tell me?",
+      "answer": "A DNS lookup provides information about the domain's DNS records, including A records, MX records, and CNAME records."
+    },
+    {
+      "question": "Why is my domain not responding?",
+      "answer": "If a domain is not responding, it could be due to DNS misconfiguration, the domain being inactive, or network issues."
+    },
+    {
+      "question": "How can I check if my domain is expired?",
+      "answer": "You can check the domain's registration status using WHOIS lookup services to see its expiration date."
+    }
+  ],
+  "caveats": [
+    "Availability checks may vary by registrar and may not reflect real-time status.",
+    "DNS propagation can take time; changes may not be immediately visible."
+  ],
+  "relatedToolIdeas": [
+    "Domain availability checker",
+    "DNS lookup tool",
+    "Network diagnostic tools"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

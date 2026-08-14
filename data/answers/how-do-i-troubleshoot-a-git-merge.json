@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-troubleshoot-a-git-merge",
+  "directAnswer": "To troubleshoot a Git merge, carefully review the conflict markers in your files and use Git commands to resolve the issues. Ensure you understand the changes made in both branches before proceeding.",
+  "summary": "This guide provides steps to effectively troubleshoot and resolve merge conflicts in Git, along with common pitfalls and FAQs.",
+  "sections": [
+    {
+      "id": "understanding-merge-conflicts",
+      "heading": "Understanding Merge Conflicts",
+      "body": "Merge conflicts occur when changes in different branches overlap. Git will mark these conflicts in the affected files, which you need to resolve manually."
+    },
+    {
+      "id": "resolving-merge-conflicts",
+      "heading": "Resolving Merge Conflicts",
+      "body": "After identifying conflicts, open the files with conflict markers (<<<<<<<, =======, >>>>>>>) and decide how to integrate the changes."
+    },
+    {
+      "id": "using-git-tools",
+      "heading": "Using Git Tools",
+      "body": "You can use Git commands like 'git status' to see conflicted files and 'git mergetool' to launch a visual merge tool for easier resolution."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Conflicted Files",
+      "detail": "Run 'git status' to see which files are in conflict after the merge attempt."
+    },
+    {
+      "title": "Open Conflicted Files",
+      "detail": "Open each conflicted file in a text editor to review the changes and conflict markers."
+    },
+    {
+      "title": "Resolve Conflicts",
+      "detail": "Edit the files to resolve conflicts by choosing which changes to keep, then remove the conflict markers."
+    },
+    {
+      "title": "Finalize the Merge",
+      "detail": "After resolving all conflicts, run 'git add <file>' for each resolved file, followed by 'git commit' to complete the merge."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I can't resolve a conflict?",
+      "answer": "If you cannot resolve a conflict, consider aborting the merge with 'git merge --abort' and review the changes again."
+    },
+    {
+      "question": "How can I avoid merge conflicts in the future?",
+      "answer": "To minimize merge conflicts, regularly pull changes from the main branch and communicate with your team about major changes."
+    },
+    {
+      "question": "What tools can help with resolving merge conflicts?",
+      "answer": "You can use built-in Git tools like 'git mergetool' or third-party tools like Meld, KDiff3, or Beyond Compare."
+    }
+  ],
+  "caveats": [
+    "Be cautious when resolving conflicts to avoid losing important changes.",
+    "Always back up your branch before attempting complex merges."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for resolving merge conflicts"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

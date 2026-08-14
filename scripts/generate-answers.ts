@@ -7,12 +7,14 @@
  *   npm run answers:generate -- --force   # overwrite existing
  *   npm run answers:generate -- --slug=how-do-i-clone-an-ssd
  *   npm run answers:generate -- --with-images
+ *   npm run answers:generate -- --source=scored --limit=1000
  *
  * Requires OPENAI_API_KEY in .env for AI generation.
  */
 
 import fs from "node:fs";
 import path from "node:path";
+import Papa from "papaparse";
 import type { AnswerContent } from "../src/lib/types";
 import { generateImagesForAnswer } from "./lib/answer-images";
 
@@ -33,6 +35,8 @@ type Brief = {
 const ROOT = process.cwd();
 const ANSWERS_DIR = path.join(ROOT, "data", "answers");
 const WINNERS_FILE = path.join(ROOT, "data", "winners.json");
+const WINNERS_1000_FILE = path.join(ROOT, "data", "winners_1000.json");
+const SCORED_FILE = path.join(ROOT, "data", "scored_questions_10000.csv");
 const BRIEFS_DIR = path.join(ROOT, "data", "briefs");
 
 /** Load .env from project root (no extra dependency). */
@@ -70,20 +74,69 @@ function loadEnv(): { loaded: boolean; hasKey: boolean } {
 function parseArgs() {
   const args = process.argv.slice(2);
   const slugArg = args.find((a) => a.startsWith("--slug="))?.split("=")[1];
+  const sourceArg = args.find((a) => a.startsWith("--source="))?.split("=")[1];
   return {
     limit: Number(args.find((a) => a.startsWith("--limit="))?.split("=")[1] ?? 20),
     force: args.includes("--force"),
     templateOnly: args.includes("--template-only"),
     withImages: args.includes("--with-images"),
+    source: (sourceArg === "scored" || sourceArg === "winners1000"
+      ? sourceArg
+      : "winners") as "scored" | "winners" | "winners1000",
+    concurrency: Math.max(
+      1,
+      Number(args.find((a) => a.startsWith("--concurrency="))?.split("=")[1] ?? 4),
+    ),
     slug: slugArg,
   };
 }
 
-function loadWinners(limit: number, slug?: string): WinnerRow[] {
-  const rows = JSON.parse(fs.readFileSync(WINNERS_FILE, "utf8")) as WinnerRow[];
+function loadFromScored(limit: number, slug?: string): WinnerRow[] {
+  const raw = fs.readFileSync(SCORED_FILE, "utf8");
+  const parsed = Papa.parse<Record<string, string>>(raw, {
+    header: true,
+    skipEmptyLines: true,
+  });
+
+  const rows = parsed.data
+    .filter((row) => row.slug && row.question)
+    .map((row, index) => ({
+      rank: Number(row.rank) || index + 1,
+      slug: row.slug.trim(),
+      question: row.question.trim(),
+      category: (row.category || "General").trim(),
+      suggestedTool: row.suggested_tool?.trim() || undefined,
+      priorityScore: Number(row.priority_score) || 0,
+    }))
+    .sort((a, b) => b.priorityScore - a.priorityScore || a.rank - b.rank);
+
   if (slug) {
     const match = rows.find((r) => r.slug === slug);
-    if (!match) throw new Error(`Slug not found in data/winners.json: ${slug}`);
+    if (!match) throw new Error(`Slug not found in scored CSV: ${slug}`);
+    return [match];
+  }
+
+  return rows.slice(0, limit).map((row, i) => ({
+    rank: i + 1,
+    slug: row.slug,
+    question: row.question,
+    category: row.category,
+    suggestedTool: row.suggestedTool,
+  }));
+}
+
+function loadWinners(
+  limit: number,
+  slug?: string,
+  source: "scored" | "winners" | "winners1000" = "winners",
+): WinnerRow[] {
+  if (source === "scored") return loadFromScored(limit, slug);
+
+  const file = source === "winners1000" ? WINNERS_1000_FILE : WINNERS_FILE;
+  const rows = JSON.parse(fs.readFileSync(file, "utf8")) as WinnerRow[];
+  if (slug) {
+    const match = rows.find((r) => r.slug === slug);
+    if (!match) throw new Error(`Slug not found in ${path.basename(file)}: ${slug}`);
     return [match];
   }
   return rows.slice(0, limit);
@@ -155,48 +208,53 @@ function makeTemplate(winner: WinnerRow): AnswerContent {
   };
 }
 
-async function generateWithOpenAI(prompt: string): Promise<AnswerContent> {
+async function generateWithOpenAI(prompt: string, retries = 3): Promise<AnswerContent> {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
     throw new Error("OPENAI_API_KEY is not set. Use --template-only or add it to .env");
   }
 
   const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
+  let lastError = "unknown error";
 
-  const response = await fetch("https://api.openai.com/v1/chat/completions", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model,
-      temperature: 0.4,
-      response_format: { type: "json_object" },
-      messages: [
-        {
-          role: "system",
-          content:
-            "You write accurate, concise tech help content. Output only valid JSON. Never invent exact menu paths you are unsure about — note when paths vary.",
-        },
-        { role: "user", content: prompt },
-      ],
-    }),
-  });
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    const response = await fetch("https://api.openai.com/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model,
+        temperature: 0.4,
+        response_format: { type: "json_object" },
+        messages: [
+          {
+            role: "system",
+            content:
+              "You write accurate, concise tech help content. Output only valid JSON. Never invent exact menu paths you are unsure about — note when paths vary.",
+          },
+          { role: "user", content: prompt },
+        ],
+      }),
+    });
 
-  if (!response.ok) {
-    const err = await response.text();
-    throw new Error(`OpenAI API error ${response.status}: ${err}`);
+    if (response.ok) {
+      const data = (await response.json()) as {
+        choices: { message: { content: string } }[];
+      };
+      const content = data.choices[0]?.message?.content;
+      if (!content) throw new Error("Empty response from OpenAI");
+      return JSON.parse(content) as AnswerContent;
+    }
+
+    lastError = await response.text();
+    const retryable = response.status === 429 || response.status >= 500;
+    if (!retryable || attempt === retries) break;
+    await new Promise((r) => setTimeout(r, 1000 * attempt * 2));
   }
 
-  const data = (await response.json()) as {
-    choices: { message: { content: string } }[];
-  };
-
-  const content = data.choices[0]?.message?.content;
-  if (!content) throw new Error("Empty response from OpenAI");
-
-  return JSON.parse(content) as AnswerContent;
+  throw new Error(`OpenAI API error: ${lastError}`);
 }
 
 function writeAnswer(answer: AnswerContent) {
@@ -206,12 +264,33 @@ function writeAnswer(answer: AnswerContent) {
   return filePath;
 }
 
+async function mapPool<T>(
+  items: T[],
+  concurrency: number,
+  worker: (item: T, index: number) => Promise<void>,
+) {
+  let next = 0;
+  async function run() {
+    while (true) {
+      const index = next++;
+      if (index >= items.length) return;
+      await worker(items[index], index);
+    }
+  }
+  await Promise.all(Array.from({ length: concurrency }, () => run()));
+}
+
 async function main() {
   const env = loadEnv();
-  const { limit, force, templateOnly, withImages, slug } = parseArgs();
-  const winners = loadWinners(limit, slug);
+  const { limit, force, templateOnly, withImages, source, concurrency, slug } =
+    parseArgs();
+  const winners = loadWinners(limit, slug, source);
 
-  console.log(`Generating answers for top ${winners.length} winners...`);
+  console.log(
+    `Generating answers for top ${winners.length} from ${source}` +
+      (slug ? ` (slug=${slug})` : "") +
+      "...",
+  );
   if (withImages) {
     console.log("Mode: with-images (illustrations after text generation)");
   }
@@ -231,6 +310,7 @@ async function main() {
     console.log("No OPENAI_API_KEY — creating templates only. Set key in .env for AI generation.");
   } else {
     console.log(`Model: ${process.env.OPENAI_MODEL ?? "gpt-4o-mini"}`);
+    console.log(`Concurrency: ${concurrency}`);
     if (!force) {
       console.log("Tip: existing answer files are skipped. Use --force to overwrite stubs with AI content.");
     }
@@ -238,53 +318,61 @@ async function main() {
 
   let created = 0;
   let skipped = 0;
+  let failed = 0;
 
-  for (const winner of winners) {
+  const queue = winners.filter((winner) => {
     const outPath = path.join(ANSWERS_DIR, `${winner.slug}.json`);
     const exists = fs.existsSync(outPath);
-
     if (exists && !force && !withImages) {
       console.log(`skip  ${winner.slug} (exists)`);
       skipped++;
-      continue;
+      return false;
     }
+    return true;
+  });
 
-    let answer: AnswerContent;
+  console.log(`Queued for generation: ${queue.length}`);
 
-    if (exists && !force) {
-      answer = JSON.parse(fs.readFileSync(outPath, "utf8")) as AnswerContent;
-      console.log(`load  ${winner.slug} (existing text)`);
-    } else if (templateOnly || !process.env.OPENAI_API_KEY) {
-      answer = makeTemplate(winner);
-    } else {
-      const brief = findBrief(winner.slug);
-      const prompt = buildPrompt(winner, brief);
-      console.log(`gen   ${winner.slug}...`);
-      answer = await generateWithOpenAI(prompt);
-      answer.slug = winner.slug;
-      answer.status = "draft";
-      answer.updatedAt = new Date().toISOString().slice(0, 10);
+  await mapPool(queue, templateOnly || !process.env.OPENAI_API_KEY ? 1 : concurrency, async (winner) => {
+    const outPath = path.join(ANSWERS_DIR, `${winner.slug}.json`);
+    const exists = fs.existsSync(outPath);
+
+    try {
+      let answer: AnswerContent;
+
+      if (exists && !force) {
+        answer = JSON.parse(fs.readFileSync(outPath, "utf8")) as AnswerContent;
+        console.log(`load  ${winner.slug} (existing text)`);
+      } else if (templateOnly || !process.env.OPENAI_API_KEY) {
+        answer = makeTemplate(winner);
+      } else {
+        const brief = findBrief(winner.slug);
+        const prompt = buildPrompt(winner, brief);
+        console.log(`gen   ${winner.slug}...`);
+        answer = await generateWithOpenAI(prompt);
+        answer.slug = winner.slug;
+        answer.status = "draft";
+        answer.updatedAt = new Date().toISOString().slice(0, 10);
+      }
+
+      if (withImages && process.env.OPENAI_API_KEY?.trim()) {
+        console.log(`images ${winner.slug}...`);
+        answer.images = await generateImagesForAnswer(winner.slug, answer, winner.question, {
+          force,
+        });
+        answer.updatedAt = new Date().toISOString().slice(0, 10);
+      }
+
+      const file = writeAnswer(answer);
+      console.log(`write ${file}`);
+      created++;
+    } catch (err) {
+      failed++;
+      console.error(`fail  ${winner.slug}:`, err);
     }
+  });
 
-    if (withImages && process.env.OPENAI_API_KEY?.trim()) {
-      console.log(`images ${winner.slug}...`);
-      answer.images = await generateImagesForAnswer(winner.slug, answer, winner.question, {
-        force,
-      });
-      answer.updatedAt = new Date().toISOString().slice(0, 10);
-    }
-
-    const file = writeAnswer(answer);
-    console.log(`write ${file}`);
-    created++;
-
-    // Gentle rate limit between API calls
-    if (!templateOnly && process.env.OPENAI_API_KEY) {
-      await new Promise((r) => setTimeout(r, 800));
-    }
-  }
-
-  console.log(`\nDone. Created/updated: ${created}, skipped: ${skipped}`);
+  console.log(`\nDone. Created/updated: ${created}, skipped: ${skipped}, failed: ${failed}`);
   console.log(`Answers live in data/answers/*.json`);
   console.log(`Edit status to "reviewed" or "published" after human review.`);
 }

@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-set-up-a-foreign-key",
+  "directAnswer": "To set up a foreign key, define it in the child table referencing the primary key of the parent table during table creation or modification.",
+  "summary": "Setting up a foreign key ensures referential integrity between two tables in a database.",
+  "sections": [
+    {
+      "id": "understanding-foreign-keys",
+      "heading": "Understanding Foreign Keys",
+      "body": "A foreign key is a field (or collection of fields) in one table that uniquely identifies a row of another table. It establishes a link between the two tables."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to create a foreign key can vary based on the database management system (DBMS) you are using."
+    }
+  ],
+  "steps": [
+    {
+      "title": "MySQL",
+      "detail": "Use the following SQL command: `ALTER TABLE child_table ADD CONSTRAINT fk_name FOREIGN KEY (child_column) REFERENCES parent_table(parent_column);`"
+    },
+    {
+      "title": "PostgreSQL",
+      "detail": "You can create a foreign key during table creation: `CREATE TABLE child_table (child_column INT, FOREIGN KEY (child_column) REFERENCES parent_table(parent_column));`"
+    },
+    {
+      "title": "SQL Server",
+      "detail": "Use the command: `ALTER TABLE child_table ADD CONSTRAINT fk_name FOREIGN KEY (child_column) REFERENCES parent_table(parent_column);`"
+    },
+    {
+      "title": "Oracle",
+      "detail": "Create a foreign key with: `ALTER TABLE child_table ADD CONSTRAINT fk_name FOREIGN KEY (child_column) REFERENCES parent_table(parent_column);`"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if the referenced row in the parent table is deleted?",
+      "answer": "If the referenced row is deleted, the behavior depends on the foreign key constraints set (e.g., CASCADE, SET NULL, or RESTRICT)."
+    },
+    {
+      "question": "Can a foreign key reference a composite primary key?",
+      "answer": "Yes, a foreign key can reference a composite primary key by including all columns of the primary key in the foreign key definition."
+    },
+    {
+      "question": "Is it possible to create a foreign key after table creation?",
+      "answer": "Yes, you can add a foreign key to an existing table using the `ALTER TABLE` command."
+    }
+  ],
+  "caveats": [
+    "Ensure that the data types of the foreign key and primary key match.",
+    "Foreign keys can only reference unique or primary keys in the parent table."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for database normalization"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

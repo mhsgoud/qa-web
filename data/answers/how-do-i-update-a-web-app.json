@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-update-a-web-app",
+  "directAnswer": "To update a web app, you typically need to modify the codebase and deploy the changes to your hosting environment. The exact steps may vary depending on the platform and tools you are using.",
+  "summary": "Updating a web app involves code changes and deployment, which can differ based on the platform.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Updating a web app can vary based on the platform. Below are common platforms and their steps."
+    },
+    {
+      "id": "common-caveats",
+      "heading": "Common Caveats",
+      "body": "Ensure you have backups and test the update in a staging environment before deploying to production."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Update Codebase",
+      "detail": "Make necessary changes to your web app's codebase using your preferred code editor."
+    },
+    {
+      "title": "Test Locally",
+      "detail": "Run the application locally to ensure that the changes work as expected."
+    },
+    {
+      "title": "Deploy Changes",
+      "detail": "Use your deployment method (e.g., FTP, Git, CI/CD pipeline) to push the updates to the server."
+    },
+    {
+      "title": "Verify Deployment",
+      "detail": "Check the live application to confirm that the updates are functioning correctly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the update breaks my web app?",
+      "answer": "You can revert to the previous version from your backup or version control system."
+    },
+    {
+      "question": "How can I automate the update process?",
+      "answer": "Consider using CI/CD tools like Jenkins or GitHub Actions to automate testing and deployment."
+    },
+    {
+      "question": "Is it necessary to notify users about updates?",
+      "answer": "It's good practice to inform users of significant updates, especially if they affect functionality or user experience."
+    }
+  ],
+  "caveats": [
+    "Always back up your application and database before performing updates.",
+    "Testing in a staging environment is crucial to avoid downtime."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for web app updates"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

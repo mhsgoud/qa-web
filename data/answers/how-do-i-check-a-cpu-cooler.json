@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-check-a-cpu-cooler",
+  "directAnswer": "To check a CPU cooler, ensure the system is powered off, then inspect the cooler for dust buildup and verify that the fan is operational when the system is powered on.",
+  "summary": "Regularly checking your CPU cooler is essential for maintaining optimal CPU temperatures and system performance.",
+  "sections": [
+    {
+      "id": "visual-inspection",
+      "heading": "Visual Inspection",
+      "body": "Start by visually inspecting the CPU cooler for dust accumulation. Dust can significantly hinder cooling performance."
+    },
+    {
+      "id": "fan-functionality",
+      "heading": "Check Fan Functionality",
+      "body": "Power on the computer and observe if the CPU cooler fan spins. If it does not spin, the cooler may need to be replaced."
+    },
+    {
+      "id": "temperature-monitoring",
+      "heading": "Monitor CPU Temperatures",
+      "body": "Use software tools like HWMonitor or Core Temp to check the CPU temperature. If temperatures exceed safe limits, the cooler may be ineffective."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Off the System",
+      "detail": "Shut down your computer and unplug it from the power source to ensure safety."
+    },
+    {
+      "title": "Remove the Case Side Panel",
+      "detail": "Use a screwdriver to remove the side panel of your PC case for better access to the CPU cooler."
+    },
+    {
+      "title": "Inspect the Cooler",
+      "detail": "Look for dust buildup on the cooler fins and fan. Clean it gently with compressed air if necessary."
+    },
+    {
+      "title": "Reconnect Power and Test",
+      "detail": "Plug the system back in, power it on, and check if the cooler fan operates properly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the CPU cooler fan is not spinning?",
+      "answer": "If the fan is not spinning, check the power connection to the cooler. If it's connected and still not working, consider replacing the cooler."
+    },
+    {
+      "question": "How often should I check my CPU cooler?",
+      "answer": "It's recommended to check your CPU cooler every few months, or more frequently if you notice high CPU temperatures."
+    },
+    {
+      "question": "Can I use my computer if the CPU cooler is not functioning?",
+      "answer": "No, running a computer without a functioning CPU cooler can lead to overheating and potentially damage your CPU."
+    }
+  ],
+  "caveats": [
+    "Ensure that you are grounded to prevent static discharge before touching any components.",
+    "Some CPU coolers may have different mounting mechanisms, so consult your cooler's manual for specific instructions."
+  ],
+  "relatedToolIdeas": [
+    "Checklist for CPU cooler maintenance",
+    "Related Q&A cluster on PC cooling solutions"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

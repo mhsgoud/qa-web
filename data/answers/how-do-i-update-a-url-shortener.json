@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-url-shortener",
+  "directAnswer": "To update a URL shortener, access your account on the service's website, locate the shortened URL you wish to modify, and follow the provided options to edit or update it.",
+  "summary": "This guide outlines the steps to update a shortened URL using popular URL shortener services.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Updating a URL shortener allows you to change the destination link of an existing shortened URL. This can be useful for correcting mistakes or redirecting to new content."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to update a URL may vary depending on the URL shortener service you are using. Below are general steps for some popular services."
+    },
+    {
+      "id": "caveats",
+      "heading": "Caveats",
+      "body": "Not all URL shorteners allow updates to existing links. Ensure you check the service's capabilities before attempting to modify a URL."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log into Your Account",
+      "detail": "Visit the URL shortener's website and log into your account using your credentials."
+    },
+    {
+      "title": "Locate the Shortened URL",
+      "detail": "Navigate to your dashboard or link management section to find the URL you want to update."
+    },
+    {
+      "title": "Edit the URL",
+      "detail": "Select the option to edit or update the link. Enter the new destination URL and save your changes."
+    },
+    {
+      "title": "Verify the Update",
+      "detail": "Test the updated shortened URL to ensure it redirects to the correct new destination."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I change the destination of a shortened URL after it's been created?",
+      "answer": "Yes, if the URL shortener service allows it, you can change the destination of a shortened URL."
+    },
+    {
+      "question": "Will updating a URL affect its analytics?",
+      "answer": "Typically, updating a URL will retain its analytics, but it's best to check with your specific service."
+    },
+    {
+      "question": "What happens if I delete a shortened URL?",
+      "answer": "Deleting a shortened URL will render it unusable, and any previous links will no longer work."
+    }
+  ],
+  "caveats": [
+    "Some URL shorteners may not allow edits to existing links.",
+    "Changes may take time to propagate across the service."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for URL shortener best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

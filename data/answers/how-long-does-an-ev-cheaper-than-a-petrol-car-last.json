@@ -1,0 +1,59 @@
+{
+  "slug": "how-long-does-an-ev-cheaper-than-a-petrol-car-last",
+  "directAnswer": "An electric vehicle (EV) that is cheaper than a petrol car can last anywhere from 8 to 15 years, depending on usage, maintenance, and battery technology.",
+  "summary": "The lifespan of an EV is influenced by various factors including battery health, driving habits, and maintenance practices.",
+  "sections": [
+    {
+      "id": "battery-life",
+      "heading": "Battery Life and Longevity",
+      "body": "The battery is a crucial component of an EV, typically lasting between 8 to 15 years. Regular charging habits and temperature conditions can impact battery performance."
+    },
+    {
+      "id": "maintenance-factors",
+      "heading": "Factors Affecting Lifespan",
+      "body": "Factors such as driving conditions, frequency of charging, and regular maintenance can significantly influence how long an EV lasts compared to a petrol car."
+    },
+    {
+      "id": "cost-analysis",
+      "heading": "Cost Comparison Over Time",
+      "body": "While the initial purchase price of an EV may be lower, the total cost of ownership, including maintenance and energy costs, should be analyzed over the vehicle's lifespan."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Evaluate Battery Health",
+      "detail": "Check the battery health regularly using the vehicle's onboard diagnostics or a third-party app to ensure longevity."
+    },
+    {
+      "title": "Adopt Efficient Charging Practices",
+      "detail": "Charge your EV during off-peak hours and avoid frequent fast charging to prolong battery life."
+    },
+    {
+      "title": "Schedule Regular Maintenance",
+      "detail": "Follow the manufacturer's recommended maintenance schedule to keep the EV in optimal condition."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the average lifespan of an EV battery?",
+      "answer": "The average lifespan of an EV battery is typically between 8 to 15 years, depending on usage and care."
+    },
+    {
+      "question": "How does an EV's lifespan compare to that of a petrol car?",
+      "answer": "EVs generally have a similar or longer lifespan than petrol cars, primarily due to fewer moving parts and less mechanical wear."
+    },
+    {
+      "question": "Can I extend the life of my EV?",
+      "answer": "Yes, by following good charging practices, maintaining the vehicle, and avoiding extreme temperatures, you can extend the life of your EV."
+    }
+  ],
+  "caveats": [
+    "Battery technology is rapidly evolving, and future advancements may change lifespan expectations.",
+    "Actual lifespan can vary based on individual usage patterns and environmental factors."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

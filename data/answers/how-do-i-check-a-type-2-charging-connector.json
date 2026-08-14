@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-check-a-type-2-charging-connector",
+  "directAnswer": "To check a Type 2 charging connector, visually inspect the connector for any damage and use a multimeter to test continuity across the pins.",
+  "summary": "This guide provides steps to check the functionality and condition of a Type 2 charging connector for electric vehicles.",
+  "sections": [
+    {
+      "id": "visual-inspection",
+      "heading": "Visual Inspection",
+      "body": "Begin by examining the Type 2 connector for any signs of physical damage, such as cracks, dirt, or corrosion. Ensure that the pins are not bent or broken."
+    },
+    {
+      "id": "continuity-test",
+      "heading": "Continuity Test",
+      "body": "Using a multimeter, set it to the continuity setting. Test each pin of the connector to ensure that there is a proper electrical connection."
+    },
+    {
+      "id": "cleaning",
+      "heading": "Cleaning the Connector",
+      "body": "If the connector appears dirty, clean it gently with a soft cloth and isopropyl alcohol. Avoid using abrasive materials that could damage the pins."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Inspect the Connector",
+      "detail": "Look for physical damage, dirt, or corrosion on the Type 2 connector."
+    },
+    {
+      "title": "Set Up Multimeter",
+      "detail": "Configure your multimeter to the continuity setting."
+    },
+    {
+      "title": "Test Each Pin",
+      "detail": "Probe each pin of the connector with the multimeter to check for continuity."
+    },
+    {
+      "title": "Clean if Necessary",
+      "detail": "If dirt is present, clean the connector with a soft cloth and isopropyl alcohol."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the connector is damaged?",
+      "answer": "If the connector is damaged, it should be replaced immediately to ensure safe charging."
+    },
+    {
+      "question": "Can I use any multimeter for testing?",
+      "answer": "Yes, any standard multimeter with a continuity setting will work for testing the connector."
+    },
+    {
+      "question": "How often should I check my charging connector?",
+      "answer": "It's recommended to check your charging connector regularly, especially if you notice charging issues."
+    }
+  ],
+  "caveats": [
+    "Ensure the charging station is powered off before performing any tests to avoid electrical hazards.",
+    "Some connectors may have specific manufacturer guidelines for inspection and testing."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

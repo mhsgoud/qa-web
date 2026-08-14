@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-reset-a-mesh-wifi-system",
+  "directAnswer": "To reset a mesh WiFi system, locate the reset button on the main unit and hold it for about 10 seconds until the LED indicator blinks. This will restore factory settings.",
+  "summary": "Resetting a mesh WiFi system can resolve connectivity issues and restore default settings.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Mesh WiFi Reset",
+      "body": "Resetting your mesh WiFi system can help troubleshoot network issues or prepare the system for a new setup."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The reset process can vary slightly depending on the brand of your mesh WiFi system."
+    },
+    {
+      "id": "after-reset",
+      "heading": "After the Reset",
+      "body": "Once reset, you will need to set up your mesh WiFi system again using the manufacturer's app or web interface."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Locate the Reset Button",
+      "detail": "Find the reset button on the main unit of your mesh WiFi system. This is usually a small pinhole button."
+    },
+    {
+      "title": "Press and Hold the Reset Button",
+      "detail": "Using a paperclip or similar object, press and hold the reset button for about 10 seconds until the LED starts blinking."
+    },
+    {
+      "title": "Wait for Reboot",
+      "detail": "Release the button and wait for the system to reboot, which may take a few minutes."
+    },
+    {
+      "title": "Set Up Your System Again",
+      "detail": "Use the manufacturer's app or web interface to set up your mesh network as per the instructions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will I lose my network settings after a reset?",
+      "answer": "Yes, all custom settings will be lost, and you will need to configure your network again."
+    },
+    {
+      "question": "How can I reset individual nodes in my mesh system?",
+      "answer": "Individual nodes can typically be reset by pressing their reset buttons, but refer to the specific manufacturer's instructions."
+    },
+    {
+      "question": "What should I do if the reset button doesn't work?",
+      "answer": "If the reset button does not respond, check the manufacturer's support page for troubleshooting steps or contact customer support."
+    }
+  ],
+  "caveats": [
+    "Resetting the mesh WiFi system will erase all configurations and settings.",
+    "The reset process may vary depending on the specific model and manufacturer."
+  ],
+  "relatedToolIdeas": [
+    "Wi‑Fi speed / channel helper"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

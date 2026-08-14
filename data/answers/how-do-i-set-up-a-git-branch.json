@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-git-branch",
+  "directAnswer": "To set up a Git branch, use the command 'git branch <branch-name>' to create a new branch and 'git checkout <branch-name>' to switch to it.",
+  "summary": "This guide provides steps to create and switch to a new Git branch, along with caveats and FAQs.",
+  "sections": [
+    {
+      "id": "creating-a-branch",
+      "heading": "Creating a Git Branch",
+      "body": "You can create a new branch in your local repository using the command line."
+    },
+    {
+      "id": "switching-branches",
+      "heading": "Switching to a New Branch",
+      "body": "After creating a branch, you can switch to it using Git commands to start working on it."
+    },
+    {
+      "id": "merging-branches",
+      "heading": "Merging Branches",
+      "body": "Once your work is complete, you can merge your branch back into the main branch."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Terminal or Command Prompt",
+      "detail": "Navigate to your Git repository using the terminal or command prompt."
+    },
+    {
+      "title": "Create a New Branch",
+      "detail": "Run the command 'git branch <branch-name>' to create a new branch."
+    },
+    {
+      "title": "Switch to the New Branch",
+      "detail": "Use 'git checkout <branch-name>' to switch to the newly created branch."
+    },
+    {
+      "title": "Merge the Branch (Optional)",
+      "detail": "To merge your branch into the main branch, switch back to the main branch and run 'git merge <branch-name>'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between 'git branch' and 'git checkout'?",
+      "answer": "'git branch' creates a new branch, while 'git checkout' switches to an existing branch."
+    },
+    {
+      "question": "Can I create a branch from a specific commit?",
+      "answer": "Yes, you can create a branch from a specific commit using 'git branch <branch-name> <commit-hash>'."
+    },
+    {
+      "question": "How do I delete a branch?",
+      "answer": "You can delete a branch using 'git branch -d <branch-name>' if it's fully merged, or 'git branch -D <branch-name>' to force delete."
+    }
+  ],
+  "caveats": [
+    "Ensure you have committed any changes before switching branches to avoid losing work.",
+    "Branch names must be unique within the repository."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for Git best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

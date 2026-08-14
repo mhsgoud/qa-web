@@ -1,0 +1,60 @@
+{
+  "slug": "is-chademo-worth-it",
+  "directAnswer": "CHAdeMO is a reliable fast charging standard, particularly for certain EV models, but its value depends on your specific vehicle and charging infrastructure in your area.",
+  "summary": "Evaluating CHAdeMO involves considering vehicle compatibility, charging speed, and availability of charging stations.",
+  "sections": [
+    {
+      "id": "compatibility",
+      "heading": "Vehicle Compatibility",
+      "body": "CHAdeMO is primarily supported by brands like Nissan and Mitsubishi. Ensure your EV model supports this standard before investing in a CHAdeMO charger."
+    },
+    {
+      "id": "charging-speed",
+      "heading": "Charging Speed",
+      "body": "CHAdeMO typically offers charging speeds up to 62.5 kW, which can significantly reduce charging time compared to standard Level 2 chargers."
+    },
+    {
+      "id": "infrastructure",
+      "heading": "Charging Infrastructure",
+      "body": "The availability of CHAdeMO stations varies by region. Check local charging maps to assess the convenience of using CHAdeMO for your travel needs."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Vehicle Compatibility",
+      "detail": "Refer to your vehicle's manual or manufacturer's website to confirm if it supports CHAdeMO charging."
+    },
+    {
+      "title": "Locate CHAdeMO Charging Stations",
+      "detail": "Use apps like PlugShare or ChargePoint to find nearby CHAdeMO charging stations and their availability."
+    },
+    {
+      "title": "Evaluate Charging Speed Needs",
+      "detail": "Consider how often you need fast charging and whether CHAdeMO's speed meets your travel requirements."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What other charging standards are available?",
+      "answer": "Other common standards include CCS (Combined Charging System) and Tesla Supercharger, which may offer different compatibility and speeds."
+    },
+    {
+      "question": "Is CHAdeMO compatible with Tesla vehicles?",
+      "answer": "Tesla vehicles can use CHAdeMO with an adapter, but charging speeds may vary."
+    },
+    {
+      "question": "What are the costs associated with CHAdeMO charging?",
+      "answer": "Costs can vary based on the charging station operator; some may charge per kWh, while others may have a flat fee."
+    }
+  ],
+  "caveats": [
+    "CHAdeMO is less common in certain regions compared to CCS, which may limit charging options.",
+    "Future developments in EV charging standards may affect the relevance of CHAdeMO."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for choosing EV charging standards"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

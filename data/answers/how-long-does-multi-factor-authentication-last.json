@@ -1,0 +1,50 @@
+{
+  "slug": "how-long-does-multi-factor-authentication-last",
+  "directAnswer": "The duration of multi-factor authentication (MFA) sessions can vary by platform, but typically they last from 30 days to a few hours depending on the settings and application.",
+  "summary": "Multi-factor authentication enhances security, but the duration of its effectiveness can differ across platforms and configurations.",
+  "sections": [
+    {
+      "id": "understanding-mfa-duration",
+      "heading": "Understanding MFA Duration",
+      "body": "MFA sessions generally require re-authentication after a certain period. This period can be influenced by user settings, security policies, and the specific application in use."
+    },
+    {
+      "id": "platform-specific-duration",
+      "heading": "Platform-Specific Duration",
+      "body": "Different platforms may have distinct MFA expiration times. For example, Google accounts often prompt for MFA every 30 days unless you choose to remember the device, while banking apps may require MFA for each login."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check MFA Settings on Your Account",
+      "detail": "Log into your account settings and navigate to the security or MFA section to review your current settings and duration."
+    },
+    {
+      "title": "Adjust Device Trust Settings",
+      "detail": "If available, you can choose to trust a device for a specific duration, which may extend the MFA session time."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I change the duration of my MFA session?",
+      "answer": "Some platforms allow you to adjust the duration or frequency of MFA prompts within your security settings."
+    },
+    {
+      "question": "What happens if I don't complete MFA in time?",
+      "answer": "If the MFA session expires, you will need to re-authenticate to access your account."
+    },
+    {
+      "question": "Are there different types of MFA?",
+      "answer": "Yes, MFA can include SMS codes, authenticator apps, or hardware tokens, and the duration may vary based on the method used."
+    }
+  ],
+  "caveats": [
+    "MFA duration settings may vary significantly between different applications and services.",
+    "Some platforms may enforce stricter MFA policies based on user behavior or security incidents."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

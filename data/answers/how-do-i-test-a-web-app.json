@@ -1,0 +1,65 @@
+{
+  "slug": "how-do-i-test-a-web-app",
+  "directAnswer": "To test a web app, utilize automated testing tools and perform manual testing to ensure functionality, usability, and performance meet requirements.",
+  "summary": "Web app testing involves various methods including automated tests, manual tests, and performance assessments to ensure the application works as intended across different scenarios.",
+  "sections": [
+    {
+      "id": "types-of-testing",
+      "heading": "Types of Testing",
+      "body": "Common types of web app testing include functional testing, usability testing, performance testing, and security testing. Each type focuses on different aspects of the application."
+    },
+    {
+      "id": "testing-tools",
+      "heading": "Testing Tools",
+      "body": "Popular tools for web app testing include Selenium for automated testing, JMeter for performance testing, and OWASP ZAP for security testing."
+    },
+    {
+      "id": "manual-testing",
+      "heading": "Manual Testing Process",
+      "body": "Manual testing involves executing test cases without automation tools. Testers should follow a checklist that includes navigating through the app, checking for UI consistency, and validating form submissions."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Set Up Testing Environment",
+      "detail": "Ensure you have a stable version of the web app and access to necessary testing tools."
+    },
+    {
+      "title": "Perform Functional Testing",
+      "detail": "Use automated tools like Selenium to create and run test scripts that cover all functionality."
+    },
+    {
+      "title": "Conduct Usability Testing",
+      "detail": "Gather feedback from real users interacting with the app to identify any usability issues."
+    },
+    {
+      "title": "Run Performance Tests",
+      "detail": "Utilize tools like JMeter to simulate user load and evaluate how the app performs under stress."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between automated and manual testing?",
+      "answer": "Automated testing uses scripts to run tests, while manual testing involves human testers executing test cases."
+    },
+    {
+      "question": "How often should I test my web app?",
+      "answer": "Testing should be done regularly, especially after changes or updates to the app."
+    },
+    {
+      "question": "What tools are recommended for performance testing?",
+      "answer": "JMeter and LoadRunner are commonly used tools for performance testing web applications."
+    }
+  ],
+  "caveats": [
+    "Testing processes may vary based on the web app's technology stack and deployment environment.",
+    "Ensure that you have the latest version of testing tools as UI elements may change."
+  ],
+  "relatedToolIdeas": [
+    "Automated testing frameworks",
+    "Performance monitoring tools",
+    "User feedback collection platforms"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

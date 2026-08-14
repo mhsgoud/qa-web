@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-private-ip-address",
+  "directAnswer": "To set up a private IP address, access your router's settings and configure the DHCP settings to assign a static IP to your device based on its MAC address.",
+  "summary": "This guide provides steps to configure a private IP address on your network devices.",
+  "sections": [
+    {
+      "id": "router-settings",
+      "heading": "Accessing Router Settings",
+      "body": "You need to log into your router's web interface, usually accessible via a web browser at an IP address like 192.168.1.1 or 192.168.0.1. The exact address can vary by router model."
+    },
+    {
+      "id": "dhcp-configuration",
+      "heading": "Configuring DHCP Settings",
+      "body": "Locate the DHCP settings section in your router's interface. Here, you can assign a static IP address to a specific device by entering its MAC address."
+    },
+    {
+      "id": "device-configuration",
+      "heading": "Setting Up the Device",
+      "body": "On the device you want to assign the private IP address to, ensure it is set to obtain an IP address automatically unless you are manually configuring it."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log into the Router",
+      "detail": "Open a web browser and enter your router's IP address. Log in with your admin credentials."
+    },
+    {
+      "title": "Navigate to DHCP Settings",
+      "detail": "Find the DHCP settings section, which may be under 'Network' or 'LAN Setup' depending on your router model."
+    },
+    {
+      "title": "Assign Static IP",
+      "detail": "Add a new entry for the device by entering its MAC address and the desired private IP address."
+    },
+    {
+      "title": "Save Changes",
+      "detail": "Save the settings and restart the router if necessary. Ensure the device is connected to the network."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a private IP address?",
+      "answer": "A private IP address is an IP address that is not routable on the internet and is used within a local network."
+    },
+    {
+      "question": "Can I change my private IP address later?",
+      "answer": "Yes, you can change your private IP address by modifying the DHCP settings in your router."
+    },
+    {
+      "question": "What happens if two devices have the same private IP address?",
+      "answer": "If two devices are assigned the same private IP address, it will cause an IP conflict, leading to connectivity issues for both devices."
+    }
+  ],
+  "caveats": [
+    "Ensure the static IP address is within the range of your router's DHCP settings to avoid conflicts.",
+    "Different router models may have varying interfaces and terminology."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for setting up network devices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

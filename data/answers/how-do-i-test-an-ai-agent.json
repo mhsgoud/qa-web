@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-test-an-ai-agent",
+  "directAnswer": "To test an AI agent, define specific use cases and evaluate its performance against benchmarks using a model or use-case picker tool.",
+  "summary": "Testing an AI agent involves setting clear objectives and systematically assessing its responses and functionalities.",
+  "sections": [
+    {
+      "id": "testing-methods",
+      "heading": "Testing Methods",
+      "body": "Common methods for testing AI agents include unit testing, integration testing, and user acceptance testing. Each method targets different aspects of the agent's functionality."
+    },
+    {
+      "id": "performance-evaluation",
+      "heading": "Performance Evaluation",
+      "body": "Evaluate the AI agent's performance using metrics such as accuracy, response time, and user satisfaction. This can help identify areas for improvement."
+    },
+    {
+      "id": "iterative-testing",
+      "heading": "Iterative Testing",
+      "body": "Testing should be an iterative process where feedback is used to refine the AI agent. Continuous testing helps adapt to new data and user needs."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Define Use Cases",
+      "detail": "Identify specific scenarios where the AI agent will be used and outline the expected outcomes."
+    },
+    {
+      "title": "Select Testing Tools",
+      "detail": "Choose appropriate tools, such as a model/use-case picker, to facilitate the testing process."
+    },
+    {
+      "title": "Conduct Tests",
+      "detail": "Run tests based on the defined use cases, capturing the agent's responses and performance metrics."
+    },
+    {
+      "title": "Analyze Results",
+      "detail": "Review the test results to identify strengths and weaknesses, making adjustments to the AI agent as necessary."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What metrics should I use to evaluate my AI agent?",
+      "answer": "Common metrics include accuracy, precision, recall, F1 score, and user satisfaction ratings."
+    },
+    {
+      "question": "How often should I retest my AI agent?",
+      "answer": "Retesting should occur regularly, especially after updates or changes to the model or data inputs."
+    },
+    {
+      "question": "Can I automate the testing process?",
+      "answer": "Yes, many testing frameworks allow for automated testing of AI agents, which can save time and improve consistency."
+    }
+  ],
+  "caveats": [
+    "Testing results may vary based on the complexity of the AI model and the diversity of use cases."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

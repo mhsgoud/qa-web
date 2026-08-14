@@ -1,0 +1,50 @@
+{
+  "slug": "how-do-i-connect-a-mailing-list",
+  "directAnswer": "To connect a mailing list, you typically need to integrate your email marketing platform with your website or CRM using an API or a plugin.",
+  "summary": "This guide outlines the steps to connect a mailing list using popular email marketing platforms like Mailchimp and Constant Contact.",
+  "sections": [
+    {
+      "id": "mailchimp-setup",
+      "heading": "Connecting with Mailchimp",
+      "body": "Mailchimp allows you to create and manage mailing lists easily. You can connect it to your website using a signup form or API."
+    },
+    {
+      "id": "constant-contact-setup",
+      "heading": "Connecting with Constant Contact",
+      "body": "Constant Contact offers similar features, allowing for easy integration with various platforms and custom forms."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mailchimp Integration",
+      "detail": "1. Log in to your Mailchimp account. 2. Navigate to 'Audience' and select 'Signup forms'. 3. Choose 'Embedded forms' to generate HTML code for your website."
+    },
+    {
+      "title": "Constant Contact Integration",
+      "detail": "1. Log in to your Constant Contact account. 2. Go to 'Contacts' and select 'Signup Forms'. 3. Create a new form and follow the prompts to embed it on your site."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I connect multiple mailing lists?",
+      "answer": "Yes, most platforms allow you to manage multiple lists within a single account."
+    },
+    {
+      "question": "What if I don’t have a website?",
+      "answer": "You can use landing pages provided by email marketing services to collect emails without a website."
+    },
+    {
+      "question": "Are there any costs associated with mailing lists?",
+      "answer": "Many email marketing platforms offer free tiers, but costs can increase based on the number of subscribers or features."
+    }
+  ],
+  "caveats": [
+    "Integration steps may vary slightly based on platform updates or specific account settings."
+  ],
+  "relatedToolIdeas": [
+    "Email marketing software comparison",
+    "Best practices for email list segmentation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

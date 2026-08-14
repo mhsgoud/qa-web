@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-troubleshoot-a-public-ip-address",
+  "directAnswer": "Check your network settings and ensure your device is connected to the internet. Use tools like ping and traceroute to diagnose connectivity issues.",
+  "summary": "This guide provides steps to troubleshoot issues related to your public IP address, including checking network settings and using diagnostic tools.",
+  "sections": [
+    {
+      "id": "check-network-settings",
+      "heading": "Check Network Settings",
+      "body": "Ensure your device is properly connected to the network. Verify that your network adapter is enabled and configured to obtain an IP address automatically."
+    },
+    {
+      "id": "use-diagnostic-tools",
+      "heading": "Use Diagnostic Tools",
+      "body": "Utilize command-line tools such as 'ping', 'traceroute', or 'nslookup' to test connectivity and resolve issues with your public IP address."
+    },
+    {
+      "id": "contact-your-isp",
+      "heading": "Contact Your ISP",
+      "body": "If issues persist, contact your Internet Service Provider to check for outages or issues with your assigned public IP address."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Verify Network Connection",
+      "detail": "Check that your device is connected to the internet. On Windows, you can do this by going to 'Settings' > 'Network & Internet' > 'Status'. On macOS, go to 'System Preferences' > 'Network'."
+    },
+    {
+      "title": "Run Ping Test",
+      "detail": "Open Command Prompt (Windows) or Terminal (macOS) and type 'ping 8.8.8.8'. This tests connectivity to an external server."
+    },
+    {
+      "title": "Run Traceroute",
+      "detail": "In Command Prompt or Terminal, type 'tracert 8.8.8.8' (Windows) or 'traceroute 8.8.8.8' (macOS) to identify where packets are being dropped."
+    },
+    {
+      "title": "Check Public IP Address",
+      "detail": "Visit a website like 'whatismyip.com' to confirm your public IP address and check if it matches your expected IP."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my public IP address changes frequently?",
+      "answer": "Consider using a static IP address through your ISP or a Dynamic DNS service to maintain a consistent address."
+    },
+    {
+      "question": "How can I find my public IP address?",
+      "answer": "You can find your public IP address by visiting websites like 'whatismyip.com' or using the command 'curl ifconfig.me' in the terminal."
+    },
+    {
+      "question": "What does it mean if I can't ping my public IP address?",
+      "answer": "If you can't ping your public IP address, it may indicate a network issue, firewall settings blocking ICMP packets, or that the ISP is experiencing problems."
+    }
+  ],
+  "caveats": [
+    "Network settings may vary based on your operating system and network configuration.",
+    "Some ISPs may block certain diagnostic tools or ICMP packets."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

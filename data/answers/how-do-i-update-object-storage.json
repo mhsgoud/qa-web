@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-update-object-storage",
+  "directAnswer": "To update object storage, you typically need to modify the storage class or configuration settings through your cloud provider's management console or API.",
+  "summary": "This guide provides steps to update object storage across various cloud platforms, along with important considerations and frequently asked questions.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Updating object storage can involve changing the storage tier, increasing capacity, or modifying access settings. Each cloud provider has its own interface for managing these updates."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Follow the specific steps based on your cloud provider to ensure a successful update."
+    }
+  ],
+  "steps": [
+    {
+      "title": "AWS S3",
+      "detail": "Log into the AWS Management Console, navigate to S3, select your bucket, click on 'Properties', and then adjust the storage class or lifecycle rules as needed."
+    },
+    {
+      "title": "Google Cloud Storage",
+      "detail": "Access the Google Cloud Console, select 'Storage' from the menu, click on your bucket, and update the storage class or settings in the 'Edit' section."
+    },
+    {
+      "title": "Azure Blob Storage",
+      "detail": "Open the Azure Portal, find your storage account, select 'Containers', choose the relevant container, and modify the access tier or settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I change the storage class after uploading objects?",
+      "answer": "Yes, you can change the storage class for existing objects, but there may be additional costs involved."
+    },
+    {
+      "question": "Will updating object storage affect my data?",
+      "answer": "Typically, updating the storage settings will not affect your data, but it's always recommended to back up important data before making changes."
+    },
+    {
+      "question": "How do I know which storage class to choose?",
+      "answer": "Choose a storage class based on your access frequency and performance needs; consult your provider's documentation for detailed comparisons."
+    }
+  ],
+  "caveats": [
+    "Some features may differ based on the version of the cloud provider's interface.",
+    "Changes may incur additional costs depending on the new storage configuration."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

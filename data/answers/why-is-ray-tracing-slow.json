@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-ray-tracing-slow",
+  "directAnswer": "Ray tracing is slow primarily due to the computational intensity of simulating light interactions in real-time, which requires significant processing power and memory bandwidth.",
+  "summary": "Understanding the performance challenges of ray tracing can help users optimize their settings and hardware choices.",
+  "sections": [
+    {
+      "id": "performance-factors",
+      "heading": "Performance Factors",
+      "body": "Ray tracing requires calculating millions of rays per frame, simulating reflections, refractions, and shadows. This process is inherently more demanding than rasterization, which is why it can lead to lower frame rates."
+    },
+    {
+      "id": "hardware-requirements",
+      "heading": "Hardware Requirements",
+      "body": "To effectively run ray tracing, a powerful GPU is essential. Modern GPUs with dedicated ray tracing cores, like NVIDIA's RTX series or AMD's RDNA 2 architecture, can significantly improve performance."
+    },
+    {
+      "id": "optimization-tips",
+      "heading": "Optimization Tips",
+      "body": "Adjusting settings such as resolution, ray tracing quality, and disabling unnecessary effects can help improve performance. Utilizing DLSS (Deep Learning Super Sampling) can also enhance frame rates while maintaining visual fidelity."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check GPU Compatibility",
+      "detail": "Ensure your GPU supports ray tracing. For NVIDIA, look for RTX models; for AMD, check RDNA 2 architecture."
+    },
+    {
+      "title": "Adjust Graphics Settings",
+      "detail": "In the game settings menu, lower the ray tracing quality or resolution to improve performance. Settings may vary by game."
+    },
+    {
+      "title": "Enable DLSS",
+      "detail": "If available, enable DLSS in the graphics settings to boost frame rates while using ray tracing."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What hardware do I need for optimal ray tracing performance?",
+      "answer": "For optimal performance, a modern GPU with dedicated ray tracing capabilities, such as NVIDIA RTX 30 series or AMD RX 6000 series, is recommended."
+    },
+    {
+      "question": "Can ray tracing be used on older GPUs?",
+      "answer": "While some older GPUs can perform ray tracing through software emulation, the performance will be significantly lower, and the experience may not be satisfactory."
+    },
+    {
+      "question": "Does ray tracing impact battery life on laptops?",
+      "answer": "Yes, ray tracing is resource-intensive and can lead to increased power consumption, resulting in shorter battery life on laptops."
+    }
+  ],
+  "caveats": [
+    "Performance can vary significantly based on the specific game and settings used."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

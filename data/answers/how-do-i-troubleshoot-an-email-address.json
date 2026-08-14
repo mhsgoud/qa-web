@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-troubleshoot-an-email-address",
+  "directAnswer": "Check your email settings, verify the address, and ensure your internet connection is stable. If issues persist, consult your email provider's support resources.",
+  "summary": "Troubleshooting an email address involves verifying settings, checking for typos, and ensuring connectivity. Follow specific steps based on your email platform for effective resolution.",
+  "sections": [
+    {
+      "id": "check-email-settings",
+      "heading": "Check Email Settings",
+      "body": "Ensure that your email client settings (incoming and outgoing server settings) are correctly configured. This includes the server addresses, port numbers, and security settings."
+    },
+    {
+      "id": "verify-email-address",
+      "heading": "Verify Email Address",
+      "body": "Double-check the email address for any typographical errors. Make sure the domain is correct and that you are using the right format."
+    },
+    {
+      "id": "check-internet-connection",
+      "heading": "Check Internet Connection",
+      "body": "Make sure your device is connected to the internet. Try accessing other websites or services to confirm connectivity."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Review Email Client Settings",
+      "detail": "Open your email client and navigate to the account settings section. Verify that the incoming and outgoing server details match those provided by your email service provider."
+    },
+    {
+      "title": "Test Email Address",
+      "detail": "Send a test email to yourself or another address to check if it is delivered successfully. If it bounces back, note the error message for further troubleshooting."
+    },
+    {
+      "title": "Check Spam/Junk Folder",
+      "detail": "If you are not receiving emails, check your spam or junk folder to ensure they are not being filtered incorrectly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I forgot my email password?",
+      "answer": "Use the 'Forgot Password' option on your email provider's login page to reset your password."
+    },
+    {
+      "question": "How can I tell if my email account has been compromised?",
+      "answer": "Look for unusual activity, such as emails sent from your account that you didn't send, or notifications of logins from unfamiliar locations."
+    },
+    {
+      "question": "Why are my emails not being delivered?",
+      "answer": "Possible reasons include incorrect email settings, the recipient's email server being down, or your email being marked as spam."
+    }
+  ],
+  "caveats": [
+    "Email settings may vary by provider and version of the email client, so always refer to your specific provider's documentation."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

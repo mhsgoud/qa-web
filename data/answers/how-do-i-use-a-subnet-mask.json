@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-use-a-subnet-mask",
+  "directAnswer": "A subnet mask is used to divide an IP address into network and host portions, allowing for efficient routing and management of IP addresses within a local network.",
+  "summary": "Understanding and using a subnet mask is essential for network configuration and management, particularly in defining network boundaries and facilitating communication between devices.",
+  "sections": [
+    {
+      "id": "what-is-subnet-mask",
+      "heading": "What is a Subnet Mask?",
+      "body": "A subnet mask is a 32-bit number that segments an IP address into the network and host parts. It determines which portion of the IP address refers to the network and which part refers to the individual device."
+    },
+    {
+      "id": "how-to-use-subnet-mask",
+      "heading": "How to Use a Subnet Mask",
+      "body": "To use a subnet mask, you need to configure it in your network settings, either on a router or a device. It is essential to match the subnet mask with the IP address to ensure proper communication within the network."
+    },
+    {
+      "id": "common-subnet-masks",
+      "heading": "Common Subnet Masks",
+      "body": "Common subnet masks include 255.255.255.0 (Class C), 255.255.0.0 (Class B), and 255.0.0.0 (Class A). These masks define different sizes of networks."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Network Settings",
+      "detail": "Open the network settings on your device. This can usually be found in the Control Panel on Windows, System Preferences on macOS, or Settings on mobile devices."
+    },
+    {
+      "title": "Configure IP Address",
+      "detail": "Select the option to configure your IP address. Choose 'Manual' or 'Static' IP configuration."
+    },
+    {
+      "title": "Enter Subnet Mask",
+      "detail": "In the subnet mask field, enter the appropriate subnet mask based on your network requirements (e.g., 255.255.255.0)."
+    },
+    {
+      "title": "Save Changes",
+      "detail": "Save the settings and restart your network connection to apply the changes."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I use the wrong subnet mask?",
+      "answer": "Using the wrong subnet mask can lead to communication issues within your network, as devices may not recognize each other or may be unable to route traffic correctly."
+    },
+    {
+      "question": "Can I change my subnet mask later?",
+      "answer": "Yes, you can change your subnet mask at any time, but ensure that all devices on the network are updated to match the new configuration."
+    },
+    {
+      "question": "How do I find out what subnet mask to use?",
+      "answer": "The subnet mask to use typically depends on your network size and requirements. Consult your network administrator or refer to your network's documentation."
+    }
+  ],
+  "caveats": [
+    "Ensure that all devices on the network have compatible subnet masks to avoid connectivity issues.",
+    "Subnet masks can vary based on network configuration; always verify with your network setup."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for subnetting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-pull-request",
+  "directAnswer": "To set up a pull request, push your changes to a branch in your repository and then use the platform's interface to create a pull request from that branch to the main branch.",
+  "summary": "This guide provides steps to create a pull request across popular version control platforms.",
+  "sections": [
+    {
+      "id": "git-github",
+      "heading": "Setting Up a Pull Request on GitHub",
+      "body": "1. Push your changes to a new branch in your GitHub repository. 2. Navigate to the 'Pull requests' tab. 3. Click 'New pull request'. 4. Select the branch you want to merge into the base branch and click 'Create pull request'."
+    },
+    {
+      "id": "git-gitlab",
+      "heading": "Setting Up a Pull Request on GitLab",
+      "body": "1. Push your changes to a new branch in your GitLab repository. 2. Go to 'Merge Requests' in the left sidebar. 3. Click 'New Merge Request'. 4. Choose the source branch and target branch, then click 'Compare branches and continue'. 5. Fill in the details and click 'Submit merge request'."
+    },
+    {
+      "id": "git-bitbucket",
+      "heading": "Setting Up a Pull Request on Bitbucket",
+      "body": "1. Push your changes to a new branch in your Bitbucket repository. 2. Go to the 'Pull requests' section. 3. Click 'Create pull request'. 4. Select the source and destination branches, then fill in the details and click 'Create pull request'."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Push Changes to a New Branch",
+      "detail": "Use Git to push your changes to a new branch in your repository."
+    },
+    {
+      "title": "Navigate to Pull Requests Section",
+      "detail": "Access the pull requests section of your repository on the respective platform."
+    },
+    {
+      "title": "Create a New Pull Request",
+      "detail": "Follow the platform-specific steps to create a new pull request."
+    },
+    {
+      "title": "Review and Submit",
+      "detail": "Review the changes and submit the pull request for review."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between a pull request and a merge request?",
+      "answer": "A pull request is used in GitHub, while a merge request is the term used in GitLab. They serve the same purpose of merging code changes."
+    },
+    {
+      "question": "Can I create a pull request from a forked repository?",
+      "answer": "Yes, you can create a pull request from a forked repository by selecting the forked branch as the source when creating the pull request."
+    },
+    {
+      "question": "What should I include in the pull request description?",
+      "answer": "Include a summary of the changes, any relevant issue numbers, and specific notes for reviewers."
+    }
+  ],
+  "caveats": [
+    "Ensure you have the necessary permissions to create a pull request in the repository.",
+    "Branch names and user interfaces may vary slightly between different versions of the platforms."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for reviewing pull requests"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

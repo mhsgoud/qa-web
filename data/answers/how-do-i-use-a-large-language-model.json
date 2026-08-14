@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-use-a-large-language-model",
+  "directAnswer": "To use a large language model, you typically need to access it via an API or a specific platform that offers the model. You can input text prompts and receive generated responses based on the model's training data.",
+  "summary": "This guide provides an overview of how to effectively utilize large language models through various platforms, including steps for implementation and common pitfalls.",
+  "sections": [
+    {
+      "id": "understanding-models",
+      "heading": "Understanding Large Language Models",
+      "body": "Large language models are AI systems trained on vast amounts of text data to understand and generate human-like text. They can be used for various applications such as chatbots, content generation, and more."
+    },
+    {
+      "id": "accessing-models",
+      "heading": "Accessing Large Language Models",
+      "body": "You can access large language models through APIs provided by companies like OpenAI, Google, or Hugging Face. Each platform may have different requirements for usage."
+    },
+    {
+      "id": "best-practices",
+      "heading": "Best Practices for Usage",
+      "body": "When using a large language model, it's important to craft clear and specific prompts to get the best results. Experimenting with different inputs can help refine the output."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Choose a Platform",
+      "detail": "Select a platform that provides access to a large language model, such as OpenAI's API or Hugging Face's model hub."
+    },
+    {
+      "title": "Sign Up and Obtain API Key",
+      "detail": "Create an account on the chosen platform and obtain an API key, which is necessary to authenticate your requests."
+    },
+    {
+      "title": "Craft Your Prompt",
+      "detail": "Write a clear and specific prompt that outlines what you want the model to generate or respond to."
+    },
+    {
+      "title": "Make API Call",
+      "detail": "Use the API key to make a call to the model with your prompt, and retrieve the generated response."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What types of tasks can I perform with a large language model?",
+      "answer": "You can perform tasks such as text generation, summarization, translation, and question answering, among others."
+    },
+    {
+      "question": "Are there any limitations to using large language models?",
+      "answer": "Yes, limitations include potential biases in the model's responses, dependency on the quality of input prompts, and usage costs associated with API calls."
+    },
+    {
+      "question": "How do I improve the quality of responses from the model?",
+      "answer": "Improving response quality can involve refining your prompts, providing context, and experimenting with different input formats."
+    }
+  ],
+  "caveats": [
+    "Responses may vary based on the model's training data and inherent biases.",
+    "API usage may incur costs depending on the platform's pricing structure."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-set-up-a-domain-name",
+  "directAnswer": "To set up a domain name, register it through a domain registrar and configure DNS settings to point to your web hosting service.",
+  "summary": "This guide provides steps for registering and configuring a domain name for your website.",
+  "sections": [
+    {
+      "id": "registration-process",
+      "heading": "Domain Registration Process",
+      "body": "Choose a domain registrar, search for your desired domain name, and complete the registration process by providing your contact information and payment."
+    },
+    {
+      "id": "dns-configuration",
+      "heading": "DNS Configuration",
+      "body": "After registration, access your registrar's DNS management settings to configure records such as A, CNAME, and MX records to point to your web hosting."
+    },
+    {
+      "id": "renewal-and-management",
+      "heading": "Domain Renewal and Management",
+      "body": "Keep track of your domain's expiration date and set up auto-renewal if available to avoid losing your domain."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Choose a Domain Registrar",
+      "detail": "Select a reputable domain registrar like GoDaddy, Namecheap, or Google Domains."
+    },
+    {
+      "title": "Search for Your Domain Name",
+      "detail": "Use the registrar's search tool to check the availability of your desired domain name."
+    },
+    {
+      "title": "Complete Registration",
+      "detail": "Fill out the required information, including your contact details, and pay the registration fee."
+    },
+    {
+      "title": "Configure DNS Settings",
+      "detail": "Access the DNS management section of your registrar's dashboard to set up necessary DNS records."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does it take for my domain to become active?",
+      "answer": "Typically, it takes a few hours for your domain to become active after registration, but it can take up to 48 hours for DNS propagation."
+    },
+    {
+      "question": "What should I do if my desired domain name is taken?",
+      "answer": "Consider variations of the name, use different domain extensions, or check if the current owner is willing to sell."
+    },
+    {
+      "question": "Can I transfer my domain to another registrar?",
+      "answer": "Yes, you can transfer your domain to another registrar after it has been registered for at least 60 days, following the transfer process outlined by both registrars."
+    }
+  ],
+  "caveats": [
+    "Some registrars may have different interfaces for DNS management, so check their documentation if you encounter issues."
+  ],
+  "relatedToolIdeas": [
+    "Domain name availability checker",
+    "DNS configuration guide"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-reset-a-smart-home",
+  "directAnswer": "To reset your smart home, you typically need to reset each connected device individually through their respective apps or physical reset buttons.",
+  "summary": "Resetting a smart home involves resetting individual devices and possibly the central hub. Follow the specific steps for your devices and consider the implications of resetting.",
+  "sections": [
+    {
+      "id": "resetting-devices",
+      "heading": "Resetting Individual Devices",
+      "body": "Each smart device usually has a unique reset process. Refer to the device's manual or app for specific instructions."
+    },
+    {
+      "id": "resetting-central-hub",
+      "heading": "Resetting the Central Hub",
+      "body": "If you have a central hub (like SmartThings or Google Home), you may need to reset it through its app settings or by using a physical reset button."
+    },
+    {
+      "id": "reconfiguring-network",
+      "heading": "Reconfiguring Your Network",
+      "body": "After resetting, you may need to reconnect devices to your Wi-Fi network and reconfigure settings within their respective apps."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Reset Smart Device",
+      "detail": "Locate the reset button on the device or follow the app instructions to perform a factory reset."
+    },
+    {
+      "title": "Reset Central Hub",
+      "detail": "Access the hub's app settings and look for a 'Factory Reset' option, or press the physical reset button if available."
+    },
+    {
+      "title": "Reconnect to Wi-Fi",
+      "detail": "Open the app for each device and follow the prompts to reconnect to your Wi-Fi network."
+    },
+    {
+      "title": "Reconfigure Settings",
+      "detail": "Adjust settings and preferences in the app as needed after resetting."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my smart home delete all my settings?",
+      "answer": "Yes, resetting devices will erase all custom settings, and you'll need to reconfigure them."
+    },
+    {
+      "question": "Do I need to reset my Wi-Fi router as well?",
+      "answer": "Not necessarily, but if you're experiencing connectivity issues, it may help to restart your router."
+    },
+    {
+      "question": "Can I reset multiple devices at once?",
+      "answer": "Most systems require individual resets for each device, but some hubs may allow batch actions."
+    }
+  ],
+  "caveats": [
+    "Resetting devices will erase all saved configurations and preferences.",
+    "Ensure you have access to your Wi-Fi credentials for reconnection."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for resetting smart home devices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

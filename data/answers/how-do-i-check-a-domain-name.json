@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-check-a-domain-name",
+  "directAnswer": "You can check a domain name's availability by using a domain registrar's search tool or a WHOIS lookup service.",
+  "summary": "This guide provides steps to check if a domain name is available for registration and additional information about the domain.",
+  "sections": [
+    {
+      "id": "what-is-a-domain-check",
+      "heading": "What is a Domain Check?",
+      "body": "A domain check is the process of verifying whether a specific domain name is available for registration or already in use."
+    },
+    {
+      "id": "using-domain-registrars",
+      "heading": "Using Domain Registrars",
+      "body": "Most domain registrars offer a search feature on their websites that allows you to check domain name availability."
+    },
+    {
+      "id": "whois-lookup",
+      "heading": "Using WHOIS Lookup",
+      "body": "WHOIS lookup services provide detailed information about registered domain names, including ownership and registration details."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Visit a Domain Registrar",
+      "detail": "Go to a domain registrar's website such as GoDaddy, Namecheap, or Google Domains."
+    },
+    {
+      "title": "Search for the Domain Name",
+      "detail": "Enter the desired domain name in the search bar and click the search button."
+    },
+    {
+      "title": "Review Availability",
+      "detail": "Check the results to see if the domain is available or if it is already registered."
+    },
+    {
+      "title": "Use WHOIS Lookup",
+      "detail": "If the domain is taken, use a WHOIS lookup service to find out more about the current owner."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a WHOIS lookup?",
+      "answer": "WHOIS lookup is a query and response protocol used to obtain information about the registration of a domain name."
+    },
+    {
+      "question": "Can I register a domain name that is currently taken?",
+      "answer": "No, you cannot register a domain name that is already taken, but you may be able to purchase it from the current owner."
+    },
+    {
+      "question": "Are there any restrictions on domain name registration?",
+      "answer": "Yes, some domain extensions have specific requirements, such as geographic or organizational restrictions."
+    }
+  ],
+  "caveats": [
+    "Domain availability can change rapidly, so results may vary from one search to another.",
+    "Some registrars may charge different prices for the same domain name."
+  ],
+  "relatedToolIdeas": [
+    "Domain name suggestion tool",
+    "WHOIS lookup tool"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

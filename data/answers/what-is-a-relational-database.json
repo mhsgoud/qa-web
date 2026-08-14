@@ -1,0 +1,59 @@
+{
+  "slug": "what-is-a-relational-database",
+  "directAnswer": "A relational database is a type of database that stores data in structured tables with predefined relationships between them, allowing for efficient data retrieval and manipulation using SQL.",
+  "summary": "Relational databases are foundational to data management, enabling complex queries and data integrity through structured relationships.",
+  "sections": [
+    {
+      "id": "structure-and-relationships",
+      "heading": "Structure and Relationships",
+      "body": "In a relational database, data is organized into tables (or relations), where each table consists of rows and columns. Each row represents a record, and each column represents an attribute of that record. Relationships between tables are established using foreign keys."
+    },
+    {
+      "id": "common-sql-operations",
+      "heading": "Common SQL Operations",
+      "body": "SQL (Structured Query Language) is used to interact with relational databases. Common operations include SELECT (to retrieve data), INSERT (to add data), UPDATE (to modify existing data), and DELETE (to remove data)."
+    },
+    {
+      "id": "normalization",
+      "heading": "Normalization",
+      "body": "Normalization is the process of organizing data to minimize redundancy. It involves dividing large tables into smaller, related tables and defining relationships between them, which can improve data integrity and efficiency."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Creating a Table",
+      "detail": "To create a table in a relational database, use the SQL command: CREATE TABLE table_name (column1 datatype, column2 datatype, ...);. Ensure you define primary keys for unique identification."
+    },
+    {
+      "title": "Inserting Data",
+      "detail": "Use the SQL command: INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...); to add records to your table."
+    },
+    {
+      "title": "Querying Data",
+      "detail": "To retrieve data, use: SELECT column1, column2 FROM table_name WHERE condition; to filter results based on specific criteria."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are some examples of relational database management systems?",
+      "answer": "Popular relational database management systems include MySQL, PostgreSQL, Oracle Database, and Microsoft SQL Server."
+    },
+    {
+      "question": "How do relational databases ensure data integrity?",
+      "answer": "Relational databases use constraints such as primary keys, foreign keys, and unique constraints to ensure data integrity and enforce relationships between tables."
+    },
+    {
+      "question": "Can relational databases handle unstructured data?",
+      "answer": "Relational databases are designed for structured data. For unstructured data, NoSQL databases may be more suitable."
+    }
+  ],
+  "caveats": [
+    "Relational databases may not perform optimally with very large datasets or highly variable data structures, where NoSQL alternatives might be more efficient."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for choosing a relational database"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-update-pcie-storage",
+  "directAnswer": "To update PCIe storage, you need to install the latest firmware or drivers from the manufacturer's website and ensure your operating system is up to date.",
+  "summary": "Updating PCIe storage involves firmware and driver updates to enhance performance and compatibility.",
+  "sections": [
+    {
+      "id": "firmware-updates",
+      "heading": "Firmware Updates",
+      "body": "Visit the manufacturer's website for your PCIe storage device to download the latest firmware. Follow the provided instructions for installation, which may involve using a specific utility."
+    },
+    {
+      "id": "driver-updates",
+      "heading": "Driver Updates",
+      "body": "For Windows, go to Device Manager, find your PCIe storage under Disk Drives, right-click, and select 'Update driver'. For Linux, ensure your kernel is up to date as it often includes necessary drivers."
+    },
+    {
+      "id": "operating-system-updates",
+      "heading": "Operating System Updates",
+      "body": "Make sure your operating system is fully updated. For Windows, check for updates in the Settings app. For macOS, go to System Preferences > Software Update."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Manufacturer's Website",
+      "detail": "Locate the support section for your PCIe storage device and download the latest firmware."
+    },
+    {
+      "title": "Install Firmware",
+      "detail": "Follow the manufacturer's instructions to install the firmware update."
+    },
+    {
+      "title": "Update Drivers",
+      "detail": "Use Device Manager on Windows or ensure your Linux kernel is updated to get the latest drivers."
+    },
+    {
+      "title": "Update Operating System",
+      "detail": "Check for and install any available updates for your operating system."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my PCIe storage is not recognized after the update?",
+      "answer": "Check your BIOS/UEFI settings to ensure PCIe devices are enabled and properly configured."
+    },
+    {
+      "question": "Can I roll back a firmware update?",
+      "answer": "Some manufacturers provide a rollback option, but it varies by device. Check the manufacturer's documentation."
+    },
+    {
+      "question": "Will updating my PCIe storage improve performance?",
+      "answer": "Yes, updates can improve performance, fix bugs, and enhance compatibility with newer hardware and software."
+    }
+  ],
+  "caveats": [
+    "Ensure you have backups of important data before performing updates.",
+    "Firmware updates can sometimes lead to compatibility issues; consult the manufacturer's notes."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

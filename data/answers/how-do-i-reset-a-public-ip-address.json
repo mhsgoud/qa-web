@@ -1,0 +1,51 @@
+{
+  "slug": "how-do-i-reset-a-public-ip-address",
+  "directAnswer": "To reset a public IP address, you can either restart your modem or router, or request a new IP address from your Internet Service Provider (ISP).",
+  "summary": "Resetting a public IP address can be done through hardware reset or ISP request, depending on your network configuration.",
+  "sections": [
+    {
+      "id": "modem-router-reset",
+      "heading": "Resetting Your Modem or Router",
+      "body": "Restarting your modem or router can often result in a new public IP address, especially if your ISP uses dynamic IP addressing."
+    },
+    {
+      "id": "isp-request",
+      "heading": "Requesting an IP Address Change from Your ISP",
+      "body": "If restarting your hardware does not yield a new IP address, you can contact your ISP and request a new public IP address."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Restart Your Modem/Router",
+      "detail": "Unplug your modem or router from the power source, wait for about 5 minutes, then plug it back in and wait for it to fully restart."
+    },
+    {
+      "title": "Contact Your ISP",
+      "detail": "Call or use the online support chat of your ISP to request a new public IP address. Be prepared to provide your account information."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my public IP address affect my internet connection?",
+      "answer": "Resetting your public IP address may temporarily disrupt your internet connection, but it should restore once the device reconnects."
+    },
+    {
+      "question": "How often can I reset my public IP address?",
+      "answer": "You can reset your public IP address as often as needed, but the frequency may depend on your ISP's policies regarding IP allocation."
+    },
+    {
+      "question": "What if my ISP uses static IP addressing?",
+      "answer": "If your ISP assigns a static IP address, you will need to contact them directly to change it, as it does not change on a reset."
+    }
+  ],
+  "caveats": [
+    "Not all ISPs provide dynamic IP addresses; some may assign static IPs which do not change.",
+    "Restarting your modem/router may not guarantee a new IP address if your ISP has not released the old one."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for troubleshooting IP address issues"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

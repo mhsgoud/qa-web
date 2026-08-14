@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-reset-a-push-notification",
+  "directAnswer": "To reset a push notification, you typically need to clear the app's cache or notification settings in your device's settings menu.",
+  "summary": "This guide provides steps to reset push notifications for various platforms and addresses common issues.",
+  "sections": [
+    {
+      "id": "android",
+      "heading": "Resetting Push Notifications on Android",
+      "body": "On Android devices, you can reset push notifications by clearing the app cache or adjusting notification settings."
+    },
+    {
+      "id": "ios",
+      "heading": "Resetting Push Notifications on iOS",
+      "body": "On iOS devices, resetting push notifications involves disabling and re-enabling notifications for the specific app in the settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Android - Clear App Cache",
+      "detail": "Go to Settings > Apps > [Your App] > Storage > Clear Cache."
+    },
+    {
+      "title": "Android - Notification Settings",
+      "detail": "Go to Settings > Apps > [Your App] > Notifications and toggle notifications off and back on."
+    },
+    {
+      "title": "iOS - Disable Notifications",
+      "detail": "Go to Settings > Notifications > [Your App] and toggle Allow Notifications off, then back on."
+    },
+    {
+      "title": "iOS - Restart Device",
+      "detail": "Sometimes, a device restart helps in resetting notifications. Hold the power button and slide to power off."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I still don't receive notifications after resetting?",
+      "answer": "Ensure that your device is connected to the internet and that the app has permission to send notifications."
+    },
+    {
+      "question": "Can I reset notifications for all apps at once?",
+      "answer": "No, you need to reset notifications for each app individually."
+    },
+    {
+      "question": "Will resetting notifications delete any data?",
+      "answer": "No, resetting notifications does not delete any app data; it only affects notification settings."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly based on device model and OS version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for troubleshooting notifications"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

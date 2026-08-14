@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-troubleshoot-a-content-delivery-network",
+  "directAnswer": "To troubleshoot a content delivery network (CDN), start by checking the CDN provider's status page for outages, and then verify your DNS settings and cache configurations.",
+  "summary": "This guide provides steps to troubleshoot issues related to content delivery networks, including checking for outages and verifying configurations.",
+  "sections": [
+    {
+      "id": "checking-cdn-status",
+      "heading": "Checking CDN Status",
+      "body": "Visit your CDN provider's status page to see if there are any ongoing outages or maintenance activities that could affect performance."
+    },
+    {
+      "id": "verifying-dns-settings",
+      "heading": "Verifying DNS Settings",
+      "body": "Ensure that your domain's DNS settings point correctly to the CDN. This may vary by provider, so check your CDN documentation for specific instructions."
+    },
+    {
+      "id": "clearing-cache",
+      "heading": "Clearing Cache",
+      "body": "If content is not updating, try purging the cache from your CDN dashboard. This can resolve issues where outdated content is served."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check CDN Provider Status",
+      "detail": "Go to your CDN provider's status page and look for any reported issues or outages."
+    },
+    {
+      "title": "Verify DNS Settings",
+      "detail": "Access your domain registrar's settings and confirm that the DNS records are correctly configured to point to your CDN."
+    },
+    {
+      "title": "Purge CDN Cache",
+      "detail": "Log into your CDN dashboard and use the cache purge feature to clear any outdated content."
+    },
+    {
+      "title": "Test Connectivity",
+      "detail": "Use tools like 'ping' or 'traceroute' to check the connectivity to your CDN endpoints."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my CDN provider is down?",
+      "answer": "If your CDN provider is down, consider switching to a backup CDN if you have one, or temporarily serving content directly from your origin server."
+    },
+    {
+      "question": "How can I check if my DNS changes have propagated?",
+      "answer": "You can use online tools like 'whatsmydns.net' to check the propagation status of your DNS changes across various locations."
+    },
+    {
+      "question": "What are common signs of CDN issues?",
+      "answer": "Common signs include slow loading times, 404 errors for static assets, and outdated content being served."
+    }
+  ],
+  "caveats": [
+    "CDN issues may also arise from origin server problems, so check your server status as well.",
+    "Some features and settings may vary depending on your CDN provider and plan."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for CDN configuration"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

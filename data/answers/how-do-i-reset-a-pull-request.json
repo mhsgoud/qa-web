@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-reset-a-pull-request",
+  "directAnswer": "To reset a pull request, you can revert the changes in your branch and then push the updated branch to the remote repository.",
+  "summary": "Resetting a pull request involves reverting changes or resetting the branch to a previous commit. This process may vary slightly depending on the version control system you are using.",
+  "sections": [
+    {
+      "id": "git-reset",
+      "heading": "Using Git",
+      "body": "To reset a pull request in Git, you can use the 'git reset' command to move your branch pointer to a specific commit."
+    },
+    {
+      "id": "github-steps",
+      "heading": "Steps for GitHub",
+      "body": "Follow these steps to reset your pull request on GitHub."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify the commit",
+      "detail": "Find the commit hash you want to reset to by using 'git log'."
+    },
+    {
+      "title": "Reset your branch",
+      "detail": "Run 'git reset --hard <commit-hash>' to reset your branch to that commit."
+    },
+    {
+      "title": "Force push changes",
+      "detail": "Use 'git push origin <branch-name> --force' to update the remote branch."
+    },
+    {
+      "title": "Check the pull request",
+      "detail": "Go to your pull request on GitHub to ensure it reflects the reset state."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens to my changes after a reset?",
+      "answer": "After a hard reset, all changes made after the specified commit will be lost unless they are saved elsewhere."
+    },
+    {
+      "question": "Can I reset a pull request in other platforms?",
+      "answer": "Yes, the process is similar in other platforms like GitLab or Bitbucket, but the UI and commands may vary."
+    },
+    {
+      "question": "Is it safe to force push?",
+      "answer": "Force pushing can overwrite changes in the remote branch, so ensure that no one else is working on the same branch."
+    }
+  ],
+  "caveats": [
+    "Force pushing can lead to loss of data if not used carefully.",
+    "Ensure all collaborators are aware of the reset to avoid confusion."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

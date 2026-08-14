@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-reset-a-content-delivery-network",
+  "directAnswer": "To reset a content delivery network (CDN), you typically need to clear the cache and reconfigure your settings through your CDN provider's dashboard.",
+  "summary": "Resetting a CDN involves clearing cached content and possibly adjusting configurations to ensure optimal performance.",
+  "sections": [
+    {
+      "id": "understanding-cdn-reset",
+      "heading": "Understanding CDN Reset",
+      "body": "A CDN reset generally refers to clearing cached content and reapplying configurations to resolve issues or refresh content delivery."
+    },
+    {
+      "id": "platform-specific-instructions",
+      "heading": "Platform-Specific Instructions",
+      "body": "Steps may vary depending on your CDN provider. Below are general steps for popular CDNs."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues After Reset",
+      "body": "After resetting, you may experience temporary downtime or delayed content propagation as the CDN rebuilds its cache."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log into your CDN dashboard",
+      "detail": "Access your CDN provider's dashboard using your credentials."
+    },
+    {
+      "title": "Clear the cache",
+      "detail": "Locate the cache management section and select the option to clear or purge the cache. This may vary by provider."
+    },
+    {
+      "title": "Reconfigure settings (if necessary)",
+      "detail": "Review your CDN settings to ensure they are correctly configured for your needs, such as origin server settings."
+    },
+    {
+      "title": "Monitor performance",
+      "detail": "After resetting, monitor your website's performance to ensure that content is being delivered correctly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my CDN affect my website's availability?",
+      "answer": "Yes, there may be a temporary impact on availability as the CDN rebuilds its cache."
+    },
+    {
+      "question": "How often should I reset my CDN?",
+      "answer": "It depends on your content update frequency; consider resetting after major updates or when experiencing issues."
+    },
+    {
+      "question": "Can I automate CDN resets?",
+      "answer": "Some CDN providers offer APIs that allow you to automate cache purging and configuration updates."
+    }
+  ],
+  "caveats": [
+    "Resetting a CDN may lead to temporary performance issues as new content is cached.",
+    "Ensure you have backups of your configurations before making changes."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

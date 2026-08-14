@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-set-up-a-public-ip-address",
+  "directAnswer": "To set up a public IP address, you typically need to contact your Internet Service Provider (ISP) to request a static or dynamic public IP assignment. Once assigned, configure your router or device to use the provided IP address.",
+  "summary": "Setting up a public IP address involves coordination with your ISP and configuring your network settings accordingly.",
+  "sections": [
+    {
+      "id": "understanding-public-ip",
+      "heading": "Understanding Public IP Addresses",
+      "body": "A public IP address is an address that is accessible over the internet. It is assigned by your ISP and can be either static (permanent) or dynamic (changes periodically)."
+    },
+    {
+      "id": "configuring-router",
+      "heading": "Configuring Your Router",
+      "body": "Once you have your public IP address, you may need to configure your router to ensure it uses the correct settings for your network."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Contact Your ISP",
+      "detail": "Reach out to your Internet Service Provider to request a public IP address. Specify whether you need a static or dynamic IP."
+    },
+    {
+      "title": "Access Router Settings",
+      "detail": "Log into your router's web interface. This is usually done by entering the router's local IP address in a web browser."
+    },
+    {
+      "title": "Configure WAN Settings",
+      "detail": "Navigate to the WAN settings section (the path may vary by router brand) and input the public IP address provided by your ISP."
+    },
+    {
+      "title": "Save and Reboot",
+      "detail": "Save your settings and reboot your router to apply the changes."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between static and dynamic IP addresses?",
+      "answer": "A static IP address remains the same over time, while a dynamic IP address can change periodically, assigned by the ISP."
+    },
+    {
+      "question": "Can I set up a public IP address on my own?",
+      "answer": "You cannot assign a public IP address independently; it must be provided by your ISP."
+    },
+    {
+      "question": "What if my ISP does not provide public IP addresses?",
+      "answer": "If your ISP does not offer public IP addresses, you may need to consider switching to a different provider that does."
+    }
+  ],
+  "caveats": [
+    "Not all ISPs provide public IP addresses; check with your provider for availability.",
+    "Some routers may require firmware updates to support public IP configurations."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

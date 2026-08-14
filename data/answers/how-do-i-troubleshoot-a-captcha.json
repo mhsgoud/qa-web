@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-troubleshoot-a-captcha",
+  "directAnswer": "To troubleshoot a CAPTCHA, ensure your browser is up to date and check for any browser extensions that may interfere with CAPTCHA functionality.",
+  "summary": "This guide provides steps to troubleshoot common CAPTCHA issues across various platforms.",
+  "sections": [
+    {
+      "id": "browser-issues",
+      "heading": "Check Browser Settings",
+      "body": "Ensure your browser settings allow cookies and JavaScript, as these are often required for CAPTCHA to function properly."
+    },
+    {
+      "id": "extensions",
+      "heading": "Disable Browser Extensions",
+      "body": "Some browser extensions, particularly ad blockers or privacy tools, can block CAPTCHA. Temporarily disable these extensions to see if it resolves the issue."
+    },
+    {
+      "id": "network-issues",
+      "heading": "Check Network Connection",
+      "body": "A poor or unstable internet connection can lead to CAPTCHA errors. Try switching to a different network or restarting your router."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Update Your Browser",
+      "detail": "Ensure you are using the latest version of your browser. Check the browser's settings or help menu for update options."
+    },
+    {
+      "title": "Clear Browser Cache",
+      "detail": "Clear your browser's cache and cookies. This can often resolve issues related to stored data interfering with CAPTCHA."
+    },
+    {
+      "title": "Test in Incognito Mode",
+      "detail": "Open a new incognito or private browsing window. This disables extensions and can help identify if they are causing the issue."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I keep getting the same CAPTCHA?",
+      "answer": "If you repeatedly encounter the same CAPTCHA, try refreshing the page or clearing your browser's cache."
+    },
+    {
+      "question": "Can using a VPN affect CAPTCHA?",
+      "answer": "Yes, using a VPN can sometimes trigger CAPTCHAs more frequently due to perceived unusual activity."
+    },
+    {
+      "question": "Why do I see CAPTCHAs on certain websites only?",
+      "answer": "Some websites implement CAPTCHA based on user behavior or traffic patterns, which may vary from site to site."
+    }
+  ],
+  "caveats": [
+    "CAPTCHA implementations may vary by website, so steps may differ slightly.",
+    "Some issues may be related to the specific CAPTCHA provider (e.g., Google reCAPTCHA) rather than your settings."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for troubleshooting CAPTCHA"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-test-an-api",
+  "directAnswer": "You can test an API using tools like Postman or cURL to send requests and check responses.",
+  "summary": "Testing an API involves sending requests to the API endpoint and verifying the responses for correctness.",
+  "sections": [
+    {
+      "id": "understanding-api-testing",
+      "heading": "Understanding API Testing",
+      "body": "API testing is a type of software testing that involves verifying that an API meets expectations for functionality, reliability, performance, and security."
+    },
+    {
+      "id": "tools-for-api-testing",
+      "heading": "Tools for API Testing",
+      "body": "Popular tools include Postman, cURL, and automated testing frameworks like JUnit or pytest for integration testing."
+    },
+    {
+      "id": "common-api-testing-methods",
+      "heading": "Common API Testing Methods",
+      "body": "Common methods include functional testing, load testing, security testing, and error handling testing."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Choose a Testing Tool",
+      "detail": "Select a tool such as Postman or cURL based on your preference and requirements."
+    },
+    {
+      "title": "Set Up the API Endpoint",
+      "detail": "Enter the API endpoint URL in the tool and select the appropriate HTTP method (GET, POST, etc.)."
+    },
+    {
+      "title": "Send a Request",
+      "detail": "Input any necessary parameters or headers and send the request to the API."
+    },
+    {
+      "title": "Analyze the Response",
+      "detail": "Check the response status code and body to ensure it matches expected results."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between API testing and unit testing?",
+      "answer": "API testing focuses on the API's functionality and performance, while unit testing checks individual components of the code."
+    },
+    {
+      "question": "Can I automate API testing?",
+      "answer": "Yes, many tools support automation, allowing you to run tests regularly and integrate them into CI/CD pipelines."
+    },
+    {
+      "question": "What should I do if the API response is not as expected?",
+      "answer": "Check the request parameters, headers, and the API documentation for any discrepancies or errors."
+    }
+  ],
+  "caveats": [
+    "API responses may vary based on authentication and user permissions.",
+    "Ensure you have the correct environment (development, staging, production) when testing."
+  ],
+  "relatedToolIdeas": [
+    "Automated testing frameworks for integration testing",
+    "Version control systems for API documentation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-reset-a-subnet-mask",
+  "directAnswer": "To reset a subnet mask, access your network settings and manually input the desired subnet mask value for your network interface.",
+  "summary": "Resetting a subnet mask is essential for proper network configuration and can be done through various platforms.",
+  "sections": [
+    {
+      "id": "windows",
+      "heading": "Windows",
+      "body": "On Windows, you can reset the subnet mask through the Network and Sharing Center or via Command Prompt."
+    },
+    {
+      "id": "macos",
+      "heading": "macOS",
+      "body": "On macOS, the subnet mask can be reset in the Network Preferences under the relevant network interface."
+    },
+    {
+      "id": "linux",
+      "heading": "Linux",
+      "body": "On Linux, you can change the subnet mask using the terminal with the 'ifconfig' or 'ip' command."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "1. Open Control Panel > Network and Internet > Network and Sharing Center. 2. Click on 'Change adapter settings'. 3. Right-click your network connection and select 'Properties'. 4. Select 'Internet Protocol Version 4 (TCP/IPv4)' and click 'Properties'. 5. Enter the new subnet mask in the 'Subnet mask' field."
+    },
+    {
+      "title": "macOS",
+      "detail": "1. Go to System Preferences > Network. 2. Select your network connection (e.g., Wi-Fi or Ethernet). 3. Click 'Advanced', then navigate to the 'TCP/IP' tab. 4. Change the subnet mask in the 'Subnet Mask' field."
+    },
+    {
+      "title": "Linux",
+      "detail": "1. Open a terminal. 2. Use the command 'sudo ifconfig [interface] netmask [new_subnet_mask]' or 'sudo ip addr add [ip_address]/[subnet_mask] dev [interface]' to set the new subnet mask."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a subnet mask?",
+      "answer": "A subnet mask is a 32-bit number that divides an IP address into network and host portions, helping to identify the network segment."
+    },
+    {
+      "question": "How do I find my current subnet mask?",
+      "answer": "You can find your current subnet mask in the network settings of your operating system or by using the 'ipconfig' command on Windows or 'ifconfig' on Linux."
+    },
+    {
+      "question": "Will resetting the subnet mask affect my network connection?",
+      "answer": "Yes, changing the subnet mask can affect your network connection, especially if the new mask does not match your network configuration."
+    }
+  ],
+  "caveats": [
+    "Ensure that the new subnet mask is compatible with your network configuration to avoid connectivity issues."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for network configuration"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

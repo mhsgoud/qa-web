@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-reset-a-git-branch",
+  "directAnswer": "To reset a Git branch, use the command 'git reset --hard <commit>' to move the branch pointer to a specific commit, discarding all changes after that commit.",
+  "summary": "This guide provides steps to reset a Git branch, along with potential caveats and frequently asked questions.",
+  "sections": [
+    {
+      "id": "understanding-git-reset",
+      "heading": "Understanding Git Reset",
+      "body": "The 'git reset' command changes the current branch head to the specified state. It can be used to discard commits, changes in the staging area, or both."
+    },
+    {
+      "id": "types-of-reset",
+      "heading": "Types of Reset",
+      "body": "'git reset' has three main modes: --soft (keeps changes staged), --mixed (keeps changes unstaged), and --hard (discards all changes). Choose the mode based on your needs."
+    },
+    {
+      "id": "when-to-use-reset",
+      "heading": "When to Use Reset",
+      "body": "Use 'git reset' when you want to undo commits or changes in your working directory. Be cautious as it can lead to data loss if used improperly."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Terminal",
+      "detail": "Launch your terminal or command prompt."
+    },
+    {
+      "title": "Navigate to Repository",
+      "detail": "Use 'cd <repository-path>' to navigate to your Git repository."
+    },
+    {
+      "title": "Identify Commit",
+      "detail": "Find the commit hash you want to reset to by using 'git log'."
+    },
+    {
+      "title": "Execute Reset Command",
+      "detail": "Run 'git reset --hard <commit-hash>' to reset the branch to the specified commit."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens to uncommitted changes after a hard reset?",
+      "answer": "All uncommitted changes will be lost after a hard reset."
+    },
+    {
+      "question": "Can I recover lost commits after a reset?",
+      "answer": "You can recover lost commits using 'git reflog' to find the commit hash and then reset back to it."
+    },
+    {
+      "question": "Is there a way to reset without losing changes?",
+      "answer": "Yes, you can use 'git reset --soft <commit>' to keep changes staged or 'git reset --mixed <commit>' to keep changes unstaged."
+    }
+  ],
+  "caveats": [
+    "Using 'git reset --hard' will permanently delete changes in your working directory that are not committed.",
+    "Make sure to back up any important changes before performing a reset."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for safe Git operations"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "how-do-i-check-a-web-app",
+  "directAnswer": "To check a web app, you should perform functionality tests, usability assessments, and security checks using various tools and manual methods.",
+  "summary": "This guide outlines how to effectively check a web app for functionality, usability, and security.",
+  "sections": [
+    {
+      "id": "functionality-testing",
+      "heading": "Functionality Testing",
+      "body": "Ensure all features work as intended. Use automated testing tools like Selenium or manual testing to verify functionalities."
+    },
+    {
+      "id": "usability-assessment",
+      "heading": "Usability Assessment",
+      "body": "Evaluate the user experience by conducting user testing sessions and gathering feedback on navigation and interface design."
+    },
+    {
+      "id": "security-checks",
+      "heading": "Security Checks",
+      "body": "Perform security assessments using tools like OWASP ZAP or Burp Suite to identify vulnerabilities in the web app."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Key Features",
+      "detail": "List all critical features of the web app that need to be tested."
+    },
+    {
+      "title": "Conduct Functionality Tests",
+      "detail": "Use automated testing tools or manual testing to ensure each feature works correctly across different browsers."
+    },
+    {
+      "title": "Gather User Feedback",
+      "detail": "Organize user testing sessions to collect feedback on usability and make necessary adjustments."
+    },
+    {
+      "title": "Run Security Tests",
+      "detail": "Utilize security testing tools to scan for vulnerabilities and address any issues found."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What tools are recommended for functionality testing?",
+      "answer": "Selenium, TestCafe, and Cypress are popular choices for automated functionality testing."
+    },
+    {
+      "question": "How often should I check my web app?",
+      "answer": "Regular checks should be performed after major updates and periodically to ensure ongoing functionality and security."
+    },
+    {
+      "question": "What should I do if I find a security vulnerability?",
+      "answer": "Immediately address the vulnerability by patching it and consider informing affected users if necessary."
+    }
+  ],
+  "caveats": [
+    "Testing methods may vary based on the web app's technology stack.",
+    "Manual testing can be time-consuming and may require experienced testers."
+  ],
+  "relatedToolIdeas": [
+    "Automated testing frameworks",
+    "User feedback collection tools",
+    "Security scanning software"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

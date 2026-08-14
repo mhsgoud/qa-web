@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-cpu-cooler",
+  "directAnswer": "To set up a CPU cooler, ensure the CPU is clean, apply thermal paste if necessary, and securely attach the cooler according to the manufacturer's instructions.",
+  "summary": "This guide outlines the steps to properly install a CPU cooler in your PC, ensuring optimal thermal performance.",
+  "sections": [
+    {
+      "id": "preparation",
+      "heading": "Preparation",
+      "body": "Before installing the CPU cooler, power down your PC, unplug it, and ground yourself to avoid static discharge. Ensure you have thermal paste and all necessary tools ready."
+    },
+    {
+      "id": "installation",
+      "heading": "Installation Steps",
+      "body": "Follow the specific installation steps for your CPU cooler model, as they may vary."
+    },
+    {
+      "id": "final-steps",
+      "heading": "Final Steps",
+      "body": "After installation, reconnect all power cables and check that the cooler is functioning properly before closing the case."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Remove the old cooler (if applicable)",
+      "detail": "Unscrew and detach the old CPU cooler, cleaning off any old thermal paste from the CPU surface."
+    },
+    {
+      "title": "Apply thermal paste",
+      "detail": "If your cooler does not have pre-applied thermal paste, apply a small pea-sized amount of thermal paste to the center of the CPU."
+    },
+    {
+      "title": "Attach the new cooler",
+      "detail": "Align the cooler with the mounting brackets and secure it according to the manufacturer's instructions."
+    },
+    {
+      "title": "Connect the cooler's power cable",
+      "detail": "Plug the cooler's power connector into the appropriate CPU fan header on the motherboard."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to apply thermal paste every time?",
+      "answer": "It's recommended to apply thermal paste whenever you remove the cooler to ensure optimal thermal conductivity."
+    },
+    {
+      "question": "What if my cooler doesn't fit?",
+      "answer": "Check the compatibility of your cooler with your CPU socket type and ensure there is enough clearance in your case."
+    },
+    {
+      "question": "How can I tell if my cooler is working properly?",
+      "answer": "Monitor your CPU temperatures using software tools; if temperatures are high, check the cooler installation and fan operation."
+    }
+  ],
+  "caveats": [
+    "Ensure compatibility between the cooler and your CPU socket type.",
+    "Different coolers may have unique installation procedures; refer to the manufacturer's manual."
+  ],
+  "relatedToolIdeas": [
+    "Thermal paste application tool",
+    "CPU temperature monitoring software"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

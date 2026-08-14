@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-reset-cloud-storage",
+  "directAnswer": "To reset your cloud storage, you typically need to delete existing data and reconfigure your settings. This process varies by provider.",
+  "summary": "Resetting cloud storage involves clearing existing data and adjusting settings, which may differ based on the service you use.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Resetting your cloud storage can help resolve issues or prepare for a new configuration. Ensure you back up any important data before proceeding."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Follow the steps below based on your cloud storage provider."
+    },
+    {
+      "id": "caveats",
+      "heading": "Caveats",
+      "body": "Be aware that resetting your cloud storage may result in permanent data loss. Always back up important files."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Drive",
+      "detail": "1. Open Google Drive. 2. Select 'Settings' from the gear icon. 3. Click on 'Manage Apps', then 'Options' next to the app you want to reset. 4. Choose 'Delete hidden app data'."
+    },
+    {
+      "title": "Dropbox",
+      "detail": "1. Log in to Dropbox. 2. Go to 'Settings' > 'General'. 3. Scroll down to 'Delete account' to reset your storage."
+    },
+    {
+      "title": "OneDrive",
+      "detail": "1. Open OneDrive. 2. Go to 'Settings' > 'Account'. 3. Click on 'Unlink this PC' to reset your storage."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will I lose all my files if I reset my cloud storage?",
+      "answer": "Yes, resetting your cloud storage typically deletes all files unless they are backed up elsewhere."
+    },
+    {
+      "question": "Can I recover files after resetting?",
+      "answer": "Recovery options depend on your provider's policies; check their support for details on file recovery."
+    },
+    {
+      "question": "How often should I reset my cloud storage?",
+      "answer": "Resetting should be done only when necessary, such as when troubleshooting or changing configurations."
+    }
+  ],
+  "caveats": [
+    "Resetting may lead to permanent data loss; ensure backups are made."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

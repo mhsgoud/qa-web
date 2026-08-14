@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-update-a-virtual-machine",
+  "directAnswer": "To update a virtual machine, ensure that the VM is powered on, then apply the necessary updates through the hypervisor or cloud management platform you are using.",
+  "summary": "Updating a virtual machine involves applying software updates and patches to ensure optimal performance and security.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to update a virtual machine can vary depending on the platform used (e.g., VMware, Hyper-V, AWS, Azure)."
+    },
+    {
+      "id": "caveats",
+      "heading": "Caveats",
+      "body": "Ensure you have backups before proceeding with updates, as updates can sometimes cause compatibility issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "VMware",
+      "detail": "Log in to the vSphere Client, select the VM, right-click and choose 'Guest OS' > 'Install/Upgrade VMware Tools' to update the tools, then check for updates in the OS."
+    },
+    {
+      "title": "Hyper-V",
+      "detail": "Open Hyper-V Manager, select the VM, ensure it is running, then connect to the VM and update the OS from within."
+    },
+    {
+      "title": "AWS",
+      "detail": "Navigate to the EC2 dashboard, select the instance, and use the 'Actions' menu to choose 'Instance Settings' > 'Get System Log' to check for updates, then apply updates within the instance."
+    },
+    {
+      "title": "Azure",
+      "detail": "Go to the Azure portal, select the VM, and under 'Updates', check for available updates and apply them as needed."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the update fails?",
+      "answer": "If an update fails, check the logs for errors, ensure there is enough disk space, and retry the update."
+    },
+    {
+      "question": "How often should I update my virtual machines?",
+      "answer": "It's recommended to update your virtual machines regularly, ideally as part of a scheduled maintenance plan."
+    },
+    {
+      "question": "Can I automate VM updates?",
+      "answer": "Yes, many platforms offer automation tools or scripts that can schedule and apply updates automatically."
+    }
+  ],
+  "caveats": [
+    "Always back up your VM before applying updates to prevent data loss."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for VM updates"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

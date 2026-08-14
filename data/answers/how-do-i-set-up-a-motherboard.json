@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-motherboard",
+  "directAnswer": "To set up a motherboard, place it in the case, connect the power supply, and install CPU, RAM, and storage devices as per the manual instructions.",
+  "summary": "Setting up a motherboard involves physical installation in a case and connecting essential components like CPU, RAM, and power supply.",
+  "sections": [
+    {
+      "id": "installation",
+      "heading": "Installation Process",
+      "body": "Begin by securing the motherboard in the case using standoffs. Ensure that the I/O shield is properly aligned and installed."
+    },
+    {
+      "id": "component-connection",
+      "heading": "Connecting Components",
+      "body": "Install the CPU and RAM according to the motherboard manual. Connect the power supply cables to the motherboard, ensuring the 24-pin and 4/8-pin connectors are securely attached."
+    },
+    {
+      "id": "final-setup",
+      "heading": "Final Setup",
+      "body": "Attach storage devices and any additional peripherals. Double-check all connections before powering on the system."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Secure the Motherboard",
+      "detail": "Place the motherboard in the case and secure it with screws to the standoffs."
+    },
+    {
+      "title": "Install CPU and RAM",
+      "detail": "Carefully insert the CPU into the socket and lock it in place. Insert RAM sticks into the appropriate slots."
+    },
+    {
+      "title": "Connect Power Supply",
+      "detail": "Connect the 24-pin power cable and the 4/8-pin CPU power cable to the motherboard."
+    },
+    {
+      "title": "Attach Storage and Peripherals",
+      "detail": "Connect any storage devices and peripherals, ensuring all connections are firm."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What tools do I need to set up a motherboard?",
+      "answer": "You will need a screwdriver, thermal paste (if not pre-applied), and anti-static wrist strap."
+    },
+    {
+      "question": "Can I set up a motherboard without a case?",
+      "answer": "Yes, but ensure you are grounded to avoid static damage and keep the motherboard on a non-conductive surface."
+    },
+    {
+      "question": "How do I know if my motherboard is compatible with my CPU?",
+      "answer": "Check the motherboard's specifications for the supported CPU socket type and chipset."
+    }
+  ],
+  "caveats": [
+    "Ensure that all components are compatible with the motherboard.",
+    "Be cautious of static electricity; use an anti-static wrist strap."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for motherboard setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

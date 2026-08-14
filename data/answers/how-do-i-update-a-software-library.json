@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-update-a-software-library",
+  "directAnswer": "To update a software library, use the package manager specific to your programming language or framework, such as npm for JavaScript or pip for Python. Ensure to check the library's documentation for any breaking changes before updating.",
+  "summary": "Updating a software library is essential for maintaining security and functionality. Follow the platform-specific steps to ensure a smooth update process.",
+  "sections": [
+    {
+      "id": "npm-update",
+      "heading": "Updating Libraries with npm",
+      "body": "Use the command 'npm update <package-name>' to update a specific library. To update all libraries, simply run 'npm update'. Check the package.json file for version constraints."
+    },
+    {
+      "id": "pip-update",
+      "heading": "Updating Libraries with pip",
+      "body": "Run 'pip install --upgrade <package-name>' to update a specific library. To upgrade all installed packages, you can use 'pip list --outdated' followed by 'pip install --upgrade <package-name>' for each outdated package."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Current Version",
+      "detail": "Before updating, check the current version of the library using 'npm list <package-name>' or 'pip show <package-name>'."
+    },
+    {
+      "title": "Backup Your Project",
+      "detail": "Create a backup of your project or use version control to ensure you can revert changes if needed."
+    },
+    {
+      "title": "Run Update Command",
+      "detail": "Use the appropriate command for your package manager to update the library."
+    },
+    {
+      "title": "Test Your Application",
+      "detail": "After updating, thoroughly test your application to ensure compatibility and functionality."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the update breaks my application?",
+      "answer": "If the update causes issues, revert to the previous version using the package manager's version control features, such as 'npm install <package-name>@<version>' or 'pip install <package-name>==<version>'."
+    },
+    {
+      "question": "How can I see what has changed in the library?",
+      "answer": "Check the library's changelog or release notes on its official repository or website to understand what changes have been made."
+    },
+    {
+      "question": "Is it safe to update libraries automatically?",
+      "answer": "Automatic updates can introduce breaking changes. It's safer to review updates manually, especially for critical libraries."
+    }
+  ],
+  "caveats": [
+    "Library updates may introduce breaking changes; always read the release notes.",
+    "Compatibility issues may arise with other libraries or the application itself."
+  ],
+  "relatedToolIdeas": [
+    "Version control systems for tracking changes",
+    "Dependency management tools for handling multiple libraries"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

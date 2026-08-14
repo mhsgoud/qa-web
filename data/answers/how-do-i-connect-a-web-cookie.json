@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-connect-a-web-cookie",
+  "directAnswer": "To connect a web cookie, you typically need to set it in your web application using JavaScript or server-side code, depending on your platform.",
+  "summary": "This guide provides steps to create and manage web cookies in your applications.",
+  "sections": [
+    {
+      "id": "understanding-cookies",
+      "heading": "Understanding Web Cookies",
+      "body": "Web cookies are small pieces of data stored on the user's device by the web browser while browsing a website. They are used for various purposes, including session management and user tracking."
+    },
+    {
+      "id": "setting-cookies",
+      "heading": "Setting Cookies in JavaScript",
+      "body": "You can set cookies in JavaScript using the 'document.cookie' property. Ensure to define attributes like 'expires' and 'path' for better control."
+    },
+    {
+      "id": "server-side-cookies",
+      "heading": "Setting Cookies on the Server Side",
+      "body": "On the server side, cookies can be set in the HTTP response headers. The method varies by programming language and framework."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Set a Cookie in JavaScript",
+      "detail": "Use the following code: document.cookie = 'key=value; expires=Fri, 31 Dec 2023 23:59:59 GMT; path=/';"
+    },
+    {
+      "title": "Set a Cookie in PHP",
+      "detail": "Use the function setcookie(): setcookie('key', 'value', time() + 3600, '/');"
+    },
+    {
+      "title": "Check Cookie Availability",
+      "detail": "In JavaScript, check if a cookie exists using: if (document.cookie.split(';').some((item) => item.trim().startsWith('key='))) { // cookie exists }"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the common uses of cookies?",
+      "answer": "Cookies are commonly used for session management, personalization, and tracking user behavior on websites."
+    },
+    {
+      "question": "How can I delete a cookie?",
+      "answer": "To delete a cookie, set its expiration date to a past date using the same key: document.cookie = 'key=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/';"
+    },
+    {
+      "question": "Are cookies secure?",
+      "answer": "Cookies can be secure if properly configured. Use the 'Secure' and 'HttpOnly' flags to enhance security."
+    }
+  ],
+  "caveats": [
+    "Cookies may be blocked by browser settings or extensions, affecting functionality.",
+    "Different browsers may handle cookies slightly differently, especially regarding third-party cookies."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Cookie management checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

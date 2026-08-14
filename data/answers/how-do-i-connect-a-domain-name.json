@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-connect-a-domain-name",
+  "directAnswer": "To connect a domain name, you need to update the DNS settings at your domain registrar to point to your web hosting provider's servers.",
+  "summary": "This guide outlines the steps to connect your domain name to a web hosting service, including platform-specific instructions and common pitfalls.",
+  "sections": [
+    {
+      "id": "understanding-dns",
+      "heading": "Understanding DNS",
+      "body": "DNS (Domain Name System) translates your domain name into an IP address that directs users to your website. Proper configuration is essential for your domain to function correctly."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Instructions may vary depending on your domain registrar and web hosting provider. Below are general steps for popular platforms."
+    },
+    {
+      "id": "common-caveats",
+      "heading": "Common Caveats",
+      "body": "Be aware that DNS changes can take up to 48 hours to propagate fully across the internet."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log into your domain registrar",
+      "detail": "Access your account on the website where you purchased your domain (e.g., GoDaddy, Namecheap)."
+    },
+    {
+      "title": "Locate DNS settings",
+      "detail": "Find the DNS management section. This may be labeled as 'DNS Settings', 'Name Server Management', or similar."
+    },
+    {
+      "title": "Update Name Servers",
+      "detail": "Replace the existing name servers with those provided by your web hosting provider. This information is typically found in your hosting account dashboard."
+    },
+    {
+      "title": "Save changes",
+      "detail": "Ensure you save any changes made to the DNS settings. You may receive a confirmation message."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does it take for DNS changes to take effect?",
+      "answer": "DNS changes can take anywhere from a few minutes to 48 hours to propagate globally."
+    },
+    {
+      "question": "What if my website doesn't load after changing DNS settings?",
+      "answer": "Double-check that the name servers are entered correctly and that they match those provided by your hosting provider."
+    },
+    {
+      "question": "Can I connect my domain to multiple websites?",
+      "answer": "No, a single domain can only point to one website at a time unless you use subdomains or URL forwarding."
+    }
+  ],
+  "caveats": [
+    "DNS changes can take up to 48 hours to propagate fully.",
+    "Ensure you have the correct name server information from your hosting provider."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for domain connection"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

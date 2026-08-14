@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-update-a-web-server",
+  "directAnswer": "To update a web server, you typically need to access the server via SSH and use the package manager to install updates. Ensure you back up your data before proceeding.",
+  "summary": "Updating a web server is essential for security and performance. Follow the specific steps based on your server's operating system.",
+  "sections": [
+    {
+      "id": "pre-update-considerations",
+      "heading": "Pre-Update Considerations",
+      "body": "Before updating, ensure you have a complete backup of your server data and configurations. Review the release notes of the updates for any breaking changes."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The update process can vary based on the operating system (e.g., Ubuntu, CentOS, Windows). Follow the appropriate steps for your platform."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Update on Ubuntu",
+      "detail": "1. SSH into your server. 2. Run 'sudo apt update' to refresh the package list. 3. Run 'sudo apt upgrade' to install available updates."
+    },
+    {
+      "title": "Update on CentOS",
+      "detail": "1. SSH into your server. 2. Run 'sudo yum check-update' to check for updates. 3. Run 'sudo yum update' to apply the updates."
+    },
+    {
+      "title": "Update on Windows Server",
+      "detail": "1. Connect to your server using Remote Desktop. 2. Open 'Settings' > 'Update & Security'. 3. Click 'Check for updates' and install any available updates."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the update fails?",
+      "answer": "If an update fails, check the error messages for guidance. You may need to roll back to a previous version or troubleshoot specific issues."
+    },
+    {
+      "question": "How often should I update my web server?",
+      "answer": "It is recommended to check for updates at least once a month, or more frequently if critical security updates are released."
+    },
+    {
+      "question": "Can I schedule updates on my server?",
+      "answer": "Yes, you can schedule updates using cron jobs on Linux servers or Task Scheduler on Windows servers to automate the process."
+    }
+  ],
+  "caveats": [
+    "Some updates may require a server reboot, which can cause downtime.",
+    "Ensure compatibility of web applications with new server versions before updating."
+  ],
+  "relatedToolIdeas": [
+    "Checklist for server backup before updates",
+    "Related Q&A cluster on server maintenance"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

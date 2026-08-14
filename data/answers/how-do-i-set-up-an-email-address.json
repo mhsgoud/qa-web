@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-set-up-an-email-address",
+  "directAnswer": "To set up an email address, choose an email service provider, create an account, and follow their setup instructions to finalize your email address and settings.",
+  "summary": "Setting up an email address involves selecting a provider and completing their registration process.",
+  "sections": [
+    {
+      "id": "choosing-a-provider",
+      "heading": "Choosing an Email Provider",
+      "body": "Popular email providers include Gmail, Outlook, and Yahoo Mail. Each provider offers different features, so consider your needs before selecting one."
+    },
+    {
+      "id": "creating-an-account",
+      "heading": "Creating an Account",
+      "body": "Visit the provider's website, click on 'Sign Up' or 'Create Account', and fill in the required information, such as your name, desired email address, and password."
+    },
+    {
+      "id": "configuring-settings",
+      "heading": "Configuring Your Settings",
+      "body": "After creating your account, you may need to configure settings like security options, recovery email, and signature preferences."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Visit the Email Provider's Website",
+      "detail": "Go to the website of the email provider you have chosen (e.g., gmail.com, outlook.com, yahoo.com)."
+    },
+    {
+      "title": "Sign Up for an Account",
+      "detail": "Click on the 'Sign Up' button and enter the required information, including your name, desired email address, and password."
+    },
+    {
+      "title": "Verify Your Account",
+      "detail": "Some providers may require you to verify your account via a confirmation email or SMS code."
+    },
+    {
+      "title": "Configure Your Email Settings",
+      "detail": "Access your account settings to customize your email preferences, such as adding a recovery email or setting up a signature."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use my custom domain for my email address?",
+      "answer": "Yes, many providers like Google Workspace and Microsoft 365 allow you to use a custom domain for your email address, but this typically requires a paid plan."
+    },
+    {
+      "question": "What should I do if I forget my email password?",
+      "answer": "Use the 'Forgot Password' feature on your email provider's login page to reset your password using your recovery email or phone number."
+    },
+    {
+      "question": "Is it safe to use free email services?",
+      "answer": "While free email services are generally safe, they may have limitations on storage and features. Always enable two-factor authentication for added security."
+    }
+  ],
+  "caveats": [
+    "Email setup processes may vary slightly depending on the provider and any updates to their interface."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

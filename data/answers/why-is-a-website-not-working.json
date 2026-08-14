@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-a-website-not-working",
+  "directAnswer": "A website may not be working due to server issues, DNS problems, or browser-related errors.",
+  "summary": "This page outlines common reasons a website might not function properly, along with troubleshooting steps and FAQs.",
+  "sections": [
+    {
+      "id": "server-issues",
+      "heading": "Server Issues",
+      "body": "If the server hosting the website is down or experiencing high traffic, the site may not load. Check the server status or contact the hosting provider."
+    },
+    {
+      "id": "dns-problems",
+      "heading": "DNS Problems",
+      "body": "Domain Name System (DNS) issues can prevent a website from resolving. Verify your DNS settings and try flushing your DNS cache."
+    },
+    {
+      "id": "browser-errors",
+      "heading": "Browser Errors",
+      "body": "Sometimes, browser extensions or cached data can interfere with website loading. Try accessing the site in incognito mode or clearing your browser cache."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Server Status",
+      "detail": "Use a website like 'Down For Everyone Or Just Me?' to see if the site is down globally."
+    },
+    {
+      "title": "Flush DNS Cache",
+      "detail": "On Windows, open Command Prompt and type 'ipconfig /flushdns'. On macOS, use 'sudo killall -HUP mDNSResponder' in Terminal."
+    },
+    {
+      "title": "Clear Browser Cache",
+      "detail": "In most browsers, access settings and look for 'Clear Browsing Data' to remove cached files."
+    },
+    {
+      "title": "Disable Extensions",
+      "detail": "Temporarily disable browser extensions to see if they are causing the issue."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How can I tell if the problem is on my end?",
+      "answer": "Try accessing the website from a different device or network to determine if the issue is local."
+    },
+    {
+      "question": "What should I do if the website is still down?",
+      "answer": "Contact the website's support team or check their social media for updates on outages."
+    },
+    {
+      "question": "Could my antivirus software be blocking the website?",
+      "answer": "Yes, some antivirus programs may block access to certain websites. Check your antivirus settings."
+    }
+  ],
+  "caveats": [
+    "Different browsers and operating systems may have varying methods for clearing cache or disabling extensions."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

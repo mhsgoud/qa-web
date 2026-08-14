@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-troubleshoot-a-git-branch",
+  "directAnswer": "To troubleshoot a Git branch, check for uncommitted changes, ensure you are on the correct branch, and review the branch's commit history for discrepancies.",
+  "summary": "This guide provides steps to effectively troubleshoot issues related to Git branches, including checking for uncommitted changes and reviewing commit history.",
+  "sections": [
+    {
+      "id": "check-uncommitted-changes",
+      "heading": "Check for Uncommitted Changes",
+      "body": "Before switching branches or pulling changes, ensure there are no uncommitted changes in your working directory that could cause conflicts."
+    },
+    {
+      "id": "verify-current-branch",
+      "heading": "Verify Current Branch",
+      "body": "Use the command `git branch` to see which branch you are currently on and confirm it's the branch you intend to work with."
+    },
+    {
+      "id": "review-commit-history",
+      "heading": "Review Commit History",
+      "body": "Use `git log` to review the commit history of the branch and identify any recent changes that may be causing issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check for Uncommitted Changes",
+      "detail": "Run `git status` to see if there are any uncommitted changes. If there are, either commit or stash them before proceeding."
+    },
+    {
+      "title": "Switch to the Correct Branch",
+      "detail": "If you're on the wrong branch, switch to the correct one using `git checkout branch-name`. Ensure you replace 'branch-name' with the actual branch name."
+    },
+    {
+      "title": "Pull Latest Changes",
+      "detail": "Run `git pull origin branch-name` to pull the latest changes from the remote repository for the current branch."
+    },
+    {
+      "title": "Review Commit History",
+      "detail": "Execute `git log` to view the commit history. Look for any recent commits that may have introduced issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I have merge conflicts?",
+      "answer": "Resolve merge conflicts by editing the conflicting files, then use `git add` to stage the resolved files and `git commit` to finalize the merge."
+    },
+    {
+      "question": "How can I see the differences between branches?",
+      "answer": "Use `git diff branch1..branch2` to see the differences between two branches."
+    },
+    {
+      "question": "What if I accidentally deleted a branch?",
+      "answer": "You can recover a deleted branch if you have the commit hash by running `git checkout -b branch-name commit-hash`."
+    }
+  ],
+  "caveats": [
+    "Ensure you have backups of important changes before performing operations that modify history.",
+    "Branch names and commands may vary based on your Git configuration and version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for Git troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

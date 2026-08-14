@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-connect-cloud-storage",
+  "directAnswer": "To connect cloud storage, install the respective app or access the service through a web browser and log in with your account credentials.",
+  "summary": "Connecting to cloud storage involves using an app or web interface to access your files and manage storage settings.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to connect to cloud storage can vary by platform. Below are instructions for popular services."
+    },
+    {
+      "id": "common-caveats",
+      "heading": "Common Caveats",
+      "body": "Be aware of storage limits and data transfer speeds which may affect your experience."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Drive",
+      "detail": "Download the Google Drive app or visit drive.google.com. Sign in with your Google account to access your files."
+    },
+    {
+      "title": "Dropbox",
+      "detail": "Install the Dropbox app or go to dropbox.com. Log in with your Dropbox credentials to connect."
+    },
+    {
+      "title": "OneDrive",
+      "detail": "Use the OneDrive app or access onedrive.live.com. Sign in with your Microsoft account to connect."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I forget my cloud storage password?",
+      "answer": "Use the password recovery option on the login page of your cloud storage service."
+    },
+    {
+      "question": "Can I access my cloud storage from multiple devices?",
+      "answer": "Yes, you can access your cloud storage from any device with internet access by logging into your account."
+    },
+    {
+      "question": "Are there any fees for using cloud storage?",
+      "answer": "Most services offer free tiers with limited storage, while additional storage typically incurs a monthly fee."
+    }
+  ],
+  "caveats": [
+    "Ensure you have a stable internet connection to avoid issues when accessing files.",
+    "Check for any storage limits on your account to prevent disruptions."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

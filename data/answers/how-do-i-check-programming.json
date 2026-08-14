@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-check-programming",
+  "directAnswer": "To check programming, you can use various tools to analyze code quality and performance, such as linters and debuggers. Additionally, running unit tests can help ensure that your code behaves as expected.",
+  "summary": "This guide provides methods to check programming quality and functionality through tools and testing.",
+  "sections": [
+    {
+      "id": "checking-code-quality",
+      "heading": "Checking Code Quality",
+      "body": "Use linters like ESLint for JavaScript or Pylint for Python to analyze your code for potential errors and enforce coding standards."
+    },
+    {
+      "id": "running-unit-tests",
+      "heading": "Running Unit Tests",
+      "body": "Implement unit tests using frameworks like JUnit for Java or pytest for Python to verify that individual components of your code work correctly."
+    },
+    {
+      "id": "performance-analysis",
+      "heading": "Performance Analysis",
+      "body": "Utilize profiling tools such as gprof for C/C++ or the Chrome DevTools for JavaScript to identify performance bottlenecks in your application."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Install a Linter",
+      "detail": "Choose a linter appropriate for your programming language and install it via your package manager (e.g., npm install eslint for JavaScript)."
+    },
+    {
+      "title": "Write Unit Tests",
+      "detail": "Create a test file in your project and use the testing framework's syntax to write tests for your functions or classes."
+    },
+    {
+      "title": "Run Performance Profiling",
+      "detail": "Launch your application with the profiling tool enabled and analyze the output to identify slow functions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a linter?",
+      "answer": "A linter is a tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs."
+    },
+    {
+      "question": "How do I know if my unit tests are effective?",
+      "answer": "Effective unit tests should cover a wide range of scenarios, including edge cases, and should be run frequently to catch regressions."
+    },
+    {
+      "question": "Can I check programming on any platform?",
+      "answer": "Yes, most programming tools and languages have cross-platform support, but specific installation steps may vary by operating system."
+    }
+  ],
+  "caveats": [
+    "Some tools may require additional configuration to work properly with your specific project setup."
+  ],
+  "relatedToolIdeas": [
+    "RAM needs calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

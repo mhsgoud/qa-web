@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-check-an-ev-charge",
+  "directAnswer": "You can check your EV charge level via the vehicle's dashboard or mobile app, depending on the model. Additionally, charging stations often display the current charge status.",
+  "summary": "Checking the charge level of your electric vehicle (EV) is essential for planning trips and ensuring you have enough power to reach your destination.",
+  "sections": [
+    {
+      "id": "dashboard-check",
+      "heading": "Using the Vehicle Dashboard",
+      "body": "Most EVs have a dashboard display that shows the current battery level, estimated range, and charging status. Look for a battery icon or a dedicated EV section in the display menu."
+    },
+    {
+      "id": "mobile-app-check",
+      "heading": "Using a Mobile App",
+      "body": "Many EV manufacturers provide a mobile app that allows you to check the battery status remotely. Log in to the app, and navigate to the battery or charging section to see the current charge level."
+    },
+    {
+      "id": "charging-station-check",
+      "heading": "At Charging Stations",
+      "body": "When plugged into a charging station, the display on the station will typically show the current charge percentage and estimated time to full charge."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check the Dashboard",
+      "detail": "Turn on your vehicle and view the dashboard display for the battery icon or charge status."
+    },
+    {
+      "title": "Use the Mobile App",
+      "detail": "Open the app associated with your EV, log in, and navigate to the battery section to view the charge level."
+    },
+    {
+      "title": "Inspect Charging Station Display",
+      "detail": "While connected to a charging station, observe the station's screen for real-time charge information."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my EV charge is low?",
+      "answer": "If your charge is low, locate the nearest charging station using your vehicle's navigation system or a mobile app."
+    },
+    {
+      "question": "Can I check my EV charge remotely?",
+      "answer": "Yes, if your EV is equipped with a mobile app, you can check the charge level remotely."
+    },
+    {
+      "question": "How accurate are the charge level indicators?",
+      "answer": "Charge level indicators are generally accurate but can vary slightly based on temperature and battery condition."
+    }
+  ],
+  "caveats": [
+    "The method for checking charge may vary based on the EV model and manufacturer.",
+    "Some older EV models may not have mobile app support."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

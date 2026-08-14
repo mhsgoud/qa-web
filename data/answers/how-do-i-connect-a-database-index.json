@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-connect-a-database-index",
+  "directAnswer": "To connect a database index, you typically use SQL commands to create the index on the desired table and column(s). Ensure your database supports indexing and follow the specific syntax for your database system.",
+  "summary": "This guide provides steps to connect a database index across various database platforms, along with common pitfalls and FAQs.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Database Indexing",
+      "body": "A database index improves the speed of data retrieval operations on a database table. It is crucial for optimizing query performance."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to connect a database index can vary depending on the database management system (DBMS) you are using."
+    },
+    {
+      "id": "common-caveats",
+      "heading": "Common Caveats",
+      "body": "Improper indexing can lead to performance degradation, especially with write operations. Always analyze your queries before creating indexes."
+    }
+  ],
+  "steps": [
+    {
+      "title": "MySQL",
+      "detail": "Use the command `CREATE INDEX index_name ON table_name (column_name);` to create an index."
+    },
+    {
+      "title": "PostgreSQL",
+      "detail": "Use the command `CREATE INDEX index_name ON table_name (column_name);` to create an index."
+    },
+    {
+      "title": "SQL Server",
+      "detail": "Use the command `CREATE INDEX index_name ON table_name (column_name);` to create an index."
+    },
+    {
+      "title": "Oracle",
+      "detail": "Use the command `CREATE INDEX index_name ON table_name (column_name);` to create an index."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the purpose of a database index?",
+      "answer": "A database index is used to speed up the retrieval of rows from a database table by creating a data structure that allows for faster searches."
+    },
+    {
+      "question": "Can I create multiple indexes on a single table?",
+      "answer": "Yes, you can create multiple indexes on a single table, but be mindful of the impact on write operations."
+    },
+    {
+      "question": "How do I remove an index?",
+      "answer": "You can remove an index using the command `DROP INDEX index_name;` in most SQL databases."
+    }
+  ],
+  "caveats": [
+    "Indexes can slow down write operations such as INSERT, UPDATE, and DELETE.",
+    "Over-indexing can lead to increased storage requirements."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for indexing best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-connect-an-email-address",
+  "directAnswer": "To connect an email address, you typically need to configure your email client with the correct server settings provided by your email service provider.",
+  "summary": "This guide outlines how to connect an email address across various platforms, including steps for popular email clients.",
+  "sections": [
+    {
+      "id": "general-setup",
+      "heading": "General Setup",
+      "body": "Ensure you have your email address, password, and server settings (incoming and outgoing) ready before starting the connection process."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Instructions may vary slightly depending on the email client or service you are using."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For Gmail",
+      "detail": "Go to Settings > Accounts and Import > Add a mail account. Enter your email address and follow the prompts to configure the settings."
+    },
+    {
+      "title": "For Outlook",
+      "detail": "Open Outlook and go to File > Account Settings > New. Select Email Account and enter your details, following the prompts."
+    },
+    {
+      "title": "For Apple Mail",
+      "detail": "Open Mail and go to Mail > Add Account. Select your email provider and enter the required information."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I forget my email password?",
+      "answer": "You can usually reset your password through your email provider's website by selecting 'Forgot Password' on the login page."
+    },
+    {
+      "question": "Can I connect multiple email addresses?",
+      "answer": "Yes, most email clients allow you to add multiple email accounts. Follow the same steps for each account you wish to connect."
+    },
+    {
+      "question": "What if I encounter server errors?",
+      "answer": "Double-check your server settings and ensure you have a stable internet connection. If problems persist, contact your email provider."
+    }
+  ],
+  "caveats": [
+    "Settings may vary based on your email provider and client version.",
+    "Ensure you have the correct server settings to avoid connectivity issues."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for email setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

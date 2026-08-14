@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-reset-a-website",
+  "directAnswer": "To reset a website, you typically need to clear its content and settings through your hosting provider or content management system (CMS). This can involve deleting files, databases, or using built-in reset features.",
+  "summary": "Resetting a website can help resolve issues or start fresh. The process varies based on the platform used for hosting or content management.",
+  "sections": [
+    {
+      "id": "understanding-reset-options",
+      "heading": "Understanding Reset Options",
+      "body": "Resetting a website can mean different things, such as clearing content, restoring a backup, or resetting settings to default. Ensure you know what type of reset you need."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset a website can vary by platform. Below are examples for popular platforms."
+    },
+    {
+      "id": "backup-considerations",
+      "heading": "Backup Considerations",
+      "body": "Always back up your website data before performing a reset to prevent data loss."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For WordPress",
+      "detail": "Log in to your WordPress dashboard, go to 'Settings' > 'General', and select 'Delete Site' or use a plugin like WP Reset for a full reset."
+    },
+    {
+      "title": "For Wix",
+      "detail": "Go to 'Site Settings', scroll to 'Site Actions', and select 'Delete Site'. Note that this action is irreversible."
+    },
+    {
+      "title": "For Squarespace",
+      "detail": "In the Home Menu, click 'Settings', then 'Advanced', and select 'Delete Site'. Confirm your choice."
+    },
+    {
+      "title": "For Custom Hosting",
+      "detail": "Access your hosting control panel (like cPanel), navigate to 'File Manager' to delete site files, and use 'phpMyAdmin' to drop the database."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I recover my website after a reset?",
+      "answer": "If you have a backup, you can restore your website. Without a backup, recovery may not be possible."
+    },
+    {
+      "question": "Will resetting my website affect my SEO?",
+      "answer": "Yes, resetting your website can impact your SEO rankings, especially if you delete content or change URLs."
+    },
+    {
+      "question": "How long does it take to reset a website?",
+      "answer": "The time it takes to reset a website varies by platform and the complexity of the site, but it typically takes a few minutes to an hour."
+    }
+  ],
+  "caveats": [
+    "Resetting a website is often irreversible; ensure you have backups of any important data."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

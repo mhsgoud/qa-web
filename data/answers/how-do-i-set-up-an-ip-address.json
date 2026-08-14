@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-set-up-an-ip-address",
+  "directAnswer": "To set up an IP address, access your device's network settings and manually enter the desired IP address, subnet mask, and gateway information.",
+  "summary": "Setting up an IP address involves configuring network settings on your device to ensure proper connectivity.",
+  "sections": [
+    {
+      "id": "understanding-ip-addresses",
+      "heading": "Understanding IP Addresses",
+      "body": "An IP address is a unique identifier for a device on a network. It can be static (fixed) or dynamic (assigned by a DHCP server)."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Steps to set up an IP address may vary by operating system."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues",
+      "body": "Incorrect IP address settings can lead to connectivity problems. Always ensure that the IP address is within the correct range for your network."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows 10/11",
+      "detail": "Go to Settings > Network & Internet > Status > Change adapter options. Right-click on your network connection, select Properties, then select Internet Protocol Version 4 (TCP/IPv4) and click Properties. Choose 'Use the following IP address' and enter your IP address, subnet mask, and gateway."
+    },
+    {
+      "title": "macOS",
+      "detail": "Open System Preferences > Network. Select your network interface (e.g., Wi-Fi or Ethernet), click Advanced, and go to the TCP/IP tab. Change 'Configure IPv4' to 'Manually' and enter your IP address, subnet mask, and router."
+    },
+    {
+      "title": "Linux",
+      "detail": "Use the terminal to edit the network configuration file (e.g., /etc/network/interfaces or use NetworkManager). For example, to set a static IP, you might add: 'address [your-ip] netmask [your-netmask] gateway [your-gateway]'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between static and dynamic IP addresses?",
+      "answer": "A static IP address does not change and is manually assigned, while a dynamic IP address is assigned by a DHCP server and can change over time."
+    },
+    {
+      "question": "How do I find my current IP address?",
+      "answer": "You can find your current IP address by visiting websites like 'whatismyip.com' or by checking your network settings on your device."
+    },
+    {
+      "question": "What should I do if I cannot connect to the network after setting a static IP?",
+      "answer": "Double-check your IP address, subnet mask, and gateway settings. Ensure they are correct and do not conflict with other devices on the network."
+    }
+  ],
+  "caveats": [
+    "Ensure that the IP address you assign is not already in use by another device to avoid network conflicts."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-captcha",
+  "directAnswer": "To set up a captcha, you need to choose a captcha service, create an account, and integrate the provided code into your website's form.",
+  "summary": "Setting up a captcha helps protect your website from spam and automated submissions. Follow these steps to implement it effectively.",
+  "sections": [
+    {
+      "id": "choosing-a-captcha-service",
+      "heading": "Choosing a Captcha Service",
+      "body": "Popular captcha services include Google reCAPTCHA, hCaptcha, and FunCaptcha. Evaluate their features and select one that fits your needs."
+    },
+    {
+      "id": "creating-an-account",
+      "heading": "Creating an Account",
+      "body": "Sign up for the chosen captcha service and register your website. You will receive site keys that are necessary for integration."
+    },
+    {
+      "id": "integrating-captcha",
+      "heading": "Integrating Captcha into Your Website",
+      "body": "Add the captcha script to your HTML form. Ensure to include the site key in the appropriate field and handle the captcha response server-side."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Select a Captcha Service",
+      "detail": "Visit the website of your chosen captcha provider and review their documentation."
+    },
+    {
+      "title": "Register Your Website",
+      "detail": "Create an account and register your website to obtain the necessary site keys."
+    },
+    {
+      "title": "Add Captcha to Your Form",
+      "detail": "Insert the provided JavaScript snippet into your HTML and include the captcha widget in your form."
+    },
+    {
+      "title": "Verify Captcha Response",
+      "detail": "On form submission, validate the captcha response on your server using the secret key provided by the captcha service."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my captcha is not showing up?",
+      "answer": "Check if the JavaScript snippet is correctly included in your HTML and that there are no JavaScript errors in your browser's console."
+    },
+    {
+      "question": "Can I customize the appearance of the captcha?",
+      "answer": "Most captcha services offer customization options. Check the documentation of your selected service for details."
+    },
+    {
+      "question": "Is captcha mobile-friendly?",
+      "answer": "Yes, most modern captcha services are designed to be responsive and work well on mobile devices."
+    }
+  ],
+  "caveats": [
+    "Ensure that your captcha implementation complies with accessibility standards.",
+    "Some users may have difficulty completing captchas, which could impact user experience."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for captcha integration"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

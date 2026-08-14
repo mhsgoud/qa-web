@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-update-an-sdk",
+  "directAnswer": "To update an SDK, download the latest version from the official website and follow the installation instructions specific to your platform.",
+  "summary": "Updating an SDK ensures you have the latest features and security updates. Follow these steps based on your platform.",
+  "sections": [
+    {
+      "id": "downloading-the-sdk",
+      "heading": "Downloading the SDK",
+      "body": "Visit the official SDK website and navigate to the downloads section. Ensure you select the version compatible with your development environment."
+    },
+    {
+      "id": "installation-steps",
+      "heading": "Installation Steps",
+      "body": "Follow the installation instructions provided on the website. This may involve running an installer or copying files to specific directories."
+    },
+    {
+      "id": "verifying-the-update",
+      "heading": "Verifying the Update",
+      "body": "After installation, check the SDK version in your development environment to confirm the update was successful."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Download the latest SDK version",
+      "detail": "Go to the official SDK website and download the latest version suitable for your platform."
+    },
+    {
+      "title": "Run the installer or copy files",
+      "detail": "Follow the specific installation instructions for your platform. This may vary based on the SDK and operating system."
+    },
+    {
+      "title": "Check the SDK version",
+      "detail": "Open your development environment and check the SDK version to ensure the update was applied successfully."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the SDK update breaks my project?",
+      "answer": "If the update causes issues, you can revert to the previous version if you have it backed up."
+    },
+    {
+      "question": "How often should I update my SDK?",
+      "answer": "It's recommended to check for updates regularly, especially for security patches and new features."
+    },
+    {
+      "question": "Are there any dependencies I need to consider?",
+      "answer": "Yes, ensure that your project dependencies are compatible with the new SDK version before updating."
+    }
+  ],
+  "caveats": [
+    "Some SDKs may have breaking changes in new versions; review the release notes before updating.",
+    "Installation paths may vary based on the operating system and SDK version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for SDK compatibility"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-connect-an-inkjet-printer",
+  "directAnswer": "To connect an inkjet printer, you can use a USB cable or set it up via Wi-Fi, depending on your printer model.",
+  "summary": "This guide provides steps for connecting an inkjet printer using USB or Wi-Fi, along with troubleshooting tips.",
+  "sections": [
+    {
+      "id": "usb-connection",
+      "heading": "Connecting via USB",
+      "body": "Use a USB cable to connect your printer directly to your computer. This is typically the simplest method."
+    },
+    {
+      "id": "wifi-connection",
+      "heading": "Connecting via Wi-Fi",
+      "body": "For wireless connection, ensure your printer is Wi-Fi enabled and connected to the same network as your computer."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting Connection Issues",
+      "body": "If you encounter issues, check the printer's status, ensure drivers are installed, and verify network connections."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Connect via USB",
+      "detail": "Plug one end of the USB cable into the printer and the other end into your computer's USB port. Turn on the printer."
+    },
+    {
+      "title": "Install Drivers",
+      "detail": "If prompted, install the necessary drivers from the manufacturer's website or included CD."
+    },
+    {
+      "title": "Connect via Wi-Fi",
+      "detail": "On the printer, access the Wi-Fi setup menu (menu paths may vary). Select your Wi-Fi network and enter the password."
+    },
+    {
+      "title": "Add Printer on Computer",
+      "detail": "On your computer, go to 'Settings' > 'Devices' > 'Printers & Scanners' and select 'Add a printer or scanner'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my printer is not detected?",
+      "answer": "Ensure the printer is turned on, connected to the same network, and that drivers are properly installed."
+    },
+    {
+      "question": "Can I connect multiple devices to the printer?",
+      "answer": "Yes, if the printer supports multiple connections, you can connect several devices over Wi-Fi."
+    },
+    {
+      "question": "How do I reset my printer's network settings?",
+      "answer": "Refer to your printer's manual, as the method varies by model, but usually involves accessing the settings menu."
+    }
+  ],
+  "caveats": [
+    "Connection steps may vary based on printer model and operating system.",
+    "Ensure your printer is compatible with your computer's OS."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for printer setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

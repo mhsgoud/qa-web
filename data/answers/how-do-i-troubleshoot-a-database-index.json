@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-troubleshoot-a-database-index",
+  "directAnswer": "Start by analyzing query performance and checking for missing or unused indexes. Use database-specific tools to identify index fragmentation and statistics.",
+  "summary": "Troubleshooting database indexes involves analyzing performance issues, identifying fragmentation, and ensuring proper index usage.",
+  "sections": [
+    {
+      "id": "analyzing-performance",
+      "heading": "Analyzing Query Performance",
+      "body": "Use the query execution plan to identify slow queries and determine if they are using the intended indexes. Look for full table scans that indicate missing indexes."
+    },
+    {
+      "id": "checking-fragmentation",
+      "heading": "Checking Index Fragmentation",
+      "body": "Use database-specific commands to check for index fragmentation. High fragmentation can lead to performance degradation."
+    },
+    {
+      "id": "monitoring-statistics",
+      "heading": "Monitoring Index Statistics",
+      "body": "Ensure that index statistics are up to date. Outdated statistics can lead to inefficient query plans."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Analyze Query Execution Plans",
+      "detail": "Use tools like SQL Server Management Studio or EXPLAIN in PostgreSQL to view execution plans for slow queries."
+    },
+    {
+      "title": "Check Index Fragmentation",
+      "detail": "In SQL Server, use the command 'SELECT * FROM sys.dm_db_index_physical_stats' to check fragmentation levels."
+    },
+    {
+      "title": "Update Statistics",
+      "detail": "Run 'UPDATE STATISTICS' in SQL Server or 'ANALYZE' in PostgreSQL to refresh index statistics."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What tools can I use to analyze indexes?",
+      "answer": "You can use built-in tools like SQL Server Management Studio, pgAdmin for PostgreSQL, or third-party tools like SolarWinds Database Performance Analyzer."
+    },
+    {
+      "question": "How often should I check index fragmentation?",
+      "answer": "It is recommended to check index fragmentation regularly, especially after significant data changes, to maintain optimal performance."
+    },
+    {
+      "question": "What are the signs of a poorly performing index?",
+      "answer": "Signs include slow query performance, high CPU usage, and frequent full table scans."
+    }
+  ],
+  "caveats": [
+    "Index troubleshooting steps may vary based on the database management system (DBMS) in use.",
+    "Changes to indexes can impact performance; always test in a development environment first."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-update-an-ai-agent",
+  "directAnswer": "To update an AI agent, access the management console of your AI platform and follow the specific update process outlined in the documentation for your version.",
+  "summary": "Updating an AI agent typically involves accessing the management console and following the designated update procedures, which can vary by platform.",
+  "sections": [
+    {
+      "id": "platform-overview",
+      "heading": "Platform Overview",
+      "body": "Different AI platforms have unique processes for updating agents. Ensure you are familiar with the specific platform you are using."
+    },
+    {
+      "id": "update-process",
+      "heading": "Update Process",
+      "body": "The update process generally includes checking for updates, downloading the latest version, and deploying the changes to your AI agent."
+    },
+    {
+      "id": "post-update",
+      "heading": "Post-Update Considerations",
+      "body": "After updating, verify the functionality of your AI agent and monitor its performance to ensure that the update did not introduce any issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access the Management Console",
+      "detail": "Log into your AI platform's management console."
+    },
+    {
+      "title": "Check for Updates",
+      "detail": "Navigate to the updates section to see if there are any available updates for your AI agent."
+    },
+    {
+      "title": "Download and Install Update",
+      "detail": "Follow the prompts to download and install the latest version of the AI agent."
+    },
+    {
+      "title": "Verify Update",
+      "detail": "Test the AI agent to ensure it is functioning as expected after the update."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will updating my AI agent affect its performance?",
+      "answer": "Updates may improve performance but can also introduce new bugs. It's important to test the agent thoroughly after an update."
+    },
+    {
+      "question": "How often should I update my AI agent?",
+      "answer": "It is recommended to check for updates regularly, especially if there are significant improvements or security patches."
+    },
+    {
+      "question": "What if the update fails?",
+      "answer": "If an update fails, consult the platform's troubleshooting guide or support resources for assistance."
+    }
+  ],
+  "caveats": [
+    "Update processes may vary by platform and version, so always refer to the official documentation."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

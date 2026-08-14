@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-check-a-software-library",
+  "directAnswer": "To check a software library, you can use package managers or specific command-line tools to verify its version and integrity.",
+  "summary": "This guide provides steps for checking software libraries across different platforms and highlights important considerations.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Checking a software library involves verifying its version, dependencies, and integrity to ensure compatibility and security."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to check a software library can vary based on the platform and package manager used."
+    },
+    {
+      "id": "common-tools",
+      "heading": "Common Tools",
+      "body": "Popular tools for checking software libraries include npm for Node.js, pip for Python, and Maven for Java."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using npm (Node.js)",
+      "detail": "Run `npm list <library-name>` in your terminal to check the installed version of a specific library."
+    },
+    {
+      "title": "Using pip (Python)",
+      "detail": "Execute `pip show <library-name>` in your command line to display the library's details, including version."
+    },
+    {
+      "title": "Using Maven (Java)",
+      "detail": "Use `mvn dependency:tree` to view the project's dependencies and their versions."
+    },
+    {
+      "title": "Using Composer (PHP)",
+      "detail": "Run `composer show <library-name>` to check the installed version and details of a library."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if a library is outdated?",
+      "answer": "Consider updating the library using the respective package manager's update command, like `npm update <library-name>` for npm."
+    },
+    {
+      "question": "How can I check for vulnerabilities in a library?",
+      "answer": "Use tools like `npm audit` for Node.js or `pip-audit` for Python to check for known vulnerabilities."
+    },
+    {
+      "question": "Is it necessary to check libraries regularly?",
+      "answer": "Yes, regular checks help ensure your software remains secure and compatible with other dependencies."
+    }
+  ],
+  "caveats": [
+    "Library checking methods may differ based on the version of the package manager.",
+    "Some libraries may not provide version information if they are not properly installed."
+  ],
+  "relatedToolIdeas": [
+    "Dependency checker tools",
+    "Vulnerability scanning tools"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

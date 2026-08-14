@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-a-smart-home-not-working",
+  "directAnswer": "Common issues include connectivity problems, device compatibility, or software updates that need to be applied.",
+  "summary": "Smart home systems can experience various issues that prevent them from functioning correctly. Identifying the root cause is essential for resolution.",
+  "sections": [
+    {
+      "id": "connectivity-issues",
+      "heading": "Connectivity Issues",
+      "body": "Ensure that your smart home devices are connected to the same Wi-Fi network. Check your router's status and restart it if necessary."
+    },
+    {
+      "id": "device-compatibility",
+      "heading": "Device Compatibility",
+      "body": "Not all smart home devices are compatible with each other. Verify that your devices are compatible with your smart home hub or app."
+    },
+    {
+      "id": "software-updates",
+      "heading": "Software Updates",
+      "body": "Check for firmware updates for your devices and the smart home app. Outdated software can lead to functionality issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Wi-Fi Connection",
+      "detail": "Ensure all devices are connected to the same Wi-Fi network. Use the app to verify connection status."
+    },
+    {
+      "title": "Restart Devices",
+      "detail": "Power cycle your smart home devices and router. Unplug them for 10 seconds and then plug them back in."
+    },
+    {
+      "title": "Update Software",
+      "detail": "Open the smart home app and navigate to settings to check for updates. Install any available updates for your devices."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my smart home devices are not responding?",
+      "answer": "Try restarting the devices and checking their connectivity. Ensure that your smart home hub is functioning properly."
+    },
+    {
+      "question": "How can I tell if my smart home devices are compatible?",
+      "answer": "Check the manufacturer's website or user manual for compatibility information with your smart home hub."
+    },
+    {
+      "question": "Is it necessary to have a smart home hub?",
+      "answer": "While not all devices require a hub, many benefit from one for better integration and control."
+    }
+  ],
+  "caveats": [
+    "Some devices may require specific settings or configurations that vary by manufacturer."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

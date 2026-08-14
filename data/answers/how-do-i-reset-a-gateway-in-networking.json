@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-reset-a-gateway-in-networking",
+  "directAnswer": "To reset a gateway in networking, you can either power cycle the device or use the reset button if available. This will restore the gateway to its factory settings.",
+  "summary": "Resetting a gateway can resolve connectivity issues and restore default configurations.",
+  "sections": [
+    {
+      "id": "understanding-gateway-reset",
+      "heading": "Understanding Gateway Reset",
+      "body": "Resetting a gateway clears all custom settings and configurations, returning it to factory defaults. This can help troubleshoot network issues but will require reconfiguration afterward."
+    },
+    {
+      "id": "methods-to-reset",
+      "heading": "Methods to Reset a Gateway",
+      "body": "There are generally two methods to reset a gateway: using the physical reset button or accessing the gateway's web interface."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Cycle the Gateway",
+      "detail": "Unplug the gateway from the power source, wait for 10-30 seconds, and then plug it back in."
+    },
+    {
+      "title": "Using the Reset Button",
+      "detail": "Locate the reset button on the device (often a small pinhole). Press and hold it for about 10 seconds until the lights indicate a reset."
+    },
+    {
+      "title": "Accessing the Web Interface",
+      "detail": "Log in to the gateway's web interface using the default IP address (commonly 192.168.1.1) and navigate to the settings to perform a factory reset."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my gateway delete all my settings?",
+      "answer": "Yes, resetting the gateway will erase all custom configurations, including Wi-Fi names and passwords."
+    },
+    {
+      "question": "How do I find the default IP address of my gateway?",
+      "answer": "The default IP address is usually printed on a label on the device or can be found in the user manual."
+    },
+    {
+      "question": "What should I do if the reset button doesn't work?",
+      "answer": "If the reset button doesn't work, ensure you are holding it down for long enough or try power cycling the device instead."
+    }
+  ],
+  "caveats": [
+    "Ensure you have backed up any necessary configurations before resetting.",
+    "The reset process may vary depending on the gateway model."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for gateway troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

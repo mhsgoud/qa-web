@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-reset-an-api",
+  "directAnswer": "To reset an API, you typically need to delete existing configurations and reinitialize the API through your management console or command line interface.",
+  "summary": "Resetting an API can help resolve issues or apply new configurations. The process may vary based on the platform you are using.",
+  "sections": [
+    {
+      "id": "understanding-api-reset",
+      "heading": "Understanding API Reset",
+      "body": "Resetting an API involves clearing its current state and configurations, allowing you to start fresh. This can be necessary for troubleshooting or when implementing significant changes."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset an API can differ based on the platform. Below are common procedures for popular API management tools."
+    }
+  ],
+  "steps": [
+    {
+      "title": "AWS API Gateway",
+      "detail": "Navigate to the API Gateway console, select your API, and choose 'Actions' > 'Delete API'. After deletion, create a new API to reset it."
+    },
+    {
+      "title": "Azure API Management",
+      "detail": "Go to the Azure portal, select your API Management instance, choose the API you want to reset, and click on 'Delete'. Then, recreate the API."
+    },
+    {
+      "title": "Postman",
+      "detail": "In Postman, select the workspace containing the API, right-click on the API collection, and choose 'Delete'. Re-import or recreate the collection to reset."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting the API delete all my data?",
+      "answer": "Yes, resetting the API typically deletes all configurations and data associated with it. Ensure you back up any necessary information before proceeding."
+    },
+    {
+      "question": "Can I reset an API without losing my configurations?",
+      "answer": "Most platforms do not support resetting an API without deleting existing configurations. Check the documentation for any specific options."
+    },
+    {
+      "question": "How can I troubleshoot issues before deciding to reset?",
+      "answer": "Consider checking logs, testing endpoints, and reviewing recent changes. Often, issues can be resolved without a full reset."
+    }
+  ],
+  "caveats": [
+    "Resetting an API is irreversible; ensure you have backups of any important configurations.",
+    "The steps may vary based on the version of the platform you are using."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for API management best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

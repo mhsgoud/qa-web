@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-set-up-a-browser-extension",
+  "directAnswer": "To set up a browser extension, visit the extension store for your browser, search for the desired extension, and click 'Add to [Browser]'. Follow any on-screen instructions to complete the installation.",
+  "summary": "This guide provides steps to install a browser extension on various platforms, along with common issues and FAQs.",
+  "sections": [
+    {
+      "id": "installation-steps",
+      "heading": "Installation Steps",
+      "body": "The process for installing a browser extension varies slightly depending on the browser you are using."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting",
+      "body": "If the extension does not work as expected, check for browser updates or compatibility issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Chrome",
+      "detail": "Open the Chrome Web Store, search for the extension, click 'Add to Chrome', and confirm by clicking 'Add extension'."
+    },
+    {
+      "title": "Mozilla Firefox",
+      "detail": "Visit the Firefox Add-ons site, find the extension, click 'Add to Firefox', and then click 'Add' to install."
+    },
+    {
+      "title": "Microsoft Edge",
+      "detail": "Go to the Edge Add-ons store, search for the extension, click 'Get', and then confirm by clicking 'Add extension'."
+    },
+    {
+      "title": "Safari",
+      "detail": "Open the Mac App Store, search for the extension, click 'Get', and then click 'Install' to add it to Safari."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I remove a browser extension?",
+      "answer": "Yes, you can remove an extension by going to your browser's extension settings and selecting 'Remove' next to the extension."
+    },
+    {
+      "question": "Are browser extensions safe?",
+      "answer": "While many extensions are safe, always check reviews and permissions before installing to avoid security risks."
+    },
+    {
+      "question": "How do I manage my installed extensions?",
+      "answer": "You can manage your extensions through the browser's settings menu, usually found under 'Extensions' or 'Add-ons'."
+    }
+  ],
+  "caveats": [
+    "Some extensions may not be compatible with all versions of the browser.",
+    "Extensions may require additional permissions that could affect your privacy."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for safe extension installation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

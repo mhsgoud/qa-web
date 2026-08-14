@@ -1,0 +1,62 @@
+{
+  "slug": "what-is-a-content-delivery-network",
+  "directAnswer": "A content delivery network (CDN) is a network of servers distributed across various locations that work together to deliver web content to users more efficiently by caching copies of content closer to the user's geographic location.",
+  "summary": "CDNs enhance website performance and reliability by reducing latency and load times, especially for users far from the origin server.",
+  "sections": [
+    {
+      "id": "how-cdns-work",
+      "heading": "How CDNs Work",
+      "body": "CDNs store cached versions of content on multiple servers around the world. When a user requests content, the CDN directs the request to the nearest server, minimizing the distance data travels."
+    },
+    {
+      "id": "common-use-cases",
+      "heading": "Common Use Cases",
+      "body": "CDNs are commonly used for streaming video, delivering software updates, and serving static assets like images and stylesheets for websites."
+    },
+    {
+      "id": "choosing-a-cdn",
+      "heading": "Choosing a CDN",
+      "body": "When selecting a CDN, consider factors such as geographic coverage, performance metrics, security features, and integration capabilities with your existing infrastructure."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Evaluate Your Needs",
+      "detail": "Determine the type of content you need to deliver and your target audience's locations to choose a CDN that best fits your requirements."
+    },
+    {
+      "title": "Select a CDN Provider",
+      "detail": "Research and compare CDN providers based on performance, pricing, and features. Popular options include Cloudflare, Akamai, and Amazon CloudFront."
+    },
+    {
+      "title": "Integrate the CDN",
+      "detail": "Follow the provider's documentation to integrate the CDN with your website or application. This may involve updating DNS settings or modifying your website's code."
+    },
+    {
+      "title": "Monitor Performance",
+      "detail": "After integration, use analytics tools to monitor the performance of your CDN, ensuring it meets your expectations in terms of speed and reliability."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What types of content can be delivered via a CDN?",
+      "answer": "CDNs can deliver a variety of content, including images, videos, stylesheets, JavaScript files, and even dynamic content depending on the CDN's capabilities."
+    },
+    {
+      "question": "Are CDNs only for large websites?",
+      "answer": "No, CDNs can benefit websites of all sizes by improving load times and user experience, making them a valuable tool for any online presence."
+    },
+    {
+      "question": "How do CDNs enhance security?",
+      "answer": "Many CDNs offer security features such as DDoS protection, web application firewalls, and SSL encryption, helping to safeguard your website from various threats."
+    }
+  ],
+  "caveats": [
+    "While CDNs can significantly improve performance, they may introduce complexity in configuration and management."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

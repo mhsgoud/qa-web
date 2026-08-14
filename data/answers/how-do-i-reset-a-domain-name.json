@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-reset-a-domain-name",
+  "directAnswer": "To reset a domain name, you typically need to access your domain registrar's control panel and either change the DNS settings or reset the domain to its default state.",
+  "summary": "Resetting a domain name involves modifying DNS settings or reverting the domain to its original configuration through your registrar's interface.",
+  "sections": [
+    {
+      "id": "understanding-domain-reset",
+      "heading": "Understanding Domain Reset",
+      "body": "A domain reset can involve changing DNS settings, restoring default settings, or transferring ownership. The exact process may vary by registrar."
+    },
+    {
+      "id": "steps-to-reset",
+      "heading": "Steps to Reset Your Domain Name",
+      "body": "Follow the steps below to reset your domain name through common registrars."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log in to Your Registrar Account",
+      "detail": "Access your domain registrar's website and log in with your credentials."
+    },
+    {
+      "title": "Navigate to Domain Management",
+      "detail": "Find the section for managing your domains. This may be labeled as 'Domains', 'My Domains', or similar."
+    },
+    {
+      "title": "Select the Domain to Reset",
+      "detail": "Choose the domain name you wish to reset from your list of registered domains."
+    },
+    {
+      "title": "Change DNS Settings or Reset",
+      "detail": "Look for options to change DNS settings or a button to reset the domain to its default state. Save your changes."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my domain affect my website?",
+      "answer": "Yes, resetting your domain can disrupt your website's availability if DNS settings are changed."
+    },
+    {
+      "question": "Can I recover a deleted domain?",
+      "answer": "If a domain is deleted, it may enter a grace period where it can be recovered, but this varies by registrar."
+    },
+    {
+      "question": "How long does it take for DNS changes to propagate?",
+      "answer": "DNS changes can take anywhere from a few minutes to 48 hours to fully propagate across the internet."
+    }
+  ],
+  "caveats": [
+    "Resetting a domain may result in temporary downtime for your website.",
+    "Ensure you have backups of any important settings before proceeding.",
+    "Some registrars may have different terminology or processes."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for domain management"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

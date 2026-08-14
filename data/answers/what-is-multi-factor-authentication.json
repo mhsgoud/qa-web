@@ -1,0 +1,54 @@
+{
+  "slug": "what-is-multi-factor-authentication",
+  "directAnswer": "Multi-factor authentication (MFA) is a security mechanism that requires two or more verification methods to gain access to an account, enhancing protection against unauthorized access.",
+  "summary": "MFA adds an extra layer of security by requiring additional verification methods beyond just a password, making it harder for attackers to gain access.",
+  "sections": [
+    {
+      "id": "what-is-mfa",
+      "heading": "What is Multi-Factor Authentication?",
+      "body": "MFA combines something you know (like a password), something you have (like a smartphone or hardware token), and something you are (biometric verification) to verify your identity."
+    },
+    {
+      "id": "how-mfa-works",
+      "heading": "How MFA Works",
+      "body": "When you log in, after entering your password, you will be prompted to provide another form of verification, such as a code sent to your phone or a fingerprint scan."
+    },
+    {
+      "id": "mfa-tools",
+      "heading": "Common MFA Tools",
+      "body": "Popular MFA tools include Google Authenticator, Authy, and SMS-based codes. Some platforms also offer biometric options like facial recognition."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Enable MFA on Google Account",
+      "detail": "1. Go to your Google Account settings. 2. Select 'Security'. 3. Under 'Signing in to Google', select '2-Step Verification' and follow the prompts."
+    },
+    {
+      "title": "Enable MFA on Microsoft Account",
+      "detail": "1. Sign in to your Microsoft account. 2. Go to 'Security' > 'Advanced Security Options'. 3. Under 'Two-step verification', select 'Set up two-step verification' and follow the instructions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is MFA foolproof?",
+      "answer": "While MFA significantly increases security, it is not entirely foolproof. Attackers can still exploit vulnerabilities, such as phishing or social engineering."
+    },
+    {
+      "question": "What if I lose my second factor device?",
+      "answer": "Most services provide backup codes or recovery options to regain access if you lose your second factor device. It's important to store these codes securely."
+    },
+    {
+      "question": "Can I use MFA on all my accounts?",
+      "answer": "Many online services support MFA, but not all. Check the security settings of each service to see if MFA is available."
+    }
+  ],
+  "caveats": [
+    "MFA may add extra steps to the login process, which can be inconvenient for some users."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

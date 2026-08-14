@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-reset-a-web-cookie",
+  "directAnswer": "To reset a web cookie, you can clear your browser's cookies or specifically delete the cookie for the website in question.",
+  "summary": "Resetting web cookies can help resolve issues with website functionality or privacy concerns.",
+  "sections": [
+    {
+      "id": "understanding-cookies",
+      "heading": "Understanding Cookies",
+      "body": "Cookies are small pieces of data stored by your browser that help websites remember information about your visit."
+    },
+    {
+      "id": "resetting-cookies-in-browsers",
+      "heading": "Resetting Cookies in Browsers",
+      "body": "The steps to reset cookies may vary slightly between different web browsers."
+    },
+    {
+      "id": "specific-browser-steps",
+      "heading": "Specific Browser Steps",
+      "body": "Follow the steps below for popular browsers."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Chrome",
+      "detail": "Go to Settings > Privacy and security > Cookies and other site data > See all cookies and site data. Here, you can remove specific cookies or clear all cookies."
+    },
+    {
+      "title": "Mozilla Firefox",
+      "detail": "Go to Options > Privacy & Security > Cookies and Site Data > Manage Data. You can remove specific cookies or clear all cookies."
+    },
+    {
+      "title": "Microsoft Edge",
+      "detail": "Go to Settings > Privacy, search, and services > Clear browsing data > Choose what to clear. Select 'Cookies and other site data' and click 'Clear now'."
+    },
+    {
+      "title": "Safari",
+      "detail": "Go to Preferences > Privacy > Manage Website Data. Here, you can remove specific cookies or click 'Remove All' to clear all cookies."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting cookies log me out of websites?",
+      "answer": "Yes, resetting cookies will log you out of websites that rely on cookies for session management."
+    },
+    {
+      "question": "Can I reset cookies for just one site?",
+      "answer": "Yes, you can delete cookies for a specific site using the browser's cookie management options."
+    },
+    {
+      "question": "What happens if I don't reset cookies?",
+      "answer": "If you don't reset cookies, you may experience issues with website functionality or outdated information."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly based on browser version.",
+    "Clearing cookies may result in loss of saved preferences and login information."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

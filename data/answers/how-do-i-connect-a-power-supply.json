@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-connect-a-power-supply",
+  "directAnswer": "To connect a power supply, align the connectors with the motherboard and components, then firmly insert them until they click into place.",
+  "summary": "Connecting a power supply involves ensuring proper alignment and secure connections to various components in your PC.",
+  "sections": [
+    {
+      "id": "power-supply-setup",
+      "heading": "Power Supply Setup",
+      "body": "Ensure the power supply is placed correctly in the case, typically at the top or bottom, depending on the case design."
+    },
+    {
+      "id": "connecting-cables",
+      "heading": "Connecting Cables",
+      "body": "Connect the 24-pin ATX cable to the motherboard, the 4/8-pin CPU cable to the CPU power socket, and any additional cables to graphics cards and drives."
+    },
+    {
+      "id": "final-checks",
+      "heading": "Final Checks",
+      "body": "Double-check all connections for security and ensure no cables are obstructing fans or airflow."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Position the Power Supply",
+      "detail": "Place the power supply in the designated area of the PC case, ensuring the fan is oriented correctly for airflow."
+    },
+    {
+      "title": "Connect the 24-pin ATX Cable",
+      "detail": "Locate the 24-pin ATX connector and attach it to the motherboard's corresponding port."
+    },
+    {
+      "title": "Connect the CPU Power Cable",
+      "detail": "Attach the 4-pin or 8-pin CPU power cable to the CPU power socket on the motherboard."
+    },
+    {
+      "title": "Connect Additional Cables",
+      "detail": "Connect any necessary cables for graphics cards, SSDs, or HDDs as required."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the power supply cables don't fit?",
+      "answer": "Ensure you are using the correct cables for your components; adapters may be needed for older hardware."
+    },
+    {
+      "question": "How do I know if the power supply is functioning?",
+      "answer": "You can test the power supply using a multimeter or a dedicated power supply tester."
+    },
+    {
+      "question": "Can I use a power supply from a different brand?",
+      "answer": "Yes, as long as the power supply meets the required wattage and has the correct connectors for your components."
+    }
+  ],
+  "caveats": [
+    "Ensure the power supply wattage is sufficient for your components to avoid power issues."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for PC building"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

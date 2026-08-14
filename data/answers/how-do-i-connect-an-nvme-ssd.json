@@ -1,0 +1,67 @@
+{
+  "slug": "how-do-i-connect-an-nvme-ssd",
+  "directAnswer": "To connect an NVMe SSD, insert it into the M.2 slot on your motherboard and secure it with a screw. Ensure your BIOS is updated to recognize the SSD.",
+  "summary": "This guide outlines the steps to connect an NVMe SSD to your PC, including platform-specific instructions and important considerations.",
+  "sections": [
+    {
+      "id": "installation",
+      "heading": "Installation Steps",
+      "body": "Follow these steps to install your NVMe SSD correctly."
+    },
+    {
+      "id": "platform-specific",
+      "heading": "Platform-Specific Instructions",
+      "body": "Note that installation steps may vary based on your motherboard and system configuration."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting Tips",
+      "body": "If the SSD is not recognized, check your BIOS settings and ensure the SSD is properly seated."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Off Your PC",
+      "detail": "Shut down your computer and unplug it from the power source."
+    },
+    {
+      "title": "Locate the M.2 Slot",
+      "detail": "Open your PC case and find the M.2 slot on your motherboard. Refer to your motherboard manual if needed."
+    },
+    {
+      "title": "Insert the NVMe SSD",
+      "detail": "Align the notch on the SSD with the key in the M.2 slot and gently insert it at a 30-degree angle."
+    },
+    {
+      "title": "Secure the SSD",
+      "detail": "Press the SSD down and secure it with the provided screw. Close your PC case."
+    },
+    {
+      "title": "Power On and Configure BIOS",
+      "detail": "Reconnect power, turn on your PC, and enter BIOS to ensure the SSD is recognized."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my NVMe SSD is not detected?",
+      "answer": "Check the BIOS settings to ensure the M.2 slot is enabled, and verify that the SSD is properly seated."
+    },
+    {
+      "question": "Can I use multiple NVMe SSDs?",
+      "answer": "Yes, but ensure your motherboard supports multiple NVMe drives and check for available M.2 slots."
+    },
+    {
+      "question": "Do I need to format the SSD after installation?",
+      "answer": "Yes, you will need to initialize and format the SSD in your operating system to use it."
+    }
+  ],
+  "caveats": [
+    "Ensure your motherboard supports NVMe SSDs, as some may only support SATA SSDs.",
+    "BIOS updates may be required for compatibility with newer NVMe models."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

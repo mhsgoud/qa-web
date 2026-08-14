@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-check-usb-c-charge-a-laptop",
+  "directAnswer": "To check if a USB-C charger is charging your laptop, look for charging indicators on the laptop and check the battery status in the operating system settings.",
+  "summary": "This guide explains how to verify if your laptop is charging via USB-C and provides steps for different operating systems.",
+  "sections": [
+    {
+      "id": "usb-c-compatibility",
+      "heading": "USB-C Compatibility",
+      "body": "Ensure that your USB-C charger is compatible with your laptop. Not all USB-C chargers provide power delivery (PD) required for charging."
+    },
+    {
+      "id": "checking-charge-status",
+      "heading": "Checking Charge Status",
+      "body": "You can check the charge status through your laptop's operating system settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For Windows",
+      "detail": "Click on the battery icon in the taskbar to view the charging status. You can also go to Settings > System > Battery to see detailed information."
+    },
+    {
+      "title": "For macOS",
+      "detail": "Click the Apple menu, select 'About This Mac', then 'System Report'. Under 'Power', check the 'Charge Information' section for charging status."
+    },
+    {
+      "title": "For Linux",
+      "detail": "Open a terminal and run the command 'upower -i /org/freedesktop/UPower/devices/battery_BAT0' to check the battery status."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use any USB-C charger to charge my laptop?",
+      "answer": "Not all USB-C chargers are created equal; ensure the charger supports power delivery (PD) and matches your laptop's power requirements."
+    },
+    {
+      "question": "What should I do if my laptop is not charging?",
+      "answer": "Check the charger connection, try a different USB-C port, or test with another compatible charger to diagnose the issue."
+    },
+    {
+      "question": "How can I tell if my USB-C port supports charging?",
+      "answer": "Refer to your laptop's specifications or user manual to confirm if the USB-C port supports power delivery for charging."
+    }
+  ],
+  "caveats": [
+    "Charging performance may vary based on the charger wattage and laptop model.",
+    "Some USB-C ports may only support data transfer and not charging."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

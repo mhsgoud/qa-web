@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-reset-a-type-2-charging-connector",
+  "directAnswer": "To reset a Type 2 charging connector, unplug it from the vehicle and the charging station, then reconnect it after a few seconds.",
+  "summary": "Resetting a Type 2 charging connector can resolve connection issues and ensure proper charging functionality.",
+  "sections": [
+    {
+      "id": "understanding-type-2-connectors",
+      "heading": "Understanding Type 2 Connectors",
+      "body": "Type 2 connectors are commonly used for electric vehicle charging in Europe. They feature a safety mechanism that may require a reset if a charging error occurs."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues Requiring a Reset",
+      "body": "Issues such as charging interruptions, error messages, or the connector not locking properly may necessitate a reset."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Unplug the Connector",
+      "detail": "Disconnect the Type 2 connector from both the vehicle and the charging station."
+    },
+    {
+      "title": "Wait for a Few Seconds",
+      "detail": "Allow a brief pause of 5-10 seconds to ensure the system resets."
+    },
+    {
+      "title": "Reconnect the Connector",
+      "detail": "Plug the Type 2 connector back into the vehicle and the charging station securely."
+    },
+    {
+      "title": "Check for Errors",
+      "detail": "Monitor the charging station and vehicle display for any error messages or indicators."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the reset does not work?",
+      "answer": "If the reset does not resolve the issue, check for any physical damage to the connector or consult the vehicle's manual for troubleshooting tips."
+    },
+    {
+      "question": "Can I reset the connector while charging?",
+      "answer": "It is recommended to unplug the connector before attempting a reset to avoid potential safety hazards."
+    },
+    {
+      "question": "Are there specific charging stations that require different reset methods?",
+      "answer": "Yes, some charging stations may have unique reset procedures. Refer to the station's user manual for specific instructions."
+    }
+  ],
+  "caveats": [
+    "Ensure the vehicle and charging station are powered on during the reset process.",
+    "If issues persist, consult a professional technician for further assistance."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

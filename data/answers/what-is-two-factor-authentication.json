@@ -1,0 +1,58 @@
+{
+  "slug": "what-is-two-factor-authentication",
+  "directAnswer": "Two-factor authentication (2FA) adds an extra layer of security by requiring not only a password and username but also something that only the user has on them, such as a physical token or a mobile app code.",
+  "summary": "Two-factor authentication enhances account security by requiring two forms of verification, making unauthorized access significantly harder.",
+  "sections": [
+    {
+      "id": "what-is-2fa",
+      "heading": "What is Two-Factor Authentication?",
+      "body": "Two-factor authentication is a security process that requires two different forms of identification to access an account. This typically involves something you know (like a password) and something you have (like a smartphone app or a hardware token)."
+    },
+    {
+      "id": "how-to-enable-2fa",
+      "heading": "How to Enable Two-Factor Authentication",
+      "body": "The steps to enable 2FA can vary by platform, but generally involve accessing your account settings and selecting security options."
+    },
+    {
+      "id": "common-2fa-methods",
+      "heading": "Common Methods of Two-Factor Authentication",
+      "body": "Common methods include SMS codes, authenticator apps (like Google Authenticator), and hardware tokens (like YubiKey). Each method has its own pros and cons regarding security and convenience."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Enable 2FA on Google",
+      "detail": "Go to your Google Account settings, select 'Security', then under 'Signing in to Google', click '2-Step Verification' and follow the prompts."
+    },
+    {
+      "title": "Enable 2FA on Facebook",
+      "detail": "Navigate to 'Settings & Privacy', then 'Settings'. Click on 'Security and Login' and find the 'Two-Factor Authentication' section to set it up."
+    },
+    {
+      "title": "Enable 2FA on Microsoft",
+      "detail": "Access your Microsoft account security settings, then select 'Two-step verification' and follow the instructions to enable it."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I lose my 2FA device?",
+      "answer": "If you lose your 2FA device, you may need to use backup codes provided during setup or go through account recovery options specific to your platform."
+    },
+    {
+      "question": "Can I use two-factor authentication on all accounts?",
+      "answer": "Not all services support 2FA, but many major platforms like Google, Facebook, and Microsoft do. Always check the security settings of your accounts."
+    },
+    {
+      "question": "Is two-factor authentication foolproof?",
+      "answer": "While 2FA significantly enhances security, it is not completely foolproof. Phishing attacks and social engineering can still compromise accounts."
+    }
+  ],
+  "caveats": [
+    "Some users may find the additional step inconvenient, leading to potential frustration."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

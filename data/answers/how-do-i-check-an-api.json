@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-check-an-api",
+  "directAnswer": "You can check an API by using tools like Postman or cURL to send requests and inspect responses.",
+  "summary": "This guide provides steps to check an API's functionality and response using various tools.",
+  "sections": [
+    {
+      "id": "understanding-api-checks",
+      "heading": "Understanding API Checks",
+      "body": "API checks involve sending requests to an API endpoint and analyzing the responses to ensure the API behaves as expected."
+    },
+    {
+      "id": "using-postman",
+      "heading": "Using Postman",
+      "body": "Postman is a popular tool for testing APIs. You can create requests, set parameters, and view responses easily."
+    },
+    {
+      "id": "using-curl",
+      "heading": "Using cURL",
+      "body": "cURL is a command-line tool that allows you to send HTTP requests to an API. It's useful for quick checks and automation."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Install Postman",
+      "detail": "Download and install Postman from the official website."
+    },
+    {
+      "title": "Create a Request in Postman",
+      "detail": "Open Postman, create a new request, enter the API endpoint URL, select the request method (GET, POST, etc.), and click 'Send'."
+    },
+    {
+      "title": "Check Response",
+      "detail": "Review the response status code and body returned by the API to verify its functionality."
+    },
+    {
+      "title": "Using cURL",
+      "detail": "Open your command line interface, type 'curl [API_URL]', and press Enter to see the response directly in the terminal."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is an API endpoint?",
+      "answer": "An API endpoint is a specific URL where an API can be accessed by a client to perform operations."
+    },
+    {
+      "question": "How do I know if an API is working?",
+      "answer": "Check the response status code; a 200 status indicates success, while codes in the 400s or 500s indicate errors."
+    },
+    {
+      "question": "Can I test APIs without Postman or cURL?",
+      "answer": "Yes, you can use browser-based tools like Insomnia or online API testing platforms."
+    }
+  ],
+  "caveats": [
+    "Ensure you have the correct API key or authentication method if required.",
+    "Response formats may vary based on the API version."
+  ],
+  "relatedToolIdeas": [
+    "API documentation viewer",
+    "Automated testing scripts"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

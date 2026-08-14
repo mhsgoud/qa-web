@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-check-a-website",
+  "directAnswer": "To check a website, you can use online tools like 'Is It Down Right Now?' or 'Pingdom' to assess its status and performance.",
+  "summary": "This guide provides steps to check the status and performance of a website using various online tools.",
+  "sections": [
+    {
+      "id": "website-status-check",
+      "heading": "Checking Website Status",
+      "body": "You can check if a website is down or experiencing issues by using online status checkers. These tools provide real-time information about the website's availability."
+    },
+    {
+      "id": "performance-analysis",
+      "heading": "Analyzing Website Performance",
+      "body": "For a more detailed analysis, tools like Google PageSpeed Insights can be used to evaluate the website's loading speed and performance metrics."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Use an Online Status Checker",
+      "detail": "Visit a website status checker like 'Is It Down Right Now?' and enter the URL of the website you want to check."
+    },
+    {
+      "title": "Analyze Performance with Google PageSpeed Insights",
+      "detail": "Go to Google PageSpeed Insights, input the website URL, and click 'Analyze' to receive performance metrics."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the website is down?",
+      "answer": "If the website is down, you can try accessing it later, or contact the website's support team for assistance."
+    },
+    {
+      "question": "How can I improve my website's performance?",
+      "answer": "You can improve your website's performance by optimizing images, reducing server response time, and minimizing JavaScript and CSS files."
+    },
+    {
+      "question": "Are there any free tools for checking website status?",
+      "answer": "Yes, tools like 'Is It Down Right Now?' and 'Down For Everyone Or Just Me?' are free to use for checking website status."
+    }
+  ],
+  "caveats": [
+    "Website status checkers may not provide accurate results if the website has regional restrictions or if your internet connection is unstable."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-connect-a-motherboard",
+  "directAnswer": "To connect a motherboard, ensure all power cables, data cables, and peripheral connections are securely attached according to the motherboard manual.",
+  "summary": "Connecting a motherboard involves several key steps, including power connections, data connections, and peripheral attachments. Follow the guidelines to ensure proper setup.",
+  "sections": [
+    {
+      "id": "power-connections",
+      "heading": "Power Connections",
+      "body": "Connect the 24-pin ATX power connector and the 4/8-pin CPU power connector from the power supply to the motherboard."
+    },
+    {
+      "id": "data-connections",
+      "heading": "Data Connections",
+      "body": "Attach SATA cables from the motherboard to storage devices and connect any necessary front panel connectors (USB, audio) as per the motherboard manual."
+    },
+    {
+      "id": "peripheral-connections",
+      "heading": "Peripheral Connections",
+      "body": "Connect the GPU, RAM, and any additional expansion cards to their respective slots on the motherboard."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prepare the Case",
+      "detail": "Ensure the PC case is ready and the motherboard standoffs are installed correctly."
+    },
+    {
+      "title": "Connect Power Supply",
+      "detail": "Plug in the 24-pin and CPU power connectors to the motherboard."
+    },
+    {
+      "title": "Attach Data Cables",
+      "detail": "Connect SATA cables from the motherboard to your hard drives or SSDs."
+    },
+    {
+      "title": "Install Expansion Cards",
+      "detail": "Insert the GPU and any other expansion cards into their slots and secure them."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my motherboard doesn't power on?",
+      "answer": "Check all power connections and ensure the power supply is functioning. Also, verify that the power switch is connected to the motherboard correctly."
+    },
+    {
+      "question": "How do I connect front panel connectors?",
+      "answer": "Refer to the motherboard manual for the exact pin layout for front panel connectors such as power switch, reset switch, and LED indicators."
+    },
+    {
+      "question": "Can I connect multiple GPUs to my motherboard?",
+      "answer": "Yes, if your motherboard supports multiple GPUs, ensure you have adequate power and cooling for each card."
+    }
+  ],
+  "caveats": [
+    "Ensure compatibility of components before connecting.",
+    "Refer to the specific motherboard manual for detailed instructions, as layouts may vary."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for motherboard connections"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-reset-a-smart-display",
+  "directAnswer": "To reset a smart display, locate the reset button or use the settings menu, depending on the model. Follow the specific steps for your device to complete the reset process.",
+  "summary": "Resetting a smart display can resolve issues or prepare it for a new user. The method varies by device brand and model.",
+  "sections": [
+    {
+      "id": "reset-button",
+      "heading": "Using the Reset Button",
+      "body": "Most smart displays have a physical reset button. This is typically located on the back or bottom of the device."
+    },
+    {
+      "id": "settings-menu",
+      "heading": "Using the Settings Menu",
+      "body": "If your device does not have a reset button, you can reset it through the settings menu. This option may vary by brand."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Locate the Reset Button",
+      "detail": "Find the reset button on your smart display, usually found on the back or bottom."
+    },
+    {
+      "title": "Press and Hold the Reset Button",
+      "detail": "Press and hold the reset button for about 10 seconds until the display shows a reset confirmation."
+    },
+    {
+      "title": "Access Settings Menu",
+      "detail": "If using the settings menu, navigate to 'Settings', then 'Device Options', and select 'Reset'."
+    },
+    {
+      "title": "Confirm the Reset",
+      "detail": "Follow the on-screen instructions to confirm the reset process."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my smart display delete my data?",
+      "answer": "Yes, resetting will erase all personal data and settings."
+    },
+    {
+      "question": "Can I reset my smart display remotely?",
+      "answer": "Most devices do not support remote resetting; it typically requires physical access."
+    },
+    {
+      "question": "What should I do if my smart display doesn't respond?",
+      "answer": "Try a hard reset by unplugging the device for 30 seconds, then plug it back in and attempt the reset again."
+    }
+  ],
+  "caveats": [
+    "Resetting the device will erase all settings and personal data.",
+    "Some models may have different reset procedures; refer to the manufacturer's documentation."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for troubleshooting smart displays"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

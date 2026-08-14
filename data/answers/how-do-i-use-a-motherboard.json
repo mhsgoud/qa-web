@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-use-a-motherboard",
+  "directAnswer": "To use a motherboard, you need to install it in a case, connect the power supply, and attach components like the CPU, RAM, and storage devices.",
+  "summary": "This guide covers the basic steps to set up and use a motherboard effectively in a PC build.",
+  "sections": [
+    {
+      "id": "installation",
+      "heading": "Installing the Motherboard",
+      "body": "Begin by placing the motherboard into the PC case. Align it with the standoffs and secure it with screws."
+    },
+    {
+      "id": "connecting-components",
+      "heading": "Connecting Components",
+      "body": "Attach the CPU, RAM, and storage devices to the motherboard. Ensure that all connections are secure and properly seated."
+    },
+    {
+      "id": "power-supply-connection",
+      "heading": "Power Supply Connection",
+      "body": "Connect the power supply to the motherboard using the 24-pin and 4/8-pin connectors. This is essential for powering the components."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Install the Motherboard",
+      "detail": "Place the motherboard in the case, align it with the standoffs, and secure it with screws."
+    },
+    {
+      "title": "Attach CPU and RAM",
+      "detail": "Insert the CPU into the socket and lock it in place. Install RAM sticks into the appropriate slots."
+    },
+    {
+      "title": "Connect Storage Devices",
+      "detail": "Attach SSDs or HDDs using SATA cables to the motherboard and connect power cables from the power supply."
+    },
+    {
+      "title": "Connect Power Supply",
+      "detail": "Connect the 24-pin and 4/8-pin power connectors from the power supply to the motherboard."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the motherboard doesn't power on?",
+      "answer": "Check all power connections and ensure the power supply is functioning. Also, verify that the power switch is connected to the motherboard."
+    },
+    {
+      "question": "How do I update the motherboard BIOS?",
+      "answer": "Download the latest BIOS version from the manufacturer's website and use the BIOS update utility, typically found in the BIOS menu."
+    },
+    {
+      "question": "Can I use any RAM with my motherboard?",
+      "answer": "No, ensure the RAM is compatible with your motherboard's specifications regarding type, speed, and capacity."
+    }
+  ],
+  "caveats": [
+    "Ensure compatibility of all components with the motherboard before installation.",
+    "Static electricity can damage components; use an anti-static wrist strap when handling."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for PC building"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

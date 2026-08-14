@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-an-array",
+  "directAnswer": "To update an array, you can directly assign a new value to an index or use methods like 'push', 'pop', or 'splice' depending on your needs.",
+  "summary": "Updating an array involves modifying its contents using various methods or direct indexing.",
+  "sections": [
+    {
+      "id": "basic-update",
+      "heading": "Basic Array Update",
+      "body": "You can update an array by accessing its index directly. For example, 'array[index] = newValue;' changes the value at the specified index."
+    },
+    {
+      "id": "using-methods",
+      "heading": "Using Array Methods",
+      "body": "Methods like 'push()' add elements to the end, 'pop()' removes the last element, and 'splice()' can add or remove elements at specific positions."
+    },
+    {
+      "id": "platform-specific",
+      "heading": "JavaScript Example",
+      "body": "In JavaScript, you can update an array as follows: let arr = [1, 2, 3]; arr[1] = 4; // arr is now [1, 4, 3]; or use arr.push(5); // arr is now [1, 4, 3, 5]."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access the Array",
+      "detail": "Identify the array you want to update and ensure it is initialized."
+    },
+    {
+      "title": "Choose Update Method",
+      "detail": "Decide whether to update a specific index or use an array method."
+    },
+    {
+      "title": "Implement Update",
+      "detail": "Execute the update using the chosen method, for example, 'array[index] = newValue;' or 'array.push(newValue);'."
+    },
+    {
+      "title": "Verify Changes",
+      "detail": "Check the array to confirm the update was successful by logging it to the console."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I update multiple elements at once?",
+      "answer": "Yes, you can use 'splice()' to replace multiple elements at a specific index."
+    },
+    {
+      "question": "What happens if I update an index that doesn't exist?",
+      "answer": "If you update an index that is out of bounds, JavaScript will create a sparse array and fill the missing indices with 'undefined'."
+    },
+    {
+      "question": "Are there performance considerations when updating large arrays?",
+      "answer": "Yes, frequent updates in large arrays can lead to performance issues, especially if using methods that modify the array length."
+    }
+  ],
+  "caveats": [
+    "Be cautious of array index bounds to avoid errors.",
+    "Using methods like 'splice()' can change the original array, which may not be desired in all cases."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for array methods"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

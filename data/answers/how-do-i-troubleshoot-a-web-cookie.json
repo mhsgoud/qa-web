@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-troubleshoot-a-web-cookie",
+  "directAnswer": "To troubleshoot a web cookie, clear your browser's cookies and cache, then refresh the page. If issues persist, check your browser settings to ensure cookies are enabled.",
+  "summary": "This guide provides steps to troubleshoot issues related to web cookies, including clearing cookies, checking browser settings, and understanding potential conflicts.",
+  "sections": [
+    {
+      "id": "understanding-cookies",
+      "heading": "Understanding Web Cookies",
+      "body": "Web cookies are small pieces of data stored on your device by your web browser. They help websites remember your preferences and login information."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues with Cookies",
+      "body": "Problems with cookies can include inability to log in, settings not being saved, or unexpected behavior on websites. These issues often arise from corrupted cookies or browser settings."
+    },
+    {
+      "id": "browser-specific-steps",
+      "heading": "Browser-Specific Steps",
+      "body": "Steps to troubleshoot cookies can vary by browser. Ensure you follow the appropriate method for your specific browser."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Clear Cookies and Cache",
+      "detail": "In your browser settings, navigate to 'Privacy' or 'History' and select the option to clear cookies and cache. Confirm the action."
+    },
+    {
+      "title": "Check Cookie Settings",
+      "detail": "Ensure that cookies are enabled in your browser settings. This can usually be found under 'Privacy' or 'Site Settings'."
+    },
+    {
+      "title": "Disable Extensions",
+      "detail": "Temporarily disable browser extensions that might interfere with cookie functionality, such as ad blockers or privacy tools."
+    },
+    {
+      "title": "Test in Incognito Mode",
+      "detail": "Open a new incognito or private browsing window to see if the issue persists. This mode often bypasses cached data and extensions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the different types of cookies?",
+      "answer": "There are session cookies, which are temporary and deleted when you close your browser, and persistent cookies, which remain on your device for a set period."
+    },
+    {
+      "question": "Why do some websites not work without cookies?",
+      "answer": "Some websites rely on cookies to maintain user sessions and preferences. Without cookies, you may experience limited functionality."
+    },
+    {
+      "question": "Can I selectively delete cookies?",
+      "answer": "Yes, most browsers allow you to manage cookies, where you can delete specific cookies for individual sites without clearing all cookies."
+    }
+  ],
+  "caveats": [
+    "Clearing cookies will log you out of most websites and reset preferences.",
+    "Browser settings may vary by version; consult the help documentation for your specific version if needed."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

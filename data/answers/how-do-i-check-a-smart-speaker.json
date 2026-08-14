@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-check-a-smart-speaker",
+  "directAnswer": "To check your smart speaker, ensure it is powered on and connected to Wi-Fi, then use the companion app or voice commands to test its functionality.",
+  "summary": "This guide provides steps to check the functionality of your smart speaker across different platforms.",
+  "sections": [
+    {
+      "id": "setup-check",
+      "heading": "Initial Setup Check",
+      "body": "Ensure your smart speaker is plugged in and the power indicator is lit. Verify that it is connected to your home Wi-Fi network."
+    },
+    {
+      "id": "app-usage",
+      "heading": "Using the Companion App",
+      "body": "Open the smart speaker's companion app on your smartphone. Check for any notifications or updates that may affect performance."
+    },
+    {
+      "id": "voice-command-test",
+      "heading": "Testing Voice Commands",
+      "body": "Try using voice commands to test the speaker's responsiveness. Common commands include asking for the weather or playing music."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power On the Speaker",
+      "detail": "Make sure the speaker is plugged into a power outlet and turned on."
+    },
+    {
+      "title": "Connect to Wi-Fi",
+      "detail": "Ensure the speaker is connected to your home Wi-Fi network through the companion app."
+    },
+    {
+      "title": "Update Firmware",
+      "detail": "Check the companion app for any firmware updates that may enhance performance."
+    },
+    {
+      "title": "Test Functionality",
+      "detail": "Use voice commands or the app to test various functions like music playback or smart home controls."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my smart speaker is not responding?",
+      "answer": "Try restarting the speaker and checking the Wi-Fi connection. If the issue persists, consult the manufacturer's support."
+    },
+    {
+      "question": "How can I reset my smart speaker?",
+      "answer": "Refer to the manufacturer's instructions for resetting your specific model, as the process may vary."
+    },
+    {
+      "question": "Can I check the speaker's status remotely?",
+      "answer": "Yes, if your speaker is connected to the internet, you can check its status via the companion app."
+    }
+  ],
+  "caveats": [
+    "Steps may vary based on the specific model and manufacturer of the smart speaker."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for troubleshooting smart speakers"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "is-thunderbolt-compatible-with-usb-c",
+  "directAnswer": "Yes, Thunderbolt is compatible with USB-C, as Thunderbolt 3 and 4 use the USB-C connector. However, not all USB-C ports support Thunderbolt functionality.",
+  "summary": "Thunderbolt and USB-C share the same physical connector, but compatibility depends on the specific implementation of the USB-C port.",
+  "sections": [
+    {
+      "id": "thunderbolt-versions",
+      "heading": "Thunderbolt Versions and USB-C Compatibility",
+      "body": "Thunderbolt 3 and Thunderbolt 4 utilize the USB-C connector, allowing for data transfer, video output, and power delivery. However, earlier versions of Thunderbolt (1 and 2) use a different connector and are not compatible with USB-C."
+    },
+    {
+      "id": "checking-compatibility",
+      "heading": "How to Check Compatibility",
+      "body": "To determine if a USB-C port supports Thunderbolt, look for a lightning bolt icon next to the port or check the device specifications from the manufacturer."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify the USB-C port",
+      "detail": "Look for a lightning bolt icon next to the USB-C port on your device."
+    },
+    {
+      "title": "Check device specifications",
+      "detail": "Visit the manufacturer's website and search for your device model to confirm if the USB-C port supports Thunderbolt."
+    },
+    {
+      "title": "Test with a Thunderbolt device",
+      "detail": "Connect a Thunderbolt device to the USB-C port to see if it is recognized. If it works, the port supports Thunderbolt."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a Thunderbolt cable with a USB-C device?",
+      "answer": "Yes, Thunderbolt cables are compatible with USB-C devices, but the device will only operate at USB-C speeds and capabilities."
+    },
+    {
+      "question": "What happens if I connect a Thunderbolt device to a non-Thunderbolt USB-C port?",
+      "answer": "The Thunderbolt device will not function, as the non-Thunderbolt port does not support the necessary protocols."
+    },
+    {
+      "question": "Are all USB-C ports the same?",
+      "answer": "No, USB-C ports can have different capabilities, including data transfer speeds and power delivery, depending on the device and its specifications."
+    }
+  ],
+  "caveats": [
+    "While Thunderbolt 3 and 4 are compatible with USB-C, not all USB-C ports support Thunderbolt features, so always verify compatibility."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

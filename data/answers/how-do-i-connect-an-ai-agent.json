@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-connect-an-ai-agent",
+  "directAnswer": "To connect an AI agent, you typically need to set up an API key and configure the agent's settings in your application or platform. Ensure you have the correct permissions and dependencies installed.",
+  "summary": "This guide outlines the steps to connect an AI agent across different platforms, along with potential caveats and frequently asked questions.",
+  "sections": [
+    {
+      "id": "platform-setup",
+      "heading": "Platform Setup",
+      "body": "Different platforms may have unique requirements for connecting an AI agent. Refer to the specific documentation for the platform you are using."
+    },
+    {
+      "id": "api-configuration",
+      "heading": "API Configuration",
+      "body": "You will need to obtain an API key from the AI service provider and configure it in your application settings to establish a connection."
+    },
+    {
+      "id": "testing-connection",
+      "heading": "Testing the Connection",
+      "body": "After configuration, test the connection to ensure the AI agent is responsive and functioning as expected."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Obtain API Key",
+      "detail": "Sign up for the AI service and generate an API key from the dashboard."
+    },
+    {
+      "title": "Configure API Key",
+      "detail": "Navigate to your application settings and enter the API key in the designated field."
+    },
+    {
+      "title": "Set Permissions",
+      "detail": "Ensure that your application has the necessary permissions to access the AI agent's features."
+    },
+    {
+      "title": "Test the AI Agent",
+      "detail": "Run a test command to verify that the AI agent is connected and responding properly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I encounter an authentication error?",
+      "answer": "Double-check your API key and ensure it is entered correctly. Also, verify that your account is active and has the necessary permissions."
+    },
+    {
+      "question": "Can I connect multiple AI agents?",
+      "answer": "Yes, but you may need to manage multiple API keys and configurations based on the platform's capabilities."
+    },
+    {
+      "question": "How do I troubleshoot connection issues?",
+      "answer": "Check your network settings, review the API documentation for any changes, and ensure that your application is compatible with the AI agent."
+    }
+  ],
+  "caveats": [
+    "API connection steps may vary depending on the AI service provider.",
+    "Ensure that your application meets the minimum requirements for the AI agent."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

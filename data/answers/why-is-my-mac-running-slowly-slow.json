@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-my-mac-running-slowly-slow",
+  "directAnswer": "Your Mac may be running slowly due to insufficient RAM, outdated software, or too many background applications running simultaneously.",
+  "summary": "Several factors can contribute to a slow Mac, including hardware limitations and software issues. Identifying the root cause is essential for effective resolution.",
+  "sections": [
+    {
+      "id": "check-activity-monitor",
+      "heading": "Check Activity Monitor",
+      "body": "Use Activity Monitor to identify resource-heavy applications. Open it by searching for 'Activity Monitor' in Spotlight (Cmd + Space). Look for processes using significant CPU or memory."
+    },
+    {
+      "id": "free-up-storage",
+      "heading": "Free Up Storage Space",
+      "body": "Ensure you have enough free disk space. Go to Apple Menu > About This Mac > Storage to check your available space. Aim for at least 15% free space."
+    },
+    {
+      "id": "update-software",
+      "heading": "Update macOS and Applications",
+      "body": "Keeping your software up to date can improve performance. Go to Apple Menu > System Preferences > Software Update to check for macOS updates."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Close Unnecessary Applications",
+      "detail": "Quit applications that you are not using. Right-click on the application in the dock and select 'Quit'."
+    },
+    {
+      "title": "Restart Your Mac",
+      "detail": "Sometimes a simple restart can resolve performance issues. Click on the Apple Menu and select 'Restart'."
+    },
+    {
+      "title": "Reset SMC and NVRAM",
+      "detail": "If issues persist, consider resetting the System Management Controller (SMC) and NVRAM. The process varies by Mac model, so refer to Apple's support page for specific instructions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How can I check my Mac's RAM usage?",
+      "answer": "You can check RAM usage in Activity Monitor under the 'Memory' tab."
+    },
+    {
+      "question": "What should I do if my Mac is still slow after following these steps?",
+      "answer": "Consider running Disk Utility to repair your disk or reinstalling macOS if the problem persists."
+    },
+    {
+      "question": "Can malware affect my Mac's performance?",
+      "answer": "Yes, malware can slow down your Mac. Use a trusted antivirus program to scan for and remove any malicious software."
+    }
+  ],
+  "caveats": [
+    "Performance issues can also stem from hardware limitations, especially in older Mac models."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-check-object-storage",
+  "directAnswer": "To check your object storage, access your cloud provider's management console and navigate to the storage section to view usage metrics and performance statistics.",
+  "summary": "This guide provides steps to check object storage in various cloud platforms, along with common questions and considerations.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Object Storage",
+      "body": "Object storage is designed to store and retrieve large amounts of unstructured data. Monitoring its performance is crucial for optimizing costs and ensuring efficient data access."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to check object storage can vary by cloud provider. Below are instructions for AWS, Azure, and Google Cloud."
+    }
+  ],
+  "steps": [
+    {
+      "title": "AWS",
+      "detail": "Log in to the AWS Management Console, navigate to S3, and select your bucket. Here, you can view metrics such as storage usage and access patterns."
+    },
+    {
+      "title": "Azure",
+      "detail": "Access the Azure portal, go to Storage Accounts, select your storage account, and check the 'Metrics' section for insights on usage and performance."
+    },
+    {
+      "title": "Google Cloud",
+      "detail": "Sign in to the Google Cloud Console, navigate to Cloud Storage, select your bucket, and review the 'Metrics' tab for storage statistics."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What metrics should I monitor for object storage?",
+      "answer": "Key metrics include storage capacity, access frequency, and latency. Monitoring these can help optimize performance and costs."
+    },
+    {
+      "question": "Can I automate the monitoring of object storage?",
+      "answer": "Yes, most cloud providers offer APIs and tools to automate monitoring and alerting based on specific thresholds."
+    },
+    {
+      "question": "What should I do if I notice performance issues?",
+      "answer": "Investigate the metrics for unusual patterns, check for any throttling limits, and consider upgrading your storage tier if necessary."
+    }
+  ],
+  "caveats": [
+    "Metrics availability and paths may vary based on the version of the cloud management console.",
+    "Some features may require specific permissions or roles to access."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

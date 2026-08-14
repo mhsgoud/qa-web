@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-reset-my-printer-not-printing",
+  "directAnswer": "To reset your printer, power it off, unplug it for 30 seconds, then plug it back in and turn it on. This can resolve many printing issues.",
+  "summary": "Resetting your printer can help resolve issues when it is not printing. Follow the steps below for a proper reset.",
+  "sections": [
+    {
+      "id": "printer-reset",
+      "heading": "How to Perform a Printer Reset",
+      "body": "Resetting your printer can clear errors and restore functionality. This process may vary slightly depending on the printer model."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues Resolved by Resetting",
+      "body": "Resetting can help with connectivity issues, error messages, and print queue problems."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Off the Printer",
+      "detail": "Turn off your printer using the power button."
+    },
+    {
+      "title": "Unplug the Printer",
+      "detail": "Disconnect the power cord from the printer and the wall outlet."
+    },
+    {
+      "title": "Wait for 30 Seconds",
+      "detail": "Leave the printer unplugged for at least 30 seconds to ensure a complete reset."
+    },
+    {
+      "title": "Reconnect and Power On",
+      "detail": "Plug the power cord back in and turn on the printer."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my printer still doesn't print after resetting?",
+      "answer": "Check the printer's connection to your computer or network, ensure there are no paper jams, and verify that ink or toner levels are adequate."
+    },
+    {
+      "question": "Can I reset my printer using the control panel?",
+      "answer": "Some printers have a reset option in the settings menu. Refer to your printer's manual for specific instructions."
+    },
+    {
+      "question": "Is there a way to reset my printer without unplugging it?",
+      "answer": "Yes, some printers have a 'Factory Reset' option in their settings menu. Check your printer model for specific instructions."
+    }
+  ],
+  "caveats": [
+    "Resetting the printer will not resolve hardware issues or low ink levels."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

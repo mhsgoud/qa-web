@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-troubleshoot-a-domain-name",
+  "directAnswer": "Start by checking the domain's registration status and DNS settings. Use tools like WHOIS and DNS lookup to identify issues.",
+  "summary": "Troubleshooting a domain name involves verifying its registration, DNS settings, and potential propagation issues.",
+  "sections": [
+    {
+      "id": "domain-registration",
+      "heading": "Check Domain Registration",
+      "body": "Use a WHOIS lookup tool to verify if the domain is registered and check the expiration date. If the domain is expired, you may need to renew it."
+    },
+    {
+      "id": "dns-settings",
+      "heading": "Verify DNS Settings",
+      "body": "Access your domain registrar's dashboard to ensure DNS records are correctly configured. Common records to check include A, CNAME, and MX records."
+    },
+    {
+      "id": "propagation-issues",
+      "heading": "Check for Propagation Issues",
+      "body": "After making changes to DNS settings, it can take up to 48 hours for changes to propagate globally. Use online tools to check DNS propagation status."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Perform a WHOIS Lookup",
+      "detail": "Visit a WHOIS lookup website, enter your domain name, and check its registration status and expiration date."
+    },
+    {
+      "title": "Access DNS Settings",
+      "detail": "Log in to your domain registrar account, navigate to the DNS management section, and review your DNS records for accuracy."
+    },
+    {
+      "title": "Check DNS Propagation",
+      "detail": "Use a DNS propagation checker tool to see if your DNS changes have propagated across different regions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my domain is expired?",
+      "answer": "You will need to renew your domain through your registrar's website to regain access."
+    },
+    {
+      "question": "How can I reset my DNS settings?",
+      "answer": "You can reset your DNS settings by logging into your registrar account and restoring default DNS settings or manually re-entering correct values."
+    },
+    {
+      "question": "Why is my website still down after changing DNS settings?",
+      "answer": "It may take time for DNS changes to propagate. If it's been over 48 hours, check for errors in your DNS configuration."
+    }
+  ],
+  "caveats": [
+    "DNS changes can take time to propagate, and results may vary based on the DNS cache of different ISPs."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "DNS lookup tool",
+    "WHOIS lookup tool"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

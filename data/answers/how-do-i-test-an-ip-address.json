@@ -1,0 +1,53 @@
+{
+  "slug": "how-do-i-test-an-ip-address",
+  "directAnswer": "You can test an IP address by using the 'ping' command in the command line or terminal, or by using online tools that check the reachability and response time of the IP.",
+  "summary": "Testing an IP address helps determine its availability and response time, which can be useful for troubleshooting connectivity issues.",
+  "sections": [
+    {
+      "id": "ping-command",
+      "heading": "Using the Ping Command",
+      "body": "The ping command sends packets to the specified IP address and measures the time it takes for a response. This is a quick way to check if the IP is reachable."
+    },
+    {
+      "id": "online-tools",
+      "heading": "Using Online Tools",
+      "body": "There are various websites that allow you to input an IP address and check its status, response time, and other details without needing to use command line tools."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Command Line or Terminal",
+      "detail": "On Windows, press Win + R, type 'cmd', and hit Enter. On macOS, open 'Terminal' from Applications > Utilities."
+    },
+    {
+      "title": "Run the Ping Command",
+      "detail": "Type 'ping [IP address]' (e.g., ping 192.168.1.1) and press Enter. Observe the response times and packet loss."
+    },
+    {
+      "title": "Use an Online Tool",
+      "detail": "Visit a site like 'ping.eu' or 'whatismyip.com/ping', enter the IP address, and click 'Ping' to see the results."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What does it mean if the ping command fails?",
+      "answer": "If the ping command fails, it could mean the IP address is unreachable, the device is turned off, or there are network issues."
+    },
+    {
+      "question": "Can I test a public IP address?",
+      "answer": "Yes, you can test both private and public IP addresses using the same methods."
+    },
+    {
+      "question": "What is packet loss in ping results?",
+      "answer": "Packet loss indicates that some packets sent to the IP address did not return, which can signify network issues."
+    }
+  ],
+  "caveats": [
+    "Some firewalls may block ping requests, leading to false negatives in reachability tests."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

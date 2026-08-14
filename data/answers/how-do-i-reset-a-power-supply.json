@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-reset-a-power-supply",
+  "directAnswer": "To reset a power supply, unplug it from the wall, hold the power button on your PC for about 10 seconds, then plug it back in and power on the system.",
+  "summary": "Resetting a power supply can resolve various hardware issues and restore functionality.",
+  "sections": [
+    {
+      "id": "understanding-power-supply-reset",
+      "heading": "Understanding Power Supply Reset",
+      "body": "A power supply reset can help clear temporary faults and restore power delivery to your components."
+    },
+    {
+      "id": "when-to-reset",
+      "heading": "When to Reset",
+      "body": "Consider resetting the power supply if your PC won't power on, experiences random shutdowns, or shows no signs of life."
+    },
+    {
+      "id": "safety-precautions",
+      "heading": "Safety Precautions",
+      "body": "Always ensure the power supply is unplugged before attempting a reset to avoid electrical shock or damage."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Unplug the Power Supply",
+      "detail": "Disconnect the power supply from the wall outlet to ensure no power is flowing."
+    },
+    {
+      "title": "Discharge Residual Power",
+      "detail": "Press and hold the power button on your PC for about 10 seconds to discharge any residual power."
+    },
+    {
+      "title": "Reconnect the Power Supply",
+      "detail": "Plug the power supply back into the wall outlet."
+    },
+    {
+      "title": "Power On the System",
+      "detail": "Turn on your PC to check if the issue is resolved."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my PC still doesn't turn on after resetting the power supply?",
+      "answer": "If the PC doesn't power on, there may be other hardware issues, such as a faulty power supply or motherboard."
+    },
+    {
+      "question": "Can I reset the power supply while it's still connected?",
+      "answer": "No, always unplug the power supply before attempting a reset to prevent electrical hazards."
+    },
+    {
+      "question": "Is resetting the power supply safe?",
+      "answer": "Yes, as long as you follow the proper steps and ensure it is unplugged before resetting."
+    }
+  ],
+  "caveats": [
+    "Resetting the power supply may not resolve all hardware issues; further troubleshooting may be required."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

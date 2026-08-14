@@ -1,0 +1,62 @@
+{
+  "slug": "what-is-retrieval-augmented-generation",
+  "directAnswer": "Retrieval Augmented Generation (RAG) combines traditional retrieval methods with generative models to enhance the quality of generated text by incorporating relevant external information.",
+  "summary": "RAG leverages both retrieval techniques and generative AI to produce more accurate and contextually relevant responses, making it particularly effective for applications requiring up-to-date information.",
+  "sections": [
+    {
+      "id": "understanding-rag",
+      "heading": "Understanding Retrieval Augmented Generation",
+      "body": "RAG operates by first retrieving relevant documents or data from a knowledge base and then using a generative model to synthesize this information into coherent text. This approach improves the factual accuracy of the generated content."
+    },
+    {
+      "id": "applications-of-rag",
+      "heading": "Applications of RAG",
+      "body": "RAG is useful in various domains, including customer support, content creation, and educational tools, where accurate and contextually rich responses are essential."
+    },
+    {
+      "id": "challenges-and-limitations",
+      "heading": "Challenges and Limitations",
+      "body": "While RAG improves response quality, it relies heavily on the quality of the retrieved data. If the retrieval component accesses outdated or incorrect information, the generated output may also be flawed."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify the Knowledge Base",
+      "detail": "Select a reliable source of information that will be used for retrieval, such as a database or a set of documents."
+    },
+    {
+      "title": "Implement the Retrieval Mechanism",
+      "detail": "Set up a retrieval system that can efficiently search and retrieve relevant documents based on user queries."
+    },
+    {
+      "title": "Integrate with a Generative Model",
+      "detail": "Connect the retrieval system to a generative AI model that will use the retrieved information to create responses."
+    },
+    {
+      "title": "Test and Refine",
+      "detail": "Evaluate the outputs for accuracy and relevance, and make adjustments to the retrieval and generation processes as needed."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How does RAG differ from traditional generative models?",
+      "answer": "Traditional generative models create text based solely on learned patterns, while RAG incorporates real-time retrieved data to enhance accuracy."
+    },
+    {
+      "question": "Can RAG be used for real-time applications?",
+      "answer": "Yes, RAG can be adapted for real-time applications, but it requires efficient retrieval systems to ensure timely responses."
+    },
+    {
+      "question": "What types of data work best with RAG?",
+      "answer": "Structured data, well-organized documents, and frequently updated knowledge bases are ideal for RAG implementations."
+    }
+  ],
+  "caveats": [
+    "The effectiveness of RAG is contingent on the quality and relevance of the retrieved data."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-connect-a-cpu-cooler",
+  "directAnswer": "To connect a CPU cooler, align it with the CPU socket and secure it using the provided mounting hardware, then connect the cooler's power cable to the motherboard's CPU fan header.",
+  "summary": "Connecting a CPU cooler involves proper alignment, securing it, and ensuring power connectivity to the motherboard.",
+  "sections": [
+    {
+      "id": "installation-process",
+      "heading": "Installation Process",
+      "body": "Ensure your PC is powered off and unplugged. Remove the existing cooler if necessary, clean the CPU surface, apply thermal paste if required, and then mount the new cooler."
+    },
+    {
+      "id": "power-connection",
+      "heading": "Power Connection",
+      "body": "Locate the CPU fan header on your motherboard, typically near the CPU socket. Connect the cooler's power cable to this header to ensure it receives power."
+    },
+    {
+      "id": "compatibility-check",
+      "heading": "Compatibility Check",
+      "body": "Before installing, verify that the cooler is compatible with your CPU socket type and that it fits within your case dimensions."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prepare the CPU",
+      "detail": "Power down your PC, unplug it, and remove the side panel of your case. If replacing an old cooler, detach it and clean the CPU surface."
+    },
+    {
+      "title": "Apply Thermal Paste",
+      "detail": "If your cooler does not come with pre-applied thermal paste, apply a small pea-sized amount to the center of the CPU."
+    },
+    {
+      "title": "Mount the Cooler",
+      "detail": "Align the cooler with the CPU socket, secure it using the mounting hardware provided, ensuring it is firmly in place."
+    },
+    {
+      "title": "Connect the Power Cable",
+      "detail": "Find the CPU fan header on the motherboard and connect the cooler's power cable to it."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need thermal paste for my CPU cooler?",
+      "answer": "Yes, unless the cooler has pre-applied thermal paste, you should apply a small amount to ensure proper heat transfer."
+    },
+    {
+      "question": "What if my cooler doesn't fit in the case?",
+      "answer": "Check the case specifications for maximum cooler height and ensure your cooler is compatible. If not, consider a different model."
+    },
+    {
+      "question": "How do I know if the cooler is working?",
+      "answer": "Monitor the CPU temperatures in BIOS or through software after booting. The cooler's fan should also spin when powered."
+    }
+  ],
+  "caveats": [
+    "Ensure the cooler is compatible with your CPU socket type.",
+    "Check case dimensions before purchasing a cooler."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for CPU cooler installation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-reset-a-cpu-cooler",
+  "directAnswer": "To reset a CPU cooler, disconnect the power cable, remove the cooler from the CPU, clean the surfaces, and reapply thermal paste before reattaching the cooler.",
+  "summary": "Resetting a CPU cooler involves safely detaching it, cleaning, and reapplying thermal paste to ensure optimal performance.",
+  "sections": [
+    {
+      "id": "removal",
+      "heading": "Removing the CPU Cooler",
+      "body": "First, ensure your PC is powered off and unplugged. Disconnect the cooler's power cable from the motherboard. Depending on your cooler type, you may need to unscrew or unclip it from the CPU socket."
+    },
+    {
+      "id": "cleaning",
+      "heading": "Cleaning and Reapplying Thermal Paste",
+      "body": "Once removed, clean the CPU and cooler surfaces with isopropyl alcohol and a lint-free cloth. Apply a small amount of thermal paste to the center of the CPU before reattaching the cooler."
+    },
+    {
+      "id": "reattaching",
+      "heading": "Reattaching the Cooler",
+      "body": "Carefully position the cooler back onto the CPU and secure it according to the manufacturer's instructions. Reconnect the power cable to the motherboard."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Off and Unplug the PC",
+      "detail": "Ensure your computer is completely powered off and unplugged from the wall."
+    },
+    {
+      "title": "Disconnect the Cooler",
+      "detail": "Unplug the CPU cooler's power cable from the motherboard and remove any screws or clips holding it in place."
+    },
+    {
+      "title": "Clean and Apply Thermal Paste",
+      "detail": "Use isopropyl alcohol to clean both the CPU and cooler surfaces, then apply a small dot of thermal paste on the CPU."
+    },
+    {
+      "title": "Reattach the CPU Cooler",
+      "detail": "Place the cooler back onto the CPU, secure it, and reconnect the power cable."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should I reset my CPU cooler?",
+      "answer": "It's recommended to reset your CPU cooler every few years or if you notice overheating issues."
+    },
+    {
+      "question": "What type of thermal paste should I use?",
+      "answer": "Use a high-quality thermal paste designed for CPU applications, such as those from Arctic or Noctua."
+    },
+    {
+      "question": "Can I reset the cooler without removing it?",
+      "answer": "No, to properly reset the cooler, you must remove it to clean and reapply thermal paste."
+    }
+  ],
+  "caveats": [
+    "Ensure you are grounded to prevent static damage to components.",
+    "Follow the manufacturer's instructions for your specific cooler model."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for CPU cooler maintenance"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

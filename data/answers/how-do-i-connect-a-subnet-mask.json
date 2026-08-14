@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-connect-a-subnet-mask",
+  "directAnswer": "To connect a subnet mask, configure it in the network settings of your device, ensuring it matches the IP address range of your network.",
+  "summary": "This guide provides steps to configure a subnet mask on various devices, along with common questions and caveats.",
+  "sections": [
+    {
+      "id": "understanding-subnet-masks",
+      "heading": "Understanding Subnet Masks",
+      "body": "A subnet mask defines the network portion of an IP address. It is essential for routing traffic within a network."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Follow the steps below based on your device type to configure the subnet mask."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "Go to Control Panel > Network and Internet > Network and Sharing Center > Change adapter settings. Right-click your network connection, select Properties, then select Internet Protocol Version 4 (TCP/IPv4) and click Properties. Enter your subnet mask in the 'Subnet mask' field."
+    },
+    {
+      "title": "macOS",
+      "detail": "Open System Preferences > Network. Select your network connection, click Advanced, then go to the TCP/IP tab. Enter your subnet mask in the 'Subnet Mask' field."
+    },
+    {
+      "title": "Linux",
+      "detail": "Edit the network configuration file (e.g., /etc/network/interfaces or /etc/netplan/*.yaml) to include the subnet mask under the relevant interface configuration."
+    },
+    {
+      "title": "Router",
+      "detail": "Access your router's web interface (usually via a browser at 192.168.1.1 or 192.168.0.1). Navigate to the LAN settings section and enter the subnet mask."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the default subnet mask for a Class C network?",
+      "answer": "The default subnet mask for a Class C network is 255.255.255.0."
+    },
+    {
+      "question": "How do I find my current subnet mask?",
+      "answer": "You can find your current subnet mask by checking your network settings on your device or using the 'ipconfig' command in Command Prompt on Windows."
+    },
+    {
+      "question": "Can I use a custom subnet mask?",
+      "answer": "Yes, you can use a custom subnet mask as long as it fits within the IP address range of your network."
+    }
+  ],
+  "caveats": [
+    "Ensure the subnet mask you configure matches the IP address range of your network to avoid connectivity issues.",
+    "Changing the subnet mask may require reconfiguration of other network settings."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for network configuration"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

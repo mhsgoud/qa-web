@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-check-a-linked-list",
+  "directAnswer": "To check a linked list, traverse the list while verifying the integrity of each node and its connections. You can also check for cycles using algorithms like Floyd's Tortoise and Hare.",
+  "summary": "This guide provides steps to check the integrity and structure of a linked list in programming.",
+  "sections": [
+    {
+      "id": "check-structure",
+      "heading": "Checking the Structure of a Linked List",
+      "body": "Ensure each node points to the next node correctly and that the last node points to null (or None, depending on the language)."
+    },
+    {
+      "id": "detect-cycle",
+      "heading": "Detecting Cycles in the Linked List",
+      "body": "Use Floyd's Tortoise and Hare algorithm to detect cycles by having two pointers traverse the list at different speeds."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Initialize Pointers",
+      "detail": "Set two pointers, slow and fast, both starting at the head of the linked list."
+    },
+    {
+      "title": "Traverse the List",
+      "detail": "Move the slow pointer one step and the fast pointer two steps through the list until they meet or the fast pointer reaches the end."
+    },
+    {
+      "title": "Check Node Connections",
+      "detail": "While traversing, ensure each node's next pointer is not null (or None) until the last node."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What programming languages can I use to check a linked list?",
+      "answer": "You can check linked lists in any programming language that supports data structures, such as Python, Java, C++, and JavaScript."
+    },
+    {
+      "question": "How can I visualize a linked list?",
+      "answer": "You can use tools like visualgo.net or draw.io to create a visual representation of your linked list."
+    },
+    {
+      "question": "What happens if I find a cycle in my linked list?",
+      "answer": "If a cycle is detected, you may need to implement logic to break the cycle or handle it according to your application's requirements."
+    }
+  ],
+  "caveats": [
+    "Ensure that you are not modifying the list while checking it, as this may lead to inconsistent results.",
+    "Different programming languages may have different conventions for null pointers."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for linked list operations"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

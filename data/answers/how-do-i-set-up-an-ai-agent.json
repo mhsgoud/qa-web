@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-set-up-an-ai-agent",
+  "directAnswer": "To set up an AI agent, you need to define its purpose and select a suitable platform or framework for development.",
+  "summary": "This guide provides steps to set up an AI agent, including platform-specific instructions and considerations.",
+  "sections": [
+    {
+      "id": "defining-purpose",
+      "heading": "Defining the Purpose of the AI Agent",
+      "body": "Before setting up an AI agent, clearly define its purpose, such as customer support, data analysis, or personal assistance. This will guide your choice of tools and frameworks."
+    },
+    {
+      "id": "choosing-platform",
+      "heading": "Choosing a Platform",
+      "body": "Select a platform that aligns with your needs. Popular options include Google Dialogflow, Microsoft Bot Framework, and OpenAI's API. Each platform has its own setup process."
+    },
+    {
+      "id": "development-steps",
+      "heading": "Development Steps",
+      "body": "Follow the specific steps for your chosen platform to create and deploy the AI agent."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Select a Platform",
+      "detail": "Choose a platform like Google Dialogflow or Microsoft Bot Framework based on your requirements."
+    },
+    {
+      "title": "Create an Account",
+      "detail": "Sign up for an account on the chosen platform. Some platforms may require payment information."
+    },
+    {
+      "title": "Define Intents and Entities",
+      "detail": "Set up intents (what the user wants) and entities (specific data points) in the platform's dashboard."
+    },
+    {
+      "title": "Test and Deploy",
+      "detail": "Use the platform's testing tools to ensure the AI agent functions correctly, then deploy it to your desired channels."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What programming languages can I use to develop an AI agent?",
+      "answer": "Common languages include Python, JavaScript, and Java, but the choice may depend on the platform you select."
+    },
+    {
+      "question": "Can I integrate my AI agent with other services?",
+      "answer": "Yes, many platforms offer integration options with services like Slack, Facebook Messenger, and CRM systems."
+    },
+    {
+      "question": "How do I ensure my AI agent understands user queries?",
+      "answer": "Train your AI agent with diverse examples of user queries to improve its understanding and accuracy."
+    }
+  ],
+  "caveats": [
+    "The setup process may vary based on the platform version and specific features.",
+    "Some platforms may have usage limits or require a subscription for advanced features."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

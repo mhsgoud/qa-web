@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-update-usb-c-charge-a-laptop",
+  "directAnswer": "To update USB-C charging capabilities on your laptop, ensure your firmware and drivers are up to date, and verify compatibility with your USB-C charger.",
+  "summary": "Updating USB-C charging on a laptop involves checking for firmware updates and ensuring charger compatibility.",
+  "sections": [
+    {
+      "id": "firmware-update",
+      "heading": "Check for Firmware Updates",
+      "body": "Access your laptop's settings to check for firmware updates. This can usually be found under 'System' or 'About' sections, depending on your operating system."
+    },
+    {
+      "id": "driver-update",
+      "heading": "Update USB Drivers",
+      "body": "Ensure that your USB drivers are up to date. This can typically be done through the Device Manager on Windows or System Preferences on macOS."
+    },
+    {
+      "id": "charger-compatibility",
+      "heading": "Verify Charger Compatibility",
+      "body": "Use a USB-C / charger compatibility checker tool to confirm that your charger meets the power requirements of your laptop."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows Firmware Update",
+      "detail": "Go to 'Settings' > 'Update & Security' > 'Windows Update' and check for updates."
+    },
+    {
+      "title": "macOS Firmware Update",
+      "detail": "Click on the Apple menu > 'About This Mac' > 'Software Update' to check for updates."
+    },
+    {
+      "title": "Update USB Drivers on Windows",
+      "detail": "Open 'Device Manager', expand 'Universal Serial Bus controllers', right-click on each USB device, and select 'Update driver'."
+    },
+    {
+      "title": "Update USB Drivers on macOS",
+      "detail": "Drivers are updated with macOS updates; ensure your macOS is current."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my laptop doesn't support USB-C charging?",
+      "answer": "Check the laptop specifications or user manual to confirm if USB-C charging is supported."
+    },
+    {
+      "question": "Can I use any USB-C charger?",
+      "answer": "Not all USB-C chargers are compatible; ensure the charger meets the wattage requirements of your laptop."
+    },
+    {
+      "question": "How do I know if my firmware is up to date?",
+      "answer": "Most operating systems will notify you of available firmware updates; you can also check the manufacturer's website for the latest versions."
+    }
+  ],
+  "caveats": [
+    "Not all laptops support USB-C charging; check your laptop's specifications.",
+    "Using an incompatible charger may lead to slow charging or damage."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

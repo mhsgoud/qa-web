@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-connect-a-passkey",
+  "directAnswer": "To connect a passkey, use your device's settings to add the passkey through the security options, ensuring your device supports passkey authentication.",
+  "summary": "Connecting a passkey involves accessing security settings on your device and following the prompts to add your passkey for authentication.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "A passkey is a secure method for authentication that eliminates the need for traditional passwords. It uses cryptographic keys stored on your device."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Steps may vary by device and operating system version."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting",
+      "body": "If you encounter issues, ensure your device's software is up to date and that the service you're connecting to supports passkeys."
+    }
+  ],
+  "steps": [
+    {
+      "title": "iOS Devices",
+      "detail": "Go to Settings > Passwords > Add Password > Use Passkey. Follow the prompts to create and connect your passkey."
+    },
+    {
+      "title": "Android Devices",
+      "detail": "Open Settings > Security > Advanced > Passkeys. Tap 'Add Passkey' and follow the instructions to connect."
+    },
+    {
+      "title": "Windows Devices",
+      "detail": "Navigate to Settings > Accounts > Sign-in options > Windows Hello. Select 'Add' under Passkeys and follow the setup process."
+    },
+    {
+      "title": "Mac Devices",
+      "detail": "Open System Preferences > Users & Groups > Login Options. Click 'Set up' next to Passkeys and follow the prompts."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my device doesn't support passkeys?",
+      "answer": "If your device doesn't support passkeys, consider updating your operating system or using a different device that does."
+    },
+    {
+      "question": "Can I use a passkey for multiple accounts?",
+      "answer": "Yes, you can use the same passkey for multiple accounts as long as the services support it."
+    },
+    {
+      "question": "What should I do if I forget my passkey?",
+      "answer": "If you forget your passkey, you may need to reset your authentication settings or contact the service provider for recovery options."
+    }
+  ],
+  "caveats": [
+    "Not all services support passkey authentication.",
+    "Device compatibility may vary based on the operating system version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for setting up passkeys"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

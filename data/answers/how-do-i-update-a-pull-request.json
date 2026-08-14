@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-update-a-pull-request",
+  "directAnswer": "To update a pull request, you need to push your changes to the branch associated with the pull request. The pull request will automatically reflect these changes.",
+  "summary": "This guide explains how to update a pull request by pushing changes to the associated branch and addresses common questions.",
+  "sections": [
+    {
+      "id": "understanding-pull-requests",
+      "heading": "Understanding Pull Requests",
+      "body": "A pull request (PR) is a request to merge code changes from one branch into another. Updating a PR involves making changes to the branch and pushing those changes."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to update a pull request may vary slightly depending on the platform (e.g., GitHub, GitLab, Bitbucket)."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Make Changes Locally",
+      "detail": "Edit your files in the local repository to implement the desired changes."
+    },
+    {
+      "title": "Commit Your Changes",
+      "detail": "Run `git add .` to stage your changes, followed by `git commit -m 'Your message'` to commit them."
+    },
+    {
+      "title": "Push Changes to Remote Branch",
+      "detail": "Execute `git push origin your-branch-name` to update the remote branch associated with the pull request."
+    },
+    {
+      "title": "Check the Pull Request",
+      "detail": "Visit the pull request page on your platform to ensure the changes are reflected."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I need to change the base branch of my pull request?",
+      "answer": "You can change the base branch by navigating to the pull request page and selecting a different base branch from the dropdown menu."
+    },
+    {
+      "question": "Can I update a pull request after it has been approved?",
+      "answer": "Yes, you can update a pull request even after it has been approved. The approval will be removed until the changes are reviewed again."
+    },
+    {
+      "question": "How do I resolve merge conflicts in a pull request?",
+      "answer": "You can resolve merge conflicts by pulling the latest changes from the base branch into your branch, resolving conflicts locally, and then pushing the resolved changes."
+    }
+  ],
+  "caveats": [
+    "Ensure you are pushing to the correct branch associated with the pull request to avoid confusion.",
+    "If your pull request is already merged, you cannot update it; you will need to create a new pull request."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for managing pull requests"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

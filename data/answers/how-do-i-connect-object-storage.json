@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-connect-object-storage",
+  "directAnswer": "To connect to object storage, you typically need to configure your application with the storage endpoint, access key, and secret key provided by your cloud service.",
+  "summary": "This guide provides steps to connect to object storage across different cloud platforms, including AWS, Azure, and Google Cloud.",
+  "sections": [
+    {
+      "id": "aws-connection",
+      "heading": "Connecting to AWS S3",
+      "body": "To connect to AWS S3, use the AWS SDK for your programming language and configure it with your AWS credentials."
+    },
+    {
+      "id": "azure-connection",
+      "heading": "Connecting to Azure Blob Storage",
+      "body": "For Azure Blob Storage, utilize the Azure SDK and set up your connection string with your account name and key."
+    },
+    {
+      "id": "google-cloud-connection",
+      "heading": "Connecting to Google Cloud Storage",
+      "body": "Google Cloud Storage can be accessed using the Google Cloud Client Libraries, requiring authentication via a service account key."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Obtain Credentials",
+      "detail": "Log in to your cloud provider's console to obtain the necessary access keys and endpoint URLs."
+    },
+    {
+      "title": "Install SDK",
+      "detail": "Install the appropriate SDK for your programming language, such as Boto3 for Python (AWS), Azure Storage SDK for .NET, or Google Cloud Storage client library."
+    },
+    {
+      "title": "Configure Connection",
+      "detail": "Use the obtained credentials to configure the connection in your application. Ensure you specify the correct endpoint and authentication method."
+    },
+    {
+      "title": "Test the Connection",
+      "detail": "Run a simple script to test the connection by listing buckets or uploading a file to ensure everything is set up correctly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What permissions do I need to connect to object storage?",
+      "answer": "You need permissions to access the object storage service, which typically includes read and write access to specific buckets."
+    },
+    {
+      "question": "Can I connect to multiple object storage providers?",
+      "answer": "Yes, you can connect to multiple providers by configuring separate credentials and endpoints for each in your application."
+    },
+    {
+      "question": "What SDKs are available for connecting to object storage?",
+      "answer": "Most cloud providers offer SDKs for popular programming languages, including Python, Java, .NET, and Node.js."
+    }
+  ],
+  "caveats": [
+    "Ensure you follow security best practices when managing access keys.",
+    "Connection procedures may vary slightly depending on the SDK version."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

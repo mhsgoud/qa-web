@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-connect-a-public-ip-address",
+  "directAnswer": "To connect a public IP address, you typically need to configure your router's settings to assign the public IP to your device or network. This may involve accessing the router's admin interface and setting up DHCP or static IP assignments.",
+  "summary": "Connecting a public IP address requires router configuration and may vary based on the device and network setup.",
+  "sections": [
+    {
+      "id": "router-configuration",
+      "heading": "Router Configuration",
+      "body": "Access your router's admin interface through a web browser using its local IP address. Look for settings related to WAN or Internet connection."
+    },
+    {
+      "id": "device-setup",
+      "heading": "Device Setup",
+      "body": "Once the router is configured, ensure that the device you want to connect is set to obtain an IP address automatically or is configured with the public IP if using static assignment."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Router Admin Interface",
+      "detail": "Open a web browser and enter the router's local IP address (commonly 192.168.1.1 or 192.168.0.1). Log in with your credentials."
+    },
+    {
+      "title": "Configure WAN Settings",
+      "detail": "Navigate to the WAN or Internet settings section. Choose to use a static IP if your ISP provided a public IP address."
+    },
+    {
+      "title": "Assign Public IP to Device",
+      "detail": "If using DHCP, ensure the device is connected to the network. If using a static IP, manually enter the public IP in the device's network settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between public and private IP addresses?",
+      "answer": "Public IP addresses are assigned by your Internet Service Provider and can be accessed over the internet, while private IP addresses are used within a local network."
+    },
+    {
+      "question": "Can I change my public IP address?",
+      "answer": "Yes, you can change your public IP address by resetting your router or contacting your ISP for a new address, depending on their policies."
+    },
+    {
+      "question": "What if I don't have access to my router's admin interface?",
+      "answer": "If you cannot access the router's admin interface, you may need to contact your ISP for assistance or reset the router to factory settings."
+    }
+  ],
+  "caveats": [
+    "Ensure you have permission to configure the router, especially in shared or corporate networks.",
+    "Changes to router settings can disrupt existing network connections."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for setting up a network"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

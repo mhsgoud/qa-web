@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-use-an-ev-charge",
+  "directAnswer": "To use an EV charger, connect the charging cable to your vehicle's charging port and follow the prompts on the charger display. Ensure that the charger is compatible with your EV model.",
+  "summary": "Using an EV charger involves connecting the charger to your vehicle and following specific instructions based on the charger type.",
+  "sections": [
+    {
+      "id": "understanding-ev-chargers",
+      "heading": "Understanding EV Chargers",
+      "body": "EV chargers come in various types, including Level 1, Level 2, and DC fast chargers. Level 1 chargers use a standard outlet, while Level 2 chargers require a dedicated circuit. DC fast chargers provide rapid charging but are typically found at public charging stations."
+    },
+    {
+      "id": "charging-at-home",
+      "heading": "Charging at Home",
+      "body": "To charge at home, install a Level 2 home charger for faster charging. Use an EV home charger calculator to determine the appropriate charger size based on your vehicle's battery capacity and your charging needs."
+    },
+    {
+      "id": "public-charging",
+      "heading": "Using Public Charging Stations",
+      "body": "When using public chargers, locate a charging station using apps or maps. Follow the on-screen instructions, which may include scanning a QR code or using a membership card."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Connect the Charger",
+      "detail": "Plug the charging cable into your vehicle's charging port securely."
+    },
+    {
+      "title": "Start the Charging Process",
+      "detail": "Follow the prompts on the charger screen to initiate charging. This may include selecting a payment method if applicable."
+    },
+    {
+      "title": "Monitor Charging Status",
+      "detail": "Check the charger display or your vehicle's app to monitor the charging progress."
+    },
+    {
+      "title": "Disconnect After Charging",
+      "detail": "Once charging is complete, disconnect the charger from your vehicle and return it to its holder."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the charger is not working?",
+      "answer": "Check the charger for any error messages and ensure it is properly connected to your vehicle. If issues persist, try a different charger or contact customer support."
+    },
+    {
+      "question": "How long does it take to charge an EV?",
+      "answer": "Charging time varies by charger type and vehicle model. Level 1 chargers can take several hours, while Level 2 chargers typically take 4-8 hours, and DC fast chargers can charge to 80% in about 30 minutes."
+    },
+    {
+      "question": "Can I charge my EV at any outlet?",
+      "answer": "You can charge at a standard outlet using a Level 1 charger, but for faster charging, a Level 2 charger is recommended. Ensure the outlet can handle the required amperage."
+    }
+  ],
+  "caveats": [
+    "Charging speeds may vary based on the charger's power output and the vehicle's acceptance rate.",
+    "Some public chargers may require a subscription or payment method to access."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

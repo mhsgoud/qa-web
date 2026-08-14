@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-test-my-printer-not-printing",
+  "directAnswer": "To test your printer, try printing a test page from your computer or directly from the printer's control panel. Ensure that the printer is properly connected and powered on.",
+  "summary": "This guide provides steps to troubleshoot and test your printer when it is not printing.",
+  "sections": [
+    {
+      "id": "printer-connection",
+      "heading": "Check Printer Connection",
+      "body": "Ensure your printer is connected to your computer or network. For wired printers, check the USB cable; for wireless printers, confirm that it is connected to the same Wi-Fi network."
+    },
+    {
+      "id": "print-test-page",
+      "heading": "Print a Test Page",
+      "body": "Most printers have an option to print a test page from the control panel. This can help determine if the issue lies with the printer or the computer."
+    },
+    {
+      "id": "check-printer-status",
+      "heading": "Check Printer Status",
+      "body": "Open the printer settings on your computer to check the printer status. Look for any error messages or alerts that may indicate why the printer is not functioning."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For Windows",
+      "detail": "Go to 'Settings' > 'Devices' > 'Printers & Scanners', select your printer, and click 'Manage'. Then choose 'Print a test page'."
+    },
+    {
+      "title": "For macOS",
+      "detail": "Open 'System Preferences' > 'Printers & Scanners', select your printer, and click 'Print Test Page'."
+    },
+    {
+      "title": "Directly from Printer",
+      "detail": "Use the printer's control panel to navigate to the settings menu and select the option to print a test page."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the test page doesn't print?",
+      "answer": "Check the printer's power supply, ensure it's connected to the computer or network, and verify that there are no paper jams or low ink levels."
+    },
+    {
+      "question": "How can I check if my printer is online?",
+      "answer": "In the printer settings on your computer, look for the status indicator. If it shows 'Offline', try restarting both the printer and your computer."
+    },
+    {
+      "question": "What if my printer is connected but still not printing?",
+      "answer": "Try reinstalling the printer drivers or updating them to the latest version from the manufacturer's website."
+    }
+  ],
+  "caveats": [
+    "Printer settings and options may vary by model and manufacturer, so refer to your printer's manual for specific instructions."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for printer troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

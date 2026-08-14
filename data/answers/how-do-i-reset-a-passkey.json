@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-reset-a-passkey",
+  "directAnswer": "To reset a passkey, navigate to your account security settings and select the option to manage or reset passkeys. Follow the prompts to complete the reset process.",
+  "summary": "Resetting a passkey involves accessing your account settings and following the necessary steps to update your security credentials.",
+  "sections": [
+    {
+      "id": "understanding-passkeys",
+      "heading": "Understanding Passkeys",
+      "body": "Passkeys are a secure alternative to passwords, designed to enhance account security by using cryptographic keys."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset a passkey may vary by platform. Below are the general steps for common platforms."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For iOS Devices",
+      "detail": "Go to Settings > Passwords > Select the account > Tap 'Reset Passkey'."
+    },
+    {
+      "title": "For Android Devices",
+      "detail": "Open Settings > Security > Passwords > Locate your account > Tap 'Reset Passkey'."
+    },
+    {
+      "title": "For Web Accounts",
+      "detail": "Log into your account, navigate to Security Settings, and select 'Manage Passkeys' to reset."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I forget my passkey?",
+      "answer": "If you forget your passkey, you will need to follow the account recovery process provided by your platform."
+    },
+    {
+      "question": "Can I have multiple passkeys for one account?",
+      "answer": "Most platforms allow you to manage multiple passkeys, but this varies by service."
+    },
+    {
+      "question": "Is resetting a passkey secure?",
+      "answer": "Yes, as long as you follow the official procedures set by your platform, resetting a passkey is secure."
+    }
+  ],
+  "caveats": [
+    "Ensure you have access to the recovery methods associated with your account before resetting.",
+    "The steps may vary slightly depending on the version of the operating system or application."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

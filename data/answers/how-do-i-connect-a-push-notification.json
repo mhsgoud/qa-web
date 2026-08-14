@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-connect-a-push-notification",
+  "directAnswer": "To connect push notifications, you need to integrate a push notification service with your application and configure the necessary settings in your app's backend.",
+  "summary": "This guide provides steps to connect push notifications for various platforms, including caveats and frequently asked questions.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Push Notifications",
+      "body": "Push notifications are messages sent from a server to a user's device, allowing for real-time updates and engagement."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to connect push notifications may vary based on the platform you are using (e.g., iOS, Android, Web)."
+    },
+    {
+      "id": "best-practices",
+      "heading": "Best Practices for Implementation",
+      "body": "Ensure you follow best practices for user consent and message frequency to avoid overwhelming users."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Choose a Push Notification Service",
+      "detail": "Select a service like Firebase Cloud Messaging (FCM), OneSignal, or Pusher based on your app's needs."
+    },
+    {
+      "title": "Integrate the Service with Your App",
+      "detail": "Follow the service's integration guide to add the necessary SDKs and configure your app's settings."
+    },
+    {
+      "title": "Set Up Server-Side Logic",
+      "detail": "Implement server-side code to send notifications based on user actions or events."
+    },
+    {
+      "title": "Test Notifications",
+      "detail": "Send test notifications to ensure everything is working correctly before going live."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need user permission for push notifications?",
+      "answer": "Yes, you must obtain user permission before sending push notifications to comply with privacy regulations."
+    },
+    {
+      "question": "Can I customize the notification content?",
+      "answer": "Yes, most push notification services allow you to customize the message, title, and other parameters."
+    },
+    {
+      "question": "What happens if a user disables notifications?",
+      "answer": "If a user disables notifications, they will not receive any messages until they re-enable them in their device settings."
+    }
+  ],
+  "caveats": [
+    "Different platforms have varying requirements for push notification setup.",
+    "Users can opt-out of notifications, affecting engagement rates."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for push notification best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

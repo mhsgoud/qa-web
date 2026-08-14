@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-set-up-an-nvme-ssd",
+  "directAnswer": "To set up an NVMe SSD, install it in the M.2 slot on your motherboard and initialize it in your operating system's disk management tool.",
+  "summary": "This guide provides step-by-step instructions for installing and configuring an NVMe SSD in your PC.",
+  "sections": [
+    {
+      "id": "installation",
+      "heading": "Installation",
+      "body": "Locate the M.2 slot on your motherboard, insert the NVMe SSD at an angle, and secure it with a screw."
+    },
+    {
+      "id": "initialization",
+      "heading": "Initialization",
+      "body": "After installation, boot your PC and access the disk management tool to format and initialize the new SSD."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power off your PC",
+      "detail": "Shut down your computer and unplug it from the power source."
+    },
+    {
+      "title": "Install the NVMe SSD",
+      "detail": "Open the case, locate the M.2 slot, insert the SSD at a 30-degree angle, and fasten it with the provided screw."
+    },
+    {
+      "title": "Boot your PC",
+      "detail": "Reconnect the power and start your computer."
+    },
+    {
+      "title": "Initialize the SSD",
+      "detail": "Open Disk Management (Windows: Right-click Start > Disk Management; macOS: Open Disk Utility) and format the new drive."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my motherboard doesn't have an M.2 slot?",
+      "answer": "You may need to use a PCIe adapter card to install the NVMe SSD."
+    },
+    {
+      "question": "Can I use an NVMe SSD as a boot drive?",
+      "answer": "Yes, you can set up an NVMe SSD as your primary boot drive if your motherboard supports it."
+    },
+    {
+      "question": "Is there a specific NVMe SSD I should buy?",
+      "answer": "Choose an NVMe SSD that is compatible with your motherboard and meets your storage needs."
+    }
+  ],
+  "caveats": [
+    "Ensure your motherboard supports NVMe SSDs and has available M.2 slots.",
+    "Check for BIOS updates that may improve NVMe compatibility."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

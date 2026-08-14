@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-use-a-pull-request",
+  "directAnswer": "To use a pull request, you create a branch for your changes, push your commits to that branch, and then submit a pull request to merge those changes into the main branch of the repository.",
+  "summary": "Pull requests are a fundamental part of collaborative development, allowing team members to review and discuss code changes before merging them into the main codebase.",
+  "sections": [
+    {
+      "id": "creating-a-pull-request",
+      "heading": "Creating a Pull Request",
+      "body": "Start by pushing your changes to a new branch in your repository. Navigate to the repository on your platform (e.g., GitHub, GitLab) and select the 'Pull Requests' tab. Click on 'New Pull Request' and choose the branch you want to merge into the main branch."
+    },
+    {
+      "id": "reviewing-a-pull-request",
+      "heading": "Reviewing a Pull Request",
+      "body": "Once a pull request is submitted, team members can review the changes. They can leave comments, request changes, or approve the pull request. Make sure to address any feedback before merging."
+    },
+    {
+      "id": "merging-a-pull-request",
+      "heading": "Merging a Pull Request",
+      "body": "After approval, you can merge the pull request. This is typically done by clicking the 'Merge' button on the pull request page. Ensure that all checks (like CI/CD pipelines) have passed before merging."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Create a new branch",
+      "detail": "Use the command 'git checkout -b your-feature-branch' to create a new branch for your changes."
+    },
+    {
+      "title": "Push your changes",
+      "detail": "Commit your changes and push them to the remote repository using 'git push origin your-feature-branch'."
+    },
+    {
+      "title": "Open a pull request",
+      "detail": "Go to the repository on your platform, navigate to the 'Pull Requests' section, and click 'New Pull Request'. Select your branch and submit."
+    },
+    {
+      "title": "Merge the pull request",
+      "detail": "Once approved, click 'Merge' to integrate your changes into the main branch."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my pull request has conflicts?",
+      "answer": "If there are conflicts, you will need to resolve them in your branch before you can merge. Use 'git merge' to incorporate changes from the main branch and resolve any conflicts."
+    },
+    {
+      "question": "Can I edit a pull request after submitting it?",
+      "answer": "Yes, you can continue to push changes to the branch associated with the pull request, and it will automatically update."
+    },
+    {
+      "question": "What happens if my pull request is rejected?",
+      "answer": "If your pull request is rejected, review the feedback provided, make necessary changes, and resubmit the pull request."
+    }
+  ],
+  "caveats": [
+    "The exact steps to create and manage pull requests may vary slightly depending on the platform (e.g., GitHub, GitLab, Bitbucket)."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for creating effective pull requests"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

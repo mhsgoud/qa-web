@@ -1,0 +1,69 @@
+{
+  "slug": "how-do-i-troubleshoot-an-api",
+  "directAnswer": "Start by checking the API endpoint for errors and validating the request format. Use tools like Postman or curl to test the API responses directly.",
+  "summary": "Troubleshooting an API involves checking the request format, response codes, and server logs to identify issues.",
+  "sections": [
+    {
+      "id": "check-endpoint",
+      "heading": "Check the API Endpoint",
+      "body": "Ensure that the API endpoint URL is correct and accessible. Use a browser or tools like Postman to verify that the endpoint is returning the expected response."
+    },
+    {
+      "id": "validate-request",
+      "heading": "Validate the Request Format",
+      "body": "Make sure that the request headers, parameters, and body are formatted correctly according to the API documentation. Incorrect formats can lead to errors."
+    },
+    {
+      "id": "check-response-codes",
+      "heading": "Check Response Codes",
+      "body": "Review the HTTP response codes returned by the API. Common codes include 200 (OK), 400 (Bad Request), and 500 (Internal Server Error). Each code provides insight into what went wrong."
+    },
+    {
+      "id": "review-server-logs",
+      "heading": "Review Server Logs",
+      "body": "If you have access to server logs, check them for any errors or warnings that occurred during the API call. This can provide detailed information about the issue."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Ping the API Endpoint",
+      "detail": "Use a tool like Postman or curl to send a request to the API endpoint and check the response."
+    },
+    {
+      "title": "Inspect Request Details",
+      "detail": "Ensure that all required headers and parameters are included and correctly formatted."
+    },
+    {
+      "title": "Analyze Response Codes",
+      "detail": "Look for the HTTP status code in the response and refer to the API documentation for what each code means."
+    },
+    {
+      "title": "Check for Rate Limiting",
+      "detail": "Verify if the API has rate limits and ensure you are not exceeding them, which can lead to throttling."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I get a 404 error?",
+      "answer": "A 404 error indicates that the requested resource could not be found. Check the URL for typos and ensure the resource exists."
+    },
+    {
+      "question": "How can I check if the API is down?",
+      "answer": "Use a service like DownDetector or simply ping the API endpoint to see if it responds."
+    },
+    {
+      "question": "What tools can help with API testing?",
+      "answer": "Postman, curl, and Insomnia are popular tools for testing and troubleshooting APIs."
+    }
+  ],
+  "caveats": [
+    "API documentation may vary by version, so ensure you're referencing the correct version.",
+    "Some APIs may have authentication requirements that must be met before troubleshooting."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for API troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

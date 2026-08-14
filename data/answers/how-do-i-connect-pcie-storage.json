@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-connect-pcie-storage",
+  "directAnswer": "To connect PCIe storage, insert the PCIe SSD into an available M.2 slot on your motherboard or use a PCIe adapter card for larger drives.",
+  "summary": "Connecting PCIe storage involves physical installation and ensuring compatibility with your system's motherboard.",
+  "sections": [
+    {
+      "id": "installation",
+      "heading": "Installation Steps",
+      "body": "Follow the steps below to install your PCIe storage device."
+    },
+    {
+      "id": "compatibility",
+      "heading": "Compatibility Check",
+      "body": "Ensure your motherboard supports the PCIe version and form factor of your SSD."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Off Your Computer",
+      "detail": "Shut down your computer and unplug it from the power source."
+    },
+    {
+      "title": "Open the Case",
+      "detail": "Remove the side panel of your computer case to access the motherboard."
+    },
+    {
+      "title": "Insert the PCIe SSD",
+      "detail": "Locate the M.2 slot or PCIe slot on the motherboard and carefully insert the SSD at an angle, securing it with the screw provided."
+    },
+    {
+      "title": "Reassemble and Power On",
+      "detail": "Replace the side panel, plug the computer back in, and power it on."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my motherboard doesn't have an M.2 slot?",
+      "answer": "You can use a PCIe adapter card that fits into a standard PCIe slot on your motherboard."
+    },
+    {
+      "question": "How do I check if my PCIe SSD is recognized?",
+      "answer": "You can check in the BIOS/UEFI settings or within your operating system's disk management tool."
+    },
+    {
+      "question": "Is there a specific PCIe version I should look for?",
+      "answer": "Ensure your SSD matches or is compatible with your motherboard's PCIe version (e.g., PCIe 3.0, 4.0)."
+    }
+  ],
+  "caveats": [
+    "Not all motherboards support all PCIe SSDs; verify compatibility before purchase.",
+    "Ensure proper thermal management as some SSDs may require heatsinks."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "how-do-i-troubleshoot-a-software-library",
+  "directAnswer": "Begin by checking the library's documentation for known issues and ensure all dependencies are correctly installed.",
+  "summary": "This guide provides steps to effectively troubleshoot issues with a software library, including platform-specific advice and common pitfalls.",
+  "sections": [
+    {
+      "id": "check-dependencies",
+      "heading": "Check Dependencies",
+      "body": "Ensure all required dependencies are installed and compatible with the library version you are using. Use package managers like npm, pip, or Maven to verify installations."
+    },
+    {
+      "id": "review-documentation",
+      "heading": "Review Documentation",
+      "body": "Consult the library's official documentation for troubleshooting tips, common issues, and version compatibility notes."
+    },
+    {
+      "id": "examine-error-messages",
+      "heading": "Examine Error Messages",
+      "body": "Read any error messages carefully. They often provide clues about what went wrong and can guide your troubleshooting process."
+    },
+    {
+      "id": "test-in-isolation",
+      "heading": "Test in Isolation",
+      "body": "If possible, create a minimal reproducible example that isolates the library's functionality. This can help identify whether the issue is with the library or your implementation."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Verify Installation",
+      "detail": "Use your package manager to check if the library is correctly installed and up to date. For example, run `npm list <library-name>` for Node.js or `pip show <library-name>` for Python."
+    },
+    {
+      "title": "Consult Community Forums",
+      "detail": "Search community forums or platforms like Stack Overflow for similar issues. Often, other users may have encountered and resolved the same problem."
+    },
+    {
+      "title": "Update Library",
+      "detail": "If you are using an outdated version, consider updating the library to the latest version, as many issues are often fixed in newer releases."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the library is outdated?",
+      "answer": "Check the library's repository for updates and follow the installation instructions to upgrade to the latest version."
+    },
+    {
+      "question": "How can I find known issues with the library?",
+      "answer": "Visit the library's GitHub issues page or official documentation where known issues are often listed."
+    },
+    {
+      "question": "What if I can't find a solution online?",
+      "answer": "Consider reaching out to the library's maintainers through GitHub or other communication channels for assistance."
+    }
+  ],
+  "caveats": [
+    "Different platforms may have varying installation processes and dependency management tools.",
+    "Not all libraries have comprehensive documentation or active community support."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for software library troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

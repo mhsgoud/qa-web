@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-set-up-a-smart-speaker",
+  "directAnswer": "To set up a smart speaker, connect it to your Wi-Fi network using the companion app and follow the on-screen instructions.",
+  "summary": "Setting up a smart speaker involves connecting it to Wi-Fi and configuring settings via a mobile app.",
+  "sections": [
+    {
+      "id": "requirements",
+      "heading": "Requirements",
+      "body": "Ensure you have a stable Wi-Fi connection, a compatible smartphone, and the corresponding app for your smart speaker (e.g., Amazon Alexa app for Echo devices, Google Home app for Google Nest speakers)."
+    },
+    {
+      "id": "connecting-to-wifi",
+      "heading": "Connecting to Wi-Fi",
+      "body": "Power on your smart speaker and open the app. Follow the prompts to connect the speaker to your Wi-Fi network."
+    },
+    {
+      "id": "voice-assistant-setup",
+      "heading": "Voice Assistant Setup",
+      "body": "After connecting to Wi-Fi, customize your voice assistant settings, such as language and preferences, through the app."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Download the App",
+      "detail": "Install the appropriate app for your smart speaker from the App Store or Google Play."
+    },
+    {
+      "title": "Power On the Speaker",
+      "detail": "Plug in your smart speaker and wait for it to power up."
+    },
+    {
+      "title": "Connect to Wi-Fi",
+      "detail": "Open the app, select your speaker, and follow the instructions to connect to your Wi-Fi."
+    },
+    {
+      "title": "Complete Setup",
+      "detail": "Follow any additional prompts to finalize the setup and customize settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my smart speaker doesn't connect to Wi-Fi?",
+      "answer": "Ensure your Wi-Fi network is functioning properly and that you have entered the correct password. Restart the speaker and try again."
+    },
+    {
+      "question": "Can I use multiple smart speakers in one app?",
+      "answer": "Yes, many apps allow you to manage multiple smart speakers from a single account."
+    },
+    {
+      "question": "How do I reset my smart speaker?",
+      "answer": "Most smart speakers have a reset button or a specific button combination. Refer to the user manual for instructions."
+    }
+  ],
+  "caveats": [
+    "Some features may vary depending on the smart speaker model and app version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Setup checklist for smart home devices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

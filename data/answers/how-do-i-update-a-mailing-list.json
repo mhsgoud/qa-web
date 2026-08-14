@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-update-a-mailing-list",
+  "directAnswer": "To update a mailing list, access your email marketing platform and navigate to the contacts or subscribers section to add, remove, or modify entries.",
+  "summary": "Updating a mailing list is essential for maintaining effective communication with your audience. This guide provides steps for popular platforms and general best practices.",
+  "sections": [
+    {
+      "id": "platform-overview",
+      "heading": "Overview of Popular Platforms",
+      "body": "Most email marketing platforms like Mailchimp, Constant Contact, and Sendinblue offer user-friendly interfaces for managing mailing lists. The exact steps may vary by platform."
+    },
+    {
+      "id": "best-practices",
+      "heading": "Best Practices for Updating Mailing Lists",
+      "body": "Regularly review your mailing list to remove inactive subscribers and ensure compliance with data protection regulations. Consider segmenting your list for targeted communications."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log into Your Email Marketing Platform",
+      "detail": "Access your account using your credentials."
+    },
+    {
+      "title": "Navigate to the Contacts Section",
+      "detail": "Find the contacts or subscribers section; this may vary by platform (e.g., 'Audience' in Mailchimp)."
+    },
+    {
+      "title": "Add or Remove Contacts",
+      "detail": "Use the provided options to add new contacts or remove existing ones. Ensure to save any changes made."
+    },
+    {
+      "title": "Review and Confirm Changes",
+      "detail": "Double-check the updated list for accuracy and compliance with any applicable regulations."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should I update my mailing list?",
+      "answer": "It's recommended to review your mailing list at least quarterly to keep it current."
+    },
+    {
+      "question": "Can I import contacts from another source?",
+      "answer": "Yes, most platforms allow you to import contacts via CSV or integration with other services."
+    },
+    {
+      "question": "What should I do if a subscriber wants to unsubscribe?",
+      "answer": "Provide an easy opt-out option in your emails and ensure their details are promptly removed from your list."
+    }
+  ],
+  "caveats": [
+    "Ensure compliance with GDPR and other data protection laws when managing subscriber data."
+  ],
+  "relatedToolIdeas": [
+    "Checklist for maintaining a healthy mailing list",
+    "Q&A cluster on email marketing best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

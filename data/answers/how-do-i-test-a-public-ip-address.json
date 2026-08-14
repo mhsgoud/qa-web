@@ -1,0 +1,51 @@
+{
+  "slug": "how-do-i-test-a-public-ip-address",
+  "directAnswer": "You can test a public IP address by using online tools or command-line utilities like ping or traceroute.",
+  "summary": "Testing a public IP address helps you verify connectivity and diagnose network issues.",
+  "sections": [
+    {
+      "id": "what-is-a-public-ip",
+      "heading": "What is a Public IP Address?",
+      "body": "A public IP address is assigned to your network by your Internet Service Provider (ISP) and is accessible over the internet. It allows devices on your network to communicate with external networks."
+    },
+    {
+      "id": "testing-methods",
+      "heading": "Methods to Test a Public IP Address",
+      "body": "You can test a public IP address using various methods, including online tools, command-line utilities, and network diagnostic software."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using Online Tools",
+      "detail": "Visit a website like 'whatismyip.com' or 'ipinfo.io' to see your public IP address and test its connectivity."
+    },
+    {
+      "title": "Using Command Line",
+      "detail": "Open Command Prompt (Windows) or Terminal (Mac/Linux) and use the command 'ping [your-public-ip]' or 'traceroute [your-public-ip]' to test connectivity."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What does a successful ping indicate?",
+      "answer": "A successful ping indicates that your device can reach the public IP address and that the address is active."
+    },
+    {
+      "question": "What if the ping fails?",
+      "answer": "If the ping fails, it may indicate network issues, firewall settings, or that the IP address is not in use."
+    },
+    {
+      "question": "Can I test my public IP address from a different network?",
+      "answer": "Yes, you can test your public IP address from a different network to verify external accessibility."
+    }
+  ],
+  "caveats": [
+    "Some ISPs block ping requests, which may result in false negatives when testing connectivity.",
+    "Ensure your firewall settings allow outgoing and incoming traffic for accurate testing."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for network troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

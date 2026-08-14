@@ -1,0 +1,63 @@
+{
+  "slug": "how-much-does-i-charge-an-ev-from-a-normal-socket-cost",
+  "directAnswer": "Charging an EV from a normal socket typically costs between $1 and $3 per full charge, depending on local electricity rates and the vehicle's battery capacity.",
+  "summary": "Understanding the cost of charging an electric vehicle at home using a standard electrical outlet can help EV owners manage their energy expenses effectively.",
+  "sections": [
+    {
+      "id": "cost-calculation",
+      "heading": "Cost Calculation",
+      "body": "To estimate the cost of charging, multiply the EV's battery capacity (in kWh) by your local electricity rate (in $/kWh). For example, if your EV has a 60 kWh battery and your rate is $0.12/kWh, the cost to fully charge would be 60 * 0.12 = $7.20."
+    },
+    {
+      "id": "charging-time",
+      "heading": "Charging Time",
+      "body": "Charging from a normal socket (120V) can take significantly longer than using a dedicated EV charger. Expect around 4-8 miles of range per hour of charging, depending on the vehicle."
+    },
+    {
+      "id": "efficiency-factors",
+      "heading": "Efficiency Factors",
+      "body": "Factors such as the vehicle's onboard charger capacity, the condition of the battery, and the ambient temperature can affect charging efficiency and costs."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Local Electricity Rate",
+      "detail": "Check your utility bill or visit your utility provider's website to find your current electricity rate."
+    },
+    {
+      "title": "Determine EV Battery Capacity",
+      "detail": "Refer to your vehicle's manual or specifications to find the total battery capacity in kWh."
+    },
+    {
+      "title": "Calculate Charging Cost",
+      "detail": "Use the formula: Cost = Battery Capacity (kWh) × Electricity Rate ($/kWh) to find the total cost for a full charge."
+    },
+    {
+      "title": "Consider Charging Time",
+      "detail": "Estimate how long it will take to charge based on your outlet's voltage and the vehicle's charging rate."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is it cheaper to charge at home or at a public charging station?",
+      "answer": "Generally, charging at home is cheaper, but it may vary based on local charging station rates and promotions."
+    },
+    {
+      "question": "Can I charge my EV with an extension cord?",
+      "answer": "It's not recommended to use an extension cord for charging unless it is specifically rated for EV charging to avoid safety hazards."
+    },
+    {
+      "question": "How long does it take to charge an EV from a normal socket?",
+      "answer": "Charging times can vary widely, but expect approximately 8 to 12 hours for a full charge from a standard 120V outlet."
+    }
+  ],
+  "caveats": [
+    "Charging costs can fluctuate based on local electricity rates and time-of-use pricing.",
+    "Not all EVs are compatible with standard sockets; check your vehicle's specifications."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

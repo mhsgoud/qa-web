@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-ev-charging-work-not-working",
+  "directAnswer": "EV charging may fail due to issues with the charger, the vehicle's charging port, or the power source. Ensure all components are compatible and functioning properly.",
+  "summary": "Identifying why your EV charging isn't working can involve checking various components, including the charger, vehicle, and power supply.",
+  "sections": [
+    {
+      "id": "charger-compatibility",
+      "heading": "Charger Compatibility",
+      "body": "Ensure that the charger you are using is compatible with your EV model. Some EVs require specific chargers or adapters."
+    },
+    {
+      "id": "charging-port-issues",
+      "heading": "Charging Port Issues",
+      "body": "Inspect the charging port on your EV for any debris or damage. A dirty or damaged port can prevent a proper connection."
+    },
+    {
+      "id": "power-source-check",
+      "heading": "Power Source Check",
+      "body": "Verify that the power source is functioning. Try plugging in another device to see if it receives power. If using a public charging station, check for any alerts or issues reported."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Charger Compatibility",
+      "detail": "Use a USB‑C / charger compatibility checker tool to confirm that your charger is suitable for your EV."
+    },
+    {
+      "title": "Inspect Charging Port",
+      "detail": "Clean the charging port gently with a soft cloth and check for any visible damage."
+    },
+    {
+      "title": "Test Power Source",
+      "detail": "Plug another device into the same outlet to ensure it is providing power. If using a public charger, look for any operational status indicators."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my EV still won't charge?",
+      "answer": "If charging issues persist, contact your vehicle manufacturer or a certified technician for further diagnosis."
+    },
+    {
+      "question": "Can weather affect EV charging?",
+      "answer": "Yes, extreme temperatures can impact battery performance and charging efficiency. Ensure your EV is in a suitable environment."
+    },
+    {
+      "question": "Is it safe to use a different charger?",
+      "answer": "Using a different charger is safe only if it is compatible with your EV model. Always check specifications before using an alternative charger."
+    }
+  ],
+  "caveats": [
+    "Compatibility issues may vary based on EV model and charger type."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "how-do-i-test-an-email-address",
+  "directAnswer": "You can test an email address by sending a test email or using an online email verification tool to check its validity.",
+  "summary": "Testing an email address ensures that it is valid and capable of receiving messages. This can be done through direct methods or verification tools.",
+  "sections": [
+    {
+      "id": "sending-test-email",
+      "heading": "Sending a Test Email",
+      "body": "The simplest way to test an email address is to send a test email. If the email bounces back, the address may be invalid."
+    },
+    {
+      "id": "using-verification-tools",
+      "heading": "Using Online Verification Tools",
+      "body": "There are several online tools available that can verify the validity of an email address without sending an email. These tools check the format and domain of the email."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Send a Test Email",
+      "detail": "Compose a new email in your email client and send it to the address you want to test. Check for bounce-back messages."
+    },
+    {
+      "title": "Use an Email Verification Tool",
+      "detail": "Visit a reputable email verification website, enter the email address, and follow the instructions to check its validity."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my test email bounces?",
+      "answer": "If your test email bounces, it indicates that the email address is likely invalid or does not exist."
+    },
+    {
+      "question": "Are email verification tools reliable?",
+      "answer": "Most email verification tools are reliable, but results can vary based on the tool's algorithms and the email provider."
+    },
+    {
+      "question": "Can I verify an email address without sending an email?",
+      "answer": "Yes, using online verification tools allows you to check an email address without sending a message."
+    }
+  ],
+  "caveats": [
+    "Some email servers may accept all addresses regardless of validity, leading to false positives in tests."
+  ],
+  "relatedToolIdeas": [
+    "Email verification tools comparison chart",
+    "Checklist for ensuring email deliverability"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

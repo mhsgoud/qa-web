@@ -1,0 +1,58 @@
+{
+  "slug": "what-is-functional-programming",
+  "directAnswer": "Functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing state or mutable data.",
+  "summary": "This approach emphasizes the use of functions as the primary building blocks for software development, leading to cleaner and more predictable code.",
+  "sections": [
+    {
+      "id": "core-concepts",
+      "heading": "Core Concepts",
+      "body": "Functional programming relies on first-class functions, higher-order functions, and pure functions. First-class functions allow functions to be passed as arguments, returned from other functions, and assigned to variables. Higher-order functions can take other functions as input or output, while pure functions produce the same output for the same input without side effects."
+    },
+    {
+      "id": "popular-languages",
+      "heading": "Popular Languages",
+      "body": "Languages that support functional programming include Haskell, Scala, and JavaScript. Each of these languages offers unique features that facilitate functional programming, such as immutability and first-class functions."
+    },
+    {
+      "id": "use-cases",
+      "heading": "Use Cases",
+      "body": "Functional programming is particularly useful in scenarios requiring concurrency and parallelism, as it minimizes side effects and shared state. It is widely used in data processing, web development, and artificial intelligence."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Functional Programming Languages",
+      "detail": "Research and select a programming language that supports functional programming principles, such as Haskell or Scala."
+    },
+    {
+      "title": "Learn Functional Concepts",
+      "detail": "Study core concepts like first-class functions, immutability, and recursion through online courses or textbooks."
+    },
+    {
+      "title": "Practice with Projects",
+      "detail": "Implement small projects or coding challenges using functional programming techniques to reinforce your understanding."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the main advantages of functional programming?",
+      "answer": "Functional programming can lead to fewer bugs due to its emphasis on immutability and pure functions, making code easier to test and maintain."
+    },
+    {
+      "question": "Can functional programming be used in conjunction with other paradigms?",
+      "answer": "Yes, many languages support multiple paradigms, allowing developers to use functional programming alongside object-oriented or imperative programming."
+    },
+    {
+      "question": "Is functional programming suitable for large-scale applications?",
+      "answer": "Yes, functional programming can be effective for large-scale applications, especially those that require scalability and maintainability."
+    }
+  ],
+  "caveats": [
+    "Functional programming may have a steeper learning curve for those accustomed to imperative programming styles."
+  ],
+  "relatedToolIdeas": [
+    "RAM needs calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

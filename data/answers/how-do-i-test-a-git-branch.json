@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-test-a-git-branch",
+  "directAnswer": "To test a Git branch, you can check out the branch and run your tests using your preferred testing framework.",
+  "summary": "This guide provides steps to test a Git branch effectively across different platforms.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Testing a Git branch involves checking out the branch and ensuring that the code functions as expected. This can be done using various testing frameworks depending on your project."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Follow the steps below based on your development environment."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues",
+      "body": "Be aware of potential issues such as merge conflicts or uncommitted changes that may affect your testing."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Out the Branch",
+      "detail": "Use the command `git checkout <branch-name>` to switch to the branch you want to test."
+    },
+    {
+      "title": "Run Tests",
+      "detail": "Execute your test suite using a command like `npm test` for JavaScript projects or `pytest` for Python projects."
+    },
+    {
+      "title": "Review Test Results",
+      "detail": "Examine the output of your tests to identify any failures or issues that need addressing."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I encounter merge conflicts?",
+      "answer": "You will need to resolve the conflicts before you can successfully test the branch."
+    },
+    {
+      "question": "How do I know which tests to run?",
+      "answer": "Typically, you should run all tests, but you can focus on tests related to the features modified in the branch."
+    },
+    {
+      "question": "Can I test multiple branches at once?",
+      "answer": "No, you need to check out one branch at a time to test it."
+    }
+  ],
+  "caveats": [
+    "Ensure all changes are committed before switching branches to avoid losing work.",
+    "Be cautious of dependencies that may differ between branches."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for testing best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

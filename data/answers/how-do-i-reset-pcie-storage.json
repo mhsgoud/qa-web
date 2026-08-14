@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-reset-pcie-storage",
+  "directAnswer": "To reset PCIe storage, you typically need to access your system's BIOS/UEFI settings and perform a reset of the NVMe controller or the storage device itself.",
+  "summary": "Resetting PCIe storage can help resolve issues related to performance or connectivity. The process varies slightly depending on the platform.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to reset PCIe storage can differ based on your motherboard and BIOS version. Below are general guidelines for Windows and Linux systems."
+    },
+    {
+      "id": "caveats",
+      "heading": "Caveats",
+      "body": "Resetting PCIe storage may lead to data loss. Ensure you have backups of important data before proceeding."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access BIOS/UEFI",
+      "detail": "Restart your computer and press the appropriate key (often F2, DEL, or ESC) to enter BIOS/UEFI settings."
+    },
+    {
+      "title": "Locate PCIe Storage Settings",
+      "detail": "Navigate to the 'Advanced' or 'Storage' tab, and find the NVMe configuration settings. The exact path may vary by motherboard manufacturer."
+    },
+    {
+      "title": "Reset NVMe Controller",
+      "detail": "Select the option to reset the NVMe controller or the specific PCIe storage device. Confirm your choice."
+    },
+    {
+      "title": "Save and Exit",
+      "detail": "Save the changes and exit BIOS/UEFI. Your system will restart."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my PCIe storage erase my data?",
+      "answer": "Resetting the PCIe storage does not typically erase data, but it's recommended to back up important files before proceeding."
+    },
+    {
+      "question": "What if I can't find the NVMe settings in BIOS?",
+      "answer": "If NVMe settings are not visible, check your motherboard manual or manufacturer's website for specific instructions."
+    },
+    {
+      "question": "Can I reset PCIe storage from the operating system?",
+      "answer": "Some operating systems allow for software-based resets or troubleshooting, but accessing BIOS/UEFI is the most reliable method."
+    }
+  ],
+  "caveats": [
+    "Data loss may occur if not backed up prior to resetting."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

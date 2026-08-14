@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-private-ip-address",
+  "directAnswer": "To update a private IP address, access your device's network settings and manually enter the new IP address or use DHCP to obtain a new one.",
+  "summary": "Updating a private IP address can be done through network settings on various devices. Here’s how to do it on different platforms.",
+  "sections": [
+    {
+      "id": "windows",
+      "heading": "Updating IP Address on Windows",
+      "body": "1. Open Control Panel. 2. Go to 'Network and Sharing Center'. 3. Click on 'Change adapter settings'. 4. Right-click on your network connection and select 'Properties'. 5. Select 'Internet Protocol Version 4 (TCP/IPv4)' and click 'Properties'. 6. Choose 'Use the following IP address' and enter your new IP details."
+    },
+    {
+      "id": "macos",
+      "heading": "Updating IP Address on macOS",
+      "body": "1. Open 'System Preferences'. 2. Click on 'Network'. 3. Select your network connection. 4. Click 'Advanced', then go to the 'TCP/IP' tab. 5. Change 'Configure IPv4' to 'Manually' and enter your new IP address."
+    },
+    {
+      "id": "linux",
+      "heading": "Updating IP Address on Linux",
+      "body": "1. Open a terminal. 2. Use the command 'sudo nano /etc/network/interfaces' (Debian-based) or 'sudo nano /etc/sysconfig/network-scripts/ifcfg-eth0' (Red Hat-based). 3. Update the 'IPADDR' line with your new IP. 4. Save and exit, then restart the network service with 'sudo systemctl restart networking'."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Network Settings",
+      "detail": "Locate the network settings on your device through the control panel, system preferences, or terminal."
+    },
+    {
+      "title": "Select Connection Type",
+      "detail": "Choose the active network connection you wish to update (e.g., Ethernet, Wi-Fi)."
+    },
+    {
+      "title": "Enter New IP Address",
+      "detail": "Input the new private IP address and any other necessary details such as subnet mask and gateway."
+    },
+    {
+      "title": "Save and Apply Changes",
+      "detail": "Ensure to save the changes and restart the network connection if required."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a private IP address?",
+      "answer": "A private IP address is an IP address that is not routable on the internet and is used within private networks."
+    },
+    {
+      "question": "Can I use any IP address for my private network?",
+      "answer": "You should use IP addresses within the ranges defined by the private IP address standards (e.g., 10.0.0.0 to 10.255.255.255, 172.16.0.0 to 172.31.255.255, 192.168.0.0 to 192.168.255.255)."
+    },
+    {
+      "question": "What should I do if I cannot connect after changing my IP address?",
+      "answer": "Check if the new IP address is within the correct subnet and ensure there are no IP conflicts on the network."
+    }
+  ],
+  "caveats": [
+    "Changing the IP address may disrupt network connectivity if not done correctly.",
+    "Ensure that the new IP address does not conflict with other devices on the network."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for IP address management"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

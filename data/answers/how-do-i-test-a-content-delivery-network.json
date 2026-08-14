@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-test-a-content-delivery-network",
+  "directAnswer": "To test a content delivery network (CDN), use tools like Pingdom or GTmetrix to analyze load times and performance from various locations.",
+  "summary": "Testing a CDN involves measuring its performance and reliability from different geographic locations to ensure optimal content delivery.",
+  "sections": [
+    {
+      "id": "performance-testing",
+      "heading": "Performance Testing",
+      "body": "Utilize performance testing tools to measure the speed and response time of your CDN. These tools can simulate requests from various locations to provide a comprehensive view of your CDN's performance."
+    },
+    {
+      "id": "availability-check",
+      "heading": "Availability Check",
+      "body": "Ensure your CDN is operational by checking its availability. Use monitoring services to receive alerts if the CDN goes down or experiences significant latency."
+    },
+    {
+      "id": "cache-validation",
+      "heading": "Cache Validation",
+      "body": "Verify that your CDN is properly caching content. Use browser developer tools to inspect headers and confirm that cached content is served as expected."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Select a Testing Tool",
+      "detail": "Choose a testing tool like Pingdom, GTmetrix, or WebPageTest to begin your CDN performance assessment."
+    },
+    {
+      "title": "Run Tests from Multiple Locations",
+      "detail": "Configure the tool to run tests from various geographic locations to see how your CDN performs globally."
+    },
+    {
+      "title": "Analyze Results",
+      "detail": "Review the results provided by the testing tool, focusing on load times, response times, and any errors encountered."
+    },
+    {
+      "title": "Monitor Regularly",
+      "detail": "Set up regular monitoring to continuously assess your CDN's performance and receive alerts for any issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What tools are best for testing a CDN?",
+      "answer": "Popular tools for testing CDNs include Pingdom, GTmetrix, and WebPageTest, which provide insights into performance and availability."
+    },
+    {
+      "question": "How often should I test my CDN?",
+      "answer": "It's recommended to test your CDN regularly, especially after making changes to your content or configuration, or at least monthly."
+    },
+    {
+      "question": "What metrics should I focus on when testing?",
+      "answer": "Focus on load times, response times, cache hit ratios, and error rates to gauge your CDN's performance effectively."
+    }
+  ],
+  "caveats": [
+    "Testing results may vary based on the time of day and network conditions.",
+    "Different tools may report slightly different results based on their testing methodologies."
+  ],
+  "relatedToolIdeas": [
+    "Performance monitoring tools",
+    "Website speed optimization checklists"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

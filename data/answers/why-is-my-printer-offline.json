@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-my-printer-offline",
+  "directAnswer": "Your printer may be offline due to connectivity issues, incorrect settings, or power problems. Check the printer's connection to your network and ensure it is powered on.",
+  "summary": "This guide helps troubleshoot common reasons why your printer may appear offline and suggests steps to resolve the issue.",
+  "sections": [
+    {
+      "id": "printer-connection",
+      "heading": "Check Printer Connection",
+      "body": "Ensure that your printer is properly connected to your network. If using a USB connection, verify that the cable is securely attached to both the printer and the computer."
+    },
+    {
+      "id": "printer-status",
+      "heading": "Verify Printer Status",
+      "body": "Check the printer's display panel for any error messages. Make sure the printer is powered on and has paper and ink."
+    },
+    {
+      "id": "computer-settings",
+      "heading": "Review Computer Settings",
+      "body": "On your computer, go to the 'Devices and Printers' section. Right-click on your printer and ensure that 'Use Printer Offline' is unchecked."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Restart the Printer",
+      "detail": "Turn off your printer, wait for 30 seconds, and then turn it back on."
+    },
+    {
+      "title": "Check Network Connection",
+      "detail": "If using Wi-Fi, ensure your printer is connected to the same network as your computer. You may need to reconnect it through the printer's settings menu."
+    },
+    {
+      "title": "Update Printer Drivers",
+      "detail": "Visit the manufacturer's website to download and install the latest drivers for your printer model."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my printer is still offline after following these steps?",
+      "answer": "Try uninstalling and reinstalling the printer on your computer or consult the printer's manual for specific troubleshooting steps."
+    },
+    {
+      "question": "Can a firewall block my printer's connection?",
+      "answer": "Yes, a firewall may prevent your printer from communicating with your computer. Check your firewall settings to ensure the printer is allowed."
+    },
+    {
+      "question": "How do I connect my printer to Wi-Fi?",
+      "answer": "Refer to your printer's manual for specific instructions, as the process may vary by model. Typically, you can use the printer's control panel to access Wi-Fi settings."
+    }
+  ],
+  "caveats": [
+    "Connectivity issues may vary by network type (wired vs. wireless) and printer model."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

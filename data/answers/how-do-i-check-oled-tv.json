@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-check-oled-tv",
+  "directAnswer": "To check the performance of your OLED TV, assess the picture quality by viewing various content types and use built-in settings to calibrate the display.",
+  "summary": "This guide provides steps to evaluate the performance of your OLED TV, including picture quality assessment and calibration tips.",
+  "sections": [
+    {
+      "id": "picture-quality-assessment",
+      "heading": "Assessing Picture Quality",
+      "body": "Start by watching high-definition content. Look for color accuracy, contrast levels, and any signs of burn-in. Use scenes with dark and bright elements to evaluate the TV's performance."
+    },
+    {
+      "id": "calibration-settings",
+      "heading": "Calibrating Your OLED TV",
+      "body": "Access the TV's settings menu to adjust brightness, contrast, and color settings. Some models offer automatic calibration features that can optimize the display."
+    },
+    {
+      "id": "testing-burn-in",
+      "heading": "Testing for Burn-In",
+      "body": "To check for burn-in, display a solid color screen or use a test pattern. Look for any ghosting or residual images that persist."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Watch High-Definition Content",
+      "detail": "Select a 4K HDR movie or show and observe the color and contrast on the screen."
+    },
+    {
+      "title": "Access Picture Settings",
+      "detail": "Navigate to Settings > Picture or Display. Adjust brightness and contrast based on your viewing environment."
+    },
+    {
+      "title": "Run Calibration",
+      "detail": "If available, use the auto-calibration feature found in the settings menu to optimize picture settings."
+    },
+    {
+      "title": "Check for Burn-In",
+      "detail": "Display a solid color or use a test pattern to identify any persistent images on the screen."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is OLED burn-in?",
+      "answer": "Burn-in occurs when static images remain on the screen for extended periods, causing permanent ghosting."
+    },
+    {
+      "question": "How often should I calibrate my OLED TV?",
+      "answer": "It's recommended to calibrate your OLED TV every 1-2 years or after significant changes in your viewing environment."
+    },
+    {
+      "question": "Can I fix burn-in on my OLED TV?",
+      "answer": "Some methods, like using a pixel refresher or displaying a white screen, may help reduce burn-in effects, but they are not guaranteed to fully resolve the issue."
+    }
+  ],
+  "caveats": [
+    "Picture quality can vary significantly between different OLED TV models and brands."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

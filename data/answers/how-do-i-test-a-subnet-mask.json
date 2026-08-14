@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-test-a-subnet-mask",
+  "directAnswer": "To test a subnet mask, you can use the command line to ping an IP address within the subnet and check connectivity. Alternatively, you can use network tools to verify the subnet configuration.",
+  "summary": "Testing a subnet mask involves checking connectivity and verifying configuration using command line tools or network utilities.",
+  "sections": [
+    {
+      "id": "understanding-subnet-masks",
+      "heading": "Understanding Subnet Masks",
+      "body": "A subnet mask defines the network and host portions of an IP address. Understanding how it works is crucial for testing."
+    },
+    {
+      "id": "using-command-line-tools",
+      "heading": "Using Command Line Tools",
+      "body": "You can use tools like 'ping' and 'ipconfig' or 'ifconfig' to test connectivity and view current subnet configurations."
+    },
+    {
+      "id": "network-utilities",
+      "heading": "Network Utilities",
+      "body": "There are various network utilities available that can help visualize and test subnet configurations, such as Angry IP Scanner and Advanced IP Scanner."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Command Line",
+      "detail": "Access the command line interface on your device (Command Prompt on Windows, Terminal on macOS/Linux)."
+    },
+    {
+      "title": "Check IP Configuration",
+      "detail": "Run 'ipconfig' (Windows) or 'ifconfig' (macOS/Linux) to view your current IP address and subnet mask."
+    },
+    {
+      "title": "Ping an IP Address",
+      "detail": "Use the 'ping' command followed by an IP address within the same subnet to test connectivity (e.g., 'ping 192.168.1.1')."
+    },
+    {
+      "title": "Use Network Utility",
+      "detail": "Download and run a network utility tool to scan the subnet and verify active devices."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a subnet mask?",
+      "answer": "A subnet mask is a 32-bit number that divides an IP address into the network and host portions."
+    },
+    {
+      "question": "How can I find my subnet mask?",
+      "answer": "You can find your subnet mask by running 'ipconfig' on Windows or 'ifconfig' on macOS/Linux."
+    },
+    {
+      "question": "What does it mean if I can't ping an IP address in my subnet?",
+      "answer": "If you can't ping an IP address in your subnet, it may indicate a configuration issue, firewall settings, or that the device is offline."
+    }
+  ],
+  "caveats": [
+    "Ensure that your firewall settings allow ICMP packets for ping tests.",
+    "Subnet configurations may vary based on network architecture and device settings."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for subnet configuration verification"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

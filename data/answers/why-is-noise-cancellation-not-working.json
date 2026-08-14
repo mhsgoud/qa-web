@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-noise-cancellation-not-working",
+  "directAnswer": "Noise cancellation may not be working due to improper fit of the headphones or incorrect settings in the audio device.",
+  "summary": "This page provides troubleshooting steps for resolving issues with noise cancellation features in audio devices.",
+  "sections": [
+    {
+      "id": "check-fit",
+      "heading": "Check the Fit of Your Headphones",
+      "body": "Ensure that your headphones or earbuds fit snugly in or over your ears. A loose fit can significantly reduce the effectiveness of noise cancellation."
+    },
+    {
+      "id": "audio-settings",
+      "heading": "Verify Audio Settings",
+      "body": "Check the audio settings on your device to ensure that noise cancellation is enabled. This can vary by platform, so refer to the specific steps below."
+    },
+    {
+      "id": "battery-status",
+      "heading": "Check Battery Status",
+      "body": "Some noise-canceling headphones require a charge to function properly. Make sure your device is charged."
+    }
+  ],
+  "steps": [
+    {
+      "title": "For Windows",
+      "detail": "Right-click the sound icon in the taskbar, select 'Sounds', go to the 'Playback' tab, select your headphones, click 'Properties', and ensure noise cancellation options are enabled."
+    },
+    {
+      "title": "For iOS",
+      "detail": "Open 'Settings', tap 'Bluetooth', find your headphones, tap the info icon, and ensure noise cancellation is turned on."
+    },
+    {
+      "title": "For Android",
+      "detail": "Open 'Settings', select 'Connected devices', tap on your headphones, and check if the noise cancellation settings are available and enabled."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my headphones are still not canceling noise?",
+      "answer": "Try resetting your headphones to factory settings or consult the manufacturer's support for further assistance."
+    },
+    {
+      "question": "Can environmental factors affect noise cancellation?",
+      "answer": "Yes, extreme noise levels or certain frequencies may overwhelm the noise cancellation capabilities of your device."
+    },
+    {
+      "question": "Is noise cancellation effective in all situations?",
+      "answer": "Noise cancellation works best in consistent, low-frequency sounds like engine noise, but may be less effective against sudden, high-frequency sounds."
+    }
+  ],
+  "caveats": [
+    "Noise cancellation effectiveness can vary based on the model of the headphones and the type of noise present in the environment."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

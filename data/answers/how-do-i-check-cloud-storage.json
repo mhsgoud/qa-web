@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-check-cloud-storage",
+  "directAnswer": "To check your cloud storage, log into your account on the respective cloud service provider's website or app, and navigate to the storage settings or account overview section.",
+  "summary": "This guide provides steps to check your cloud storage across various platforms, including Google Drive, Dropbox, and OneDrive.",
+  "sections": [
+    {
+      "id": "google-drive",
+      "heading": "Checking Google Drive Storage",
+      "body": "Log into your Google Drive account, and you can view your storage usage at the bottom left corner of the screen."
+    },
+    {
+      "id": "dropbox",
+      "heading": "Checking Dropbox Storage",
+      "body": "Access your Dropbox account, click on your profile picture in the top right corner, and select 'Settings' to view your storage usage under the 'Plan' tab."
+    },
+    {
+      "id": "onedrive",
+      "heading": "Checking OneDrive Storage",
+      "body": "Sign in to your OneDrive account, and click on the 'Settings' gear icon, then select 'Options' to see your storage details."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Drive",
+      "detail": "Log in to Google Drive, and check the storage information displayed at the bottom left of the interface."
+    },
+    {
+      "title": "Dropbox",
+      "detail": "Log in to Dropbox, click on your profile picture, go to 'Settings', and view your storage under the 'Plan' tab."
+    },
+    {
+      "title": "OneDrive",
+      "detail": "Log in to OneDrive, click the 'Settings' gear icon, select 'Options', and navigate to the storage section."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I exceed my storage limit?",
+      "answer": "You will need to upgrade your plan or delete files to free up space."
+    },
+    {
+      "question": "Can I see a breakdown of my storage usage?",
+      "answer": "Most services provide a breakdown of storage usage by file type or folder in their settings."
+    },
+    {
+      "question": "How do I upgrade my cloud storage?",
+      "answer": "Visit your provider's website, go to the account settings, and look for upgrade options under the storage plan section."
+    }
+  ],
+  "caveats": [
+    "User interfaces may vary slightly based on updates or platform versions."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

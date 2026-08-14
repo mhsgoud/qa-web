@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-troubleshoot-a-mesh-wifi-system",
+  "directAnswer": "To troubleshoot a mesh WiFi system, start by checking the placement of your nodes and ensuring they are within range of each other. Restart the system and check for firmware updates.",
+  "summary": "This guide provides steps to effectively troubleshoot issues with your mesh WiFi system, including node placement and network settings.",
+  "sections": [
+    {
+      "id": "node-placement",
+      "heading": "Check Node Placement",
+      "body": "Ensure that all mesh nodes are placed within range of each other and away from obstructions like walls and appliances that may interfere with the signal."
+    },
+    {
+      "id": "firmware-updates",
+      "heading": "Update Firmware",
+      "body": "Check for firmware updates in the mesh system's app or web interface. Keeping your firmware updated can resolve many connectivity issues."
+    },
+    {
+      "id": "network-settings",
+      "heading": "Review Network Settings",
+      "body": "Access your mesh system's settings to verify that the network configuration is correct, including SSID and password settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Restart the Mesh System",
+      "detail": "Unplug all nodes from power, wait for 30 seconds, and then plug them back in, starting with the main router node."
+    },
+    {
+      "title": "Check Signal Strength",
+      "detail": "Use the mesh system's app to check the signal strength between nodes. Adjust their placement if necessary."
+    },
+    {
+      "title": "Run a Speed Test",
+      "detail": "Use a Wi-Fi speed test tool to measure the internet speed at various points in your home to identify weak spots."
+    },
+    {
+      "title": "Reset to Factory Settings",
+      "detail": "If issues persist, perform a factory reset on the mesh system and set it up again from scratch."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my mesh nodes are not connecting?",
+      "answer": "Ensure that each node is powered on and within range of the main router. If they still won't connect, try resetting the nodes."
+    },
+    {
+      "question": "How can I improve the coverage of my mesh WiFi?",
+      "answer": "Consider adding more nodes or repositioning existing nodes to eliminate dead zones and improve coverage."
+    },
+    {
+      "question": "Is it normal for my mesh WiFi to have some dead zones?",
+      "answer": "While mesh systems are designed to minimize dead zones, some areas may still experience weak signals due to physical obstructions."
+    }
+  ],
+  "caveats": [
+    "Node placement and environmental factors can significantly affect performance.",
+    "Firmware update processes may vary by manufacturer."
+  ],
+  "relatedToolIdeas": [
+    "Wi‑Fi speed / channel helper"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

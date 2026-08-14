@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-troubleshoot-a-url-shortener",
+  "directAnswer": "Check if the URL shortener service is operational and verify that the original link is correct. If issues persist, clear your browser cache or try a different browser.",
+  "summary": "This guide provides troubleshooting steps for common issues encountered when using URL shorteners.",
+  "sections": [
+    {
+      "id": "service-status",
+      "heading": "Check Service Status",
+      "body": "Visit the URL shortener's official website or status page to determine if there are any ongoing outages or maintenance activities."
+    },
+    {
+      "id": "verify-link",
+      "heading": "Verify the Original Link",
+      "body": "Ensure that the original URL you are trying to shorten is valid and accessible. Test it directly in your browser."
+    },
+    {
+      "id": "browser-issues",
+      "heading": "Browser Issues",
+      "body": "Sometimes, browser extensions or cache can interfere with URL shorteners. Clear your cache or disable extensions to see if the problem resolves."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Service Status",
+      "detail": "Go to the URL shortener's website and look for a 'status' or 'support' section to see if there are any reported issues."
+    },
+    {
+      "title": "Test Original URL",
+      "detail": "Copy and paste the original URL into your browser to ensure it is working correctly."
+    },
+    {
+      "title": "Clear Cache",
+      "detail": "In your browser settings, locate the option to clear browsing data and select 'Cached images and files'."
+    },
+    {
+      "title": "Try a Different Browser",
+      "detail": "Open the URL shortener in another browser to rule out browser-specific issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the shortened URL does not redirect?",
+      "answer": "Check if the URL shortener service is down and verify the original link for accuracy."
+    },
+    {
+      "question": "Can I recover a deleted shortened URL?",
+      "answer": "Most URL shorteners do not allow recovery of deleted links. Check the service's documentation for any specific recovery options."
+    },
+    {
+      "question": "Why does my shortened URL show an error message?",
+      "answer": "This could be due to the original link being broken, the URL shortener service being down, or the link being flagged for spam."
+    }
+  ],
+  "caveats": [
+    "Some URL shorteners may have limits on the number of links you can create or may expire links after a certain period."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for troubleshooting URL shorteners"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

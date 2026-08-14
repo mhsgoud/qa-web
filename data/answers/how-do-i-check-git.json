@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-check-git",
+  "directAnswer": "To check if Git is installed, open your terminal or command prompt and type 'git --version'. This command will display the installed version of Git if it is present.",
+  "summary": "This guide explains how to verify the installation of Git on your system and troubleshoot common issues.",
+  "sections": [
+    {
+      "id": "installation-check",
+      "heading": "Checking Git Installation",
+      "body": "You can verify if Git is installed by using the command line. This applies to Windows, macOS, and Linux systems."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting Git Issues",
+      "body": "If the command returns an error or is not recognized, Git may not be installed or the system's PATH variable may not include the Git executable."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Terminal or Command Prompt",
+      "detail": "On Windows, search for 'cmd' or 'PowerShell'. On macOS, use 'Terminal' from Applications. On Linux, use your preferred terminal emulator."
+    },
+    {
+      "title": "Run Git Version Command",
+      "detail": "Type 'git --version' and press Enter. If Git is installed, you will see the version number."
+    },
+    {
+      "title": "Install Git if Not Found",
+      "detail": "If Git is not installed, download it from the official Git website and follow the installation instructions for your operating system."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I get an error when running 'git --version'?",
+      "answer": "Ensure that Git is installed on your system. If it is installed, check if the installation path is correctly added to your system's PATH variable."
+    },
+    {
+      "question": "How can I install Git on my system?",
+      "answer": "Visit the official Git website, download the installer for your operating system, and follow the installation instructions provided."
+    },
+    {
+      "question": "Can I use Git without installing it?",
+      "answer": "No, Git must be installed on your system to use its commands. However, some online platforms provide Git functionality without local installation."
+    }
+  ],
+  "caveats": [
+    "The command line interface may vary slightly depending on the operating system and version of Git."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for Git installation and configuration"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

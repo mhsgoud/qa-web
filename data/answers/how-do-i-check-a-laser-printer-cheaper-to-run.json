@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-check-a-laser-printer-cheaper-to-run",
+  "directAnswer": "To determine if a laser printer is cheaper to run, calculate the cost per page by dividing the price of the toner cartridge by the page yield, and consider the printer's energy consumption.",
+  "summary": "Evaluating the running cost of a laser printer involves analyzing toner costs, page yield, and energy efficiency.",
+  "sections": [
+    {
+      "id": "cost-per-page",
+      "heading": "Calculating Cost Per Page",
+      "body": "Find the price of the toner cartridge and the estimated page yield. Use the formula: Cost Per Page = Toner Price / Page Yield."
+    },
+    {
+      "id": "energy-efficiency",
+      "heading": "Assessing Energy Consumption",
+      "body": "Check the printer's energy consumption rating, usually listed in watts. Consider this in your overall cost analysis."
+    },
+    {
+      "id": "maintenance-costs",
+      "heading": "Considering Maintenance Costs",
+      "body": "Factor in any additional maintenance costs such as drum replacements or service fees that may arise over time."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Find Toner Price and Page Yield",
+      "detail": "Locate the toner cartridge price and the page yield on the manufacturer's website or product packaging."
+    },
+    {
+      "title": "Calculate Cost Per Page",
+      "detail": "Use the formula: Cost Per Page = Toner Price / Page Yield to find the cost of printing each page."
+    },
+    {
+      "title": "Check Energy Consumption",
+      "detail": "Review the printer's specifications for its energy consumption rating, typically found in watts."
+    },
+    {
+      "title": "Estimate Total Running Costs",
+      "detail": "Combine the cost per page and estimated energy costs over time to get a comprehensive view of running costs."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the average page yield for laser printer toner?",
+      "answer": "Average page yields can vary widely but typically range from 1,500 to 10,000 pages depending on the cartridge."
+    },
+    {
+      "question": "How can I reduce printing costs further?",
+      "answer": "Consider using draft mode for less critical documents, or switching to a more efficient printer model."
+    },
+    {
+      "question": "Are there any hidden costs with laser printers?",
+      "answer": "Yes, maintenance, replacement parts, and energy consumption can add to the overall cost of ownership."
+    }
+  ],
+  "caveats": [
+    "Cost calculations may vary based on usage patterns and specific printer models."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

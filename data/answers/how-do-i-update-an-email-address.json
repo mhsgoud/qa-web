@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-update-an-email-address",
+  "directAnswer": "To update your email address, navigate to the account settings of the service you are using and look for the email or contact information section.",
+  "summary": "This guide provides steps to update your email address across various internet services, along with common issues and FAQs.",
+  "sections": [
+    {
+      "id": "general-steps",
+      "heading": "General Steps to Update Email Address",
+      "body": "Most internet services have a similar process for updating your email address. Usually, you will need to access account settings and find the email section."
+    },
+    {
+      "id": "platform-specific",
+      "heading": "Platform-Specific Instructions",
+      "body": "The steps may vary slightly depending on the platform you are using. Below are specific instructions for popular services."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Account",
+      "detail": "1. Sign in to your Google Account. 2. Go to 'Personal info' from the left menu. 3. Under 'Contact info', select 'Email'. 4. Follow the prompts to change your email address."
+    },
+    {
+      "title": "Facebook",
+      "detail": "1. Log in to your Facebook account. 2. Click on the downward arrow in the top right corner and select 'Settings & Privacy'. 3. Click 'Settings'. 4. In the 'General' tab, click 'Edit' next to 'Contact'. 5. Update your email address and save changes."
+    },
+    {
+      "title": "Twitter",
+      "detail": "1. Log in to Twitter. 2. Click on 'More' in the left sidebar. 3. Select 'Settings and privacy'. 4. Click 'Your account' and then 'Account information'. 5. Enter your password and update your email address."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I no longer have access to my old email address?",
+      "answer": "Most services will allow you to recover your account through other means, such as phone verification or security questions."
+    },
+    {
+      "question": "Will I receive a confirmation email after updating?",
+      "answer": "Yes, most platforms send a confirmation email to both your old and new email addresses to verify the change."
+    },
+    {
+      "question": "Can I change my email address back to the old one?",
+      "answer": "Typically, yes, but it may depend on the service's policy regarding email address changes."
+    }
+  ],
+  "caveats": [
+    "Some services may require you to verify your new email address before the change takes effect.",
+    "If your new email address is already associated with another account, you may encounter issues."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for updating account information"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

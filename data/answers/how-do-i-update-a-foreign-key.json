@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-foreign-key",
+  "directAnswer": "To update a foreign key, you need to modify the referencing column in the child table to match the new value in the parent table. Ensure that the new value exists in the parent table to maintain referential integrity.",
+  "summary": "Updating a foreign key involves changing the value in the child table to reflect a new valid reference from the parent table.",
+  "sections": [
+    {
+      "id": "understanding-foreign-keys",
+      "heading": "Understanding Foreign Keys",
+      "body": "A foreign key is a field in a table that links to the primary key of another table. This relationship ensures data integrity between the two tables."
+    },
+    {
+      "id": "updating-foreign-key-in-sql",
+      "heading": "Updating Foreign Key in SQL",
+      "body": "Use the UPDATE statement to change the foreign key value in the child table. Ensure that the new foreign key value exists in the parent table."
+    },
+    {
+      "id": "platform-specific-guidelines",
+      "heading": "Platform-Specific Guidelines",
+      "body": "The SQL syntax may vary slightly based on the database management system (DBMS) you are using, such as MySQL, PostgreSQL, or SQL Server."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify the Foreign Key",
+      "detail": "Determine the foreign key column in the child table that you want to update."
+    },
+    {
+      "title": "Check Parent Table",
+      "detail": "Ensure that the new value you want to set exists in the parent table's primary key column."
+    },
+    {
+      "title": "Execute the Update Command",
+      "detail": "Run an SQL command like: UPDATE child_table SET foreign_key_column = new_value WHERE condition;"
+    },
+    {
+      "title": "Verify the Update",
+      "detail": "Check the child table to confirm that the foreign key has been updated correctly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I update a foreign key to a value that doesn't exist in the parent table?",
+      "answer": "If you attempt to update a foreign key to a non-existent value, the database will typically raise a referential integrity error."
+    },
+    {
+      "question": "Can I update multiple foreign keys at once?",
+      "answer": "Yes, you can update multiple foreign keys in a single SQL command by specifying the appropriate conditions."
+    },
+    {
+      "question": "Is it possible to delete a foreign key?",
+      "answer": "Yes, you can delete a foreign key constraint using the ALTER TABLE command, but ensure that no rows in the child table reference the deleted key."
+    }
+  ],
+  "caveats": [
+    "Always back up your database before making changes to foreign keys.",
+    "Be aware of cascading updates or deletes that may affect related records."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for maintaining referential integrity"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

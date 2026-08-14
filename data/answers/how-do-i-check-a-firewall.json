@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-check-a-firewall",
+  "directAnswer": "To check a firewall, access your firewall settings through your operating system or router interface and review the rules and logs for any blocked connections.",
+  "summary": "This guide provides steps to check your firewall settings on various platforms and offers troubleshooting tips.",
+  "sections": [
+    {
+      "id": "windows-firewall",
+      "heading": "Checking Windows Firewall",
+      "body": "To check the Windows Firewall, go to Control Panel > System and Security > Windows Defender Firewall. Here you can view the status and configure settings."
+    },
+    {
+      "id": "mac-firewall",
+      "heading": "Checking macOS Firewall",
+      "body": "On macOS, navigate to System Preferences > Security & Privacy > Firewall. You can see if the firewall is on and manage settings."
+    },
+    {
+      "id": "router-firewall",
+      "heading": "Checking Router Firewall",
+      "body": "Access your router's web interface by entering its IP address in a browser. Look for a section labeled 'Firewall' or 'Security' to view settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Windows Firewall",
+      "detail": "Go to Control Panel > System and Security > Windows Defender Firewall."
+    },
+    {
+      "title": "View Firewall Status",
+      "detail": "Check if the firewall is on and review the allowed apps and features."
+    },
+    {
+      "title": "Access macOS Firewall",
+      "detail": "Open System Preferences > Security & Privacy > Firewall to check its status."
+    },
+    {
+      "title": "Log into Router",
+      "detail": "Enter your router's IP address in a web browser and log in to view firewall settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my firewall is blocking important applications?",
+      "answer": "You can add exceptions for those applications in your firewall settings."
+    },
+    {
+      "question": "How can I temporarily disable my firewall?",
+      "answer": "In Windows, go to the firewall settings and select 'Turn Windows Defender Firewall on or off'. On macOS, go to the Firewall tab in Security & Privacy."
+    },
+    {
+      "question": "Is it safe to disable my firewall?",
+      "answer": "Disabling your firewall can expose your system to security risks. It's recommended to only disable it temporarily for troubleshooting."
+    }
+  ],
+  "caveats": [
+    "Firewall settings may vary based on the version of the operating system or router firmware."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Firewall configuration checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

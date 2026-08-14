@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-troubleshoot-a-large-language-model",
+  "directAnswer": "Start by checking the model's input data for quality and relevance. Then, analyze the model's performance metrics to identify specific areas of concern.",
+  "summary": "Troubleshooting a large language model involves assessing input data quality, performance metrics, and model configurations to identify and resolve issues.",
+  "sections": [
+    {
+      "id": "input-data-quality",
+      "heading": "Assess Input Data Quality",
+      "body": "Ensure the data fed into the model is clean, relevant, and representative of the use case. Poor quality data can lead to suboptimal model performance."
+    },
+    {
+      "id": "performance-metrics",
+      "heading": "Analyze Performance Metrics",
+      "body": "Evaluate metrics such as accuracy, loss, and perplexity. These indicators can help pinpoint specific weaknesses in the model's predictions."
+    },
+    {
+      "id": "model-configuration",
+      "heading": "Review Model Configuration",
+      "body": "Check hyperparameters and architecture settings. Misconfigured settings can significantly impact the model's ability to learn and generalize."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Input Data",
+      "detail": "Review the dataset for inconsistencies, missing values, or irrelevant information. Tools like data validation scripts can assist in this process."
+    },
+    {
+      "title": "Evaluate Metrics",
+      "detail": "Use tools like TensorBoard or custom scripts to visualize and analyze the model's performance metrics over time."
+    },
+    {
+      "title": "Adjust Hyperparameters",
+      "detail": "Experiment with different hyperparameters such as learning rate and batch size. Document changes and their effects on performance."
+    },
+    {
+      "title": "Test with Different Use Cases",
+      "detail": "Utilize a model/use-case picker tool to test the model's performance across various scenarios to identify specific weaknesses."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the model is overfitting?",
+      "answer": "Consider reducing the complexity of the model, using regularization techniques, or increasing the amount of training data."
+    },
+    {
+      "question": "How can I improve the model's accuracy?",
+      "answer": "Focus on enhancing input data quality, fine-tuning hyperparameters, and possibly using transfer learning with a pre-trained model."
+    },
+    {
+      "question": "What tools can I use for performance analysis?",
+      "answer": "You can use TensorBoard, Weights & Biases, or custom Python scripts to visualize and analyze performance metrics."
+    }
+  ],
+  "caveats": [
+    "Troubleshooting steps may vary based on the specific model architecture and framework used.",
+    "Always back up your model and data before making significant changes."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

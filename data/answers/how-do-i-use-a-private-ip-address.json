@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-use-a-private-ip-address",
+  "directAnswer": "To use a private IP address, configure your device's network settings to assign a private IP from the ranges defined by RFC 1918.",
+  "summary": "Using a private IP address allows devices within a local network to communicate without being exposed to the public internet.",
+  "sections": [
+    {
+      "id": "what-is-private-ip",
+      "heading": "What is a Private IP Address?",
+      "body": "Private IP addresses are used within local networks and are not routable on the internet. Common ranges include 10.0.0.0 to 10.255.255.255, 172.16.0.0 to 172.31.255.255, and 192.168.0.0 to 192.168.255.255."
+    },
+    {
+      "id": "configuring-private-ip",
+      "heading": "Configuring a Private IP Address",
+      "body": "You can set a private IP address on various devices through their network settings. The process may vary slightly depending on the operating system."
+    },
+    {
+      "id": "common-uses",
+      "heading": "Common Uses of Private IP Addresses",
+      "body": "Private IP addresses are commonly used in home networks, corporate LANs, and for devices that do not require direct internet access."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "Go to Control Panel > Network and Sharing Center > Change adapter settings. Right-click on your network adapter, select Properties, then select Internet Protocol Version 4 (TCP/IPv4) and click Properties. Choose 'Use the following IP address' and enter a private IP address."
+    },
+    {
+      "title": "macOS",
+      "detail": "Open System Preferences > Network. Select your network connection, click Advanced, then go to the TCP/IP tab. Change 'Configure IPv4' to 'Manually' and enter a private IP address."
+    },
+    {
+      "title": "Linux",
+      "detail": "Edit the network configuration file (e.g., /etc/network/interfaces) or use the command line with 'ip addr add <private-ip>/<subnet-mask> dev <interface>'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I access the internet using a private IP address?",
+      "answer": "No, private IP addresses cannot access the internet directly. You need a router with NAT to connect to the internet."
+    },
+    {
+      "question": "What happens if two devices have the same private IP address?",
+      "answer": "If two devices on the same network have the same private IP address, it will cause an IP conflict, leading to connectivity issues."
+    },
+    {
+      "question": "Can I change my private IP address later?",
+      "answer": "Yes, you can change your private IP address at any time through your device's network settings."
+    }
+  ],
+  "caveats": [
+    "Ensure your chosen private IP address is not already in use on the network to avoid conflicts.",
+    "Some devices may require a reboot after changing the IP address."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for setting up a home network"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

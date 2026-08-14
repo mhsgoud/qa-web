@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-check-a-database-index",
+  "directAnswer": "To check a database index, use the appropriate SQL command for your database system, such as 'SHOW INDEX' for MySQL or 'sp_helpindex' for SQL Server.",
+  "summary": "This guide provides steps to check database indexes across different platforms, including SQL commands and considerations.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Database Indexes",
+      "body": "Indexes improve database query performance by allowing faster data retrieval. Understanding how to check indexes is crucial for database optimization."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The method to check indexes varies by database system."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues",
+      "body": "Ensure you have the necessary permissions to view indexes, as some systems restrict access."
+    }
+  ],
+  "steps": [
+    {
+      "title": "MySQL",
+      "detail": "Run the command 'SHOW INDEX FROM table_name;' in your MySQL client."
+    },
+    {
+      "title": "PostgreSQL",
+      "detail": "Use the command 'SELECT * FROM pg_indexes WHERE tablename = 'table_name';' in your PostgreSQL client."
+    },
+    {
+      "title": "SQL Server",
+      "detail": "Execute 'sp_helpindex 'table_name';' in your SQL Server Management Studio."
+    },
+    {
+      "title": "Oracle",
+      "detail": "Use 'SELECT * FROM user_indexes WHERE table_name = 'TABLE_NAME';' in your Oracle SQL environment."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the purpose of a database index?",
+      "answer": "A database index is used to speed up the retrieval of rows from a database table."
+    },
+    {
+      "question": "Can I create an index while checking existing ones?",
+      "answer": "Yes, most database systems allow you to create new indexes while querying existing ones, but ensure you follow best practices to avoid performance issues."
+    },
+    {
+      "question": "How do I know if an index is being used?",
+      "answer": "You can analyze query execution plans to see if an index is being utilized for specific queries."
+    }
+  ],
+  "caveats": [
+    "Index checking commands may vary slightly depending on the database version.",
+    "Ensure you have the right permissions to view index details."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Index optimization checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

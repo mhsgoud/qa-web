@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-set-up-a-push-notification",
+  "directAnswer": "To set up push notifications, you need to implement a service worker and configure your web application to request user permission for notifications.",
+  "summary": "This guide outlines the steps to set up push notifications for web applications, including platform-specific instructions and common pitfalls.",
+  "sections": [
+    {
+      "id": "understanding-push-notifications",
+      "heading": "Understanding Push Notifications",
+      "body": "Push notifications allow web applications to send messages to users even when the app is not open. This requires a service worker and user consent."
+    },
+    {
+      "id": "platform-specific-setup",
+      "heading": "Platform-Specific Setup",
+      "body": "The setup process may vary slightly depending on the platform or framework you are using."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Register a Service Worker",
+      "detail": "In your JavaScript file, register a service worker using navigator.serviceWorker.register('/sw.js'). Ensure the service worker file is correctly set up to handle push events."
+    },
+    {
+      "title": "Request User Permission",
+      "detail": "Use Notification.requestPermission() to prompt the user for permission to send notifications. Handle the user's response accordingly."
+    },
+    {
+      "title": "Subscribe to Push Notifications",
+      "detail": "Once permission is granted, use the PushManager to subscribe the user to push notifications. This typically involves calling pushManager.subscribe with appropriate options."
+    },
+    {
+      "title": "Send Notifications",
+      "detail": "Use your server to send push notifications to subscribed users. Ensure you have the correct endpoint and authentication in place."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What browsers support push notifications?",
+      "answer": "Most modern browsers, including Chrome, Firefox, and Edge, support push notifications, but ensure to check compatibility for specific features."
+    },
+    {
+      "question": "Can users opt-out of push notifications?",
+      "answer": "Yes, users can manage their notification preferences in their browser settings and opt-out at any time."
+    },
+    {
+      "question": "Are there any limits to push notifications?",
+      "answer": "Yes, there are limits on the number of notifications that can be sent in a given time frame, and excessive notifications can lead to users disabling them."
+    }
+  ],
+  "caveats": [
+    "Service workers must be served over HTTPS, except for localhost.",
+    "User permission for notifications is required and can be revoked at any time."
+  ],
+  "relatedToolIdeas": [
+    "Checklist for setting up service workers",
+    "Q&A on troubleshooting push notifications"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

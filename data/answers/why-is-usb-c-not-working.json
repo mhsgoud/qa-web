@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-usb-c-not-working",
+  "directAnswer": "USB-C issues can stem from incompatible cables, faulty ports, or device settings. Ensure that both the cable and device support the same USB-C specifications.",
+  "summary": "USB-C not working can be caused by various factors including hardware compatibility and settings. Troubleshooting steps can help identify the issue.",
+  "sections": [
+    {
+      "id": "cable-compatibility",
+      "heading": "Check Cable Compatibility",
+      "body": "Ensure that the USB-C cable you are using is compatible with your device. Some cables only support charging, while others support data transfer and video output."
+    },
+    {
+      "id": "port-condition",
+      "heading": "Inspect the USB-C Port",
+      "body": "Check for any debris or damage in the USB-C port on both the device and the cable. A clean, undamaged port is essential for proper connection."
+    },
+    {
+      "id": "device-settings",
+      "heading": "Review Device Settings",
+      "body": "On some devices, USB settings may need to be adjusted. For example, on Android devices, you may need to select the USB mode (e.g., File Transfer) after connecting."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Test with a Different Cable",
+      "detail": "Try using a different USB-C cable that is known to work with other devices. This can help determine if the original cable is faulty."
+    },
+    {
+      "title": "Try a Different Port",
+      "detail": "If your device has multiple USB-C ports, try connecting to a different port to see if the issue persists."
+    },
+    {
+      "title": "Restart Your Device",
+      "detail": "Sometimes, a simple restart can resolve connectivity issues. Restart your device and try the connection again."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my USB-C device is not charging?",
+      "answer": "Ensure that the charger is compatible with your device and that the cable is functioning properly. Also, check if the power source is working."
+    },
+    {
+      "question": "Can I use a USB-C hub with my device?",
+      "answer": "Yes, but ensure that the hub is compatible with your device's specifications to avoid connectivity issues."
+    },
+    {
+      "question": "Why does my USB-C port only charge and not transfer data?",
+      "answer": "This may be due to the cable being designed only for charging or the device's USB settings not being configured for data transfer."
+    }
+  ],
+  "caveats": [
+    "Different devices may have unique USB-C implementations, so troubleshooting steps may vary."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

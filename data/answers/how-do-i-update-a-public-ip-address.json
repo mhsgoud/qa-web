@@ -1,0 +1,51 @@
+{
+  "slug": "how-do-i-update-a-public-ip-address",
+  "directAnswer": "To update a public IP address, you typically need to restart your modem or router, or request a new IP from your Internet Service Provider (ISP).",
+  "summary": "Updating a public IP address can be done through device restart or ISP request, depending on your connection type.",
+  "sections": [
+    {
+      "id": "understanding-public-ip",
+      "heading": "Understanding Public IP Addresses",
+      "body": "A public IP address is assigned by your ISP and is used to identify your network on the internet. It can be static (unchanging) or dynamic (changes periodically)."
+    },
+    {
+      "id": "methods-to-update",
+      "heading": "Methods to Update Your Public IP Address",
+      "body": "You can update your public IP address by restarting your router or modem, or by contacting your ISP for a new assignment."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Restart Your Modem/Router",
+      "detail": "Unplug your modem/router from the power source, wait for 5-10 minutes, then plug it back in. This can often result in a new public IP address if your ISP uses dynamic IP addressing."
+    },
+    {
+      "title": "Contact Your ISP",
+      "detail": "If restarting does not change your IP address, contact your ISP and request a new public IP address. They may be able to assign one immediately or provide instructions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will my public IP address change if I switch from Wi-Fi to Ethernet?",
+      "answer": "No, switching connection types typically does not change your public IP address, as it is assigned to your network by your ISP."
+    },
+    {
+      "question": "How can I check my current public IP address?",
+      "answer": "You can check your current public IP address by searching 'What is my IP' in a web browser or visiting websites like whatismyip.com."
+    },
+    {
+      "question": "Is there a way to get a static public IP address?",
+      "answer": "Yes, you can request a static IP address from your ISP, usually for an additional fee."
+    }
+  ],
+  "caveats": [
+    "Not all ISPs allow users to change their public IP address easily.",
+    "Restarting your modem may not guarantee a new IP address if your ISP uses static IP addressing."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for managing IP addresses"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

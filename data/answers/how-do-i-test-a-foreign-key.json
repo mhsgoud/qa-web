@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-test-a-foreign-key",
+  "directAnswer": "To test a foreign key, you can attempt to insert a record with a non-existent foreign key value and check for errors, or use SQL queries to validate existing relationships.",
+  "summary": "Testing foreign keys ensures data integrity by verifying that relationships between tables are correctly enforced.",
+  "sections": [
+    {
+      "id": "why-test-foreign-keys",
+      "heading": "Why Test Foreign Keys?",
+      "body": "Testing foreign keys is crucial for maintaining referential integrity in your database. It helps prevent orphan records and ensures that relationships between tables are valid."
+    },
+    {
+      "id": "testing-methods",
+      "heading": "Methods for Testing Foreign Keys",
+      "body": "You can test foreign keys using SQL commands to insert, update, or delete records, and by checking for error messages or validation results."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Insert a Record with a Valid Foreign Key",
+      "detail": "Use an INSERT statement to add a record to the child table with a valid foreign key that exists in the parent table."
+    },
+    {
+      "title": "Insert a Record with an Invalid Foreign Key",
+      "detail": "Attempt to insert a record into the child table with a foreign key that does not exist in the parent table. Check for an error message indicating a constraint violation."
+    },
+    {
+      "title": "Query Existing Relationships",
+      "detail": "Run a SELECT statement to join the parent and child tables and verify that all foreign key relationships are correctly established."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I try to insert a record with an invalid foreign key?",
+      "answer": "You will receive a foreign key constraint violation error, preventing the insertion of the record."
+    },
+    {
+      "question": "Can I disable foreign key checks temporarily?",
+      "answer": "Yes, many databases allow you to disable foreign key checks temporarily, but this should be done with caution as it can lead to data integrity issues."
+    },
+    {
+      "question": "How can I find orphan records?",
+      "answer": "You can use a LEFT JOIN query to find records in the child table that do not have corresponding entries in the parent table."
+    }
+  ],
+  "caveats": [
+    "Ensure that foreign key constraints are enabled in your database settings.",
+    "Testing methods may vary depending on the database management system (DBMS) you are using."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for foreign key testing"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

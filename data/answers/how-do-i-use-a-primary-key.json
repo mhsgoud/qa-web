@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-use-a-primary-key",
+  "directAnswer": "A primary key uniquely identifies each record in a database table and must contain unique values without nulls. It is essential for establishing relationships between tables.",
+  "summary": "Understanding how to use a primary key is crucial for database integrity and efficient data retrieval.",
+  "sections": [
+    {
+      "id": "what-is-a-primary-key",
+      "heading": "What is a Primary Key?",
+      "body": "A primary key is a field or a combination of fields that uniquely identifies a record in a database table. It ensures that no two rows can have the same value in that field."
+    },
+    {
+      "id": "creating-a-primary-key",
+      "heading": "Creating a Primary Key",
+      "body": "To create a primary key, you can define it when creating a table or alter an existing table to add a primary key constraint."
+    },
+    {
+      "id": "using-a-primary-key",
+      "heading": "Using a Primary Key",
+      "body": "Once defined, the primary key can be used in queries to retrieve or manipulate data efficiently. It also helps in establishing foreign key relationships."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Define a Primary Key During Table Creation",
+      "detail": "In SQL, you can define a primary key using the PRIMARY KEY constraint in your CREATE TABLE statement. Example: CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(100));"
+    },
+    {
+      "title": "Add a Primary Key to an Existing Table",
+      "detail": "Use the ALTER TABLE statement to add a primary key to an existing table. Example: ALTER TABLE users ADD PRIMARY KEY (id); Note: Ensure the column(s) you are adding as a primary key do not contain duplicates or nulls."
+    },
+    {
+      "title": "Querying with a Primary Key",
+      "detail": "You can use the primary key in SELECT statements to retrieve specific records. Example: SELECT * FROM users WHERE id = 1;"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a primary key be composed of multiple columns?",
+      "answer": "Yes, a primary key can consist of multiple columns, known as a composite primary key, which ensures uniqueness across the combination of those columns."
+    },
+    {
+      "question": "What happens if I try to insert a duplicate primary key?",
+      "answer": "Inserting a duplicate primary key will result in an error, as primary keys must be unique for each record."
+    },
+    {
+      "question": "Can I change a primary key after it is set?",
+      "answer": "Yes, you can change a primary key by dropping the existing primary key constraint and then adding a new one, but ensure that the new key maintains uniqueness."
+    }
+  ],
+  "caveats": [
+    "Ensure that the primary key columns do not contain any null values.",
+    "Be cautious when altering primary keys, as it may affect foreign key relationships."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for database normalization"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

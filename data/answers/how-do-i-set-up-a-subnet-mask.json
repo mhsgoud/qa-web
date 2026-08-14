@@ -1,0 +1,53 @@
+{
+  "slug": "how-do-i-set-up-a-subnet-mask",
+  "directAnswer": "To set up a subnet mask, access your network settings and specify the desired subnet mask according to your network design.",
+  "summary": "Configuring a subnet mask is essential for defining network boundaries and facilitating communication between devices.",
+  "sections": [
+    {
+      "id": "understanding-subnet-masks",
+      "heading": "Understanding Subnet Masks",
+      "body": "A subnet mask determines which portion of an IP address refers to the network and which part refers to the host. Common subnet masks include 255.255.255.0 for small networks."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Instructions may vary based on the operating system or router interface."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "Go to Control Panel > Network and Internet > Network Connections. Right-click your network adapter, select Properties, then select Internet Protocol Version 4 (TCP/IPv4) and click Properties. Enter the subnet mask in the appropriate field."
+    },
+    {
+      "title": "macOS",
+      "detail": "Open System Preferences > Network. Select your network interface, click Advanced, then go to the TCP/IP tab. Enter the subnet mask in the Subnet Mask field."
+    },
+    {
+      "title": "Router Configuration",
+      "detail": "Log in to your router's web interface. Navigate to the LAN settings section, and enter the desired subnet mask in the appropriate field."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the default subnet mask for a Class C network?",
+      "answer": "The default subnet mask for a Class C network is 255.255.255.0."
+    },
+    {
+      "question": "Can I use a custom subnet mask?",
+      "answer": "Yes, you can use a custom subnet mask to create subnets within your network as needed."
+    },
+    {
+      "question": "What happens if I set the wrong subnet mask?",
+      "answer": "Setting the wrong subnet mask can lead to connectivity issues, preventing devices from communicating properly within the network."
+    }
+  ],
+  "caveats": [
+    "Ensure that the subnet mask matches the IP addressing scheme of your network to avoid conflicts."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

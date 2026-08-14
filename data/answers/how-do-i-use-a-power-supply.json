@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-use-a-power-supply",
+  "directAnswer": "Connect the power supply to your components using the appropriate cables, ensuring that all connections are secure before powering on the system.",
+  "summary": "Using a power supply involves connecting it to various components of your PC, such as the motherboard, CPU, and peripherals, to provide them with the necessary power.",
+  "sections": [
+    {
+      "id": "power-supply-connection",
+      "heading": "Connecting the Power Supply",
+      "body": "Begin by placing the power supply unit (PSU) in the designated area of your PC case. Ensure it is oriented correctly for airflow."
+    },
+    {
+      "id": "cable-management",
+      "heading": "Cable Management",
+      "body": "Organize and route the cables from the PSU to each component. Use cable ties to keep them tidy and avoid obstruction of airflow."
+    },
+    {
+      "id": "testing-power",
+      "heading": "Testing the Power Supply",
+      "body": "Before finalizing your build, perform a test by powering on the system to check if all components receive power correctly."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Install the Power Supply",
+      "detail": "Secure the PSU in the case with screws, ensuring the fan is positioned for optimal airflow."
+    },
+    {
+      "title": "Connect Cables to the Motherboard",
+      "detail": "Attach the 24-pin ATX cable and the 4/8-pin CPU power cable from the PSU to the motherboard."
+    },
+    {
+      "title": "Connect Power to Peripherals",
+      "detail": "Use SATA power cables for drives and 6/8-pin PCIe cables for graphics cards, if applicable."
+    },
+    {
+      "title": "Power On and Test",
+      "detail": "Turn on the power supply switch and press the power button on your PC to ensure all components are functioning."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my PC doesn't power on?",
+      "answer": "Check all connections to ensure they are secure. Verify that the power supply switch is on and that the outlet is functioning."
+    },
+    {
+      "question": "How do I know if my power supply is sufficient for my components?",
+      "answer": "Calculate the total wattage required by your components using an online PSU calculator and ensure your PSU meets or exceeds that requirement."
+    },
+    {
+      "question": "Can I use an old power supply with new components?",
+      "answer": "It depends on the wattage and connector types. Ensure the old PSU meets the power requirements and has the necessary connectors for your new components."
+    }
+  ],
+  "caveats": [
+    "Ensure that the power supply is compatible with your motherboard and components.",
+    "Using a power supply with insufficient wattage can lead to system instability."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for building a PC"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

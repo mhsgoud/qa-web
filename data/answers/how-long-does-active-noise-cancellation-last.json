@@ -1,0 +1,59 @@
+{
+  "slug": "how-long-does-active-noise-cancellation-last",
+  "directAnswer": "Active noise cancellation (ANC) typically lasts as long as the battery life of the device, which can range from 20 to 40 hours depending on the model.",
+  "summary": "The duration of active noise cancellation is primarily determined by the battery life of the headphones or earbuds.",
+  "sections": [
+    {
+      "id": "battery-life",
+      "heading": "Battery Life Impact",
+      "body": "The effectiveness of ANC is directly tied to the battery life of the device. When the battery is low, ANC performance may degrade."
+    },
+    {
+      "id": "charging",
+      "heading": "Charging Considerations",
+      "body": "Most ANC devices can be used while charging, allowing for continuous noise cancellation. However, this may vary by model."
+    },
+    {
+      "id": "usage-tips",
+      "heading": "Usage Tips",
+      "body": "To maximize ANC duration, ensure your device is fully charged and consider using power-saving modes if available."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Battery Life",
+      "detail": "Look at the battery indicator on your device to determine how much charge is left."
+    },
+    {
+      "title": "Charge the Device",
+      "detail": "Use the provided charging cable to recharge your ANC device when the battery is low."
+    },
+    {
+      "title": "Turn Off When Not in Use",
+      "detail": "To conserve battery life, turn off ANC when you are not using the device."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use ANC while charging?",
+      "answer": "Yes, many ANC devices allow you to use noise cancellation features while they are charging."
+    },
+    {
+      "question": "Does ANC affect battery life?",
+      "answer": "Yes, using ANC can drain the battery faster than using the device without it."
+    },
+    {
+      "question": "What happens when the battery is dead?",
+      "answer": "When the battery is dead, the ANC feature will not function, and you may only have passive noise isolation."
+    }
+  ],
+  "caveats": [
+    "Battery life can vary significantly between different brands and models of ANC devices.",
+    "Environmental factors such as temperature can also affect battery performance."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

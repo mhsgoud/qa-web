@@ -1,0 +1,63 @@
+{
+  "slug": "why-is-git-not-working",
+  "directAnswer": "Git may not be working due to issues like incorrect repository paths, authentication failures, or network problems.",
+  "summary": "This page outlines common reasons Git may fail to operate correctly and provides troubleshooting steps for resolution.",
+  "sections": [
+    {
+      "id": "common-issues",
+      "heading": "Common Issues with Git",
+      "body": "Frequent problems include incorrect remote URLs, uncommitted changes, and permission errors. Ensure you have the correct repository URL and that your local changes are committed."
+    },
+    {
+      "id": "authentication-errors",
+      "heading": "Authentication Errors",
+      "body": "If you're encountering authentication issues, verify your credentials and check if your SSH keys are correctly set up. For HTTPS, ensure your username and password are correct."
+    },
+    {
+      "id": "network-problems",
+      "heading": "Network Problems",
+      "body": "Network issues can prevent Git from accessing remote repositories. Check your internet connection and firewall settings that may block Git operations."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Remote URL",
+      "detail": "Run `git remote -v` to verify the remote repository URL. If it's incorrect, update it using `git remote set-url origin <new-url>`."
+    },
+    {
+      "title": "Test SSH Connection",
+      "detail": "If using SSH, test your connection with `ssh -T git@github.com` (replace with your Git provider). This will confirm if your SSH keys are set up correctly."
+    },
+    {
+      "title": "Commit Changes",
+      "detail": "Ensure all changes are committed by running `git status`. If there are uncommitted changes, use `git add .` followed by `git commit -m 'Your message'`."
+    },
+    {
+      "title": "Check Network Connectivity",
+      "detail": "Verify your internet connection by pinging a website or checking your network settings. Ensure that no firewall rules are blocking Git."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I forgot my GitHub password?",
+      "answer": "Use the 'Forgot password?' link on the GitHub login page to reset your password."
+    },
+    {
+      "question": "How can I see the log of my Git commands?",
+      "answer": "You can view your command history by checking the `.git` directory in your repository or using the `git reflog` command."
+    },
+    {
+      "question": "Why do I get 'permission denied' errors?",
+      "answer": "This typically indicates that your user does not have the necessary permissions for the repository. Check your access rights or SSH key configuration."
+    }
+  ],
+  "caveats": [
+    "Ensure you are using the correct version of Git, as commands and functionalities may vary between versions."
+  ],
+  "relatedToolIdeas": [
+    "Checklist for Git troubleshooting",
+    "Q&A cluster for common Git errors"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

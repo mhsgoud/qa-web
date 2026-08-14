@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-troubleshoot-a-web-app",
+  "directAnswer": "Start by checking the browser console for errors and verifying network requests. Ensure that your server is running and accessible.",
+  "summary": "This guide provides steps to troubleshoot common issues with web applications, including checking for errors, reviewing network activity, and validating server status.",
+  "sections": [
+    {
+      "id": "check-browser-console",
+      "heading": "Check the Browser Console",
+      "body": "Open the browser's developer tools (usually F12 or right-click > Inspect) and navigate to the Console tab. Look for any error messages that may indicate issues with JavaScript or other client-side problems."
+    },
+    {
+      "id": "review-network-activity",
+      "heading": "Review Network Activity",
+      "body": "In the developer tools, switch to the Network tab and reload the web app. Check for failed requests, status codes, and the response times to identify potential bottlenecks or failures."
+    },
+    {
+      "id": "validate-server-status",
+      "heading": "Validate Server Status",
+      "body": "Ensure that the server hosting the web app is running. You can do this by pinging the server or accessing it directly via its IP address or domain name."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Developer Tools",
+      "detail": "Press F12 or right-click on the page and select 'Inspect'."
+    },
+    {
+      "title": "Check for Errors",
+      "detail": "In the Console tab, look for red error messages that indicate issues."
+    },
+    {
+      "title": "Monitor Network Requests",
+      "detail": "Switch to the Network tab, reload the page, and observe the status of each request."
+    },
+    {
+      "title": "Test Server Accessibility",
+      "detail": "Use a command line or terminal to ping the server's address to check if it is reachable."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I find an error in the console?",
+      "answer": "Investigate the error message to identify the source, which could be a syntax error, a missing resource, or a network issue."
+    },
+    {
+      "question": "How can I check if my server is down?",
+      "answer": "Try accessing the server directly via its IP address or use online tools to check server status."
+    },
+    {
+      "question": "What if network requests are failing?",
+      "answer": "Check the server logs for errors, ensure the API endpoints are correct, and verify that the server is configured to accept requests."
+    }
+  ],
+  "caveats": [
+    "Browser developer tools may vary slightly between different browsers.",
+    "Network issues can sometimes be caused by local firewalls or proxies."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for common troubleshooting steps"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

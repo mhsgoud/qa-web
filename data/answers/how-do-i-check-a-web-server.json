@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-check-a-web-server",
+  "directAnswer": "You can check a web server by using command line tools like `ping`, `curl`, or `telnet` to test connectivity and response.",
+  "summary": "This guide provides methods to verify the status and performance of a web server using various tools.",
+  "sections": [
+    {
+      "id": "checking-connectivity",
+      "heading": "Checking Connectivity",
+      "body": "Use the `ping` command to check if the server is reachable. This sends packets to the server and measures response time."
+    },
+    {
+      "id": "testing-http-response",
+      "heading": "Testing HTTP Response",
+      "body": "Use `curl` to send a request to the server and check the HTTP status code. A successful response will typically return a status code of 200."
+    },
+    {
+      "id": "using-telnet",
+      "heading": "Using Telnet",
+      "body": "Telnet can be used to check if a specific port (like 80 for HTTP or 443 for HTTPS) is open on the server."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Ping the Server",
+      "detail": "Open your command line interface and type `ping [server_address]`. Replace [server_address] with the actual IP or domain name."
+    },
+    {
+      "title": "Check HTTP Response with Curl",
+      "detail": "In the command line, type `curl -I [server_address]`. This will return the HTTP headers including the status code."
+    },
+    {
+      "title": "Test Port with Telnet",
+      "detail": "Type `telnet [server_address] [port]` in the command line. For example, `telnet example.com 80` to check if port 80 is open."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What does a status code of 404 mean?",
+      "answer": "A 404 status code indicates that the server could not find the requested resource."
+    },
+    {
+      "question": "How can I check if my server is down?",
+      "answer": "If you cannot ping the server or receive a response from `curl`, it may be down or unreachable."
+    },
+    {
+      "question": "What should I do if my server is not responding?",
+      "answer": "Check your network connection, verify the server address, and ensure the server is powered on and configured correctly."
+    }
+  ],
+  "caveats": [
+    "Firewall settings may block ping or telnet requests, leading to false negatives.",
+    "Different operating systems may have variations in command availability and syntax."
+  ],
+  "relatedToolIdeas": [
+    "Network monitoring tools",
+    "Website uptime checkers"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

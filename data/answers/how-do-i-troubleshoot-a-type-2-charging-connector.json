@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-troubleshoot-a-type-2-charging-connector",
+  "directAnswer": "Check for physical damage and ensure a secure connection. If issues persist, test with a different EV or charging station.",
+  "summary": "Troubleshooting a Type 2 charging connector involves inspecting for damage, ensuring compatibility, and testing with alternative equipment.",
+  "sections": [
+    {
+      "id": "physical-inspection",
+      "heading": "Physical Inspection",
+      "body": "Examine the Type 2 connector for any visible signs of wear, damage, or dirt. Ensure that the pins are not bent and that the connector is clean."
+    },
+    {
+      "id": "connection-check",
+      "heading": "Connection Check",
+      "body": "Ensure that the connector is fully inserted into the vehicle's charging port. Listen for a click sound, indicating a secure connection."
+    },
+    {
+      "id": "compatibility-test",
+      "heading": "Compatibility Test",
+      "body": "Verify that the charging station is compatible with your vehicle. If possible, try using a different charging station to rule out issues with the original."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Inspect the Connector",
+      "detail": "Look for any physical damage or dirt on the Type 2 connector. Clean it gently if necessary."
+    },
+    {
+      "title": "Test the Connection",
+      "detail": "Plug the connector into your vehicle and ensure it clicks into place. Check for any error messages on the vehicle display."
+    },
+    {
+      "title": "Try Another Charging Station",
+      "detail": "If the issue persists, test the connector with a different charging station to determine if the problem lies with the station."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the connector is damaged?",
+      "answer": "If the connector is damaged, it should be replaced immediately to ensure safe charging."
+    },
+    {
+      "question": "Can I use a Type 2 connector with all EVs?",
+      "answer": "Not all EVs are compatible with Type 2 connectors; check your vehicle's specifications for compatibility."
+    },
+    {
+      "question": "What if the charging station does not recognize my vehicle?",
+      "answer": "Ensure that the charging station is functioning properly and that your vehicle is compatible. Consider using a different charging station."
+    }
+  ],
+  "caveats": [
+    "Always ensure that the charging equipment is turned off before inspecting or cleaning the connector.",
+    "Some charging stations may have specific requirements or settings that could affect compatibility."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

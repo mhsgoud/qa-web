@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-connect-a-smart-display",
+  "directAnswer": "To connect a smart display, ensure it is powered on and follow the setup instructions in the companion app for your specific device.",
+  "summary": "Connecting a smart display involves using a mobile app to link the device to your Wi-Fi network and any compatible smart home systems.",
+  "sections": [
+    {
+      "id": "setup-requirements",
+      "heading": "Setup Requirements",
+      "body": "You will need a stable Wi-Fi connection, a smartphone or tablet with the appropriate app installed, and your smart display powered on."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The setup process may vary slightly between platforms (Google, Amazon, etc.). Ensure you follow the specific instructions for your device."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting Common Issues",
+      "body": "If you encounter issues connecting, check your Wi-Fi signal strength, ensure the app is updated, and restart both the smart display and your router."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Download the Companion App",
+      "detail": "Install the app associated with your smart display (e.g., Google Home for Google devices or Alexa app for Amazon devices) from your app store."
+    },
+    {
+      "title": "Power On the Smart Display",
+      "detail": "Plug in your smart display and wait for it to boot up completely."
+    },
+    {
+      "title": "Connect to Wi-Fi",
+      "detail": "Open the app, select 'Add Device', and choose your smart display. Follow the prompts to connect it to your Wi-Fi network."
+    },
+    {
+      "title": "Complete Setup",
+      "detail": "Follow any additional on-screen instructions in the app to finalize the setup and customize your device settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my smart display won't connect to Wi-Fi?",
+      "answer": "Ensure your Wi-Fi network is functioning and that you are entering the correct password. Restarting the router and the smart display may also help."
+    },
+    {
+      "question": "Can I connect multiple smart displays?",
+      "answer": "Yes, you can connect multiple smart displays within the same app, but ensure they are on the same Wi-Fi network."
+    },
+    {
+      "question": "Do I need a specific app for my smart display?",
+      "answer": "Yes, each brand typically has its own app for setup and management, such as Google Home for Google devices or the Alexa app for Amazon devices."
+    }
+  ],
+  "caveats": [
+    "The setup process may vary based on the model and software version of your smart display."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for smart home device setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

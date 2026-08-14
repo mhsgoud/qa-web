@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-optimize-a-slow-sql-query",
+  "directAnswer": "To optimize a slow SQL query, analyze the execution plan and consider adding indexes or rewriting the query for efficiency.",
+  "summary": "Optimizing SQL queries involves examining their execution plans, adjusting indexes, and modifying query structure to enhance performance.",
+  "sections": [
+    {
+      "id": "understanding-execution-plans",
+      "heading": "Understanding Execution Plans",
+      "body": "Execution plans provide insights into how SQL queries are executed. Use the EXPLAIN statement to view the plan and identify bottlenecks."
+    },
+    {
+      "id": "indexing-strategies",
+      "heading": "Indexing Strategies",
+      "body": "Adding indexes on frequently queried columns can significantly improve performance. However, be mindful of the trade-off with write operations."
+    },
+    {
+      "id": "query-rewriting-techniques",
+      "heading": "Query Rewriting Techniques",
+      "body": "Rewriting queries to use JOINs instead of subqueries or using WHERE clauses effectively can lead to better performance."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Analyze the Execution Plan",
+      "detail": "Use the EXPLAIN command before your query to see how the database executes it. Look for full table scans or high-cost operations."
+    },
+    {
+      "title": "Add Indexes",
+      "detail": "Identify columns used in WHERE clauses and JOIN conditions. Create indexes on these columns to speed up data retrieval."
+    },
+    {
+      "title": "Rewrite the Query",
+      "detail": "Simplify complex queries by breaking them into smaller parts or using temporary tables. Avoid SELECT * and specify only needed columns."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What tools can help analyze SQL performance?",
+      "answer": "Tools like SQL Server Management Studio, MySQL Workbench, and EXPLAIN ANALYZE in PostgreSQL can help analyze and optimize SQL performance."
+    },
+    {
+      "question": "How do I know if an index is beneficial?",
+      "answer": "Monitor query performance before and after adding an index. If the query execution time decreases significantly, the index is likely beneficial."
+    },
+    {
+      "question": "Can too many indexes slow down my database?",
+      "answer": "Yes, while indexes speed up read operations, they can slow down write operations due to the overhead of maintaining them."
+    }
+  ],
+  "caveats": [
+    "Optimization techniques may vary based on the specific SQL database system being used."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

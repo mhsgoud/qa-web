@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-connect-a-large-language-model",
+  "directAnswer": "To connect a large language model, you typically need to access an API provided by the model's hosting service and authenticate your requests using an API key.",
+  "summary": "This guide provides steps to connect to a large language model using an API, including platform-specific instructions and common pitfalls.",
+  "sections": [
+    {
+      "id": "api-connection",
+      "heading": "Connecting via API",
+      "body": "Most large language models are accessible through APIs. You'll need to sign up for an account with the provider, obtain your API key, and use it in your application to make requests."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to connect may vary slightly depending on the platform you are using. Below are general steps for popular platforms."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Sign Up for an API Key",
+      "detail": "Visit the model provider's website, create an account, and request an API key."
+    },
+    {
+      "title": "Install Required Libraries",
+      "detail": "Depending on your programming language, install necessary libraries (e.g., `requests` for Python) to facilitate API calls."
+    },
+    {
+      "title": "Make Your First API Call",
+      "detail": "Use the API key to authenticate your requests and send a prompt to the model endpoint as specified in the API documentation."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What programming languages can I use to connect to a large language model?",
+      "answer": "You can use any programming language that can make HTTP requests, such as Python, JavaScript, or Java."
+    },
+    {
+      "question": "Are there any usage limits for the API?",
+      "answer": "Yes, most providers have usage limits based on the pricing tier you select. Check the provider's documentation for details."
+    },
+    {
+      "question": "Can I use the model offline?",
+      "answer": "No, large language models typically require an internet connection to access the API and process requests."
+    }
+  ],
+  "caveats": [
+    "Ensure you follow the API usage guidelines to avoid rate limiting.",
+    "Keep your API key secure and do not expose it in public repositories."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

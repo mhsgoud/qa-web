@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-use-a-database-index",
+  "directAnswer": "To use a database index, you need to create the index on the desired columns of your table, which will optimize query performance by allowing the database to locate data more quickly.",
+  "summary": "Database indexes improve query performance by allowing faster data retrieval. This guide provides steps for creating and using indexes across different platforms.",
+  "sections": [
+    {
+      "id": "creating-indexes",
+      "heading": "Creating Indexes",
+      "body": "To create an index, use the CREATE INDEX statement followed by the index name and the table name. Specify the columns you want to index."
+    },
+    {
+      "id": "using-indexes",
+      "heading": "Using Indexes in Queries",
+      "body": "Once an index is created, the database engine will automatically use it to optimize queries that filter or sort by the indexed columns."
+    },
+    {
+      "id": "maintaining-indexes",
+      "heading": "Maintaining Indexes",
+      "body": "Regularly monitor and maintain your indexes to ensure they remain effective. This may include rebuilding or reorganizing indexes based on usage patterns."
+    }
+  ],
+  "steps": [
+    {
+      "title": "MySQL: Create an Index",
+      "detail": "Use the command: CREATE INDEX index_name ON table_name (column1, column2);"
+    },
+    {
+      "title": "PostgreSQL: Create an Index",
+      "detail": "Use the command: CREATE INDEX index_name ON table_name (column1, column2);"
+    },
+    {
+      "title": "SQL Server: Create an Index",
+      "detail": "Use the command: CREATE INDEX index_name ON table_name (column1, column2);"
+    },
+    {
+      "title": "Oracle: Create an Index",
+      "detail": "Use the command: CREATE INDEX index_name ON table_name (column1, column2);"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What types of indexes can I create?",
+      "answer": "You can create unique indexes, composite indexes, full-text indexes, and more, depending on the database system."
+    },
+    {
+      "question": "How do I know if an index is being used?",
+      "answer": "You can analyze query execution plans to see if the index is being utilized in your queries."
+    },
+    {
+      "question": "Can indexes slow down data modification operations?",
+      "answer": "Yes, while indexes speed up read operations, they can slow down insert, update, and delete operations due to the overhead of maintaining the index."
+    }
+  ],
+  "caveats": [
+    "Indexing too many columns can lead to increased storage requirements and slower write operations.",
+    "The effectiveness of an index can vary based on the specific queries being run."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for indexing best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

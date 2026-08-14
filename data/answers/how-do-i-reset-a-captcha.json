@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-reset-a-captcha",
+  "directAnswer": "To reset a CAPTCHA, refresh the page or click the refresh icon next to the CAPTCHA. This will generate a new challenge.",
+  "summary": "Resetting a CAPTCHA can help if you're having trouble completing it or if it has expired.",
+  "sections": [
+    {
+      "id": "understanding-captcha",
+      "heading": "Understanding CAPTCHA",
+      "body": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is a security measure to prevent bots from accessing websites. If you encounter issues, resetting it can provide a new challenge."
+    },
+    {
+      "id": "how-to-reset",
+      "heading": "How to Reset a CAPTCHA",
+      "body": "The method to reset a CAPTCHA can vary slightly depending on the website or service you are using."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues",
+      "body": "Sometimes, CAPTCHAs may fail due to browser settings, ad blockers, or network issues. Resetting it can solve these problems."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Refresh the Page",
+      "detail": "Simply refresh the webpage where the CAPTCHA is located. This will typically reset the CAPTCHA."
+    },
+    {
+      "title": "Click the Refresh Icon",
+      "detail": "If available, click the refresh icon next to the CAPTCHA to generate a new challenge without refreshing the entire page."
+    },
+    {
+      "title": "Clear Browser Cache",
+      "detail": "If problems persist, try clearing your browser's cache and cookies, then attempt the CAPTCHA again."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the CAPTCHA still doesn't work after resetting?",
+      "answer": "Try using a different browser or device, or check your internet connection for stability."
+    },
+    {
+      "question": "Why do I keep getting the same CAPTCHA challenge?",
+      "answer": "This can occur due to cookies or session issues. Clearing your browser cache may help."
+    },
+    {
+      "question": "Are there any browser extensions that can interfere with CAPTCHA?",
+      "answer": "Yes, ad blockers or privacy extensions can sometimes block CAPTCHA scripts. Temporarily disable them to see if it resolves the issue."
+    }
+  ],
+  "caveats": [
+    "Some websites may have specific CAPTCHA reset methods that differ from standard practices.",
+    "Repeated failed attempts may lead to temporary IP bans on certain sites."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for troubleshooting CAPTCHA issues"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

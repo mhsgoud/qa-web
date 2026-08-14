@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-troubleshoot-an-ev-charge",
+  "directAnswer": "Check the charging cable and connection, ensure the EV and charger are compatible, and verify that the power source is functioning.",
+  "summary": "Troubleshooting EV charging issues involves checking connections, compatibility, and power supply.",
+  "sections": [
+    {
+      "id": "check-connection",
+      "heading": "Check the Connection",
+      "body": "Ensure that the charging cable is securely connected to both the EV and the charging station. Look for any visible damage on the cable."
+    },
+    {
+      "id": "verify-compatibility",
+      "heading": "Verify Compatibility",
+      "body": "Confirm that your EV is compatible with the charging station type (Level 1, Level 2, or DC fast charging)."
+    },
+    {
+      "id": "check-power-source",
+      "heading": "Check the Power Source",
+      "body": "Make sure the outlet or charging station is powered on and functioning. You can test it with another device."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Inspect the Charging Cable",
+      "detail": "Look for any frays or damage on the charging cable and ensure it is properly connected."
+    },
+    {
+      "title": "Test the Power Outlet",
+      "detail": "Plug another device into the same outlet to confirm it is providing power."
+    },
+    {
+      "title": "Consult the EV Manual",
+      "detail": "Refer to your EV's user manual for specific troubleshooting steps related to charging."
+    },
+    {
+      "title": "Contact Support",
+      "detail": "If issues persist, contact your EV manufacturer or the charging station provider for assistance."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my EV won't charge at all?",
+      "answer": "First, check the charging cable and outlet. If everything seems fine, consult your EV's manual or contact support."
+    },
+    {
+      "question": "Can I use a regular outlet to charge my EV?",
+      "answer": "Yes, but charging will be significantly slower. It's recommended to use a dedicated EV charger for faster charging."
+    },
+    {
+      "question": "How can I tell if my EV is charging?",
+      "answer": "Most EVs have an indicator light on the dashboard or charging port that shows charging status."
+    }
+  ],
+  "caveats": [
+    "Charging issues may vary based on the EV model and charger type.",
+    "Always follow manufacturer guidelines for troubleshooting."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

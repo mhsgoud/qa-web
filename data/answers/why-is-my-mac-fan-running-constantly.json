@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-my-mac-fan-running-constantly",
+  "directAnswer": "Your Mac's fan may be running constantly due to high CPU usage, overheating, or background processes consuming resources.",
+  "summary": "Understanding why your Mac's fan is running continuously can help you address potential issues related to performance and overheating.",
+  "sections": [
+    {
+      "id": "high-cpu-usage",
+      "heading": "Check for High CPU Usage",
+      "body": "Open Activity Monitor (found in Applications > Utilities) to see if any applications are using excessive CPU resources. Look for processes that are consistently at the top of the list."
+    },
+    {
+      "id": "overheating",
+      "heading": "Assess Overheating Issues",
+      "body": "Ensure that your Mac is well-ventilated and not placed on soft surfaces that can block airflow. Dust buildup can also cause overheating, so consider cleaning the vents."
+    },
+    {
+      "id": "background-processes",
+      "heading": "Review Background Processes",
+      "body": "Some applications run background processes that may not be immediately visible. Check for software updates or consider restarting your Mac to reset these processes."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Activity Monitor",
+      "detail": "Navigate to Applications > Utilities > Activity Monitor and check the CPU tab for any high usage."
+    },
+    {
+      "title": "Check System Preferences",
+      "detail": "Go to System Preferences > Energy Saver to adjust settings that may help reduce fan activity."
+    },
+    {
+      "title": "Inspect for Dust",
+      "detail": "Physically inspect your Mac for dust accumulation in the vents and consider using compressed air to clean them."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I manually control my Mac's fan speed?",
+      "answer": "Yes, you can use third-party applications like Macs Fan Control to manually adjust fan speeds, but use caution as this may affect system stability."
+    },
+    {
+      "question": "Is it normal for the fan to run loudly during heavy tasks?",
+      "answer": "Yes, during intensive tasks like gaming or video editing, it is normal for the fan to run loudly to cool the system."
+    },
+    {
+      "question": "What should I do if the fan continues to run after addressing these issues?",
+      "answer": "If the fan continues to run excessively, consider contacting Apple Support or visiting an Apple Store for further diagnosis."
+    }
+  ],
+  "caveats": [
+    "Fan behavior may vary based on the specific Mac model and macOS version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-check-an-email-address",
+  "directAnswer": "You can check an email address for validity using online verification tools or by sending a test email to see if it bounces back.",
+  "summary": "This guide provides methods to verify the validity of an email address, including online tools and manual checks.",
+  "sections": [
+    {
+      "id": "online-verification-tools",
+      "heading": "Using Online Verification Tools",
+      "body": "There are various online services that allow you to check if an email address is valid. These tools typically check the format, domain, and whether the email is associated with a mail server."
+    },
+    {
+      "id": "manual-check",
+      "heading": "Manual Check",
+      "body": "You can manually verify an email address by sending a test email. If the email bounces back, the address may be invalid."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Choose an Online Tool",
+      "detail": "Select a reputable email verification tool such as Hunter.io, NeverBounce, or ZeroBounce."
+    },
+    {
+      "title": "Enter the Email Address",
+      "detail": "Input the email address you want to check into the tool's search bar."
+    },
+    {
+      "title": "Review the Results",
+      "detail": "Analyze the verification results provided by the tool to determine if the email address is valid."
+    },
+    {
+      "title": "Send a Test Email (Optional)",
+      "detail": "If desired, send a simple email to the address to see if it bounces back."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the email address is marked as invalid?",
+      "answer": "If an email address is marked as invalid, it is likely that the address does not exist or is incorrectly formatted."
+    },
+    {
+      "question": "Can I check multiple email addresses at once?",
+      "answer": "Many online verification tools allow bulk checks, but be sure to check the tool's limitations."
+    },
+    {
+      "question": "Are there any free tools available?",
+      "answer": "Yes, some email verification tools offer free trials or limited free checks, but they may have restrictions on the number of verifications."
+    }
+  ],
+  "caveats": [
+    "Email verification tools may not guarantee 100% accuracy, as some email servers may not respond to verification requests."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

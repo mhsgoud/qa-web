@@ -1,0 +1,69 @@
+{
+  "slug": "how-do-i-connect-a-smart-speaker",
+  "directAnswer": "To connect a smart speaker, download the corresponding app for your device and follow the setup instructions to connect it to your Wi-Fi network.",
+  "summary": "This guide provides steps to connect a smart speaker to your home network and troubleshoot common issues.",
+  "sections": [
+    {
+      "id": "setup-your-smart-speaker",
+      "heading": "Setup Your Smart Speaker",
+      "body": "Begin by placing your smart speaker in a central location in your home. Ensure it's plugged in and powered on."
+    },
+    {
+      "id": "download-the-app",
+      "heading": "Download the App",
+      "body": "Download the app associated with your smart speaker (e.g., Amazon Alexa, Google Home, Apple HomePod) from your device's app store."
+    },
+    {
+      "id": "connect-to-wi-fi",
+      "heading": "Connect to Wi-Fi",
+      "body": "Open the app, create or sign in to your account, and follow the prompts to connect your smart speaker to your Wi-Fi network."
+    },
+    {
+      "id": "voice-assistant-setup",
+      "heading": "Voice Assistant Setup",
+      "body": "After connecting to Wi-Fi, follow the app instructions to set up voice recognition and customize settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Place the Smart Speaker",
+      "detail": "Position your smart speaker in a location with good Wi-Fi coverage."
+    },
+    {
+      "title": "Install the App",
+      "detail": "Download the app specific to your smart speaker model from the App Store or Google Play."
+    },
+    {
+      "title": "Connect to Wi-Fi",
+      "detail": "In the app, select your smart speaker and choose your Wi-Fi network to connect."
+    },
+    {
+      "title": "Complete Setup",
+      "detail": "Follow the on-screen instructions to finish setting up your smart speaker."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my smart speaker won't connect to Wi-Fi?",
+      "answer": "Ensure your Wi-Fi is functioning properly and that you're entering the correct password. Restart the speaker and router if necessary."
+    },
+    {
+      "question": "Can I connect multiple smart speakers?",
+      "answer": "Yes, you can connect multiple smart speakers using the same app, but they may require individual setup."
+    },
+    {
+      "question": "Do I need a specific Wi-Fi band for my smart speaker?",
+      "answer": "Most smart speakers work on both 2.4 GHz and 5 GHz bands, but check your device specifications for best performance."
+    }
+  ],
+  "caveats": [
+    "Ensure your smart speaker is compatible with your Wi-Fi network (e.g., 2.4 GHz vs 5 GHz).",
+    "Some features may vary based on the app version or speaker model."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for smart home device setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

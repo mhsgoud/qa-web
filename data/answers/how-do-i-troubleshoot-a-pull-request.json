@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-troubleshoot-a-pull-request",
+  "directAnswer": "Check for merge conflicts and ensure that all tests pass before merging the pull request.",
+  "summary": "Troubleshooting a pull request involves checking for conflicts, reviewing code changes, and verifying test results.",
+  "sections": [
+    {
+      "id": "understanding-merge-conflicts",
+      "heading": "Understanding Merge Conflicts",
+      "body": "Merge conflicts occur when changes in the pull request clash with changes in the base branch. Review the conflicting files and resolve them before proceeding."
+    },
+    {
+      "id": "reviewing-code-changes",
+      "heading": "Reviewing Code Changes",
+      "body": "Examine the code changes in the pull request for clarity and adherence to project standards. Use comments for any necessary feedback."
+    },
+    {
+      "id": "verifying-test-results",
+      "heading": "Verifying Test Results",
+      "body": "Ensure that all automated tests pass. If tests fail, investigate the reasons and address any issues in the code."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check for Merge Conflicts",
+      "detail": "Navigate to the pull request in your repository and look for any merge conflict notifications. Resolve conflicts in the affected files."
+    },
+    {
+      "title": "Review Code Changes",
+      "detail": "Open the 'Files changed' tab in the pull request to review the code modifications. Use inline comments for feedback."
+    },
+    {
+      "title": "Run Tests Locally",
+      "detail": "Pull the branch locally and run the test suite to ensure all tests pass. Address any failing tests before merging."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I cannot resolve merge conflicts?",
+      "answer": "Consider reaching out to the author of the pull request for assistance or consult your team for help."
+    },
+    {
+      "question": "How can I ensure my pull request meets project standards?",
+      "answer": "Review the project's contribution guidelines and coding standards before submitting your pull request."
+    },
+    {
+      "question": "What if my tests are failing after merging?",
+      "answer": "Check the merge commit for changes that might have affected your tests and adjust your code accordingly."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly based on the version of the version control system being used."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for pull request review"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

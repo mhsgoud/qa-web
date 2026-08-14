@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-check-an-ai-agent",
+  "directAnswer": "To check an AI agent, review its performance metrics and test its responses against expected outcomes. Use available tools for monitoring and evaluation.",
+  "summary": "This guide outlines how to effectively check the performance and reliability of an AI agent.",
+  "sections": [
+    {
+      "id": "performance-metrics",
+      "heading": "Review Performance Metrics",
+      "body": "Analyze key performance indicators (KPIs) such as accuracy, precision, recall, and F1 score. These metrics provide insights into the agent's effectiveness."
+    },
+    {
+      "id": "testing-responses",
+      "heading": "Test Responses",
+      "body": "Conduct tests by providing various inputs to the AI agent and comparing the outputs to expected results. This helps identify any discrepancies or areas for improvement."
+    },
+    {
+      "id": "monitoring-tools",
+      "heading": "Utilize Monitoring Tools",
+      "body": "Leverage monitoring tools specific to your AI platform to track performance over time. These tools can help identify trends and anomalies."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Performance Dashboard",
+      "detail": "Navigate to the performance dashboard of your AI platform. This may vary by platform; check your specific documentation for exact paths."
+    },
+    {
+      "title": "Run Test Cases",
+      "detail": "Create and execute test cases that simulate real-world scenarios for the AI agent. Document the outcomes for analysis."
+    },
+    {
+      "title": "Analyze Results",
+      "detail": "Review the results from the performance metrics and test cases to identify strengths and weaknesses in the AI agent's functionality."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What tools can I use to monitor my AI agent?",
+      "answer": "Common tools include TensorBoard, MLflow, and specific dashboards provided by your AI platform."
+    },
+    {
+      "question": "How often should I check my AI agent's performance?",
+      "answer": "Regular checks are recommended, ideally after significant updates or changes, and at scheduled intervals for ongoing monitoring."
+    },
+    {
+      "question": "What should I do if my AI agent performs poorly?",
+      "answer": "Investigate the causes by reviewing test cases, retraining the model, or adjusting parameters based on the insights gathered."
+    }
+  ],
+  "caveats": [
+    "Performance metrics can vary based on the type of AI model used.",
+    "Testing conditions should closely mimic real-world scenarios for accurate results."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker",
+    "Performance monitoring dashboard"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

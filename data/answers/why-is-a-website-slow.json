@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-a-website-slow",
+  "directAnswer": "A website may be slow due to factors like large image sizes, excessive HTTP requests, or poor server performance.",
+  "summary": "Understanding the reasons behind a slow website can help in optimizing performance and enhancing user experience.",
+  "sections": [
+    {
+      "id": "image-optimization",
+      "heading": "Image Optimization",
+      "body": "Large images can significantly slow down a website. Use tools to compress images without losing quality."
+    },
+    {
+      "id": "server-performance",
+      "heading": "Server Performance",
+      "body": "The speed of your web hosting server affects load times. Consider upgrading to a better hosting plan if necessary."
+    },
+    {
+      "id": "http-requests",
+      "heading": "Minimizing HTTP Requests",
+      "body": "Reduce the number of elements on a page to minimize HTTP requests, which can slow down loading times."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Image Sizes",
+      "detail": "Use tools like TinyPNG or ImageOptim to compress images before uploading them to your website."
+    },
+    {
+      "title": "Monitor Server Response Times",
+      "detail": "Use services like GTmetrix or Pingdom to check your server response times and identify if your hosting is the bottleneck."
+    },
+    {
+      "title": "Reduce Plugins",
+      "detail": "If using a CMS like WordPress, deactivate unnecessary plugins that may be slowing down your site."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How can I test my website's speed?",
+      "answer": "You can use tools like Google PageSpeed Insights or GTmetrix to analyze your website's speed and get recommendations."
+    },
+    {
+      "question": "What role do scripts play in website speed?",
+      "answer": "Excessive or poorly optimized scripts can slow down your website. Minify and combine scripts where possible."
+    },
+    {
+      "question": "Is a CDN helpful for website speed?",
+      "answer": "Yes, a Content Delivery Network (CDN) can distribute your content across various locations, improving load times for users globally."
+    }
+  ],
+  "caveats": [
+    "Website speed can also be affected by user internet connection and geographical location."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

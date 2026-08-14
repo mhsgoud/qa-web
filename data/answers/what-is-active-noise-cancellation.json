@@ -1,0 +1,49 @@
+{
+  "slug": "what-is-active-noise-cancellation",
+  "directAnswer": "Active noise cancellation (ANC) uses microphones and speakers to detect and counteract ambient sounds, creating a quieter listening environment.",
+  "summary": "ANC technology is commonly found in headphones and earbuds, enhancing audio experiences by reducing unwanted background noise.",
+  "sections": [
+    {
+      "id": "how-it-works",
+      "heading": "How Active Noise Cancellation Works",
+      "body": "ANC systems use built-in microphones to pick up external sounds. The device then generates sound waves that are the exact opposite (phase-inverted) of the detected noise, effectively canceling it out."
+    },
+    {
+      "id": "applications",
+      "heading": "Common Applications of ANC",
+      "body": "ANC is widely used in headphones, earbuds, and some smart devices. It is particularly beneficial in noisy environments such as airplanes, trains, and busy offices."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Activating ANC on Headphones",
+      "detail": "For most headphones, locate the ANC button or switch, often found on the earcup. Some models may require you to use a companion app to enable ANC features."
+    },
+    {
+      "title": "Adjusting ANC Levels",
+      "detail": "In certain headphones, you can adjust the level of noise cancellation through the app settings or by using touch controls on the device."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does active noise cancellation work with all types of noise?",
+      "answer": "ANC is most effective at reducing low-frequency sounds, such as engine noise, but may be less effective against high-frequency sounds like human voices."
+    },
+    {
+      "question": "Can I use ANC while listening to music?",
+      "answer": "Yes, ANC can be used while listening to music, enhancing the audio experience by minimizing background noise."
+    },
+    {
+      "question": "Are there any health concerns with using ANC devices?",
+      "answer": "Generally, ANC devices are safe for use, but prolonged exposure to high volumes can still pose risks to hearing health."
+    }
+  ],
+  "caveats": [
+    "ANC may not completely eliminate all background noise and can sometimes produce a slight pressure sensation in the ears."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

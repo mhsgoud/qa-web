@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-my-monitor-flickering",
+  "directAnswer": "Monitor flickering can be caused by a mismatched refresh rate or a faulty cable connection. Check both settings and connections to resolve the issue.",
+  "summary": "Monitor flickering can disrupt your viewing experience and may indicate underlying hardware issues or incorrect settings.",
+  "sections": [
+    {
+      "id": "common-causes",
+      "heading": "Common Causes of Monitor Flickering",
+      "body": "Flickering can occur due to several reasons, including incorrect refresh rate settings, damaged cables, or interference from nearby electronic devices."
+    },
+    {
+      "id": "how-to-fix",
+      "heading": "How to Fix Monitor Flickering",
+      "body": "Follow these steps to troubleshoot and resolve flickering issues."
+    },
+    {
+      "id": "when-to-seek-help",
+      "heading": "When to Seek Professional Help",
+      "body": "If the flickering persists after troubleshooting, it may indicate a hardware failure that requires professional assistance."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Refresh Rate Settings",
+      "detail": "On Windows, right-click on the desktop, select 'Display settings', scroll down to 'Advanced display settings', and ensure the refresh rate matches your monitor's specifications."
+    },
+    {
+      "title": "Inspect Cable Connections",
+      "detail": "Ensure that all cables connecting your monitor to the GPU are secure and undamaged. Consider replacing cables if they appear worn."
+    },
+    {
+      "title": "Update Graphics Drivers",
+      "detail": "Check for updates to your GPU drivers through the manufacturer's website or your operating system's update tool."
+    },
+    {
+      "title": "Test with Another Monitor",
+      "detail": "If possible, connect a different monitor to your computer to determine if the issue is with the monitor or the computer itself."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a faulty power supply cause monitor flickering?",
+      "answer": "Yes, an unstable power supply can lead to flickering. Ensure your power source is reliable and try connecting the monitor to a different outlet."
+    },
+    {
+      "question": "Is flickering more common with certain types of monitors?",
+      "answer": "Yes, older CRT monitors are more prone to flickering, while modern LCD and LED monitors typically have better stability."
+    },
+    {
+      "question": "What should I do if the flickering continues after trying these fixes?",
+      "answer": "If the issue persists, it may be a sign of hardware failure, and you should consult a professional technician for further diagnosis."
+    }
+  ],
+  "caveats": [
+    "Monitor flickering can also be influenced by external factors such as electromagnetic interference from nearby devices."
+  ],
+  "relatedToolIdeas": [
+    "Monitor + GPU match advisor"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

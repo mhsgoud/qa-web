@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-check-a-motherboard",
+  "directAnswer": "To check a motherboard, inspect the physical components for damage and verify compatibility with your CPU and RAM specifications.",
+  "summary": "This guide provides steps to check the condition and compatibility of your motherboard.",
+  "sections": [
+    {
+      "id": "physical-inspection",
+      "heading": "Physical Inspection",
+      "body": "Check for visible damage such as burnt traces, bulging capacitors, or broken connectors. Ensure that all components are properly seated."
+    },
+    {
+      "id": "compatibility-check",
+      "heading": "Compatibility Check",
+      "body": "Verify that the motherboard supports your CPU and RAM by checking the manufacturer's specifications or the motherboard manual."
+    },
+    {
+      "id": "diagnostic-tools",
+      "heading": "Using Diagnostic Tools",
+      "body": "Utilize software tools like CPU-Z or HWMonitor to gather information about your motherboard's specifications and health."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Turn off the PC and unplug it",
+      "detail": "Ensure the PC is completely powered down and unplugged from the wall to avoid electrical shock."
+    },
+    {
+      "title": "Open the case",
+      "detail": "Remove the side panel of your PC case to access the motherboard."
+    },
+    {
+      "title": "Inspect the motherboard",
+      "detail": "Look for any physical damage, such as burnt areas or swollen capacitors."
+    },
+    {
+      "title": "Check compatibility",
+      "detail": "Refer to the motherboard manual or manufacturer's website to confirm it supports your CPU and RAM."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I find damage on my motherboard?",
+      "answer": "If you find damage, consider replacing the motherboard or consulting a professional for repair options."
+    },
+    {
+      "question": "How can I find my motherboard model?",
+      "answer": "You can find your motherboard model by checking the documentation, using software like CPU-Z, or looking for the model number printed on the motherboard itself."
+    },
+    {
+      "question": "Do I need special tools to check my motherboard?",
+      "answer": "Basic tools like a screwdriver for opening the case and software tools for diagnostics are typically sufficient."
+    }
+  ],
+  "caveats": [
+    "Ensure you're grounded to prevent static damage to components.",
+    "Some motherboards may have specific diagnostic LEDs or beeping codes that indicate issues."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for motherboard compatibility"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

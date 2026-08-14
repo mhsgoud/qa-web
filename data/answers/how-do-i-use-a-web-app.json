@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-use-a-web-app",
+  "directAnswer": "To use a web app, simply open a web browser, navigate to the app's URL, and log in if required. Follow the on-screen prompts to utilize its features.",
+  "summary": "Web apps are accessible via browsers and offer various functionalities depending on their design. This guide provides steps to effectively use them.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "heading": "Getting Started",
+      "body": "Ensure you have a stable internet connection and a compatible web browser. Most web apps work best on updated versions of Chrome, Firefox, or Safari."
+    },
+    {
+      "id": "navigating-the-app",
+      "heading": "Navigating the App",
+      "body": "Familiarize yourself with the interface. Look for menus, toolbars, and help sections that guide you through the app's features."
+    },
+    {
+      "id": "common-features",
+      "heading": "Common Features",
+      "body": "Web apps often include features like user accounts, data storage, and collaboration tools. Check the app's documentation for specific functionalities."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open the Web App",
+      "detail": "Enter the web app's URL in your browser's address bar and press Enter."
+    },
+    {
+      "title": "Log In",
+      "detail": "If the app requires authentication, enter your credentials and click 'Log In'."
+    },
+    {
+      "title": "Explore Features",
+      "detail": "Navigate through the app using the menu options to discover its features."
+    },
+    {
+      "title": "Save Your Work",
+      "detail": "If applicable, ensure to save any changes or data by clicking the 'Save' button."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I forget my password?",
+      "answer": "Use the 'Forgot Password' link on the login page to reset your password."
+    },
+    {
+      "question": "Can I use a web app on my mobile device?",
+      "answer": "Yes, most web apps are responsive and can be accessed on mobile devices, though the experience may vary."
+    },
+    {
+      "question": "Are there any browser requirements?",
+      "answer": "While most modern browsers work, it's best to use the latest version of Chrome, Firefox, or Safari for optimal performance."
+    }
+  ],
+  "caveats": [
+    "Some web apps may have limited functionality on older browsers.",
+    "Performance can vary based on internet speed and server load."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for web app usage"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

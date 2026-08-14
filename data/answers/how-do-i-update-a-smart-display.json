@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-update-a-smart-display",
+  "directAnswer": "To update a smart display, navigate to the settings menu and select 'System Updates' or 'Software Updates' depending on your device. Follow the on-screen instructions to complete the update.",
+  "summary": "Updating your smart display ensures it has the latest features and security improvements. The process may vary slightly based on the brand and model.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Smart Display Updates",
+      "body": "Smart displays receive updates to enhance functionality, fix bugs, and improve security. Regular updates are important for optimal performance."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Update Steps",
+      "body": "The steps to update your smart display can differ by manufacturer. Below are common steps for popular brands."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Nest Hub",
+      "detail": "Open the Google Home app, select your device, tap on the settings gear icon, scroll to 'Device information', and select 'System update'."
+    },
+    {
+      "title": "Amazon Echo Show",
+      "detail": "Swipe down from the top of the screen, select 'Settings', go to 'Device Options', and tap 'Check for Software Updates'."
+    },
+    {
+      "title": "Lenovo Smart Display",
+      "detail": "Open the settings menu by swiping from the right, tap 'About', and then select 'System updates'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should I update my smart display?",
+      "answer": "It's recommended to check for updates at least once a month, or enable automatic updates if available."
+    },
+    {
+      "question": "What should I do if my smart display fails to update?",
+      "answer": "Try restarting your device and checking your internet connection. If the issue persists, consult the manufacturer's support page."
+    },
+    {
+      "question": "Will updating my smart display erase my settings?",
+      "answer": "No, updates typically do not erase user settings or data. However, it's always good to back up important information."
+    }
+  ],
+  "caveats": [
+    "Ensure your device is connected to Wi-Fi during the update process.",
+    "Some updates may require device rebooting, which can take several minutes."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for smart display maintenance"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

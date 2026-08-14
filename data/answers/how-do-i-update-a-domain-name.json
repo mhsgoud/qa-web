@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-domain-name",
+  "directAnswer": "To update a domain name, access your domain registrar's control panel and modify the domain settings as needed.",
+  "summary": "Updating a domain name involves changing settings such as DNS records or contact information through your domain registrar's interface.",
+  "sections": [
+    {
+      "id": "domain-settings",
+      "heading": "Accessing Domain Settings",
+      "body": "Log in to your domain registrar account and navigate to the 'Domains' section. Here, you will find a list of your registered domains."
+    },
+    {
+      "id": "modifying-dns",
+      "heading": "Modifying DNS Records",
+      "body": "Select the domain you wish to update and look for an option labeled 'DNS Settings' or 'Manage DNS'. You can add, edit, or remove DNS records as needed."
+    },
+    {
+      "id": "updating-contact-info",
+      "heading": "Updating Contact Information",
+      "body": "In the domain management area, find the 'Contact Information' section. Update the necessary fields and save the changes."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Log In to Your Registrar",
+      "detail": "Visit your domain registrar's website and log in with your account credentials."
+    },
+    {
+      "title": "Navigate to Domain Management",
+      "detail": "Go to the 'Domains' section, and select the domain you want to update."
+    },
+    {
+      "title": "Make Your Changes",
+      "detail": "Edit the DNS records or contact information as required, then save your changes."
+    },
+    {
+      "title": "Verify Changes",
+      "detail": "Check that the updates have been applied correctly by reviewing the domain settings again."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does it take for DNS changes to propagate?",
+      "answer": "DNS changes can take anywhere from a few minutes to 48 hours to fully propagate across the internet."
+    },
+    {
+      "question": "Can I change my domain name completely?",
+      "answer": "To change your domain name entirely, you will need to register a new domain and set up redirects from the old domain."
+    },
+    {
+      "question": "What if I forget my registrar login details?",
+      "answer": "Use the 'Forgot Password' feature on your registrar's login page to reset your password or recover your account."
+    }
+  ],
+  "caveats": [
+    "Some registrars may have different interfaces or terminology; consult their help documentation if needed.",
+    "Be cautious when modifying DNS settings as incorrect entries can lead to website downtime."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for DNS Record Updates"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

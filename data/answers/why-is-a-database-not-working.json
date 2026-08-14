@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-a-database-not-working",
+  "directAnswer": "A database may not be working due to connectivity issues, misconfigurations, or resource limitations.",
+  "summary": "Understanding the common reasons for database failures can help in troubleshooting effectively.",
+  "sections": [
+    {
+      "id": "common-issues",
+      "heading": "Common Issues",
+      "body": "Frequent problems include network connectivity issues, incorrect database credentials, and server resource constraints."
+    },
+    {
+      "id": "platform-specific-issues",
+      "heading": "Platform-Specific Issues",
+      "body": "For example, in MySQL, check if the server is running using the command 'systemctl status mysql'. In PostgreSQL, ensure the service is active with 'service postgresql status'."
+    },
+    {
+      "id": "configuration-checks",
+      "heading": "Configuration Checks",
+      "body": "Verify your database configuration files for any incorrect settings, such as port numbers or authentication methods."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Database Service Status",
+      "detail": "Use commands like 'systemctl status [database_service]' to ensure the database service is running."
+    },
+    {
+      "title": "Review Connection Settings",
+      "detail": "Confirm that the connection string includes the correct hostname, port, username, and password."
+    },
+    {
+      "title": "Inspect Resource Usage",
+      "detail": "Check server resources (CPU, RAM) to ensure the database has enough capacity to operate."
+    },
+    {
+      "title": "Examine Logs",
+      "detail": "Review database logs for any error messages or warnings that could indicate the source of the problem."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the database service won't start?",
+      "answer": "Check the logs for errors, ensure there are no port conflicts, and verify that all required dependencies are installed."
+    },
+    {
+      "question": "How can I test if my application can connect to the database?",
+      "answer": "Use a database client or command line tool to attempt a connection using the same credentials and settings as your application."
+    },
+    {
+      "question": "What are some common error messages I might encounter?",
+      "answer": "Common errors include 'Access denied for user', 'Cannot connect to server', and 'Database not found'. Each indicates a different issue that needs to be addressed."
+    }
+  ],
+  "caveats": [
+    "Database issues can stem from multiple sources, and troubleshooting may require a systematic approach."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

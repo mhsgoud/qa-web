@@ -1,0 +1,58 @@
+{
+  "slug": "what-is-end-to-end-encryption",
+  "directAnswer": "End-to-end encryption (E2EE) ensures that only the communicating users can read the messages, preventing third parties from accessing the data while it's transmitted.",
+  "summary": "End-to-end encryption is a method of data transmission where only the sender and recipient can access the content, enhancing privacy and security.",
+  "sections": [
+    {
+      "id": "how-e2ee-works",
+      "heading": "How Does End-to-End Encryption Work?",
+      "body": "E2EE uses cryptographic keys to encrypt messages on the sender's device and decrypt them on the recipient's device. This means that even if the data is intercepted during transmission, it remains unreadable without the proper keys."
+    },
+    {
+      "id": "platforms-supporting-e2ee",
+      "heading": "Platforms Supporting End-to-End Encryption",
+      "body": "Many popular messaging apps, such as WhatsApp, Signal, and Telegram, implement E2EE. However, the specific implementation and settings may vary by platform and version."
+    },
+    {
+      "id": "limitations-of-e2ee",
+      "heading": "Limitations of End-to-End Encryption",
+      "body": "While E2EE significantly enhances security, it does not protect against endpoint vulnerabilities. If a device is compromised, the data can still be accessed by unauthorized users."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Enable E2EE in WhatsApp",
+      "detail": "E2EE is enabled by default in WhatsApp. To verify, go to a chat, tap on the contact's name, and check for 'Encryption' under 'Encryption Info'."
+    },
+    {
+      "title": "Enable E2EE in Signal",
+      "detail": "Signal automatically uses E2EE for all messages. To confirm, check the lock icon next to the message input field."
+    },
+    {
+      "title": "Enable E2EE in Telegram",
+      "detail": "E2EE is not enabled by default in Telegram. Use 'Secret Chats' for E2EE, which can be started by selecting 'New Secret Chat' from the menu."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can end-to-end encryption be broken?",
+      "answer": "While E2EE is designed to be secure, vulnerabilities can exist in the implementation or through social engineering attacks that compromise user devices."
+    },
+    {
+      "question": "Is end-to-end encryption legal?",
+      "answer": "The legality of E2EE varies by country. Some governments may impose restrictions or require backdoors for law enforcement access."
+    },
+    {
+      "question": "What happens if I lose my device?",
+      "answer": "If you lose your device and have E2EE enabled, the data on that device is secure. However, you may lose access to your messages unless you have a backup."
+    }
+  ],
+  "caveats": [
+    "End-to-end encryption does not protect against malware or phishing attacks that can compromise user devices."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

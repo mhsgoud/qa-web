@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-content-delivery-network",
+  "directAnswer": "To set up a content delivery network (CDN), choose a CDN provider, configure your domain settings, and integrate the CDN with your web application.",
+  "summary": "This guide provides steps to set up a CDN, including platform-specific instructions and common pitfalls.",
+  "sections": [
+    {
+      "id": "choosing-a-cdn-provider",
+      "heading": "Choosing a CDN Provider",
+      "body": "Select a CDN provider based on your needs, such as performance, pricing, and geographic coverage. Popular options include Cloudflare, AWS CloudFront, and Akamai."
+    },
+    {
+      "id": "configuring-domain-settings",
+      "heading": "Configuring Domain Settings",
+      "body": "Update your DNS settings to point to the CDN. This typically involves changing the CNAME records to direct traffic through the CDN."
+    },
+    {
+      "id": "integrating-with-web-application",
+      "heading": "Integrating with Your Web Application",
+      "body": "Follow the CDN provider's documentation to integrate the CDN with your web application. This may involve modifying your code to reference CDN-hosted assets."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Sign Up for a CDN Service",
+      "detail": "Create an account with your chosen CDN provider and select a plan that fits your needs."
+    },
+    {
+      "title": "Update DNS Records",
+      "detail": "Access your domain registrar's settings and update your DNS records to include the CDN's CNAME."
+    },
+    {
+      "title": "Configure CDN Settings",
+      "detail": "Log into your CDN provider's dashboard and configure caching rules, SSL settings, and any other necessary options."
+    },
+    {
+      "title": "Test Your Setup",
+      "detail": "Use tools like Pingdom or GTmetrix to verify that your CDN is serving content correctly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a CDN?",
+      "answer": "A CDN is a network of servers distributed across various locations to deliver web content more efficiently to users."
+    },
+    {
+      "question": "How does a CDN improve website performance?",
+      "answer": "A CDN reduces latency by serving content from the nearest server to the user, which speeds up load times."
+    },
+    {
+      "question": "Can I use multiple CDNs?",
+      "answer": "Yes, you can use multiple CDNs for different types of content, but this may require additional configuration."
+    }
+  ],
+  "caveats": [
+    "Ensure your CDN provider supports the specific features you need, such as dynamic content delivery.",
+    "Be aware of potential caching issues when updating content, as changes may not reflect immediately."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for CDN setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

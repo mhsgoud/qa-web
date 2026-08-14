@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-check-a-power-supply",
+  "directAnswer": "To check a power supply, use a multimeter to measure the output voltages on the connectors while the power supply is powered on, or use a power supply tester for a simpler approach.",
+  "summary": "This guide provides steps to check the functionality of a power supply unit (PSU) in a PC, ensuring it delivers the correct voltages.",
+  "sections": [
+    {
+      "id": "understanding-power-supply",
+      "heading": "Understanding Power Supply Outputs",
+      "body": "A power supply converts AC power from the wall outlet into DC power for the computer components. The main voltages to check are +3.3V, +5V, and +12V."
+    },
+    {
+      "id": "using-a-multimeter",
+      "heading": "Using a Multimeter",
+      "body": "A multimeter can measure the voltage output of the PSU. Ensure the PSU is connected and powered on, then carefully probe the appropriate pins."
+    },
+    {
+      "id": "using-a-power-supply-tester",
+      "heading": "Using a Power Supply Tester",
+      "body": "A power supply tester is a device that simplifies checking a PSU. Connect the PSU cables to the tester and power it on to see the status of the outputs."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prepare the Multimeter",
+      "detail": "Set the multimeter to the DC voltage setting and ensure it is functioning correctly."
+    },
+    {
+      "title": "Identify Connector Pins",
+      "detail": "Refer to the PSU pinout diagram to identify the +3.3V, +5V, and +12V pins on the main connector."
+    },
+    {
+      "title": "Measure Voltage Outputs",
+      "detail": "With the PSU powered on, touch the multimeter probes to the corresponding pins to measure the voltage."
+    },
+    {
+      "title": "Check with a Power Supply Tester",
+      "detail": "If using a power supply tester, connect the PSU cables and power it on to view the output status on the tester display."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the voltages are incorrect?",
+      "answer": "If the voltages are outside the acceptable range, the power supply may be faulty and should be replaced."
+    },
+    {
+      "question": "Can I check a power supply without removing it from the case?",
+      "answer": "Yes, you can check a power supply while it's installed, but ensure you take necessary precautions to avoid short circuits."
+    },
+    {
+      "question": "What are the signs of a failing power supply?",
+      "answer": "Common signs include random shutdowns, failure to power on, or unusual noises coming from the PSU."
+    }
+  ],
+  "caveats": [
+    "Always take safety precautions when working with electrical components to avoid shock or damage.",
+    "If you're not comfortable working with electrical components, consider seeking professional help."
+  ],
+  "relatedToolIdeas": [
+    "Power supply tester",
+    "Multimeter"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

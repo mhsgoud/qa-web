@@ -1,0 +1,56 @@
+{
+  "slug": "how-do-i-connect-a-primary-key",
+  "directAnswer": "To connect a primary key, define it in your database schema and ensure it is unique for each record in the table.",
+  "summary": "Connecting a primary key is essential for maintaining data integrity in relational databases.",
+  "sections": [
+    {
+      "id": "understanding-primary-keys",
+      "heading": "Understanding Primary Keys",
+      "body": "A primary key is a unique identifier for a record in a database table. It ensures that each record can be uniquely retrieved and prevents duplicate entries."
+    },
+    {
+      "id": "defining-primary-keys",
+      "heading": "Defining Primary Keys",
+      "body": "In most database management systems (DBMS), you can define a primary key during the table creation process or alter an existing table to add a primary key."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Steps to connect a primary key may vary by DBMS. Below are examples for MySQL and PostgreSQL."
+    }
+  ],
+  "steps": [
+    {
+      "title": "MySQL",
+      "detail": "Use the command: 'ALTER TABLE table_name ADD PRIMARY KEY (column_name);' or define it during table creation with 'CREATE TABLE table_name (column_name INT PRIMARY KEY, ...);'."
+    },
+    {
+      "title": "PostgreSQL",
+      "detail": "Use the command: 'ALTER TABLE table_name ADD PRIMARY KEY (column_name);' or define it during table creation with 'CREATE TABLE table_name (column_name SERIAL PRIMARY KEY, ...);'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a primary key be null?",
+      "answer": "No, a primary key must always contain a value and cannot be null."
+    },
+    {
+      "question": "Can a table have multiple primary keys?",
+      "answer": "No, a table can only have one primary key, but it can consist of multiple columns (composite key)."
+    },
+    {
+      "question": "What happens if I try to insert a duplicate primary key?",
+      "answer": "The database will reject the insert operation and return an error indicating a violation of the primary key constraint."
+    }
+  ],
+  "caveats": [
+    "Ensure that the primary key is defined on a column that will always have unique values.",
+    "Changing a primary key after it has been set may require additional steps to maintain data integrity."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for database design best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

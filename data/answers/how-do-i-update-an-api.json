@@ -1,0 +1,65 @@
+{
+  "slug": "how-do-i-update-an-api",
+  "directAnswer": "To update an API, modify the API's codebase and versioning, then deploy the changes to your server or cloud service.",
+  "summary": "Updating an API involves code changes, version management, and deployment to ensure users have access to the latest features and fixes.",
+  "sections": [
+    {
+      "id": "api-versioning",
+      "heading": "API Versioning",
+      "body": "It's crucial to manage API versions to avoid breaking changes for users. Use semantic versioning (e.g., v1.0.0) to indicate updates."
+    },
+    {
+      "id": "code-modifications",
+      "heading": "Code Modifications",
+      "body": "Make necessary changes in your API codebase. Ensure to test these changes locally before deploying."
+    },
+    {
+      "id": "deployment-process",
+      "heading": "Deployment Process",
+      "body": "Deploy the updated API to your server. The process may vary based on your hosting environment (e.g., AWS, Heroku)."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Update the Code",
+      "detail": "Make changes to your API codebase in your preferred IDE or code editor."
+    },
+    {
+      "title": "Test Locally",
+      "detail": "Run unit tests and integration tests to ensure the new code works as expected."
+    },
+    {
+      "title": "Version the API",
+      "detail": "Update the version number in your API documentation and code."
+    },
+    {
+      "title": "Deploy Changes",
+      "detail": "Use your deployment tool (e.g., Git, CI/CD pipeline) to push the changes to your server."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my API update breaks existing functionality?",
+      "answer": "Revert to the previous version of the API and investigate the issues before re-deploying."
+    },
+    {
+      "question": "How do I inform users about the API update?",
+      "answer": "Use changelogs, newsletters, or direct notifications to inform users about significant changes."
+    },
+    {
+      "question": "Can I update an API without downtime?",
+      "answer": "Yes, consider using blue-green deployments or canary releases to minimize downtime."
+    }
+  ],
+  "caveats": [
+    "Ensure backward compatibility to avoid breaking existing integrations.",
+    "Test thoroughly in a staging environment before production deployment."
+  ],
+  "relatedToolIdeas": [
+    "API documentation generator",
+    "Version control system integration",
+    "Automated testing tools"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

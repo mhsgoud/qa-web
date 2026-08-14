@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-ray-tracing-not-working",
+  "directAnswer": "Ray tracing may not work due to outdated drivers, insufficient hardware capabilities, or incorrect game settings.",
+  "summary": "This guide addresses common reasons ray tracing may not function properly and offers troubleshooting steps.",
+  "sections": [
+    {
+      "id": "driver-issues",
+      "heading": "Check Your Graphics Drivers",
+      "body": "Ensure that your graphics drivers are up to date. For NVIDIA, use GeForce Experience to check for updates. For AMD, use the Radeon Software."
+    },
+    {
+      "id": "hardware-requirements",
+      "heading": "Verify Hardware Compatibility",
+      "body": "Ray tracing requires specific GPU models, such as NVIDIA's RTX series or AMD's RX 6000 series. Confirm that your GPU supports ray tracing."
+    },
+    {
+      "id": "game-settings",
+      "heading": "Adjust Game Settings",
+      "body": "In the game settings, ensure that ray tracing is enabled. The path may vary by game, but it is typically found under Graphics or Video settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Update Graphics Drivers",
+      "detail": "Open GeForce Experience or Radeon Software and check for driver updates. Install any available updates."
+    },
+    {
+      "title": "Check GPU Model",
+      "detail": "Open your system information or use software like GPU-Z to confirm your GPU model supports ray tracing."
+    },
+    {
+      "title": "Enable Ray Tracing in Game",
+      "detail": "Access the game's settings menu, navigate to Graphics or Video settings, and enable ray tracing. Save changes and restart the game."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What games support ray tracing?",
+      "answer": "Many modern games support ray tracing, including titles like 'Cyberpunk 2077', 'Control', and 'Minecraft'."
+    },
+    {
+      "question": "Can I run ray tracing on older GPUs?",
+      "answer": "Older GPUs without dedicated ray tracing cores will not support ray tracing effectively, resulting in poor performance or inability to enable the feature."
+    },
+    {
+      "question": "Does ray tracing affect performance?",
+      "answer": "Yes, enabling ray tracing can significantly impact performance, often requiring lower settings or resolution for smooth gameplay."
+    }
+  ],
+  "caveats": [
+    "Performance may vary based on the specific hardware and game optimizations."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

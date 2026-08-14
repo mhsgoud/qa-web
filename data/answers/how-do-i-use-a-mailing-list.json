@@ -1,0 +1,68 @@
+{
+  "slug": "how-do-i-use-a-mailing-list",
+  "directAnswer": "To use a mailing list, create an account with a mailing list service, then import or add contacts and design your email campaigns.",
+  "summary": "This guide provides steps to effectively manage a mailing list using popular platforms, along with common pitfalls to avoid.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "heading": "Getting Started with Mailing Lists",
+      "body": "Choose a mailing list service like Mailchimp, Constant Contact, or Sendinblue. Create an account and familiarize yourself with the dashboard."
+    },
+    {
+      "id": "importing-contacts",
+      "heading": "Importing Contacts",
+      "body": "Gather your contacts in a CSV file or manually add them through the platform's interface. Ensure you have permission to email these contacts."
+    },
+    {
+      "id": "creating-campaigns",
+      "heading": "Creating and Sending Campaigns",
+      "body": "Use the platform's campaign creation tools to design your email. Customize the layout, add content, and schedule the send time."
+    },
+    {
+      "id": "analyzing-results",
+      "heading": "Analyzing Results",
+      "body": "After sending, monitor open rates, click rates, and other metrics provided by the platform to gauge the effectiveness of your campaigns."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Sign Up for a Mailing List Service",
+      "detail": "Visit the website of your chosen mailing list service and create an account by providing your email and setting a password."
+    },
+    {
+      "title": "Import Your Contacts",
+      "detail": "Navigate to the contacts section of the dashboard and follow the prompts to upload your CSV file or add contacts manually."
+    },
+    {
+      "title": "Create a New Campaign",
+      "detail": "Select the 'Create Campaign' option, choose a template, and customize your email content before scheduling or sending it."
+    },
+    {
+      "title": "Review Campaign Performance",
+      "detail": "Access the analytics section to view metrics like open rates and click-through rates after your campaign has been sent."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the best platform for beginners?",
+      "answer": "Mailchimp is often recommended for beginners due to its user-friendly interface and free tier for smaller lists."
+    },
+    {
+      "question": "How do I ensure my emails don't go to spam?",
+      "answer": "Use a verified domain, avoid spammy language, and encourage recipients to whitelist your email address."
+    },
+    {
+      "question": "Can I segment my mailing list?",
+      "answer": "Yes, most mailing list services allow you to segment your list based on various criteria, such as demographics or engagement levels."
+    }
+  ],
+  "caveats": [
+    "Ensure compliance with GDPR and CAN-SPAM regulations when collecting and using email addresses."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for email marketing best practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

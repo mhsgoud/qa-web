@@ -1,0 +1,53 @@
+{
+  "slug": "how-do-i-find-my-subnet-mask",
+  "directAnswer": "You can find your subnet mask in the network settings of your device or by using command line tools like 'ipconfig' on Windows or 'ifconfig' on macOS/Linux.",
+  "summary": "Finding your subnet mask is essential for understanding your network configuration and connectivity.",
+  "sections": [
+    {
+      "id": "understanding-subnet-mask",
+      "heading": "Understanding Subnet Mask",
+      "body": "A subnet mask is used to divide an IP address into network and host portions. It typically appears in the format of four octets (e.g., 255.255.255.0)."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The method to find your subnet mask can vary depending on your operating system."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "Open Command Prompt and type 'ipconfig'. Look for 'Subnet Mask' under your active network connection."
+    },
+    {
+      "title": "macOS",
+      "detail": "Open System Preferences, go to 'Network', select your active connection, and find the subnet mask in the details."
+    },
+    {
+      "title": "Linux",
+      "detail": "Open a terminal and type 'ifconfig' or 'ip addr'. Look for 'netmask' in the output for your active network interface."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What does a subnet mask do?",
+      "answer": "A subnet mask defines the range of IP addresses that can be used within a network and helps route traffic appropriately."
+    },
+    {
+      "question": "Can I change my subnet mask?",
+      "answer": "Yes, you can change your subnet mask in your network settings, but ensure it aligns with your network configuration to avoid connectivity issues."
+    },
+    {
+      "question": "Is the subnet mask the same as the IP address?",
+      "answer": "No, the subnet mask is different from the IP address; it is used to determine which part of the IP address is the network and which part is the host."
+    }
+  ],
+  "caveats": [
+    "The method to find the subnet mask may vary based on the version of the operating system."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

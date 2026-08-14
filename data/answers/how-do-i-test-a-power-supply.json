@@ -1,0 +1,61 @@
+{
+  "slug": "how-do-i-test-a-power-supply",
+  "directAnswer": "To test a power supply, you can use a multimeter to measure the output voltages or a power supply tester to check if it is functioning correctly.",
+  "summary": "Testing a power supply ensures it delivers the correct voltages to your PC components, which is crucial for system stability.",
+  "sections": [
+    {
+      "id": "understanding-power-supply",
+      "heading": "Understanding Power Supply Outputs",
+      "body": "A standard ATX power supply has several outputs, including +3.3V, +5V, and +12V. Each voltage should be measured against the ground wire (usually black)."
+    },
+    {
+      "id": "using-a-multimeter",
+      "heading": "Using a Multimeter",
+      "body": "Set your multimeter to the appropriate DC voltage range. Insert the red probe into the voltage socket and the black probe into a ground socket. Power on the supply and check the readings."
+    },
+    {
+      "id": "using-a-power-supply-tester",
+      "heading": "Using a Power Supply Tester",
+      "body": "Connect the power supply's 24-pin connector to the tester. Turn on the power supply. The tester will indicate whether the voltages are within the acceptable range."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prepare Your Tools",
+      "detail": "Gather a multimeter or a power supply tester, and ensure you have access to the power supply's connectors."
+    },
+    {
+      "title": "Check Voltage Outputs",
+      "detail": "For a multimeter, connect the probes to the appropriate pins and power on the supply. For a tester, connect and power on to read the results."
+    },
+    {
+      "title": "Evaluate Results",
+      "detail": "Compare the measured voltages against the standard values: +3.3V, +5V, +12V. If they are outside the ±5% tolerance, the power supply may be faulty."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the power supply fails the test?",
+      "answer": "Consider replacing the power supply, as continued use may damage other components."
+    },
+    {
+      "question": "Can I test a power supply without a load?",
+      "answer": "Yes, but testing under load can provide more accurate results, as some power supplies may only function correctly when connected to components."
+    },
+    {
+      "question": "Is it safe to test a power supply while it's plugged in?",
+      "answer": "Yes, but ensure you take proper safety precautions to avoid electric shock, such as handling the multimeter probes carefully."
+    }
+  ],
+  "caveats": [
+    "Ensure the power supply is disconnected from the wall outlet before connecting or disconnecting any wires.",
+    "Testing methods may vary slightly depending on the power supply model."
+  ],
+  "relatedToolIdeas": [
+    "Power supply tester",
+    "Multimeter",
+    "PC hardware diagnostic tools"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

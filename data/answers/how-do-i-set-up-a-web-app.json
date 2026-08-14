@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-set-up-a-web-app",
+  "directAnswer": "To set up a web app, choose a technology stack, configure your development environment, and deploy your application to a server.",
+  "summary": "This guide provides steps to set up a web application, including platform-specific instructions and common pitfalls.",
+  "sections": [
+    {
+      "id": "technology-stack",
+      "heading": "Choose a Technology Stack",
+      "body": "Select the programming languages, frameworks, and databases that best suit your app's requirements. Common stacks include MERN (MongoDB, Express, React, Node.js) and LAMP (Linux, Apache, MySQL, PHP)."
+    },
+    {
+      "id": "development-environment",
+      "heading": "Set Up Your Development Environment",
+      "body": "Install necessary tools and libraries. For example, if using Node.js, install Node and npm. Use an IDE or text editor like Visual Studio Code for coding."
+    },
+    {
+      "id": "deployment",
+      "heading": "Deploy Your Web App",
+      "body": "Choose a hosting provider (e.g., AWS, Heroku, Vercel) and follow their deployment instructions. Ensure your app is configured for production."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Select Your Stack",
+      "detail": "Decide on the front-end and back-end technologies you will use based on your app's needs."
+    },
+    {
+      "title": "Install Development Tools",
+      "detail": "Download and install the necessary software, such as Node.js, Git, and your chosen IDE."
+    },
+    {
+      "title": "Build Your Application",
+      "detail": "Write the code for your web app, ensuring to test frequently during development."
+    },
+    {
+      "title": "Deploy to Hosting Service",
+      "detail": "Follow the specific deployment instructions provided by your chosen hosting service to get your app live."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a technology stack?",
+      "answer": "A technology stack is a combination of programming languages, frameworks, and tools used to build and run a web application."
+    },
+    {
+      "question": "How do I choose a hosting provider?",
+      "answer": "Consider factors such as scalability, pricing, support, and ease of use when selecting a hosting provider."
+    },
+    {
+      "question": "What should I do if my app doesn't work after deployment?",
+      "answer": "Check the server logs for errors, ensure all environment variables are set correctly, and verify that your database is properly connected."
+    }
+  ],
+  "caveats": [
+    "Different hosting providers may have unique deployment processes.",
+    "Ensure all dependencies are compatible with your chosen stack."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for web app setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

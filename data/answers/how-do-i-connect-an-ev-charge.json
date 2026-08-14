@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-connect-an-ev-charge",
+  "directAnswer": "To connect an EV charger, plug the charging cable into the EV's charging port and then into the charger. Ensure the charger is properly installed and powered.",
+  "summary": "Connecting an EV charger is a straightforward process, but requires attention to installation and safety guidelines.",
+  "sections": [
+    {
+      "id": "installation-requirements",
+      "heading": "Installation Requirements",
+      "body": "Ensure your home has a dedicated circuit for the EV charger. Check local regulations for any permits or inspections needed."
+    },
+    {
+      "id": "charging-process",
+      "heading": "Charging Process",
+      "body": "Once the charger is installed, simply plug the charging cable into your EV's port and the charger. Monitor the charging status through your vehicle or the charger interface."
+    },
+    {
+      "id": "safety-considerations",
+      "heading": "Safety Considerations",
+      "body": "Always follow manufacturer instructions for both the EV and charger. Avoid using damaged cables and ensure connections are secure."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Charger Compatibility",
+      "detail": "Verify that the charger is compatible with your EV model before installation."
+    },
+    {
+      "title": "Install the Charger",
+      "detail": "Follow the manufacturer's instructions for installing the charger, ensuring it is connected to a dedicated circuit."
+    },
+    {
+      "title": "Connect the Charging Cable",
+      "detail": "Plug the charging cable into your EV's charging port and then into the wall-mounted charger."
+    },
+    {
+      "title": "Start Charging",
+      "detail": "Initiate the charging process either automatically or via the charger interface, and monitor the charging status."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a standard outlet to charge my EV?",
+      "answer": "While you can use a standard outlet, it is not recommended for regular charging due to slower charging speeds and potential safety hazards."
+    },
+    {
+      "question": "What should I do if my EV won't charge?",
+      "answer": "Check the connections, ensure the charger is powered, and consult your vehicle's manual for troubleshooting steps."
+    },
+    {
+      "question": "How long does it take to charge an EV?",
+      "answer": "Charging time varies by vehicle and charger type, but typically ranges from 30 minutes to several hours."
+    }
+  ],
+  "caveats": [
+    "Always consult a licensed electrician for installation.",
+    "Local regulations may vary regarding EV charger installations."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

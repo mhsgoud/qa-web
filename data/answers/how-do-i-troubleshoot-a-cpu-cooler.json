@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-troubleshoot-a-cpu-cooler",
+  "directAnswer": "Check the cooler's connections and ensure it's properly seated on the CPU. Monitor temperatures using software to identify if overheating occurs.",
+  "summary": "Troubleshooting a CPU cooler involves checking physical connections, ensuring proper seating, and monitoring system temperatures.",
+  "sections": [
+    {
+      "id": "cooler-connection-check",
+      "heading": "Check the Connections",
+      "body": "Ensure that the CPU cooler's power connector is securely attached to the motherboard. Verify that any fan headers are connected properly."
+    },
+    {
+      "id": "seating-and-thermal-paste",
+      "heading": "Inspect Cooler Seating and Thermal Paste",
+      "body": "Remove the cooler and check for even contact with the CPU. Reapply thermal paste if necessary, ensuring it's a thin, even layer."
+    },
+    {
+      "id": "monitoring-temperatures",
+      "heading": "Monitor CPU Temperatures",
+      "body": "Use software like HWMonitor or Core Temp to check CPU temperatures. If temperatures exceed 80°C under load, further investigation is needed."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Power Off and Unplug",
+      "detail": "Turn off your PC and unplug it from the power source before inspecting the cooler."
+    },
+    {
+      "title": "Check Power Connection",
+      "detail": "Locate the CPU fan power connector on the motherboard and ensure it's firmly connected."
+    },
+    {
+      "title": "Inspect Cooler Installation",
+      "detail": "Remove the cooler and check for proper installation and thermal paste application."
+    },
+    {
+      "title": "Test with Monitoring Software",
+      "detail": "Boot the system and use monitoring software to check CPU temperatures under load."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the cooler fan isn't spinning?",
+      "answer": "Check the power connection to the fan and ensure that the fan is not obstructed by dust or debris."
+    },
+    {
+      "question": "How do I know if my CPU is overheating?",
+      "answer": "If your CPU temperatures exceed 80°C during heavy usage, it may be overheating. Monitor temperatures using software tools."
+    },
+    {
+      "question": "Can I use too much thermal paste?",
+      "answer": "Yes, using too much thermal paste can lead to poor heat transfer and overheating. A pea-sized amount is usually sufficient."
+    }
+  ],
+  "caveats": [
+    "Different CPU coolers may have specific installation requirements. Refer to the manufacturer's manual for guidance.",
+    "Ensure your system is powered off before performing any hardware checks to avoid damage."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for CPU cooler maintenance"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

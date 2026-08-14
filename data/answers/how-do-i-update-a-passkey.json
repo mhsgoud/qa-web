@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-passkey",
+  "directAnswer": "To update a passkey, access your account settings where passkeys are managed, and follow the prompts to modify or replace the existing passkey.",
+  "summary": "Updating a passkey involves accessing account settings and following the specific prompts for your platform.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "body": "Passkeys are a secure method for authentication. Keeping them updated is crucial for maintaining account security."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to update a passkey can vary depending on the platform you are using."
+    },
+    {
+      "id": "common-issues",
+      "heading": "Common Issues",
+      "body": "Users may encounter difficulties if they forget their current passkey or if the platform's interface has changed."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Account Settings",
+      "detail": "Log in to your account and navigate to the security or account settings section. This may vary by platform."
+    },
+    {
+      "title": "Locate Passkey Management",
+      "detail": "Find the option for managing passkeys. This may be labeled as 'Passkeys', 'Security Keys', or similar."
+    },
+    {
+      "title": "Update Passkey",
+      "detail": "Follow the prompts to update your passkey. You may need to enter the current passkey and then create a new one."
+    },
+    {
+      "title": "Save Changes",
+      "detail": "Ensure you save any changes made to your passkey settings before exiting the account settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I forget my current passkey?",
+      "answer": "If you forget your current passkey, look for a recovery option on your platform, or contact customer support for assistance."
+    },
+    {
+      "question": "Can I use the same passkey for multiple accounts?",
+      "answer": "It's not recommended to use the same passkey across multiple accounts for security reasons."
+    },
+    {
+      "question": "How often should I update my passkey?",
+      "answer": "It's advisable to update your passkey regularly, at least every few months, or immediately if you suspect any security breach."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on the platform and its version.",
+    "Ensure you have access to your current passkey before attempting to update it."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for secure passkey management"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

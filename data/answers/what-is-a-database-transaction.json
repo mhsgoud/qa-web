@@ -1,0 +1,57 @@
+{
+  "slug": "what-is-a-database-transaction",
+  "directAnswer": "A database transaction is a sequence of operations performed as a single logical unit of work, ensuring data integrity and consistency. Transactions follow the ACID properties: Atomicity, Consistency, Isolation, and Durability.",
+  "summary": "Understanding database transactions is crucial for maintaining data integrity in applications that perform multiple operations on a database.",
+  "sections": [
+    {
+      "id": "what-is-acid",
+      "heading": "Understanding ACID Properties",
+      "body": "ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure that transactions are processed reliably. Atomicity guarantees that all operations in a transaction are completed successfully or none at all. Consistency ensures that a transaction brings the database from one valid state to another. Isolation ensures that transactions do not interfere with each other. Durability guarantees that once a transaction is committed, it remains so, even in the event of a system failure."
+    },
+    {
+      "id": "transaction-examples",
+      "heading": "Examples of Database Transactions",
+      "body": "Common examples of transactions include transferring money between bank accounts, where both the debit and credit operations must succeed or fail together, and updating inventory levels in an e-commerce application, where stock must be adjusted only if the purchase is successful."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Begin a Transaction",
+      "detail": "Use the command 'BEGIN TRANSACTION;' to start a transaction in SQL."
+    },
+    {
+      "title": "Perform Operations",
+      "detail": "Execute your database operations (INSERT, UPDATE, DELETE) that you want to include in the transaction."
+    },
+    {
+      "title": "Commit the Transaction",
+      "detail": "If all operations are successful, use 'COMMIT;' to save the changes to the database."
+    },
+    {
+      "title": "Rollback if Necessary",
+      "detail": "If any operation fails, use 'ROLLBACK;' to revert all changes made during the transaction."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if a transaction fails?",
+      "answer": "If a transaction fails, all changes made during that transaction are rolled back, ensuring that the database remains in a consistent state."
+    },
+    {
+      "question": "Can transactions be nested?",
+      "answer": "Yes, some database systems support nested transactions, but the behavior may vary by system. Always check your database documentation for specifics."
+    },
+    {
+      "question": "How do transactions affect performance?",
+      "answer": "Transactions may introduce some overhead due to locking mechanisms, but they are essential for ensuring data integrity, especially in systems with high concurrency."
+    }
+  ],
+  "caveats": [
+    "Not all database systems implement transactions in the same way; refer to specific documentation for your database."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

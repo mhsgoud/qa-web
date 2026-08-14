@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-update-cloud-storage-private",
+  "directAnswer": "To update your cloud storage privacy settings, navigate to the settings or account section of your cloud storage provider and adjust the sharing permissions accordingly.",
+  "summary": "This guide provides steps to update privacy settings for cloud storage across various platforms.",
+  "sections": [
+    {
+      "id": "cloud-storage-privacy-settings",
+      "heading": "Accessing Privacy Settings",
+      "body": "Most cloud storage services have a dedicated section for managing privacy settings. Look for options labeled 'Settings', 'Account', or 'Privacy'."
+    },
+    {
+      "id": "adjusting-permissions",
+      "heading": "Adjusting Sharing Permissions",
+      "body": "You can modify who has access to your files by changing the sharing options. This may include making files private, sharing with specific users, or adjusting link sharing settings."
+    },
+    {
+      "id": "platform-specific-guidelines",
+      "heading": "Platform-Specific Guidelines",
+      "body": "Different cloud storage providers have unique interfaces. Refer to the specific instructions for your provider for accurate steps."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Drive",
+      "detail": "Go to Google Drive, right-click on the file or folder, select 'Share', and adjust the sharing settings to 'Restricted'."
+    },
+    {
+      "title": "Dropbox",
+      "detail": "In Dropbox, click on the file, select 'Share', and change the link settings to 'Only people with access'."
+    },
+    {
+      "title": "OneDrive",
+      "detail": "Open OneDrive, select the file, click on 'Share', and set the sharing option to 'Specific people' or 'Only me'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I make my entire cloud storage account private?",
+      "answer": "Yes, you can set your entire account to private by adjusting the default sharing settings in your account settings."
+    },
+    {
+      "question": "What happens to shared files if I change their privacy settings?",
+      "answer": "If you change a file's privacy settings to private, any users who previously had access will lose their permissions."
+    },
+    {
+      "question": "Are there any limitations on file sharing?",
+      "answer": "Yes, some cloud storage services may have limits on the number of users you can share files with or the types of sharing options available."
+    }
+  ],
+  "caveats": [
+    "Privacy settings may vary by version and updates of the cloud storage service.",
+    "Ensure you are aware of the implications of changing sharing settings, as it may affect collaboration."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

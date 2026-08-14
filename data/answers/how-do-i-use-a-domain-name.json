@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-use-a-domain-name",
+  "directAnswer": "To use a domain name, you need to register it with a domain registrar and then configure it to point to your web hosting service or server.",
+  "summary": "This guide explains how to effectively use a domain name by registering it and connecting it to a web hosting service.",
+  "sections": [
+    {
+      "id": "registration",
+      "heading": "Registering Your Domain Name",
+      "body": "Choose a domain registrar (like GoDaddy, Namecheap, or Google Domains) and search for your desired domain name. Once you find an available name, follow the registrar's process to purchase and register it."
+    },
+    {
+      "id": "connecting-hosting",
+      "heading": "Connecting to Web Hosting",
+      "body": "After registering your domain, log into your domain registrar account and find the DNS settings. Update the nameservers to those provided by your web hosting service (e.g., Bluehost, SiteGround)."
+    },
+    {
+      "id": "configuring-dns",
+      "heading": "Configuring DNS Records",
+      "body": "If you need custom configurations (like subdomains or email), access the DNS management section in your registrar's dashboard to add or edit records such as A, CNAME, or MX records."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Choose a Domain Registrar",
+      "detail": "Select a reputable domain registrar and create an account."
+    },
+    {
+      "title": "Search for Your Domain",
+      "detail": "Use the registrar's search tool to check the availability of your desired domain name."
+    },
+    {
+      "title": "Register the Domain",
+      "detail": "Complete the registration process by providing your details and making the payment."
+    },
+    {
+      "title": "Update DNS Settings",
+      "detail": "Log into your registrar account and set the nameservers to those provided by your hosting provider."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does it take for a domain to become active?",
+      "answer": "Typically, it takes a few minutes to 48 hours for DNS changes to propagate globally."
+    },
+    {
+      "question": "Can I change my domain registrar later?",
+      "answer": "Yes, you can transfer your domain to another registrar, but it may take several days to complete the transfer process."
+    },
+    {
+      "question": "What if my desired domain name is taken?",
+      "answer": "You can try variations of the name, use different extensions (like .net or .co), or contact the current owner to negotiate a purchase."
+    }
+  ],
+  "caveats": [
+    "Domain registration is usually annual; ensure to renew it on time to avoid losing ownership.",
+    "DNS changes can take time to propagate, so changes may not be immediate."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for domain registration and setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

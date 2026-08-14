@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-use-a-web-cookie",
+  "directAnswer": "To use a web cookie, you need to set it in the browser using JavaScript or configure it on the server-side. Once set, the cookie can store user preferences or session data.",
+  "summary": "Web cookies are small data files stored on a user's device that help websites remember information about the user.",
+  "sections": [
+    {
+      "id": "what-are-cookies",
+      "heading": "What are Cookies?",
+      "body": "Cookies are small text files created by websites that are stored on your device. They can store various types of information, such as user preferences, login sessions, and tracking data."
+    },
+    {
+      "id": "setting-cookies",
+      "heading": "How to Set Cookies",
+      "body": "You can set cookies using JavaScript in the browser or through server-side languages like PHP, Python, or Node.js. The method may vary based on the platform."
+    },
+    {
+      "id": "accessing-cookies",
+      "heading": "How to Access Cookies",
+      "body": "Cookies can be accessed via JavaScript using `document.cookie` in the browser. On the server-side, you can retrieve cookies from the request headers."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Setting a Cookie in JavaScript",
+      "detail": "Use `document.cookie = 'key=value; expires=expiration_date; path=/';` to set a cookie in the browser."
+    },
+    {
+      "title": "Accessing a Cookie in JavaScript",
+      "detail": "Retrieve cookies using `let cookies = document.cookie;` which returns a string of all cookies."
+    },
+    {
+      "title": "Setting a Cookie in PHP",
+      "detail": "Use `setcookie('key', 'value', time() + 3600, '/');` to set a cookie in PHP."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the maximum size of a cookie?",
+      "answer": "Most browsers limit cookies to 4KB in size."
+    },
+    {
+      "question": "Can cookies be deleted?",
+      "answer": "Yes, cookies can be deleted by setting their expiration date to a past date or using browser settings."
+    },
+    {
+      "question": "What happens if cookies are disabled in the browser?",
+      "answer": "If cookies are disabled, websites may not function properly, and user preferences may not be saved."
+    }
+  ],
+  "caveats": [
+    "Cookies can pose privacy concerns; always inform users about cookie usage.",
+    "Different browsers may handle cookies differently, especially regarding third-party cookies."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for cookie management"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

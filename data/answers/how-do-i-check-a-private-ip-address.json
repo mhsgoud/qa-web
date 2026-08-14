@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-check-a-private-ip-address",
+  "directAnswer": "You can check your private IP address by using the command prompt or terminal on your device. The method varies slightly depending on the operating system.",
+  "summary": "This guide provides steps to check your private IP address across different platforms.",
+  "sections": [
+    {
+      "id": "windows",
+      "heading": "Checking on Windows",
+      "body": "On Windows, you can find your private IP address using the Command Prompt."
+    },
+    {
+      "id": "macos",
+      "heading": "Checking on macOS",
+      "body": "On macOS, you can find your private IP address through the Terminal or System Preferences."
+    },
+    {
+      "id": "linux",
+      "heading": "Checking on Linux",
+      "body": "On Linux, you can use the terminal to check your private IP address."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows Command Prompt",
+      "detail": "Open Command Prompt and type 'ipconfig'. Look for the 'IPv4 Address' under your active network connection."
+    },
+    {
+      "title": "macOS System Preferences",
+      "detail": "Go to System Preferences > Network. Select your active network connection and look for the IP address displayed."
+    },
+    {
+      "title": "macOS Terminal",
+      "detail": "Open Terminal and type 'ifconfig'. Look for 'inet' under your active network interface."
+    },
+    {
+      "title": "Linux Terminal",
+      "detail": "Open a terminal and type 'ip addr show'. Look for 'inet' under your active network interface."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a private IP address?",
+      "answer": "A private IP address is an IP address that is used within a private network and is not routable on the internet."
+    },
+    {
+      "question": "How do I find my public IP address?",
+      "answer": "You can find your public IP address by searching 'what is my IP' in a web browser or using a service like 'whatismyip.com'."
+    },
+    {
+      "question": "Can I change my private IP address?",
+      "answer": "Yes, you can change your private IP address by modifying your network settings or by restarting your router."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly based on the version of the operating system.",
+    "Ensure you are connected to the network to retrieve the private IP address."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for network troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

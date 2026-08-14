@@ -1,0 +1,69 @@
+{
+  "slug": "how-do-i-troubleshoot-a-virtual-machine",
+  "directAnswer": "Start by checking the VM's resource allocation and logs for errors. Ensure that the hypervisor is functioning correctly and that the VM settings are configured properly.",
+  "summary": "This guide provides steps to troubleshoot common issues with virtual machines across various platforms.",
+  "sections": [
+    {
+      "id": "check-resource-allocation",
+      "heading": "Check Resource Allocation",
+      "body": "Ensure that the VM has sufficient CPU, memory, and disk space allocated. Adjust settings if necessary."
+    },
+    {
+      "id": "review-logs",
+      "heading": "Review Logs",
+      "body": "Examine the VM and hypervisor logs for any error messages or warnings that might indicate the source of the problem."
+    },
+    {
+      "id": "network-configuration",
+      "heading": "Verify Network Configuration",
+      "body": "Check the network settings to ensure that the VM is connected to the correct network and that firewall settings are not blocking access."
+    },
+    {
+      "id": "hypervisor-status",
+      "heading": "Check Hypervisor Status",
+      "body": "Make sure the hypervisor is running correctly. Restart the hypervisor if necessary and check for updates."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access VM Settings",
+      "detail": "Open your virtualization platform (e.g., VMware, Hyper-V, VirtualBox) and navigate to the VM settings."
+    },
+    {
+      "title": "Monitor Resource Usage",
+      "detail": "Use the performance monitoring tools provided by your virtualization platform to check CPU, memory, and disk usage."
+    },
+    {
+      "title": "Inspect Network Settings",
+      "detail": "Ensure that the VM's network adapter is enabled and configured correctly for the desired network type (NAT, Bridged, etc.)."
+    },
+    {
+      "title": "Check for Software Updates",
+      "detail": "Ensure that both the hypervisor and the VM's operating system are up to date with the latest patches."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the VM won't start?",
+      "answer": "Check the VM logs for error messages, ensure that the hypervisor is running, and verify that there are no resource constraints."
+    },
+    {
+      "question": "How can I recover a VM that is unresponsive?",
+      "answer": "Try to force stop the VM through the hypervisor and then restart it. If that fails, consider restoring from a backup."
+    },
+    {
+      "question": "Are there tools to help with VM troubleshooting?",
+      "answer": "Yes, many virtualization platforms offer built-in diagnostic tools and logs to help identify issues."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly depending on the virtualization platform and version used.",
+    "Always back up your VM before making significant changes."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for VM health checks"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

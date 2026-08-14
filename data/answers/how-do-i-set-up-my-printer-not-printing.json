@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-set-up-my-printer-not-printing",
+  "directAnswer": "Ensure your printer is properly connected and has enough ink or toner. Check the printer settings on your computer to confirm the correct printer is selected.",
+  "summary": "This guide provides steps to troubleshoot and set up your printer to resolve printing issues.",
+  "sections": [
+    {
+      "id": "printer-connection",
+      "heading": "Check Printer Connection",
+      "body": "Verify that the printer is powered on and connected to your computer or network. For USB printers, ensure the cable is securely plugged in. For network printers, check the Wi-Fi connection."
+    },
+    {
+      "id": "ink-toner-check",
+      "heading": "Check Ink or Toner Levels",
+      "body": "Make sure your printer has sufficient ink or toner. Most printers have a built-in utility to check ink levels, accessible through the printer's control panel or software."
+    },
+    {
+      "id": "printer-settings",
+      "heading": "Verify Printer Settings",
+      "body": "On your computer, go to the printer settings in your operating system. Make sure the correct printer is set as the default printer and that it is not set to 'offline'."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Physical Connections",
+      "detail": "Ensure the printer is plugged into a power source and the USB or network cable is connected securely."
+    },
+    {
+      "title": "Inspect Ink or Toner Levels",
+      "detail": "Access the printer's control panel or software and navigate to the ink/toner status section to confirm levels."
+    },
+    {
+      "title": "Set Default Printer",
+      "detail": "On Windows, go to Settings > Devices > Printers & scanners. On macOS, go to System Preferences > Printers & Scanners. Select your printer and set it as default."
+    },
+    {
+      "title": "Run Printer Troubleshooter",
+      "detail": "On Windows, navigate to Settings > Update & Security > Troubleshoot > Additional troubleshooters > Printer. Follow the prompts to diagnose issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my printer is still not printing after following these steps?",
+      "answer": "Try restarting both your printer and computer. If the issue persists, consult the printer's manual for specific troubleshooting steps."
+    },
+    {
+      "question": "How can I tell if my printer is connected to Wi-Fi?",
+      "answer": "Check the printer's display panel for a Wi-Fi icon or access the printer's settings menu to view network status."
+    },
+    {
+      "question": "Why is my printer showing as offline?",
+      "answer": "This can occur if the printer is not connected to the network or if there are issues with the printer driver. Ensure the printer is powered on and connected."
+    }
+  ],
+  "caveats": [
+    "Steps may vary slightly depending on the printer model and operating system version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

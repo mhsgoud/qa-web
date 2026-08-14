@@ -1,0 +1,54 @@
+{
+  "slug": "what-is-the-difference-between-usb-c-and-thunderbolt",
+  "directAnswer": "USB-C is a connector type, while Thunderbolt is a protocol that can use the USB-C connector for high-speed data transfer and video output.",
+  "summary": "Understanding the distinction between USB-C and Thunderbolt can help users maximize their device capabilities and compatibility.",
+  "sections": [
+    {
+      "id": "usb-c-connector",
+      "heading": "USB-C Connector",
+      "body": "USB-C is a universal connector that supports various protocols, including USB 3.1, USB 3.2, and USB Power Delivery. It allows for reversible plug orientation and can deliver power up to 100W."
+    },
+    {
+      "id": "thunderbolt-technology",
+      "heading": "Thunderbolt Technology",
+      "body": "Thunderbolt, developed by Intel, supports data transfer speeds up to 40 Gbps and can daisy-chain multiple devices. Thunderbolt 3 and 4 use the USB-C connector but offer additional features like support for multiple 4K displays."
+    },
+    {
+      "id": "compatibility",
+      "heading": "Compatibility",
+      "body": "While all Thunderbolt ports are USB-C compatible, not all USB-C ports support Thunderbolt. Check device specifications to ensure compatibility."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Device Specifications",
+      "detail": "To determine if your USB-C port supports Thunderbolt, refer to the manufacturer's documentation or the device's technical specifications."
+    },
+    {
+      "title": "Identify Cable Type",
+      "detail": "Use a Thunderbolt-certified cable for optimal performance. USB-C cables may not support Thunderbolt speeds."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a USB-C charger with a Thunderbolt device?",
+      "answer": "Yes, you can use a USB-C charger with a Thunderbolt device, but charging speed may vary based on the charger’s wattage."
+    },
+    {
+      "question": "What devices typically use Thunderbolt?",
+      "answer": "Thunderbolt is commonly found in high-performance laptops, external GPUs, and docking stations."
+    },
+    {
+      "question": "Are there different versions of Thunderbolt?",
+      "answer": "Yes, there are several versions of Thunderbolt, with Thunderbolt 3 and 4 being the most widely used, both utilizing the USB-C connector."
+    }
+  ],
+  "caveats": [
+    "Not all USB-C ports support Thunderbolt, so it's important to verify compatibility before purchasing accessories."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

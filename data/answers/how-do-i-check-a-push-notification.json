@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-check-a-push-notification",
+  "directAnswer": "To check a push notification, swipe down from the top of your screen (on mobile) or look in the notification center (on desktop).",
+  "summary": "Push notifications can be accessed easily on most devices, but the method varies by platform.",
+  "sections": [
+    {
+      "id": "mobile-devices",
+      "heading": "Mobile Devices",
+      "body": "On iOS and Android, push notifications appear at the top of the screen. You can swipe down to view all notifications."
+    },
+    {
+      "id": "desktop-devices",
+      "heading": "Desktop Devices",
+      "body": "On Windows, click the notification icon in the taskbar. On macOS, click the Notification Center icon in the top right corner."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Notifications on Mobile",
+      "detail": "Swipe down from the top of your screen to reveal the notification panel."
+    },
+    {
+      "title": "Access Notifications on Windows",
+      "detail": "Click the notification icon in the taskbar, usually located at the bottom right corner."
+    },
+    {
+      "title": "Access Notifications on macOS",
+      "detail": "Click the Notification Center icon in the top right corner of your screen."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I don't see any notifications?",
+      "answer": "Ensure that notifications are enabled for the app in your device's settings."
+    },
+    {
+      "question": "Can I customize notification settings?",
+      "answer": "Yes, you can customize notification settings in the app's settings or your device's notification settings."
+    },
+    {
+      "question": "Are there different types of notifications?",
+      "answer": "Yes, notifications can include alerts, banners, and badges, depending on the platform and app settings."
+    }
+  ],
+  "caveats": [
+    "Notification settings may vary by app and operating system version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for managing notifications"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

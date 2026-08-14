@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-use-a-passkey",
+  "directAnswer": "To use a passkey, you need to set it up in your device's settings and then use it for authentication when prompted by supported apps or websites.",
+  "summary": "Passkeys provide a secure and convenient way to authenticate without traditional passwords.",
+  "sections": [
+    {
+      "id": "what-is-a-passkey",
+      "heading": "What is a Passkey?",
+      "body": "A passkey is a cryptographic credential that replaces traditional passwords, allowing for secure authentication across devices and platforms."
+    },
+    {
+      "id": "setting-up-passkeys",
+      "heading": "Setting Up Passkeys",
+      "body": "To set up a passkey, navigate to your device's security settings and follow the prompts to create a new passkey."
+    },
+    {
+      "id": "using-passkeys",
+      "heading": "Using Passkeys for Authentication",
+      "body": "When logging into a supported service, select the option to use a passkey and follow the on-screen instructions to authenticate."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access Security Settings",
+      "detail": "Open your device's settings app and navigate to the security section. The path may vary by operating system."
+    },
+    {
+      "title": "Create a Passkey",
+      "detail": "Select the option to add a new passkey and follow the prompts to create one. Ensure your device is updated to the latest OS version."
+    },
+    {
+      "title": "Authenticate with Passkey",
+      "detail": "When prompted at a login screen, choose the passkey option and follow the instructions to complete the authentication."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use passkeys on multiple devices?",
+      "answer": "Yes, passkeys can be synced across devices if you are using the same account and have enabled sync in your settings."
+    },
+    {
+      "question": "What happens if I lose my device?",
+      "answer": "If you lose your device, you may need to use recovery options provided by your service provider to regain access to your accounts."
+    },
+    {
+      "question": "Are all websites compatible with passkeys?",
+      "answer": "No, not all websites currently support passkeys. Check the website's authentication options for compatibility."
+    }
+  ],
+  "caveats": [
+    "Passkey support may vary by platform and service provider.",
+    "Ensure your device is running the latest software version for optimal compatibility."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for setting up passkeys"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-troubleshoot-a-database",
+  "directAnswer": "Start by checking the database logs for errors and ensure that the database service is running. If issues persist, verify connection strings and configurations.",
+  "summary": "This guide provides steps to troubleshoot common database issues, including checking logs, verifying configurations, and testing connections.",
+  "sections": [
+    {
+      "id": "check-logs",
+      "heading": "Check Database Logs",
+      "body": "Database logs often provide detailed information about errors and performance issues. Review the logs for any error messages or warnings that can guide your troubleshooting efforts."
+    },
+    {
+      "id": "verify-connection",
+      "heading": "Verify Database Connections",
+      "body": "Ensure that your application can connect to the database. Check connection strings, firewall settings, and network configurations to rule out connectivity issues."
+    },
+    {
+      "id": "monitor-performance",
+      "heading": "Monitor Database Performance",
+      "body": "Use performance monitoring tools to analyze query performance and resource usage. Look for slow queries or high resource consumption that may indicate underlying issues."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Database Service Status",
+      "detail": "Ensure that the database service is running. For example, on MySQL, use the command `systemctl status mysql`."
+    },
+    {
+      "title": "Review Error Logs",
+      "detail": "Access the error logs. For PostgreSQL, logs can usually be found in `/var/log/postgresql/`."
+    },
+    {
+      "title": "Test Connection Strings",
+      "detail": "Use a database client to test the connection string. Ensure that the username, password, and host are correct."
+    },
+    {
+      "title": "Analyze Slow Queries",
+      "detail": "Enable slow query logging to identify and optimize poorly performing queries. For MySQL, set `slow_query_log = ON` in the configuration."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the database service won't start?",
+      "answer": "Check the logs for any error messages, ensure there are no port conflicts, and verify that all necessary dependencies are installed."
+    },
+    {
+      "question": "How can I improve database performance?",
+      "answer": "Consider indexing frequently queried columns, optimizing queries, and ensuring that the database is properly configured for your workload."
+    },
+    {
+      "question": "What tools can help with database troubleshooting?",
+      "answer": "Tools like pgAdmin for PostgreSQL, MySQL Workbench for MySQL, and database monitoring solutions like New Relic can assist in troubleshooting."
+    }
+  ],
+  "caveats": [
+    "Troubleshooting steps may vary depending on the database management system (DBMS) in use."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

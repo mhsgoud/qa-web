@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-my-usb-drive-not-recognized",
+  "directAnswer": "Your USB drive may not be recognized due to issues with the drive itself, the USB port, or the device's drivers. Checking these components can help identify the problem.",
+  "summary": "This guide provides troubleshooting steps for when a USB drive is not recognized by your computer or device.",
+  "sections": [
+    {
+      "id": "check-usb-port",
+      "heading": "Check the USB Port",
+      "body": "Try connecting the USB drive to a different USB port or another computer to rule out a faulty port."
+    },
+    {
+      "id": "update-drivers",
+      "heading": "Update Device Drivers",
+      "body": "Ensure that your device's USB drivers are up to date. This can usually be done through the Device Manager on Windows or System Preferences on macOS."
+    },
+    {
+      "id": "format-drive",
+      "heading": "Format the USB Drive",
+      "body": "If the drive is detected but not accessible, it may need to be formatted. Note that formatting will erase all data on the drive."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Test the USB Drive",
+      "detail": "Insert the USB drive into a different device to see if it is recognized there."
+    },
+    {
+      "title": "Check Disk Management (Windows)",
+      "detail": "Right-click on 'This PC' > 'Manage' > 'Disk Management' to see if the USB drive appears. If it does, you may need to assign a drive letter."
+    },
+    {
+      "title": "Check System Information (macOS)",
+      "detail": "Go to 'Apple Menu' > 'About This Mac' > 'System Report' > 'USB' to see if the USB drive is listed."
+    },
+    {
+      "title": "Reinstall USB Drivers",
+      "detail": "In Device Manager, uninstall the USB drivers and restart your computer to reinstall them automatically."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the USB drive is still not recognized?",
+      "answer": "Try using a different USB cable or adapter, and ensure that the drive is properly formatted."
+    },
+    {
+      "question": "Can a damaged USB drive be repaired?",
+      "answer": "In some cases, data recovery software may help, but physical damage often requires professional recovery services."
+    },
+    {
+      "question": "Why does my USB drive show up but is not accessible?",
+      "answer": "This may indicate file system corruption, and you may need to format the drive to use it again."
+    }
+  ],
+  "caveats": [
+    "If the USB drive is physically damaged, it may not be recoverable."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

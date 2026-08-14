@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-check-a-public-ip-address",
+  "directAnswer": "You can check your public IP address by visiting websites like 'whatismyip.com' or using the command line with 'curl ifconfig.me'.",
+  "summary": "Checking your public IP address can be done easily through various online services or command line tools.",
+  "sections": [
+    {
+      "id": "online-tools",
+      "heading": "Using Online Tools",
+      "body": "Several websites provide a quick way to find your public IP address. Simply navigate to one of these sites, and your IP will be displayed prominently."
+    },
+    {
+      "id": "command-line",
+      "heading": "Using Command Line",
+      "body": "You can also use command line tools to find your public IP address. This method is useful for users who prefer terminal commands."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Visit an IP Lookup Website",
+      "detail": "Open your web browser and go to a site like 'whatismyip.com' or 'ipinfo.io'. Your public IP address will be displayed on the homepage."
+    },
+    {
+      "title": "Use Command Line on Windows",
+      "detail": "Open Command Prompt and type 'curl ifconfig.me' or 'nslookup myip.opendns.com resolver1.opendns.com' to retrieve your public IP address."
+    },
+    {
+      "title": "Use Command Line on macOS/Linux",
+      "detail": "Open Terminal and type 'curl ifconfig.me' or 'dig +short myip.opendns.com @resolver1.opendns.com' to find your public IP address."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a public IP address?",
+      "answer": "A public IP address is an address that is assigned to your network by your Internet Service Provider (ISP), allowing your network to communicate with other networks over the internet."
+    },
+    {
+      "question": "Can I change my public IP address?",
+      "answer": "Yes, you can change your public IP address by restarting your router or contacting your ISP, although not all ISPs provide dynamic IP addresses."
+    },
+    {
+      "question": "Why might my public IP address change?",
+      "answer": "Your public IP address may change due to your ISP's policies, such as using dynamic IP addressing, or if you switch networks."
+    }
+  ],
+  "caveats": [
+    "Public IP addresses can be dynamic, meaning they may change periodically.",
+    "Some network configurations may require specific tools or methods to check the public IP."
+  ],
+  "relatedToolIdeas": [
+    "IP address lookup tool",
+    "Network diagnostics checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

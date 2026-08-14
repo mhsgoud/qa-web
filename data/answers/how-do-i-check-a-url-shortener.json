@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-check-a-url-shortener",
+  "directAnswer": "To check a URL shortener, you can use online tools that reveal the original URL or check the URL's destination directly in your browser.",
+  "summary": "This guide provides steps to verify shortened URLs and highlights important considerations.",
+  "sections": [
+    {
+      "id": "understanding-url-shorteners",
+      "heading": "Understanding URL Shorteners",
+      "body": "URL shorteners create a compact version of a long URL. They can obscure the destination, making it essential to verify them before clicking."
+    },
+    {
+      "id": "using-online-tools",
+      "heading": "Using Online Tools",
+      "body": "Several online services can help you expand shortened URLs safely without visiting them directly."
+    },
+    {
+      "id": "manual-checking",
+      "heading": "Manual Checking",
+      "body": "You can also manually check the destination by copying the shortened URL and pasting it into a URL expander tool."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Use a URL expander service",
+      "detail": "Visit a URL expander website, such as CheckShortURL or Unshorten.It, and paste the shortened URL into the provided field."
+    },
+    {
+      "title": "Check the link in your browser",
+      "detail": "Copy the shortened URL, paste it into your browser's address bar, and add a '+' at the end (for bit.ly links) to see the original URL."
+    },
+    {
+      "title": "Use browser extensions",
+      "detail": "Install a browser extension designed to preview shortened URLs before clicking, such as 'Unshorten.link' for Chrome."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are all URL shorteners safe?",
+      "answer": "Not all URL shorteners are safe; some may lead to malicious sites. Always verify before clicking."
+    },
+    {
+      "question": "Can I trust URL expander tools?",
+      "answer": "Most URL expander tools are reliable, but ensure you use well-known services to avoid phishing attempts."
+    },
+    {
+      "question": "What should I do if a shortened URL looks suspicious?",
+      "answer": "Avoid clicking on it and use a URL expander tool to check the destination safely."
+    }
+  ],
+  "caveats": [
+    "Some URL shorteners may not allow expansion for privacy reasons.",
+    "URL shorteners can change their policies, affecting how links are handled."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for safe browsing practices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

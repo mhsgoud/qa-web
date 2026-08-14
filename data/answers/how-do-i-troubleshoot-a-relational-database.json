@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-troubleshoot-a-relational-database",
+  "directAnswer": "Start by checking the database connection settings and reviewing error logs for specific issues. Use diagnostic queries to identify performance bottlenecks.",
+  "summary": "Troubleshooting a relational database involves a systematic approach to identify and resolve issues related to connectivity, performance, and data integrity.",
+  "sections": [
+    {
+      "id": "connection-issues",
+      "heading": "Check Connection Issues",
+      "body": "Verify the database connection string, including the hostname, port, username, and password. Ensure the database service is running and accessible."
+    },
+    {
+      "id": "performance-bottlenecks",
+      "heading": "Identify Performance Bottlenecks",
+      "body": "Run diagnostic queries to analyze slow queries, check for missing indexes, and monitor resource usage. Use tools like EXPLAIN to understand query execution plans."
+    },
+    {
+      "id": "data-integrity",
+      "heading": "Check Data Integrity",
+      "body": "Examine the data for inconsistencies or corruption. Use built-in database tools to validate data integrity and run consistency checks."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Verify Database Service",
+      "detail": "Ensure the database server is running. Use commands like 'systemctl status <database_service>' on Linux or check the services panel on Windows."
+    },
+    {
+      "title": "Review Error Logs",
+      "detail": "Access the database error logs, typically found in the installation directory, to identify any specific errors or warnings."
+    },
+    {
+      "title": "Run Diagnostic Queries",
+      "detail": "Execute queries such as 'SHOW PROCESSLIST;' or 'SELECT * FROM pg_stat_activity;' to monitor active connections and query performance."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What tools can I use to monitor database performance?",
+      "answer": "Consider using database monitoring tools like pgAdmin for PostgreSQL, SQL Server Management Studio for SQL Server, or MySQL Workbench."
+    },
+    {
+      "question": "How can I identify slow queries?",
+      "answer": "Use the database's query logging feature or performance analysis tools to track query execution times and identify slow queries."
+    },
+    {
+      "question": "What should I do if the database is corrupted?",
+      "answer": "Attempt to restore from backups, and use repair tools specific to your database system to recover corrupted data."
+    }
+  ],
+  "caveats": [
+    "Ensure you have appropriate permissions to access logs and run diagnostic queries.",
+    "Database troubleshooting steps may vary depending on the specific database system (e.g., MySQL, PostgreSQL, SQL Server)."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Troubleshooting checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

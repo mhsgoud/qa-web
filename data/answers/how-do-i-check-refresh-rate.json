@@ -1,0 +1,50 @@
+{
+  "slug": "how-do-i-check-refresh-rate",
+  "directAnswer": "You can check your monitor's refresh rate through your operating system's display settings. The steps vary slightly between Windows and macOS.",
+  "summary": "This guide provides steps to check the refresh rate of your monitor on different operating systems.",
+  "sections": [
+    {
+      "id": "windows-steps",
+      "heading": "Checking Refresh Rate on Windows",
+      "body": "To check the refresh rate on Windows, you can access the display settings through the Settings app."
+    },
+    {
+      "id": "macos-steps",
+      "heading": "Checking Refresh Rate on macOS",
+      "body": "On macOS, you can find the refresh rate settings in the Displays section of System Preferences."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows 10/11",
+      "detail": "Right-click on the desktop, select 'Display settings', scroll down to 'Advanced display settings', and check the refresh rate under 'Refresh rate'."
+    },
+    {
+      "title": "macOS",
+      "detail": "Click the Apple menu, go to 'System Preferences', select 'Displays', and hold the Option key while clicking 'Scaled' to see the refresh rate options."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a refresh rate?",
+      "answer": "The refresh rate refers to how many times per second the display updates the image, measured in Hertz (Hz)."
+    },
+    {
+      "question": "Can I change my monitor's refresh rate?",
+      "answer": "Yes, if your monitor supports higher refresh rates, you can change it in the display settings, but it must be compatible with your graphics card."
+    },
+    {
+      "question": "Why is my refresh rate lower than expected?",
+      "answer": "A lower refresh rate may occur due to limitations in the cable used, the monitor's settings, or the capabilities of your graphics card."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on your operating system version and hardware configuration."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for monitor settings"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

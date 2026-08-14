@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-update-a-database-index",
+  "directAnswer": "To update a database index, you typically need to drop the existing index and create a new one with the desired changes. The exact commands depend on your database system.",
+  "summary": "Updating a database index involves modifying the index structure to improve performance or accommodate changes in the underlying data model.",
+  "sections": [
+    {
+      "id": "understanding-indexes",
+      "heading": "Understanding Indexes",
+      "body": "Indexes are used to speed up the retrieval of rows from a database table. Knowing when and how to update them is crucial for maintaining database performance."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to update an index can differ based on the database system you are using, such as MySQL, PostgreSQL, or SQL Server."
+    }
+  ],
+  "steps": [
+    {
+      "title": "MySQL",
+      "detail": "Use the 'DROP INDEX index_name ON table_name;' command to remove the existing index, followed by 'CREATE INDEX index_name ON table_name(column_name);' to create a new one."
+    },
+    {
+      "title": "PostgreSQL",
+      "detail": "Execute 'DROP INDEX index_name;' to remove the existing index, then use 'CREATE INDEX index_name ON table_name(column_name);' to create a new index."
+    },
+    {
+      "title": "SQL Server",
+      "detail": "Run 'DROP INDEX index_name ON table_name;' to drop the index, then use 'CREATE INDEX index_name ON table_name(column_name);' to create the updated index."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I drop an index?",
+      "answer": "Dropping an index can temporarily slow down queries that rely on it, as the database will have to perform full table scans instead."
+    },
+    {
+      "question": "Can I modify an existing index without dropping it?",
+      "answer": "Most databases do not allow modifications to an index directly; you must drop and recreate it with the desired changes."
+    },
+    {
+      "question": "How can I check the performance impact of an index update?",
+      "answer": "You can analyze query performance before and after the index update using query execution plans or performance monitoring tools."
+    }
+  ],
+  "caveats": [
+    "Ensure you have proper backups before dropping indexes, as this can affect data retrieval.",
+    "Be aware of the locking behavior of your database when updating indexes, as it may impact concurrent transactions."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for index optimization"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

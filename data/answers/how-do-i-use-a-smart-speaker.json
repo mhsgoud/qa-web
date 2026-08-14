@@ -1,0 +1,60 @@
+{
+  "slug": "how-do-i-use-a-smart-speaker",
+  "directAnswer": "To use a smart speaker, simply plug it in, connect it to your Wi-Fi network via the companion app, and use voice commands to interact with it.",
+  "summary": "This guide provides essential steps to set up and use a smart speaker effectively.",
+  "sections": [
+    {
+      "id": "setup",
+      "heading": "Setting Up Your Smart Speaker",
+      "body": "Begin by placing your smart speaker in a central location. Download the corresponding app for your device (e.g., Amazon Alexa, Google Home) and follow the in-app instructions to connect the speaker to your Wi-Fi network."
+    },
+    {
+      "id": "voice-commands",
+      "heading": "Using Voice Commands",
+      "body": "Once set up, you can activate your smart speaker using its wake word (e.g., 'Alexa' or 'Hey Google'). Ask questions, play music, or control smart home devices using natural language commands."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Common Troubleshooting Tips",
+      "body": "If your smart speaker isn't responding, check the Wi-Fi connection, ensure the device is plugged in, and verify that the microphone is not muted."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Download the App",
+      "detail": "Install the app associated with your smart speaker on your smartphone or tablet."
+    },
+    {
+      "title": "Connect to Wi-Fi",
+      "detail": "Follow the app's instructions to connect your smart speaker to your home Wi-Fi network."
+    },
+    {
+      "title": "Use Voice Commands",
+      "detail": "Say the wake word followed by your command or question to interact with the speaker."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use multiple smart speakers in one home?",
+      "answer": "Yes, you can set up multiple smart speakers in your home and control them individually or as a group."
+    },
+    {
+      "question": "How do I change the wake word?",
+      "answer": "You can change the wake word in the settings of the companion app for your smart speaker."
+    },
+    {
+      "question": "What should I do if my speaker isn't responding?",
+      "answer": "Check your internet connection, ensure the device is powered on, and verify that the microphone is not muted."
+    }
+  ],
+  "caveats": [
+    "Voice recognition accuracy may vary based on background noise and speaker placement.",
+    "Some features may differ based on the specific model of the smart speaker."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for setting up smart home devices"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-oled-tv-not-working",
+  "directAnswer": "Check the power connection and ensure the TV is set to the correct input source. If the screen remains black, a hardware issue may be present.",
+  "summary": "OLED TVs may not work due to power issues, incorrect input settings, or potential hardware failures. Follow these troubleshooting steps to identify the problem.",
+  "sections": [
+    {
+      "id": "power-connection",
+      "heading": "Check Power Connection",
+      "body": "Ensure the power cord is securely plugged into both the TV and the wall outlet. Try using a different outlet to rule out power supply issues."
+    },
+    {
+      "id": "input-source",
+      "heading": "Verify Input Source",
+      "body": "Use the remote to cycle through the input sources (e.g., HDMI1, HDMI2) to ensure the TV is set to the correct one for your device."
+    },
+    {
+      "id": "hardware-issues",
+      "heading": "Inspect for Hardware Issues",
+      "body": "If the TV powers on but the screen remains black, it may indicate a hardware issue. Look for any unusual sounds or lights, and consider contacting customer support."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Power",
+      "detail": "Unplug the TV from the wall, wait for 30 seconds, and plug it back in."
+    },
+    {
+      "title": "Change Input",
+      "detail": "Press the 'Input' button on your remote and select the correct HDMI port or input source."
+    },
+    {
+      "title": "Inspect Cables",
+      "detail": "Ensure all HDMI and power cables are securely connected and undamaged."
+    },
+    {
+      "title": "Reset TV",
+      "detail": "Perform a factory reset if the TV menu is accessible, usually found in Settings > System > Reset."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my OLED TV won't turn on?",
+      "answer": "First, check the power connection and ensure the outlet is working. If the TV still won't turn on, try a different power cord or contact support."
+    },
+    {
+      "question": "Is there a way to fix a black screen on my OLED TV?",
+      "answer": "Yes, try changing the input source or performing a factory reset. If the issue persists, it may require professional repair."
+    },
+    {
+      "question": "Can a software update fix my OLED TV issues?",
+      "answer": "Sometimes, software updates can resolve bugs. Check for updates in the Settings menu if the TV is operational."
+    }
+  ],
+  "caveats": [
+    "If the TV is under warranty, avoid opening it yourself as this may void the warranty."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

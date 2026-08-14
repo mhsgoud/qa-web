@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-motherboard",
+  "directAnswer": "To update a motherboard, download the latest BIOS firmware from the manufacturer's website and follow the update instructions specific to your motherboard model.",
+  "summary": "Updating your motherboard's BIOS can improve system stability and compatibility. Follow the steps carefully to ensure a successful update.",
+  "sections": [
+    {
+      "id": "preparation",
+      "heading": "Preparation",
+      "body": "Before starting the update, ensure you have the correct BIOS version for your motherboard model. Backup your current BIOS settings and important data."
+    },
+    {
+      "id": "downloading-bios",
+      "heading": "Downloading the BIOS",
+      "body": "Visit the motherboard manufacturer's website, navigate to the support section, and locate the BIOS updates for your specific model."
+    },
+    {
+      "id": "updating-bios",
+      "heading": "Updating the BIOS",
+      "body": "Follow the manufacturer's instructions for updating the BIOS, which may involve using a USB drive or a built-in update utility."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Backup Current Settings",
+      "detail": "Use the BIOS menu to save your current settings to a file or note them down."
+    },
+    {
+      "title": "Download BIOS Update",
+      "detail": "Go to the manufacturer's website, find your motherboard model, and download the latest BIOS file."
+    },
+    {
+      "title": "Create a Bootable USB Drive",
+      "detail": "Format a USB drive to FAT32 and copy the BIOS file onto it."
+    },
+    {
+      "title": "Enter BIOS and Update",
+      "detail": "Restart your PC, enter the BIOS setup (usually by pressing DEL or F2), and select the option to update the BIOS from the USB drive."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if the BIOS update fails?",
+      "answer": "If the update fails, your motherboard may become unresponsive. Some motherboards have recovery options, but others may require professional repair."
+    },
+    {
+      "question": "How do I know if I need a BIOS update?",
+      "answer": "You should consider a BIOS update if you experience hardware compatibility issues or if the manufacturer releases a version that addresses specific bugs."
+    },
+    {
+      "question": "Can I update the BIOS from Windows?",
+      "answer": "Some manufacturers provide utilities that allow BIOS updates from within Windows, but it's generally safer to do it from the BIOS setup."
+    }
+  ],
+  "caveats": [
+    "Ensure you are using the correct BIOS version for your specific motherboard model to avoid bricking your device.",
+    "Updating the BIOS can reset your settings, so be prepared to reconfigure your system afterward."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for BIOS update process"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

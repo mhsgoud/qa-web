@@ -1,0 +1,53 @@
+{
+  "slug": "how-do-i-check-usb-c",
+  "directAnswer": "To check USB-C compatibility, use a USB-C compatibility checker tool or verify the specifications of your device and charger.",
+  "summary": "Understanding USB-C compatibility is essential for ensuring your devices charge and transfer data effectively.",
+  "sections": [
+    {
+      "id": "usb-c-compatibility-checker",
+      "heading": "Using a USB-C Compatibility Checker",
+      "body": "A USB-C compatibility checker tool can help determine if your devices and chargers are compatible. Simply input the model numbers of your devices to receive compatibility information."
+    },
+    {
+      "id": "manual-check",
+      "heading": "Manual Checking Method",
+      "body": "You can manually check the specifications of your devices by looking for the USB-C logo or checking the manufacturer's website for detailed specifications."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Your Device",
+      "detail": "Check the model number of your device, which can usually be found on the back or in the settings menu."
+    },
+    {
+      "title": "Find Charger Specifications",
+      "detail": "Look for the specifications on your charger, which should indicate whether it supports USB-C and its power delivery capabilities."
+    },
+    {
+      "title": "Use Compatibility Checker",
+      "detail": "Visit a USB-C compatibility checker website, enter your device and charger model numbers, and review the results."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What devices typically use USB-C?",
+      "answer": "Many modern smartphones, laptops, tablets, and accessories like headphones and chargers use USB-C."
+    },
+    {
+      "question": "Can I use a USB-C charger with a non-USB-C device?",
+      "answer": "No, USB-C chargers are not compatible with devices that do not have a USB-C port."
+    },
+    {
+      "question": "What if my charger is not USB-C but my device is?",
+      "answer": "You will need to purchase a compatible USB-C charger to charge your device effectively."
+    }
+  ],
+  "caveats": [
+    "Not all USB-C cables and chargers are created equal; some may not support fast charging or data transfer."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

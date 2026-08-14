@@ -1,0 +1,59 @@
+{
+  "slug": "how-do-i-update-a-relational-database",
+  "directAnswer": "To update a relational database, use SQL commands such as UPDATE to modify existing records in a specified table.",
+  "summary": "Updating a relational database involves executing SQL commands to change data while ensuring data integrity.",
+  "sections": [
+    {
+      "id": "understanding-sql-update",
+      "heading": "Understanding SQL UPDATE",
+      "body": "The SQL UPDATE statement allows you to modify existing records in a table. You can specify which records to update using a WHERE clause to avoid altering all records."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Steps may vary based on the database management system (DBMS) you are using."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Connect to the Database",
+      "detail": "Use your preferred database client or command line to connect to the database."
+    },
+    {
+      "title": "Write the UPDATE Statement",
+      "detail": "Construct your SQL UPDATE statement. Example: `UPDATE table_name SET column1 = value1 WHERE condition;`"
+    },
+    {
+      "title": "Execute the Query",
+      "detail": "Run the SQL command through your database client or command line interface."
+    },
+    {
+      "title": "Verify Changes",
+      "detail": "Use a SELECT statement to verify that the changes have been applied correctly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I forget the WHERE clause?",
+      "answer": "If you omit the WHERE clause, all records in the table will be updated, which can lead to data loss."
+    },
+    {
+      "question": "Can I update multiple columns at once?",
+      "answer": "Yes, you can update multiple columns in a single UPDATE statement by separating each column assignment with a comma."
+    },
+    {
+      "question": "Is it possible to roll back an update?",
+      "answer": "If your database supports transactions, you can roll back an update if it has not been committed."
+    }
+  ],
+  "caveats": [
+    "Ensure you have proper backups before performing updates.",
+    "Be cautious with the WHERE clause to avoid unintended data changes."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for safe database updates"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

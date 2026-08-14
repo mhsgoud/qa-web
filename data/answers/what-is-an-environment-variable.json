@@ -1,0 +1,62 @@
+{
+  "slug": "what-is-an-environment-variable",
+  "directAnswer": "An environment variable is a dynamic value that can affect the way running processes will behave on a computer. They are often used to store configuration settings and system paths.",
+  "summary": "Environment variables are key-value pairs that provide information about the environment in which a process runs, allowing for flexible configuration of applications.",
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "Definition",
+      "body": "Environment variables are part of the environment in which a process runs. They can include system paths, user preferences, and other configuration settings that can be accessed by applications."
+    },
+    {
+      "id": "usage",
+      "heading": "Usage",
+      "body": "Developers use environment variables to manage application settings without hardcoding values. This practice enhances security and flexibility, especially in different environments like development, testing, and production."
+    },
+    {
+      "id": "platform-specific-variables",
+      "heading": "Platform-Specific Variables",
+      "body": "Different operating systems have their own sets of environment variables. For example, on Windows, variables like %PATH% are commonly used, while on Unix-based systems, variables such as $HOME are prevalent."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Viewing Environment Variables on Windows",
+      "detail": "Open Command Prompt and type 'set' to display all environment variables."
+    },
+    {
+      "title": "Viewing Environment Variables on macOS/Linux",
+      "detail": "Open Terminal and type 'printenv' to list all environment variables."
+    },
+    {
+      "title": "Setting an Environment Variable on Windows",
+      "detail": "Use the command 'set VAR_NAME=value' in Command Prompt to create or modify an environment variable for the session."
+    },
+    {
+      "title": "Setting an Environment Variable on macOS/Linux",
+      "detail": "Use the command 'export VAR_NAME=value' in Terminal to create or modify an environment variable for the session."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I make an environment variable permanent?",
+      "answer": "On Windows, you can set environment variables permanently through System Properties > Environment Variables. On macOS/Linux, add the export command to your shell's configuration file (e.g., .bashrc or .zshrc)."
+    },
+    {
+      "question": "Can environment variables be accessed by all applications?",
+      "answer": "Environment variables set in a terminal session are only accessible to processes spawned from that session. To make them globally accessible, set them in the system settings."
+    },
+    {
+      "question": "What is the difference between user and system environment variables?",
+      "answer": "User environment variables are specific to a user account, while system environment variables apply to all users on the system."
+    }
+  ],
+  "caveats": [
+    "Environment variables can be overwritten by other processes or scripts, which may lead to unexpected behavior."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

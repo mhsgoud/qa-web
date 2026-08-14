@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-change-dns-servers",
+  "directAnswer": "To change DNS servers, access your network settings and enter the preferred DNS server addresses in the appropriate fields.",
+  "summary": "Changing DNS servers can improve browsing speed and security by using alternative DNS providers.",
+  "sections": [
+    {
+      "id": "what-is-dns",
+      "heading": "What is DNS?",
+      "body": "DNS (Domain Name System) translates domain names into IP addresses, allowing browsers to load Internet resources."
+    },
+    {
+      "id": "benefits-of-changing-dns",
+      "heading": "Benefits of Changing DNS",
+      "body": "Using a different DNS server can enhance speed, provide better security features, and enable content filtering."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows 10/11",
+      "detail": "Go to Settings > Network & Internet > Status > Change adapter options. Right-click your network connection, select Properties, then select Internet Protocol Version 4 (TCP/IPv4) and click Properties. Enter your preferred DNS server addresses."
+    },
+    {
+      "title": "macOS",
+      "detail": "Open System Preferences > Network. Select your active network connection, click Advanced, then the DNS tab. Add your preferred DNS server addresses."
+    },
+    {
+      "title": "Android",
+      "detail": "Go to Settings > Network & Internet > Wi-Fi. Long press your connected network, select Modify network, check Advanced options, and change the IP settings to Static. Enter your DNS server addresses."
+    },
+    {
+      "title": "iOS",
+      "detail": "Open Settings > Wi-Fi. Tap the 'i' icon next to your connected network, scroll down to Configure DNS, switch to Manual, and add your DNS server addresses."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are some popular public DNS servers?",
+      "answer": "Popular public DNS servers include Google DNS (8.8.8.8, 8.8.4.4) and Cloudflare DNS (1.1.1.1, 1.0.0.1)."
+    },
+    {
+      "question": "Will changing DNS servers affect my internet speed?",
+      "answer": "It can improve speed if the new DNS server is closer or less congested than your current one."
+    },
+    {
+      "question": "Can I revert back to my original DNS settings?",
+      "answer": "Yes, you can revert to your ISP's default DNS settings by selecting 'Obtain DNS server address automatically' in your network properties."
+    }
+  ],
+  "caveats": [
+    "Some DNS servers may not support all features or may have different response times based on your location."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

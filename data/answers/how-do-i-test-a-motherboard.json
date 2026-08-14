@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-test-a-motherboard",
+  "directAnswer": "To test a motherboard, you can perform a visual inspection, check for POST (Power-On Self-Test) signals, and use a multimeter to measure voltages at various points.",
+  "summary": "Testing a motherboard involves several steps to ensure it is functioning correctly, including visual checks, POST testing, and voltage measurements.",
+  "sections": [
+    {
+      "id": "visual-inspection",
+      "heading": "Visual Inspection",
+      "body": "Examine the motherboard for physical damage, burnt components, or bulging capacitors. Ensure all connections are secure."
+    },
+    {
+      "id": "post-testing",
+      "heading": "Power-On Self-Test (POST)",
+      "body": "Connect the motherboard to a power supply and monitor. If the motherboard is functional, it should produce beeps or display codes indicating the status."
+    },
+    {
+      "id": "voltage-measurements",
+      "heading": "Voltage Measurements",
+      "body": "Using a multimeter, measure the voltage at the power connectors and other critical points on the motherboard to ensure they are within specified ranges."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Perform Visual Inspection",
+      "detail": "Check for any visible signs of damage, such as burnt areas or broken components."
+    },
+    {
+      "title": "Connect Power Supply",
+      "detail": "Attach a compatible power supply to the motherboard and ensure all connections are secure."
+    },
+    {
+      "title": "Check for POST Signals",
+      "detail": "Turn on the power supply and listen for beeps or check for LED indicators that show the motherboard is functioning."
+    },
+    {
+      "title": "Measure Voltages",
+      "detail": "Use a multimeter to check the voltage at the 24-pin ATX connector and other power connectors to ensure they are within the expected range."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my motherboard doesn't pass POST?",
+      "answer": "If your motherboard doesn't pass POST, check all connections, reseat components like RAM and CPU, and consider testing with minimal hardware."
+    },
+    {
+      "question": "Can I test a motherboard without a CPU?",
+      "answer": "You can perform a basic POST test without a CPU, but full functionality tests require a CPU and RAM."
+    },
+    {
+      "question": "What tools do I need to test a motherboard?",
+      "answer": "A multimeter, a power supply, and possibly a POST card are useful tools for testing a motherboard."
+    }
+  ],
+  "caveats": [
+    "Testing procedures may vary based on motherboard model and manufacturer.",
+    "Ensure you are grounded to prevent static damage to components."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for motherboard testing"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

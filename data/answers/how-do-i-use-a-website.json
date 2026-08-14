@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-use-a-website",
+  "directAnswer": "To use a website, open a web browser, enter the website's URL in the address bar, and navigate through its content using links and menus.",
+  "summary": "This guide provides an overview of how to effectively use a website, including navigation tips and common features.",
+  "sections": [
+    {
+      "id": "navigating-a-website",
+      "heading": "Navigating a Website",
+      "body": "Most websites have a navigation menu at the top or side of the page. This menu typically includes links to the main sections of the site, such as Home, About, Services, and Contact."
+    },
+    {
+      "id": "interacting-with-content",
+      "heading": "Interacting with Content",
+      "body": "Websites may include various types of content like text, images, videos, and forms. You can click on links to explore more, fill out forms for inquiries, or watch videos directly on the page."
+    },
+    {
+      "id": "using-search-features",
+      "heading": "Using Search Features",
+      "body": "Many websites have a search bar, often located at the top right corner. You can type keywords related to what you're looking for to find specific information quickly."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open a Web Browser",
+      "detail": "Launch your preferred web browser (e.g., Chrome, Firefox, Safari)."
+    },
+    {
+      "title": "Enter the Website URL",
+      "detail": "Type the website's URL into the address bar and press Enter."
+    },
+    {
+      "title": "Explore the Navigation Menu",
+      "detail": "Use the navigation menu to access different sections of the website."
+    },
+    {
+      "title": "Interact with Content",
+      "detail": "Click on links, fill out forms, or watch videos as needed to engage with the website."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the website doesn't load?",
+      "answer": "Check your internet connection, try refreshing the page, or verify that the URL is correct."
+    },
+    {
+      "question": "How do I find specific information on a website?",
+      "answer": "Use the search bar if available, or navigate through the menu to find related sections."
+    },
+    {
+      "question": "Can I use a website on my mobile device?",
+      "answer": "Yes, most websites are mobile-friendly, but the layout may vary slightly from the desktop version."
+    }
+  ],
+  "caveats": [
+    "Website layouts and features may vary significantly depending on the design and purpose of the site."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for website navigation"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

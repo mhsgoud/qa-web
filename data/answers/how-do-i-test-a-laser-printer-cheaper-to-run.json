@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-test-a-laser-printer-cheaper-to-run",
+  "directAnswer": "To test if a laser printer is cheaper to run, compare the cost per page based on toner yield and printer price against your current printer's costs.",
+  "summary": "This guide provides steps to evaluate the cost-effectiveness of a laser printer by analyzing toner costs and page yield.",
+  "sections": [
+    {
+      "id": "cost-analysis",
+      "heading": "Cost Analysis",
+      "body": "Calculate the total cost of ownership by factoring in the printer's purchase price, toner cartridge costs, and expected page yield."
+    },
+    {
+      "id": "comparison",
+      "heading": "Comparison with Current Printer",
+      "body": "Compare the calculated cost per page of the laser printer with your existing printer to determine potential savings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Gather Printer Specifications",
+      "detail": "Collect information on the laser printer's model, toner cartridge price, and page yield from the manufacturer's website."
+    },
+    {
+      "title": "Calculate Cost Per Page",
+      "detail": "Use the formula: Cost Per Page = Toner Cost / Page Yield. This will give you the cost to print one page."
+    },
+    {
+      "title": "Compare Costs",
+      "detail": "Repeat the cost per page calculation for your current printer and compare the results to identify savings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What factors affect the cost of running a laser printer?",
+      "answer": "Factors include toner costs, page yield, maintenance costs, and the frequency of use."
+    },
+    {
+      "question": "Is it worth switching to a laser printer for home use?",
+      "answer": "It depends on your printing volume; laser printers are generally more cost-effective for high-volume printing."
+    },
+    {
+      "question": "How can I reduce printing costs further?",
+      "answer": "Consider using draft mode for less critical prints, printing in black and white, and using compatible toner cartridges."
+    }
+  ],
+  "caveats": [
+    "Cost calculations may vary based on local toner prices and printer model specifications."
+  ],
+  "relatedToolIdeas": [
+    "Cost comparison calculator for printers",
+    "Toner yield and cost estimator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

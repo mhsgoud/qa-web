@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-update-a-vector-database",
+  "directAnswer": "To update a vector database, you typically need to modify the existing vectors or add new ones using the database's API or management interface.",
+  "summary": "Updating a vector database involves using specific commands or API calls to change or add vector data, depending on the platform in use.",
+  "sections": [
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to update a vector database can vary based on the platform. Below are examples for popular vector databases."
+    },
+    {
+      "id": "general-considerations",
+      "heading": "General Considerations",
+      "body": "Always ensure that you back up your data before performing updates to avoid data loss."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Updating Vectors in Pinecone",
+      "detail": "Use the 'upsert' API method to update existing vectors or add new ones. Ensure you provide the correct vector ID."
+    },
+    {
+      "title": "Updating Vectors in Weaviate",
+      "detail": "Use the 'PUT' method on the specific object endpoint to update an existing vector. Make sure to include the vector data in the request body."
+    },
+    {
+      "title": "Updating Vectors in Milvus",
+      "detail": "Use the 'insert' method to add new vectors and the 'update' method to modify existing ones by specifying the vector ID."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I update a vector incorrectly?",
+      "answer": "If a vector is updated incorrectly, it may lead to data inconsistencies or loss. Always verify the update before finalizing."
+    },
+    {
+      "question": "Can I batch update vectors?",
+      "answer": "Yes, most vector databases support batch updates. Check the documentation for the specific API methods available."
+    },
+    {
+      "question": "Is it possible to revert an update?",
+      "answer": "Reverting an update depends on the database's backup capabilities. Always create backups before making updates."
+    }
+  ],
+  "caveats": [
+    "Ensure you have the correct permissions to update the database.",
+    "Some platforms may require specific formats for vector data."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

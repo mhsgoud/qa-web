@@ -1,0 +1,59 @@
+{
+  "slug": "is-120hz-tv-worth-it",
+  "directAnswer": "A 120Hz TV can provide smoother motion and improved gaming experiences, especially for fast-paced content. However, the benefits may not be noticeable for all viewers or content types.",
+  "summary": "Investing in a 120Hz TV can enhance viewing experiences, particularly for sports and gaming, but the value depends on personal preferences and content availability.",
+  "sections": [
+    {
+      "id": "benefits-of-120hz",
+      "heading": "Benefits of 120Hz TVs",
+      "body": "120Hz TVs reduce motion blur and provide a smoother image, making them ideal for fast-moving scenes in sports and action movies. They also offer a better experience for gaming, especially with consoles that support higher frame rates."
+    },
+    {
+      "id": "content-compatibility",
+      "heading": "Content Compatibility",
+      "body": "To fully utilize a 120Hz TV, you need compatible content. Most streaming services and broadcasts are still at 60Hz or lower, which may limit the perceived benefits unless you're watching specific high-frame-rate content."
+    },
+    {
+      "id": "gaming-experience",
+      "heading": "Gaming Experience",
+      "body": "For gamers, a 120Hz refresh rate can significantly improve responsiveness and reduce input lag, especially on consoles like the PlayStation 5 or Xbox Series X that support 120Hz output."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check TV Specifications",
+      "detail": "Ensure your TV explicitly states it supports 120Hz refresh rates, as some models may only upscale lower frame rates."
+    },
+    {
+      "title": "Connect to Compatible Devices",
+      "detail": "Use HDMI 2.1 cables to connect devices that support 120Hz output, such as next-gen gaming consoles or high-end PCs."
+    },
+    {
+      "title": "Select Appropriate Settings",
+      "detail": "Access your TV's settings menu and enable any features related to motion smoothing or game mode to optimize performance for 120Hz content."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I watch regular TV on a 120Hz TV?",
+      "answer": "Yes, you can watch regular TV, but the benefits of 120Hz will not be apparent unless the content is specifically designed for higher frame rates."
+    },
+    {
+      "question": "What is the difference between 60Hz and 120Hz?",
+      "answer": "The main difference is the refresh rate; 120Hz TVs can display twice as many frames per second compared to 60Hz TVs, resulting in smoother motion."
+    },
+    {
+      "question": "Is 120Hz necessary for all types of content?",
+      "answer": "No, for standard movies and TV shows, 60Hz is typically sufficient. The benefits of 120Hz are most noticeable in fast-paced sports and gaming."
+    }
+  ],
+  "caveats": [
+    "The benefits of 120Hz may not be noticeable for all viewers, especially when watching lower frame rate content."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for choosing a TV"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

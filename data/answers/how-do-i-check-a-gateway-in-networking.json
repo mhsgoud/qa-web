@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-check-a-gateway-in-networking",
+  "directAnswer": "To check a gateway in networking, you can use the command line to view your network configuration and identify the default gateway address.",
+  "summary": "This guide provides steps to check the default gateway on various operating systems and highlights important considerations.",
+  "sections": [
+    {
+      "id": "understanding-gateway",
+      "heading": "Understanding the Gateway",
+      "body": "A gateway is a network node that serves as an access point to another network. It is often a router that connects your local network to the internet."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Instructions vary by operating system. Below are specific steps for Windows, macOS, and Linux."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "Open Command Prompt and type 'ipconfig'. Look for 'Default Gateway' under your active network connection."
+    },
+    {
+      "title": "macOS",
+      "detail": "Open Terminal and type 'netstat -nr | grep default'. The default gateway will be displayed next to 'default'."
+    },
+    {
+      "title": "Linux",
+      "detail": "Open Terminal and type 'ip route show'. The default gateway will be listed next to 'default via'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I cannot find the gateway address?",
+      "answer": "Ensure you are connected to a network. If the issue persists, check your network settings or consult your network administrator."
+    },
+    {
+      "question": "Can I change my gateway address?",
+      "answer": "Yes, you can change the gateway address in your network settings, but ensure the new address is valid and reachable."
+    },
+    {
+      "question": "What does it mean if the gateway is unreachable?",
+      "answer": "If the gateway is unreachable, it may indicate a network configuration issue, a problem with the router, or connectivity issues."
+    }
+  ],
+  "caveats": [
+    "Ensure you have the necessary permissions to access network settings.",
+    "The commands may vary slightly based on the version of the operating system."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for network troubleshooting"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

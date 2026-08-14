@@ -1,0 +1,53 @@
+{
+  "slug": "how-do-i-check-a-vector-database",
+  "directAnswer": "To check a vector database, you can query it using specific vector search commands or inspect its metadata through the database's management interface.",
+  "summary": "This guide provides steps to check the status and contents of a vector database, along with potential caveats and frequently asked questions.",
+  "sections": [
+    {
+      "id": "understanding-vector-databases",
+      "heading": "Understanding Vector Databases",
+      "body": "Vector databases store data in a way that allows for efficient similarity searches based on vector embeddings, commonly used in AI applications."
+    },
+    {
+      "id": "checking-status",
+      "heading": "Checking Database Status",
+      "body": "You can check the status of a vector database by using built-in commands or accessing the management interface, depending on the platform."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access the Management Interface",
+      "detail": "Log in to your vector database management interface. The path may vary by platform, such as 'Dashboard' for Pinecone or 'Admin Panel' for Weaviate."
+    },
+    {
+      "title": "Run a Status Query",
+      "detail": "Use the command line or query interface to run a status check. For example, in Pinecone, you might use 'pinecone status' to retrieve the current status."
+    },
+    {
+      "title": "Inspect Metadata",
+      "detail": "Check the metadata of your vectors to ensure they are indexed correctly. This can usually be done through the UI or API."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What tools can I use to interact with a vector database?",
+      "answer": "You can use APIs provided by the database, command line interfaces, or third-party tools designed for vector databases."
+    },
+    {
+      "question": "How do I troubleshoot issues with my vector database?",
+      "answer": "Start by checking the logs for error messages, ensure your vectors are properly indexed, and verify your query syntax."
+    },
+    {
+      "question": "Can I check the performance of my vector database?",
+      "answer": "Yes, many vector databases provide performance metrics in their management interface or through specific API calls."
+    }
+  ],
+  "caveats": [
+    "Database commands and UI paths may vary by version and provider, so refer to the specific documentation for your vector database."
+  ],
+  "relatedToolIdeas": [
+    "Model / use-case picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

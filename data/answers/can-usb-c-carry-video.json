@@ -1,0 +1,58 @@
+{
+  "slug": "can-usb-c-carry-video",
+  "directAnswer": "Yes, USB-C can carry video signals, provided the device supports DisplayPort or HDMI Alt Mode.",
+  "summary": "USB-C is a versatile connector that can transmit video, audio, and power. However, not all USB-C ports support video output.",
+  "sections": [
+    {
+      "id": "usb-c-video-support",
+      "heading": "USB-C Video Support",
+      "body": "USB-C ports can support video output through protocols like DisplayPort Alt Mode or HDMI Alt Mode. Check your device specifications to confirm support."
+    },
+    {
+      "id": "device-compatibility",
+      "heading": "Device Compatibility",
+      "body": "Ensure both your source device (like a laptop or smartphone) and the display (monitor or TV) support video over USB-C. Adapters may be required for compatibility."
+    },
+    {
+      "id": "common-adapters",
+      "heading": "Common Adapters",
+      "body": "To connect USB-C to HDMI or DisplayPort displays, use an appropriate adapter. Be sure to select one that supports the required video resolution."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Device Specifications",
+      "detail": "Verify if your device's USB-C port supports video output by checking the manufacturer's specifications or user manual."
+    },
+    {
+      "title": "Select the Right Adapter",
+      "detail": "Choose an adapter that supports the video output format you need, such as HDMI or DisplayPort."
+    },
+    {
+      "title": "Connect and Configure",
+      "detail": "Connect your USB-C device to the display using the adapter, then configure display settings in your operating system to extend or mirror the display."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a regular USB-C cable for video?",
+      "answer": "Not all USB-C cables support video; ensure your cable is rated for video transmission."
+    },
+    {
+      "question": "What resolutions can USB-C support for video?",
+      "answer": "USB-C can support resolutions up to 4K and beyond, depending on the specifications of the device and the cable used."
+    },
+    {
+      "question": "Will USB-C work with older HDMI devices?",
+      "answer": "Yes, but you will need a USB-C to HDMI adapter to connect to older HDMI devices."
+    }
+  ],
+  "caveats": [
+    "Not all USB-C ports support video output; check device specifications."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

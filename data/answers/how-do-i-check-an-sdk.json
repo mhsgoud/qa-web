@@ -1,0 +1,50 @@
+{
+  "slug": "how-do-i-check-an-sdk",
+  "directAnswer": "To check an SDK, verify its installation and version using the command line or the IDE's built-in tools, depending on your development environment.",
+  "summary": "This guide provides steps to check the installation and version of an SDK across different platforms.",
+  "sections": [
+    {
+      "id": "installation-check",
+      "heading": "Checking SDK Installation",
+      "body": "Ensure that the SDK is properly installed on your system by using command line tools or IDE features."
+    },
+    {
+      "id": "version-check",
+      "heading": "Checking SDK Version",
+      "body": "Use specific commands or IDE options to retrieve the version of the SDK you have installed."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using Command Line",
+      "detail": "Open your terminal or command prompt and enter the command specific to your SDK, such as 'sdkmanager --list' for Android SDK or 'dotnet --version' for .NET SDK."
+    },
+    {
+      "title": "Using IDE",
+      "detail": "In your IDE, navigate to the settings or preferences section, find the SDK settings, and check the version displayed there. Note that paths may vary by IDE version."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the SDK is not installed?",
+      "answer": "Follow the official installation guide for the SDK to download and install it correctly."
+    },
+    {
+      "question": "How can I update my SDK?",
+      "answer": "Use the package manager or IDE options to update the SDK to the latest version available."
+    },
+    {
+      "question": "Are there any compatibility issues I should be aware of?",
+      "answer": "Check the SDK documentation for compatibility notes regarding your development environment and other libraries."
+    }
+  ],
+  "caveats": [
+    "SDK commands may vary based on the version and platform, so refer to the official documentation for the most accurate instructions."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for SDK setup"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

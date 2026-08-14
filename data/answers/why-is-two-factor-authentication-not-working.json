@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-two-factor-authentication-not-working",
+  "directAnswer": "Two-factor authentication may not work due to incorrect setup, time synchronization issues, or network problems.",
+  "summary": "Understanding the common reasons why two-factor authentication fails can help you troubleshoot and regain access to your accounts.",
+  "sections": [
+    {
+      "id": "common-issues",
+      "heading": "Common Issues with Two-Factor Authentication",
+      "body": "Several factors can lead to two-factor authentication not functioning as expected, including incorrect phone number entries, expired authentication codes, or issues with the authentication app."
+    },
+    {
+      "id": "device-sync",
+      "heading": "Device Time Synchronization",
+      "body": "Ensure that the time settings on your device are correct. Authentication apps often rely on accurate time settings to generate valid codes."
+    },
+    {
+      "id": "network-connectivity",
+      "heading": "Network Connectivity Problems",
+      "body": "Check your internet connection, as a weak or unstable connection can prevent authentication codes from being sent or received."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Verify Your Phone Number",
+      "detail": "Check that the phone number linked to your account is correct and active."
+    },
+    {
+      "title": "Check Time Settings",
+      "detail": "Ensure your device's date and time are set to automatic or are correct according to your timezone."
+    },
+    {
+      "title": "Test Network Connection",
+      "detail": "Make sure you have a stable internet connection. Try switching between Wi-Fi and mobile data."
+    },
+    {
+      "title": "Use Backup Codes",
+      "detail": "If available, use backup codes provided during the setup of two-factor authentication to regain access."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I lost my phone?",
+      "answer": "If you lost your phone, use backup codes or recovery options provided by the service to regain access. Consider updating your security settings once you regain access."
+    },
+    {
+      "question": "Can I disable two-factor authentication?",
+      "answer": "Yes, you can disable two-factor authentication in your account settings, but this is not recommended for security reasons."
+    },
+    {
+      "question": "Why am I not receiving SMS codes?",
+      "answer": "SMS codes may not be received due to network issues, incorrect phone number, or if your carrier is blocking the messages."
+    }
+  ],
+  "caveats": [
+    "Some platforms may have different methods for enabling or troubleshooting two-factor authentication."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

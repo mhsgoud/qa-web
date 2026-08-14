@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-primary-key",
+  "directAnswer": "To update a primary key, you typically need to use the UPDATE SQL command, ensuring that the new value maintains uniqueness across the table.",
+  "summary": "Updating a primary key requires careful handling to maintain data integrity and relationships with foreign keys.",
+  "sections": [
+    {
+      "id": "understanding-primary-keys",
+      "heading": "Understanding Primary Keys",
+      "body": "A primary key uniquely identifies each record in a database table. It is crucial to ensure that any changes to a primary key do not violate this uniqueness."
+    },
+    {
+      "id": "updating-primary-keys-in-sql",
+      "heading": "Updating Primary Keys in SQL",
+      "body": "To update a primary key, you will generally use the SQL UPDATE statement. Ensure that the new key does not conflict with existing records."
+    },
+    {
+      "id": "considerations-when-updating",
+      "heading": "Considerations When Updating",
+      "body": "When updating a primary key, consider the impact on related foreign keys in other tables. You may need to update those as well to maintain referential integrity."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify the Record",
+      "detail": "Use a SELECT statement to identify the record with the primary key you wish to update."
+    },
+    {
+      "title": "Check for Conflicts",
+      "detail": "Ensure that the new primary key value does not already exist in the table."
+    },
+    {
+      "title": "Execute the Update Command",
+      "detail": "Run the UPDATE command: `UPDATE table_name SET primary_key_column = new_value WHERE primary_key_column = old_value;`"
+    },
+    {
+      "title": "Update Related Foreign Keys",
+      "detail": "If there are foreign keys referencing the updated primary key, update those records accordingly."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I try to set a primary key to a duplicate value?",
+      "answer": "The database will reject the update due to a violation of the uniqueness constraint on the primary key."
+    },
+    {
+      "question": "Can I update a primary key if it is referenced by foreign keys?",
+      "answer": "Yes, but you must also update the foreign keys in related tables to maintain referential integrity."
+    },
+    {
+      "question": "Is there a way to automate the update of foreign keys?",
+      "answer": "Yes, you can use cascading updates if your database supports it, which automatically updates foreign keys when the primary key is changed."
+    }
+  ],
+  "caveats": [
+    "Always back up your database before making changes to primary keys.",
+    "Consider the implications on application logic that may depend on the primary key values."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for primary key management"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

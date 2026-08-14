@@ -184,6 +184,7 @@ export function isHighQualityQuestion(q: Question): boolean {
 export function isWinnerCandidate(q: Question): boolean {
   if (!isHighQualityQuestion(q)) return false;
   const text = q.question;
+  const bare = text.replace(/\?$/, "");
 
   // Prefer actionable / diagnostic queries over ultra-broad definitions for wave 1
   if (/^what is [a-z0-9 +\-]{1,20}\?$/i.test(text)) return false;
@@ -200,6 +201,118 @@ export function isWinnerCandidate(q: Question): boolean {
   }
   if (/have better range not working/i.test(text)) return false;
   if (/^why is path tracing not working/i.test(text)) return false;
+
+  // Repeated tokens from template collisions: "slow slow", "work work"
+  if (/\b([a-z0-9]+)\s+\1\b/i.test(bare)) return false;
+
+  // Polarity tacked onto an already-complete problem statement
+  if (
+    /\b(draining so fast|charging slowly|keep disconnecting|running slowly|freeze randomly|not printing|printing slowly|printing blank pages|offline|stuck|flickering|crash under load|usage low|usage at 100|have no sound|not recognizing|ink last|audio latency|drain battery|audio delayed|audio quality poor|transmit lossless|fan running constantly)\s+(slow|not working)\b/i.test(
+      text,
+    )
+  ) {
+    return false;
+  }
+
+  // Concept × connectivity mashups
+  if (/\bwork without (wifi|internet)\b/i.test(text)) return false;
+  if (/^can .+\bwork without\b/i.test(text)) return false;
+  if (/\bwork cost\b/i.test(text)) return false;
+  if (/\bcable be\b/i.test(text)) return false;
+
+  // Comparisons jammed into how-to / why / cost frames
+  if (
+    /\b(better than|faster than|worth (it|upgrading)|fail suddenly|compatible with)\b/i.test(text) &&
+    /^(how do i|why is|how much|how long|can )\b/i.test(text)
+  ) {
+    return false;
+  }
+  if (/\b(faster than|better than)\b/i.test(text) && /\bworth it\b/i.test(text)) return false;
+
+  // "Is … worth it?" — purchase-style only; reject verb mashups and CS/network shells
+  if (/^is .+ worth it\?/i.test(text)) {
+    if (/\b(work|reduce|improve|fail|stuck|draining|charging|disconnecting|charge|buying|buy|reset|update|connect)\b/i.test(text)) {
+      return false;
+    }
+    const subject = bare.replace(/^is\s+/i, "").replace(/\s+worth it$/i, "");
+    if (subject.split(/\s+/).length > 4) return false;
+    if (
+      /\b(email address|ip address|private ip|algorithm|sql|git\b|github|programming|database|nat\b|freeware|response time|web app|website|cpu\b|gpu\b|ram\b|bluetooth\b|ssd storage|hdd storage|cloud computing|artificial intelligence|open source|multi-factor|two-factor|refresh rate|usb-a|smtp|web server|web cookie|messaging app|push notification|url shortener|content delivery network|an algorithm|a cpu|a gpu|a website|a database)\b/i.test(
+        subject,
+      )
+    ) {
+      return false;
+    }
+  }
+
+  if (/\b(google drive|dropbox|onedrive|icloud) work\b/i.test(text)) return false;
+  if (/worth buying/i.test(text)) return false;
+  if (/^how do i (set up|use|troubleshoot|test|check|reset|update|connect) (a|an) (chipset|framework|library|protocol|asynchronous function)\?/i.test(text)) {
+    return false;
+  }
+  if (/^how do i (set up|use|troubleshoot|test|check|reset|update|connect) (cec|hdr10|dolby vision|g-sync|freesync)\b/i.test(text)) {
+    return false;
+  }
+  if (/^how do i (troubleshoot|test|check|reset|update|connect|use|set up) an? (algorithm|ip address|ip geolocation)\?/i.test(text)) {
+    return false;
+  }
+  if (
+    /^how do i (set up|use|troubleshoot|test|check|reset|update|connect)\b.+\b(not loading|not working|offline|not recognized|have no sound|keep disconnecting|running constantly|not charging)\?/i.test(
+      text,
+    )
+  ) {
+    return false;
+  }
+
+  // "Why is {concept} not working/slow?" — keep only short, natural device checks
+  if (/^why is .+\b(not working|slow)\?/i.test(text)) {
+    const allowed =
+      /^why is (wifi|internet|bluetooth|windows update) (not working|slow)\?/i.test(text) ||
+      /^why is my (hard drive|ssd|gpu|wifi|internet|bluetooth|printer|monitor|phone|laptop|computer|pc|tv|router|connection|mouse|keyboard) (not working|slow)\?/i.test(
+        text,
+      );
+    if (!allowed) return false;
+  }
+
+  // How-to verb + mangled / bare-feature object
+  if (/^how do i (set up|use|troubleshoot|test|check|reset|update|connect)\b/i.test(text)) {
+    const rest = bare.replace(
+      /^how do i (set up|use|troubleshoot|test|check|reset|update|connect)\s+/i,
+      "",
+    );
+    if (
+      /\b(printing slowly|printing blank|not recognized|not working|battery last|ev use|laptop need|fan running|running constantly)\b/i.test(
+        rest,
+      )
+    ) {
+      return false;
+    }
+    if (
+      !/^(a|an|my|the|to|if|whether|when|windows|android|iphone|ios|macos|google|microsoft|apple)\b/i.test(
+        rest,
+      ) &&
+      rest.split(/\s+/).length <= 3
+    ) {
+      // Allow compact metrics: "SSD health", "CPU temperature", "WiFi speed"
+      if (!/\b(health|temperature|speed|model|storage|battery|usage|status|version|driver|bottlenecked)\b/i.test(rest)) {
+        return false;
+      }
+    }
+    if (/^(a|an|my|the) .+\b(last|need|use|work|safe|travel|reach)$/i.test(rest)) {
+      return false;
+    }
+  }
+
+  // Lifespan/cost of mangled phrases
+  if (/^how (much|long) does\b/i.test(text)) {
+    if (/\b(fail suddenly|faster than|better than|stuck|work|using so much)\b/i.test(text)) {
+      return false;
+    }
+    // Bare concept with no article: "How long does Matter last?"
+    if (/^how (much|long) does [a-z0-9][a-z0-9 +\-]{0,28}\?$/i.test(text)) return false;
+  }
+
+  if (/^what is .+\bwork on\b/i.test(text)) return false;
 
   return true;
 }

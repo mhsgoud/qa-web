@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-check-pcie-storage",
+  "directAnswer": "You can check PCIe storage by using system information tools or disk management utilities specific to your operating system.",
+  "summary": "This guide provides steps to check PCIe storage across different platforms and highlights important considerations.",
+  "sections": [
+    {
+      "id": "windows-check",
+      "heading": "Checking PCIe Storage on Windows",
+      "body": "Use the Device Manager or Task Manager to view storage devices. You can also utilize third-party tools for detailed information."
+    },
+    {
+      "id": "mac-check",
+      "heading": "Checking PCIe Storage on macOS",
+      "body": "Access 'About This Mac' and select 'System Report' to find details about PCIe storage devices."
+    },
+    {
+      "id": "linux-check",
+      "heading": "Checking PCIe Storage on Linux",
+      "body": "Use the 'lsblk' or 'lspci' command in the terminal to list PCIe devices and their details."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows: Device Manager",
+      "detail": "Right-click on the Start menu, select 'Device Manager', expand 'Disk drives' to see your PCIe storage devices."
+    },
+    {
+      "title": "Windows: Task Manager",
+      "detail": "Press Ctrl + Shift + Esc, go to the 'Performance' tab, and select 'Disk' to view PCIe storage performance."
+    },
+    {
+      "title": "macOS: System Report",
+      "detail": "Click the Apple logo, select 'About This Mac', then 'System Report', and look under 'Storage' for PCIe details."
+    },
+    {
+      "title": "Linux: Terminal Command",
+      "detail": "Open the terminal and type 'lspci | grep -i nvme' to list NVMe PCIe storage devices."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is PCIe storage?",
+      "answer": "PCIe storage refers to storage devices that connect via the PCI Express interface, offering high-speed data transfer."
+    },
+    {
+      "question": "How do I know if my storage is PCIe?",
+      "answer": "You can check the specifications of your storage device in the system information tools mentioned above."
+    },
+    {
+      "question": "Can I upgrade my PCIe storage?",
+      "answer": "Yes, you can upgrade your PCIe storage by replacing the existing drive with a compatible NVMe SSD."
+    }
+  ],
+  "caveats": [
+    "Paths may vary depending on the version of the operating system.",
+    "Not all systems support PCIe storage; check your motherboard specifications."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

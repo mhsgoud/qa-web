@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-set-up-a-website",
+  "directAnswer": "To set up a website, choose a domain name, select a hosting provider, and use a website builder or CMS to create your site.",
+  "summary": "This guide provides a step-by-step approach to setting up a website, including selecting a domain, hosting, and building the site.",
+  "sections": [
+    {
+      "id": "domain-registration",
+      "heading": "Registering a Domain Name",
+      "body": "Choose a unique domain name that reflects your website's purpose. Use a domain registrar like GoDaddy or Namecheap to check availability and register your domain."
+    },
+    {
+      "id": "choosing-hosting",
+      "heading": "Choosing a Hosting Provider",
+      "body": "Select a hosting provider such as Bluehost, SiteGround, or HostGator. Consider factors like uptime, customer support, and scalability."
+    },
+    {
+      "id": "building-your-site",
+      "heading": "Building Your Website",
+      "body": "Use a website builder (like Wix or Squarespace) or a CMS (like WordPress) to create your website. Customize templates, add content, and optimize for SEO."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Select a Domain Name",
+      "detail": "Visit a domain registrar, search for your desired domain, and complete the registration process."
+    },
+    {
+      "title": "Choose a Hosting Plan",
+      "detail": "Compare hosting plans based on your needs, select one, and follow the sign-up instructions on the provider's website."
+    },
+    {
+      "title": "Install a Website Builder or CMS",
+      "detail": "If using a CMS like WordPress, use your hosting provider's one-click installation feature to set it up."
+    },
+    {
+      "title": "Design and Launch Your Site",
+      "detail": "Customize your site’s design, add necessary pages (like About, Contact), and publish it when ready."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between a website builder and a CMS?",
+      "answer": "A website builder is typically more user-friendly and designed for beginners, while a CMS offers more flexibility and control for advanced users."
+    },
+    {
+      "question": "How much does it cost to set up a website?",
+      "answer": "Costs can vary widely but expect to pay for domain registration (around $10-$20/year), hosting (starting from $3/month), and any premium themes or plugins."
+    },
+    {
+      "question": "Can I set up a website for free?",
+      "answer": "Yes, many platforms offer free plans, but they often come with limitations like ads or lack of a custom domain."
+    }
+  ],
+  "caveats": [
+    "Website setup processes may vary depending on the hosting provider and website builder used."
+  ],
+  "relatedToolIdeas": [
+    "Checklist for website setup",
+    "Q&A cluster for common website issues"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

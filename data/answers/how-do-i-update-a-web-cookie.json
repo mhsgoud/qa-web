@@ -1,0 +1,55 @@
+{
+  "slug": "how-do-i-update-a-web-cookie",
+  "directAnswer": "To update a web cookie, you can use JavaScript's `document.cookie` property to set a new value for the cookie with the same name.",
+  "summary": "Updating a web cookie involves using JavaScript to modify the existing cookie value while ensuring the correct attributes are maintained.",
+  "sections": [
+    {
+      "id": "understanding-cookies",
+      "heading": "Understanding Cookies",
+      "body": "Cookies are small pieces of data stored on the user's device by the web browser while browsing a website. They are used for various purposes, including session management and user preferences."
+    },
+    {
+      "id": "cookie-attributes",
+      "heading": "Cookie Attributes",
+      "body": "When updating a cookie, it's important to specify attributes such as expiration date, path, and domain to ensure the cookie behaves as intended."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Access the Cookie",
+      "detail": "Use JavaScript to access the cookie you want to update by reading `document.cookie`."
+    },
+    {
+      "title": "Modify the Cookie",
+      "detail": "Set the cookie with the same name and a new value using the syntax: `document.cookie = 'cookieName=newValue; expires=expirationDate; path=/';`."
+    },
+    {
+      "title": "Verify the Update",
+      "detail": "Check the updated cookie by accessing `document.cookie` again to confirm the new value is set."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I set a cookie to expire immediately?",
+      "answer": "Yes, you can set a cookie to expire immediately by setting the expiration date to a past date."
+    },
+    {
+      "question": "What happens if I don't specify a path when updating a cookie?",
+      "answer": "If you don't specify a path, the cookie will only be accessible from the current page's path."
+    },
+    {
+      "question": "Are there limits on cookie size?",
+      "answer": "Yes, most browsers limit cookies to about 4KB in size."
+    }
+  ],
+  "caveats": [
+    "Cookies are domain-specific; ensure you are updating the cookie from the correct domain.",
+    "Some browsers may block third-party cookies, affecting updates."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Cookie management checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

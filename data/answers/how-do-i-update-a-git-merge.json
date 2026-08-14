@@ -1,0 +1,64 @@
+{
+  "slug": "how-do-i-update-a-git-merge",
+  "directAnswer": "To update a Git merge, you can use 'git merge --abort' to cancel the current merge and then re-attempt the merge after resolving any conflicts or updating your branches.",
+  "summary": "This guide explains how to update a Git merge, including steps for different platforms and common pitfalls.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Git Merge Updates",
+      "body": "Updating a Git merge typically involves resolving conflicts or aborting the merge process. It is essential to ensure your branches are up to date before merging."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "The steps to update a Git merge are generally consistent across platforms, but ensure you have Git installed and configured properly."
+    },
+    {
+      "id": "common-caveats",
+      "heading": "Common Caveats",
+      "body": "Be cautious of uncommitted changes in your working directory, as they can complicate the merge process."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check the Current Merge Status",
+      "detail": "Run 'git status' to see the current state of the merge and any conflicts that need resolution."
+    },
+    {
+      "title": "Resolve Conflicts",
+      "detail": "If there are conflicts, manually edit the files to resolve them, then use 'git add <file>' to stage the resolved files."
+    },
+    {
+      "title": "Complete the Merge",
+      "detail": "After resolving conflicts, run 'git commit' to finalize the merge."
+    },
+    {
+      "title": "Abort the Merge (if necessary)",
+      "detail": "If you need to start over, use 'git merge --abort' to cancel the merge process."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I encounter merge conflicts?",
+      "answer": "You should manually resolve the conflicts in the affected files, stage the changes, and then commit the merge."
+    },
+    {
+      "question": "Can I update a merge after it has been committed?",
+      "answer": "No, once a merge is committed, you cannot update it directly. You would need to revert the merge or create a new commit to address issues."
+    },
+    {
+      "question": "How do I ensure my branches are up to date before merging?",
+      "answer": "Use 'git fetch' to update your local branches with the latest changes from the remote repository before performing a merge."
+    }
+  ],
+  "caveats": [
+    "Uncommitted changes can cause issues during the merge process.",
+    "Aborting a merge will discard any changes made during the merge attempt."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for resolving Git merge conflicts"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-my-computer-running-slowly-slow",
+  "directAnswer": "Your computer may be running slowly due to insufficient RAM, background processes, or malware. Identifying and addressing these issues can significantly improve performance.",
+  "summary": "Several factors can contribute to a slow computer, including hardware limitations, software issues, and external threats like malware.",
+  "sections": [
+    {
+      "id": "hardware-limitations",
+      "heading": "Hardware Limitations",
+      "body": "Older computers may struggle with modern software demands. Upgrading RAM or switching to an SSD can provide noticeable performance improvements."
+    },
+    {
+      "id": "software-issues",
+      "heading": "Software Issues",
+      "body": "Too many background applications can consume system resources. Regularly checking and managing startup programs can help free up resources."
+    },
+    {
+      "id": "malware-threats",
+      "heading": "Malware Threats",
+      "body": "Malware can significantly slow down your computer. Running a full system scan with a reputable antivirus program is essential."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Task Manager (Windows)",
+      "detail": "Press Ctrl + Shift + Esc to open Task Manager. Look for processes using high CPU or memory and end unnecessary tasks."
+    },
+    {
+      "title": "Manage Startup Programs (Windows)",
+      "detail": "In Task Manager, go to the Startup tab and disable programs that you do not need to launch at startup."
+    },
+    {
+      "title": "Run Disk Cleanup (Windows)",
+      "detail": "Search for 'Disk Cleanup' in the Start menu, select the drive you want to clean, and follow the prompts to remove temporary files."
+    },
+    {
+      "title": "Check for Malware (Mac)",
+      "detail": "Use a malware detection tool like Malwarebytes to scan your Mac for potential threats and remove them."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How can I tell if my computer has malware?",
+      "answer": "Signs of malware include unexpected pop-ups, slow performance, and programs that start without your permission."
+    },
+    {
+      "question": "Will adding more RAM always improve performance?",
+      "answer": "Not necessarily. If your computer is already using sufficient RAM for your tasks, adding more may not yield significant improvements."
+    },
+    {
+      "question": "What if my computer is still slow after following these steps?",
+      "answer": "Consider performing a system restore to a previous point, or consult a professional for hardware diagnostics."
+    }
+  ],
+  "caveats": [
+    "Performance issues can vary greatly depending on the specific hardware and software configuration of your computer."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

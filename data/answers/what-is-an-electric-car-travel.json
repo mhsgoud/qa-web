@@ -1,0 +1,59 @@
+{
+  "slug": "what-is-an-electric-car-travel",
+  "directAnswer": "Electric car travel refers to using electric vehicles (EVs) for transportation, relying on electric power rather than gasoline or diesel. This includes charging the vehicle at home or using public charging stations during trips.",
+  "summary": "Understanding electric car travel involves knowing how to charge, plan trips, and the infrastructure available for EVs.",
+  "sections": [
+    {
+      "id": "charging-options",
+      "heading": "Charging Options",
+      "body": "Electric vehicles can be charged at home using a standard outlet or a dedicated EV charger. Public charging stations are also available, offering Level 2 and DC fast charging options."
+    },
+    {
+      "id": "trip-planning",
+      "heading": "Trip Planning",
+      "body": "When planning a trip in an electric car, consider the vehicle's range, charging station locations, and the estimated time needed for charging."
+    },
+    {
+      "id": "infrastructure",
+      "heading": "Infrastructure",
+      "body": "The availability of charging stations varies by region. Use apps or websites to locate charging stations along your route and check their availability."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Vehicle Range",
+      "detail": "Determine how far your electric car can travel on a full charge to plan your trip effectively."
+    },
+    {
+      "title": "Locate Charging Stations",
+      "detail": "Use navigation apps or EV-specific apps to find charging stations along your route."
+    },
+    {
+      "title": "Plan Charging Time",
+      "detail": "Account for charging time in your travel schedule, especially if using slower chargers."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does it take to charge an electric car?",
+      "answer": "Charging time varies by charger type: Level 1 (home outlet) can take 8-12 hours, Level 2 (home or public) takes 4-6 hours, and DC fast chargers can charge up to 80% in about 30 minutes."
+    },
+    {
+      "question": "Can I use my electric car for long road trips?",
+      "answer": "Yes, with proper planning for charging stations and considering the vehicle's range, electric cars can be used for long-distance travel."
+    },
+    {
+      "question": "What should I do if I run out of charge?",
+      "answer": "If you run out of charge, you may need to call for roadside assistance or find a nearby charging station to get your vehicle charged."
+    }
+  ],
+  "caveats": [
+    "Charging infrastructure may not be as widespread in rural areas compared to urban locations.",
+    "Traveling in extreme weather conditions can affect battery range."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

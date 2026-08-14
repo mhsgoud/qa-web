@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-a-database-slow",
+  "directAnswer": "A database may be slow due to inefficient queries, lack of indexing, or insufficient hardware resources.",
+  "summary": "Understanding the reasons behind database performance issues can help in optimizing and improving response times.",
+  "sections": [
+    {
+      "id": "inefficient-queries",
+      "heading": "Inefficient Queries",
+      "body": "Queries that are not optimized can lead to excessive resource usage. Analyze your SQL queries for potential improvements, such as avoiding SELECT * and using proper JOINs."
+    },
+    {
+      "id": "lack-of-indexing",
+      "heading": "Lack of Indexing",
+      "body": "Without proper indexing, databases must scan entire tables, which can significantly slow down data retrieval. Consider adding indexes on frequently queried columns."
+    },
+    {
+      "id": "hardware-resources",
+      "heading": "Insufficient Hardware Resources",
+      "body": "Limited CPU, memory, or disk I/O can bottleneck database performance. Ensure your server meets the requirements for your database workload."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Analyze Query Performance",
+      "detail": "Use tools like EXPLAIN in SQL to analyze the performance of your queries and identify bottlenecks."
+    },
+    {
+      "title": "Implement Indexing",
+      "detail": "Identify key columns that are frequently used in WHERE clauses and create indexes to speed up data retrieval."
+    },
+    {
+      "title": "Monitor Hardware Usage",
+      "detail": "Use monitoring tools to check CPU, memory, and disk usage. Upgrade hardware if resources are consistently maxed out."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How can I tell if my queries are slow?",
+      "answer": "You can use database monitoring tools or query analyzers to track execution times and identify slow queries."
+    },
+    {
+      "question": "What are the signs of a slow database?",
+      "answer": "Signs include long response times, timeouts, and high CPU or memory usage during query execution."
+    },
+    {
+      "question": "Can database configuration settings affect performance?",
+      "answer": "Yes, misconfigured settings such as buffer sizes and connection limits can severely impact performance."
+    }
+  ],
+  "caveats": [
+    "Performance issues can be multifaceted; addressing one area may not resolve all slowdowns."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

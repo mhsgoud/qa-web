@@ -1,0 +1,58 @@
+{
+  "slug": "what-is-object-oriented-programming",
+  "directAnswer": "Object-oriented programming (OOP) is a programming paradigm based on the concept of 'objects', which can contain data and code: data in the form of fields (often known as attributes), and code in the form of procedures (often known as methods). OOP allows for encapsulation, inheritance, and polymorphism.",
+  "summary": "OOP is a programming style that uses objects to design applications and computer programs, enabling more modular and reusable code.",
+  "sections": [
+    {
+      "id": "object-concepts",
+      "heading": "Key Concepts of OOP",
+      "body": "The four main principles of OOP are encapsulation, inheritance, polymorphism, and abstraction. Encapsulation restricts access to certain components, inheritance allows new classes to inherit properties of existing ones, polymorphism enables methods to do different things based on the object it is acting upon, and abstraction simplifies complex reality by modeling classes based on the essential properties."
+    },
+    {
+      "id": "languages-supporting-oop",
+      "heading": "Languages Supporting OOP",
+      "body": "Popular programming languages that support OOP include Java, C++, Python, and Ruby. Each language implements OOP concepts differently, so it's essential to refer to the specific language documentation for detailed usage."
+    },
+    {
+      "id": "applications-of-oop",
+      "heading": "Applications of OOP",
+      "body": "OOP is widely used in software development for creating user interfaces, game development, and large-scale systems due to its ability to manage complexity through modular design."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Define a Class",
+      "detail": "In your chosen OOP language, define a class using the syntax specific to that language. For example, in Python, you would use 'class ClassName:'."
+    },
+    {
+      "title": "Create Objects",
+      "detail": "Instantiate objects from the class using the appropriate constructor method. In Python, this is done using 'object = ClassName()'."
+    },
+    {
+      "title": "Implement Methods",
+      "detail": "Define methods within the class to perform actions on the object's data. For example, in Java, you would use 'public void methodName() { }' within the class."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the advantages of using OOP?",
+      "answer": "OOP promotes code reusability and scalability, making it easier to manage large codebases and collaborate in teams."
+    },
+    {
+      "question": "Can OOP be used in functional programming languages?",
+      "answer": "Yes, some functional programming languages, like Scala, incorporate OOP principles alongside functional programming features."
+    },
+    {
+      "question": "Is OOP suitable for all types of programming tasks?",
+      "answer": "While OOP is powerful for many applications, it may not be the best fit for all scenarios, such as simple scripts or functional programming tasks."
+    }
+  ],
+  "caveats": [
+    "Not all programming languages support OOP in the same way, and some may not support it at all."
+  ],
+  "relatedToolIdeas": [
+    "RAM needs calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

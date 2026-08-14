@@ -1,0 +1,59 @@
+{
+  "slug": "is-a-power-supply-worth-it",
+  "directAnswer": "A quality power supply is essential for system stability and longevity, ensuring that all components receive adequate and reliable power.",
+  "summary": "Investing in a good power supply can prevent hardware failures and improve system performance, making it a worthwhile consideration for any PC build.",
+  "sections": [
+    {
+      "id": "importance-of-quality",
+      "heading": "Importance of Quality",
+      "body": "Using a reputable power supply can protect your components from power surges and fluctuations, which can lead to hardware damage."
+    },
+    {
+      "id": "efficiency-ratings",
+      "heading": "Efficiency Ratings",
+      "body": "Power supplies are rated for efficiency (e.g., 80 PLUS Bronze, Silver, Gold). Higher ratings indicate better energy efficiency and lower electricity costs."
+    },
+    {
+      "id": "modular-vs-non-modular",
+      "heading": "Modular vs Non-Modular",
+      "body": "Modular power supplies allow you to connect only the cables you need, reducing clutter and improving airflow within your case."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Determine Your Power Needs",
+      "detail": "Use an online power supply calculator to estimate the wattage required for your components."
+    },
+    {
+      "title": "Choose a Quality Brand",
+      "detail": "Research and select a power supply from reputable brands known for reliability, such as Corsair, EVGA, or Seasonic."
+    },
+    {
+      "title": "Check Compatibility",
+      "detail": "Ensure the power supply has the necessary connectors for your motherboard and GPU, especially if using high-end components."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I know if my power supply is failing?",
+      "answer": "Signs of a failing power supply include random shutdowns, failure to boot, and unusual noises from the unit."
+    },
+    {
+      "question": "Can a cheap power supply damage my components?",
+      "answer": "Yes, a low-quality power supply can deliver unstable power, which may lead to hardware damage over time."
+    },
+    {
+      "question": "Is it worth it to get a modular power supply?",
+      "answer": "If you prioritize cable management and airflow, a modular power supply can be worth the investment."
+    }
+  ],
+  "caveats": [
+    "The effectiveness of a power supply can vary based on the specific components used in your build."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for selecting a power supply"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

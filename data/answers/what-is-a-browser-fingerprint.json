@@ -1,0 +1,58 @@
+{
+  "slug": "what-is-a-browser-fingerprint",
+  "directAnswer": "A browser fingerprint is a unique identifier created by collecting information about your browser and device configuration, such as installed plugins, screen resolution, and operating system. This data can be used to track users across the web.",
+  "summary": "Browser fingerprinting is a method of tracking users online by analyzing their browser settings and device characteristics.",
+  "sections": [
+    {
+      "id": "what-is-browser-fingerprinting",
+      "heading": "What is Browser Fingerprinting?",
+      "body": "Browser fingerprinting involves gathering various data points from a user's device, including browser type, version, installed fonts, and more. This combination of attributes creates a unique 'fingerprint' that can be used to identify and track users without relying on cookies."
+    },
+    {
+      "id": "how-is-it-used",
+      "heading": "How is Browser Fingerprinting Used?",
+      "body": "Websites and advertisers use browser fingerprinting for various purposes, including targeted advertising, fraud detection, and analytics. It allows them to recognize returning users even if they clear their cookies."
+    },
+    {
+      "id": "how-to-protect-yourself",
+      "heading": "How to Protect Yourself from Browser Fingerprinting",
+      "body": "To minimize the risk of being fingerprinted, consider using privacy-focused browsers or extensions that block fingerprinting techniques. Regularly updating your browser and disabling unnecessary plugins can also help."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Use Privacy-Focused Browsers",
+      "detail": "Consider using browsers like Brave or Firefox with privacy settings adjusted to block fingerprinting."
+    },
+    {
+      "title": "Install Anti-Fingerprinting Extensions",
+      "detail": "Add extensions like Privacy Badger or uBlock Origin to your browser to help mitigate tracking."
+    },
+    {
+      "title": "Regularly Clear Your Cache",
+      "detail": "Clear your browser's cache and cookies frequently to reduce the amount of data available for fingerprinting."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can browser fingerprinting be completely avoided?",
+      "answer": "While it's challenging to completely avoid browser fingerprinting, using privacy tools and settings can significantly reduce your digital footprint."
+    },
+    {
+      "question": "Is browser fingerprinting legal?",
+      "answer": "Yes, browser fingerprinting is legal in many jurisdictions, but it raises privacy concerns and is subject to regulations like GDPR in Europe."
+    },
+    {
+      "question": "What information is collected during fingerprinting?",
+      "answer": "Information collected can include browser type, version, operating system, screen resolution, installed plugins, and even timezone."
+    }
+  ],
+  "caveats": [
+    "Some websites may not function properly if you block fingerprinting techniques."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}
