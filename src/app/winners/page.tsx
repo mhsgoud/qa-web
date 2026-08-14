@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { QuestionLink } from "@/components/QuestionLink";
-import { getPublishedQuestionsByPriority } from "@/lib/questions";
+import {
+  getPublishedCategories,
+  getPublishedQuestionsByPriority,
+} from "@/lib/questions";
 
 export const metadata = {
   title: "All answers",
@@ -9,14 +12,16 @@ export const metadata = {
 
 export default function WinnersPage() {
   const questions = getPublishedQuestionsByPriority();
+  const categories = getPublishedCategories();
 
   return (
     <div className="shell browse-page">
       <h1 className="page-title">All answers</h1>
       <p className="page-lead">
-        {questions.length} published answer{questions.length === 1 ? "" : "s"},
-        ordered by search demand and usefulness. Open any question for a direct
-        answer and steps.
+        {questions.length.toLocaleString()} published answer
+        {questions.length === 1 ? "" : "s"} across {categories.length} topics,
+        ordered by search demand. Prefer a topic?{" "}
+        <Link href="/browse">Browse by category</Link>.
       </p>
 
       {questions.length > 0 ? (

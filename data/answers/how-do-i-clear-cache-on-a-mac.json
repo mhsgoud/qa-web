@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-clear-cache-on-a-mac",
+  "directAnswer": "To clear cache on a Mac, you can manually delete cache files from the Library folder or use a third-party tool for a more thorough clean.",
+  "summary": "Clearing cache on a Mac can help resolve performance issues and free up disk space. This guide provides steps for both manual and automated methods.",
+  "sections": [
+    {
+      "id": "manual-cache-clear",
+      "heading": "Manually Clearing Cache Files",
+      "body": "You can manually clear cache files by navigating to the Library folder. This method allows you to selectively delete cache files from specific applications."
+    },
+    {
+      "id": "using-third-party-tools",
+      "heading": "Using Third-Party Tools",
+      "body": "There are several third-party applications available that can help automate the cache clearing process, providing a more comprehensive cleanup."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Finder",
+      "detail": "Click on the Finder icon in the Dock."
+    },
+    {
+      "title": "Access the Library Folder",
+      "detail": "In the Finder menu, click 'Go' and then hold down the 'Option' key to reveal 'Library'. Click on 'Library'."
+    },
+    {
+      "title": "Locate Cache Folder",
+      "detail": "Inside the Library folder, find and open the 'Caches' folder."
+    },
+    {
+      "title": "Delete Cache Files",
+      "detail": "Select the cache files or folders you want to delete and move them to the Trash. Remember to empty the Trash afterward."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will clearing cache delete my files?",
+      "answer": "No, clearing cache only removes temporary files and should not affect your personal documents or data."
+    },
+    {
+      "question": "How often should I clear my cache?",
+      "answer": "It's recommended to clear your cache periodically, especially if you notice performance issues or if applications are behaving unexpectedly."
+    },
+    {
+      "question": "Can I undo the cache clearing process?",
+      "answer": "Once you delete cache files and empty the Trash, you cannot recover them. It's advisable to ensure you don't delete important files."
+    }
+  ],
+  "caveats": [
+    "Clearing cache may temporarily slow down applications as they rebuild cache files."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster on macOS maintenance",
+    "Checklist for optimizing Mac performance"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -8,7 +8,7 @@ export const SITE = {
     line1: "Get unstuck.",
     line2: "Get a clear answer.",
     subhead:
-      "Search practical tech answers with the solution up front — then the steps, caveats, and FAQs.",
+      "A growing library of practical tech answers — phones, PCs, storage, Wi‑Fi, security, and more. Solution first, then clear steps.",
   },
 } as const;
 

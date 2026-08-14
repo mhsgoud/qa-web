@@ -1,0 +1,50 @@
+{
+  "slug": "how-do-i-repair-windows-update",
+  "directAnswer": "To repair Windows Update, you can run the Windows Update Troubleshooter and reset the Windows Update components manually if necessary.",
+  "summary": "This guide provides steps to troubleshoot and repair issues with Windows Update, ensuring your system stays up to date.",
+  "sections": [
+    {
+      "id": "troubleshooter",
+      "heading": "Using the Windows Update Troubleshooter",
+      "body": "The Windows Update Troubleshooter can automatically detect and fix common issues with Windows Update. It's a good first step in resolving update problems."
+    },
+    {
+      "id": "reset-components",
+      "heading": "Resetting Windows Update Components",
+      "body": "If the troubleshooter doesn't resolve the issue, you may need to manually reset the Windows Update components using Command Prompt."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Run the Windows Update Troubleshooter",
+      "detail": "Go to Settings > Update & Security > Troubleshoot > Additional troubleshooters > Windows Update. Click 'Run the troubleshooter' and follow the prompts."
+    },
+    {
+      "title": "Reset Windows Update Components",
+      "detail": "Open Command Prompt as an administrator and run the following commands one by one: 'net stop wuauserv', 'net stop cryptSvc', 'net stop bits', 'net stop msiserver', then 'net start wuauserv', 'net start cryptSvc', 'net start bits', 'net start msiserver'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the troubleshooter doesn't fix the issue?",
+      "answer": "If the troubleshooter fails to resolve the problem, consider resetting the Windows Update components manually as described in the steps above."
+    },
+    {
+      "question": "How do I check for updates after repairing?",
+      "answer": "After completing the repair steps, go to Settings > Update & Security > Windows Update and click 'Check for updates' to see if updates are available."
+    },
+    {
+      "question": "Will this affect my installed programs?",
+      "answer": "Repairing Windows Update should not affect your installed programs, but it's always a good idea to back up important data before making system changes."
+    }
+  ],
+  "caveats": [
+    "Some steps may vary depending on your version of Windows 10 or 11."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for Windows Update issues"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

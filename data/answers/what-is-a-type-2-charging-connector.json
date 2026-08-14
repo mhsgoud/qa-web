@@ -1,0 +1,62 @@
+{
+  "slug": "what-is-a-type-2-charging-connector",
+  "directAnswer": "A Type 2 charging connector is a standardized plug used for electric vehicle (EV) charging in Europe, allowing for single-phase and three-phase charging. It features a seven-pin design that supports higher charging power levels compared to Type 1 connectors.",
+  "summary": "Type 2 connectors are widely used across Europe for EV charging, providing versatility in charging speeds and compatibility with various EV models.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Type 2 Charging Connectors",
+      "body": "The Type 2 connector, also known as Mennekes, is designed to facilitate AC charging for electric vehicles. It can handle up to 22 kW of power in three-phase charging, making it suitable for both home and public charging stations."
+    },
+    {
+      "id": "compatibility",
+      "heading": "Compatibility with Electric Vehicles",
+      "body": "Most European electric vehicles, including brands like BMW, Audi, and Volkswagen, are equipped with Type 2 connectors. However, some models from manufacturers outside Europe may require adapters."
+    },
+    {
+      "id": "charging-speed",
+      "heading": "Charging Speed and Efficiency",
+      "body": "The charging speed can vary based on the power output of the charging station and the vehicle's onboard charger. Type 2 connectors can support charging speeds from 3.7 kW to 22 kW, depending on the setup."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Identify Your Vehicle's Connector Type",
+      "detail": "Check your vehicle's specifications or user manual to confirm if it uses a Type 2 connector."
+    },
+    {
+      "title": "Locate a Charging Station",
+      "detail": "Use EV charging apps or websites to find nearby charging stations that support Type 2 connectors."
+    },
+    {
+      "title": "Connect the Charger",
+      "detail": "Align the Type 2 plug with your vehicle's charging port and push it in until you hear a click, indicating a secure connection."
+    },
+    {
+      "title": "Monitor Charging Progress",
+      "detail": "Most charging stations will display the charging status, and your vehicle may also provide updates through its dashboard or mobile app."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a Type 2 connector in non-European countries?",
+      "answer": "Yes, but you may need an adapter depending on the local charging standards and the vehicle's connector type."
+    },
+    {
+      "question": "What is the maximum power output for Type 2 charging?",
+      "answer": "Type 2 connectors can support up to 22 kW in three-phase charging, but the actual output may depend on the charging station and the vehicle's capabilities."
+    },
+    {
+      "question": "Are Type 2 connectors compatible with fast charging?",
+      "answer": "Type 2 connectors are primarily designed for AC charging. For fast DC charging, different connectors like CCS (Combined Charging System) are used."
+    }
+  ],
+  "caveats": [
+    "Not all charging stations with Type 2 connectors support three-phase charging, which can limit charging speed."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

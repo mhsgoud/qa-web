@@ -1,0 +1,67 @@
+{
+  "slug": "how-do-i-reset-a-mac",
+  "directAnswer": "To reset a Mac, you need to erase the hard drive and reinstall macOS using Recovery Mode.",
+  "summary": "Resetting your Mac can help resolve performance issues or prepare it for a new owner. Follow the steps carefully to ensure all data is backed up and the reset is successful.",
+  "sections": [
+    {
+      "id": "backup-your-data",
+      "heading": "Backup Your Data",
+      "body": "Before resetting your Mac, ensure you back up important files using Time Machine or another backup solution."
+    },
+    {
+      "id": "enter-recovery-mode",
+      "heading": "Enter Recovery Mode",
+      "body": "Restart your Mac and hold down Command (⌘) + R immediately upon hearing the startup chime. Release the keys when you see the Apple logo or a spinning globe."
+    },
+    {
+      "id": "erase-hard-drive",
+      "heading": "Erase the Hard Drive",
+      "body": "In Recovery Mode, select 'Disk Utility', choose your startup disk (usually named 'Macintosh HD'), and click 'Erase'. Choose 'APFS' or 'Mac OS Extended (Journaled)' as the format."
+    },
+    {
+      "id": "reinstall-macos",
+      "heading": "Reinstall macOS",
+      "body": "After erasing the disk, exit Disk Utility, select 'Reinstall macOS', and follow the prompts to complete the installation."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Backup Your Data",
+      "detail": "Use Time Machine or another method to ensure your files are safe before proceeding."
+    },
+    {
+      "title": "Enter Recovery Mode",
+      "detail": "Restart your Mac and hold Command (⌘) + R until the Apple logo appears."
+    },
+    {
+      "title": "Erase the Hard Drive",
+      "detail": "Select 'Disk Utility', choose your hard drive, and click 'Erase'."
+    },
+    {
+      "title": "Reinstall macOS",
+      "detail": "Select 'Reinstall macOS' from the Recovery menu and follow the instructions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting my Mac delete all my files?",
+      "answer": "Yes, resetting your Mac will erase all data on the hard drive, so it's crucial to back up your files first."
+    },
+    {
+      "question": "Can I reset my Mac without an internet connection?",
+      "answer": "No, reinstalling macOS requires an internet connection to download the operating system."
+    },
+    {
+      "question": "What if I can't enter Recovery Mode?",
+      "answer": "If you cannot enter Recovery Mode, try using Internet Recovery by holding Option + Command + R during startup."
+    }
+  ],
+  "caveats": [
+    "Make sure your Mac is connected to a power source during the reset process to avoid interruptions."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

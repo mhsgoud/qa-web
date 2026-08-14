@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-change-the-default-app-for-a-file-type",
+  "directAnswer": "To change the default app for a file type, access the settings or preferences menu of your operating system and select the desired file type to assign a new application.",
+  "summary": "Changing the default application for a specific file type varies by operating system. Below are detailed steps for Windows and macOS.",
+  "sections": [
+    {
+      "id": "windows-steps",
+      "heading": "Windows Steps",
+      "body": "In Windows, you can change the default app for a file type through the Settings app."
+    },
+    {
+      "id": "macos-steps",
+      "heading": "macOS Steps",
+      "body": "On macOS, you can change the default application by using the Get Info window for the file."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows 10/11",
+      "detail": "1. Open Settings > Apps > Default apps. 2. Scroll down and click on 'Choose default apps by file type.' 3. Find the file extension you want to change and select the app from the list."
+    },
+    {
+      "title": "macOS",
+      "detail": "1. Right-click (or Control-click) the file you want to change. 2. Select 'Get Info.' 3. In the 'Open with' section, choose the new application and click 'Change All...' to apply it to all files of that type."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I set different default apps for the same file type?",
+      "answer": "No, you can only set one default app for each file type at a time."
+    },
+    {
+      "question": "What if the app I want isn't listed?",
+      "answer": "If the app isn't listed, ensure it is installed correctly. You may need to browse for the app manually in the 'Choose another app' option."
+    },
+    {
+      "question": "Will changing the default app affect existing files?",
+      "answer": "No, changing the default app will only affect how new files are opened; existing files will still open with the app they were last associated with unless changed individually."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on the version of the operating system you are using."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

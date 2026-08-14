@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-reset-windows-without-losing-files",
+  "directAnswer": "You can reset Windows while keeping your files by using the 'Reset this PC' feature in the settings. This option reinstalls Windows without affecting your personal files.",
+  "summary": "Resetting Windows can help resolve issues while preserving your personal files. Follow the steps below to perform this operation safely.",
+  "sections": [
+    {
+      "id": "what-is-resetting-windows",
+      "heading": "What is Resetting Windows?",
+      "body": "Resetting Windows reinstalls the operating system, removing apps and settings that may be causing issues, while giving you the option to keep your personal files intact."
+    },
+    {
+      "id": "when-to-reset-windows",
+      "heading": "When to Reset Windows",
+      "body": "Consider resetting Windows if your computer is slow, experiencing frequent crashes, or if you want to resolve persistent software issues without a full reinstall."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Settings",
+      "detail": "Click on the Start menu and select 'Settings' (gear icon)."
+    },
+    {
+      "title": "Navigate to Recovery",
+      "detail": "In the Settings window, select 'Update & Security', then click on 'Recovery' in the left sidebar."
+    },
+    {
+      "title": "Start the Reset Process",
+      "detail": "Under 'Reset this PC', click the 'Get started' button."
+    },
+    {
+      "title": "Choose to Keep Files",
+      "detail": "Select the option 'Keep my files' when prompted to choose how to reset."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will resetting Windows delete my installed programs?",
+      "answer": "Yes, resetting Windows will remove installed applications, but your personal files will remain."
+    },
+    {
+      "question": "Can I back up my files before resetting?",
+      "answer": "It's always a good idea to back up your files to an external drive or cloud storage before performing a reset."
+    },
+    {
+      "question": "What happens to my settings after the reset?",
+      "answer": "All system settings will be restored to their defaults, and you'll need to reconfigure them after the reset."
+    }
+  ],
+  "caveats": [
+    "While your personal files should remain intact, there is always a risk of data loss, so backing up important files is recommended."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-safely-eject-a-usb-drive",
+  "directAnswer": "To safely eject a USB drive, use the 'Eject' option in your operating system to prevent data loss.",
+  "summary": "Safely ejecting a USB drive ensures that all files are properly closed and prevents data corruption.",
+  "sections": [
+    {
+      "id": "windows-eject",
+      "heading": "Ejecting on Windows",
+      "body": "In Windows, you can eject a USB drive by clicking the 'Safely Remove Hardware' icon in the system tray."
+    },
+    {
+      "id": "mac-eject",
+      "heading": "Ejecting on macOS",
+      "body": "On macOS, you can eject a USB drive by dragging its icon to the Trash or right-clicking and selecting 'Eject'."
+    },
+    {
+      "id": "linux-eject",
+      "heading": "Ejecting on Linux",
+      "body": "In Linux, you can usually right-click the USB drive icon on the desktop and select 'Eject' or use the command line."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "1. Click the 'Safely Remove Hardware' icon in the system tray. 2. Select your USB drive and wait for the confirmation message."
+    },
+    {
+      "title": "macOS",
+      "detail": "1. Locate the USB drive icon on the desktop. 2. Drag it to the Trash or right-click and choose 'Eject'."
+    },
+    {
+      "title": "Linux",
+      "detail": "1. Right-click the USB drive icon on the desktop. 2. Select 'Eject' or use the terminal command 'umount /dev/sdX' (replace X with your drive letter)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if I don't eject my USB drive safely?",
+      "answer": "Not ejecting can lead to data corruption or loss, as files may still be in use."
+    },
+    {
+      "question": "Can I eject my USB drive while files are transferring?",
+      "answer": "No, you should wait until all file transfers are complete before ejecting."
+    },
+    {
+      "question": "Is there a way to eject a USB drive using the command line?",
+      "answer": "Yes, on Windows you can use 'diskpart', and on Linux, you can use 'umount' followed by the device path."
+    }
+  ],
+  "caveats": [
+    "Always ensure that you are not actively using files on the USB drive before ejecting to avoid data loss."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

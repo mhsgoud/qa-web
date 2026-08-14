@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-change-the-windows-lock-screen",
+  "directAnswer": "To change the Windows lock screen, go to Settings > Personalization > Lock screen and select your desired background and options.",
+  "summary": "Changing the Windows lock screen allows you to customize the appearance of your device when it's locked.",
+  "sections": [
+    {
+      "id": "customizing-background",
+      "heading": "Customizing the Background",
+      "body": "You can choose a picture, a slideshow, or Windows Spotlight for your lock screen background."
+    },
+    {
+      "id": "additional-settings",
+      "heading": "Additional Settings",
+      "body": "You can also select apps to show quick status updates on your lock screen, such as calendar or email notifications."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Settings",
+      "detail": "Click on the Start menu and select 'Settings' (gear icon)."
+    },
+    {
+      "title": "Navigate to Personalization",
+      "detail": "In the Settings window, click on 'Personalization'."
+    },
+    {
+      "title": "Select Lock Screen",
+      "detail": "From the left-hand menu, click on 'Lock screen'."
+    },
+    {
+      "title": "Choose Your Background",
+      "detail": "Under 'Background', select your preferred option (Picture, Slideshow, or Windows Spotlight) and configure any additional settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use my own photos for the lock screen?",
+      "answer": "Yes, you can select a personal photo by choosing 'Picture' under the background settings and browsing for your image."
+    },
+    {
+      "question": "Does changing the lock screen affect the login screen?",
+      "answer": "No, the lock screen and login screen can be customized separately in Windows settings."
+    },
+    {
+      "question": "How do I revert to the default lock screen?",
+      "answer": "To revert to the default lock screen, go back to the lock screen settings and select 'Windows Spotlight' or the default picture."
+    }
+  ],
+  "caveats": [
+    "Some options may vary depending on your version of Windows (e.g., Windows 10 vs. Windows 11)."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

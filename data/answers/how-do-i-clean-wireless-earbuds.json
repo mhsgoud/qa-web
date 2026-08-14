@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-clean-wireless-earbuds",
+  "directAnswer": "To clean wireless earbuds, use a soft, dry cloth to wipe the exterior and a cotton swab lightly dampened with isopropyl alcohol for the ear tips.",
+  "summary": "Regular cleaning of wireless earbuds helps maintain sound quality and hygiene.",
+  "sections": [
+    {
+      "id": "cleaning-exterior",
+      "heading": "Cleaning the Exterior",
+      "body": "Use a soft, lint-free cloth to gently wipe the outer surfaces of the earbuds. Avoid using any harsh chemicals or abrasive materials."
+    },
+    {
+      "id": "cleaning-ear-tips",
+      "heading": "Cleaning the Ear Tips",
+      "body": "Remove the ear tips if possible. Clean them with a cotton swab dipped in isopropyl alcohol, ensuring not to let any liquid enter the earbud itself."
+    },
+    {
+      "id": "drying-and-storage",
+      "heading": "Drying and Storage",
+      "body": "Allow the earbuds and ear tips to dry completely before reassembling. Store them in a dry, clean case when not in use."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Gather Cleaning Supplies",
+      "detail": "Collect a soft cloth, cotton swabs, and isopropyl alcohol."
+    },
+    {
+      "title": "Clean the Exterior",
+      "detail": "Wipe the outer surfaces of the earbuds with the soft cloth."
+    },
+    {
+      "title": "Clean the Ear Tips",
+      "detail": "Use the cotton swab with isopropyl alcohol to clean the ear tips."
+    },
+    {
+      "title": "Dry and Store",
+      "detail": "Ensure everything is dry before storing the earbuds in their case."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use water to clean my earbuds?",
+      "answer": "It's not recommended to use water, as it can damage the internal components. Stick to a dry cloth and isopropyl alcohol."
+    },
+    {
+      "question": "How often should I clean my wireless earbuds?",
+      "answer": "It's advisable to clean them at least once a week, or more frequently if used during workouts or in dusty environments."
+    },
+    {
+      "question": "What if my earbuds have a strong odor?",
+      "answer": "In addition to regular cleaning, consider using a small amount of baking soda on the ear tips to neutralize odors, but ensure they are thoroughly cleaned afterward."
+    }
+  ],
+  "caveats": [
+    "Avoid using excessive moisture, as it can damage the internal electronics."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1995,11 +1995,34 @@ summary:focus-visible {
   letter-spacing: -0.03em;
 }
 
+.page-back {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.page-back a {
+  color: var(--accent);
+}
+
+.page-back a:hover {
+  text-decoration: underline;
+}
+
 .page-lead {
   margin: 0 0 1.15rem;
   color: var(--ink-soft);
   max-width: 42rem;
   line-height: 1.5;
+}
+
+.page-lead a {
+  color: var(--accent-deep);
+  font-weight: 650;
+}
+
+.page-lead a:hover {
+  text-decoration: underline;
 }
 
 .browse-page,

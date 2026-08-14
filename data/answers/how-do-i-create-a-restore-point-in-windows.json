@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-create-a-restore-point-in-windows",
+  "directAnswer": "To create a restore point in Windows, open the System Properties, navigate to the System Protection tab, and click on 'Create'.",
+  "summary": "Creating a restore point allows you to revert your system to a previous state in case of issues.",
+  "sections": [
+    {
+      "id": "system-requirements",
+      "heading": "System Requirements",
+      "body": "Ensure that System Protection is enabled for the drive where Windows is installed. This is usually the C: drive."
+    },
+    {
+      "id": "creating-restore-point",
+      "heading": "Creating a Restore Point",
+      "body": "Follow the steps below to create a restore point in Windows."
+    },
+    {
+      "id": "restoration-process",
+      "heading": "Restoration Process",
+      "body": "Learn how to restore your system using the restore point you created."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open System Properties",
+      "detail": "Right-click on 'This PC' or 'Computer' on the desktop or in File Explorer and select 'Properties'."
+    },
+    {
+      "title": "Access System Protection",
+      "detail": "In the System window, click on 'System protection' in the left sidebar."
+    },
+    {
+      "title": "Create a Restore Point",
+      "detail": "In the System Protection tab, click on the 'Create' button, enter a description, and click 'Create' again."
+    },
+    {
+      "title": "Confirmation",
+      "detail": "Wait for the confirmation message that the restore point has been created successfully."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should I create restore points?",
+      "answer": "It's recommended to create restore points before major system changes, such as updates or software installations."
+    },
+    {
+      "question": "Can I delete old restore points?",
+      "answer": "Yes, you can manage and delete old restore points through the System Protection settings."
+    },
+    {
+      "question": "What happens if I run out of disk space for restore points?",
+      "answer": "Windows will automatically delete the oldest restore points to free up space for new ones."
+    }
+  ],
+  "caveats": [
+    "Restore points do not back up personal files; they only affect system files and settings."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

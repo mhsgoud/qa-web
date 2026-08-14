@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-scan-a-document",
+  "directAnswer": "To scan a document, place it on the scanner bed and use the scanning software on your computer or the printer's control panel to initiate the scan.",
+  "summary": "Scanning a document involves using a scanner or multifunction printer and appropriate software to digitize the physical document.",
+  "sections": [
+    {
+      "id": "scanner-types",
+      "heading": "Types of Scanners",
+      "body": "There are flatbed scanners, sheet-fed scanners, and all-in-one printers that can scan. Each type may have different features and scanning methods."
+    },
+    {
+      "id": "common-software",
+      "heading": "Common Scanning Software",
+      "body": "Most scanners come with proprietary software, but you can also use built-in options like Windows Fax and Scan or macOS Preview."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prepare the Scanner",
+      "detail": "Ensure the scanner is connected to your computer and powered on. Place the document face down on the scanner bed."
+    },
+    {
+      "title": "Open Scanning Software",
+      "detail": "Launch the scanning software on your computer. For Windows, search for 'Windows Fax and Scan'; for macOS, open 'Preview' and select 'Import from Scanner'."
+    },
+    {
+      "title": "Select Scan Settings",
+      "detail": "Choose your desired settings such as file format (PDF, JPEG), resolution, and color options."
+    },
+    {
+      "title": "Initiate the Scan",
+      "detail": "Click the 'Scan' button in the software to start the scanning process. Once completed, save the scanned document to your desired location."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What file formats can I save my scanned document in?",
+      "answer": "You can typically save scanned documents in formats like PDF, JPEG, or TIFF, depending on the software used."
+    },
+    {
+      "question": "Can I scan multiple pages at once?",
+      "answer": "Yes, if you have a sheet-fed scanner or an all-in-one printer with an automatic document feeder (ADF), you can scan multiple pages in one go."
+    },
+    {
+      "question": "What should I do if my scanner is not recognized by my computer?",
+      "answer": "Check the USB connection, ensure the scanner is powered on, and install any necessary drivers from the manufacturer's website."
+    }
+  ],
+  "caveats": [
+    "Scanning quality may vary based on the scanner's resolution settings and the condition of the document being scanned."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster on troubleshooting scanner issues",
+    "Checklist for preparing documents for scanning"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

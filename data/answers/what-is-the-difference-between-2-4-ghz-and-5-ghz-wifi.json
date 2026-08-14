@@ -1,0 +1,54 @@
+{
+  "slug": "what-is-the-difference-between-2-4-ghz-and-5-ghz-wifi",
+  "directAnswer": "2.4 GHz WiFi offers broader coverage but slower speeds, while 5 GHz WiFi provides faster speeds with a shorter range.",
+  "summary": "Understanding the differences between 2.4 GHz and 5 GHz WiFi can help optimize your network performance based on your needs.",
+  "sections": [
+    {
+      "id": "frequency-range",
+      "heading": "Frequency Range",
+      "body": "2.4 GHz operates on a longer wavelength, allowing it to penetrate walls and obstacles better, making it suitable for larger areas. In contrast, 5 GHz has a shorter wavelength, resulting in less penetration but higher data rates."
+    },
+    {
+      "id": "speed-and-bandwidth",
+      "heading": "Speed and Bandwidth",
+      "body": "5 GHz typically supports higher data rates (up to 1300 Mbps in some cases), while 2.4 GHz usually maxes out around 450-600 Mbps. This makes 5 GHz preferable for high-bandwidth activities like streaming and gaming."
+    },
+    {
+      "id": "interference",
+      "heading": "Interference",
+      "body": "2.4 GHz is more prone to interference from other devices like microwaves and Bluetooth, as it shares its frequency with many household devices. 5 GHz is less crowded, reducing potential interference."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check WiFi Frequency on Windows",
+      "detail": "1. Click on the WiFi icon in the taskbar. 2. Select 'Network & Internet settings'. 3. Click on 'Status' and then 'Properties' of your connected network to see the frequency."
+    },
+    {
+      "title": "Check WiFi Frequency on macOS",
+      "detail": "1. Hold the Option key and click on the WiFi icon in the menu bar. 2. Look for the 'Channel' information, which indicates whether you're on 2.4 GHz or 5 GHz."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use both 2.4 GHz and 5 GHz at the same time?",
+      "answer": "Yes, many modern routers allow simultaneous broadcasting of both frequencies, enabling devices to connect to the best option available."
+    },
+    {
+      "question": "Which frequency should I use for gaming?",
+      "answer": "5 GHz is generally recommended for gaming due to its higher speeds and lower latency, provided you are within a suitable range of the router."
+    },
+    {
+      "question": "How can I switch between 2.4 GHz and 5 GHz?",
+      "answer": "You can switch frequencies in your device's WiFi settings by selecting the desired network name (SSID) associated with either frequency, assuming your router broadcasts separate SSIDs."
+    }
+  ],
+  "caveats": [
+    "The actual performance may vary based on environmental factors, router quality, and device capabilities."
+  ],
+  "relatedToolIdeas": [
+    "Wi‑Fi speed / channel helper"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

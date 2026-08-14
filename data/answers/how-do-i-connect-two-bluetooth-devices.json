@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-connect-two-bluetooth-devices",
+  "directAnswer": "To connect two Bluetooth devices, ensure both devices are in pairing mode and then select the device you want to connect to from the list of available devices on the other device.",
+  "summary": "Connecting Bluetooth devices involves enabling pairing mode and selecting the device from the available options.",
+  "sections": [
+    {
+      "id": "pairing-mode",
+      "heading": "Enable Pairing Mode",
+      "body": "Each Bluetooth device must be in pairing mode to establish a connection. This is usually done through the settings menu or a dedicated button on the device."
+    },
+    {
+      "id": "select-device",
+      "heading": "Select the Device",
+      "body": "Once both devices are in pairing mode, go to the Bluetooth settings on one device and select the other device from the list of available devices."
+    },
+    {
+      "id": "confirm-connection",
+      "heading": "Confirm the Connection",
+      "body": "After selecting the device, you may need to confirm a pairing code or accept the connection request on both devices."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Put Device A in Pairing Mode",
+      "detail": "Refer to the user manual for Device A to enable pairing mode, which usually involves holding down the Bluetooth button or navigating to settings."
+    },
+    {
+      "title": "Put Device B in Pairing Mode",
+      "detail": "Similarly, enable pairing mode on Device B following its specific instructions."
+    },
+    {
+      "title": "Connect from Device A",
+      "detail": "On Device A, navigate to Bluetooth settings and look for Device B in the list of available devices. Tap to connect."
+    },
+    {
+      "title": "Confirm the Connection",
+      "detail": "If prompted, confirm the pairing code on both devices to complete the connection."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my devices don't see each other?",
+      "answer": "Ensure both devices are within close range and that they are both in pairing mode. Restarting the devices can also help."
+    },
+    {
+      "question": "Can I connect multiple Bluetooth devices at once?",
+      "answer": "Many devices support connecting to multiple Bluetooth devices, but this varies by device. Check your device specifications."
+    },
+    {
+      "question": "What should I do if the connection fails?",
+      "answer": "Try turning off Bluetooth on both devices and turning it back on. If the issue persists, consult the user manuals for troubleshooting steps."
+    }
+  ],
+  "caveats": [
+    "Some devices may have compatibility issues or limitations on the number of simultaneous connections."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

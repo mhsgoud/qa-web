@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-my-usb-c-port-not-charging",
+  "directAnswer": "Your USB-C port may not be charging due to incompatible cables, insufficient power from the charger, or a faulty port. Check each component for issues.",
+  "summary": "USB-C charging issues can arise from various factors including cable compatibility, power output, or hardware malfunctions.",
+  "sections": [
+    {
+      "id": "cable-compatibility",
+      "heading": "Check Cable Compatibility",
+      "body": "Ensure that the USB-C cable you are using is compatible with your device. Not all USB-C cables support charging; some are only for data transfer."
+    },
+    {
+      "id": "charger-output",
+      "heading": "Verify Charger Output",
+      "body": "Make sure your charger provides sufficient power output for your device. Some devices require a specific wattage to charge effectively."
+    },
+    {
+      "id": "port-condition",
+      "heading": "Inspect the USB-C Port",
+      "body": "Examine the USB-C port for debris or damage. A dirty or damaged port can prevent a proper connection."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Test with Different Cable",
+      "detail": "Try using a different USB-C cable that is known to support charging to see if the issue persists."
+    },
+    {
+      "title": "Use a Different Charger",
+      "detail": "Connect your device to a different USB-C charger to determine if the original charger is the problem."
+    },
+    {
+      "title": "Clean the USB-C Port",
+      "detail": "Gently clean the USB-C port using compressed air or a soft brush to remove any dust or debris."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use any USB-C charger with my device?",
+      "answer": "Not all USB-C chargers are compatible with every device. Check the wattage and specifications required by your device."
+    },
+    {
+      "question": "What should I do if my device still won't charge?",
+      "answer": "If your device still won't charge after trying different cables and chargers, consider contacting customer support or visiting a repair center."
+    },
+    {
+      "question": "Is it safe to use third-party USB-C cables?",
+      "answer": "Using third-party cables can be safe, but ensure they are certified and meet the specifications required for your device."
+    }
+  ],
+  "caveats": [
+    "Some devices may have specific charging requirements that are not met by generic USB-C chargers."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

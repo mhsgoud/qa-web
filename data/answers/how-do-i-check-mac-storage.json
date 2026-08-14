@@ -1,0 +1,53 @@
+{
+  "slug": "how-do-i-check-mac-storage",
+  "directAnswer": "You can check your Mac's storage by accessing the 'About This Mac' section and selecting the 'Storage' tab.",
+  "summary": "This guide provides steps to check the available storage on your Mac, along with some common questions and considerations.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of Mac Storage",
+      "body": "Mac storage includes the space available on your internal drive as well as any external drives connected. It's important to monitor this to ensure optimal performance."
+    },
+    {
+      "id": "checking-storage",
+      "heading": "How to Check Storage",
+      "body": "Follow the steps below to view your Mac's storage details."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open About This Mac",
+      "detail": "Click on the Apple menu in the top-left corner of your screen and select 'About This Mac'."
+    },
+    {
+      "title": "Access Storage Tab",
+      "detail": "In the window that appears, click on the 'Storage' tab to view a breakdown of your storage usage."
+    },
+    {
+      "title": "Review Storage Details",
+      "detail": "You will see a graphical representation of your storage usage, including categories like Apps, Documents, and System."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my storage is almost full?",
+      "answer": "If your storage is nearly full, consider removing unused apps, files, or using cloud storage solutions."
+    },
+    {
+      "question": "Can I check storage on older versions of macOS?",
+      "answer": "Yes, the steps are similar, but the interface may vary slightly. Look for 'About This Mac' in the Apple menu."
+    },
+    {
+      "question": "How can I free up space on my Mac?",
+      "answer": "You can free up space by emptying the Trash, deleting large files, or using the built-in storage management tools."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on the version of macOS you are using."
+  ],
+  "relatedToolIdeas": [
+    "Storage speed / upgrade picker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

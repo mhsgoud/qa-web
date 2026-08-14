@@ -14,7 +14,7 @@ import {
 
 export default function HomePage() {
   const categories = getPublishedCategories().slice(0, 12);
-  const popular = getPublishedQuestionsByPriority(12);
+  const popular = getPublishedQuestionsByPriority(16);
   const answerCount = getPublishedQuestions().length;
   const topicCount = getPublishedCategories().length;
 

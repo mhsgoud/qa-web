@@ -1,0 +1,53 @@
+{
+  "slug": "how-do-i-mirror-a-mac-screen",
+  "directAnswer": "To mirror a Mac screen, use the AirPlay feature to connect to an Apple TV or compatible device. Ensure both devices are on the same Wi-Fi network.",
+  "summary": "Mirroring your Mac screen can enhance presentations or allow for larger viewing experiences. This guide outlines the steps to achieve screen mirroring using AirPlay.",
+  "sections": [
+    {
+      "id": "airplay-setup",
+      "heading": "Setting Up AirPlay",
+      "body": "Ensure your Mac and the device you want to mirror to (like an Apple TV) are connected to the same Wi-Fi network. Click the AirPlay icon in the menu bar to see available devices."
+    },
+    {
+      "id": "adjusting-display-settings",
+      "heading": "Adjusting Display Settings",
+      "body": "Once connected, you can adjust display settings by going to System Preferences > Displays. Here, you can choose to mirror or extend your display."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Enable AirPlay",
+      "detail": "Click the AirPlay icon in the menu bar at the top-right of your screen and select the device you want to mirror to."
+    },
+    {
+      "title": "Choose Display Mode",
+      "detail": "Select 'Mirror Display' to show the same content on both your Mac and the external display."
+    },
+    {
+      "title": "Adjust Resolution",
+      "detail": "Go to System Preferences > Displays to adjust the resolution and scaling options if needed."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the AirPlay icon is not visible?",
+      "answer": "If the AirPlay icon is missing, ensure your Mac supports AirPlay and is connected to the same Wi-Fi network as the receiving device."
+    },
+    {
+      "question": "Can I mirror to multiple devices?",
+      "answer": "No, AirPlay only allows mirroring to one device at a time. You can switch between devices, but not mirror to multiple simultaneously."
+    },
+    {
+      "question": "Is there a way to mirror without AirPlay?",
+      "answer": "Yes, you can use a physical HDMI cable to connect your Mac directly to a monitor or TV for mirroring."
+    }
+  ],
+  "caveats": [
+    "Mirroring performance may vary based on network speed and distance from the router."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

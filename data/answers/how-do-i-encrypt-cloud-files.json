@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-encrypt-cloud-files",
+  "directAnswer": "To encrypt cloud files, use built-in encryption features of your cloud service or third-party encryption tools before uploading files.",
+  "summary": "Encrypting files stored in the cloud enhances security by protecting sensitive data from unauthorized access.",
+  "sections": [
+    {
+      "id": "encryption-options",
+      "heading": "Encryption Options",
+      "body": "Most cloud storage providers offer built-in encryption. For example, Google Drive encrypts files in transit and at rest. Alternatively, you can use third-party tools like VeraCrypt or Cryptomator for additional encryption."
+    },
+    {
+      "id": "platform-specific-steps",
+      "heading": "Platform-Specific Steps",
+      "body": "Steps may vary by platform. Below are examples for popular cloud services."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Google Drive",
+      "detail": "Upload files directly; they are encrypted automatically. For additional encryption, use third-party tools before uploading."
+    },
+    {
+      "title": "Dropbox",
+      "detail": "Files are encrypted during transfer and storage. Use tools like Boxcryptor for client-side encryption before uploading."
+    },
+    {
+      "title": "OneDrive",
+      "detail": "Files are encrypted at rest and in transit. Use third-party encryption software for added security."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I encrypt files after uploading them?",
+      "answer": "Yes, but you will need to download the files, encrypt them using your chosen tool, and then re-upload them."
+    },
+    {
+      "question": "What happens if I forget my encryption password?",
+      "answer": "If you forget your encryption password, you may lose access to your files permanently, as most encryption methods do not allow recovery without the password."
+    },
+    {
+      "question": "Is there a difference between client-side and server-side encryption?",
+      "answer": "Yes, client-side encryption secures files before they reach the cloud, while server-side encryption is managed by the cloud provider."
+    }
+  ],
+  "caveats": [
+    "Encryption can complicate file sharing and collaboration, as recipients may need the encryption key."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for secure file storage"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

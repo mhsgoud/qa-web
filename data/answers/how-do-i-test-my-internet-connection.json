@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-test-my-internet-connection",
+  "directAnswer": "You can test your internet connection by using online speed test tools or by checking your connection status in your device's network settings.",
+  "summary": "Testing your internet connection can help identify issues with speed and connectivity. Here’s how to do it effectively across different platforms.",
+  "sections": [
+    {
+      "id": "speed-test-tools",
+      "heading": "Using Online Speed Test Tools",
+      "body": "Websites like Speedtest.net or Fast.com allow you to measure your internet speed by clicking a button to initiate the test. These tools provide metrics on download and upload speeds, as well as ping."
+    },
+    {
+      "id": "device-settings",
+      "heading": "Checking Connection Status on Devices",
+      "body": "You can also check your connection status through your device's settings. On Windows, go to 'Settings' > 'Network & Internet' > 'Status'. On macOS, navigate to 'System Preferences' > 'Network'. For mobile devices, check under 'Settings' > 'Network' or 'Wi-Fi'."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Use a Speed Test Website",
+      "detail": "Open a web browser and navigate to a speed test website like Speedtest.net. Click 'Go' to start the test and wait for the results."
+    },
+    {
+      "title": "Check Network Settings on Windows",
+      "detail": "Go to 'Settings' > 'Network & Internet' > 'Status' and look for 'Network status' to see if you are connected and the connection type."
+    },
+    {
+      "title": "Check Network Settings on macOS",
+      "detail": "Open 'System Preferences', select 'Network', and review the status of your active connections."
+    },
+    {
+      "title": "Use Command Line Tools (Advanced)",
+      "detail": "On Windows, open Command Prompt and type 'ping google.com' to check connectivity. On macOS, use Terminal with the same command."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my internet speed is slow?",
+      "answer": "Try restarting your router, checking for bandwidth usage by other devices, or contacting your ISP for assistance."
+    },
+    {
+      "question": "How can I improve my internet connection?",
+      "answer": "Consider using a wired connection, upgrading your router, or optimizing your Wi-Fi settings for better coverage."
+    },
+    {
+      "question": "Are there mobile apps for testing internet speed?",
+      "answer": "Yes, apps like Speedtest by Ookla are available for both iOS and Android devices to test your internet speed."
+    }
+  ],
+  "caveats": [
+    "Results may vary based on network congestion, time of day, and server location."
+  ],
+  "relatedToolIdeas": [
+    "Q&A cluster on troubleshooting internet issues",
+    "Checklist for optimizing home network performance"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

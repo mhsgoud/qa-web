@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-show-hidden-files-in-windows",
+  "directAnswer": "To show hidden files in Windows, you can adjust the settings in File Explorer or use the Command Prompt.",
+  "summary": "This guide provides steps to reveal hidden files in Windows operating systems using different methods.",
+  "sections": [
+    {
+      "id": "file-explorer",
+      "heading": "Using File Explorer",
+      "body": "You can easily show hidden files through the File Explorer settings. This method is applicable to Windows 10 and Windows 11."
+    },
+    {
+      "id": "command-prompt",
+      "heading": "Using Command Prompt",
+      "body": "Alternatively, you can use the Command Prompt to view hidden files. This method works across various Windows versions."
+    }
+  ],
+  "steps": [
+    {
+      "title": "File Explorer Method",
+      "detail": "1. Open File Explorer. 2. Click on the 'View' tab. 3. Check 'Hidden items' in the Show/hide group."
+    },
+    {
+      "title": "Command Prompt Method",
+      "detail": "1. Press Win + R, type 'cmd', and hit Enter. 2. Navigate to the desired directory using 'cd' command. 3. Type 'dir /ah' to list hidden files."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I still can't see hidden files?",
+      "answer": "Ensure that the files are not set to 'System' attributes, as these may require additional permissions to view."
+    },
+    {
+      "question": "Can I hide files again after showing them?",
+      "answer": "Yes, you can repeat the steps and uncheck 'Hidden items' in File Explorer or change the file attributes back using the Command Prompt."
+    },
+    {
+      "question": "Are hidden files safe to delete?",
+      "answer": "Hidden files can be system files or important data; be cautious when deleting them, as it may affect system performance."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on the version of Windows you are using."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

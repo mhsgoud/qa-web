@@ -1,0 +1,62 @@
+{
+  "slug": "why-is-my-smart-device-offline",
+  "directAnswer": "Your smart device may be offline due to network connectivity issues, power outages, or device malfunctions. Check your Wi-Fi connection and ensure the device is powered on.",
+  "summary": "Understanding why your smart device is offline can help you troubleshoot connectivity issues effectively.",
+  "sections": [
+    {
+      "id": "network-issues",
+      "heading": "Network Issues",
+      "body": "If your smart device is not connected to the internet, it may be due to a weak Wi-Fi signal or router problems. Ensure your router is functioning properly and within range."
+    },
+    {
+      "id": "device-power",
+      "heading": "Device Power",
+      "body": "Make sure your smart device is plugged in and powered on. Some devices may have a power-saving mode that could affect connectivity."
+    },
+    {
+      "id": "app-settings",
+      "heading": "App Settings",
+      "body": "Check the app associated with your smart device for any connectivity settings or alerts. Sometimes, devices need to be reconnected through their respective apps."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Wi-Fi Connection",
+      "detail": "Ensure your Wi-Fi network is operational. You can do this by connecting another device to the same network."
+    },
+    {
+      "title": "Restart Your Device",
+      "detail": "Power off the smart device and then turn it back on after a few seconds to reset its connection."
+    },
+    {
+      "title": "Reboot Your Router",
+      "detail": "Unplug your router for about 30 seconds and then plug it back in to reset the network."
+    },
+    {
+      "title": "Update Device Firmware",
+      "detail": "Check for any firmware updates for your smart device via its app, as outdated software can cause connectivity issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my device still won't connect?",
+      "answer": "Try resetting the device to factory settings and then set it up again according to the manufacturer's instructions."
+    },
+    {
+      "question": "Can interference affect my smart device's connectivity?",
+      "answer": "Yes, other electronic devices or physical obstructions can interfere with Wi-Fi signals, affecting connectivity."
+    },
+    {
+      "question": "How can I improve my Wi-Fi signal?",
+      "answer": "Consider moving your router to a more central location, using Wi-Fi extenders, or upgrading to a more powerful router."
+    }
+  ],
+  "caveats": [
+    "Connectivity issues can sometimes be caused by service outages from your internet provider."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

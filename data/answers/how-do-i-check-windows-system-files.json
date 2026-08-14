@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-check-windows-system-files",
+  "directAnswer": "You can check Windows system files using the System File Checker (SFC) tool, which scans for and repairs corrupted files.",
+  "summary": "This guide provides steps to use the System File Checker tool in Windows to verify and restore system files.",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview of System File Checker",
+      "body": "The System File Checker (SFC) is a built-in Windows utility that helps you scan and restore corrupted system files. It is particularly useful when you experience system instability or performance issues."
+    },
+    {
+      "id": "using-sfc",
+      "heading": "Using the System File Checker",
+      "body": "To utilize the SFC tool, you need to run it through the Command Prompt with administrative privileges."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Command Prompt as Administrator",
+      "detail": "Press the Windows key, type 'cmd', right-click on 'Command Prompt', and select 'Run as administrator'."
+    },
+    {
+      "title": "Run the SFC Command",
+      "detail": "In the Command Prompt window, type 'sfc /scannow' and press Enter. This process may take some time."
+    },
+    {
+      "title": "Review the Results",
+      "detail": "Once the scan is complete, review the results. If issues are found, SFC will attempt to repair them automatically."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if SFC cannot fix some files?",
+      "answer": "If SFC cannot repair some files, you can try running the DISM tool with the command 'DISM /Online /Cleanup-Image /RestoreHealth' before running SFC again."
+    },
+    {
+      "question": "Can I run SFC in Safe Mode?",
+      "answer": "Yes, running SFC in Safe Mode can help if you are experiencing issues that prevent it from running normally."
+    },
+    {
+      "question": "How often should I run the SFC tool?",
+      "answer": "It's a good practice to run SFC if you notice system instability, but there is no need to run it regularly unless issues arise."
+    }
+  ],
+  "caveats": [
+    "Running SFC may require a restart if it finds and repairs files, and some repairs may not be possible if the system is heavily corrupted."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster on Windows troubleshooting",
+    "Checklist for maintaining system health"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

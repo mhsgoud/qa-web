@@ -1,0 +1,58 @@
+{
+  "slug": "how-far-can-an-electric-car-travel",
+  "directAnswer": "Most electric cars can travel between 150 to 370 miles on a single charge, depending on the model and battery capacity.",
+  "summary": "Electric vehicle range varies significantly based on model, driving conditions, and battery size.",
+  "sections": [
+    {
+      "id": "range-factors",
+      "heading": "Factors Affecting Range",
+      "body": "Range can be influenced by factors such as driving style, terrain, weather conditions, and the use of climate control systems."
+    },
+    {
+      "id": "charging-options",
+      "heading": "Charging Options",
+      "body": "Charging infrastructure varies, with options including home charging, public charging stations, and fast chargers, which can affect overall travel distance."
+    },
+    {
+      "id": "model-comparison",
+      "heading": "Comparing Models",
+      "body": "Different electric vehicle models offer varying ranges; for example, a Tesla Model 3 can exceed 350 miles, while smaller models may offer less than 200 miles."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Manufacturer Specifications",
+      "detail": "Visit the manufacturer's website or the vehicle's manual to find the exact range for your electric car model."
+    },
+    {
+      "title": "Consider Driving Conditions",
+      "detail": "Evaluate your typical driving conditions, as factors like hills and temperature can impact range."
+    },
+    {
+      "title": "Plan Charging Stops",
+      "detail": "Use apps or websites to locate charging stations along your route to ensure you can recharge as needed."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the average range of electric cars?",
+      "answer": "The average range for most electric cars is around 250 miles, but this can vary widely by model."
+    },
+    {
+      "question": "How does temperature affect electric car range?",
+      "answer": "Cold weather can reduce battery efficiency, leading to decreased range, while warmer temperatures can enhance performance."
+    },
+    {
+      "question": "Can I increase my electric car's range?",
+      "answer": "Yes, driving at moderate speeds, minimizing use of heating or air conditioning, and ensuring proper tire pressure can help maximize range."
+    }
+  ],
+  "caveats": [
+    "Actual range may differ based on driving habits and environmental conditions."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

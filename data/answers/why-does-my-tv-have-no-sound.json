@@ -1,0 +1,58 @@
+{
+  "slug": "why-does-my-tv-have-no-sound",
+  "directAnswer": "Check the volume settings and ensure that the TV is not muted. Also, verify that the audio output settings are correctly configured for your device.",
+  "summary": "No sound from your TV can be caused by several factors, including volume settings, audio output configurations, or external device connections.",
+  "sections": [
+    {
+      "id": "volume-settings",
+      "heading": "Check Volume Settings",
+      "body": "Ensure that the TV's volume is turned up and not muted. Use the remote control to adjust the volume and look for any on-screen indicators."
+    },
+    {
+      "id": "audio-output",
+      "heading": "Verify Audio Output Settings",
+      "body": "Navigate to the TV's audio settings menu. Make sure the correct audio output option is selected, especially if using external speakers or soundbars."
+    },
+    {
+      "id": "external-devices",
+      "heading": "Inspect External Device Connections",
+      "body": "If you're using external devices (like a cable box or gaming console), check their audio settings and connections. Make sure they are properly connected to the TV."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Adjust Volume",
+      "detail": "Use the remote control to increase the volume and check if the mute function is activated."
+    },
+    {
+      "title": "Access Audio Settings",
+      "detail": "Go to Settings > Audio (or Sound) > Audio Output and select the appropriate option (TV Speakers, HDMI, etc.)."
+    },
+    {
+      "title": "Check External Devices",
+      "detail": "Ensure that any connected devices are powered on and check their audio settings for proper configuration."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the TV still has no sound after checking settings?",
+      "answer": "Try restarting the TV and any connected devices. If the issue persists, consult the user manual for troubleshooting specific to your TV model."
+    },
+    {
+      "question": "Could a software update affect sound?",
+      "answer": "Yes, software updates can sometimes reset audio settings. Check for any updates and review the audio settings afterward."
+    },
+    {
+      "question": "Is there a chance the speakers are damaged?",
+      "answer": "If all settings appear correct and the sound still doesn't work, there may be an issue with the TV's internal speakers, which could require professional repair."
+    }
+  ],
+  "caveats": [
+    "Audio settings and menu paths may vary by TV brand and model."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

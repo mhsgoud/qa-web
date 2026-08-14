@@ -1,0 +1,62 @@
+{
+  "slug": "why-does-my-wifi-keep-disconnecting",
+  "directAnswer": "WiFi disconnections can be caused by interference, outdated firmware, or network congestion. Identifying the specific cause can help resolve the issue.",
+  "summary": "Frequent WiFi disconnections can disrupt your internet experience. Understanding the potential causes and solutions can help maintain a stable connection.",
+  "sections": [
+    {
+      "id": "common-causes",
+      "heading": "Common Causes of WiFi Disconnections",
+      "body": "Interference from other electronic devices, outdated router firmware, or an overloaded network can lead to frequent disconnections."
+    },
+    {
+      "id": "troubleshooting-steps",
+      "heading": "Troubleshooting Steps",
+      "body": "Follow these steps to identify and resolve WiFi disconnection issues."
+    },
+    {
+      "id": "improving-connection",
+      "heading": "Improving Your Connection",
+      "body": "Consider changing your router's channel or upgrading your equipment to improve connectivity."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Restart Your Router",
+      "detail": "Unplug your router, wait for 30 seconds, and then plug it back in. This can resolve temporary connectivity issues."
+    },
+    {
+      "title": "Check for Interference",
+      "detail": "Ensure that your router is placed away from other electronic devices and physical obstructions. Consider moving it to a central location."
+    },
+    {
+      "title": "Update Router Firmware",
+      "detail": "Access your router's settings through a web browser (usually at 192.168.1.1 or 192.168.0.1) and check for firmware updates. The path may vary by router model."
+    },
+    {
+      "title": "Change WiFi Channel",
+      "detail": "In your router settings, try switching to a less congested channel. This can help reduce interference from neighboring networks."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I know if my WiFi is overloaded?",
+      "answer": "If multiple devices are connected and experiencing slow speeds or disconnections, your network may be overloaded. Disconnect some devices to test."
+    },
+    {
+      "question": "What should I do if the problem persists?",
+      "answer": "If disconnections continue, consider contacting your Internet Service Provider for further assistance or potential hardware upgrades."
+    },
+    {
+      "question": "Can my device settings affect WiFi stability?",
+      "answer": "Yes, device settings such as power-saving modes or outdated network drivers can impact WiFi performance. Ensure your device is updated."
+    }
+  ],
+  "caveats": [
+    "WiFi issues can vary significantly based on the specific router model and the environment, so steps may differ."
+  ],
+  "relatedToolIdeas": [
+    "Wi‑Fi speed / channel helper"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

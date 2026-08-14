@@ -1,0 +1,50 @@
+{
+  "slug": "how-do-i-screen-record-on-mac",
+  "directAnswer": "You can screen record on a Mac using the built-in QuickTime Player or the Screenshot toolbar (Command + Shift + 5).",
+  "summary": "This guide provides steps to screen record on a Mac using QuickTime Player and the Screenshot toolbar, along with some common questions and considerations.",
+  "sections": [
+    {
+      "id": "quicktime-player",
+      "heading": "Using QuickTime Player",
+      "body": "QuickTime Player allows you to record your screen with audio. This method is straightforward and does not require additional software."
+    },
+    {
+      "id": "screenshot-toolbar",
+      "heading": "Using the Screenshot Toolbar",
+      "body": "The Screenshot toolbar provides a quick way to capture your screen and offers options for recording specific windows or the entire screen."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Record with QuickTime Player",
+      "detail": "1. Open QuickTime Player from your Applications folder. 2. Click 'File' in the menu bar and select 'New Screen Recording'. 3. Click the red record button, then choose to record the entire screen or a selected portion."
+    },
+    {
+      "title": "Record with the Screenshot Toolbar",
+      "detail": "1. Press Command + Shift + 5 to open the Screenshot toolbar. 2. Choose either 'Record Entire Screen' or 'Record Selected Portion'. 3. Click 'Record' to start recording."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I record audio while screen recording?",
+      "answer": "Yes, both QuickTime Player and the Screenshot toolbar allow you to record audio. For QuickTime, select a microphone before starting the recording."
+    },
+    {
+      "question": "Where are my recordings saved?",
+      "answer": "By default, recordings made with QuickTime Player are saved in your Movies folder, while those made with the Screenshot toolbar are saved to your desktop."
+    },
+    {
+      "question": "Is there a time limit for screen recording?",
+      "answer": "There is no built-in time limit for screen recordings on a Mac, but be mindful of available storage space."
+    }
+  ],
+  "caveats": [
+    "Screen recording may not capture certain protected content, such as streaming services."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster on video editing tools for Mac",
+    "Checklist for optimizing screen recordings"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

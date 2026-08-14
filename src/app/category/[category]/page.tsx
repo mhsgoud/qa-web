@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { QuestionLink } from "@/components/QuestionLink";
@@ -34,10 +35,13 @@ export default async function CategoryPage({ params }: Props) {
 
   return (
     <div className="shell category-page">
+      <p className="page-back">
+        <Link href="/browse">← All topics</Link>
+      </p>
       <h1 className="page-title">{name}</h1>
       <p className="page-lead">
         {questions.length} published answer{questions.length === 1 ? "" : "s"} in
-        this topic.
+        this topic, listed by priority.
       </p>
       <div className="question-list">
         {questions.map((q) => (

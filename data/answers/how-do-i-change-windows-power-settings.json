@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-change-windows-power-settings",
+  "directAnswer": "You can change Windows power settings by accessing the Control Panel or Settings app, depending on your Windows version.",
+  "summary": "Adjusting power settings can help optimize your computer's performance or battery life based on your needs.",
+  "sections": [
+    {
+      "id": "accessing-power-settings",
+      "heading": "Accessing Power Settings",
+      "body": "To access power settings, you can go through the Control Panel or the Settings app. The method may vary slightly depending on whether you are using Windows 10 or Windows 11."
+    },
+    {
+      "id": "choosing-a-power-plan",
+      "heading": "Choosing a Power Plan",
+      "body": "Windows offers several power plans such as Balanced, Power Saver, and High Performance. You can select one based on your usage needs."
+    },
+    {
+      "id": "customizing-power-options",
+      "heading": "Customizing Power Options",
+      "body": "You can customize advanced power settings like sleep, display timeout, and processor power management to further tailor your experience."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Settings or Control Panel",
+      "detail": "For Windows 10, right-click the Start button and select 'Power Options'. For Windows 11, go to Settings > System > Power & battery."
+    },
+    {
+      "title": "Select a Power Plan",
+      "detail": "In the Power Options window, choose a power plan by clicking on 'Change plan settings' next to your selected plan."
+    },
+    {
+      "title": "Adjust Advanced Settings",
+      "detail": "Click on 'Change advanced power settings' to modify specific settings like sleep and display options."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between power plans?",
+      "answer": "Power plans differ in how they manage energy consumption; for example, 'Power Saver' reduces performance to save energy, while 'High Performance' maximizes performance."
+    },
+    {
+      "question": "Can I create my own power plan?",
+      "answer": "Yes, you can create a custom power plan by selecting 'Create a power plan' in the Power Options menu."
+    },
+    {
+      "question": "How do I reset power settings to default?",
+      "answer": "You can reset power settings by selecting 'Change plan settings' for your active plan and then clicking 'Restore default settings for this plan'."
+    }
+  ],
+  "caveats": [
+    "Changing power settings may affect system performance and battery life, especially on laptops."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

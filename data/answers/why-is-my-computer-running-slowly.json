@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-my-computer-running-slowly",
+  "directAnswer": "Your computer may be running slowly due to insufficient RAM, too many background processes, or malware infections.",
+  "summary": "Several factors can contribute to a slow computer, including hardware limitations and software issues.",
+  "sections": [
+    {
+      "id": "hardware-issues",
+      "heading": "Hardware Issues",
+      "body": "If your computer has outdated hardware, such as limited RAM or an old hard drive, it can significantly affect performance. Upgrading components like RAM or switching to an SSD can improve speed."
+    },
+    {
+      "id": "software-issues",
+      "heading": "Software Issues",
+      "body": "Running too many applications simultaneously or having malware can slow down your computer. Regularly check for updates and run antivirus scans."
+    },
+    {
+      "id": "system-maintenance",
+      "heading": "System Maintenance",
+      "body": "Performing regular maintenance, such as disk cleanup and defragmentation (for HDDs), can help improve performance. Consider using built-in tools for your operating system."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Task Manager (Windows)",
+      "detail": "Press Ctrl + Shift + Esc to open Task Manager. Look for processes using high CPU or memory and close unnecessary ones."
+    },
+    {
+      "title": "Free Up Disk Space",
+      "detail": "Use Disk Cleanup on Windows (search for 'Disk Cleanup' in the Start menu) or the Storage Management tool on macOS (Apple menu > About This Mac > Storage) to remove unnecessary files."
+    },
+    {
+      "title": "Run a Malware Scan",
+      "detail": "Use Windows Defender or a trusted antivirus program to scan for malware. On macOS, consider using Malwarebytes for a thorough check."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How can I tell if my computer needs more RAM?",
+      "answer": "If you frequently see high memory usage in Task Manager or experience lag when running multiple applications, it may be time to upgrade your RAM."
+    },
+    {
+      "question": "What are the signs of a malware infection?",
+      "answer": "Signs include unexpected pop-ups, slow performance, and programs opening or closing on their own. Running a malware scan can help confirm an infection."
+    },
+    {
+      "question": "Is it worth upgrading my hard drive to an SSD?",
+      "answer": "Yes, upgrading to an SSD can significantly improve boot times and overall system responsiveness compared to traditional HDDs."
+    }
+  ],
+  "caveats": [
+    "Performance issues can stem from multiple sources, and addressing one may not resolve all problems."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-check-windows-activation-status",
+  "directAnswer": "You can check your Windows activation status by accessing the Settings app or using the Command Prompt.",
+  "summary": "This guide provides steps to verify the activation status of your Windows operating system.",
+  "sections": [
+    {
+      "id": "using-settings-app",
+      "heading": "Using the Settings App",
+      "body": "To check activation status through the Settings app, navigate to 'Update & Security' and then select 'Activation'."
+    },
+    {
+      "id": "using-command-prompt",
+      "heading": "Using Command Prompt",
+      "body": "Alternatively, you can open Command Prompt and enter the command 'slmgr /xpr' to view the activation status."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Settings",
+      "detail": "Click on the Start menu and select the gear icon to open the Settings app."
+    },
+    {
+      "title": "Navigate to Activation",
+      "detail": "In the Settings app, click on 'Update & Security', then select 'Activation' from the left sidebar."
+    },
+    {
+      "title": "Check Activation Status",
+      "detail": "The activation status will be displayed on the right side, indicating if Windows is activated."
+    },
+    {
+      "title": "Use Command Prompt",
+      "detail": "Open Command Prompt, type 'slmgr /xpr', and press Enter to see the activation status."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What does it mean if Windows is not activated?",
+      "answer": "If Windows is not activated, you may have limited access to features and may receive reminders to activate."
+    },
+    {
+      "question": "How can I activate Windows if it is not activated?",
+      "answer": "You can activate Windows by entering a valid product key in the Activation settings or using the 'Activate' option."
+    },
+    {
+      "question": "Will my files be lost if I activate Windows?",
+      "answer": "No, activating Windows does not affect your files or applications."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on your Windows version (e.g., Windows 10 vs. Windows 11)."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

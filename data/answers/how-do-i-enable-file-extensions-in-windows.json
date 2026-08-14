@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-enable-file-extensions-in-windows",
+  "directAnswer": "To enable file extensions in Windows, you need to access the File Explorer options and modify the settings to show file name extensions.",
+  "summary": "This guide provides steps to enable file extensions in Windows, allowing you to see the full names of files including their extensions.",
+  "sections": [
+    {
+      "id": "understanding-file-extensions",
+      "heading": "Understanding File Extensions",
+      "body": "File extensions indicate the file type and determine which programs can open them. Common extensions include .txt, .jpg, and .exe."
+    },
+    {
+      "id": "steps-to-enable-extensions",
+      "heading": "Steps to Enable File Extensions",
+      "body": "Follow these steps to view file extensions in Windows."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open File Explorer",
+      "detail": "Click on the File Explorer icon in the taskbar or press Windows + E."
+    },
+    {
+      "title": "Access Folder Options",
+      "detail": "In Windows 10/11, click on the 'View' tab at the top, then select 'Options' on the right side. In earlier versions, find 'Folder Options' in the Tools menu."
+    },
+    {
+      "title": "Modify View Settings",
+      "detail": "In the Folder Options window, go to the 'View' tab and uncheck the box labeled 'Hide extensions for known file types'."
+    },
+    {
+      "title": "Apply Changes",
+      "detail": "Click 'Apply', then 'OK' to save your changes. File extensions will now be visible in File Explorer."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will this change affect all users on my computer?",
+      "answer": "No, this setting is user-specific. Each user account can enable or disable file extensions independently."
+    },
+    {
+      "question": "How do I revert back to hiding file extensions?",
+      "answer": "Follow the same steps and check the 'Hide extensions for known file types' box in the Folder Options."
+    },
+    {
+      "question": "Are there any security implications to showing file extensions?",
+      "answer": "Yes, showing file extensions can help you identify potentially harmful files, but be cautious as some malware may disguise themselves with misleading extensions."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on your version of Windows."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

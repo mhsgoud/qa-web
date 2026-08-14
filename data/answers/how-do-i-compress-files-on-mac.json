@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-compress-files-on-mac",
+  "directAnswer": "To compress files on a Mac, you can use the built-in 'Compress' feature available in Finder. This allows you to create a ZIP file of selected items quickly.",
+  "summary": "Compressing files on a Mac is straightforward using Finder's built-in functionality, which allows for easy file management and sharing.",
+  "sections": [
+    {
+      "id": "compressing-files",
+      "heading": "How to Compress Files Using Finder",
+      "body": "Finder provides a simple way to compress files into a ZIP format. This method is efficient for reducing file sizes and grouping multiple files."
+    },
+    {
+      "id": "other-compression-tools",
+      "heading": "Alternative Compression Tools",
+      "body": "While Finder is convenient, there are third-party applications available, such as Keka or The Unarchiver, that offer additional compression formats and options."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Select Files or Folders",
+      "detail": "Open Finder and select the files or folders you want to compress. You can hold down the Command key to select multiple items."
+    },
+    {
+      "title": "Compress Selected Items",
+      "detail": "Right-click on the selected items and choose 'Compress' from the context menu. Alternatively, you can go to the 'File' menu at the top and select 'Compress'."
+    },
+    {
+      "title": "Locate the Compressed File",
+      "detail": "A new ZIP file will be created in the same location as the original files, named 'Archive.zip' or similar. You can rename it as needed."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I compress files into formats other than ZIP?",
+      "answer": "Finder only creates ZIP files. For other formats, consider using third-party applications like Keka or WinZip."
+    },
+    {
+      "question": "Does compressing files reduce their quality?",
+      "answer": "Compression reduces file size but does not affect the quality of files like images or audio. However, some formats may lose quality during compression."
+    },
+    {
+      "question": "Is there a limit to the size of files I can compress?",
+      "answer": "There is no specific limit imposed by macOS, but very large files may take longer to compress and could affect system performance during the process."
+    }
+  ],
+  "caveats": [
+    "Compression may not significantly reduce the size of already compressed files, such as JPEG images or MP3 audio files."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster on file management tips",
+    "Checklist for organizing files before compression"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

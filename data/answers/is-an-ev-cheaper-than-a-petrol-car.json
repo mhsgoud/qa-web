@@ -1,0 +1,58 @@
+{
+  "slug": "is-an-ev-cheaper-than-a-petrol-car",
+  "directAnswer": "Electric vehicles (EVs) can be cheaper to operate than petrol cars due to lower fuel and maintenance costs, but the initial purchase price may be higher.",
+  "summary": "While EVs often have lower running costs, the overall expense can vary based on purchase price, local electricity rates, and driving habits.",
+  "sections": [
+    {
+      "id": "cost-comparison",
+      "heading": "Cost Comparison",
+      "body": "EVs typically have lower fuel costs since electricity is generally cheaper than petrol. Additionally, EVs require less maintenance due to fewer moving parts."
+    },
+    {
+      "id": "purchase-price",
+      "heading": "Initial Purchase Price",
+      "body": "The upfront cost of EVs can be higher than petrol cars, although government incentives and decreasing battery prices are making them more affordable."
+    },
+    {
+      "id": "long-term-savings",
+      "heading": "Long-term Savings",
+      "body": "Over time, the savings on fuel and maintenance can offset the higher initial cost of an EV, especially for high-mileage drivers."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Calculate Your Costs",
+      "detail": "Use an EV home charger calculator to estimate your potential savings based on your local electricity rates and driving habits."
+    },
+    {
+      "title": "Consider Incentives",
+      "detail": "Check for government incentives or tax credits available in your area for purchasing an EV."
+    },
+    {
+      "title": "Evaluate Total Cost of Ownership",
+      "detail": "Factor in insurance, maintenance, and potential resale value when comparing costs between an EV and a petrol car."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are EVs more environmentally friendly than petrol cars?",
+      "answer": "Yes, EVs produce zero tailpipe emissions, and their overall environmental impact depends on the source of the electricity used for charging."
+    },
+    {
+      "question": "What are the maintenance costs for EVs?",
+      "answer": "EVs generally have lower maintenance costs due to fewer moving parts, but battery replacement can be a significant expense if needed."
+    },
+    {
+      "question": "How does charging at home compare to petrol costs?",
+      "answer": "Charging at home is usually cheaper than filling a petrol tank, but costs vary based on local electricity rates."
+    }
+  ],
+  "caveats": [
+    "The cost-effectiveness of an EV can vary significantly based on local electricity prices, driving patterns, and vehicle models."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

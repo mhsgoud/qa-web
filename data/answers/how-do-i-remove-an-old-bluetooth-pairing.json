@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-remove-an-old-bluetooth-pairing",
+  "directAnswer": "To remove an old Bluetooth pairing, access your device's Bluetooth settings and select the device you want to unpair, then choose the option to forget or remove it.",
+  "summary": "Removing old Bluetooth pairings can help resolve connection issues and manage device lists efficiently.",
+  "sections": [
+    {
+      "id": "understanding-bluetooth-pairings",
+      "heading": "Understanding Bluetooth Pairings",
+      "body": "Bluetooth pairings allow devices to connect wirelessly. Over time, old pairings can accumulate, potentially causing confusion or connection problems."
+    },
+    {
+      "id": "platform-specific-instructions",
+      "heading": "Platform-Specific Instructions",
+      "body": "The steps to remove Bluetooth pairings can vary by device type and operating system."
+    }
+  ],
+  "steps": [
+    {
+      "title": "On Android",
+      "detail": "Open 'Settings', tap 'Connected devices', select 'Bluetooth', find the device you want to remove, and tap 'Forget' or 'Unpair'."
+    },
+    {
+      "title": "On iOS",
+      "detail": "Go to 'Settings', tap 'Bluetooth', find the device in the list, and tap the 'i' icon next to it, then select 'Forget This Device'."
+    },
+    {
+      "title": "On Windows",
+      "detail": "Open 'Settings', go to 'Devices', select 'Bluetooth & other devices', find the device, click on it, and select 'Remove Device'."
+    },
+    {
+      "title": "On macOS",
+      "detail": "Open 'System Preferences', click 'Bluetooth', hover over the device, click the 'X' button that appears, and confirm the removal."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the device doesn't appear in the Bluetooth list?",
+      "answer": "Make sure the device is powered on and in pairing mode. If it still doesn't appear, try restarting your device."
+    },
+    {
+      "question": "Can I remove multiple devices at once?",
+      "answer": "Most platforms do not support bulk removal; you will need to remove each device individually."
+    },
+    {
+      "question": "Will removing a device delete its settings?",
+      "answer": "Yes, removing a device will erase its pairing information, and you will need to re-pair it if you want to connect again."
+    }
+  ],
+  "caveats": [
+    "Removing a device may require re-pairing if you wish to connect again, which can involve entering a passcode or confirming a connection."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

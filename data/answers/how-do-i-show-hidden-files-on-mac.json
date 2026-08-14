@@ -1,0 +1,50 @@
+{
+  "slug": "how-do-i-show-hidden-files-on-mac",
+  "directAnswer": "To show hidden files on a Mac, you can use a keyboard shortcut in Finder or modify Terminal settings.",
+  "summary": "This guide explains how to reveal hidden files on macOS using keyboard shortcuts or Terminal commands.",
+  "sections": [
+    {
+      "id": "keyboard-shortcut",
+      "heading": "Using Keyboard Shortcut",
+      "body": "In Finder, you can quickly toggle the visibility of hidden files by pressing Command + Shift + Period (⌘ + ⇧ + .). This method works in most recent versions of macOS."
+    },
+    {
+      "id": "terminal-command",
+      "heading": "Using Terminal",
+      "body": "If you prefer using Terminal, you can show hidden files by entering the command: 'defaults write com.apple.finder AppleShowAllFiles true' followed by 'killall Finder' to refresh Finder."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Show Hidden Files with Shortcut",
+      "detail": "Open any Finder window and press Command + Shift + Period (⌘ + ⇧ + .) to toggle hidden files."
+    },
+    {
+      "title": "Show Hidden Files with Terminal",
+      "detail": "Open Terminal and run 'defaults write com.apple.finder AppleShowAllFiles true', then type 'killall Finder' to apply changes."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I revert back to hiding files?",
+      "answer": "You can revert back by using the same keyboard shortcut (Command + Shift + Period) or by running 'defaults write com.apple.finder AppleShowAllFiles false' in Terminal followed by 'killall Finder'."
+    },
+    {
+      "question": "Will this affect all applications?",
+      "answer": "No, this change only affects Finder. Other applications may have their own settings for showing hidden files."
+    },
+    {
+      "question": "Are there any risks in showing hidden files?",
+      "answer": "Yes, hidden files often contain system or application data. Modifying or deleting them can cause issues with system functionality."
+    }
+  ],
+  "caveats": [
+    "The keyboard shortcut may not work in older versions of macOS, where Terminal commands are recommended."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster on file management",
+    "Checklist for maintaining system files"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

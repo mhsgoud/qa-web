@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-stop-windows-from-waking-my-pc",
+  "directAnswer": "You can stop Windows from waking your PC by adjusting the power settings and disabling wake timers. Additionally, check device settings to prevent them from waking the computer.",
+  "summary": "This guide provides steps to prevent Windows from waking your PC unexpectedly, including power settings adjustments and device configurations.",
+  "sections": [
+    {
+      "id": "power-settings",
+      "heading": "Adjust Power Settings",
+      "body": "Navigate to the Power Options in the Control Panel to modify advanced settings that control wake timers and sleep behavior."
+    },
+    {
+      "id": "device-settings",
+      "heading": "Configure Device Settings",
+      "body": "Check the properties of devices such as your mouse and network adapter to ensure they are not set to wake the computer."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Power Options",
+      "detail": "Right-click the Start button, select 'Power Options', then click on 'Additional power settings'."
+    },
+    {
+      "title": "Change Plan Settings",
+      "detail": "Select 'Change plan settings' next to your selected power plan, then click 'Change advanced power settings'."
+    },
+    {
+      "title": "Disable Wake Timers",
+      "detail": "In the advanced settings, expand 'Sleep', then 'Allow wake timers', and set it to 'Disable'."
+    },
+    {
+      "title": "Modify Device Properties",
+      "detail": "Open Device Manager, right-click on devices like your mouse or network adapter, select 'Properties', go to the 'Power Management' tab, and uncheck 'Allow this device to wake the computer'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my PC still wakes up after following these steps?",
+      "answer": "Check for scheduled tasks in Task Scheduler that might be set to wake the computer or review any third-party software that may interfere with sleep settings."
+    },
+    {
+      "question": "Can I stop my keyboard from waking the PC?",
+      "answer": "Yes, you can disable the wake feature for your keyboard in Device Manager under the 'Power Management' tab."
+    },
+    {
+      "question": "Are there any updates that could affect power settings?",
+      "answer": "Yes, Windows updates can sometimes reset power settings. It's advisable to review these settings after major updates."
+    }
+  ],
+  "caveats": [
+    "Some devices may not have the option to disable wake features, depending on manufacturer settings."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-force-quit-an-app-on-mac",
+  "directAnswer": "To force quit an app on a Mac, you can use the 'Force Quit Applications' window or the keyboard shortcut Command + Option + Esc.",
+  "summary": "This guide provides steps to force quit unresponsive applications on macOS, along with common questions and important considerations.",
+  "sections": [
+    {
+      "id": "force-quit-applications-window",
+      "heading": "Using the Force Quit Applications Window",
+      "body": "You can access the Force Quit Applications window to see all currently running applications and force quit any that are unresponsive."
+    },
+    {
+      "id": "keyboard-shortcut",
+      "heading": "Using Keyboard Shortcut",
+      "body": "The keyboard shortcut Command + Option + Esc opens the Force Quit Applications window directly, allowing you to quickly select and quit an app."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open the Force Quit Applications Window",
+      "detail": "Press Command + Option + Esc to open the Force Quit Applications window."
+    },
+    {
+      "title": "Select the Unresponsive App",
+      "detail": "In the list, click on the application that is not responding."
+    },
+    {
+      "title": "Force Quit the App",
+      "detail": "Click the 'Force Quit' button to close the selected application."
+    },
+    {
+      "title": "Using Activity Monitor (Alternative Method)",
+      "detail": "Open 'Activity Monitor' from Applications > Utilities, select the app, and click the 'X' button to force quit."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if the app doesn't close after force quitting?",
+      "answer": "If the app still doesn't close, try restarting your Mac or using Activity Monitor to terminate the process."
+    },
+    {
+      "question": "Will I lose unsaved work if I force quit an app?",
+      "answer": "Yes, force quitting an app may result in loss of unsaved changes, so it's best to save your work regularly."
+    },
+    {
+      "question": "Can I force quit system applications?",
+      "answer": "While you can force quit system applications, it may cause instability in your system, so proceed with caution."
+    }
+  ],
+  "caveats": [
+    "Force quitting may lead to data loss for unsaved work in the application."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

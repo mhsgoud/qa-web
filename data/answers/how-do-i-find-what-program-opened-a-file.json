@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-find-what-program-opened-a-file",
+  "directAnswer": "You can check the file's properties or use system monitoring tools to identify which program opened a file.",
+  "summary": "Identifying the program that opened a file can be done through various methods depending on your operating system.",
+  "sections": [
+    {
+      "id": "windows-method",
+      "heading": "Using Windows Task Manager",
+      "body": "In Windows, you can use Task Manager to view the processes that are currently accessing files."
+    },
+    {
+      "id": "mac-method",
+      "heading": "Using Activity Monitor on macOS",
+      "body": "On macOS, Activity Monitor can help you identify which applications are currently using files."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows: Open Resource Monitor",
+      "detail": "1. Right-click the taskbar and select 'Task Manager'. 2. Go to the 'Performance' tab and click 'Open Resource Monitor'. 3. In the 'CPU' tab, look under 'Associated Handles' and search for your file name."
+    },
+    {
+      "title": "macOS: Use Activity Monitor",
+      "detail": "1. Open 'Activity Monitor' from Applications > Utilities. 2. Use the search bar to enter the file name. 3. Check the list of processes that show up to see which application is accessing the file."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I find out what program opened a file after it's closed?",
+      "answer": "No, once the file is closed, standard operating systems do not retain information about which program accessed it."
+    },
+    {
+      "question": "Are there third-party tools to monitor file access?",
+      "answer": "Yes, there are third-party tools like Process Explorer for Windows that can provide detailed information about file access."
+    },
+    {
+      "question": "Is it possible to track file access on a network?",
+      "answer": "Yes, network monitoring tools can track file access on shared drives, but they require proper configuration and permissions."
+    }
+  ],
+  "caveats": [
+    "File access tracking may require administrative privileges on some systems."
+  ],
+  "relatedToolIdeas": [
+    "RAM needs calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

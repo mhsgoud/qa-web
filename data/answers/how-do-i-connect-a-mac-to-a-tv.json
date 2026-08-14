@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-connect-a-mac-to-a-tv",
+  "directAnswer": "You can connect a Mac to a TV using an HDMI cable or wirelessly via AirPlay if your TV supports it.",
+  "summary": "This guide provides steps to connect your Mac to a TV, either through a wired HDMI connection or wirelessly using AirPlay, along with troubleshooting tips.",
+  "sections": [
+    {
+      "id": "wired-connection",
+      "heading": "Connecting via HDMI",
+      "body": "To connect your Mac to a TV using HDMI, ensure you have the appropriate HDMI cable and ports on both devices."
+    },
+    {
+      "id": "wireless-connection",
+      "heading": "Connecting via AirPlay",
+      "body": "If your TV supports AirPlay, you can wirelessly mirror your Mac's display to the TV."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting Connection Issues",
+      "body": "If you encounter issues, check your cable connections, ensure the TV is set to the correct input, or restart both devices."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Using HDMI",
+      "detail": "1. Connect one end of the HDMI cable to your Mac and the other end to the TV. 2. Select the HDMI input on your TV. 3. On your Mac, go to 'System Preferences' > 'Displays' to adjust settings."
+    },
+    {
+      "title": "Using AirPlay",
+      "detail": "1. Ensure your Mac and TV are on the same Wi-Fi network. 2. Click the AirPlay icon in the menu bar on your Mac. 3. Select your TV from the list to start mirroring."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my Mac doesn't have an HDMI port?",
+      "answer": "You may need an adapter, such as USB-C to HDMI or Mini DisplayPort to HDMI, depending on your Mac model."
+    },
+    {
+      "question": "Can I use my TV as a second monitor?",
+      "answer": "Yes, after connecting, go to 'System Preferences' > 'Displays' and select 'Arrangement' to configure the TV as an extended display."
+    },
+    {
+      "question": "Why isn't my TV showing my Mac's screen?",
+      "answer": "Ensure the TV is on the correct HDMI input and check that the HDMI cable is securely connected."
+    }
+  ],
+  "caveats": [
+    "Some older Macs may require adapters to connect to HDMI, and not all TVs support AirPlay."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "can-i-charge-an-ev-from-a-normal-socket",
+  "directAnswer": "Yes, you can charge an EV from a normal household socket using a standard Level 1 charger, but it will take significantly longer compared to a dedicated EV charger.",
+  "summary": "Charging an electric vehicle (EV) from a normal socket is possible, but it comes with limitations in charging speed and efficiency.",
+  "sections": [
+    {
+      "id": "charging-speed",
+      "heading": "Charging Speed",
+      "body": "Using a standard 120V outlet, it typically provides about 3-5 miles of range per hour of charging. This is much slower than a Level 2 charger, which can provide 10-60 miles of range per hour."
+    },
+    {
+      "id": "safety-considerations",
+      "heading": "Safety Considerations",
+      "body": "Ensure that the outlet is in good condition and can handle the load. Avoid using extension cords, as they can overheat and pose a fire risk."
+    },
+    {
+      "id": "cost-effectiveness",
+      "heading": "Cost Effectiveness",
+      "body": "While charging from a normal socket is cheaper upfront, the longer charging times may lead to higher electricity costs over time if you need to charge more frequently."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Locate a Standard Outlet",
+      "detail": "Find a grounded 120V outlet in your home garage or parking area."
+    },
+    {
+      "title": "Connect the Charger",
+      "detail": "Plug the Level 1 charger into the outlet and connect the other end to your EV."
+    },
+    {
+      "title": "Monitor Charging",
+      "detail": "Keep an eye on the charging process and ensure the outlet remains cool during use."
+    },
+    {
+      "title": "Unplug After Charging",
+      "detail": "Once charging is complete, unplug the charger from both the outlet and the vehicle."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does it take to charge an EV from a normal socket?",
+      "answer": "Charging an EV from a normal socket can take anywhere from 8 to 20 hours depending on the vehicle's battery size and the outlet's amperage."
+    },
+    {
+      "question": "Can I use an extension cord to charge my EV?",
+      "answer": "It is not recommended to use an extension cord as it can lead to overheating and potential fire hazards."
+    },
+    {
+      "question": "Is it safe to charge my EV overnight from a normal socket?",
+      "answer": "Yes, it is generally safe to charge overnight as long as the outlet is in good condition and not overloaded."
+    }
+  ],
+  "caveats": [
+    "Charging from a normal socket is significantly slower and may not be practical for daily use if you drive long distances."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "why-is-my-printer-not-printing",
+  "directAnswer": "Check for connectivity issues and ensure that the printer has sufficient paper and ink. Restarting both the printer and the computer can also resolve many common problems.",
+  "summary": "If your printer is not printing, it may be due to connectivity issues, low ink, or paper jams. Follow the steps below to troubleshoot the problem.",
+  "sections": [
+    {
+      "id": "check-connection",
+      "heading": "Check Connection",
+      "body": "Ensure that the printer is properly connected to your computer or network. For wired printers, check the USB or Ethernet cable. For wireless printers, confirm that they are connected to the same Wi-Fi network as your computer."
+    },
+    {
+      "id": "check-ink-and-paper",
+      "heading": "Check Ink and Paper Levels",
+      "body": "Make sure that there is enough ink in the cartridges and that the paper tray is loaded with paper. Some printers will not print if they detect low ink levels."
+    },
+    {
+      "id": "restart-devices",
+      "heading": "Restart Devices",
+      "body": "Sometimes, simply restarting your printer and computer can resolve communication issues. Turn off both devices, wait a few moments, and then turn them back on."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Verify Printer Status",
+      "detail": "On Windows, go to 'Devices and Printers' in the Control Panel to check the printer's status. On macOS, open 'System Preferences' and select 'Printers & Scanners' to see if the printer is online."
+    },
+    {
+      "title": "Run the Printer Troubleshooter",
+      "detail": "For Windows users, run the built-in printer troubleshooter by going to 'Settings' > 'Update & Security' > 'Troubleshoot' > 'Additional troubleshooters' > 'Printer'. Mac users can reset the printing system by right-clicking in the Printers list and selecting 'Reset printing system'."
+    },
+    {
+      "title": "Update Printer Drivers",
+      "detail": "Ensure that your printer drivers are up to date. Visit the manufacturer's website to download the latest drivers compatible with your operating system."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my printer is showing an error message?",
+      "answer": "Refer to the printer's manual or the manufacturer's website for specific error codes and troubleshooting steps."
+    },
+    {
+      "question": "How can I check if my printer is connected to Wi-Fi?",
+      "answer": "Print a network configuration page from the printer's control panel, or check the printer settings on your computer to see if it is listed as a connected device."
+    },
+    {
+      "question": "Why does my printer keep going offline?",
+      "answer": "This could be due to network issues, power saving settings, or outdated drivers. Check your network connection and update drivers as necessary."
+    }
+  ],
+  "caveats": [
+    "Some issues may require specific troubleshooting steps based on the printer model or manufacturer."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

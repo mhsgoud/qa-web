@@ -165,9 +165,13 @@ export function getPublishedCategoryName(categorySlug: string): string | undefin
 }
 
 export function getPublishedQuestionsByCategory(categorySlug: string): Question[] {
-  return getPublishedQuestions().filter(
-    (q) => categoryToSlug(q.category) === categorySlug,
+  const inCategory = new Set(
+    getPublishedQuestions()
+      .filter((q) => categoryToSlug(q.category) === categorySlug)
+      .map((q) => q.slug),
   );
+
+  return getPublishedQuestionsByPriority().filter((q) => inCategory.has(q.slug));
 }
 
 export function searchPublishedQuestions(query: string, limit = 24): Question[] {

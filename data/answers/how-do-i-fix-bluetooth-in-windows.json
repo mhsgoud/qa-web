@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-fix-bluetooth-in-windows",
+  "directAnswer": "To fix Bluetooth issues in Windows, ensure Bluetooth is enabled in settings and update your Bluetooth drivers through Device Manager.",
+  "summary": "This guide provides steps to troubleshoot and resolve Bluetooth connectivity issues in Windows.",
+  "sections": [
+    {
+      "id": "check-bluetooth-status",
+      "heading": "Check Bluetooth Status",
+      "body": "First, verify that Bluetooth is enabled on your device. Go to Settings > Devices > Bluetooth & other devices and ensure the Bluetooth toggle is turned on."
+    },
+    {
+      "id": "update-bluetooth-drivers",
+      "heading": "Update Bluetooth Drivers",
+      "body": "Outdated drivers can cause connectivity issues. Open Device Manager, find Bluetooth, right-click on your Bluetooth device, and select 'Update driver'."
+    },
+    {
+      "id": "troubleshoot-bluetooth",
+      "heading": "Run Bluetooth Troubleshooter",
+      "body": "Windows has a built-in troubleshooter for Bluetooth. Go to Settings > Update & Security > Troubleshoot > Additional troubleshooters, and select 'Bluetooth'."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Enable Bluetooth",
+      "detail": "Go to Settings > Devices > Bluetooth & other devices and toggle Bluetooth on."
+    },
+    {
+      "title": "Update Drivers",
+      "detail": "Open Device Manager, locate Bluetooth, right-click your device, and choose 'Update driver'."
+    },
+    {
+      "title": "Run Troubleshooter",
+      "detail": "Navigate to Settings > Update & Security > Troubleshoot > Additional troubleshooters and select 'Bluetooth' to run the troubleshooter."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my Bluetooth device is not recognized?",
+      "answer": "Ensure the device is in pairing mode and within range. Restart both your PC and the Bluetooth device."
+    },
+    {
+      "question": "How can I remove a Bluetooth device?",
+      "answer": "Go to Settings > Devices > Bluetooth & other devices, select the device you want to remove, and click 'Remove device'."
+    },
+    {
+      "question": "Why does my Bluetooth keep disconnecting?",
+      "answer": "This could be due to interference, low battery on the Bluetooth device, or outdated drivers. Try updating drivers and ensuring no other devices are causing interference."
+    }
+  ],
+  "caveats": [
+    "Bluetooth functionality may vary based on hardware and Windows version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

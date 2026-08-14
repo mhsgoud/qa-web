@@ -1,0 +1,58 @@
+{
+  "slug": "what-happens-to-an-ev-battery-in-winter",
+  "directAnswer": "In winter, an EV battery's performance can decrease due to lower temperatures, leading to reduced range and slower charging times. Additionally, battery efficiency can diminish as cold weather affects chemical reactions within the battery.",
+  "summary": "Cold temperatures can impact the performance and efficiency of electric vehicle batteries, affecting range and charging speed.",
+  "sections": [
+    {
+      "id": "impact-on-range",
+      "heading": "Impact on Range",
+      "body": "Cold weather can reduce the effective range of an EV by 20-40%. This is primarily due to increased energy consumption for heating the cabin and maintaining battery temperature."
+    },
+    {
+      "id": "charging-times",
+      "heading": "Charging Times",
+      "body": "Charging an EV battery in cold weather may take longer than usual. Many EVs have built-in thermal management systems that help mitigate this, but charging speeds can still be affected."
+    },
+    {
+      "id": "battery-care",
+      "heading": "Battery Care in Winter",
+      "body": "To optimize battery performance in winter, park your EV in a garage if possible, precondition the battery before driving, and avoid letting the battery drop below 20% charge."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Precondition Your EV",
+      "detail": "Use the vehicle's app or onboard settings to precondition the battery and cabin while still plugged in, ensuring optimal temperature before driving."
+    },
+    {
+      "title": "Monitor Battery Levels",
+      "detail": "Keep the battery charged above 20% to prevent deep discharging, which can be more detrimental in cold weather."
+    },
+    {
+      "title": "Use Eco Mode",
+      "detail": "Activate eco or winter driving modes if available, which can help manage energy consumption and extend range."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How much range can I expect to lose in winter?",
+      "answer": "Range loss can vary, but many drivers report a decrease of 20-40% in colder temperatures."
+    },
+    {
+      "question": "Is it safe to charge my EV in freezing temperatures?",
+      "answer": "Yes, it is generally safe to charge your EV in cold weather, but charging times may be extended."
+    },
+    {
+      "question": "What should I do if my battery is freezing?",
+      "answer": "If you suspect your battery is freezing, avoid using the vehicle until it warms up, and consult your owner's manual for specific guidance."
+    }
+  ],
+  "caveats": [
+    "Battery performance can vary significantly by make and model, and some vehicles handle cold weather better than others."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

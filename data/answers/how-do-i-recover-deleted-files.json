@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-recover-deleted-files",
+  "directAnswer": "You can recover deleted files using built-in tools like Recycle Bin on Windows or Trash on macOS, or by using file recovery software if the files are not in those locations.",
+  "summary": "This guide provides steps to recover deleted files on various platforms and offers tips for successful recovery.",
+  "sections": [
+    {
+      "id": "recycle-bin-windows",
+      "heading": "Recovering Files on Windows",
+      "body": "If you accidentally deleted a file, check the Recycle Bin. If it's not there, consider using recovery software."
+    },
+    {
+      "id": "trash-macos",
+      "heading": "Recovering Files on macOS",
+      "body": "For macOS users, deleted files can be found in the Trash. If the Trash has been emptied, file recovery software may be necessary."
+    },
+    {
+      "id": "file-recovery-software",
+      "heading": "Using File Recovery Software",
+      "body": "If files are not recoverable through the Recycle Bin or Trash, consider using third-party recovery tools like Recuva or Disk Drill."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Check Recycle Bin (Windows)",
+      "detail": "Open Recycle Bin from your desktop, locate the deleted file, right-click on it, and select 'Restore'."
+    },
+    {
+      "title": "Check Trash (macOS)",
+      "detail": "Open Trash from the Dock, find the deleted file, right-click, and select 'Put Back'."
+    },
+    {
+      "title": "Use Recovery Software",
+      "detail": "Download and install a recovery tool, follow the prompts to scan your drive, and select files to recover."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I recover files after emptying the Recycle Bin?",
+      "answer": "Yes, but it may require specialized recovery software, and success is not guaranteed."
+    },
+    {
+      "question": "Are there any free recovery tools available?",
+      "answer": "Yes, tools like Recuva and PhotoRec offer free versions that can help recover deleted files."
+    },
+    {
+      "question": "How can I prevent losing files in the future?",
+      "answer": "Regularly back up your files using cloud storage or external drives to minimize data loss."
+    }
+  ],
+  "caveats": [
+    "File recovery is not always guaranteed, especially if the data has been overwritten."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

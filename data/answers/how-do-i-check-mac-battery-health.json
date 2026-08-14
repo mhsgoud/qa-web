@@ -1,0 +1,49 @@
+{
+  "slug": "how-do-i-check-mac-battery-health",
+  "directAnswer": "You can check your Mac's battery health by accessing the System Information tool or using the Battery preferences in macOS. This will provide details on the battery's condition and cycle count.",
+  "summary": "Learn how to assess the health of your Mac's battery using built-in tools in macOS.",
+  "sections": [
+    {
+      "id": "system-information",
+      "heading": "Using System Information",
+      "body": "You can find detailed battery information through the System Information app, which provides insights into the battery's health and cycle count."
+    },
+    {
+      "id": "battery-preferences",
+      "heading": "Using Battery Preferences",
+      "body": "In macOS, the Battery preferences pane also offers a quick overview of battery health and settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open System Information",
+      "detail": "Click on the Apple menu, select 'About This Mac', then click 'System Report'. Under 'Power', you can view battery details."
+    },
+    {
+      "title": "Check Battery Preferences",
+      "detail": "Go to the Apple menu, select 'System Preferences', then click 'Battery'. Click on 'Battery' in the sidebar to see the battery condition."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What does 'Normal' mean in battery health?",
+      "answer": "'Normal' indicates that the battery is functioning properly and is capable of holding a charge as expected."
+    },
+    {
+      "question": "How can I improve my Mac's battery life?",
+      "answer": "You can improve battery life by adjusting screen brightness, closing unused applications, and managing background processes."
+    },
+    {
+      "question": "What should I do if my battery health is 'Service Recommended'?",
+      "answer": "If your battery health indicates 'Service Recommended', consider contacting Apple Support or visiting an Apple Store for a battery replacement."
+    }
+  ],
+  "caveats": [
+    "Battery health readings may vary slightly depending on the macOS version."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

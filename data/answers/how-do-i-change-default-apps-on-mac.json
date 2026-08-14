@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-change-default-apps-on-mac",
+  "directAnswer": "To change default apps on a Mac, go to System Preferences, select 'General', and choose your preferred applications for web browsing, email, and more.",
+  "summary": "Changing default apps on macOS allows you to customize which applications open specific file types and protocols.",
+  "sections": [
+    {
+      "id": "changing-default-browser",
+      "heading": "Changing the Default Web Browser",
+      "body": "In the 'General' section of System Preferences, you can select your preferred web browser from the 'Default web browser' dropdown menu."
+    },
+    {
+      "id": "changing-default-email-client",
+      "heading": "Changing the Default Email Client",
+      "body": "Similarly, in the 'General' preferences, choose your preferred email application from the 'Default email reader' dropdown."
+    },
+    {
+      "id": "changing-default-file-types",
+      "heading": "Changing Default Applications for Specific File Types",
+      "body": "To change the default app for a specific file type, right-click the file, select 'Get Info', and under 'Open with', choose your desired app, then click 'Change All'."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open System Preferences",
+      "detail": "Click on the Apple menu in the top-left corner and select 'System Preferences'."
+    },
+    {
+      "title": "Select General",
+      "detail": "In System Preferences, click on 'General' to access default app settings."
+    },
+    {
+      "title": "Choose Default Apps",
+      "detail": "From the 'Default web browser' and 'Default email reader' dropdowns, select the applications you want to use."
+    },
+    {
+      "title": "Set Default for File Types",
+      "detail": "Right-click a file, select 'Get Info', choose an app under 'Open with', and click 'Change All' to apply."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I set different default apps for different file types?",
+      "answer": "Yes, you can set different default applications for various file types by using the 'Get Info' option on individual files."
+    },
+    {
+      "question": "Will changing the default app affect all users on the Mac?",
+      "answer": "No, changing default apps only affects the current user account; other accounts will retain their own settings."
+    },
+    {
+      "question": "What if the app I want isn't listed?",
+      "answer": "If the app isn't listed, you can select 'Other...' in the dropdown menus to browse and choose any installed application."
+    }
+  ],
+  "caveats": [
+    "Some applications may not allow themselves to be set as default for certain file types."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

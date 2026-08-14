@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-change-the-default-browser-in-windows",
+  "directAnswer": "To change the default browser in Windows, go to Settings > Apps > Default apps, then select your preferred web browser under the 'Web browser' section.",
+  "summary": "Changing the default web browser in Windows is a straightforward process that can enhance your browsing experience.",
+  "sections": [
+    {
+      "id": "understanding-default-apps",
+      "heading": "Understanding Default Apps",
+      "body": "Default apps in Windows determine which programs open specific types of files and links. Setting a default browser means that all web links will open in your chosen browser."
+    },
+    {
+      "id": "windows-version-variations",
+      "heading": "Windows Version Variations",
+      "body": "The steps to change the default browser may vary slightly depending on your version of Windows. The instructions provided are primarily for Windows 10 and Windows 11."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Settings",
+      "detail": "Click on the Start menu and select the gear icon to open Settings."
+    },
+    {
+      "title": "Navigate to Default Apps",
+      "detail": "In the Settings window, click on 'Apps', then select 'Default apps' from the left sidebar."
+    },
+    {
+      "title": "Select Your Browser",
+      "detail": "Scroll down to the 'Web browser' section, click on the current default browser, and choose your desired browser from the list."
+    },
+    {
+      "title": "Confirm Changes",
+      "detail": "Once selected, close the Settings window. Your changes will take effect immediately."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I set a different browser for specific links?",
+      "answer": "Windows does not support setting different default browsers for specific links; all web links will open in the default browser you selected."
+    },
+    {
+      "question": "What if my preferred browser is not listed?",
+      "answer": "If your preferred browser is not listed, ensure it is installed correctly. You may need to reinstall it or check for updates."
+    },
+    {
+      "question": "Will changing my default browser affect my bookmarks?",
+      "answer": "No, changing your default browser does not affect your bookmarks; they remain in the browser you are switching from."
+    }
+  ],
+  "caveats": [
+    "Some applications may still open links in their own embedded browser regardless of your default browser setting."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for browser settings"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

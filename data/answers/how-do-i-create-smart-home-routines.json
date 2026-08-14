@@ -1,0 +1,57 @@
+{
+  "slug": "how-do-i-create-smart-home-routines",
+  "directAnswer": "To create smart home routines, use the app associated with your smart home platform to set triggers and actions for your devices. Common platforms include Google Home and Amazon Alexa, each with their own specific steps.",
+  "summary": "Creating smart home routines allows you to automate tasks and enhance your home's functionality. This guide provides steps for popular smart home platforms and addresses common questions.",
+  "sections": [
+    {
+      "id": "google-home",
+      "heading": "Creating Routines in Google Home",
+      "body": "In the Google Home app, you can create routines that trigger multiple actions with a single command. For example, saying 'Good morning' can turn on lights, adjust the thermostat, and start your coffee maker."
+    },
+    {
+      "id": "amazon-alexa",
+      "heading": "Creating Routines in Amazon Alexa",
+      "body": "In the Alexa app, routines can be set up to perform various actions based on specific triggers, such as voice commands or schedules. You can customize routines to fit your daily needs."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open the Smart Home App",
+      "detail": "Launch the Google Home or Amazon Alexa app on your smartphone."
+    },
+    {
+      "title": "Navigate to Routines",
+      "detail": "For Google Home, tap on 'Routines' in the menu. For Alexa, go to 'More' > 'Routines'."
+    },
+    {
+      "title": "Create a New Routine",
+      "detail": "Select 'Add' or 'Create Routine' and follow the prompts to set a trigger and actions."
+    },
+    {
+      "title": "Save and Test Your Routine",
+      "detail": "After configuring your routine, save it and test it to ensure it works as expected."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I set multiple triggers for a single routine?",
+      "answer": "Yes, both Google Home and Amazon Alexa allow you to set multiple triggers for a single routine."
+    },
+    {
+      "question": "What types of actions can I include in my routines?",
+      "answer": "You can include actions like turning on/off lights, adjusting thermostats, playing music, and more, depending on your connected devices."
+    },
+    {
+      "question": "Do routines work with all smart devices?",
+      "answer": "Routines typically work with most compatible smart devices, but some may have limitations based on the platform or device capabilities."
+    }
+  ],
+  "caveats": [
+    "Routine functionality may vary by device compatibility and software updates."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

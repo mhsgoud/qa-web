@@ -1,0 +1,58 @@
+{
+  "slug": "how-far-should-i-sit-from-a-4k-tv",
+  "directAnswer": "For a 4K TV, you should sit approximately 1 to 1.5 times the diagonal screen size away from the TV for optimal viewing.",
+  "summary": "Sitting distance from a 4K TV is crucial for the best viewing experience, with specific recommendations based on screen size.",
+  "sections": [
+    {
+      "id": "viewing-distance",
+      "heading": "Optimal Viewing Distance",
+      "body": "To calculate the ideal distance, multiply the diagonal size of your TV (in inches) by 1 to 1.5. For example, if you have a 55-inch TV, you should sit between 55 and 82.5 inches away."
+    },
+    {
+      "id": "considering-room-size",
+      "heading": "Considering Room Size",
+      "body": "Ensure your seating arrangement allows for this distance without overcrowding the space. Adjust your setup based on the layout of your room."
+    },
+    {
+      "id": "personal-preference",
+      "heading": "Personal Preference",
+      "body": "While these guidelines are helpful, personal comfort and viewing preferences can also influence your ideal distance."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Measure Your TV Size",
+      "detail": "Determine the diagonal size of your 4K TV in inches."
+    },
+    {
+      "title": "Calculate Distance",
+      "detail": "Multiply the TV size by 1 to 1.5 to find the recommended viewing distance."
+    },
+    {
+      "title": "Arrange Seating",
+      "detail": "Position your seating to match the calculated distance while ensuring comfort and accessibility."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if my room is too small for the recommended distance?",
+      "answer": "If space is limited, try to sit as far back as possible while still being comfortable, and consider using a smaller TV."
+    },
+    {
+      "question": "Does the type of content affect viewing distance?",
+      "answer": "Yes, for fast-paced content like sports or gaming, you may prefer to sit closer for a more immersive experience."
+    },
+    {
+      "question": "Can I use a 4K TV for gaming at a closer distance?",
+      "answer": "Yes, many gamers prefer sitting closer to take full advantage of the detail and clarity that 4K offers."
+    }
+  ],
+  "caveats": [
+    "Viewing distance may vary based on individual eyesight and preferences."
+  ],
+  "relatedToolIdeas": [
+    "Monitor + GPU match advisor"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

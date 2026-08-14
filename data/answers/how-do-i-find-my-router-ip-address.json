@@ -1,0 +1,61 @@
+{
+  "slug": "how-do-i-find-my-router-ip-address",
+  "directAnswer": "You can find your router's IP address by checking your device's network settings or using the command prompt/terminal.",
+  "summary": "This guide provides methods to locate your router's IP address on different platforms.",
+  "sections": [
+    {
+      "id": "network-settings",
+      "heading": "Using Network Settings",
+      "body": "On most devices, you can find your router's IP address in the network settings. This method varies slightly between operating systems."
+    },
+    {
+      "id": "command-line",
+      "heading": "Using Command Line",
+      "body": "You can also use command line tools to find your router's IP address, which is particularly useful for advanced users."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Windows",
+      "detail": "Open Command Prompt and type 'ipconfig'. Look for 'Default Gateway' under your network connection."
+    },
+    {
+      "title": "macOS",
+      "detail": "Go to System Preferences > Network, select your active connection, and click 'Advanced'. The router's IP will be listed under the 'TCP/IP' tab."
+    },
+    {
+      "title": "Linux",
+      "detail": "Open Terminal and type 'ip route | grep default'. The router's IP address will be shown after 'default via'."
+    },
+    {
+      "title": "iOS",
+      "detail": "Go to Settings > Wi-Fi, tap the information icon (i) next to your connected network, and find the router's IP address."
+    },
+    {
+      "title": "Android",
+      "detail": "Go to Settings > Network & Internet > Wi-Fi, tap on your connected network, and look for the router's IP address."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if I can't find my router's IP address?",
+      "answer": "Ensure you are connected to the network and check if the router is powered on. If issues persist, refer to your router's manual."
+    },
+    {
+      "question": "Can my router's IP address change?",
+      "answer": "Yes, if your router is set to obtain an IP address automatically from your Internet Service Provider, it may change periodically."
+    },
+    {
+      "question": "What is the default IP address for most routers?",
+      "answer": "Common default IP addresses include 192.168.1.1 and 192.168.0.1, but this can vary by manufacturer."
+    }
+  ],
+  "caveats": [
+    "The steps may vary slightly depending on the version of the operating system."
+  ],
+  "relatedToolIdeas": [
+    "Wi‑Fi speed / channel helper"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

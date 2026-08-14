@@ -1,0 +1,62 @@
+{
+  "slug": "how-do-i-uninstall-an-app-on-mac",
+  "directAnswer": "To uninstall an app on a Mac, you can drag the app from the Applications folder to the Trash, or use Launchpad to delete it. Some apps may leave behind configuration files.",
+  "summary": "Uninstalling apps on macOS can be done easily through Finder or Launchpad, but be aware that some applications may not remove all associated files.",
+  "sections": [
+    {
+      "id": "using-finder",
+      "heading": "Uninstalling via Finder",
+      "body": "Open the Finder, navigate to the Applications folder, locate the app you wish to uninstall, and drag it to the Trash. Empty the Trash to complete the uninstallation."
+    },
+    {
+      "id": "using-launchpad",
+      "heading": "Uninstalling via Launchpad",
+      "body": "Open Launchpad, find the app you want to remove, click and hold the app icon until it starts to jiggle, then click the 'X' button that appears."
+    },
+    {
+      "id": "caveats",
+      "heading": "Caveats",
+      "body": "Some apps, especially those installed via the Mac App Store, can be uninstalled easily, but others may leave behind preference files or other data that need to be removed manually."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Finder",
+      "detail": "Click on the Finder icon in the Dock."
+    },
+    {
+      "title": "Navigate to Applications",
+      "detail": "In the Finder sidebar, click on 'Applications' to view all installed apps."
+    },
+    {
+      "title": "Drag to Trash",
+      "detail": "Select the app you want to uninstall and drag it to the Trash icon in the Dock."
+    },
+    {
+      "title": "Empty Trash",
+      "detail": "Right-click on the Trash icon and select 'Empty Trash' to permanently remove the app."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will uninstalling an app delete all my data?",
+      "answer": "Uninstalling an app typically removes the app itself, but some apps may leave behind data files. Check the app's documentation for specific details."
+    },
+    {
+      "question": "Can I reinstall an app after uninstalling it?",
+      "answer": "Yes, you can reinstall an app from the Mac App Store or from the developer's website after uninstalling it."
+    },
+    {
+      "question": "What if the app doesn't have an 'X' in Launchpad?",
+      "answer": "If the app does not have an 'X' in Launchpad, it may need to be uninstalled through Finder instead."
+    }
+  ],
+  "caveats": [
+    "Some applications may leave behind configuration files or other data even after uninstallation."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

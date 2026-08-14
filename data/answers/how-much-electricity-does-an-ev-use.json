@@ -1,0 +1,58 @@
+{
+  "slug": "how-much-electricity-does-an-ev-use",
+  "directAnswer": "The electricity consumption of an EV typically ranges from 15 to 30 kWh per 100 miles, depending on the model and driving conditions.",
+  "summary": "Understanding the electricity usage of electric vehicles (EVs) is crucial for estimating charging costs and efficiency.",
+  "sections": [
+    {
+      "id": "electricity-consumption",
+      "heading": "Electricity Consumption Overview",
+      "body": "Electric vehicles (EVs) use electricity measured in kilowatt-hours (kWh). The efficiency can vary based on the vehicle's make, model, and driving habits, with most EVs averaging around 4 miles per kWh."
+    },
+    {
+      "id": "charging-costs",
+      "heading": "Estimating Charging Costs",
+      "body": "To calculate the cost of charging your EV, multiply the kWh used by your local electricity rate. For example, if your EV uses 20 kWh to travel 100 miles and your electricity rate is $0.13 per kWh, the cost for that distance would be $2.60."
+    },
+    {
+      "id": "factors-affecting-consumption",
+      "heading": "Factors Affecting Electricity Use",
+      "body": "Several factors can influence the electricity consumption of an EV, including driving speed, terrain, weather conditions, and the use of climate control systems."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Calculate Your EV's Efficiency",
+      "detail": "Check your EV's user manual or manufacturer website to find its efficiency rating in miles per kWh."
+    },
+    {
+      "title": "Estimate Monthly Driving Distance",
+      "detail": "Determine how many miles you drive monthly to estimate your total electricity usage."
+    },
+    {
+      "title": "Use an EV Home Charger Calculator",
+      "detail": "Utilize an online EV home charger calculator to input your vehicle's efficiency and monthly driving distance to get an estimate of your monthly electricity consumption."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How does driving style affect an EV's electricity usage?",
+      "answer": "Aggressive driving, such as rapid acceleration and high speeds, can increase electricity consumption significantly compared to smooth driving."
+    },
+    {
+      "question": "Can weather conditions impact EV efficiency?",
+      "answer": "Yes, extreme temperatures can affect battery performance and efficiency, leading to higher electricity usage."
+    },
+    {
+      "question": "What is the impact of using climate control on electricity consumption?",
+      "answer": "Using heating or air conditioning can increase electricity consumption by approximately 10-30%, depending on the settings."
+    }
+  ],
+  "caveats": [
+    "Electricity consumption can vary widely based on specific vehicle models and individual driving habits."
+  ],
+  "relatedToolIdeas": [
+    "EV home charger calculator"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}

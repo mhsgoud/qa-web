@@ -1,0 +1,54 @@
+{
+  "slug": "how-do-i-extract-zip-files-on-mac",
+  "directAnswer": "You can extract ZIP files on a Mac by double-clicking the file or using the built-in Archive Utility.",
+  "summary": "Extracting ZIP files on macOS is straightforward and can be done using the Finder or Terminal.",
+  "sections": [
+    {
+      "id": "using-finder",
+      "heading": "Extracting ZIP Files Using Finder",
+      "body": "The simplest way to extract ZIP files is through the Finder. Just locate the ZIP file, double-click it, and the contents will be extracted to the same directory."
+    },
+    {
+      "id": "using-terminal",
+      "heading": "Extracting ZIP Files Using Terminal",
+      "body": "For advanced users, you can also use the Terminal. Open Terminal and use the command 'unzip <filename>.zip' to extract the files."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Locate the ZIP file",
+      "detail": "Open Finder and navigate to the folder containing the ZIP file you want to extract."
+    },
+    {
+      "title": "Extract the files",
+      "detail": "Double-click the ZIP file to automatically extract it using Archive Utility."
+    },
+    {
+      "title": "Using Terminal (optional)",
+      "detail": "Open Terminal, type 'unzip', followed by a space, and drag the ZIP file into the Terminal window to auto-fill the path. Press Enter to extract."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What if the ZIP file is password protected?",
+      "answer": "You'll need to use a third-party tool like The Unarchiver or command-line tools that support password-protected ZIP files."
+    },
+    {
+      "question": "Can I extract ZIP files to a different location?",
+      "answer": "Yes, you can drag the extracted folder to your desired location after extraction."
+    },
+    {
+      "question": "What if the ZIP file doesn't open?",
+      "answer": "The file may be corrupted or not a valid ZIP file. Try downloading it again."
+    }
+  ],
+  "caveats": [
+    "Some older versions of macOS may have different default applications for handling ZIP files."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster",
+    "Checklist for file management on Mac"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-14"
+}
