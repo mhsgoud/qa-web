@@ -33,6 +33,7 @@ function Prose({ text }: { text: string }) {
 
 export function AnswerArticle({ question, answer, related }: Props) {
   const heroImages = imagesForAttach(answer.images, "hero");
+  const stepsImages = imagesForAttach(answer.images, "steps");
 
   const toc = [
     ...(answer.steps?.length ? [{ id: "steps", label: "Steps" }] : []),
@@ -70,7 +71,7 @@ export function AnswerArticle({ question, answer, related }: Props) {
           {answer.summary ? <p className="answer-summary">{answer.summary}</p> : null}
 
           {heroImages.map((image) => (
-            <AnswerFigure key={image.id} image={image} priority />
+            <AnswerFigure key={image.id} image={image} priority variant="hero" />
           ))}
 
           {answer.steps && answer.steps.length > 0 ? (
@@ -86,13 +87,16 @@ export function AnswerArticle({ question, answer, related }: Props) {
                         <h3>{step.title}</h3>
                         <Prose text={step.detail} />
                         {stepImages.map((image) => (
-                          <AnswerFigure key={image.id} image={image} />
+                          <AnswerFigure key={image.id} image={image} variant="step" />
                         ))}
                       </div>
                     </li>
                   );
                 })}
               </ol>
+              {stepsImages.map((image) => (
+                <AnswerFigure key={image.id} image={image} variant="inline" />
+              ))}
             </section>
           ) : null}
 
@@ -105,7 +109,7 @@ export function AnswerArticle({ question, answer, related }: Props) {
                   <Prose text={section.body} />
                 </div>
                 {sectionImages.map((image) => (
-                  <AnswerFigure key={image.id} image={image} />
+                  <AnswerFigure key={image.id} image={image} variant="inline" />
                 ))}
               </section>
             );

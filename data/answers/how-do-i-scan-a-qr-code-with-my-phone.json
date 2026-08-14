@@ -55,8 +55,8 @@
       "id": "qr-scan-guide",
       "src": "/answers/how-do-i-scan-a-qr-code-with-my-phone/qr-scan-guide.png",
       "alt": "Four-step guide showing how to scan a QR code with a phone camera: open Camera, point at the code, tap the notification, and open the link in a browser.",
-      "caption": "Scan a QR code with your phone camera in four steps",
-      "attachTo": "hero"
+      "caption": "Visual walkthrough of the four steps above",
+      "attachTo": "steps"
     }
   ],
   "status": "published",

@@ -1923,6 +1923,19 @@ summary:focus-visible {
   background: var(--foam);
 }
 
+.answer-figure-hero {
+  max-width: 220px;
+}
+
+.answer-figure-inline {
+  max-width: min(680px, 100%);
+  margin-top: 1rem;
+}
+
+.answer-figure-step {
+  max-width: 200px;
+}
+
 .answer-figure-img {
   display: block;
   width: 100%;
@@ -1938,7 +1951,6 @@ summary:focus-visible {
 }
 
 .answer-summary + .answer-figure {
-  max-width: min(720px, 100%);
   margin: 0 0 0.85rem;
 }
 

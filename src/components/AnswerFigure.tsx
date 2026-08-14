@@ -4,11 +4,23 @@ import type { AnswerImage } from "@/lib/types";
 type Props = {
   image: AnswerImage;
   priority?: boolean;
+  /** Where the figure sits in the article layout */
+  variant?: "hero" | "inline" | "step";
 };
 
-export function AnswerFigure({ image, priority = false }: Props) {
+const SIZES = {
+  hero: "(max-width: 768px) 200px, 240px",
+  inline: "(max-width: 768px) 100vw, 680px",
+  step: "(max-width: 768px) 200px, 240px",
+} as const;
+
+export function AnswerFigure({
+  image,
+  priority = false,
+  variant = "inline",
+}: Props) {
   return (
-    <figure className="answer-figure">
+    <figure className={`answer-figure answer-figure-${variant}`}>
       <Image
         src={image.src}
         alt={image.alt}
@@ -16,7 +28,7 @@ export function AnswerFigure({ image, priority = false }: Props) {
         height={1024}
         className="answer-figure-img"
         priority={priority}
-        sizes="(max-width: 768px) 100vw, 720px"
+        sizes={SIZES[variant]}
       />
       {image.caption ? <figcaption>{image.caption}</figcaption> : null}
     </figure>
