@@ -1,19 +1,38 @@
-import { HOME_BENEFITS } from "@/lib/site";
+type Props = {
+  answerCount: number;
+};
 
-export function WhyAnswerKit() {
+const PARTS = [
+  {
+    title: "Short answer",
+    body: "The solution in one or two sentences at the top of the page.",
+  },
+  {
+    title: "Steps",
+    body: "Numbered actions you can follow — settings paths, apps, and platform notes when they matter.",
+  },
+  {
+    title: "Caveats & FAQ",
+    body: "What can go wrong, and the follow-up questions people usually ask next.",
+  },
+] as const;
+
+export function WhyAnswerKit({ answerCount }: Props) {
   return (
     <section className="home-why" aria-labelledby="why-answerkit-title">
       <div className="shell">
         <div className="home-why-head">
-          <h2 id="why-answerkit-title">Why AnswerKit</h2>
+          <p className="section-kicker">How it works</p>
+          <h2 id="why-answerkit-title">Every page is built the same way</h2>
           <p>
-            Google gives you links. Forums give you discussions.
-            <strong> AnswerKit gives you the answer.</strong>
+            {answerCount.toLocaleString()} published answers so far. Each one starts
+            with the fix, then the steps — not a stack of search results or a forum
+            thread.
           </p>
         </div>
 
         <ol className="benefit-list">
-          {HOME_BENEFITS.map((item, i) => (
+          {PARTS.map((item, i) => (
             <li key={item.title}>
               <span className="benefit-num">{String(i + 1).padStart(2, "0")}</span>
               <div>

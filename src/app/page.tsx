@@ -1,10 +1,8 @@
 import { AnswerPreview } from "@/components/home/AnswerPreview";
 import { AskFallback } from "@/components/home/AskFallback";
 import { BrowseTopics } from "@/components/home/BrowseTopics";
-import { CompareSection } from "@/components/home/CompareSection";
 import { HomeHero } from "@/components/home/HomeHero";
 import { PopularQuestions } from "@/components/home/PopularQuestions";
-import { TrustChecklist } from "@/components/home/TrustChecklist";
 import { WhyAnswerKit } from "@/components/home/WhyAnswerKit";
 import {
   getPublishedCategories,
@@ -21,7 +19,7 @@ export default function HomePage() {
   return (
     <>
       <HomeHero answerCount={answerCount} topicCount={topicCount} />
-      <WhyAnswerKit />
+      <WhyAnswerKit answerCount={answerCount} />
       <AnswerPreview />
       <BrowseTopics
         categories={categories}
@@ -29,8 +27,6 @@ export default function HomePage() {
         questionCount={answerCount}
       />
       {popular.length > 0 ? <PopularQuestions questions={popular} /> : null}
-      <CompareSection />
-      <TrustChecklist />
       <AskFallback />
     </>
   );

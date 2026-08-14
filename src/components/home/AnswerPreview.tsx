@@ -19,7 +19,7 @@ export function AnswerPreview() {
           <p className="section-kicker">How an answer looks</p>
           <h2 id="answer-preview-title">Answer first. Then the steps.</h2>
           <p className="home-section-lead">
-            Every page puts the solution up top — then instructions and caveats. No 1,500-word intro.
+            Quick answer, then steps and caveats — same structure on every page.
           </p>
           <Link href={`/q/${question.slug}`} className="btn-primary">
             Read a real answer →
