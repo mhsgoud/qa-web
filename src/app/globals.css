@@ -1938,7 +1938,7 @@ summary:focus-visible {
 }
 
 .answer-summary + .answer-figure {
-  max-width: 260px;
+  max-width: min(720px, 100%);
   margin: 0 0 0.85rem;
 }
 

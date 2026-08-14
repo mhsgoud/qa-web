@@ -1,57 +1,64 @@
 {
   "slug": "how-do-i-scan-a-qr-code-with-my-phone",
-  "directAnswer": "You can scan a QR code using your phone's camera app or a dedicated QR code scanning app, depending on your device.",
-  "summary": "Scanning a QR code is a straightforward process that can be done with most smartphones using the camera or a specific app.",
+  "directAnswer": "Open your phone’s camera, point it at the QR code, and tap the notification or link that appears.",
+  "summary": "Most modern iPhones and Android phones can scan QR codes with the built-in Camera app. Some Android phones need Google Lens or a QR scanner from the camera tools.",
   "sections": [
     {
       "id": "camera-app",
       "heading": "Using the Camera App",
-      "body": "Most modern smartphones have a built-in QR code scanner in their camera app. Simply point your camera at the QR code, and a notification will appear prompting you to take action."
+      "body": "Open Camera, keep the QR code in frame, and wait for the link notification. Tap it to open the website or app. On iPhone this works in the built-in Camera app. On Android it usually works in Camera, or through Google Lens / QR Code Scanner in camera settings or quick tools."
     },
     {
       "id": "dedicated-apps",
-      "heading": "Using a Dedicated QR Code Scanner App",
-      "body": "If your camera app does not support QR scanning, you can download a dedicated QR code scanner app from your app store. Open the app and follow the on-screen instructions to scan the code."
+      "heading": "If the camera doesn’t scan",
+      "body": "If nothing appears after a few seconds, try better lighting, move closer or farther, clean the lens, or open Google Lens / a QR scanner app from your app store."
     }
   ],
   "steps": [
     {
-      "title": "Open the Camera App",
-      "detail": "Launch the camera app on your smartphone and ensure it is set to photo mode."
+      "title": "Open your Camera app",
+      "detail": "Launch Camera on your phone. Photo mode is fine on most devices."
     },
     {
-      "title": "Point at the QR Code",
-      "detail": "Align the QR code within the camera frame. Hold your phone steady until the QR code is recognized."
+      "title": "Point your camera at the QR code",
+      "detail": "Hold the phone steady so the QR code is clearly in frame until the phone recognizes it."
     },
     {
-      "title": "Tap the Notification",
-      "detail": "Once the QR code is recognized, a notification will appear. Tap on it to access the linked content."
+      "title": "Tap the notification or link that appears",
+      "detail": "When a banner or link shows up (for example “Open example.com”), tap it."
     },
     {
-      "title": "Using a Dedicated App",
-      "detail": "If using a dedicated app, open it, grant any necessary permissions, and follow the prompts to scan the QR code."
+      "title": "The link opens in your browser or app",
+      "detail": "Your phone opens the website or related app connected to that QR code."
     }
   ],
   "faqs": [
     {
       "question": "What if my camera app doesn't scan QR codes?",
-      "answer": "If your camera app doesn't support QR scanning, consider downloading a QR code scanner app from your device's app store."
+      "answer": "On Android, open Google Lens or QR Code Scanner from camera settings or quick tools. You can also install a QR scanner from your app store. On iPhone, use the built-in Camera app and make sure the code is well lit."
     },
     {
       "question": "Are there any security risks with scanning QR codes?",
-      "answer": "Yes, be cautious when scanning QR codes from unknown sources, as they can lead to malicious websites or content."
+      "answer": "Yes. Only scan codes from sources you trust. A QR code can open a malicious site or download unwanted content."
     },
     {
-      "question": "Can I scan QR codes using older smartphones?",
-      "answer": "Some older smartphones may not have built-in QR scanning capabilities, in which case a dedicated app is recommended."
+      "question": "Do iPhone and Android work the same way?",
+      "answer": "iPhone uses the built-in Camera app. Android usually uses Camera, and sometimes Google Lens or a QR scanner tool."
     }
   ],
   "caveats": [
-    "Scanning QR codes requires a functioning camera and adequate lighting for optimal recognition."
+    "You need a working camera and enough light for the QR code to scan reliably.",
+    "Be careful with QR codes from unknown sources — they can open unsafe links."
   ],
-  "relatedToolIdeas": [
-    "Related Q&A cluster + checklist"
+  "images": [
+    {
+      "id": "qr-scan-guide",
+      "src": "/answers/how-do-i-scan-a-qr-code-with-my-phone/qr-scan-guide.png",
+      "alt": "Four-step guide showing how to scan a QR code with a phone camera: open Camera, point at the code, tap the notification, and open the link in a browser.",
+      "caption": "Scan a QR code with your phone camera in four steps",
+      "attachTo": "hero"
+    }
   ],
   "status": "published",
-  "updatedAt": "2026-08-13"
+  "updatedAt": "2026-08-14"
 }
