@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-clone-a-mac-to-a-new-ssd-without-losing-filevault",
+  "directAnswer": "Clone while the Mac is unlocked (FileVault is on but the volume is decrypted in use) with a tool that copies the APFS volume — Carbon Copy Cloner or SuperDuper — then enable FileVault on the new disk after the first boot. Do not dd a locked encrypted container. Most Apple silicon Macs also cannot swap the internal SSD; new SSD usually means an external boot drive or an older Intel Mac with a removable disk.",
+  "summary": "FileVault encrypts the APFS volume at rest. A proper clone copies the mounted, unlocked files to a new APFS volume, then you turn FileVault on again (or let the cloner encrypt the destination). Cloning the raw locked device duplicates ciphertext you cannot boot.",
+  "sections": [
+    {
+      "id": "soldered-ssds",
+      "heading": "First: can you even fit a new internal SSD?",
+      "body": "M1/M2/M3/M4 Macs and many late Intel notebooks have soldered storage. You cannot clone onto a new internal SSD in those machines. Realistic jobs: clone the system to an external USB/Thunderbolt SSD and boot from it, or clone an Intel Mac that still has a replaceable NVMe. For Apple silicon internals, backup + erase + Migration Assistant is Apple’s supported path, not a disk swap."
+    },
+    {
+      "id": "filevault-rules",
+      "heading": "FileVault rules that actually matter",
+      "body": "While you are logged in, macOS presents a decrypted view. CCC/SuperDuper copy that view onto a new APFS volume, so the clone boots. After cloning, FileVault on the destination is often off until you enable it in System Settings → Privacy & Security → FileVault. Never clone with the disk locked, never copy the Macintosh HD - Data volume only, and don’t restore a Time Machine snapshot onto a locked FileVault disk with random third-party imagers."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Backup, then attach the new SSD",
+      "detail": "Make a Time Machine or CCC backup first. Put the new SSD in a quality USB-C/Thunderbolt enclosure (or install it in an Intel Mac). Format it in Disk Utility as APFS, GUID partition map. On Apple silicon, use a USB4/Thunderbolt enclosure for a bootable clone — some USB 2.0-only docks will not boot."
+    },
+    {
+      "title": "Clone with the Mac unlocked (CCC or SuperDuper)",
+      "detail": "Stay logged in so FileVault is unlocked. In Carbon Copy Cloner, pick the System volume as source and the new SSD as destination, use a full clone / bootable copy as the app recommends for your macOS version, and let it create a new APFS volume. SuperDuper: Copy – all files, Smart Update off for the first pass. Do not use Disk Utility Restore from a locked container. Let the copy finish; don’t sleep the Mac."
+    },
+    {
+      "title": "Test-boot the clone before you wipe anything",
+      "detail": "Apple silicon: shut down, hold the power button for startup options, pick the external SSD. Intel: hold Option at boot. Log in with your account. Open a few apps and confirm FileVault status in Privacy & Security. If it booted, you can enable FileVault on the clone (it will encrypt in the background). Only then erase or remove the old disk on machines where that is physically possible."
+    },
+    {
+      "title": "If this is a new Mac or soldered storage",
+      "detail": "Skip cloning. Erase the Mac (or set up the new one), restore from Time Machine / Migration Assistant, and turn FileVault on during or after Setup. That keeps FileVault’s recovery key and iCloud recovery intact without fighting APFS snapshots on a disk you cannot replace."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will the clone keep my FileVault recovery key?",
+      "answer": "Not always. After a volume copy, enable FileVault on the new disk and store the new recovery key or use iCloud recovery. Do not assume the old key still unlocks the new volume UUID."
+    },
+    {
+      "question": "Can I use Disk Utility Restore?",
+      "answer": "Restore of an unlocked APFS volume can work for data, but bootable system clones on modern macOS are easier and safer with CCC, which understands signed system volumes and snapshots. Avoid Restore of the whole encrypted container while locked."
+    },
+    {
+      "question": "Is Target Disk Mode a clone?",
+      "answer": "No. It only mounts the Mac as a disk. You still need cloning software or Migration Assistant. Apple silicon uses Share Disk in Recovery, not classic Target Disk Mode."
+    }
+  ],
+  "caveats": [
+    "Booting Apple silicon from external disks depends on the enclosure and macOS version; test before erasing the built-in drive.",
+    "Firmware passwords, Find My, and Activation Lock are account/device features — a clone does not bypass them."
+  ],
+  "relatedToolIdeas": [
+    "Backup checklist wizard"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-18"
+}

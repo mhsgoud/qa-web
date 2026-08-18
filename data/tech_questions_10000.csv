@@ -9999,3 +9999,10 @@ id,category,question,intent,slug,suggested_content_type
 9998,Windows,How do I safely use Windows Update stuck without an internet connection?,How-to,how-do-i-safely-use-windows-update-stuck-without-an-internet-connection,How-to guide
 9999,Windows,Why does Windows Update stuck fail without an internet connection?,How-to,why-does-windows-update-stuck-fail-without-an-internet-connection,How-to guide
 10000,Windows,What should I know about Windows Update stuck without an internet connection?,How-to,what-should-i-know-about-windows-update-stuck-without-an-internet-connection,How-to guide
+10001,USB,How do I check if my USB-C cable is 100W or 240W?,How-to,how-do-i-check-if-my-usb-c-cable-is-100w-or-240w,How-to guide
+10002,Storage,How do I enable TRIM on a Windows SSD?,How-to,how-do-i-enable-trim-on-a-windows-ssd,How-to guide
+10003,Windows,How do I turn off Windows 11 ads and widgets?,How-to,how-do-i-turn-off-windows-11-ads-and-widgets,How-to guide
+10004,Smartphones,How do I stop iPhone Live Photos filling iCloud?,How-to,how-do-i-stop-iphone-live-photos-filling-icloud,How-to guide
+10005,TV,How do I fix HDMI-CEC when the TV turns on with the console?,How-to,how-do-i-fix-hdmi-cec-tv-turns-on-with-the-console,How-to guide
+10006,Smartphones,How do I use Samsung DeX with a monitor?,How-to,how-do-i-use-samsung-dex-with-a-monitor,How-to guide
+10007,macOS,How do I clone a Mac to a new SSD without losing FileVault?,How-to,how-do-i-clone-a-mac-to-a-new-ssd-without-losing-filevault,How-to guide

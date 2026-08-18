@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-turn-off-windows-11-ads-and-widgets",
+  "directAnswer": "Turn off Widgets on the taskbar, then disable Start recommendations, Settings suggestions, lock-screen tips, and File Explorer sync-provider / Office.com promotions. Those are the main Windows 11 ad surfaces; they live in several Settings pages, not one master switch.",
+  "summary": "Windows 11 mixes news widgets, suggested apps, lock-screen fun facts, and File Explorer upsells. Each is a separate toggle. After a feature update, check these pages again — Microsoft sometimes re-enables them.",
+  "sections": [
+    {
+      "id": "what-counts-as-ads",
+      "heading": "What ads means here",
+      "body": "Widgets (Win+W) show MSN news and sponsored cards. Start recommendations are recently opened files plus suggested apps. Settings and the lock screen can show tips and suggestions. File Explorer can push OneDrive/Office.com. None of this requires third-party debloat scripts — use Settings first."
+    },
+    {
+      "id": "leave-security-alone",
+      "heading": "Do not disable Windows Update or Defender for this",
+      "body": "You can hide widgets and suggestions without turning off updates, SmartScreen, or Microsoft Store. Aggressive registry packs that disable the Store or Update will cause other problems and are not required to kill the ads."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Remove Widgets from the taskbar",
+      "detail": "Settings → Personalization → Taskbar → Taskbar items → turn Widgets off. You can also right-click the taskbar → Taskbar settings. This hides the weather/news icon and stops Win+W from being in your face."
+    },
+    {
+      "title": "Turn off Start menu recommendations",
+      "detail": "Settings → Personalization → Start. Switch off Show recommendations for tips, shortcuts, new apps, and more (wording varies slightly by build). Optionally turn off recently added apps and recently opened items if you want a quieter Start."
+    },
+    {
+      "title": "Disable suggestions in Settings and on the lock screen",
+      "detail": "Settings → Privacy & security → General → turn off Show me suggested content in the Settings app and related advertising/diagnostic suggestion toggles you do not want. Then Personalization → Lock screen → set it to Picture or Slideshow, and turn off Get fun facts, tips, tricks, and more on your lock screen (Windows spotlight)."
+    },
+    {
+      "title": "Clean File Explorer",
+      "detail": "In File Explorer: See more → Options → View. Uncheck Show sync provider notifications. On Home/Gallery, unpin Office.com / recommended files if shown. In Folder Options, you can also stop showing recently used files in Quick access."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I turn off the Copilot or Chat icon?",
+      "answer": "On builds that still show it, right-click the taskbar → Taskbar settings and toggle Copilot/Chat off. Microsoft moves this control between Windows versions; if it is missing, the icon was already removed in your build."
+    },
+    {
+      "question": "Will this stop Microsoft account ads in other apps?",
+      "answer": "No. Edge and some OEM utilities have their own switches. This page only covers the Windows 11 shell."
+    },
+    {
+      "question": "Do I need a third-party tweaker?",
+      "answer": "Not for widgets and Start ads. Use Settings. Save scripts for machines you reinstall often, and only from a source you trust."
+    }
+  ],
+  "caveats": [
+    "Feature updates can turn some of these back on. Recheck Taskbar, Start, and Lock screen after a big Windows update.",
+    "Group Policy (Pro/Enterprise) can lock these: User Configuration → Administrative Templates → Windows Components → Widgets / Start Menu and Taskbar."
+  ],
+  "relatedToolIdeas": [
+    "Related Q&A cluster + checklist"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-18"
+}

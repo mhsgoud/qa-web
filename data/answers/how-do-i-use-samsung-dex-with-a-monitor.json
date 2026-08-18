@@ -1,0 +1,58 @@
+{
+  "slug": "how-do-i-use-samsung-dex-with-a-monitor",
+  "directAnswer": "Use a USB-C cable or hub that carries video (DisplayPort Alt Mode), plug the Samsung phone or tablet into the monitor’s USB-C or into HDMI via a video-capable adapter, then start DeX from the on-screen prompt. Charge-only cables and ports that do not output DisplayPort will not work.",
+  "summary": "Samsung DeX turns a compatible Galaxy phone or tablet into a desktop-style session on an external display. Wired DeX is the reliable path; wireless DeX needs a supported TV/monitor or DeX on a Windows PC.",
+  "sections": [
+    {
+      "id": "what-you-need",
+      "heading": "What you need",
+      "body": "A DeX-capable Galaxy (recent S, Z Fold/Flip, and Tab models — check Samsung’s DeX list for your exact phone). A monitor with HDMI or USB-C, plus a cable/hub that does video, not just charging. A USB-C hub with HDMI + USB-A for mouse/keyboard is the usual desk setup. The phone’s USB-C port must support DisplayPort Alt Mode (normal on DeX phones; not true of every Android)."
+    },
+    {
+      "id": "wireless-vs-wired",
+      "heading": "Wired vs wireless DeX",
+      "body": "Wired: lowest lag, works on dumb monitors. Wireless DeX: to some smart TVs or via SmartThings; quality depends on Wi‑Fi. DeX on PC/Mac: Samsung’s DeX app on a computer, which is a windowed desktop, not HDMI. For a plain PC monitor, use a cable or a USB-C dock with HDMI/DisplayPort."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Use a video-capable cable or hub",
+      "detail": "Do not use a charge-only USB-C cable. Use USB-C to USB-C if the monitor accepts USB-C video, or a USB-C hub/adapter with an HDMI or DisplayPort output labeled 4K/video. Plug HDMI into the monitor and, if the hub needs it, plug the hub’s extra USB-C power adapter in so the phone charges while DeX runs."
+    },
+    {
+      "title": "Connect and start DeX",
+      "detail": "Unlock the phone, plug it in, and wait for the DeX notification or an automatic desktop on the monitor. If you get a file-transfer prompt only, the cable is not doing video — swap it. On the phone you can also search Settings for Samsung DeX and start it when a display is attached. Optional: pair a Bluetooth mouse and keyboard, or plug USB input devices into the hub."
+    },
+    {
+      "title": "Set resolution and which screen is which",
+      "detail": "In DeX (taskbar / settings gear on the DeX desktop), pick resolution and whether the phone stays a trackpad or goes dark. 1080p is the safe default; 4K depends on phone, hub, and cable. If the monitor stays black, try another HDMI input, turn the monitor to the correct source, and test the hub on another laptop to prove the dongle outputs video."
+    },
+    {
+      "title": "Optional: wireless DeX",
+      "detail": "On a supported Samsung/SmartThings TV: phone Settings → Connected devices or search DeX → Wireless DeX, and pick the TV. Stay on 5 GHz Wi‑Fi, same network. This is convenience, not a substitute for a dock if you need a stable work monitor."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why does my monitor only charge the phone?",
+      "answer": "The cable or the monitor USB-C port is USB 2.0 charge-only, or the port has no DisplayPort Alt Mode. Use HDMI from a video hub instead of the monitor’s USB-C charge jack."
+    },
+    {
+      "question": "Can I use DeX with a USB-C to HDMI cable?",
+      "answer": "Yes if that cable is an active/video adapter (DP Alt Mode), not a cheap charge cable with HDMI-shaped plastic. If a laptop uses the same cable to drive the monitor, it will work for DeX too."
+    },
+    {
+      "question": "Does every Galaxy support DeX?",
+      "answer": "No. A-series and some mid-range models omit it. Samsung’s spec sheet for the model will say Samsung DeX. Tablets that support DeX can also drive a monitor the same way."
+    }
+  ],
+  "caveats": [
+    "Some USB-C monitors need the phone to supply video and a second charger for the panel — follow the monitor’s USB-C diagram.",
+    "DeX is not a full Windows PC: some Android apps stay phone-sized or refuse to run in desktop mode."
+  ],
+  "relatedToolIdeas": [
+    "USB‑C / charger compatibility checker"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-18"
+}
