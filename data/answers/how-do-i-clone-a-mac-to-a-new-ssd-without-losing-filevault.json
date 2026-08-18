@@ -1,54 +1,59 @@
 {
   "slug": "how-do-i-clone-a-mac-to-a-new-ssd-without-losing-filevault",
-  "directAnswer": "Clone while the Mac is unlocked (FileVault is on but the volume is decrypted in use) with a tool that copies the APFS volume — Carbon Copy Cloner or SuperDuper — then enable FileVault on the new disk after the first boot. Do not dd a locked encrypted container. Most Apple silicon Macs also cannot swap the internal SSD; new SSD usually means an external boot drive or an older Intel Mac with a removable disk.",
-  "summary": "FileVault encrypts the APFS volume at rest. A proper clone copies the mounted, unlocked files to a new APFS volume, then you turn FileVault on again (or let the cloner encrypt the destination). Cloning the raw locked device duplicates ciphertext you cannot boot.",
+  "directAnswer": "Use Carbon Copy Cloner or SuperDuper to clone your Mac while logged in, ensuring FileVault is unlocked. After cloning, enable FileVault on the new SSD through System Settings.",
+  "summary": "To clone a Mac to a new SSD without losing FileVault, use a cloning tool that supports APFS volumes while the system is unlocked. After cloning, re-enable FileVault on the new drive.",
   "sections": [
     {
-      "id": "soldered-ssds",
-      "heading": "First: can you even fit a new internal SSD?",
-      "body": "M1/M2/M3/M4 Macs and many late Intel notebooks have soldered storage. You cannot clone onto a new internal SSD in those machines. Realistic jobs: clone the system to an external USB/Thunderbolt SSD and boot from it, or clone an Intel Mac that still has a replaceable NVMe. For Apple silicon internals, backup + erase + Migration Assistant is Apple’s supported path, not a disk swap."
+      "id": "internal-vs-external-ssd",
+      "heading": "Internal vs. External SSD Options",
+      "body": "Most modern Macs, especially those with Apple silicon, have non-removable internal SSDs. For these, cloning to an external SSD is the practical option. Older Intel Macs may allow internal SSD replacements."
     },
     {
-      "id": "filevault-rules",
-      "heading": "FileVault rules that actually matter",
-      "body": "While you are logged in, macOS presents a decrypted view. CCC/SuperDuper copy that view onto a new APFS volume, so the clone boots. After cloning, FileVault on the destination is often off until you enable it in System Settings → Privacy & Security → FileVault. Never clone with the disk locked, never copy the Macintosh HD - Data volume only, and don’t restore a Time Machine snapshot onto a locked FileVault disk with random third-party imagers."
+      "id": "cloning-software",
+      "heading": "Choosing the Right Cloning Software",
+      "body": "Carbon Copy Cloner and SuperDuper are recommended for cloning APFS volumes. They ensure the system is copied in a bootable state and handle the complexities of macOS's signed system volumes."
+    },
+    {
+      "id": "filevault-considerations",
+      "heading": "FileVault Considerations",
+      "body": "FileVault encrypts your data at rest. Cloning should be done while logged in to ensure the volume is decrypted. After cloning, FileVault must be re-enabled on the new SSD to maintain encryption."
     }
   ],
   "steps": [
     {
-      "title": "Backup, then attach the new SSD",
-      "detail": "Make a Time Machine or CCC backup first. Put the new SSD in a quality USB-C/Thunderbolt enclosure (or install it in an Intel Mac). Format it in Disk Utility as APFS, GUID partition map. On Apple silicon, use a USB4/Thunderbolt enclosure for a bootable clone — some USB 2.0-only docks will not boot."
+      "title": "Prepare the New SSD",
+      "detail": "Connect the new SSD using a USB-C/Thunderbolt enclosure. Use Disk Utility to format it as APFS with a GUID partition map."
     },
     {
-      "title": "Clone with the Mac unlocked (CCC or SuperDuper)",
-      "detail": "Stay logged in so FileVault is unlocked. In Carbon Copy Cloner, pick the System volume as source and the new SSD as destination, use a full clone / bootable copy as the app recommends for your macOS version, and let it create a new APFS volume. SuperDuper: Copy – all files, Smart Update off for the first pass. Do not use Disk Utility Restore from a locked container. Let the copy finish; don’t sleep the Mac."
+      "title": "Clone the Mac",
+      "detail": "Log in to your Mac to ensure FileVault is unlocked. Use Carbon Copy Cloner or SuperDuper to clone the system volume to the new SSD, following the software's instructions for a bootable copy."
     },
     {
-      "title": "Test-boot the clone before you wipe anything",
-      "detail": "Apple silicon: shut down, hold the power button for startup options, pick the external SSD. Intel: hold Option at boot. Log in with your account. Open a few apps and confirm FileVault status in Privacy & Security. If it booted, you can enable FileVault on the clone (it will encrypt in the background). Only then erase or remove the old disk on machines where that is physically possible."
+      "title": "Test the Cloned SSD",
+      "detail": "Boot from the new SSD: on Apple silicon, hold the power button for startup options; on Intel, hold Option at boot. Verify that the system boots correctly and check FileVault status."
     },
     {
-      "title": "If this is a new Mac or soldered storage",
-      "detail": "Skip cloning. Erase the Mac (or set up the new one), restore from Time Machine / Migration Assistant, and turn FileVault on during or after Setup. That keeps FileVault’s recovery key and iCloud recovery intact without fighting APFS snapshots on a disk you cannot replace."
+      "title": "Enable FileVault on the New SSD",
+      "detail": "Once the clone is verified, go to System Settings → Privacy & Security → FileVault to enable encryption on the new SSD."
     }
   ],
   "faqs": [
     {
-      "question": "Will the clone keep my FileVault recovery key?",
-      "answer": "Not always. After a volume copy, enable FileVault on the new disk and store the new recovery key or use iCloud recovery. Do not assume the old key still unlocks the new volume UUID."
+      "question": "Will my FileVault recovery key transfer to the new SSD?",
+      "answer": "No, you will need to generate a new recovery key when you enable FileVault on the new SSD."
     },
     {
-      "question": "Can I use Disk Utility Restore?",
-      "answer": "Restore of an unlocked APFS volume can work for data, but bootable system clones on modern macOS are easier and safer with CCC, which understands signed system volumes and snapshots. Avoid Restore of the whole encrypted container while locked."
+      "question": "Can I use Disk Utility to clone my Mac?",
+      "answer": "Disk Utility can copy data, but for a bootable clone, use Carbon Copy Cloner or SuperDuper, which handle APFS and system volumes better."
     },
     {
-      "question": "Is Target Disk Mode a clone?",
-      "answer": "No. It only mounts the Mac as a disk. You still need cloning software or Migration Assistant. Apple silicon uses Share Disk in Recovery, not classic Target Disk Mode."
+      "question": "What if my Mac has soldered storage?",
+      "answer": "For Macs with soldered storage, use an external SSD for cloning and booting, as internal upgrades are not possible."
     }
   ],
   "caveats": [
-    "Booting Apple silicon from external disks depends on the enclosure and macOS version; test before erasing the built-in drive.",
-    "Firmware passwords, Find My, and Activation Lock are account/device features — a clone does not bypass them."
+    "External booting on Apple silicon may depend on the enclosure and macOS version; test before erasing the internal drive.",
+    "Ensure the new SSD is compatible with your Mac's hardware and macOS version."
   ],
   "relatedToolIdeas": [
     "Backup checklist wizard"

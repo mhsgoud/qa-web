@@ -10,7 +10,8 @@
     "score": "tsx scripts/score-and-export.ts",
     "answers:generate": "tsx scripts/generate-answers.ts",
     "answers:templates": "tsx scripts/generate-answers.ts -- --template-only",
-    "answers:images": "tsx scripts/generate-answer-images.ts"
+    "answers:images": "tsx scripts/generate-answer-images.ts",
+    "answers:refine": "tsx scripts/refine-answers.ts"
   },
   "dependencies": {
     "next": "16.3.0",

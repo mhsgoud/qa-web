@@ -1,54 +1,63 @@
 {
   "slug": "how-do-i-stop-iphone-live-photos-filling-icloud",
-  "directAnswer": "Turn Live Photos off in Camera (the concentric-circles icon) so new shots are stills, then convert or delete existing Live Photos in the Photos app. Live Photos store a short video plus the still, so they use much more iCloud than a JPEG/HEIC of the same picture.",
-  "summary": "If iCloud Photos is on, every Live Photo uploads the still and the motion clip. Stopping the bleed is two jobs: change the camera default, then reclaim space from the library you already shot.",
+  "directAnswer": "Disable Live Photos in the Camera app to prevent new Live Photos from being taken, and convert existing Live Photos to stills in the Photos app to save iCloud space.",
+  "summary": "Live Photos combine a still image with a short video, consuming more iCloud storage. To manage space, disable Live Photos for future captures and convert or delete existing Live Photos.",
   "sections": [
     {
-      "id": "why-live-photos-are-large",
-      "heading": "Why Live Photos fill iCloud",
-      "body": "A Live Photo is a still image plus about 1.5 seconds of video and audio before and after the shutter. That extra movie is what balloons iCloud Photos, especially bursts and years of the camera left in Live mode. iCloud backup of the device is separate from iCloud Photos — this problem is almost always Photos in iCloud, not the device backup."
+      "id": "understanding-live-photos",
+      "heading": "Understanding Live Photos",
+      "body": "Live Photos capture a still image along with 1.5 seconds of video and audio before and after the shot. This feature increases the file size significantly compared to a standard photo."
     },
     {
-      "id": "keep-the-still",
-      "heading": "You can keep the picture",
-      "body": "Converting a Live Photo to a still deletes the motion clip and keeps the key still. That is usually what people want. Deleting the whole item removes both. Recently Deleted still counts against iCloud for 30 days until you empty it."
+      "id": "impact-on-icloud-storage",
+      "heading": "Impact on iCloud Storage",
+      "body": "Each Live Photo uses more storage due to the embedded video, leading to faster consumption of iCloud space, especially if you frequently take photos in Live mode."
+    },
+    {
+      "id": "managing-existing-live-photos",
+      "heading": "Managing Existing Live Photos",
+      "body": "To reduce iCloud usage, convert Live Photos to still images or delete them. This will remove the video component while retaining the main photo."
     }
   ],
   "steps": [
     {
-      "title": "Turn Live Photos off for new shots",
-      "detail": "Open Camera. Tap the Live Photos icon (concentric circles) at the top so it shows a line through it / Live Off. Do this in Photo mode. The iPhone remembers the last setting, but a reset or some camera modes can turn Live back on — glance at the icon before a long event."
+      "title": "Disable Live Photos for New Captures",
+      "detail": "Open the Camera app, tap the Live Photos icon (concentric circles) to turn it off. Ensure the icon has a slash through it, indicating Live Photos are disabled."
     },
     {
-      "title": "See how much space Photos is using",
-      "detail": "Settings → [your name] → iCloud → Photos (or Manage Account Storage → Photos). On the iPhone: Settings → General → iPhone Storage → Photos. That tells you whether the library, not apps, is the problem."
+      "title": "Check iCloud Storage Usage",
+      "detail": "Go to Settings → [your name] → iCloud → Manage Account Storage → Photos to see how much space your photos are using."
     },
     {
-      "title": "Convert existing Live Photos to stills",
-      "detail": "In Photos, open a Live Photo (it will show LIVE). Use the Live badge, then choose Convert to Still Photo (Make a Still Photo on some iOS versions). For many at once, use Filters → Media Types → Live Photos, then convert or delete in batches. On a Mac with iCloud Photos, select Live Photos and use Image → Convert to Still Photo."
+      "title": "Convert Live Photos to Stills",
+      "detail": "In the Photos app, open a Live Photo, tap Edit, then tap the Live Photos icon to turn it off. Tap Done to save it as a still photo."
     },
     {
-      "title": "Empty Recently Deleted and consider Optimize Storage",
-      "detail": "Photos → Albums → Recently Deleted → Delete All. Then Settings → [your name] → iCloud → Photos → Optimize iPhone Storage so full-resolution files stay in iCloud and smaller versions stay on the phone — this does not shrink iCloud, it only saves local space. To actually shrink iCloud you must convert/delete Live clips or buy more storage."
+      "title": "Delete Unwanted Live Photos",
+      "detail": "Navigate to Photos → Albums → Live Photos, select the ones you want to delete, and tap the trash icon. Remember to empty the Recently Deleted album."
+    },
+    {
+      "title": "Optimize iPhone Storage",
+      "detail": "Enable Settings → [your name] → iCloud → Photos → Optimize iPhone Storage to keep smaller versions on your device while full-resolution photos remain in iCloud."
     }
   ],
   "faqs": [
     {
-      "question": "Does turning off Live Photos affect old pictures?",
-      "answer": "No. It only changes new captures. Old Live Photos stay Live until you convert or delete them."
+      "question": "Does disabling Live Photos affect existing photos?",
+      "answer": "No, disabling Live Photos only affects new photos. Existing Live Photos remain unchanged until you manually convert or delete them."
     },
     {
-      "question": "Will converting to a still remove the photo from iCloud?",
-      "answer": "No. The still stays in iCloud Photos. Only the extra video is dropped after it syncs. Give it time to upload; keep the phone on Wi‑Fi."
+      "question": "Will converting Live Photos to stills free up iCloud space immediately?",
+      "answer": "Yes, converting Live Photos to stills removes the video component, freeing up space after the changes sync with iCloud."
     },
     {
-      "question": "Is Live Photos the same as iCloud video?",
-      "answer": "No. Regular 4K video in Recents is usually much larger than Live Photos. Check Albums → Media Types → Videos if storage is still huge after converting Lives."
+      "question": "Can I recover deleted Live Photos?",
+      "answer": "Yes, deleted Live Photos can be recovered from the Recently Deleted album within 30 days unless you permanently delete them."
     }
   ],
   "caveats": [
-    "If iCloud Photos is off, Live Photos only fill the iPhone, not iCloud — free space via iPhone Storage instead.",
-    "Shared albums and iCloud Shared Photo Library copy what you share; converting locally may not shrink a shared copy until everyone syncs."
+    "If iCloud Photos is disabled, Live Photos only consume local storage on your iPhone.",
+    "Converting Live Photos in shared albums may not reduce storage until all participants sync their devices."
   ],
   "relatedToolIdeas": [
     "Related Q&A cluster + checklist"

@@ -1,54 +1,50 @@
 {
   "slug": "how-do-i-fix-hdmi-cec-tv-turns-on-with-the-console",
-  "directAnswer": "That behavior is HDMI-CEC: the console sends a power-on command over HDMI. Turn off HDMI Device Link / HDMI-CEC on the PlayStation, Xbox, or Switch, or disable CEC / Auto power on on the TV (often branded Bravia Sync, Anynet+, SIMPLINK, VIERA Link, or EasyLink). A soundbar in the chain can forward the same command.",
-  "summary": "CEC is useful for one-remote control and annoying when a console, Apple TV, or soundbar wakes the whole stack. Fix it on the device that is sending the power-on, not by unplugging HDMI every night.",
+  "directAnswer": "To stop your TV from turning on with your console, disable HDMI-CEC on the console or the TV. This feature is often branded differently depending on the manufacturer, such as Bravia Sync, Anynet+, or SIMPLINK.",
+  "summary": "HDMI-CEC allows devices to control each other via HDMI, which can lead to your TV turning on when you power up a console. Disabling this feature on the device that initiates the power-on command can resolve the issue.",
   "sections": [
     {
-      "id": "what-cec-is",
-      "heading": "What HDMI-CEC is doing",
-      "body": "Consumer Electronics Control is a one-wire protocol in the HDMI cable. Devices use it to power the TV on, switch inputs, and volume-control a soundbar. Names differ by brand: Sony Bravia Sync, Samsung Anynet+, LG SIMPLINK, Panasonic VIERA Link, Philips EasyLink, plus generic HDMI-CEC or HDMI Control. The TV, AVR/soundbar, and console each have their own switch — any one of them can still turn the TV on if it is left enabled."
+      "id": "understanding-hdmi-cec",
+      "heading": "Understanding HDMI-CEC",
+      "body": "HDMI-CEC (Consumer Electronics Control) is a protocol that allows HDMI devices to control each other. It can automatically turn on your TV and switch inputs when a connected device, like a console, is powered on. Different brands have unique names for this feature, such as Sony's Bravia Sync and Samsung's Anynet+."
     },
     {
-      "id": "where-to-break-the-chain",
-      "heading": "Break the chain at the noisiest device",
-      "body": "If only the PlayStation wakes the TV, disable HDMI Device Link on the PS5. If everything wakes everything (AVR + TV + console), turn CEC off on the soundbar/AVR first, then the TV’s auto power on. You can leave CEC on for volume and still disable device auto power on on many TVs."
+      "id": "disabling-hdmi-cec",
+      "heading": "Disabling HDMI-CEC",
+      "body": "To prevent your TV from turning on with your console, you can disable HDMI-CEC on the console, TV, or any intermediary device like a soundbar. This stops the automatic power-on command from being sent."
     }
   ],
   "steps": [
     {
-      "title": "Turn it off on the console",
-      "detail": "PS5: Settings → System → HDMI → turn off Enable HDMI Device Link. Xbox: Profile & system → Settings → General → TV & display options → Advanced → turn off HDMI-CEC (Device control). Nintendo Switch: System Settings → TV Settings → turn off Match TV Power State."
+      "title": "Disable HDMI-CEC on the console",
+      "detail": "For PS5: Go to Settings → System → HDMI → turn off Enable HDMI Device Link. For Xbox: Navigate to Profile & system → Settings → General → TV & display options → Advanced → turn off HDMI-CEC (Device control). For Nintendo Switch: Go to System Settings → TV Settings → turn off Match TV Power State."
     },
     {
-      "title": "Turn off CEC / auto power on the TV",
-      "detail": "Open the TV’s HDMI or External inputs menu and disable HDMI-CEC / Bravia Sync / Anynet+ / SIMPLINK. Also look for Auto power on, TV auto on, or Power on with HDMI. You can keep HDMI-CEC for the soundbar volume and still disable auto power on if the TV offers both."
+      "title": "Disable HDMI-CEC on the TV",
+      "detail": "Access the TV’s settings menu, usually under HDMI or External inputs, and disable HDMI-CEC or its branded equivalent like Bravia Sync, Anynet+, or SIMPLINK. Look for options like Auto power on or Power on with HDMI."
     },
     {
-      "title": "Check the soundbar or AVR",
-      "detail": "If HDMI goes Console → bar → TV (ARC/eARC), the bar often has HDMI-CEC / Control for HDMI. Disable device power linking there. One leftover CEC device is enough to turn the TV on."
+      "title": "Check intermediary devices",
+      "detail": "If your setup includes a soundbar or AVR, ensure HDMI-CEC is disabled there as well. These devices can also send power-on commands to the TV."
     },
     {
-      "title": "If it still happens, isolate the HDMI port",
-      "detail": "Unplug other CEC gadgets (streaming stick, soundbar) one at a time. Try another HDMI input — some TVs enable CEC per jack. A cheap HDMI splitter that does not handle CEC cleanly can also spam power commands; connect the console directly to test."
+      "title": "Test with different HDMI inputs",
+      "detail": "Try connecting your console to a different HDMI port on the TV, as some ports may have CEC enabled by default. This can help isolate the issue."
     }
   ],
   "faqs": [
     {
-      "question": "Can I keep using the TV remote for PlayStation volume?",
-      "answer": "Volume usually needs CEC or ARC. You can often disable power-on linking and leave HDMI control / ARC on. If the TV only has one CEC switch, you choose between convenience and the TV staying off."
+      "question": "Can I still use my TV remote to control console volume?",
+      "answer": "Yes, you can often disable power-on linking while keeping HDMI control for volume. This depends on your TV's settings."
     },
     {
-      "question": "Why does the TV also switch to the game input?",
-      "answer": "Same CEC feature (one-touch play). Disabling Device Link / CEC stops both the power-on and the input grab."
-    },
-    {
-      "question": "Does 4K/120Hz or VRR require CEC?",
-      "answer": "No. Picture mode, HDMI 2.1 features, and ALLM are separate. Turning CEC off does not block 4K or 120Hz."
+      "question": "Why does my TV switch inputs when I turn on the console?",
+      "answer": "This is part of the HDMI-CEC feature called one-touch play. Disabling HDMI-CEC will stop both the power-on and input switching."
     }
   ],
   "caveats": [
-    "Some TVs re-enable Anynet+/SIMPLINK after a firmware update. Recheck once if the problem comes back.",
-    "Game Mode and HDMI-CEC are different menus — turning off Game Mode will not stop the TV waking."
+    "Some TVs may re-enable HDMI-CEC after a firmware update, so check settings if the issue reoccurs.",
+    "Disabling HDMI-CEC will not affect picture quality or features like 4K or 120Hz."
   ],
   "relatedToolIdeas": [
     "Related Q&A cluster + checklist"

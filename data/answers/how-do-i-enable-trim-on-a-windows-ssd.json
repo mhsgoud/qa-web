@@ -1,54 +1,63 @@
 {
   "slug": "how-do-i-enable-trim-on-a-windows-ssd",
-  "directAnswer": "On Windows 10/11, TRIM is usually already on for internal SSDs. Confirm in an admin Command Prompt with `fsutil behavior query DisableDeleteNotify` — `NTFS DisableDeleteNotify = 0` means TRIM is enabled. Set it with `fsutil behavior set DisableDeleteNotify 0` if it is 1.",
-  "summary": "TRIM tells an SSD which blocks are free so it can keep write speeds up. Windows enables it automatically for most SATA and NVMe drives; USB enclosures, some RAID setups, and a flipped fsutil flag are the usual reasons it is off.",
+  "directAnswer": "To enable TRIM on Windows 10/11, open an admin Command Prompt and run `fsutil behavior set DisableDeleteNotify 0`. Confirm TRIM is enabled with `fsutil behavior query DisableDeleteNotify` — `NTFS DisableDeleteNotify = 0` means TRIM is active.",
+  "summary": "TRIM optimizes SSD performance by marking unused blocks for deletion, which helps maintain high write speeds. Windows typically enables TRIM automatically for internal SSDs, but it can be manually checked and set if needed.",
   "sections": [
     {
       "id": "what-trim-does",
       "heading": "What TRIM is (and is not)",
-      "body": "When you delete a file, the filesystem marks space as free. TRIM (the SCSI UNMAP / NVMe deallocate command) passes that to the SSD so it can erase flash in the background. Without TRIM, the drive eventually slows as it runs out of fresh blocks. You do not defrag a healthy SSD on a schedule the way you did with hard drives — the Optimize Drives tool runs Retrim, not a classic defrag."
+      "body": "TRIM is a command that informs an SSD which data blocks are no longer in use and can be wiped internally. This process helps maintain the SSD's performance over time by preventing slowdowns due to lack of available blocks. Unlike traditional defragmentation, TRIM is a maintenance task specific to SSDs."
     },
     {
       "id": "when-windows-cannot-trim",
       "heading": "When Windows cannot send TRIM",
-      "body": "USB-to-SATA/NVMe enclosures often do not pass TRIM unless the bridge chip supports it. Intel RST RAID, some software RAID, and odd BitLocker setups can also block it. Second disks that Windows still thinks are HDDs (wrong driver, USB dock) will show as Hard disk in Optimize Drives and will not get Retrim."
+      "body": "TRIM may not work with SSDs in USB enclosures unless the enclosure supports it. Certain RAID configurations and incorrect drive recognition can also prevent TRIM from functioning. Ensure the drive is recognized as an SSD in the Optimize Drives tool."
+    },
+    {
+      "id": "troubleshooting-trim",
+      "heading": "Troubleshooting TRIM issues",
+      "body": "If TRIM is not working, update your storage drivers from the manufacturer's website. For SSDs in USB enclosures, ensure the enclosure supports UASP and TRIM. Consider connecting the SSD directly to the motherboard if possible."
     }
   ],
   "steps": [
     {
       "title": "Check whether TRIM is enabled",
-      "detail": "Open Command Prompt or Terminal as Administrator. Run: fsutil behavior query DisableDeleteNotify. For NTFS you want DisableDeleteNotify = 0 (TRIM on). A value of 1 means Windows will not send delete notifications. On newer Windows you may also see a ReFS line — same rule, 0 is on."
+      "detail": "Open Command Prompt as Administrator and run: `fsutil behavior query DisableDeleteNotify`. Ensure `NTFS DisableDeleteNotify = 0` to confirm TRIM is enabled."
     },
     {
-      "title": "Turn TRIM on if it is off",
-      "detail": "Still in an admin prompt, run: fsutil behavior set DisableDeleteNotify 0. Re-run the query to confirm. This is a system-wide flag; you should not need to do it per drive."
+      "title": "Enable TRIM if it is disabled",
+      "detail": "In the admin Command Prompt, execute: `fsutil behavior set DisableDeleteNotify 0`. Re-run the query command to verify the change."
     },
     {
-      "title": "Confirm the SSD is optimized as an SSD",
-      "detail": "Press Start, type Defragment and Optimize Drives, open it. Your SSD should list Media type as Solid state drive. Select it → Optimize. The last run should mention OK / retrim, not a lengthy defrag. Set it to weekly if the schedule is Off."
+      "title": "Verify SSD optimization settings",
+      "detail": "Search for 'Defragment and Optimize Drives' in the Start menu. Ensure your SSD is listed as a 'Solid state drive'. Select it and click 'Optimize' to check the last run status."
     },
     {
-      "title": "If TRIM still does not run",
-      "detail": "Update the storage/NVMe driver from the motherboard or laptop OEM, not a random pack. If the drive is in a USB enclosure, try it in a motherboard M.2 slot or a UASP+TRIM-capable enclosure. RAID volumes often cannot TRIM — that is a hardware limit, not a missing checkbox."
+      "title": "Update storage drivers",
+      "detail": "Download and install the latest storage or NVMe drivers from your motherboard or laptop manufacturer's website to ensure compatibility and performance."
+    },
+    {
+      "title": "Test SSD in different configurations",
+      "detail": "If TRIM issues persist, try connecting the SSD directly to the motherboard or use a UASP and TRIM-capable USB enclosure."
     }
   ],
   "faqs": [
     {
       "question": "Does Windows 11 enable TRIM by default?",
-      "answer": "Yes for internally attached SSDs that Windows identifies correctly. Checking fsutil is still worth it after a clone, a new drive, or a storage-driver change."
+      "answer": "Yes, for internally connected SSDs that are correctly identified by Windows. It's advisable to check after hardware changes or driver updates."
     },
     {
       "question": "Should I run Optimize Drives every day on an SSD?",
-      "answer": "No. Weekly Retrim is enough. Daily optimize does not make a healthy NVMe faster and is unnecessary wear."
+      "answer": "No, running it weekly is sufficient. Daily optimization is unnecessary and can cause additional wear on the SSD."
     },
     {
       "question": "Is TRIM the same as secure erase?",
-      "answer": "No. TRIM is routine housekeeping. A manufacturer secure-erase / PSID revert is what you use before selling a drive."
+      "answer": "No, TRIM is for regular maintenance, while secure erase is used to completely wipe a drive before disposal or resale."
     }
   ],
   "caveats": [
-    "Do not run classic defrag tools that force a full defragmentation on an SSD.",
-    "A DisableDeleteNotify of 0 does not guarantee a USB enclosure actually forwards UNMAP to the NAND."
+    "Avoid using traditional defragmentation tools on SSDs as they can cause unnecessary wear.",
+    "A setting of DisableDeleteNotify = 0 does not guarantee TRIM support in all USB enclosures."
   ],
   "relatedToolIdeas": [
     "Storage speed / upgrade picker"

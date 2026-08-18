@@ -1,57 +1,53 @@
 {
   "slug": "how-do-i-use-samsung-dex-with-a-monitor",
-  "directAnswer": "Use a USB-C cable or hub that carries video (DisplayPort Alt Mode), plug the Samsung phone or tablet into the monitor’s USB-C or into HDMI via a video-capable adapter, then start DeX from the on-screen prompt. Charge-only cables and ports that do not output DisplayPort will not work.",
-  "summary": "Samsung DeX turns a compatible Galaxy phone or tablet into a desktop-style session on an external display. Wired DeX is the reliable path; wireless DeX needs a supported TV/monitor or DeX on a Windows PC.",
+  "directAnswer": "Connect your DeX-capable Samsung device to a monitor using a USB-C to HDMI cable or a compatible hub, then start Samsung DeX from the notification prompt on your device.",
+  "summary": "Samsung DeX allows you to use your Galaxy device as a desktop-like experience on an external monitor. A wired connection is the most reliable method, though wireless options are available for compatible devices.",
   "sections": [
     {
-      "id": "what-you-need",
-      "heading": "What you need",
-      "body": "A DeX-capable Galaxy (recent S, Z Fold/Flip, and Tab models — check Samsung’s DeX list for your exact phone). A monitor with HDMI or USB-C, plus a cable/hub that does video, not just charging. A USB-C hub with HDMI + USB-A for mouse/keyboard is the usual desk setup. The phone’s USB-C port must support DisplayPort Alt Mode (normal on DeX phones; not true of every Android)."
+      "id": "requirements",
+      "heading": "Requirements",
+      "body": "Ensure you have a Samsung device that supports DeX, such as recent Galaxy S, Note, or Tab models. You'll need a monitor with HDMI or USB-C input and a cable or hub that supports video output."
     },
     {
-      "id": "wireless-vs-wired",
-      "heading": "Wired vs wireless DeX",
-      "body": "Wired: lowest lag, works on dumb monitors. Wireless DeX: to some smart TVs or via SmartThings; quality depends on Wi‑Fi. DeX on PC/Mac: Samsung’s DeX app on a computer, which is a windowed desktop, not HDMI. For a plain PC monitor, use a cable or a USB-C dock with HDMI/DisplayPort."
+      "id": "connection-methods",
+      "heading": "Connection Methods",
+      "body": "Wired connections provide the best performance. Use a USB-C to HDMI cable or a USB-C hub with HDMI output. Wireless DeX is available on compatible smart TVs or via the DeX app on Windows PCs."
     }
   ],
   "steps": [
     {
-      "title": "Use a video-capable cable or hub",
-      "detail": "Do not use a charge-only USB-C cable. Use USB-C to USB-C if the monitor accepts USB-C video, or a USB-C hub/adapter with an HDMI or DisplayPort output labeled 4K/video. Plug HDMI into the monitor and, if the hub needs it, plug the hub’s extra USB-C power adapter in so the phone charges while DeX runs."
+      "title": "Choose the right cable or hub",
+      "detail": "Select a USB-C to HDMI cable or a USB-C hub with HDMI output that supports video transmission. Avoid charge-only cables."
     },
     {
-      "title": "Connect and start DeX",
-      "detail": "Unlock the phone, plug it in, and wait for the DeX notification or an automatic desktop on the monitor. If you get a file-transfer prompt only, the cable is not doing video — swap it. On the phone you can also search Settings for Samsung DeX and start it when a display is attached. Optional: pair a Bluetooth mouse and keyboard, or plug USB input devices into the hub."
+      "title": "Connect your device to the monitor",
+      "detail": "Plug the cable into your Samsung device and the monitor. If using a hub, connect the hub to the monitor and your device."
     },
     {
-      "title": "Set resolution and which screen is which",
-      "detail": "In DeX (taskbar / settings gear on the DeX desktop), pick resolution and whether the phone stays a trackpad or goes dark. 1080p is the safe default; 4K depends on phone, hub, and cable. If the monitor stays black, try another HDMI input, turn the monitor to the correct source, and test the hub on another laptop to prove the dongle outputs video."
+      "title": "Start Samsung DeX",
+      "detail": "Unlock your device and look for the DeX notification. Tap it to start DeX mode. Alternatively, go to Settings > Samsung DeX to manually start it."
     },
     {
-      "title": "Optional: wireless DeX",
-      "detail": "On a supported Samsung/SmartThings TV: phone Settings → Connected devices or search DeX → Wireless DeX, and pick the TV. Stay on 5 GHz Wi‑Fi, same network. This is convenience, not a substitute for a dock if you need a stable work monitor."
+      "title": "Adjust display settings",
+      "detail": "In DeX mode, access settings to adjust resolution and screen options. Ensure the monitor is set to the correct input source."
     }
   ],
   "faqs": [
     {
-      "question": "Why does my monitor only charge the phone?",
-      "answer": "The cable or the monitor USB-C port is USB 2.0 charge-only, or the port has no DisplayPort Alt Mode. Use HDMI from a video hub instead of the monitor’s USB-C charge jack."
+      "question": "Why is my monitor not displaying anything?",
+      "answer": "Ensure the cable supports video output and the monitor is set to the correct input source. Try a different cable or port if necessary."
     },
     {
-      "question": "Can I use DeX with a USB-C to HDMI cable?",
-      "answer": "Yes if that cable is an active/video adapter (DP Alt Mode), not a cheap charge cable with HDMI-shaped plastic. If a laptop uses the same cable to drive the monitor, it will work for DeX too."
-    },
-    {
-      "question": "Does every Galaxy support DeX?",
-      "answer": "No. A-series and some mid-range models omit it. Samsung’s spec sheet for the model will say Samsung DeX. Tablets that support DeX can also drive a monitor the same way."
+      "question": "Can I use DeX wirelessly?",
+      "answer": "Yes, if you have a compatible smart TV or use the DeX app on a Windows PC. Ensure both devices are on the same Wi-Fi network."
     }
   ],
   "caveats": [
-    "Some USB-C monitors need the phone to supply video and a second charger for the panel — follow the monitor’s USB-C diagram.",
-    "DeX is not a full Windows PC: some Android apps stay phone-sized or refuse to run in desktop mode."
+    "Not all Samsung devices support DeX; check your device's specifications.",
+    "Some apps may not fully support DeX mode and could display in a smaller window."
   ],
   "relatedToolIdeas": [
-    "USB‑C / charger compatibility checker"
+    "USB-C video compatibility checker"
   ],
   "status": "published",
   "updatedAt": "2026-08-18"

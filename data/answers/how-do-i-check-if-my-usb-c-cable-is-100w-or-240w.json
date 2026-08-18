@@ -1,57 +1,57 @@
 {
   "slug": "how-do-i-check-if-my-usb-c-cable-is-100w-or-240w",
-  "directAnswer": "Look for a printed wattage or USB PD rating on the cable, then confirm with a USB-C power meter: 100W is USB PD 3.0 at 20V/5A; 240W is USB PD 3.1 EPR at up to 48V/5A and needs a matching EPR cable, charger, and laptop.",
-  "summary": "USB-C cables are not interchangeable for high-wattage charging. Printing, e-marker chips, and a cheap inline watt meter are more reliable than color, thickness, or the fact that both ends are USB-C.",
+  "directAnswer": "Check the cable for printed wattage or USB PD rating, and verify with a USB-C power meter: 100W cables are marked for USB PD 3.0, while 240W cables are marked for USB PD 3.1 EPR.",
+  "summary": "Identifying the wattage capability of a USB-C cable is crucial for high-wattage charging. Look for printed wattage, e-marker chips, and use a USB-C power meter for confirmation.",
   "sections": [
     {
-      "id": "what-the-numbers-mean",
-      "heading": "What 100W vs 240W actually means",
-      "body": "USB Power Delivery 3.0 tops out at 100W (20 volts at 5 amps). That needs a 5A cable with an e-marker chip — a 3A cable will cap you around 60W even on a 100W charger. USB PD 3.1 Extended Power Range (EPR) goes to 140W, 180W, or 240W using 28V or 48V. Those cables are physically different (EPR-marked, often thicker) and only work at those voltages with a PD 3.1 charger and a laptop that asks for EPR. A 240W cable can still charge a 65W laptop; a 60W cable cannot deliver 100W."
+      "id": "understanding-wattage",
+      "heading": "Understanding 100W vs 240W",
+      "body": "USB Power Delivery 3.0 supports up to 100W (20V/5A), requiring a 5A cable with an e-marker chip. USB PD 3.1 EPR supports up to 240W (48V/5A) and requires a specific EPR-marked cable, charger, and compatible device."
     },
     {
-      "id": "read-the-cable",
-      "heading": "Read the cable and packaging first",
-      "body": "Reputable cables print 60W, 100W, or 240W on the jacket or connector. USB-IF certified cables may show the USB logo plus a wattage. Thunderbolt 4/USB4 cables are typically 5A (100W charge) but are not automatically 240W EPR cables. Charge-only or unmarked cables are often 3A (60W). Marketing like “fast charge” or a braided jacket tells you nothing."
+      "id": "identifying-cables",
+      "heading": "Identifying Cable Specifications",
+      "body": "Reputable cables often have wattage (60W, 100W, 240W) printed on them. USB-IF certified cables may display the USB logo with wattage. Thunderbolt 4/USB4 cables typically support 100W but not necessarily 240W."
     }
   ],
   "steps": [
     {
-      "title": "Check printing and the charger brick",
-      "detail": "Look on the cable for 60W, 100W, 140W, or 240W (or 5A / EPR). Then read the charger: PD 3.0 bricks list 20V/5A (100W); PD 3.1 EPR bricks list 28V or 48V. The weakest link wins — a 240W charger plus a 100W cable is 100W max."
+      "title": "Inspect the Cable and Charger",
+      "detail": "Look for wattage markings like 60W, 100W, or 240W on the cable. Check the charger for PD 3.0 (20V/5A) or PD 3.1 EPR (28V/48V) specifications."
     },
     {
-      "title": "Confirm with a USB-C power meter",
-      "detail": "Plug a USB-C watt meter (PD tester) between charger and laptop. Charge with the lid open and the machine under load so it actually draws power. A true 100W path will show close to 20V and several amps (often 60–100W depending on the laptop). EPR/240W paths show 28V or 48V when the laptop requests them — most ultrabooks never will."
+      "title": "Use a USB-C Power Meter",
+      "detail": "Connect a USB-C watt meter between the charger and device. Ensure the device is under load to accurately measure power draw. A 100W path shows close to 20V, while a 240W path shows 28V or 48V."
     },
     {
-      "title": "Use the OS as a sanity check",
-      "detail": "On Windows, some OEM power apps or powercfg /batteryreport show charge rate, not cable rating. On Mac, System Settings → Battery can show charging watts on some machines. Phone apps that estimate current are rough and cannot prove 240W."
+      "title": "Verify with Operating System Tools",
+      "detail": "On Windows, use powercfg /batteryreport to check charge rate. On macOS, go to System Settings → Battery to view charging watts. These tools provide insights but not definitive cable ratings."
     },
     {
-      "title": "Reject unmarked cables for high-wattage laptops",
-      "detail": "If there is no wattage print and no USB-IF/EPR marking, treat it as 60W unless a meter proves otherwise. For 100W+ laptops, buy a named 5A/100W or EPR/240W cable rather than guessing."
+      "title": "Avoid Unmarked Cables for High-Wattage Devices",
+      "detail": "Treat unmarked cables as 60W unless proven otherwise by a meter. For devices requiring 100W or more, use cables marked as 5A/100W or EPR/240W."
     }
   ],
   "faqs": [
     {
-      "question": "Can I tell 100W vs 240W by thickness or e-marker chips?",
-      "answer": "Thickness is a hint, not a test. Both 100W and 240W cables contain an e-marker. 240W / PD 3.1 EPR cables are specified for higher voltage and must be marked for EPR — a normal 100W 5A cable is not 240W."
+      "question": "Can cable thickness indicate wattage?",
+      "answer": "Thickness can be a hint but is not definitive. Both 100W and 240W cables have e-marker chips. Only EPR-marked cables are rated for 240W."
     },
     {
-      "question": "My laptop only charges at 60W with a 100W charger. Is the cable the problem?",
-      "answer": "Often yes: a 3A cable limits PD to 60W (20V/3A). Also check that you are on the laptop’s full-power USB-C port (some ports are lower wattage) and that a dock is not sitting in between."
+      "question": "Why does my laptop charge at 60W with a 100W charger?",
+      "answer": "A 3A cable limits charging to 60W. Ensure you use a 5A cable and connect to the laptop's high-power USB-C port."
     },
     {
-      "question": "Do I need a 240W cable for a 100W laptop?",
-      "answer": "No. A certified 100W (5A) cable is enough. 240W cables are for PD 3.1 laptops and chargers that actually negotiate 28V/48V."
+      "question": "Is a 240W cable necessary for a 100W laptop?",
+      "answer": "No, a 100W (5A) cable suffices. 240W cables are for devices that negotiate higher voltages under USB PD 3.1."
     }
   ],
   "caveats": [
-    "A meter reading of 45W or 65W does not mean the cable is 45W — many laptops simply do not draw 100W while idle.",
-    "Never assume a USB-C cable is safe at 5A because it fits. Cheap unmarked cables can overheat."
+    "A meter reading of 45W or 65W doesn't indicate cable capacity; it reflects the device's current power draw.",
+    "Do not assume a USB-C cable is safe for 5A just because it fits; unmarked cables can overheat."
   ],
   "relatedToolIdeas": [
-    "USB‑C / charger compatibility checker"
+    "USB-C / charger compatibility checker"
   ],
   "status": "published",
   "updatedAt": "2026-08-18"

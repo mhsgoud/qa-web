@@ -88,6 +88,7 @@ function parseArgs() {
       Number(args.find((a) => a.startsWith("--concurrency="))?.split("=")[1] ?? 4),
     ),
     slug: slugArg,
+    model: args.find((a) => a.startsWith("--model="))?.split("=")[1],
   };
 }
 
@@ -282,8 +283,9 @@ async function mapPool<T>(
 
 async function main() {
   const env = loadEnv();
-  const { limit, force, templateOnly, withImages, source, concurrency, slug } =
+  const { limit, force, templateOnly, withImages, source, concurrency, slug, model } =
     parseArgs();
+  if (model) process.env.OPENAI_MODEL = model;
   const winners = loadWinners(limit, slug, source);
 
   console.log(
