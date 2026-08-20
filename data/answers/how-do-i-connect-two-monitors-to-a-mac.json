@@ -1,22 +1,22 @@
 {
   "slug": "how-do-i-connect-two-monitors-to-a-mac",
-  "directAnswer": "You can connect two monitors to a Mac using the appropriate cables and adapters for your Mac model. Ensure your Mac supports multiple displays.",
-  "summary": "Connecting two monitors to a Mac can enhance productivity by expanding your workspace. Follow the steps below to set it up correctly.",
+  "directAnswer": "To connect two monitors to a Mac, use the appropriate cables and adapters for your Mac's ports, then configure the displays in System Preferences > Displays.",
+  "summary": "Enhance your productivity by connecting two monitors to your Mac. Follow these steps to ensure a seamless setup.",
   "sections": [
     {
       "id": "monitor-compatibility",
       "heading": "Check Monitor Compatibility",
-      "body": "Before connecting, verify that your monitors are compatible with your Mac's ports. Common ports include HDMI, DisplayPort, and USB-C. You may need adapters depending on your Mac model."
+      "body": "Ensure your monitors are compatible with your Mac's ports. Common ports include HDMI, DisplayPort, and USB-C. You may need adapters depending on your Mac model."
     },
     {
       "id": "mac-models-and-ports",
       "heading": "Identify Your Mac Model and Ports",
-      "body": "Different Mac models have different port configurations. For example, MacBook Pro models from 2016 onward typically have Thunderbolt 3 (USB-C) ports, while older models may have HDMI or Mini DisplayPort."
+      "body": "Different Mac models have different port configurations. For instance, MacBook Pro models from 2016 onward typically have Thunderbolt 3 (USB-C) ports, while older models may have HDMI or Mini DisplayPort."
     },
     {
       "id": "display-settings",
       "heading": "Adjust Display Settings",
-      "body": "After connecting the monitors, go to System Preferences > Displays to arrange and configure your displays. You can choose to mirror displays or extend the desktop."
+      "body": "Once connected, go to System Preferences > Displays to arrange and configure your displays. Choose to mirror displays or extend the desktop."
     }
   ],
   "steps": [
@@ -30,7 +30,7 @@
     },
     {
       "title": "Arrange Displays",
-      "detail": "In the Displays settings, you can drag the monitor icons to arrange them as desired, and choose whether to mirror or extend the display."
+      "detail": "In the Displays settings, drag the monitor icons to arrange them as desired, and choose whether to mirror or extend the display."
     },
     {
       "title": "Confirm Settings",
@@ -58,5 +58,5 @@
     "Monitor + GPU match advisor"
   ],
   "status": "published",
-  "updatedAt": "2026-08-14"
+  "updatedAt": "2026-08-20"
 }

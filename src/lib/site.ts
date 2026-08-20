@@ -8,6 +8,6 @@ export const SITE = {
     line1: "Get unstuck.",
     line2: "Get a clear answer.",
     subhead:
-      "A growing library of practical tech answers — phones, PCs, storage, Wi‑Fi, security, and more. Solution first, then clear steps.",
+      "Practical fixes for phones, PCs, storage, and Wi‑Fi — short answer first, then the steps.",
   },
 } as const;

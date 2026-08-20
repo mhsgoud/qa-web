@@ -18,7 +18,7 @@ export default function HomePage() {
 
   return (
     <>
-      <HomeHero answerCount={answerCount} topicCount={topicCount} />
+      <HomeHero />
       <WhyAnswerKit answerCount={answerCount} />
       <AnswerPreview />
       <BrowseTopics

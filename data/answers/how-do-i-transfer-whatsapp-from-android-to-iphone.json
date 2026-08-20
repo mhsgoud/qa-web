@@ -1,17 +1,17 @@
 {
   "slug": "how-do-i-transfer-whatsapp-from-android-to-iphone",
-  "directAnswer": "You can transfer WhatsApp from Android to iPhone using the 'Move to iOS' app or by exporting chat history via email. The process may vary based on WhatsApp versions.",
-  "summary": "Transferring WhatsApp from Android to iPhone can be done through specific apps and methods, ensuring your chat history is preserved.",
+  "directAnswer": "Transfer WhatsApp from Android to iPhone using the 'Move to iOS' app during the iPhone setup. Ensure both devices are on the same Wi-Fi network and fully charged.",
+  "summary": "Transferring WhatsApp from Android to iPhone can be efficiently done using the Move to iOS app, which helps preserve your chat history and media files.",
   "sections": [
     {
       "id": "move-to-ios-app",
       "heading": "Using Move to iOS App",
-      "body": "The Move to iOS app allows you to transfer your WhatsApp data during the setup of your new iPhone. Ensure both devices are connected to the same Wi-Fi network."
+      "body": "The Move to iOS app facilitates the transfer of WhatsApp data during the initial setup of your new iPhone. Both devices must be connected to the same Wi-Fi network and have sufficient battery life."
     },
     {
       "id": "export-chat-history",
-      "heading": "Exporting Chat History",
-      "body": "You can also export individual chat histories via email, but this will not allow you to import them back into WhatsApp on your iPhone."
+      "heading": "Exporting Chat History via Email",
+      "body": "While you can export individual chat histories via email from your Android device, note that these cannot be imported back into WhatsApp on your iPhone."
     }
   ],
   "steps": [
@@ -24,8 +24,12 @@
       "detail": "Download the Move to iOS app on your Android device from the Google Play Store."
     },
     {
+      "title": "Start iPhone Setup",
+      "detail": "Turn on your new iPhone and follow the setup instructions until you reach the 'Apps & Data' screen."
+    },
+    {
       "title": "Transfer Data",
-      "detail": "Follow the on-screen instructions in the Move to iOS app to transfer your WhatsApp data during the iPhone setup."
+      "detail": "Open the Move to iOS app on your Android device, follow the on-screen instructions, and select WhatsApp data to transfer."
     },
     {
       "title": "Export Chats via Email",
@@ -35,11 +39,11 @@
   "faqs": [
     {
       "question": "Will I lose my chat history during the transfer?",
-      "answer": "No, if you use the Move to iOS app, your chat history should transfer successfully."
+      "answer": "No, using the Move to iOS app should successfully transfer your chat history."
     },
     {
       "question": "Can I transfer media files too?",
-      "answer": "Yes, using the Move to iOS app will transfer media files along with your chat history."
+      "answer": "Yes, the Move to iOS app transfers media files along with your chat history."
     },
     {
       "question": "Is there a limit to the number of chats I can transfer?",
@@ -47,11 +51,12 @@
     }
   ],
   "caveats": [
-    "The Move to iOS method requires both devices to be on the same Wi-Fi network and may not work if either device has a low battery."
+    "The Move to iOS method requires both devices to be on the same Wi-Fi network and may not work if either device has a low battery.",
+    "Ensure that your Android device is running Android 5.0 or later and your iPhone is running iOS 15.5 or later for compatibility."
   ],
   "relatedToolIdeas": [
     "Backup checklist wizard"
   ],
   "status": "published",
-  "updatedAt": "2026-08-14"
+  "updatedAt": "2026-08-20"
 }

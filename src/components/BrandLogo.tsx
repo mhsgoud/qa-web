@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 type Props = {
-  variant?: "header" | "footer";
+  variant?: "header" | "footer" | "hero";
   className?: string;
   priority?: boolean;
 };
@@ -18,6 +18,19 @@ export function BrandLogo({ variant = "header", className = "", priority = false
         priority={priority}
         className={`brand-logo-header ${className}`.trim()}
         style={{ width: "auto", height: "36px" }}
+      />
+    );
+  }
+
+  if (variant === "hero") {
+    return (
+      <Image
+        src="/answerkit-logo-horizontal.png"
+        alt="AnswerKit"
+        width={924}
+        height={205}
+        priority={priority}
+        className={`brand-logo-hero ${className}`.trim()}
       />
     );
   }

@@ -1,17 +1,22 @@
 {
   "slug": "how-do-i-add-a-printer-on-mac",
-  "directAnswer": "To add a printer on a Mac, open 'System Preferences', select 'Printers & Scanners', and click the '+' button to add a printer from the list.",
-  "summary": "This guide provides steps to add a printer on a Mac and addresses common issues users may encounter.",
+  "directAnswer": "To add a printer on a Mac, go to 'System Preferences', select 'Printers & Scanners', and click the '+' button to choose your printer from the list. Ensure your printer is connected to the same network as your Mac.",
+  "summary": "This guide provides detailed steps to add a printer on a Mac, including setup and troubleshooting tips for common issues.",
   "sections": [
     {
       "id": "printer-setup",
       "heading": "Setting Up Your Printer",
-      "body": "Ensure your printer is connected to the same network as your Mac. For USB printers, connect the printer directly to your Mac."
+      "body": "Make sure your printer is powered on and connected to the same Wi-Fi network as your Mac. For USB printers, connect the printer directly to your Mac using a USB cable."
     },
     {
       "id": "troubleshooting",
       "heading": "Troubleshooting Connection Issues",
-      "body": "If your printer does not appear in the list, check the printer's power and network connection. Restarting both the printer and Mac can often resolve connectivity issues."
+      "body": "If your printer does not appear, verify the printer's network connection and power status. Restarting both the printer and your Mac can often resolve connectivity issues."
+    },
+    {
+      "id": "driver-installation",
+      "heading": "Driver Installation",
+      "body": "Some printers may require additional drivers. If prompted, follow the on-screen instructions to download and install the necessary drivers."
     }
   ],
   "steps": [
@@ -25,11 +30,11 @@
     },
     {
       "title": "Add a Printer",
-      "detail": "Click the '+' button below the printer list. Select your printer from the available devices."
+      "detail": "Click the '+' button below the printer list. Select your printer from the available devices. If your printer does not appear, ensure it is powered on and connected to the same network."
     },
     {
       "title": "Install Drivers if Necessary",
-      "detail": "If prompted, download and install any necessary drivers for your printer."
+      "detail": "If prompted, download and install any necessary drivers for your printer. This step is crucial for the printer to function correctly."
     }
   ],
   "faqs": [
@@ -47,11 +52,12 @@
     }
   ],
   "caveats": [
-    "Printer setup steps may vary slightly depending on the macOS version."
+    "Printer setup steps may vary slightly depending on the macOS version.",
+    "Some printers may require specific drivers that are not automatically installed."
   ],
   "relatedToolIdeas": [
     "Related Q&A cluster + checklist"
   ],
   "status": "published",
-  "updatedAt": "2026-08-14"
+  "updatedAt": "2026-08-20"
 }

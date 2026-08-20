@@ -1,31 +1,40 @@
 {
   "slug": "how-do-i-know-what-my-usb-c-port-supports",
-  "directAnswer": "To determine what your USB-C port supports, check your device's specifications or use a USB-C compatibility checker tool.",
-  "summary": "Understanding the capabilities of your USB-C port is essential for optimal device performance and compatibility.",
+  "directAnswer": "To determine your USB-C port's capabilities, check your device's specifications online or in the manual, or use a USB-C compatibility checker tool. Look for details on power delivery, data transfer rates, and video output support.",
+  "summary": "Knowing what your USB-C port supports helps ensure compatibility with devices and optimizes performance.",
   "sections": [
     {
       "id": "usb-c-specifications",
       "heading": "Check Device Specifications",
-      "body": "Most manufacturers list the specifications of USB-C ports in the user manual or on their website. Look for details on power delivery (PD), data transfer rates, and video output capabilities."
+      "body": "Manufacturers typically provide USB-C port specifications in the user manual or on their website. Look for information on power delivery (PD), data transfer speeds, and video output capabilities."
     },
     {
       "id": "using-compatibility-checkers",
       "heading": "Use a USB-C Compatibility Checker",
-      "body": "There are online tools available that can help you check the compatibility of your USB-C port with various devices and accessories. Input your device model to get detailed information."
+      "body": "Online tools are available to check your USB-C port's compatibility with various devices and accessories. Enter your device model to receive detailed information."
+    },
+    {
+      "id": "operating-system-tools",
+      "heading": "Use Built-in Operating System Tools",
+      "body": "Some operating systems, like Windows 11, offer tools to view hardware specifications. Go to 'Settings' > 'System' > 'About' to find information about your USB-C port."
     }
   ],
   "steps": [
     {
       "title": "Identify Your Device Model",
-      "detail": "Locate the model number of your device, usually found on the back or in the settings menu."
+      "detail": "Find your device's model number, usually located on the back of the device or in the settings menu."
     },
     {
       "title": "Visit Manufacturer's Website",
-      "detail": "Go to the support section of your device's manufacturer website and search for your model to find detailed specifications."
+      "detail": "Navigate to the support section of your device's manufacturer website and search for your model to find detailed specifications."
     },
     {
       "title": "Use a USB-C Compatibility Checker Tool",
-      "detail": "Search for a USB-C compatibility checker online, input your device model, and review the results for supported features."
+      "detail": "Search for a USB-C compatibility checker online, enter your device model, and review the results for supported features."
+    },
+    {
+      "title": "Check Operating System Tools",
+      "detail": "On Windows 11, go to 'Settings' > 'System' > 'About' to view hardware specifications, including USB-C capabilities. Note that this may not provide detailed information about all USB-C features."
     }
   ],
   "faqs": [
@@ -43,11 +52,12 @@
     }
   ],
   "caveats": [
-    "Some devices may have USB-C ports that support only basic charging and data transfer, lacking advanced features like video output."
+    "Some devices may have USB-C ports that support only basic charging and data transfer, lacking advanced features like video output.",
+    "Not all USB-C ports support Thunderbolt 3 or 4, which offer higher data transfer rates and additional features."
   ],
   "relatedToolIdeas": [
     "USB‑C / charger compatibility checker"
   ],
   "status": "published",
-  "updatedAt": "2026-08-14"
+  "updatedAt": "2026-08-20"
 }

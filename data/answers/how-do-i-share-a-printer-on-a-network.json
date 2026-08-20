@@ -1,37 +1,37 @@
 {
   "slug": "how-do-i-share-a-printer-on-a-network",
-  "directAnswer": "To share a printer on a network, you need to enable printer sharing in the printer settings and ensure the printer is connected to a computer that is on the network.",
-  "summary": "This guide provides steps for sharing a printer on a network across different operating systems, along with common questions and considerations.",
+  "directAnswer": "To share a printer on a network, enable printer sharing in the settings of the computer to which the printer is connected. Ensure the computer and printer are both on the same network.",
+  "summary": "This guide provides detailed steps for sharing a printer on a network for both Windows and macOS, along with answers to common questions and important considerations.",
   "sections": [
     {
       "id": "windows-steps",
       "heading": "Steps for Windows",
-      "body": "Follow these steps to share a printer on a Windows machine."
+      "body": "Follow these steps to share a printer on a Windows machine, applicable to Windows 10 and Windows 11."
     },
     {
       "id": "mac-steps",
       "heading": "Steps for macOS",
-      "body": "Follow these steps to share a printer on a Mac."
+      "body": "Follow these steps to share a printer on a Mac, applicable to macOS Ventura and later."
     }
   ],
   "steps": [
     {
       "title": "Windows Printer Sharing",
-      "detail": "1. Open 'Control Panel' > 'Devices and Printers'. 2. Right-click on the printer you want to share and select 'Printer properties'. 3. Go to the 'Sharing' tab and check 'Share this printer'. 4. Note the share name and click 'OK'."
+      "detail": "1. Open 'Control Panel' > 'Devices and Printers'. 2. Right-click on the printer you want to share and select 'Printer properties'. 3. Go to the 'Sharing' tab and check 'Share this printer'. 4. Note the share name and click 'OK'. Ensure that 'Network discovery' is turned on in 'Network and Sharing Center'."
     },
     {
       "title": "macOS Printer Sharing",
-      "detail": "1. Open 'System Preferences' > 'Printers & Scanners'. 2. Select the printer you want to share. 3. Check the box for 'Share this printer on the network'."
+      "detail": "1. Open 'System Preferences' > 'Printers & Scanners'. 2. Select the printer you want to share from the list. 3. Click 'Options & Supplies', then go to the 'Sharing' tab. 4. Check the box for 'Share this printer on the network'."
     }
   ],
   "faqs": [
     {
       "question": "Can I share a printer without connecting it to a computer?",
-      "answer": "No, the printer must be connected to a computer that is on the network to share it unless it is a network printer with built-in sharing capabilities."
+      "answer": "No, the printer must be connected to a computer that is on the network unless it is a network printer with built-in sharing capabilities."
     },
     {
       "question": "What if my printer is not detected on the network?",
-      "answer": "Ensure the printer is powered on, connected to the same network as your computer, and that printer sharing is enabled."
+      "answer": "Ensure the printer is powered on, connected to the same network as your computer, and that printer sharing is enabled. Check firewall settings that might block network discovery."
     },
     {
       "question": "Do I need special software to share a printer?",
@@ -39,11 +39,12 @@
     }
   ],
   "caveats": [
-    "Printer sharing may not work if the host computer is turned off or not connected to the network."
+    "Printer sharing will not work if the host computer is turned off or disconnected from the network.",
+    "Network configurations or firewalls may block printer sharing; ensure necessary permissions are granted."
   ],
   "relatedToolIdeas": [
     "Related Q&A cluster + checklist"
   ],
   "status": "published",
-  "updatedAt": "2026-08-14"
+  "updatedAt": "2026-08-20"
 }

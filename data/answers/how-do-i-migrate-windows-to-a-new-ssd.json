@@ -1,62 +1,63 @@
 {
   "slug": "how-do-i-migrate-windows-to-a-new-ssd",
-  "directAnswer": "Use a disk cloning tool to transfer your Windows installation to the new SSD, ensuring you have a backup of your data.",
-  "summary": "Migrating Windows to a new SSD involves cloning your existing drive using specialized software, followed by adjusting BIOS settings to boot from the SSD.",
+  "directAnswer": "Use a disk cloning tool like Macrium Reflect to transfer your Windows installation to the new SSD, then adjust BIOS settings to boot from it.",
+  "summary": "Migrating Windows to a new SSD involves using disk cloning software to copy your current system, followed by configuring your computer to boot from the new drive.",
   "sections": [
     {
       "id": "preparation",
       "heading": "Preparation Steps",
-      "body": "Before starting the migration, ensure you have a compatible SSD, a disk cloning tool, and backup all important data."
+      "body": "Ensure you have a compatible SSD, a disk cloning tool, and backup all important data before starting the migration."
     },
     {
       "id": "cloning-process",
       "heading": "Cloning Process",
-      "body": "Use a reliable disk cloning software like Macrium Reflect or EaseUS Todo Backup to clone your existing drive to the new SSD."
+      "body": "Use reliable disk cloning software like Macrium Reflect or EaseUS Todo Backup to clone your existing drive to the new SSD."
     },
     {
       "id": "post-migration",
       "heading": "Post-Migration Steps",
-      "body": "After cloning, you may need to change your BIOS settings to boot from the SSD and ensure the old drive is formatted if no longer needed."
+      "body": "After cloning, change BIOS settings to boot from the SSD and format the old drive if it's no longer needed."
     }
   ],
   "steps": [
     {
       "title": "Install the SSD",
-      "detail": "Physically install the SSD into your computer, connecting it to the SATA port and power supply."
+      "detail": "Physically install the SSD into your computer, connecting it to the SATA port and power supply. Ensure the connections are secure to avoid data transfer issues."
     },
     {
       "title": "Download and Install Cloning Software",
-      "detail": "Choose a disk cloning tool (e.g., Macrium Reflect) and install it on your existing system."
+      "detail": "Choose a disk cloning tool like Macrium Reflect and install it on your existing system. Ensure the software is compatible with your current Windows version."
     },
     {
       "title": "Clone the Drive",
-      "detail": "Open the cloning software, select your current drive as the source and the SSD as the destination, then start the cloning process."
+      "detail": "Open the cloning software, select your current drive as the source and the SSD as the destination, then start the cloning process. Verify the selected partitions to avoid missing critical data."
     },
     {
       "title": "Change Boot Order",
-      "detail": "Restart your computer, enter BIOS/UEFI settings (usually by pressing F2 or DEL), and set the SSD as the primary boot device."
+      "detail": "Restart your computer, enter BIOS/UEFI settings (usually by pressing F2, F10, or DEL), and set the SSD as the primary boot device. Save changes before exiting."
     }
   ],
   "faqs": [
     {
       "question": "Can I use a free cloning tool?",
-      "answer": "Yes, many free tools like Macrium Reflect offer disk cloning features, but ensure they support your SSD format."
+      "answer": "Yes, many free tools like Macrium Reflect offer disk cloning features, but ensure they support your SSD format and Windows version."
     },
     {
       "question": "What if my SSD is smaller than my current drive?",
-      "answer": "You may need to delete unnecessary files or partitions on your current drive to fit the data onto the smaller SSD."
+      "answer": "You may need to delete unnecessary files or partitions on your current drive to fit the data onto the smaller SSD. Consider using disk cleanup tools to assist with this."
     },
     {
       "question": "Will my Windows activation be affected?",
-      "answer": "Generally, Windows will remain activated after cloning, but in some cases, you may need to reactivate it."
+      "answer": "Generally, Windows will remain activated after cloning, but in some cases, you may need to reactivate it. Keep your Windows product key handy just in case."
     }
   ],
   "caveats": [
-    "Ensure your SSD has enough space for all data from the current drive; otherwise, the cloning process will fail."
+    "Ensure your SSD has enough space for all data from the current drive; otherwise, the cloning process will fail.",
+    "Incorrectly setting the boot order can prevent your system from starting properly. Double-check BIOS settings after making changes."
   ],
   "relatedToolIdeas": [
     "Storage speed / upgrade picker"
   ],
   "status": "published",
-  "updatedAt": "2026-08-14"
+  "updatedAt": "2026-08-20"
 }

@@ -1,22 +1,27 @@
 {
   "slug": "how-do-i-make-my-laptop-run-cooler",
-  "directAnswer": "To make your laptop run cooler, ensure proper ventilation and consider using a cooling pad. Regularly clean the vents to prevent dust buildup.",
-  "summary": "Overheating can affect performance and longevity. Implementing cooling strategies can help maintain optimal operating temperatures.",
+  "directAnswer": "To make your laptop run cooler, ensure it has proper ventilation, use a cooling pad, and regularly clean the vents and fans. Adjust power settings to reduce heat generation.",
+  "summary": "Overheating can degrade your laptop's performance and lifespan. Implementing effective cooling strategies can help maintain optimal temperatures and improve functionality.",
   "sections": [
     {
       "id": "ventilation",
       "heading": "Ensure Proper Ventilation",
-      "body": "Place your laptop on a hard, flat surface to allow air to circulate. Avoid using it on soft surfaces like beds or couches that can block airflow."
+      "body": "Place your laptop on a hard, flat surface to allow air to circulate freely. Avoid using it on soft surfaces like beds or couches that can block airflow and trap heat."
     },
     {
       "id": "cooling-pad",
       "heading": "Use a Cooling Pad",
-      "body": "Consider investing in a cooling pad that provides additional airflow. These pads often have built-in fans that help dissipate heat more effectively."
+      "body": "Invest in a cooling pad with built-in fans to provide additional airflow and help dissipate heat more effectively."
     },
     {
       "id": "cleaning",
       "heading": "Regular Cleaning",
-      "body": "Dust accumulation can obstruct airflow. Periodically clean the vents and fans using compressed air to ensure they function efficiently."
+      "body": "Dust can obstruct airflow and cause overheating. Use compressed air to clean the vents and fans every few months. Be careful not to damage internal components."
+    },
+    {
+      "id": "power-settings",
+      "heading": "Adjust Power Settings",
+      "body": "On Windows 11, go to Settings > System > Power & battery and select a balanced or power-saving plan. On macOS, navigate to System Preferences > Battery and adjust settings to reduce heat generation."
     }
   ],
   "steps": [
@@ -25,12 +30,20 @@
       "detail": "Ensure that the laptop's vents are not blocked by any objects or surfaces."
     },
     {
+      "title": "Use a Cooling Pad",
+      "detail": "Place your laptop on a cooling pad to enhance airflow and reduce temperature."
+    },
+    {
+      "title": "Clean Vents and Fans",
+      "detail": "Use compressed air to remove dust from vents and fans, ensuring efficient cooling. Hold the fan blades in place to prevent damage while cleaning."
+    },
+    {
       "title": "Adjust Power Settings",
-      "detail": "On Windows, go to Control Panel > Hardware and Sound > Power Options, and select a balanced or power-saving plan. On macOS, go to System Preferences > Battery and adjust settings."
+      "detail": "On Windows, go to Settings > System > Power & battery and choose a power-saving plan. On macOS, adjust settings in System Preferences > Battery."
     },
     {
       "title": "Monitor Temperature",
-      "detail": "Use software like HWMonitor (Windows) or iStat Menus (macOS) to keep an eye on your laptop's temperature."
+      "detail": "Use software like HWMonitor (Windows) or iStat Menus (macOS) to monitor your laptop's temperature."
     }
   ],
   "faqs": [
@@ -48,12 +61,13 @@
     }
   ],
   "caveats": [
-    "Using a cooling pad may not resolve overheating issues caused by hardware malfunctions or inadequate thermal paste."
+    "Using a cooling pad may not resolve overheating issues caused by hardware malfunctions or inadequate thermal paste.",
+    "Adjusting power settings may reduce performance slightly to lower heat output."
   ],
   "relatedToolIdeas": [
     "Related Q&A cluster",
     "Checklist for laptop maintenance"
   ],
   "status": "published",
-  "updatedAt": "2026-08-14"
+  "updatedAt": "2026-08-20"
 }
