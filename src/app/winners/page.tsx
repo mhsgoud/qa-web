@@ -1,9 +1,6 @@
 import Link from "next/link";
 import { QuestionLink } from "@/components/QuestionLink";
-import {
-  getPublishedCategories,
-  getPublishedQuestionsByPriority,
-} from "@/lib/questions";
+import { getPublishedQuestionsByPriority } from "@/lib/questions";
 
 export const metadata = {
   title: "All answers",
@@ -12,15 +9,12 @@ export const metadata = {
 
 export default function WinnersPage() {
   const questions = getPublishedQuestionsByPriority();
-  const categories = getPublishedCategories();
 
   return (
     <div className="shell browse-page">
       <h1 className="page-title">All answers</h1>
       <p className="page-lead">
-        {questions.length.toLocaleString()} published answer
-        {questions.length === 1 ? "" : "s"} across {categories.length} topics,
-        ordered by search demand. Prefer a topic?{" "}
+        Practical tech answers, ordered by search demand. Prefer a topic?{" "}
         <Link href="/browse">Browse by category</Link>.
       </p>
 
@@ -32,9 +26,8 @@ export default function WinnersPage() {
         </div>
       ) : (
         <div className="empty-state">
-          No published answers yet.{" "}
-          <Link href="/browse">Browse topics</Link> will list them here as they go
-          live.
+          Nothing here yet.{" "}
+          <Link href="/browse">Browse topics</Link> when answers go live.
         </div>
       )}
     </div>

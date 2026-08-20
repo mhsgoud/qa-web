@@ -1741,16 +1741,16 @@ summary:focus-visible {
 }
 
 .answer-figure {
-  margin: 0.6rem 0 0;
-  max-width: 220px;
-  border-radius: 10px;
+  margin: 0.85rem 0 1.15rem;
+  max-width: min(520px, 100%);
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--line);
   background: var(--foam);
 }
 
 .answer-figure-hero {
-  max-width: 220px;
+  max-width: min(520px, 100%);
 }
 
 .answer-figure-inline {

@@ -59,5 +59,14 @@
     "Related Q&A cluster + checklist"
   ],
   "status": "published",
-  "updatedAt": "2026-08-20"
+  "updatedAt": "2026-08-20",
+  "images": [
+    {
+      "id": "hero-illustration",
+      "src": "/answers/why-is-my-hard-drive-slow/hero-illustration.png",
+      "alt": "Illustration of a hard drive with fragmented files and a slow performance motif.",
+      "caption": "Why hard drives slow down",
+      "attachTo": "hero"
+    }
+  ]
 }

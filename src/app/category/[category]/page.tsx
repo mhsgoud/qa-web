@@ -40,8 +40,7 @@ export default async function CategoryPage({ params }: Props) {
       </p>
       <h1 className="page-title">{name}</h1>
       <p className="page-lead">
-        {questions.length} published answer{questions.length === 1 ? "" : "s"} in
-        this topic, listed by priority.
+        Practical {name} questions and answers, listed by priority.
       </p>
       <div className="question-list">
         {questions.map((q) => (

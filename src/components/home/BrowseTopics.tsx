@@ -1,14 +1,12 @@
 import Link from "next/link";
 
-type Category = { name: string; slug: string; count: number };
+type Category = { name: string; slug: string; count?: number };
 
 type Props = {
   categories: Category[];
-  topicCount: number;
-  questionCount: number;
 };
 
-export function BrowseTopics({ categories, topicCount, questionCount }: Props) {
+export function BrowseTopics({ categories }: Props) {
   return (
     <section className="home-topics" aria-labelledby="browse-topics-title">
       <div className="shell">
@@ -17,9 +15,7 @@ export function BrowseTopics({ categories, topicCount, questionCount }: Props) {
             <p className="section-kicker">Library</p>
             <h2 id="browse-topics-title">Browse by topic</h2>
             <p className="home-section-lead">
-              {questionCount.toLocaleString()} published answer
-              {questionCount === 1 ? "" : "s"} across {topicCount}{" "}
-              {topicCount === 1 ? "topic" : "topics"}.
+              Jump into a category and find the fix you need.
             </p>
           </div>
           <Link href="/browse" className="section-link">
@@ -33,7 +29,6 @@ export function BrowseTopics({ categories, topicCount, questionCount }: Props) {
               <li key={cat.slug}>
                 <Link href={`/category/${cat.slug}`} className="topic-link">
                   <span className="topic-name">{cat.name}</span>
-                  <span className="topic-count">{cat.count}</span>
                 </Link>
               </li>
             ))}

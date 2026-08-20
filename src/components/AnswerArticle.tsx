@@ -60,6 +60,10 @@ export function AnswerArticle({ question, answer, related }: Props) {
             <p className="answer-meta">Updated {answer.updatedAt}</p>
           </header>
 
+          {heroImages.map((image) => (
+            <AnswerFigure key={image.id} image={image} priority variant="hero" />
+          ))}
+
           <section className="direct-answer card-elevated" aria-label="Direct answer">
             <div className="direct-answer-head">
               <span className="direct-answer-badge">✓</span>
@@ -69,10 +73,6 @@ export function AnswerArticle({ question, answer, related }: Props) {
           </section>
 
           {answer.summary ? <p className="answer-summary">{answer.summary}</p> : null}
-
-          {heroImages.map((image) => (
-            <AnswerFigure key={image.id} image={image} priority variant="hero" />
-          ))}
 
           {answer.steps && answer.steps.length > 0 ? (
             <section className="answer-section card" id="steps">

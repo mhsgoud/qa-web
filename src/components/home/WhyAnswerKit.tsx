@@ -1,7 +1,3 @@
-type Props = {
-  answerCount: number;
-};
-
 const PARTS = [
   {
     title: "Short answer",
@@ -17,7 +13,7 @@ const PARTS = [
   },
 ] as const;
 
-export function WhyAnswerKit({ answerCount }: Props) {
+export function WhyAnswerKit() {
   return (
     <section className="home-why" aria-labelledby="why-answerkit-title">
       <div className="shell">
@@ -25,9 +21,8 @@ export function WhyAnswerKit({ answerCount }: Props) {
           <p className="section-kicker">How it works</p>
           <h2 id="why-answerkit-title">Every page is built the same way</h2>
           <p>
-            {answerCount.toLocaleString()} published answers so far. Each one starts
-            with the fix, then the steps — not a stack of search results or a forum
-            thread.
+            Each answer starts with the fix, then the steps — not a stack of search
+            results or a forum thread.
           </p>
         </div>
 
