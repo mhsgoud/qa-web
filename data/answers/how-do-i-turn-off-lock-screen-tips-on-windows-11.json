@@ -1,0 +1,63 @@
+{
+  "slug": "how-do-i-turn-off-lock-screen-tips-on-windows-11",
+  "directAnswer": "Open Settings, go to Personalization > Lock screen, and toggle 'Get fun facts, tips, tricks, and more on your lock screen' to Off.",
+  "summary": "Disable lock screen tips on Windows 11 to reduce distractions and customize your lock screen appearance.",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": "Introduction",
+      "body": "Lock screen tips on Windows 11 can be distracting for some users. Disabling them allows for a more personalized and focused lock screen experience."
+    },
+    {
+      "id": "benefits-of-disabling-tips",
+      "heading": "Benefits of Disabling Tips",
+      "body": "Turning off lock screen tips can help maintain focus by reducing unnecessary distractions and creating a cleaner visual space."
+    },
+    {
+      "id": "customization-options",
+      "heading": "Customization Options",
+      "body": "After disabling tips, you can further personalize your lock screen by selecting a custom background and configuring which apps show quick status updates."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Settings",
+      "detail": "Press Windows + I to open the Settings app."
+    },
+    {
+      "title": "Navigate to Personalization",
+      "detail": "In the Settings window, select 'Personalization' from the left-hand menu."
+    },
+    {
+      "title": "Access Lock Screen Settings",
+      "detail": "Click on 'Lock screen' under the Personalization menu."
+    },
+    {
+      "title": "Turn Off Tips",
+      "detail": "Locate 'Get fun facts, tips, tricks, and more on your lock screen' and toggle it to Off."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will turning off tips affect other notifications?",
+      "answer": "No, disabling lock screen tips will not impact other notifications or alerts on your device."
+    },
+    {
+      "question": "Can I still receive important notifications on the lock screen?",
+      "answer": "Yes, you can configure which apps show quick status updates on your lock screen in the same settings menu."
+    },
+    {
+      "question": "Is this setting reversible?",
+      "answer": "Yes, you can re-enable lock screen tips by following the same steps and toggling the option to On."
+    }
+  ],
+  "caveats": [
+    "Menu options may vary slightly depending on Windows 11 version updates."
+  ],
+  "relatedToolIdeas": [
+    "Windows 11 Personalization Guide",
+    "Lock Screen Customization Tools"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-21"
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "how-do-i-fix-airpods-connected-but-no-sound",
+  "directAnswer": "Ensure your AirPods are charged and selected as the audio output. If the issue persists, reset your AirPods and update your device's software.",
+  "summary": "If your AirPods are connected but there's no sound, it may be due to connection issues, low battery, or incorrect audio settings. Follow these steps to troubleshoot and resolve the problem.",
+  "sections": [
+    {
+      "id": "check-battery-and-connection",
+      "heading": "Check Battery and Connection",
+      "body": "Ensure your AirPods are fully charged and properly connected to your device. A low battery can sometimes cause audio issues."
+    },
+    {
+      "id": "adjust-audio-settings",
+      "heading": "Adjust Audio Settings",
+      "body": "Verify that your AirPods are selected as the audio output. On iOS, go to Settings > Bluetooth, tap the 'i' icon next to your AirPods, and ensure they are selected as the audio output."
+    },
+    {
+      "id": "reset-airpods",
+      "heading": "Reset AirPods",
+      "body": "If the problem continues, resetting your AirPods can often resolve connectivity and sound issues. Place them in the case, close the lid, wait 30 seconds, then open the lid and press the setup button until the light flashes amber."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Ensure AirPods are charged",
+      "detail": "Place your AirPods in the charging case and connect to a power source. Check the battery status on your device."
+    },
+    {
+      "title": "Reconnect AirPods",
+      "detail": "Go to Bluetooth settings on your device, disconnect, and then reconnect your AirPods."
+    },
+    {
+      "title": "Select AirPods as audio output",
+      "detail": "On your device, ensure AirPods are selected as the audio output in the sound settings."
+    },
+    {
+      "title": "Reset AirPods",
+      "detail": "Place AirPods in the case, press and hold the setup button until the status light flashes amber, then reconnect."
+    },
+    {
+      "title": "Update device software",
+      "detail": "Check for and install any available software updates for your device, as outdated software can cause compatibility issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why are my AirPods connected but not playing sound?",
+      "answer": "This could be due to a low battery, incorrect audio settings, or a temporary connection issue."
+    },
+    {
+      "question": "How do I reset my AirPods?",
+      "answer": "Place them in the case, close the lid, open it, and hold the setup button until the light flashes amber."
+    },
+    {
+      "question": "Can outdated software affect AirPods sound?",
+      "answer": "Yes, outdated software can cause compatibility issues, so ensure your device is up to date."
+    }
+  ],
+  "caveats": [
+    "Menus and options may vary slightly depending on your device model and software version.",
+    "Ensure your AirPods are not connected to another device simultaneously, which can cause sound issues."
+  ],
+  "relatedToolIdeas": [
+    "Bluetooth troubleshooting app",
+    "Battery monitoring widget for AirPods"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-21"
+}

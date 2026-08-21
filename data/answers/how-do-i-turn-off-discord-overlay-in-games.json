@@ -1,0 +1,68 @@
+{
+  "slug": "how-do-i-turn-off-discord-overlay-in-games",
+  "directAnswer": "To disable the Discord overlay, open Discord, go to User Settings > Game Overlay, and toggle off 'Enable in-game overlay'.",
+  "summary": "Find out how to turn off the Discord overlay to enhance game performance or minimize distractions during gameplay.",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": "Introduction",
+      "body": "Discord's in-game overlay is a feature that allows users to access chat and other Discord functionalities while gaming. However, it can sometimes affect game performance or be distracting."
+    },
+    {
+      "id": "disabling-overlay",
+      "heading": "Disabling the Overlay",
+      "body": "Follow these steps to turn off the Discord overlay for all games, ensuring a smoother and more focused gaming experience."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting",
+      "body": "If the overlay does not disable as expected, ensure Discord is updated to the latest version and check for any specific game settings that might override Discord's settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Discord",
+      "detail": "Launch the Discord application on your computer."
+    },
+    {
+      "title": "Access User Settings",
+      "detail": "Click on the gear icon next to your username at the bottom left to open User Settings."
+    },
+    {
+      "title": "Navigate to Game Overlay",
+      "detail": "In the left sidebar, scroll down and select 'Game Overlay'."
+    },
+    {
+      "title": "Disable Overlay",
+      "detail": "Toggle off the 'Enable in-game overlay' option to disable the feature."
+    },
+    {
+      "title": "Verify Changes",
+      "detail": "Start a game to ensure the overlay no longer appears."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will disabling the overlay affect my ability to chat?",
+      "answer": "No, you can still use Discord to chat, but you will need to switch to the Discord app or website."
+    },
+    {
+      "question": "Can I disable the overlay for specific games only?",
+      "answer": "Yes, you can manage overlay settings per game in the 'Registered Games' section under User Settings."
+    },
+    {
+      "question": "Why is the overlay not turning off?",
+      "answer": "Ensure Discord is updated and check for any game-specific settings that might override Discord's settings."
+    }
+  ],
+  "caveats": [
+    "Overlay settings may vary slightly depending on Discord version.",
+    "Some games may have their own overlay settings that need adjustment."
+  ],
+  "relatedToolIdeas": [
+    "Game performance optimization tools",
+    "Discord alternative chat applications"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-21"
+}

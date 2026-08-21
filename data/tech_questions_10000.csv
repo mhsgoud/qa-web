@@ -10006,3 +10006,9 @@ id,category,question,intent,slug,suggested_content_type
 10005,TV,How do I fix HDMI-CEC when the TV turns on with the console?,How-to,how-do-i-fix-hdmi-cec-tv-turns-on-with-the-console,How-to guide
 10006,Smartphones,How do I use Samsung DeX with a monitor?,How-to,how-do-i-use-samsung-dex-with-a-monitor,How-to guide
 10007,macOS,How do I clone a Mac to a new SSD without losing FileVault?,How-to,how-do-i-clone-a-mac-to-a-new-ssd-without-losing-filevault,How-to guide
+10008,Windows,How do I turn off lock screen tips on Windows 11?,How-to,how-do-i-turn-off-lock-screen-tips-on-windows-11,How-to guide
+10009,Windows,How do I disable mouse acceleration on Windows 11?,How-to,how-do-i-disable-mouse-acceleration-on-windows-11,How-to guide
+10010,Software,How do I turn off Discord overlay in games?,How-to,how-do-i-turn-off-discord-overlay-in-games,How-to guide
+10011,Audio,How do I fix AirPods connected but no sound?,How-to,how-do-i-fix-airpods-connected-but-no-sound,How-to guide
+10012,Windows,How do I clear DNS cache on Windows 11?,How-to,how-do-i-clear-dns-cache-on-windows-11,How-to guide
+10013,Software,How do I fix Steam download stuck at 0%?,How-to,how-do-i-fix-steam-download-stuck-at-0-percent,How-to guide

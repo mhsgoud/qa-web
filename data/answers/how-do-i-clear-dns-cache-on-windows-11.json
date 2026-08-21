@@ -1,0 +1,66 @@
+{
+  "slug": "how-do-i-clear-dns-cache-on-windows-11",
+  "directAnswer": "To clear the DNS cache on Windows 11, open Command Prompt as an administrator and enter 'ipconfig /flushdns'.",
+  "summary": "Clearing the DNS cache on Windows 11 helps resolve connectivity issues by removing outdated or corrupted DNS records.",
+  "sections": [
+    {
+      "id": "why-clear-dns-cache",
+      "heading": "Why Clear DNS Cache?",
+      "body": "Clearing the DNS cache can resolve network issues, enhance security, and ensure your system uses the most current DNS information."
+    },
+    {
+      "id": "how-dns-cache-works",
+      "heading": "How DNS Cache Works",
+      "body": "The DNS cache stores IP addresses of web servers for recently accessed websites, speeding up future visits by reducing DNS server queries."
+    },
+    {
+      "id": "troubleshooting-dns-issues",
+      "heading": "Troubleshooting DNS Issues",
+      "body": "If you experience slow browsing or can't access certain websites, clearing the DNS cache may fix these issues by removing outdated DNS records."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Command Prompt as Administrator",
+      "detail": "Press 'Win + X' and select 'Windows Terminal (Admin)' from the menu. If 'Command Prompt (Admin)' is available, you can select that instead."
+    },
+    {
+      "title": "Confirm User Account Control",
+      "detail": "If prompted by User Account Control, click 'Yes' to allow changes to your device."
+    },
+    {
+      "title": "Type the DNS Flush Command",
+      "detail": "In the Command Prompt window, type 'ipconfig /flushdns' and press 'Enter'."
+    },
+    {
+      "title": "Verify DNS Cache Clearance",
+      "detail": "Look for the confirmation message 'Successfully flushed the DNS Resolver Cache'."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is DNS cache?",
+      "answer": "DNS cache is a temporary database on your computer that stores records of recent visits to websites and internet domains."
+    },
+    {
+      "question": "How often should I clear my DNS cache?",
+      "answer": "Clearing the DNS cache is not regularly necessary but can be helpful if you experience connectivity issues or after DNS changes."
+    },
+    {
+      "question": "Does clearing DNS cache affect browsing history?",
+      "answer": "No, clearing the DNS cache does not affect your browsing history; it only removes stored DNS records."
+    }
+  ],
+  "caveats": [
+    "Some network configurations may require additional steps.",
+    "Clearing the DNS cache does not directly affect internet speed.",
+    "DNS cache may rebuild over time, requiring periodic clearance if issues persist."
+  ],
+  "relatedToolIdeas": [
+    "Network Troubleshooter",
+    "DNS Benchmark Tool",
+    "IP Address Management Software"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-21"
+}

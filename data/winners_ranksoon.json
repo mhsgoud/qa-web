@@ -1,0 +1,44 @@
+[
+  {
+    "rank": 1,
+    "slug": "how-do-i-turn-off-lock-screen-tips-on-windows-11",
+    "question": "How do I turn off lock screen tips on Windows 11?",
+    "category": "Windows",
+    "suggestedTool": "Windows privacy checklist"
+  },
+  {
+    "rank": 2,
+    "slug": "how-do-i-disable-mouse-acceleration-on-windows-11",
+    "question": "How do I disable mouse acceleration on Windows 11?",
+    "category": "Windows",
+    "suggestedTool": "Gaming mouse settings checklist"
+  },
+  {
+    "rank": 3,
+    "slug": "how-do-i-turn-off-discord-overlay-in-games",
+    "question": "How do I turn off Discord overlay in games?",
+    "category": "Software",
+    "suggestedTool": "Game overlay conflict checker"
+  },
+  {
+    "rank": 4,
+    "slug": "how-do-i-fix-airpods-connected-but-no-sound",
+    "question": "How do I fix AirPods connected but no sound?",
+    "category": "Audio",
+    "suggestedTool": "Bluetooth audio troubleshooting tree"
+  },
+  {
+    "rank": 5,
+    "slug": "how-do-i-clear-dns-cache-on-windows-11",
+    "question": "How do I clear DNS cache on Windows 11?",
+    "category": "Windows",
+    "suggestedTool": "Network reset checklist"
+  },
+  {
+    "rank": 6,
+    "slug": "how-do-i-fix-steam-download-stuck-at-0-percent",
+    "question": "How do I fix Steam download stuck at 0%?",
+    "category": "Software",
+    "suggestedTool": "Steam download region / cache helper"
+  }
+]

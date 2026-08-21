@@ -1,0 +1,68 @@
+{
+  "slug": "how-do-i-disable-mouse-acceleration-on-windows-11",
+  "directAnswer": "To disable mouse acceleration on Windows 11, open Settings, navigate to Bluetooth & devices > Mouse, click on 'Additional mouse settings', and uncheck 'Enhance pointer precision' under the 'Pointer Options' tab.",
+  "summary": "Disable mouse acceleration on Windows 11 to achieve more consistent and precise pointer movements, especially useful for gaming and detailed tasks.",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": "Introduction",
+      "body": "Mouse acceleration adjusts the pointer speed based on how quickly you move the mouse, which can affect precision. Disabling it can help maintain consistent control."
+    },
+    {
+      "id": "why-disable-mouse-acceleration",
+      "heading": "Why Disable Mouse Acceleration?",
+      "body": "For gamers and professionals, disabling mouse acceleration ensures a 1:1 movement ratio, providing more predictable and precise control over the pointer."
+    },
+    {
+      "id": "troubleshooting",
+      "heading": "Troubleshooting",
+      "body": "If issues arise after disabling mouse acceleration, check for updated mouse drivers and review any third-party software that might override system settings."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Open Settings",
+      "detail": "Press 'Windows + I' to open the Settings app."
+    },
+    {
+      "title": "Navigate to Mouse Settings",
+      "detail": "Select 'Bluetooth & devices' from the sidebar, then click on 'Mouse'."
+    },
+    {
+      "title": "Access Additional Mouse Settings",
+      "detail": "Scroll down and click on 'Additional mouse settings'."
+    },
+    {
+      "title": "Disable Enhance Pointer Precision",
+      "detail": "In the 'Mouse Properties' window, go to the 'Pointer Options' tab and uncheck 'Enhance pointer precision'."
+    },
+    {
+      "title": "Apply Changes",
+      "detail": "Click 'Apply' and then 'OK' to save your changes."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is mouse acceleration?",
+      "answer": "Mouse acceleration is a feature that increases the speed of the pointer based on how quickly you move the mouse."
+    },
+    {
+      "question": "Is disabling mouse acceleration beneficial for gaming?",
+      "answer": "Yes, many gamers prefer disabling it for consistent and predictable mouse movements."
+    },
+    {
+      "question": "Can I re-enable mouse acceleration if needed?",
+      "answer": "Yes, you can re-enable it by checking 'Enhance pointer precision' in the 'Pointer Options' tab."
+    }
+  ],
+  "caveats": [
+    "Some third-party mouse software might override these settings.",
+    "Changes might not apply if your mouse drivers are outdated."
+  ],
+  "relatedToolIdeas": [
+    "Mouse sensitivity calibration tools",
+    "Gaming mouse software for custom settings"
+  ],
+  "status": "published",
+  "updatedAt": "2026-08-21"
+}
