@@ -15,7 +15,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="shell header-inner">
         <Link href="/" className="brand">
-          <BrandLogo variant="header" priority />
+          <BrandLogo variant="header" />
         </Link>
         <nav className="header-nav desktop-only" aria-label="Primary">
           {NAV.map((item) => (
@@ -42,7 +42,9 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="shell footer-inner">
         <div className="footer-col footer-brand-col">
-          <BrandLogo variant="footer" />
+          <Link href="/" className="footer-brand-link" aria-label={SITE.name}>
+            <BrandLogo variant="footer" />
+          </Link>
           <p className="footer-note">{SITE.description}</p>
         </div>
         <div className="footer-col">

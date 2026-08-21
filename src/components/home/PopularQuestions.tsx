@@ -13,8 +13,8 @@ export function PopularQuestions({ questions }: Props) {
         <div className="section-head">
           <div>
             <p className="section-kicker">Popular</p>
-            <h2 id="popular-title">High-demand questions</h2>
-            <p className="section-sub">Top answers, ordered by search priority.</p>
+            <h2 id="popular-title">Start with these</h2>
+            <p className="section-sub">Common tech problems with clear, step-by-step fixes.</p>
           </div>
           <Link href="/winners" className="section-link">
             All answers →

@@ -23,16 +23,12 @@ export const metadata: Metadata = {
     template: `%s · ${SITE.name}`,
   },
   description: SITE.description,
-  icons: {
-    icon: "/answerkit-icon.png",
-    apple: "/answerkit-icon.png",
-  },
   openGraph: {
     title: SITE.name,
     description: SITE.description,
     type: "website",
     siteName: SITE.name,
-    images: [{ url: "/answerkit-logo.png" }],
+    images: [{ url: "/home-hero.jpg" }],
   },
 };
 

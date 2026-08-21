@@ -1,48 +1,21 @@
-import Image from "next/image";
+import { BrandMark } from "@/components/BrandMark";
 
 type Props = {
   variant?: "header" | "footer" | "hero";
   className?: string;
-  priority?: boolean;
 };
 
-/** Official AnswerKit horizontal lockup — never crop via CSS. */
-export function BrandLogo({ variant = "header", className = "", priority = false }: Props) {
-  if (variant === "header") {
-    return (
-      <Image
-        src="/answerkit-logo-horizontal.png"
-        alt="AnswerKit"
-        width={924}
-        height={205}
-        priority={priority}
-        className={`brand-logo-header ${className}`.trim()}
-        style={{ width: "auto", height: "36px" }}
-      />
-    );
-  }
-
-  if (variant === "hero") {
-    return (
-      <Image
-        src="/answerkit-logo-horizontal.png"
-        alt="AnswerKit"
-        width={924}
-        height={205}
-        priority={priority}
-        className={`brand-logo-hero ${className}`.trim()}
-      />
-    );
-  }
+/** AnswerKit lockup — SVG mark + crisp CSS wordmark (no PNG aliasing). */
+export function BrandLogo({ variant = "header", className = "" }: Props) {
+  const markSize = variant === "hero" ? 64 : variant === "footer" ? 40 : 34;
 
   return (
-    <Image
-      src="/answerkit-logo-horizontal.png"
-      alt="AnswerKit — Find answers. Fast."
-      width={924}
-      height={205}
-      priority={priority}
-      className={`brand-logo-full ${className}`.trim()}
-    />
+    <span className={`brand-lockup brand-lockup-${variant} ${className}`.trim()}>
+      <BrandMark size={markSize} />
+      <span className="brand-wordmark" aria-label="AnswerKit">
+        <span className="brand-word-answer">answer</span>
+        <span className="brand-word-kit">kit</span>
+      </span>
+    </span>
   );
 }
