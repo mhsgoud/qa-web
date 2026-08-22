@@ -53,5 +53,35 @@
     "Related Q&A cluster + checklist"
   ],
   "status": "published",
-  "updatedAt": "2026-08-14"
+  "updatedAt": "2026-08-22",
+  "images": [
+    {
+      "id": "hero-image-paper-jam-fix",
+      "src": "/answers/how-do-i-fix-paper-jams/hero-image-paper-jam-fix.png",
+      "alt": "A person looking at a printer with a paper jam, with tools and a manual present.",
+      "caption": "How to fix paper jams in your printer.",
+      "attachTo": "hero"
+    },
+    {
+      "id": "step-1-turn-off-printer",
+      "src": "/answers/how-do-i-fix-paper-jams/step-1-turn-off-printer.png",
+      "alt": "A printer with its power button being turned off and the power cord being unplugged.",
+      "caption": "Always turn off and unplug the printer before fixing jams.",
+      "attachTo": "step-0"
+    },
+    {
+      "id": "step-2-open-access-panel",
+      "src": "/answers/how-do-i-fix-paper-jams/step-2-open-access-panel.png",
+      "alt": "A person opening the access panel of a printer to access the paper path.",
+      "caption": "Open the printer access panel to locate the jammed paper.",
+      "attachTo": "step-1"
+    },
+    {
+      "id": "step-3-remove-jammed-paper",
+      "src": "/answers/how-do-i-fix-paper-jams/step-3-remove-jammed-paper.png",
+      "alt": "A person carefully removing jammed paper from a printer, checking for torn pieces.",
+      "caption": "Remove the jammed paper carefully.",
+      "attachTo": "step-2"
+    }
+  ]
 }
