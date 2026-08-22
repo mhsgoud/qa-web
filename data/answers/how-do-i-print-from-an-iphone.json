@@ -57,5 +57,35 @@
     "Related Q&A cluster + checklist"
   ],
   "status": "published",
-  "updatedAt": "2026-08-14"
+  "updatedAt": "2026-08-22",
+  "images": [
+    {
+      "id": "airprint-introduction",
+      "src": "/answers/how-do-i-print-from-an-iphone/airprint-introduction.png",
+      "alt": "Person holding an iPhone with a wireless printer in the background.",
+      "caption": "Introduction to printing from an iPhone using AirPrint.",
+      "attachTo": "hero"
+    },
+    {
+      "id": "open-document",
+      "src": "/answers/how-do-i-print-from-an-iphone/open-document.png",
+      "alt": "User opening a document on an iPhone.",
+      "caption": "Opening the document or image to print.",
+      "attachTo": "step-0"
+    },
+    {
+      "id": "share-menu",
+      "src": "/answers/how-do-i-print-from-an-iphone/share-menu.png",
+      "alt": "iPhone screen displaying the Share menu with the Share icon highlighted.",
+      "caption": "Accessing the Share menu on your iPhone.",
+      "attachTo": "step-1"
+    },
+    {
+      "id": "printer-selection",
+      "src": "/answers/how-do-i-print-from-an-iphone/printer-selection.png",
+      "alt": "iPhone screen displaying a list of AirPrint printers for selection.",
+      "caption": "Choosing your AirPrint-enabled printer.",
+      "attachTo": "step-3"
+    }
+  ]
 }
